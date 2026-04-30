@@ -1,0 +1,15 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude / local agent state
+.claude/
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.local
