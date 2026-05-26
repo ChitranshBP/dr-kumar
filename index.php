@@ -1,7 +1,7 @@
 <?php
-$page_title       = 'Dr. Kumar - Best Hernia, Laparoscopic & Robotic Surgeon in Chennai | Billroth Hospital';
-$page_description = 'Dr. Kumar (MBBS, MS, MRCS England) - Senior Consultant at Billroth Hospitals, Chennai. 29+ years of expertise in laparoscopic hernia surgery, robotic surgery, gallbladder, GERD & abdominal wall reconstruction. 10,000+ hernia surgeries performed. Book your appointment today.';
-$page_keywords    = 'best hernia surgeon Chennai, laparoscopic surgeon Chennai, robotic surgeon Chennai, Dr Kumar Billroth Hospital, AWR surgery Chennai, gallbladder surgery, eTEP, TAR, inguinal hernia surgery, umbilical hernia, incisional hernia, GERD treatment Chennai, piles surgery';
+$page_title       = 'Dr. Kumar - Best Advanced Hernia & Laparoscopic Surgeon in Chennai';
+$page_description = 'Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.';
+$page_keywords    = 'best hernia surgeon Chennai, advanced hernia surgery Chennai, laparoscopic surgeon Chennai, robotic hernia surgeon Chennai, abdominal wall reconstruction Chennai, eTEP TAR surgery Chennai, incisional hernia Chennai, umbilical hernia, inguinal hernia surgery, complex hernia repair';
 
 require __DIR__ . '/includes/header.php';
 require __DIR__ . '/includes/config.php';
@@ -22,15 +22,15 @@ require __DIR__ . '/includes/config.php';
     <div class="relative max-w-7xl mx-auto grid lg:grid-cols-2 items-stretch min-h-[600px]">
         <div class="px-6 lg:px-8 py-16 lg:py-24 flex flex-col justify-center">
             <p class="text-brand-700 font-semibold mb-3 tracking-wide">
-                Welcome to Billroth Hospital
+                Welcome
             </p>
 
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] text-slate-900 mb-5">
-                We Take Care<br>of Your Health
+                Advanced Abdominal<br>Hernia Expert
             </h1>
 
             <p class="text-slate-600 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
-                <strong><?= $site['doctor'] ?></strong> &mdash; Senior Consultant in Hernia, Laparoscopic &amp; Robotic Surgery with 29+ years of experience and 20,000+ successful procedures performed in Chennai.
+                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction & Minimally Invasive Surgery with 29+ years of experience in Chennai.
             </p>
 
             <div class="flex flex-wrap gap-3">
@@ -45,7 +45,7 @@ require __DIR__ . '/includes/config.php';
 
         <div class="relative h-80 lg:h-auto">
             <img src="assets\images\dr-kumar-main-removebg-preview.png"
-                 alt="Dr. Kumar - Senior Laparoscopic & Robotic Surgeon at Billroth Hospital Chennai"
+                 alt="Dr. Kumar - Advanced Hernia & Laparoscopic Surgeon in Chennai"
                  class="w-full h-full object-contain object-bottom"
                  loading="eager">
         </div>
@@ -91,7 +91,7 @@ require __DIR__ . '/includes/config.php';
 
     <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         <div class="relative">
-            <img src="assets/images/dr-kumar-main.jpg" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full">
+            <img src="assets/images/dr-kumar-main-removebg-preview.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full">
             <div class="absolute -bottom-6 -right-6 bg-accent text-white rounded-2xl px-6 py-5 shadow-xl hidden md:block">
                 <p class="font-display text-3xl font-bold">29+</p>
                 <p class="text-sm">Years of Excellence</p>
@@ -101,13 +101,13 @@ require __DIR__ . '/includes/config.php';
         <div>
             <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">About the Doctor</span>
             <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-3 mb-5">
-                Pioneer in Laparoscopic &amp; Robotic Surgery in Chennai
+                Pioneer in Advanced Hernia & Laparoscopic Surgery
             </h2>
             <p class="text-slate-600 mb-5 leading-relaxed">
-                Dr. Kumar is one of the first surgeons in Chennai to perform laparoscopic hernia surgery, with extensive expertise in advanced techniques such as <strong>eTEP, TEP, TAPP, TAR, IPOM</strong> and complex Abdominal Wall Reconstruction (AWR).
+                Dr. Kumar is a leading expert in advanced abdominal hernia surgery, with extensive expertise in techniques such as <strong>eTEP, TEP, TAPP, TAR, IPOM</strong> and complex Abdominal Wall Reconstruction (AWR).
             </p>
             <p class="text-slate-600 mb-6 leading-relaxed">
-                A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he leads the Department of Minimal Access Surgery at Billroth Hospitals.
+                A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he is a pioneer in advanced minimally invasive hernia surgery in Chennai.
             </p>
 
             <div class="grid grid-cols-2 gap-4 mb-7">
@@ -139,20 +139,20 @@ require __DIR__ . '/includes/config.php';
 <section id="hernia" class="py-12 md:py-14 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-12">
-            <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">Hernia Specialist</span>
+            <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">Advanced Hernia Surgery</span>
             <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-3 mb-4">
-                Comprehensive Hernia Care
+                Comprehensive Advanced Abdominal Hernia Care
             </h2>
-            <p class="text-slate-600">From simple inguinal hernias to complex abdominal wall reconstructions, Dr. Kumar offers the most advanced minimally invasive options.</p>
+            <p class="text-slate-600">From complex incisional hernias to advanced abdominal wall reconstructions, Dr. Kumar offers the most sophisticated minimally invasive treatment options for all types of abdominal hernias.</p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <?php
             $hernias = [
-                ['Inguinal Hernia',   'assets/images/inguinal.avif'],
-                ['Umbilical Hernia',  'assets/images/umbilical.avif'],
-                ['Incisional Hernia', 'assets/images/incisional.avif'],
-                ['Ventral Hernia',    'assets/images/ventral.jpg'],
+                ['Inguinal Hernia',   'assets/images/inguinal-new.png'],
+                ['Umbilical Hernia',  'assets/images/umbilical-new.png'],
+                ['Incisional Hernia', 'assets/images/incisional-new.png'],
+                ['Ventral Hernia',    'assets/images/ventral-new.png'],
             ];
             foreach ($hernias as [$t, $img]): ?>
                 <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group">
@@ -263,8 +263,8 @@ require __DIR__ . '/includes/config.php';
             </span>
 
             <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.15] text-slate-900 mb-8">
-                Why Choose <span class="text-brand-700">Dr. Kumar</span> for<br>
-                Your Surgical Journey?
+                Why Choose <span class="text-brand-700">Dr. Kumar</span> for Your<br>
+                Advanced Hernia Surgery?
             </h2>
 
             <div class="relative rounded-2xl overflow-hidden bg-slate-100 aspect-[4/3]">
@@ -362,7 +362,7 @@ require __DIR__ . '/includes/config.php';
             ['Priya S.',   'Gallbladder Patient',     'Coimbatore',  'Best laparoscopic surgeon in Chennai. The surgery was painless and the entire team made the process comfortable and stress-free from start to finish.',     'border-amber-500'],
             ['Anand R.',   'Robotic Surgery Patient', 'Bangalore',   'I was nervous about robotic surgery, but Dr. Kumar explained every step clearly. Three weeks in, I am completely recovered. Highly recommend.',           'border-brand-700'],
             ['Suresh M.',  'GERD Patient',            'Madurai',     'After 5 years of acid reflux, the lap fundoplication changed my life. No more medication, no symptoms. Dr. Kumar is truly an expert in his field.',         'border-amber-500'],
-            ['Lakshmi V.', 'AWR Patient',             'Chennai',     'My complex incisional hernia was repaired with eTEP. Dr. Kumar &amp; the Billroth team are simply the best &mdash; world-class care end to end.',           'border-brand-700'],
+            ['Lakshmi V.', 'AWR Patient',             'Chennai',     'My complex incisional hernia was repaired with eTEP. Dr. Kumar is simply the best &mdash; world-class care end to end.',           'border-brand-700'],
             ['Arjun T.',   'Inguinal Hernia Patient', 'Hyderabad',   'Daycare hernia surgery, home in 6 hours. Painless, scarless and back to gym in 2 weeks. Could not have asked for a better surgeon or experience.',         'border-amber-500'],
         ];
         ?>

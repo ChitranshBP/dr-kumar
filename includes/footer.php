@@ -6,7 +6,7 @@
         <div>
             <img src="<?= $site['logo'] ?>" alt="Dr. Kumar Logo" class="h-12 w-auto mb-4 bg-white rounded-md p-2">
             <p class="text-sm leading-relaxed mb-4">
-                Senior Consultant in Minimal Access, Robotic, Hernia & Abdominal Wall Reconstruction Surgery at Billroth Hospitals, Chennai.
+                Senior Consultant in Minimal Access, Robotic, Advanced Hernia & Abdominal Wall Reconstruction Surgery in Chennai.
             </p>
             <div class="flex gap-3">
                 <a href="<?= $site['social']['facebook'] ?>" aria-label="Facebook" class="bg-slate-800 hover:bg-brand-600 w-9 h-9 rounded-full flex items-center justify-center transition">
