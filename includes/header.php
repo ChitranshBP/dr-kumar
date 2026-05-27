@@ -38,8 +38,8 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
     <meta name="geo.placename" content="Chennai">
     <meta name="theme-color" content="#0e7490">
 
-    <link rel="icon" type="image/png" href="<?= $site['logo'] ?>">
-    <link rel="apple-touch-icon" href="<?= $site['logo'] ?>">
+    <link rel="icon" type="image/png" href="<?= $base_path . $site['logo'] ?>">
+    <link rel="apple-touch-icon" href="<?= $base_path . $site['logo'] ?>">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -246,41 +246,68 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
         <nav class="flex items-center justify-between gap-6 py-3">
 
             <!-- LOGO -->
-            <a href="index.php" class="flex items-center shrink-0">
-                <img src="<?= $site['logo'] ?>" alt="Dr. Kumar" width="220" height="56" class="h-14 w-auto">
+            <a href="<?= $base_path ?>index.php" class="flex items-center shrink-0">
+                <img src="<?= $base_path . $site['logo'] ?>" alt="Dr. Kumar" width="220" height="56" class="h-14 w-auto">
             </a>
 
             <!-- DESKTOP NAV -->
             <ul class="hidden lg:flex items-center">
-                <?php foreach ($nav as $label => $link):
-                    $isDropdown = ($label === 'Advanced Hernia');
+                <?php 
+                $current_page = basename($_SERVER['SCRIPT_NAME']);
+                foreach ($headerMenu as $item):
+                    $hasDropdown = isset($item['dropdown']);
+                    $isActive = false;
+                    if (isset($item['link']) && basename($item['link']) === $current_page) {
+                        $isActive = true;
+                    } elseif ($hasDropdown) {
+                        foreach ($item['dropdown'] as $col) {
+                            foreach ($col['links'] as $sublink) {
+                                if (basename($sublink['link']) === $current_page) {
+                                    $isActive = true;
+                                    break 2;
+                                }
+                            }
+                        }
+                    }
                 ?>
-                    <li class="<?= $isDropdown ? 'has-dropdown' : '' ?>">
-                        <a href="<?= $link ?>" class="nav-link <?= $label === 'Home' ? 'active' : '' ?>">
-                            <?= $label ?>
-                            <?php if ($isDropdown): ?>
-                                <svg class="w-3 h-3 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
-                            <?php endif; ?>
-                        </a>
-
-                        <?php if ($isDropdown): ?>
-                            <div class="dropdown">
-                                <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3">Hernia Conditions</p>
-                                <div class="grid grid-cols-2 gap-1">
-                                    <?php foreach ($herniaConditions as $t): ?>
-                                        <a href="#hernia" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition">
-                                            <svg class="w-3.5 h-3.5 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-                                            <?= $t['title'] ?>
-                                        </a>
-                                    <?php endforeach; ?>
-                                </div>
-                                <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 mt-4">Other Procedures</p>
-                                <div class="grid grid-cols-2 gap-1">
-                                    <?php foreach ($treatments as $t): ?>
-                                        <a href="#treatments" class="flex items-center gap-2 px-3 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition">
-                                            <svg class="w-3.5 h-3.5 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-                                            <?= $t['title'] ?>
-                                        </a>
+                    <li class="<?= $hasDropdown ? 'has-dropdown' : '' ?>">
+                        <?php if (!$hasDropdown): ?>
+                            <a href="<?= $base_path . $item['link'] ?>" class="nav-link <?= $isActive ? 'active' : '' ?>">
+                                <?= $item['label'] ?>
+                            </a>
+                        <?php else: ?>
+                            <a href="#" class="nav-link <?= $isActive ? 'active' : '' ?>" onclick="event.preventDefault();">
+                                <?= $item['label'] ?>
+                                <svg class="w-3.5 h-3.5 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                            </a>
+                            
+                            <?php 
+                            $colsCount = count($item['dropdown']);
+                            $dropdownStyle = "";
+                            if ($colsCount === 1) {
+                                $dropdownStyle = "min-width: 280px; width: 280px;";
+                            } elseif ($colsCount === 2) {
+                                $dropdownStyle = "min-width: 560px; width: 560px;";
+                            } else {
+                                $dropdownStyle = "min-width: 820px; width: 820px;";
+                            }
+                            ?>
+                            <div class="dropdown" style="<?= $dropdownStyle ?>">
+                                <div class="grid <?= $colsCount === 1 ? 'grid-cols-1' : ($colsCount === 2 ? 'grid-cols-2' : 'grid-cols-3') ?> gap-6">
+                                    <?php foreach ($item['dropdown'] as $col): ?>
+                                        <div>
+                                            <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5"><?= $col['title'] ?></p>
+                                            <div class="flex flex-col gap-1">
+                                                <?php foreach ($col['links'] as $link): 
+                                                    $isSubActive = (basename($link['link']) === $current_page);
+                                                ?>
+                                                    <a href="<?= $base_path . $link['link'] ?>" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition <?= $isSubActive ? 'bg-brand-50/50 text-brand-700 font-medium' : '' ?>">
+                                                        <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+                                                        <span><?= $link['label'] ?></span>
+                                                    </a>
+                                                <?php endforeach; ?>
+                                            </div>
+                                        </div>
                                     <?php endforeach; ?>
                                 </div>
                             </div>
@@ -292,7 +319,7 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
             <!-- RIGHT: CTA -->
             <div class="flex items-center gap-1">
                 <span class="hidden md:block w-px h-6 bg-slate-200 mx-2"></span>
-                <a href="tel:<?= $site['phone_link'] ?>" class="cta-btn hidden md:inline-flex">
+                <a href="<?= $base_path ?>book-appointment.php" class="cta-btn hidden md:inline-flex">
                     Appointment
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
@@ -305,25 +332,48 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
             </div>
         </nav>
 
-            </div>
+    </div>
 </header>
 
 <!-- ============== MOBILE DRAWER ============== -->
 <div id="mobileOverlay" class="mobile-overlay lg:hidden"></div>
 <aside id="mobileDrawer" class="mobile-drawer lg:hidden">
     <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100">
-        <img src="<?= $site['logo'] ?>" alt="Logo" class="h-10 w-auto">
+        <img src="<?= $base_path . $site['logo'] ?>" alt="Logo" class="h-10 w-auto">
         <button id="drawerClose" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-slate-200 flex items-center justify-center transition" aria-label="Close menu">
             <svg class="w-5 h-5 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
         </button>
     </div>
 
-    <nav class="flex-1 overflow-y-auto px-4 py-4 space-y-1">
-        <?php foreach ($nav as $label => $link): ?>
-            <a href="<?= $link ?>" class="mobile-link js-drawer-close">
-                <span><?= $label ?></span>
-                <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-            </a>
+    <nav class="flex-1 overflow-y-auto px-4 py-4 space-y-2 select-none">
+        <?php foreach ($headerMenu as $index => $item):
+            $hasDropdown = isset($item['dropdown']);
+        ?>
+            <?php if (!$hasDropdown): ?>
+                <a href="<?= $base_path . $item['link'] ?>" class="mobile-link rounded-lg hover:bg-slate-50 js-drawer-close">
+                    <span><?= $item['label'] ?></span>
+                </a>
+            <?php else: ?>
+                <div class="mobile-accordion">
+                    <button class="mobile-accordion-btn mobile-link w-full text-left flex items-center justify-between rounded-lg hover:bg-slate-50 transition" data-target="mob-ac-<?= $index ?>">
+                        <span><?= $item['label'] ?></span>
+                        <svg class="w-4 h-4 text-slate-400 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                    </button>
+                    <div id="mob-ac-<?= $index ?>" class="mobile-accordion-content hidden pl-4 pr-2 py-2 space-y-3 bg-slate-50/55 border-l-2 border-brand-600 rounded-r-lg mt-1">
+                        <?php foreach ($item['dropdown'] as $col): ?>
+                            <div class="space-y-1">
+                                <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0"><?= $col['title'] ?></p>
+                                <?php foreach ($col['links'] as $link): ?>
+                                    <a href="<?= $base_path . $link['link'] ?>" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                        <span><?= $link['label'] ?></span>
+                                        <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                    </a>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            <?php endif; ?>
         <?php endforeach; ?>
     </nav>
 
@@ -337,7 +387,7 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
                 <span class="block font-bold text-brand-800"><?= $site['phone'] ?></span>
             </span>
         </a>
-        <a href="tel:<?= $site['phone_link'] ?>" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
+        <a href="<?= $base_path ?>book-appointment.php" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
             Book Appointment
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
@@ -366,9 +416,40 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
             a.addEventListener('click', function () { setMenu(false); });
         });
 
-
         window.addEventListener('scroll', function () {
             header.classList.toggle('scrolled', window.scrollY > 20);
+        });
+
+        // Mobile Accordion Toggle
+        document.querySelectorAll('.mobile-accordion-btn').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var targetId = this.getAttribute('data-target');
+                var content = document.getElementById(targetId);
+                var icon = this.querySelector('svg');
+                
+                var isOpen = !content.classList.contains('hidden');
+                
+                // Optional: Close all other accordion sections to avoid clutter
+                document.querySelectorAll('.mobile-accordion-content').forEach(function (c) {
+                    if (c.id !== targetId) {
+                        c.classList.add('hidden');
+                    }
+                });
+                document.querySelectorAll('.mobile-accordion-btn').forEach(function (b) {
+                    if (b !== btn) {
+                        var otherIcon = b.querySelector('svg');
+                        if (otherIcon) otherIcon.classList.remove('rotate-180');
+                    }
+                });
+                
+                if (isOpen) {
+                    content.classList.add('hidden');
+                    icon.classList.remove('rotate-180');
+                } else {
+                    content.classList.remove('hidden');
+                    icon.classList.add('rotate-180');
+                }
+            });
         });
     })();
 </script>

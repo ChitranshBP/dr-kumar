@@ -4,7 +4,7 @@
     <div class="max-w-7xl mx-auto px-4 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         <div>
-            <img src="<?= $site['logo'] ?>" alt="Dr. Kumar Logo" class="h-12 w-auto mb-4 bg-white rounded-md p-2">
+            <img src="<?= $base_path . $site['logo'] ?>" alt="Dr. Kumar Logo" class="h-12 w-auto mb-4 bg-white rounded-md p-2">
             <p class="text-sm leading-relaxed mb-4">
                 Senior Consultant in Minimal Access, Robotic, Advanced Hernia & Abdominal Wall Reconstruction Surgery in Chennai.
             </p>
@@ -28,7 +28,7 @@
             <h3 class="text-white font-semibold text-lg mb-4">Quick Links</h3>
             <ul class="space-y-2 text-sm">
                 <?php foreach ($nav as $label => $link): ?>
-                    <li><a href="<?= $link ?>" class="hover:text-brand-500 transition"><?= $label ?></a></li>
+                    <li><a href="<?= $base_path . $link ?>" class="hover:text-brand-500 transition"><?= $label ?></a></li>
                 <?php endforeach; ?>
             </ul>
         </div>
@@ -36,13 +36,13 @@
         <div>
             <h3 class="text-white font-semibold text-lg mb-4">Treatments</h3>
             <ul class="space-y-2 text-sm">
-                <li><a href="#treatments" class="hover:text-brand-500">Hernia Surgery</a></li>
-                <li><a href="#treatments" class="hover:text-brand-500">Gallbladder Stone</a></li>
-                <li><a href="#treatments" class="hover:text-brand-500">Laparoscopic Surgery</a></li>
-                <li><a href="#treatments" class="hover:text-brand-500">Robotic Surgery</a></li>
-                <li><a href="#treatments" class="hover:text-brand-500">GERD / Reflux</a></li>
-                <li><a href="#treatments" class="hover:text-brand-500">Piles & Fissure</a></li>
-                <li><a href="#treatments" class="hover:text-brand-500">Thyroid Surgery</a></li>
+                <li><a href="<?= $base_path ?>treatment/hernia-surgery.php" class="hover:text-brand-500">Hernia Surgery</a></li>
+                <li><a href="<?= $base_path ?>index.php#treatments" class="hover:text-brand-500">Gallbladder Stone</a></li>
+                <li><a href="<?= $base_path ?>treatment/laparoscopic-hernia-surgery.php" class="hover:text-brand-500">Laparoscopic Surgery</a></li>
+                <li><a href="<?= $base_path ?>robotic-hernia-surgery.php" class="hover:text-brand-500">Robotic Surgery</a></li>
+                <li><a href="<?= $base_path ?>index.php#treatments" class="hover:text-brand-500">GERD / Reflux</a></li>
+                <li><a href="<?= $base_path ?>index.php#treatments" class="hover:text-brand-500">Piles & Fissure</a></li>
+                <li><a href="<?= $base_path ?>index.php#treatments" class="hover:text-brand-500">Thyroid Surgery</a></li>
             </ul>
         </div>
 
