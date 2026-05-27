@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Emergency Hernia Care - 24/7 Urgent Care | Dr. Kumar';
-$page_description = 'Emergency hernia care information. Learn warning signs, when to seek immediate medical attention, and 24/7 contact information for urgent hernia issues.';
-$page_keywords = 'emergency hernia, urgent care, strangulated hernia, emergency signs, 24/7 care, hernia emergency Chennai';
-$page_url = $site['url'] . 'emergency-hernia-care.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

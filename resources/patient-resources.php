@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Patient Resources & Downloads - Hernia Surgery Guide | Dr. Kumar';
-$page_description = 'Download patient guides, pre-surgery checklists, post-surgery care instructions, and diet guidelines for hernia surgery patients in Chennai.';
-$page_keywords = 'patient resources, hernia guide PDF, pre-surgery checklist, post-surgery care, diet guidelines, download guides';
-$page_url = $site['url'] . 'resources/patient-resources.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

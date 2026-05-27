@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Hernia Surgery Options - Expert Treatment Guide | Dr. Kumar';
-$page_description = 'Comprehensive guide to hernia surgery options. Learn about open vs laparoscopic repair, when surgery is recommended, preparation tips, and recovery overview from Dr. Kumar in Chennai.';
-$page_keywords    = 'hernia surgery options, open hernia repair, laparoscopic hernia surgery, when is hernia surgery needed, hernia surgery preparation, hernia surgery recovery';
-$page_url         = $site['url'] . 'treatment/hernia-surgery.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

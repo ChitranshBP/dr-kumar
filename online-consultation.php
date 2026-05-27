@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Online Consultation with Dr. Kumar - Video Consultation for Hernia & Laparoscopic Surgery';
-$page_description = 'Get expert hernia and laparoscopic surgery consultation from anywhere via secure video call. Upload reports, get e-prescriptions, and receive personalized treatment plans online from Dr. Kumar in Chennai.';
-$page_keywords    = 'online hernia consultation, telemedicine Chennai, video consultation surgeon, online second opinion hernia, laparoscopic surgery consultation online, e-prescription Chennai surgeon';
-$page_url         = $site['url'] . 'online-consultation.php';
-
 require __DIR__ . '/includes/header.php';
 ?>
 

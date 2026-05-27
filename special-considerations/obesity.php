@@ -1,8 +1,4 @@
 <?php
-$page_title       = 'Hernia Surgery with Obesity - Dr. Kumar | Weight Management Guide Chennai';
-$page_description = 'Expert hernia surgery guidance for obese patients. Learn about weight management before hernia surgery, surgical risks with high BMI, and post-surgery care at Dr. Kumar clinic in Chennai.';
-$page_keywords    = 'hernia surgery obesity Chennai, weight management before hernia surgery, high BMI hernia risks, hernia surgery overweight patients, bariatric hernia treatment Chennai';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Frequently Asked Questions (FAQs) - Hernia Surgery | Dr. Kumar';
-$page_description = 'Find answers to common questions about hernia surgery, recovery, insurance coverage, and more. Expert guidance from Dr. Kumar, Chennai\'s leading hernia surgeon.';
-$page_keywords = 'hernia FAQs, hernia surgery questions, recovery FAQs, insurance hernia surgery, laparoscopic hernia FAQs';
-$page_url = $site['url'] . 'resources/faqs.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'TEP Hernia Repair - Totally Extraperitoneal Technique | Dr. Kumar';
-$page_description = 'TEP (Totally Extraperitoneal) hernia repair: how it works, benefits, candidacy, and recovery. Learn about this minimally invasive mesh repair technique from Dr. Kumar in Chennai.';
-$page_keywords    = 'TEP hernia repair, totally extraperitoneal hernia repair, endoscopic hernia repair, TEP vs TAPP, minimally invasive inguinal hernia, laparoscopic inguinal hernia';
-$page_url         = $site['url'] . 'treatment/tep-repair.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

@@ -1,10 +1,5 @@
 <?php
-$page_title = 'Privacy Policy - Dr. Kumar Hernia Surgery Chennai';
-$page_description = 'Privacy policy for Dr. Kumar\'s hernia surgery practice in Chennai. Learn how we collect, use, and protect your personal and medical information.';
-$page_keywords = 'privacy policy, data protection, medical privacy, patient confidentiality, HIPAA, GDPR';
-$page_url = $site['url'] . 'privacy-policy.php';
-
-require __DIR__ . '/../includes/header.php';
+require __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->

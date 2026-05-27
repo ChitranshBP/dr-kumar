@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Ventral Hernia Treatment in Chennai | Dr. Kumar - Expert Surgeon';
-$page_description = 'Expert ventral hernia treatment by Dr. Kumar in Chennai. Minimally invasive repair for midline abdominal hernias. 29+ years experience.';
-$page_keywords = 'ventral hernia Chennai, ventral hernia repair, midline hernia, laparoscopic ventral hernia surgery';
-$page_url = $site['url'] . 'my_types/ventral-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

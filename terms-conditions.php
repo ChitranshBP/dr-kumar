@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Terms and Conditions - Dr. Kumar Hernia Surgery Chennai';
-$page_description = 'Terms and conditions for using Dr. Kumar\'s hernia surgery website and medical services in Chennai. Includes medical disclaimer and liability information.';
-$page_keywords = 'terms and conditions, disclaimer, medical disclaimer, liability, website terms';
-$page_url = $site['url'] . 'terms-conditions.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

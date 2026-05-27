@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Second Opinion - Expert Hernia & Laparoscopic Surgery Second Opinion | Dr. Kumar Chennai';
-$page_description = 'Get a second opinion from Chennai\'s leading hernia surgeon. Dr. Kumar provides expert second opinions on hernia diagnosis, treatment plans, and surgical recommendations. Online second opinion consultations available.';
-$page_keywords    = 'second opinion hernia surgery, hernia second opinion Chennai, laparoscopic surgery second opinion, expert surgical review Chennai, hernia treatment options second opinion, Dr. Kumar second opinion';
-$page_url         = $site['url'] . 'second-opinion.php';
-
 require __DIR__ . '/includes/header.php';
 ?>
 

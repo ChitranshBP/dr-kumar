@@ -1,13 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/config.php';
-
-$page_title       = 'Robotic Hernia Surgery Chennai | Dr. Kumar - Da Vinci Hernia Specialist';
-$page_description = 'Advanced robotic hernia surgery in Chennai with Dr. Kumar. Da Vinci robotic-assisted hernia repair with 3D visualization, precision control, and faster recovery.';
-$page_keywords    = 'robotic hernia surgery Chennai, Da Vinci hernia repair, robotic surgeon Chennai, robotically assisted hernia, advanced hernia repair Chennai, minimally invasive robotic';
-$page_url         = $site['url'] . 'robotic-hernia-surgery.php';
-$page_image       = $site['url'] . 'assets/images/robotic-hernia.jpg';
+require __DIR__ . '/includes/header.php';
 ?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

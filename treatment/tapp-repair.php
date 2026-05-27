@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'TAPP Hernia Repair - Transabdominal Preperitoneal Technique | Dr. Kumar';
-$page_description = 'TAPP (Transabdominal Preperitoneal) hernia repair: how it differs from TEP, benefits, procedure overview, and recovery. Expert TAPP surgery in Chennai by Dr. Kumar.';
-$page_keywords    = 'TAPP hernia repair, transabdominal preperitoneal repair, TAPP vs TEP, laparoscopic inguinal hernia, hernia repair techniques, minimally invasive hernia';
-$page_url         = $site['url'] . 'treatment/tapp-repair.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

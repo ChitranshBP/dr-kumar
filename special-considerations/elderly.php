@@ -1,8 +1,4 @@
 <?php
-$page_title       = 'Hernia Surgery for Elderly - Dr. Kumar | Safe Treatment Chennai';
-$page_description = 'Expert hernia surgery for elderly patients in Chennai. Learn about age-related risk factors, minimally invasive benefits, and comprehensive pre-operative assessment by Dr. Kumar.';
-$page_keywords    = 'hernia surgery elderly Chennai, senior hernia treatment, geriatric hernia care Chennai, laparoscopic hernia elderly patients, age-related hernia risks, Dr. Kumar elderly surgery';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

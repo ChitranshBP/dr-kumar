@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Strangulated Hernia - Emergency Warning Signs | Dr. Kumar - Chennai';
-$page_description = 'Strangulated hernia is a medical emergency. Know the warning signs and why immediate surgery is needed. Dr. Kumar provides emergency hernia care in Chennai.';
-$page_keywords = 'strangulated hernia, emergency hernia, hernia strangulation, acute hernia, emergency surgery Chennai';
-$page_url = $site['url'] . 'my_types/strangulated-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

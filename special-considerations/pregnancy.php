@@ -1,8 +1,4 @@
 <?php
-$page_title       = 'Hernia During & After Pregnancy - Dr. Kumar | Safe Treatment Chennai';
-$page_description = 'Expert hernia treatment guidance for pregnancy. Learn about hernia timing during pregnancy, surgery scheduling, and mesh safety with future pregnancies at Dr. Kumar clinic in Chennai.';
-$page_keywords    = 'hernia pregnancy Chennai, umbilical hernia pregnancy, hernia surgery timing pregnancy, mesh safety pregnancy, postpartum hernia treatment Chennai, Dr. Kumar pregnancy hernia';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

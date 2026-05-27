@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Hernia Causes & Risk Factors - What Increases Your Risk';
-$page_description = 'Understand the common causes of hernia development and risk factors. Learn about lifestyle, age, and genetic factors from Chennai\'s leading hernia specialist Dr. Kumar.';
-$page_keywords    = 'hernia causes, hernia risk factors, what causes hernia, hernia prevention, inguinal hernia causes, umbilical hernia causes, hernia risk factors by age';
-$page_url         = $site['url'] . 'hernia/causes.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

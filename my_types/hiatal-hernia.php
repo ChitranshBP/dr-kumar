@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Hiatal Hernia Treatment in Chennai | Dr. Kumar - GERD & Acid Reflux Expert';
-$page_description = 'Expert hiatal hernia treatment by Dr. Kumar in Chennai. Laparoscopic fundoplication for GERD and acid reflux. Minimally invasive diaphragm hernia repair.';
-$page_keywords = 'hiatal hernia Chennai, GERD treatment Chennai, acid reflux surgery, laparoscopic fundoplication, diaphragmatic hernia';
-$page_url = $site['url'] . 'my_types/hiatal-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

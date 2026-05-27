@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Mesh Hernia Repair - Types, Benefits & Safety | Dr. Kumar';
-$page_description = 'Complete guide to mesh hernia repair: different types of mesh, benefits, safety information, and mesh-free alternatives. Expert mesh repair surgery in Chennai by Dr. Kumar.';
-$page_keywords    = 'mesh hernia repair, hernia mesh types, mesh repair benefits, hernia mesh safety, mesh-free hernia repair, synthetic mesh, biological mesh';
-$page_url         = $site['url'] . 'treatment/mesh-repair.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

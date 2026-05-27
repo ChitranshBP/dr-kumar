@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Umbilical Hernia Treatment in Chennai | Dr. Kumar - Expert Surgeon';
-$page_description = 'Expert umbilical hernia treatment by Dr. Kumar in Chennai. Mesh & meshless repair options for adults and children. Daycare surgery available. 29+ years experience.';
-$page_keywords = 'umbilical hernia Chennai, umbilical hernia surgery, hernia repair Chennai, mesh repair umbilicus';
-$page_url = $site['url'] . 'my_types/umbilical-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

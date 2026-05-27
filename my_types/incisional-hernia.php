@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Incisional Hernia Treatment in Chennai | Dr. Kumar - Expert Surgeon';
-$page_description = 'Expert incisional hernia treatment by Dr. Kumar in Chennai. Advanced AWR, TAR & IPOM techniques. Complex hernia repair with 29+ years experience.';
-$page_keywords = 'incisional hernia Chennai, abdominal wall reconstruction, TAR surgery, IPOM, complex hernia repair Chennai';
-$page_url = $site['url'] . 'my_types/incisional-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

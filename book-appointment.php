@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Book Appointment with Dr. Kumar - Best Hernia Surgeon in Chennai | Online Booking';
-$page_description = 'Book an appointment with Dr. Kumar, Chennai\'s leading hernia and laparoscopic surgeon. In-person and online consultation options available. Call +91 79042 17129 or book online instantly.';
-$page_keywords    = 'book appointment Dr. Kumar, hernia surgeon Chennai, laparoscopic surgery appointment Chennai, online appointment booking Chennai, Dr. Kumar consultation booking';
-$page_url         = $site['url'] . 'book-appointment.php';
-
 require __DIR__ . '/includes/header.php';
 ?>
 

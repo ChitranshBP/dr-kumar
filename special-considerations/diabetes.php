@@ -1,8 +1,4 @@
 <?php
-$page_title       = 'Hernia Surgery with Diabetes - Dr. Kumar | Blood Sugar Management Chennai';
-$page_description = 'Expert hernia surgery for diabetic patients. Learn about blood sugar management before surgery, healing considerations, and safe treatment protocols at Dr. Kumar clinic in Chennai.';
-$page_keywords    = 'hernia surgery diabetes Chennai, diabetic hernia treatment, blood sugar hernia surgery, diabetes healing hernia Chennai, Dr. Kumar diabetes surgery';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

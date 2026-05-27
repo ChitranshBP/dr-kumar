@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Femoral Hernia Treatment in Chennai | Dr. Kumar - Expert Surgeon';
-$page_description = 'Expert femoral hernia treatment by Dr. Kumar in Chennai. Specialized surgical repair for femoral canal hernias, more common in women. 29+ years experience.';
-$page_keywords = 'femoral hernia Chennai, femoral hernia surgery, groin hernia women, femoral canal repair, laparoscopic hernia Chennai';
-$page_url = $site['url'] . 'my_types/femoral-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

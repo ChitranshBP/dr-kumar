@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Contact Dr. Kumar - Book Appointment | Advanced Hernia & Laparoscopic Surgeon Chennai';
-$page_description = 'Contact Dr. Kumar\'s clinic in Chennai for hernia consultation, appointment booking, and treatment inquiries. Call +91 79042 17129 or book online. Offices at Billroth Hospital and Apollo Hospitals.';
-$page_keywords    = 'contact Dr. Kumar, hernia surgeon Chennai appointment, laparoscopic surgery Chennai, Billroth Hospital Chennai contact, Dr. Kumar phone number, Chennai hernia clinic';
-$page_url         = $site['url'] . 'contact.php';
-
 require __DIR__ . '/includes/header.php';
 ?>
 

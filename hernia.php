@@ -1,8 +1,4 @@
 <?php
-$page_title       = 'Advanced Hernia Surgery - Dr. Kumar | Expert Hernia Treatment in Chennai';
-$page_description = 'Advanced Hernia Surgery by Dr. Kumar in Chennai. Expert treatment for inguinal, umbilical, incisional, ventral hernias using eTEP, TAR, robotic & laparoscopic techniques. Book consultation.';
-$page_keywords    = 'advanced hernia surgery Chennai, hernia specialist Chennai, eTEP hernia surgery, robotic hernia repair Chennai, incisional hernia treatment, abdominal wall reconstruction Chennai';
-
 require __DIR__ . '/includes/header.php';
 ?>
 

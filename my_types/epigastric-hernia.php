@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Epigastric Hernia Treatment in Chennai | Dr. Kumar - Expert Surgeon';
-$page_description = 'Expert epigastric hernia treatment by Dr. Kumar in Chennai. Located between belly button and chest. Laparoscopic and open repair options.';
-$page_keywords = 'epigastric hernia Chennai, upper abdomen hernia, midline hernia, abdominal wall repair';
-$page_url = $site['url'] . 'my_types/epigastric-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

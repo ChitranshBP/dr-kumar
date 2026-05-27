@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Medical Glossary - Hernia & Surgical Terms | Dr. Kumar';
-$page_description = 'Comprehensive medical glossary of hernia and surgical terms. Easy-to-understand definitions of medical terminology related to hernia repair and laparoscopic surgery.';
-$page_keywords = 'hernia glossary, medical terms, surgical terminology, hernia definitions, laparoscopic terms, medical dictionary';
-$page_url = $site['url'] . 'resources/glossary.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

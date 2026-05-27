@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Hernia Surgery Recovery Guide - Post-Op Care & Timeline | Dr. Kumar';
-$page_description = 'Complete hernia surgery recovery guide: timeline, wound care, activity restrictions, follow-up appointments, and warning signs. Expert post-operative care from Dr. Kumar in Chennai.';
-$page_keywords    = 'hernia surgery recovery, post hernia surgery care, hernia surgery timeline, wound care after hernia surgery, activity after hernia surgery, hernia recovery tips';
-$page_url         = $site['url'] . 'treatment/recovery.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

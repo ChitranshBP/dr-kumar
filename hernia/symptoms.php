@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Hernia Symptoms - Signs to Watch For & When to See a Doctor';
-$page_description = 'Recognize hernia symptoms early. Learn about warning signs, emergency symptoms requiring immediate attention, and when to consult Dr. Kumar in Chennai.';
-$page_keywords    = 'hernia symptoms, signs of hernia, when to see doctor for hernia, hernia warning signs, emergency hernia symptoms, hernia pain, inguinal hernia symptoms';
-$page_url         = $site['url'] . 'hernia/symptoms.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

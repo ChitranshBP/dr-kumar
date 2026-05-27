@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'eTEP Rives-Stoppa Hernia Repair - Complex Hernia Treatment | Dr. Kumar';
-$page_description = 'eTEP Rives-Stoppa repair for complex abdominal wall hernias. Learn about this advanced technique, advantages, candidacy, and recovery from Dr. Kumar in Chennai.';
-$page_keywords    = 'eTEP Rives-Stoppa, complex hernia repair, abdominal wall reconstruction, TAR technique, ventral hernia repair, incisional hernia eTEP';
-$page_url         = $site['url'] . 'treatment/etep-repair.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

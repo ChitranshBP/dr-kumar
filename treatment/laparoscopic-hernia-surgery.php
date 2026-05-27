@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Laparoscopic Hernia Surgery - Minimally Invasive Repair | Dr. Kumar';
-$page_description = 'Learn about laparoscopic hernia repair: benefits over open surgery, procedure steps, recovery timeline, and comparison with other techniques. Expert minimally invasive surgery in Chennai.';
-$page_keywords    = 'laparoscopic hernia surgery, minimally invasive hernia repair, keyhole hernia surgery, laparoscopic vs open hernia, hernia repair recovery time, laparoscopic hernia benefits';
-$page_url         = $site['url'] . 'treatment/laparoscopic-hernia-surgery.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

@@ -1,13 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/config.php';
-
-$page_title       = 'Enhanced Recovery After Surgery (ERAS) Protocol | Dr. Kumar Chennai';
-$page_description = 'ERAS protocol for faster hernia surgery recovery. Dr. Kumar implements Enhanced Recovery After Surgery guidelines for minimal pain, faster mobilization, and quicker return to normal life.';
-$page_keywords    = 'ERAS protocol Chennai, enhanced recovery after surgery, hernia recovery protocol, fast track hernia surgery Chennai, minimally invasive recovery';
-$page_url         = $site['url'] . 'advanced-techniques/eras-protocol.php';
-$page_image       = $site['url'] . 'assets/images/eras-protocol.jpg';
+require __DIR__ . '/../includes/header.php';
 ?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

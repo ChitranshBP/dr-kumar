@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Hernia Complications - Risks of Untreated Hernias';
-$page_description = 'Understand hernia complications including incarceration, strangulation, and obstruction. Learn when surgery becomes urgent with Dr. Kumar, Chennai\'s hernia specialist.';
-$page_keywords    = 'hernia complications, strangulated hernia, incarcerated hernia, bowel obstruction hernia, hernia emergency, hernia surgery urgent, hernia risks untreated';
-$page_url         = $site['url'] . 'hernia/complications.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

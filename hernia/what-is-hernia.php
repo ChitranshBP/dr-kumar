@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'What is a Hernia? - Definition, Anatomy & How Hernias Develop';
-$page_description = 'Learn what a hernia is, how it develops, the anatomy involved, and common symptoms. Comprehensive guide by Dr. Kumar, Chennai\'s leading hernia specialist with 29+ years experience.';
-$page_keywords    = 'what is hernia, hernia definition, how hernias develop, abdominal wall anatomy, hernia symptoms, types of hernia, inguinal hernia, umbilical hernia, ventral hernia';
-$page_url         = $site['url'] . 'hernia/what-is-hernia.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

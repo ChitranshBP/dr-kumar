@@ -1,13 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/config.php';
-
-$page_title       = 'Biological Mesh for Hernia Repair | Dr. Kumar Chennai';
-$page_description = 'Biological mesh implants for complex hernia repairs. Dr. Kumar offers human dermis and porcine biological mesh options in Chennai, particularly for contaminated surgical fields.';
-$page_keywords    = 'biological mesh hernia repair Chennai, porcine mesh, human dermis mesh, contaminated field hernia, complex hernia repair Chennai, biological implant';
-$page_url         = $site['url'] . 'advanced-techniques/biological-mesh.php';
-$page_image       = $site['url'] . 'assets/images/biological-mesh.jpg';
+require __DIR__ . '/../includes/header.php';
 ?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

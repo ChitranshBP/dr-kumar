@@ -1,10 +1,5 @@
 <?php
-$page_title       = 'Dr. Kumar - Best Advanced Hernia & Laparoscopic Surgeon in Chennai';
-$page_description = 'Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.';
-$page_keywords    = 'best hernia surgeon Chennai, advanced hernia surgery Chennai, laparoscopic surgeon Chennai, robotic hernia surgeon Chennai, abdominal wall reconstruction Chennai, eTEP TAR surgery Chennai, incisional hernia Chennai, umbilical hernia, inguinal hernia surgery, complex hernia repair';
-
 require __DIR__ . '/includes/header.php';
-require __DIR__ . '/includes/config.php';
 ?>
 
 <section class="relative bg-slate-100 overflow-hidden pb-20 lg:pb-24">

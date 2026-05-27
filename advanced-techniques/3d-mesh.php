@@ -1,13 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/config.php';
-
-$page_title       = '3D Mesh Technology for Hernia Repair | Dr. Kumar Chennai';
-$page_description = 'Advanced 3D mesh technology for superior anatomical fit in hernia repair. Dr. Kumar offers 3D mesh implantation in Chennai for better outcomes and faster recovery.';
-$page_keywords    = '3D mesh hernia repair Chennai, three-dimensional mesh, anatomical mesh implant, hernia mesh technology, advanced mesh repair Chennai';
-$page_url         = $site['url'] . 'advanced-techniques/3d-mesh.php';
-$page_image       = $site['url'] . 'assets/images/3d-mesh.jpg';
+require __DIR__ . '/../includes/header.php';
 ?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

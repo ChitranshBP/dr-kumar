@@ -1,13 +1,6 @@
 <?php
-require_once __DIR__ . '/../includes/config.php';
-
-$page_title       = 'Self-Gripping Mesh for Hernia Repair | Dr. Kumar Chennai';
-$page_description = 'Self-gripping mesh technology eliminates sutures for hernia repair. Dr. Kumar offers no-sutures mesh implantation in Chennai with reduced operative time and less chronic pain.';
-$page_keywords    = 'self-gripping mesh hernia repair Chennai, sutureless mesh, self-fixating mesh, no-sutures hernia surgery, ProGrip mesh Chennai, reduced pain hernia repair';
-$page_url         = $site['url'] . 'advanced-techniques/self-gripping-mesh.php';
-$page_image       = $site['url'] . 'assets/images/self-gripping-mesh.jpg';
+require __DIR__ . '/../includes/header.php';
 ?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

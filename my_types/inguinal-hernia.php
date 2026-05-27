@@ -1,9 +1,4 @@
 <?php
-$page_title = 'Inguinal Hernia Treatment in Chennai | Dr. Kumar - Best Inguinal Hernia Surgeon';
-$page_description = 'Expert inguinal hernia treatment by Dr. Kumar in Chennai. Advanced eTEP, TEP & TAPP laparoscopic repair for groin hernias. 29+ years experience, 10,000+ surgeries. Book consultation.';
-$page_keywords = 'inguinal hernia Chennai, best hernia surgeon Chennai, laparoscopic inguinal hernia repair, TEP, TAPP, eTEP, groin hernia surgery';
-$page_url = $site['url'] . 'my_types/inguinal-hernia/';
-
 require __DIR__ . '/includes/layout.php';
 ?>
 

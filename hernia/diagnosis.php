@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'Hernia Diagnosis - How Hernias Are Diagnosed';
-$page_description = 'Learn how hernias are diagnosed through physical examination and imaging tests. Understand ultrasound, CT scan, and MRI used by Dr. Kumar in Chennai.';
-$page_keywords    = 'hernia diagnosis, how is hernia diagnosed, hernia examination, hernia ultrasound, hernia CT scan, hernia MRI, physical examination hernia, diagnostic imaging hernia';
-$page_url         = $site['url'] . 'hernia/diagnosis.php';
-
 require __DIR__ . '/../includes/header.php';
 ?>
 

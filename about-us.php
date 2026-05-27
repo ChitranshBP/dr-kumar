@@ -1,9 +1,4 @@
 <?php
-$page_title       = 'About Dr. Kumar - Best Hernia & Laparoscopic Surgeon in Chennai | 29+ Years Experience';
-$page_description = 'Learn about Dr. Kumar, Chennai\'s leading hernia and laparoscopic surgeon with 29+ years of experience, 10,000+ hernia surgeries, and internationally recognized expertise in eTEP, TAR, and robotic surgery.';
-$page_keywords    = 'about Dr. Kumar, hernia surgeon Chennai, laparoscopic surgeon Chennai, Dr. Kumar biography, best hernia doctor Chennai, MRCS England, FALS hernia robotic surgery';
-$page_url         = $site['url'] . 'about-us.php';
-
 require __DIR__ . '/includes/header.php';
 ?>
 
