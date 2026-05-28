@@ -39,6 +39,8 @@ function getPhpFiles(string $dir, string $base = ''): array {
         if (is_dir($path)) {
             $files = array_merge($files, getPhpFiles($path, $base . $item . '/'));
         } elseif (pathinfo($path, PATHINFO_EXTENSION) === 'php') {
+            // Skip layout files
+            if (strpos($item, 'layout') !== false) continue;
             $files[] = ['path' => $path, 'name' => $base . $item];
         }
     }
@@ -77,22 +79,30 @@ $built = 0;
 
 foreach ($phpFiles as $file) {
     $htmlName = preg_replace('/\.php$/i', '', $file['name']);
-    $htmlOutput = $htmlName . '/index.html';
-    $outPath = $dist . '/' . $htmlOutput;
 
-    if (!is_dir(dirname($outPath))) {
-        mkdir(dirname($outPath), 0777, true);
+    // Special handling for index.php - output directly as index.html, not index/index.html
+    if ($htmlName === 'index') {
+        $htmlOutput = 'index.html';
+        $outPath = $dist . '/' . $htmlOutput;
+        $prefix = '';
+        if (!is_dir(dirname($outPath))) {
+            mkdir(dirname($outPath), 0777, true);
+        }
+    } else {
+        $htmlOutput = $htmlName . '/index.html';
+        $outPath = $dist . '/' . $htmlOutput;
+        $pathDepth = substr_count($file['name'], '/');
+        $prefix = $pathDepth > 0 ? str_repeat('../', $pathDepth) : './';
+
+        if (!is_dir(dirname($outPath))) {
+            mkdir(dirname($outPath), 0777, true);
+        }
     }
 
     echo "  Building $htmlOutput...\n";
 
     // Get page body content (without require lines)
     $pageBody = getPageBody(file_get_contents($file['path']));
-
-    // Calculate relative path prefix based on directory depth
-    // Count slashes in full path: treatment/ = 1 dir, hernia/ = 1 dir, index = 0
-    $pathDepth = substr_count($file['name'], '/');
-    $prefix = $pathDepth > 0 ? str_repeat('../', $pathDepth) : './';
 
     // Create a complete HTML file using header/footer includes
     ob_start();
