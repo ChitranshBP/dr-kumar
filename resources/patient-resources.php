@@ -3,7 +3,7 @@ require __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-800 via-brand-700 to-brand-900 text-white py-20 overflow-hidden">
+<section class="relative bg-brand-950 text-white py-20 overflow-hidden">
     <div class="absolute inset-0 opacity-10">
         <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <defs>

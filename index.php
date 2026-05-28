@@ -1,4 +1,5 @@
 <?php
+$is_home = true;
 require __DIR__ . '/includes/header.php';
 ?>
 
@@ -80,10 +81,7 @@ require __DIR__ . '/includes/header.php';
 
 </section>
 
-<section id="about" class="relative py-12 md:py-14 overflow-hidden">
-    <img src="assets/images/bg-about.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" loading="lazy">
-    <div class="absolute inset-0 bg-white/90"></div>
-
+<section id="about" class="py-12 md:py-14 bg-white overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         <div class="relative">
             <img src="assets/images/dr-kumar-main-removebg-preview.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full">
@@ -245,9 +243,7 @@ require __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<section id="why" class="relative py-12 md:py-14 overflow-hidden">
-    <img src="assets/images/bg-why.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" loading="lazy">
-    <div class="absolute inset-0 bg-white/95"></div>
+<section id="why" class="py-12 md:py-14 bg-white overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         <!-- LEFT: heading + image -->
@@ -324,9 +320,7 @@ require __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<section id="testimonials" class="relative py-12 md:py-14 overflow-hidden">
-    <img src="assets/images/bg-testimonials.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" loading="lazy">
-    <div class="absolute inset-0 bg-slate-50/90"></div>
+<section id="testimonials" class="py-12 md:py-14 bg-slate-50 overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4">
 
         <!-- HEADER ROW: title left, rating right -->
@@ -486,7 +480,7 @@ require __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<section id="contact" class="relative py-16 md:py-24 text-center text-white bg-gradient-to-br from-brand-800 via-brand-900 to-slate-900 overflow-hidden">
+<section id="contact" class="relative py-16 md:py-24 text-center text-white bg-brand-950 overflow-hidden">
     <!-- Pattern overlay -->
     <svg class="absolute inset-0 w-full h-full text-white/[0.07] pointer-events-none" xmlns="http://www.w3.org/2000/svg">
         <defs>

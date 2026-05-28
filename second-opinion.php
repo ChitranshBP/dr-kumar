@@ -3,7 +3,7 @@ require __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-slate-900 via-brand-900 to-slate-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 opacity-15">
         <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -40,7 +40,6 @@ require __DIR__ . '/includes/header.php';
         </div>
     </div>
 
-    <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-50 to-transparent"></div>
 </section>
 
 <!-- Why Second Opinion -->
@@ -365,55 +364,66 @@ require __DIR__ . '/includes/header.php';
 
 <!-- FAQ Section -->
 <section class="py-16 md:py-24 bg-white">
-    <div class="max-w-4xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-4">
         <div class="text-center mb-12">
-            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
-                Common Questions
-            </span>
-            <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-6 mb-4">
-                Frequently Asked Questions
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently asked questions
             </h2>
         </div>
 
-        <div class="space-y-4">
-            <div class="bg-slate-50 rounded-xl border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq1">
-                    <span class="font-semibold text-slate-900">Is a second opinion appropriate for my case?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq1" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Yes, if you have been diagnosed with a hernia and are considering surgery, a second opinion is always appropriate. It is especially valuable for complex hernias, recurrent hernias, or if you feel uncertain about the recommended treatment plan.</p>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Item 1 (Active) -->
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">Is a second opinion appropriate for my case?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">Yes, if you have been diagnosed with a hernia and are considering surgery, a second opinion is always appropriate. It is especially valuable for complex hernias, recurrent hernias, or if you feel uncertain about the recommended treatment plan.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How long does the second opinion process take?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Typically, you will receive a response within 24-48 hours after submitting your case. The actual consultation can be scheduled within a few days, depending on your preference. You will receive a written summary within 48 hours after the consultation.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="bg-slate-50 rounded-xl border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq2">
-                    <span class="font-semibold text-slate-900">Will getting a second opinion affect my relationship with my current doctor?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq2" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">No, seeking a second opinion is a common and accepted medical practice. Most doctors expect and even encourage patients to seek additional input for significant surgical decisions. It is your health and your right to be fully informed.</p>
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Will getting a second opinion affect my relationship with my current doctor?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">No, seeking a second opinion is a common and accepted medical practice. Most doctors expect and even encourage patients to seek additional input for significant surgical decisions. It is your health and your right to be fully informed.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="bg-slate-50 rounded-xl border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq3">
-                    <span class="font-semibold text-slate-900">How long does the second opinion process take?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq3" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Typically, you will receive a response within 24-48 hours after submitting your case. The actual consultation can be scheduled within a few days, depending on your preference. You will receive a written summary within 48 hours after the consultation.</p>
-                </div>
-            </div>
-
-            <div class="bg-slate-50 rounded-xl border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq4">
-                    <span class="font-semibold text-slate-900">Is there a fee for second opinion consultation?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq4" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Yes, there is a consultation fee for second opinion services, which covers the detailed review of your case and a comprehensive video consultation. The fee varies based on case complexity. Contact us for specific pricing information.</p>
+                <!-- Item 4 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Is there a fee for second opinion consultation?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Yes, there is a consultation fee for second opinion services, which covers the detailed review of your case and a comprehensive video consultation. The fee varies based on case complexity. Contact us for specific pricing information.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -427,27 +437,6 @@ require __DIR__ . '/includes/header.php';
         document.getElementById('secondOpinionSuccess').classList.remove('hidden');
         window.scrollTo({ top: document.getElementById('secondOpinionSuccess').offsetTop - 100, behavior: 'smooth' });
     }
-
-    document.querySelectorAll('.faq-toggle').forEach(function(toggle) {
-        toggle.addEventListener('click', function() {
-            var targetId = this.getAttribute('data-target');
-            var target = document.getElementById(targetId);
-            var icon = this.querySelector('.faq-icon');
-
-            document.querySelectorAll('.faq-toggle').forEach(function(other) {
-                var otherTargetId = other.getAttribute('data-target');
-                var otherTarget = document.getElementById(otherTargetId);
-                var otherIcon = other.querySelector('.faq-icon');
-                if (otherTargetId !== targetId) {
-                    otherTarget.classList.add('hidden');
-                    otherIcon.style.transform = 'rotate(0deg)';
-                }
-            });
-
-            target.classList.toggle('hidden');
-            icon.style.transform = target.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
-        });
-    });
 </script>
 
 <a href="tel:<?= $site['phone_link'] ?>" class="fixed bottom-5 right-5 z-50 bg-accent hover:bg-amber-600 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center animate-bounce" aria-label="Call Now">

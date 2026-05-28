@@ -3,7 +3,7 @@ require __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-900 via-brand-800 to-slate-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 opacity-20">
         <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -30,8 +30,6 @@ require __DIR__ . '/includes/header.php';
             </p>
         </div>
     </div>
-
-    <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-50 to-transparent"></div>
 </section>
 
 <!-- Contact Info Cards -->

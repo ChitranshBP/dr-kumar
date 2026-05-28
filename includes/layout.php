@@ -75,8 +75,46 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
         html { scroll-behavior: smooth; }
         body { font-family: 'Inter', sans-serif; }
         .font-display { font-family: 'Playfair Display', serif; }
-        .site-header { transition: box-shadow 0.3s ease, background 0.3s ease; }
-        .site-header.scrolled { box-shadow: 0 4px 20px -4px rgba(15, 23, 42, 0.1); background: rgba(255,255,255,0.96); backdrop-filter: blur(14px); }
+        .site-header {
+            position: fixed !important;
+            top: 0; left: 0; right: 0;
+            z-index: 50;
+            background: transparent !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+            transition: all 0.3s ease !important;
+        }
+        .site-header.scrolled {
+            box-shadow: 0 4px 20px -4px rgba(15, 23, 42, 0.1) !important;
+            background: rgba(255, 255, 255, 0.98) !important;
+            border-bottom: 1px solid #f1f5f9 !important;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        /* Subpage (dark hero bg) default nav link colors */
+        body.sub-page .site-header:not(.scrolled) .nav-link {
+            color: rgba(255, 255, 255, 0.9) !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .nav-link:hover,
+        body.sub-page .site-header:not(.scrolled) .nav-link.active {
+            color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .nav-link svg {
+            color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .hamburger span {
+            background-color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) nav a img {
+            filter: brightness(0) invert(1) !important;
+        }
+
+        /* Remove bg patterns from subpage hero sections */
+        body.sub-page section:first-of-type svg defs,
+        body.sub-page section:first-of-type svg pattern,
+        body.sub-page section:first-of-type svg rect[fill*="url"] {
+            display: none !important;
+        }
         .nav-link { position: relative; display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.65rem 0.85rem; font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #334155; transition: color 0.2s ease; }
         .nav-link:hover, .nav-link.active { color: #0e7490; }
         .nav-link::after { content: ''; position: absolute; left: 0.85rem; right: 0.85rem; bottom: 0.4rem; height: 2px; background: #0e7490; transform: scaleX(0); transform-origin: left; transition: transform 0.25s ease; }
@@ -97,12 +135,23 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
         .mobile-drawer.open { transform: translateX(0); }
         .mobile-link { display: flex; align-items: center; justify-content: space-between; padding: 0.95rem 1.25rem; font-size: 13px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: #334155; border-bottom: 1px solid #f1f5f9; transition: all 0.2s ease; }
         .mobile-link:hover { background: #f8fafc; color: #0e7490; padding-left: 1.5rem; }
+
+        /* Custom background image for subpage hero sections */
+        body.sub-page section:first-of-type,
+        body.sub-page main > section:first-of-type {
+            position: relative !important;
+            background-image: linear-gradient(to bottom right, rgba(14, 116, 144, 0.9), rgba(15, 23, 42, 0.95)), url('<?= $base_path ?>assets/images/bg-testimonials.jpg') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-blend-mode: multiply !important;
+        }
     </style>
 </head>
-<body class="bg-white text-slate-800 antialiased">
+<body class="bg-white text-slate-800 antialiased sub-page">
 
 <!-- ============== MAIN HEADER ============== -->
-<header class="site-header sticky top-0 z-40 bg-white border-b border-slate-100">
+<header class="site-header">
     <div class="relative max-w-7xl mx-auto px-4 lg:px-6">
         <nav class="flex items-center justify-between gap-6 py-3">
             <a href="<?= $base_path ?>index.php" class="flex items-center shrink-0">

@@ -38,7 +38,6 @@ require __DIR__ . '/../includes/header.php';
             </div>
         </div>
     </div>
-    <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
 </section>
 
 <!-- Main Content -->

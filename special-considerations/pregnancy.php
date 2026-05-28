@@ -3,7 +3,7 @@ require __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-900 via-brand-800 to-slate-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 opacity-20">
         <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -38,8 +38,6 @@ require __DIR__ . '/../includes/header.php';
             </div>
         </div>
     </div>
-
-    <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent"></div>
 </section>
 
 <!-- Hernia During Pregnancy -->
@@ -253,7 +251,7 @@ require __DIR__ . '/../includes/header.php';
 </section>
 
 <!-- Mesh Safety -->
-<section class="py-16 md:py-24 bg-gradient-to-br from-slate-900 via-brand-900 to-slate-900 text-white">
+<section class="py-16 md:py-24 bg-brand-950 text-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-1.5 rounded-full text-sm font-medium mb-4">

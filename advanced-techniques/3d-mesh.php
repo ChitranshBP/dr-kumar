@@ -48,7 +48,7 @@ require __DIR__ . '/../includes/header.php';
 <?php require __DIR__ . '/../includes/header.php'; ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-slate-900 via-brand-900 to-slate-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0">
         <div class="absolute top-0 left-1/4 w-96 h-96 bg-brand-500 rounded-full filter blur-3xl opacity-10"></div>
         <div class="absolute bottom-0 right-1/4 w-72 h-72 bg-accent rounded-full filter blur-3xl opacity-10"></div>

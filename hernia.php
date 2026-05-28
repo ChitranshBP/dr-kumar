@@ -3,7 +3,7 @@ require __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-900 via-brand-800 to-slate-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 opacity-20">
         <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -39,8 +39,6 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </div>
-
-    <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent"></div>
 </section>
 
 <!-- Stats Bar -->
@@ -704,7 +702,7 @@ require __DIR__ . '/includes/header.php';
 </script>
 
 <!-- Advanced Techniques Section -->
-<section class="py-16 md:py-24 bg-gradient-to-br from-slate-900 via-brand-900 to-slate-900 text-white">
+<section class="py-16 md:py-24 bg-brand-950 text-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-1.5 rounded-full text-sm font-medium mb-4">
@@ -947,66 +945,80 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <!-- FAQ Section -->
-<section class="py-16 md:py-24 bg-slate-50">
-    <div class="max-w-4xl mx-auto px-4">
+<!-- FAQ Section -->
+<section class="py-16 md:py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
         <div class="text-center mb-12">
-            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
-                Common Questions
-            </span>
-            <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-6 mb-4">
-                Frequently Asked Questions
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently asked questions
             </h2>
         </div>
 
-        <div class="space-y-4" id="faqAccordion">
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq1">
-                    <span class="font-semibold text-slate-900">How long does hernia surgery take?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq1" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Most laparoscopic hernia repairs take 30-90 minutes depending on the complexity. Simple cases may be completed in under an hour, while complex repairs may take longer.</p>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Item 1 (Active) -->
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">How long does hernia surgery take?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">Most laparoscopic hernia repairs take 30-90 minutes depending on the complexity. Simple cases may be completed in under an hour, while complex repairs may take longer.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Will I need mesh for hernia repair?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Modern mesh repair is the standard of care for most hernias, providing excellent outcomes with low recurrence rates. However, meshless options like the Desarda technique are available for select patients based on individual needs.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">When can I return to work after hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Most patients can return to desk work within 1-2 weeks. Jobs requiring physical labor may require 4-6 weeks. Dr. Kumar will provide personalized guidance based on your occupation and procedure type.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq2">
-                    <span class="font-semibold text-slate-900">What is the recovery time after hernia surgery?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq2" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Recovery varies by procedure. Most patients can return to light activities within a few days, with full recovery in 2-4 weeks. Complex repairs may require 4-6 weeks for complete healing.</p>
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What is the recovery time after hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Recovery varies by procedure. Most patients can return to light activities within a few days, with full recovery in 2-4 weeks. Complex repairs may require 4-6 weeks for complete healing.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq3">
-                    <span class="font-semibold text-slate-900">Will I need mesh for hernia repair?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq3" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Modern mesh repair is the standard of care for most hernias, providing excellent outcomes with low recurrence rates. However, meshless options like the Desarda technique are available for select patients based on individual needs.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq4">
-                    <span class="font-semibold text-slate-900">Is hernia surgery covered by insurance?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq4" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Most health insurance plans cover hernia surgery as it is considered a medically necessary procedure. We can help you understand your coverage and provide necessary documentation.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4" data-target="faq5">
-                    <span class="font-semibold text-slate-900">When can I return to work after hernia surgery?</span>
-                    <svg class="w-5 h-5 text-slate-400 shrink-0 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                </button>
-                <div id="faq5" class="hidden px-6 pb-5">
-                    <p class="text-slate-600 text-sm leading-relaxed">Most patients can return to desk work within 1-2 weeks. Jobs requiring physical labor may require 4-6 weeks. Dr. Kumar will provide personalized guidance based on your occupation and procedure type.</p>
+                <!-- Item 4 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Is hernia surgery covered by insurance?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Most health insurance plans cover hernia surgery as it is considered a medically necessary procedure. We can help you understand your coverage and provide necessary documentation.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1033,31 +1045,5 @@ require __DIR__ . '/includes/header.php';
         </div>
     </div>
 </section>
-
-<script>
-    // FAQ Accordion
-    document.querySelectorAll('.faq-toggle').forEach(function(toggle) {
-        toggle.addEventListener('click', function() {
-            var targetId = this.getAttribute('data-target');
-            var target = document.getElementById(targetId);
-            var icon = this.querySelector('.faq-icon');
-
-            // Close all other FAQs
-            document.querySelectorAll('.faq-toggle').forEach(function(other) {
-                var otherTargetId = other.getAttribute('data-target');
-                var otherTarget = document.getElementById(otherTargetId);
-                var otherIcon = other.querySelector('.faq-icon');
-                if (otherTargetId !== targetId) {
-                    otherTarget.classList.add('hidden');
-                    otherIcon.style.transform = 'rotate(0deg)';
-                }
-            });
-
-            // Toggle current
-            target.classList.toggle('hidden');
-            icon.style.transform = target.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
-        });
-    });
-</script>
 
 <?php require __DIR__ . '/includes/footer.php'; ?>

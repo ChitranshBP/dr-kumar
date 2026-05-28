@@ -38,7 +38,6 @@ require __DIR__ . '/../includes/header.php';
             </div>
         </div>
     </div>
-    <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
 </section>
 
 <!-- Main Content -->
@@ -420,44 +419,67 @@ require __DIR__ . '/../includes/header.php';
     </section>
 
     <!-- FAQ Section -->
-    <section class="mb-16">
-        <div class="bg-white rounded-2xl border border-slate-200 p-8">
-            <h3 class="text-2xl font-bold text-slate-800 mb-6 text-center">Frequently Asked Questions</h3>
-            <div class="space-y-4 max-w-3xl mx-auto">
-                <div class="bg-slate-50 rounded-xl p-6" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Is the physical exam painful?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        No, the physical examination is not painful. Dr. Kumar will gently palpate the area. You may feel discomfort only if the hernia is already painful. The cough test might cause brief pressure sensation.
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight">
+                    Frequently asked questions
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 items-start">
+                <!-- Left Column -->
+                <div class="space-y-4">
+                    <!-- Item 1 (Active) -->
+                    <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">Is the physical exam painful?</span>
+                            <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
+                        </button>
+                        <div class="faq-content px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">No, the physical examination is not painful. Dr. Kumar will gently palpate the area. You may feel discomfort only if the hernia is already painful. The cough test might cause brief pressure sensation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Will my insurance cover these tests?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Most insurance plans cover necessary diagnostic tests. Dr. Kumar's office can help verify coverage before scheduling. Health savings accounts (HSAs) can also be used for out-of-pocket costs.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-slate-50 rounded-xl p-6" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">How long does imaging take?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        Ultrasound takes 15-20 minutes. CT scans take 10-15 minutes. MRI takes 30-45 minutes. All are outpatient procedures with no recovery time needed.
+
+                <!-- Right Column -->
+                <div class="space-y-4">
+                    <!-- Item 2 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How long does imaging take?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Ultrasound takes 15-20 minutes. CT scans take 10-15 minutes. MRI takes 30-45 minutes. All are outpatient procedures with no recovery time needed.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bg-slate-50 rounded-xl p-6" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Will my insurance cover these tests?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        Most insurance plans cover necessary diagnostic tests. Dr. Kumar's office can help verify coverage before scheduling. Health savings accounts (HSAs) can also be used for out-of-pocket costs.
-                    </div>
-                </div>
-                <div class="bg-slate-50 rounded-xl p-6" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Do I need a referral for imaging?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        Dr. Kumar can order imaging directly during your consultation. No separate referral is needed in most cases.
+
+                    <!-- Item 4 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Do I need a referral for imaging?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Dr. Kumar can order imaging directly during your consultation. No separate referral is needed in most cases.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -515,21 +537,7 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<script>
-function toggleFaq(button) {
-    const content = button.nextElementSibling;
-    const icon = button.querySelector('.faq-icon');
-    const isOpen = !content.classList.contains('hidden');
 
-    document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
-    document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
-
-    if (!isOpen) {
-        content.classList.remove('hidden');
-        icon.classList.add('rotate-180');
-    }
-}
-</script>
 
 <!-- Floating Call Button -->
 <a href="tel:+917904217129" class="fixed bottom-6 right-6 z-50 bg-brand-700 hover:bg-brand-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all">

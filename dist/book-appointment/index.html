@@ -97,8 +97,46 @@
         .topbar a:hover { color: #f59e0b; }
 
         /* ===== Header ===== */
-        .site-header { transition: box-shadow 0.3s ease, background 0.3s ease; }
-        .site-header.scrolled { box-shadow: 0 4px 20px -4px rgba(15, 23, 42, 0.1); background: rgba(255,255,255,0.96); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+        .site-header {
+            position: fixed !important;
+            top: 0; left: 0; right: 0;
+            z-index: 50;
+            background: transparent !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+            transition: all 0.3s ease !important;
+        }
+        .site-header.scrolled {
+            box-shadow: 0 4px 20px -4px rgba(15, 23, 42, 0.1) !important;
+            background: rgba(255, 255, 255, 0.98) !important;
+            border-bottom: 1px solid #f1f5f9 !important;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        /* Subpage (dark hero bg) default nav link colors */
+        body.sub-page .site-header:not(.scrolled) .nav-link {
+            color: rgba(255, 255, 255, 0.9) !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .nav-link:hover,
+        body.sub-page .site-header:not(.scrolled) .nav-link.active {
+            color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .nav-link svg {
+            color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .hamburger span {
+            background-color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) nav a img {
+            filter: brightness(0) invert(1) !important;
+        }
+
+        /* Remove bg patterns from subpage hero sections */
+        body.sub-page section:first-of-type svg defs,
+        body.sub-page section:first-of-type svg pattern,
+        body.sub-page section:first-of-type svg rect[fill*="url"] {
+            display: none !important;
+        }
 
         /* ===== Nav links ===== */
         .nav-link {
@@ -227,12 +265,23 @@
             transition: all 0.2s ease;
         }
         .mobile-link:hover { background: #f8fafc; color: #0e7490; padding-left: 1.5rem; }
+
+        /* Custom background image for subpage hero sections */
+        body.sub-page section:first-of-type,
+        body.sub-page main > section:first-of-type {
+            position: relative !important;
+            background-image: linear-gradient(to bottom right, rgba(14, 116, 144, 0.9), rgba(15, 23, 42, 0.95)), url('assets/images/bg-testimonials.jpg') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-blend-mode: multiply !important;
+        }
     </style>
 </head>
-<body class="bg-white text-slate-800 antialiased">
+<body class="bg-white text-slate-800 antialiased sub-page">
 
 <!-- ============== MAIN HEADER (Medicoz-style) ============== -->
-<header class="site-header sticky top-0 z-40 bg-white border-b border-slate-100">
+<header class="site-header">
     <div class="relative max-w-7xl mx-auto px-4 lg:px-6">
         <nav class="flex items-center justify-between gap-6 py-3">
 
@@ -807,7 +856,7 @@
     })();
 </script>
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-900 via-brand-800 to-slate-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 opacity-20">
         <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -841,8 +890,6 @@
             </div>
         </div>
     </div>
-
-    <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-slate-50 to-transparent"></div>
 </section>
 
 <!-- Benefits Section -->
@@ -1229,6 +1276,83 @@
         </div>
     </div>
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Global Premium FAQ toggle handler
+    const faqToggles = document.querySelectorAll('.faq-toggle');
+    if (faqToggles.length > 0) {
+        faqToggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const item = this.closest('.faq-item');
+                if (!item) return;
+                
+                const content = item.querySelector('.faq-content');
+                const symbol = item.querySelector('.faq-symbol');
+                const question = this.querySelector('span');
+                
+                const isOpen = !content.classList.contains('hidden');
+                
+                // Close all other items in the SAME container or category
+                const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
+                if (parentSection) {
+                    parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
+                            otherItem.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
+                            
+                            const otherContent = otherItem.querySelector('.faq-content');
+                            if (otherContent) otherContent.classList.add('hidden');
+                            
+                            const otherSymbol = otherItem.querySelector('.faq-symbol');
+                            if (otherSymbol) {
+                                otherSymbol.textContent = '+';
+                                otherSymbol.classList.remove('bg-brand-800', 'text-white');
+                                otherSymbol.classList.add('bg-white', 'text-brand-700');
+                            }
+                            
+                            const otherQuestion = otherItem.querySelector('.faq-toggle span');
+                            if (otherQuestion) {
+                                otherQuestion.classList.remove('text-white');
+                                otherQuestion.classList.add('text-slate-900');
+                            }
+                        }
+                    });
+                }
+                
+                // Toggle clicked item
+                if (isOpen) {
+                    item.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
+                    item.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
+                    content.classList.add('hidden');
+                    if (symbol) {
+                        symbol.textContent = '+';
+                        symbol.classList.remove('bg-brand-800', 'text-white');
+                        symbol.classList.add('bg-white', 'text-brand-700');
+                    }
+                    if (question) {
+                        question.classList.remove('text-white');
+                        question.classList.add('text-slate-900');
+                    }
+                } else {
+                    item.classList.add('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
+                    item.classList.remove('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
+                    content.classList.remove('hidden');
+                    if (symbol) {
+                        symbol.textContent = '—';
+                        symbol.classList.add('bg-brand-800', 'text-white');
+                        symbol.classList.remove('bg-white', 'text-brand-700');
+                    }
+                    if (question) {
+                        question.classList.add('text-white');
+                        question.classList.remove('text-slate-900');
+                    }
+                }
+            });
+        });
+    }
+});
+</script>
 
 </body>
 </html>

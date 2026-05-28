@@ -33,7 +33,6 @@ require __DIR__ . '/includes/layout.php';
             </div>
         </div>
     </div>
-    <div class="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent"></div>
 </section>
 
 <section class="py-16 md:py-24 bg-slate-50">

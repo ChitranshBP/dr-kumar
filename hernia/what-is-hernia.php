@@ -3,7 +3,7 @@ require __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-800 via-brand-700 to-brand-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 opacity-10">
         <svg class="w-full h-full" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
             <defs>
@@ -38,7 +38,6 @@ require __DIR__ . '/../includes/header.php';
             </div>
         </div>
     </div>
-    <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
 </section>
 
 <!-- Main Content -->
@@ -377,53 +376,79 @@ require __DIR__ . '/../includes/header.php';
     </section>
 
     <!-- FAQ Section -->
-    <section class="mb-16">
-        <div class="bg-slate-50 rounded-2xl p-8">
-            <h3 class="text-2xl font-bold text-slate-800 mb-8 text-center">Frequently Asked Questions</h3>
-            <div class="space-y-4 max-w-3xl mx-auto">
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Can a hernia heal on its own?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        No, hernias do not heal on their own. Once the abdominal wall is weakened and tissue has protruded, surgical repair is the only definitive treatment. Without surgery, hernias typically continue to grow and may lead to serious complications.
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight">
+                    Frequently asked questions
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 items-start">
+                <!-- Left Column -->
+                <div class="space-y-4">
+                    <!-- Item 1 (Active) -->
+                    <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">Can a hernia heal on its own?</span>
+                            <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
+                        </button>
+                        <div class="faq-content px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">No, hernias do not heal on their own. Once the abdominal wall is weakened and tissue has protruded, surgical repair is the only definitive treatment. Without surgery, hernias typically continue to grow and may lead to serious complications.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Are hernias genetic?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">There is a genetic predisposition to hernias. If your parents or siblings have had hernias, your risk is higher. However, lifestyle factors and activities also play a significant role in whether a hernia develops.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How do I know if I have a hernia or just muscle pain?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">A hernia typically presents as a visible or palpable bulge that may increase with coughing or straining. Muscle pain usually doesn't cause a bulge and is more localized to specific movements. If you notice a bulge, see a specialist for proper diagnosis.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">What happens if a hernia is left untreated?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        Untreated hernias can lead to serious complications including incarceration ( contents trapped), strangulation (blood supply cut off), and obstruction (blockage of intestine). These are medical emergencies requiring immediate surgery.
+
+                <!-- Right Column -->
+                <div class="space-y-4">
+                    <!-- Item 2 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What happens if a hernia is left untreated?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Untreated hernias can lead to serious complications including incarceration (contents trapped), strangulation (blood supply cut off), and obstruction (blockage of intestine). These are medical emergencies requiring immediate surgery.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Are hernias genetic?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        There is a genetic predisposition to hernias. If your parents or siblings have had hernias, your risk is higher. However, lifestyle factors and activities also play a significant role in whether a hernia develops.
-                    </div>
-                </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Can I exercise with a hernia?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        Light activities may be okay, but you should avoid heavy lifting and intense core exercises that increase intra-abdominal pressure. Consult with Dr. Kumar for personalized guidance on safe exercises while you await surgery.
-                    </div>
-                </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">How do I know if I have a hernia or just muscle pain?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        A hernia typically presents as a visible or palpable bulge that may increase with coughing or straining. Muscle pain usually doesn't cause a bulge and is more localized to specific movements. If you notice a bulge, see a specialist for proper diagnosis.
+
+                    <!-- Item 4 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Can I exercise with a hernia?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Light activities may be okay, but you should avoid heavy lifting and intense core exercises that increase intra-abdominal pressure. Consult with Dr. Kumar for personalized guidance on safe exercises while you await surgery.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -481,21 +506,7 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<script>
-function toggleFaq(button) {
-    const content = button.nextElementSibling;
-    const icon = button.querySelector('.faq-icon');
-    const isOpen = !content.classList.contains('hidden');
 
-    document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
-    document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
-
-    if (!isOpen) {
-        content.classList.remove('hidden');
-        icon.classList.add('rotate-180');
-    }
-}
-</script>
 
 <!-- Floating Call Button -->
 <a href="tel:+917904217129" class="fixed bottom-6 right-6 z-50 bg-brand-700 hover:bg-brand-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all">

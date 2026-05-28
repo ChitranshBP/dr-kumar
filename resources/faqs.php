@@ -3,7 +3,7 @@ require __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-800 via-brand-700 to-brand-900 text-white py-20 overflow-hidden">
+<section class="relative bg-brand-950 text-white py-20 overflow-hidden">
     <div class="absolute inset-0 opacity-10">
         <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
             <defs>
@@ -65,29 +65,27 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="space-y-4">
                 <!-- FAQ Item 1 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="what is hernia causes symptoms">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What is a hernia and what causes it?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md" data-keywords="what is hernia causes symptoms">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">What is a hernia and what causes it?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed">A hernia occurs when an organ or tissue pushes through a weak spot in the surrounding muscle or connective tissue, most commonly in the abdominal wall. Causes include congenital weaknesses, aging, chronic coughing, heavy lifting, obesity, pregnancy, and previous surgical scars. Hernias do not heal on their own and typically require surgical repair.</p>
+                    <div class="faq-content px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">A hernia occurs when an organ or tissue pushes through a weak spot in the surrounding muscle or connective tissue, most commonly in the abdominal wall. Causes include congenital weaknesses, aging, chronic coughing, heavy lifting, obesity, pregnancy, and previous surgical scars. Hernias do not heal on their own and typically require surgical repair.</p>
                     </div>
                 </div>
 
                 <!-- FAQ Item 2 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="types hernia inguinal umbilical incisional ventral">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What are the different types of hernias?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="types hernia inguinal umbilical incisional ventral">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What are the different types of hernias?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">The most common types include:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">The most common types include:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Inguinal hernia</strong> - Occurs in the groin area, most common type</li>
                             <li><strong>Femoral hernia</strong> - Below the groin, more common in women</li>
                             <li><strong>Umbilical hernia</strong> - Around the belly button</li>
@@ -100,16 +98,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 3 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="hernia pain symptoms bulge warning signs">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What are the warning signs of a hernia?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="hernia pain symptoms bulge warning signs">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What are the warning signs of a hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Warning signs include:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Warning signs include:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li>A visible bulge, especially when standing or coughing</li>
                             <li>Pain or discomfort at the bulge site</li>
                             <li>Burning, gurgling, or aching sensation at the bulge</li>
@@ -122,16 +119,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 4 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="hernia dangerous risk complications strangulation">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">Is a hernia dangerous if left untreated?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="hernia dangerous risk complications strangulation">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Is a hernia dangerous if left untreated?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Yes, an untreated hernia can lead to serious complications:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Yes, an untreated hernia can lead to serious complications:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Incarceration</strong> - The hernia becomes trapped and cannot be pushed back</li>
                             <li><strong>Strangulation</strong> - Blood supply to the trapped tissue is cut off, causing tissue death</li>
                             <li><strong>Obstruction</strong> - Bowel becomes blocked, causing nausea, vomiting, and inability to pass gas</li>
@@ -142,16 +138,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 5 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="hernia diagnosis ultrasound CT scan imaging">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">How is a hernia diagnosed?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="hernia diagnosis ultrasound CT scan imaging">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How is a hernia diagnosed?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Diagnosis typically involves:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Diagnosis typically involves:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Physical examination</strong> - Doctor palpates the area while you stand and cough</li>
                             <li><strong>Ultrasound</strong> - Uses sound waves to image soft tissues</li>
                             <li><strong>CT scan</strong> - Detailed cross-sectional images of the abdomen</li>
@@ -176,16 +171,15 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="space-y-4">
                 <!-- FAQ Item 1 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="surgery options laparoscopic open repair mesh">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What are the different surgical options for hernia repair?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="surgery options laparoscopic open repair mesh">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What are the different surgical options for hernia repair?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Modern hernia surgery options include:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Modern hernia surgery options include:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Laparoscopic (Keyhole) Surgery</strong> - Small incisions, camera-guided repair with mesh</li>
                             <li><strong>Open Herniorrhaphy</strong> - Traditional single incision repair</li>
                             <li><strong>Lichtenstein Tension-Free Repair</strong> - Gold standard open mesh repair</li>
@@ -199,17 +193,16 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 2 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="mesh safe complications recall">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">Is mesh safe for hernia repair?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="mesh safe complications recall">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Is mesh safe for hernia repair?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Mesh is considered safe and is used in over 90% of hernia repairs worldwide. Modern meshes have excellent safety profiles and significantly reduce recurrence rates compared to non-mesh repairs.</p>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Mesh is considered safe and is used in over 90% of hernia repairs worldwide. Modern meshes have excellent safety profiles and significantly reduce recurrence rates compared to non-mesh repairs.</p>
                         <p class="text-slate-600 mb-3">Types of mesh include:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Synthetic mesh</strong> - Polypropylene or polyester, permanent or absorbable</li>
                             <li><strong>Biological mesh</strong> - Made from human or animal tissue, used in contaminated fields</li>
                             <li><strong>Coated/composite mesh</strong> - Anti-adhesion barriers for intra-abdominal placement</li>
@@ -219,16 +212,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 3 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="duration surgery time how long operation">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">How long does hernia surgery take?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="duration surgery time how long operation">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How long does hernia surgery take?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Surgery duration varies based on complexity:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Surgery duration varies based on complexity:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Simple inguinal hernia</strong> - 30-60 minutes</li>
                             <li><strong>Umbilical hernia</strong> - 30-45 minutes</li>
                             <li><strong>Complex incisional hernia</strong> - 2-4 hours</li>
@@ -239,16 +231,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 4 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="anesthesia general spinal local sedation">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What type of anesthesia is used?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="anesthesia general spinal local sedation">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What type of anesthesia is used?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Anesthesia type depends on the surgical approach:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Anesthesia type depends on the surgical approach:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>General anesthesia</strong> - Most common for laparoscopic and complex repairs; you are fully asleep</li>
                             <li><strong>Spinal/Regional anesthesia</strong> - Numbs the lower body; may be used for open repairs</li>
                             <li><strong>Local anesthesia with sedation</strong> - Sometimes used for small, simple hernias</li>
@@ -258,29 +249,27 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 5 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="pain after surgery discomfort manage">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">Will I experience pain after surgery?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="pain after surgery discomfort manage">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Will I experience pain after surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed">Some pain and discomfort are normal after hernia surgery. However, modern techniques and pain management protocols minimize discomfort significantly. Most patients describe the pain as mild to moderate, similar to muscle soreness. Pain typically peaks in the first 2-3 days and improves rapidly. You'll receive prescriptions for pain medication, and many patients transition to over-the-counter pain relievers within a week.</p>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300"><p class="text-slate-600 leading-relaxed">Some pain and discomfort are normal after hernia surgery. However, modern techniques and pain management protocols minimize discomfort significantly. Most patients describe the pain as mild to moderate, similar to muscle soreness. Pain typically peaks in the first 2-3 days and improves rapidly. You'll receive prescriptions for pain medication, and many patients transition to over-the-counter pain relievers within a week.</p></p>
                     </div>
                 </div>
 
                 <!-- FAQ Item 6 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="scars scars laparoscopic small minimal">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What will my scars look like?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="scars scars laparoscopic small minimal">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What will my scars look like?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Scarring depends on the surgical approach:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Scarring depends on the surgical approach:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Laparoscopic surgery</strong> - 3 small ports (5mm, two 10mm incisions); scars fade to nearly invisible</li>
                             <li><strong>Open surgery</strong> - One incision at the hernia site; size varies by hernia type</li>
                             <li><strong>Robotic surgery</strong> - Similar to laparoscopic, with excellent cosmetic outcomes</li>
@@ -304,16 +293,15 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="space-y-4">
                 <!-- FAQ Item 1 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="recovery time weeks activity return work">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">How long is the recovery time after hernia surgery?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="recovery time weeks activity return work">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How long is the recovery time after hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Recovery varies by procedure type and individual health:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1 mb-3">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Recovery varies by procedure type and individual health:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 mb-3 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Laparoscopic surgery</strong> - 1-2 weeks for light activity, 3-4 weeks for full recovery</li>
                             <li><strong>Open surgery</strong> - 2-3 weeks for light activity, 4-6 weeks for full recovery</li>
                             <li><strong>Complex/comprehensive repair</strong> - 3-4 weeks for light activity, 6-8 weeks for full recovery</li>
@@ -323,16 +311,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 2 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="driving car after surgery when">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">When can I drive after hernia surgery?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="driving car after surgery when">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">When can I drive after hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed">Generally, you should wait at least 24-48 hours after surgery before driving, and only when:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1 mt-2">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Generally, you should wait at least 24-48 hours after surgery before driving, and only when:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 mt-2 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li>You are no longer taking prescription pain medications</li>
                             <li>You can move comfortably without significant pain</li>
                             <li>You can perform an emergency stop safely</li>
@@ -343,16 +330,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 3 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="exercise gym workout lifting restrictions">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">When can I exercise and lift heavy objects?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="exercise gym workout lifting restrictions">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">When can I exercise and lift heavy objects?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Follow this gradual progression:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Follow this gradual progression:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Week 1-2</strong> - Light walking only; no lifting over 5-10 lbs</li>
                             <li><strong>Week 2-4</strong> - Moderate walking; gradual increase in daily activities</li>
                             <li><strong>Week 4-6</strong> - Light cardio (walking, stationary cycling); no heavy lifting (&gt;20 lbs)</li>
@@ -363,16 +349,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 4 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="diet eating food after surgery constipation">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What dietary restrictions should I follow after surgery?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="diet eating food after surgery constipation">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What dietary restrictions should I follow after surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Post-surgery dietary guidelines:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Post-surgery dietary guidelines:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>First 24-48 hours</strong> - Clear liquids, then soft foods as tolerated</li>
                             <li><strong>First week</strong> - Easy-to-digest foods; avoid gas-producing foods (beans, carbonated drinks)</li>
                             <li><strong>High fiber diet</strong> - Prevent constipation; include fruits, vegetables, whole grains</li>
@@ -384,16 +369,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 5 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="shower bath wound care incision">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">When can I shower and bathe after surgery?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="shower bath wound care incision">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">When can I shower and bathe after surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed">Most patients can shower within 24-48 hours after surgery:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1 mt-2">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Most patients can shower within 24-48 hours after surgery:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 mt-2 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li>Let water run over the incision; do not scrub</li>
                             <li>Gently pat the area dry with a clean towel</li>
                             <li>Do not soak in bathtubs, hot tubs, or swimming pools until cleared by your surgeon (usually 2-4 weeks)</li>
@@ -404,16 +388,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 6 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="recurrence hernia come back risk rate">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What is the risk of hernia recurrence?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="recurrence hernia come back risk rate">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What is the risk of hernia recurrence?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Modern hernia repair has excellent outcomes:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Modern hernia repair has excellent outcomes:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Laparoscopic mesh repair</strong> - Recurrence rate less than 1-2%</li>
                             <li><strong>Open mesh repair (Lichtenstein)</strong> - Recurrence rate 1-3%</li>
                             <li><strong>Non-mesh repairs</strong> - Higher recurrence rates (5-10%)</li>
@@ -438,16 +421,15 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="space-y-4">
                 <!-- FAQ Item 1 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="insurance coverage cashless claim approval">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">Does insurance cover hernia surgery?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="insurance coverage cashless claim approval">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Does insurance cover hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Most health insurance plans cover hernia surgery as it is considered a medically necessary procedure. Coverage typically includes:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Most health insurance plans cover hernia surgery as it is considered a medically necessary procedure. Coverage typically includes:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li>Health insurance (individual and corporate policies)</li>
                             <li>Mediclaim policies</li>
                             <li>Government schemes (CGHS, ECHS,ESIS)</li>
@@ -458,16 +440,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 2 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="cashless hospitalization empanelled hospitals">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">Is cashless facility available?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="cashless hospitalization empanelled hospitals">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Is cashless facility available?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Yes, cashless treatment is available at empanelled hospitals. The process involves:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Yes, cashless treatment is available at empanelled hospitals. The process involves:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li>Pre-authorization: Submit insurance/TPA details for approval before admission</li>
                             <li>Verification: The hospital coordinates with your insurance company</li>
                             <li>Approval: Typically takes 2-24 hours for routine approvals</li>
@@ -478,16 +459,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 3 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="cost price surgery cost estimate package">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What is the cost of hernia surgery?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="cost price surgery cost estimate package">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What is the cost of hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Costs vary based on several factors:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Costs vary based on several factors:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li><strong>Hernia type and complexity</strong> - Simple vs. complex repair</li>
                             <li><strong>Surgical approach</strong> - Laparoscopic vs. open vs. robotic</li>
                             <li><strong>Hospital category</strong> - Economy to premium rooms</li>
@@ -499,16 +479,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 4 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="documents required insurance TPA claim">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">What documents are needed for insurance claim?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="documents required insurance TPA claim">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What documents are needed for insurance claim?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Standard documents required:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Standard documents required:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li>Health insurance policy card/member ID</li>
                             <li>Photo ID proof (Aadhaar, PAN, Passport)</li>
                             <li>Address proof</li>
@@ -522,16 +501,15 @@ require __DIR__ . '/../includes/header.php';
                 </div>
 
                 <!-- FAQ Item 5 -->
-                <div class="faq-item bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden" data-keywords="pre-existing condition waiting period hernia">
-                    <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between gap-4 hover:bg-slate-50 transition">
-                        <span class="font-semibold text-slate-800">Are pre-existing conditions covered?</span>
-                        <svg class="faq-icon w-5 h-5 text-brand-600 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-                        </svg>
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20" data-keywords="pre-existing condition waiting period hernia">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Are pre-existing conditions covered?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
                     </button>
-                    <div class="faq-content hidden px-6 pb-5">
-                        <p class="text-slate-600 leading-relaxed mb-3">Coverage for pre-existing conditions depends on your policy:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-3 transition-colors duration-300">Coverage for pre-existing conditions depends on your policy:</p>
+                        <ul class="list-disc list-inside text-slate-600 space-y-1 text-sm md:text-base leading-relaxed transition-colors duration-300">
                             <li>Most policies have a <strong>waiting period</strong> (typically 2-4 years) for pre-existing conditions</li>
                             <li>Some policies cover pre-existing conditions after the waiting period</li>
                             <li>Emergency treatment for life-threatening conditions may be covered earlier</li>
@@ -579,38 +557,10 @@ require __DIR__ . '/../includes/header.php';
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // FAQ Accordion functionality
-    const faqItems = document.querySelectorAll('.faq-item');
     const searchInput = document.getElementById('faqSearch');
     const filterBtns = document.querySelectorAll('.faq-filter-btn');
     const categories = document.querySelectorAll('.faq-category');
     const noResults = document.getElementById('noResults');
-
-    // Toggle individual FAQ items
-    faqItems.forEach(item => {
-        const toggle = item.querySelector('.faq-toggle');
-        const content = item.querySelector('.faq-content');
-        const icon = item.querySelector('.faq-icon');
-
-        toggle.addEventListener('click', () => {
-            const isOpen = !content.classList.contains('hidden');
-
-            // Close all items in the same category
-            const parentCategory = item.closest('.faq-category');
-            parentCategory.querySelectorAll('.faq-content').forEach(c => {
-                c.classList.add('hidden');
-            });
-            parentCategory.querySelectorAll('.faq-icon').forEach(i => {
-                i.style.transform = 'rotate(0deg)';
-            });
-
-            // Open clicked item if it was closed
-            if (!isOpen) {
-                content.classList.remove('hidden');
-                icon.style.transform = 'rotate(180deg)';
-            }
-        });
-    });
 
     // Filter functionality
     function filterFAQs() {

@@ -97,8 +97,46 @@
         .topbar a:hover { color: #f59e0b; }
 
         /* ===== Header ===== */
-        .site-header { transition: box-shadow 0.3s ease, background 0.3s ease; }
-        .site-header.scrolled { box-shadow: 0 4px 20px -4px rgba(15, 23, 42, 0.1); background: rgba(255,255,255,0.96); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+        .site-header {
+            position: fixed !important;
+            top: 0; left: 0; right: 0;
+            z-index: 50;
+            background: transparent !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+            transition: all 0.3s ease !important;
+        }
+        .site-header.scrolled {
+            box-shadow: 0 4px 20px -4px rgba(15, 23, 42, 0.1) !important;
+            background: rgba(255, 255, 255, 0.98) !important;
+            border-bottom: 1px solid #f1f5f9 !important;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+
+        /* Subpage (dark hero bg) default nav link colors */
+        body.sub-page .site-header:not(.scrolled) .nav-link {
+            color: rgba(255, 255, 255, 0.9) !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .nav-link:hover,
+        body.sub-page .site-header:not(.scrolled) .nav-link.active {
+            color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .nav-link svg {
+            color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) .hamburger span {
+            background-color: #ffffff !important;
+        }
+        body.sub-page .site-header:not(.scrolled) nav a img {
+            filter: brightness(0) invert(1) !important;
+        }
+
+        /* Remove bg patterns from subpage hero sections */
+        body.sub-page section:first-of-type svg defs,
+        body.sub-page section:first-of-type svg pattern,
+        body.sub-page section:first-of-type svg rect[fill*="url"] {
+            display: none !important;
+        }
 
         /* ===== Nav links ===== */
         .nav-link {
@@ -227,12 +265,23 @@
             transition: all 0.2s ease;
         }
         .mobile-link:hover { background: #f8fafc; color: #0e7490; padding-left: 1.5rem; }
+
+        /* Custom background image for subpage hero sections */
+        body.sub-page section:first-of-type,
+        body.sub-page main > section:first-of-type {
+            position: relative !important;
+            background-image: linear-gradient(to bottom right, rgba(14, 116, 144, 0.9), rgba(15, 23, 42, 0.95)), url('assets/images/bg-testimonials.jpg') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-blend-mode: multiply !important;
+        }
     </style>
 </head>
-<body class="bg-white text-slate-800 antialiased">
+<body class="bg-white text-slate-800 antialiased sub-page">
 
 <!-- ============== MAIN HEADER (Medicoz-style) ============== -->
-<header class="site-header sticky top-0 z-40 bg-white border-b border-slate-100">
+<header class="site-header">
     <div class="relative max-w-7xl mx-auto px-4 lg:px-6">
         <nav class="flex items-center justify-between gap-6 py-3">
 
@@ -807,7 +856,7 @@
     })();
 </script>
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-brand-800 via-brand-700 to-brand-900 text-white overflow-hidden">
+<section class="relative bg-brand-950 text-white overflow-hidden">
     <div class="absolute inset-0 opacity-10">
         <svg class="w-full h-full" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
             <defs>
@@ -842,7 +891,6 @@
             </div>
         </div>
     </div>
-    <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
 </section>
 
 <!-- Main Content -->
@@ -1181,53 +1229,79 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="mb-16">
-        <div class="bg-slate-50 rounded-2xl p-8">
-            <h3 class="text-2xl font-bold text-slate-800 mb-8 text-center">Frequently Asked Questions</h3>
-            <div class="space-y-4 max-w-3xl mx-auto">
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Can a hernia heal on its own?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        No, hernias do not heal on their own. Once the abdominal wall is weakened and tissue has protruded, surgical repair is the only definitive treatment. Without surgery, hernias typically continue to grow and may lead to serious complications.
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight">
+                    Frequently asked questions
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 items-start">
+                <!-- Left Column -->
+                <div class="space-y-4">
+                    <!-- Item 1 (Active) -->
+                    <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">Can a hernia heal on its own?</span>
+                            <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
+                        </button>
+                        <div class="faq-content px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">No, hernias do not heal on their own. Once the abdominal wall is weakened and tissue has protruded, surgical repair is the only definitive treatment. Without surgery, hernias typically continue to grow and may lead to serious complications.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Are hernias genetic?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">There is a genetic predisposition to hernias. If your parents or siblings have had hernias, your risk is higher. However, lifestyle factors and activities also play a significant role in whether a hernia develops.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How do I know if I have a hernia or just muscle pain?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">A hernia typically presents as a visible or palpable bulge that may increase with coughing or straining. Muscle pain usually doesn't cause a bulge and is more localized to specific movements. If you notice a bulge, see a specialist for proper diagnosis.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">What happens if a hernia is left untreated?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        Untreated hernias can lead to serious complications including incarceration ( contents trapped), strangulation (blood supply cut off), and obstruction (blockage of intestine). These are medical emergencies requiring immediate surgery.
+
+                <!-- Right Column -->
+                <div class="space-y-4">
+                    <!-- Item 2 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What happens if a hernia is left untreated?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Untreated hernias can lead to serious complications including incarceration (contents trapped), strangulation (blood supply cut off), and obstruction (blockage of intestine). These are medical emergencies requiring immediate surgery.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Are hernias genetic?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        There is a genetic predisposition to hernias. If your parents or siblings have had hernias, your risk is higher. However, lifestyle factors and activities also play a significant role in whether a hernia develops.
-                    </div>
-                </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">Can I exercise with a hernia?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        Light activities may be okay, but you should avoid heavy lifting and intense core exercises that increase intra-abdominal pressure. Consult with Dr. Kumar for personalized guidance on safe exercises while you await surgery.
-                    </div>
-                </div>
-                <div class="bg-white rounded-xl p-6 border border-slate-200" data-faq>
-                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFaq(this)">
-                        <span class="font-semibold text-slate-800">How do I know if I have a hernia or just muscle pain?</span>
-                        <svg class="w-5 h-5 text-slate-400 transform transition-transform faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </button>
-                    <div class="faq-content hidden mt-4 text-slate-600">
-                        A hernia typically presents as a visible or palpable bulge that may increase with coughing or straining. Muscle pain usually doesn't cause a bulge and is more localized to specific movements. If you notice a bulge, see a specialist for proper diagnosis.
+
+                    <!-- Item 4 (Inactive) -->
+                    <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                        <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                            <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Can I exercise with a hernia?</span>
+                            <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                        </button>
+                        <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                            <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Light activities may be okay, but you should avoid heavy lifting and intense core exercises that increase intra-abdominal pressure. Consult with Dr. Kumar for personalized guidance on safe exercises while you await surgery.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1285,21 +1359,7 @@
     </div>
 </section>
 
-<script>
-function toggleFaq(button) {
-    const content = button.nextElementSibling;
-    const icon = button.querySelector('.faq-icon');
-    const isOpen = !content.classList.contains('hidden');
 
-    document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
-    document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
-
-    if (!isOpen) {
-        content.classList.remove('hidden');
-        icon.classList.add('rotate-180');
-    }
-}
-</script>
 
 <!-- Floating Call Button -->
 <a href="tel:+917904217129" class="fixed bottom-6 right-6 z-50 bg-brand-700 hover:bg-brand-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all">
@@ -1380,6 +1440,83 @@ function toggleFaq(button) {
         </div>
     </div>
 </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Global Premium FAQ toggle handler
+    const faqToggles = document.querySelectorAll('.faq-toggle');
+    if (faqToggles.length > 0) {
+        faqToggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const item = this.closest('.faq-item');
+                if (!item) return;
+                
+                const content = item.querySelector('.faq-content');
+                const symbol = item.querySelector('.faq-symbol');
+                const question = this.querySelector('span');
+                
+                const isOpen = !content.classList.contains('hidden');
+                
+                // Close all other items in the SAME container or category
+                const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
+                if (parentSection) {
+                    parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
+                            otherItem.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
+                            
+                            const otherContent = otherItem.querySelector('.faq-content');
+                            if (otherContent) otherContent.classList.add('hidden');
+                            
+                            const otherSymbol = otherItem.querySelector('.faq-symbol');
+                            if (otherSymbol) {
+                                otherSymbol.textContent = '+';
+                                otherSymbol.classList.remove('bg-brand-800', 'text-white');
+                                otherSymbol.classList.add('bg-white', 'text-brand-700');
+                            }
+                            
+                            const otherQuestion = otherItem.querySelector('.faq-toggle span');
+                            if (otherQuestion) {
+                                otherQuestion.classList.remove('text-white');
+                                otherQuestion.classList.add('text-slate-900');
+                            }
+                        }
+                    });
+                }
+                
+                // Toggle clicked item
+                if (isOpen) {
+                    item.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
+                    item.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
+                    content.classList.add('hidden');
+                    if (symbol) {
+                        symbol.textContent = '+';
+                        symbol.classList.remove('bg-brand-800', 'text-white');
+                        symbol.classList.add('bg-white', 'text-brand-700');
+                    }
+                    if (question) {
+                        question.classList.remove('text-white');
+                        question.classList.add('text-slate-900');
+                    }
+                } else {
+                    item.classList.add('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
+                    item.classList.remove('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
+                    content.classList.remove('hidden');
+                    if (symbol) {
+                        symbol.textContent = '—';
+                        symbol.classList.add('bg-brand-800', 'text-white');
+                        symbol.classList.remove('bg-white', 'text-brand-700');
+                    }
+                    if (question) {
+                        question.classList.add('text-white');
+                        question.classList.remove('text-slate-900');
+                    }
+                }
+            });
+        });
+    }
+});
+</script>
 
 </body>
 </html>
