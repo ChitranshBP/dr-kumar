@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/includes/layout.php';
+require __DIR__ . '/../includes/layout.php';
 ?>
 
 <section class="relative bg-brand-950 text-white overflow-hidden">
@@ -121,4 +121,4 @@ require __DIR__ . '/includes/layout.php';
     </div>
 </section>
 
-<?php require __DIR__ . '/includes/layout-footer.php'; ?>
+<?php require __DIR__ . '/../includes/layout-footer.php'; ?>

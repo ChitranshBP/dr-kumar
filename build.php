@@ -91,8 +91,8 @@ foreach ($phpFiles as $file) {
     } else {
         $htmlOutput = $htmlName . '/index.html';
         $outPath = $dist . '/' . $htmlOutput;
-        $pathDepth = substr_count($file['name'], '/');
-        $prefix = $pathDepth > 0 ? str_repeat('../', $pathDepth) : './';
+        $pathDepth = substr_count($htmlOutput, '/');
+        $prefix = $pathDepth > 0 ? str_repeat('../', $pathDepth) : '';
 
         if (!is_dir(dirname($outPath))) {
             mkdir(dirname($outPath), 0777, true);
@@ -113,6 +113,7 @@ foreach ($phpFiles as $file) {
 
     // Load config (need to reset variables between pages)
     $site = $nav = $herniaConditions = $treatments = $stats = null;
+    $base_path = $prefix;
     require $root . '/includes/config.php';
 
     // Load header (outputs DOCTYPE, <html>, <head>, opening <body>)

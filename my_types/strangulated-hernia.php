@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/includes/layout.php';
+require __DIR__ . '/../includes/layout.php';
 ?>
 
 <section class="relative bg-gradient-to-br from-red-900 via-red-800 to-slate-900 text-white overflow-hidden">
@@ -272,4 +272,4 @@ require __DIR__ . '/includes/layout.php';
     </div>
 </section>
 
-<?php require __DIR__ . '/includes/layout-footer.php'; ?>
+<?php require __DIR__ . '/../includes/layout-footer.php'; ?>

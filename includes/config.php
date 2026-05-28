@@ -2,15 +2,17 @@
 // Calculate base path dynamically to avoid broken assets or pages in subdirectories
 $project_root = dirname(__DIR__);
 $current_script = $_SERVER['SCRIPT_FILENAME'] ?? '';
-$base_path = '';
+if (!isset($base_path)) {
+    $base_path = '';
 
-if (!empty($current_script)) {
-    $root_std = str_replace('\\', '/', realpath($project_root));
-    $script_std = str_replace('\\', '/', realpath($current_script));
-    $relative = str_replace($root_std, '', $script_std);
-    $relative = ltrim($relative, '/');
-    $levels = substr_count($relative, '/');
-    $base_path = str_repeat('../', $levels);
+    if (!empty($current_script)) {
+        $root_std = str_replace('\\', '/', realpath($project_root));
+        $script_std = str_replace('\\', '/', realpath($current_script));
+        $relative = str_replace($root_std, '', $script_std);
+        $relative = ltrim($relative, '/');
+        $levels = substr_count($relative, '/');
+        $base_path = str_repeat('../', $levels);
+    }
 }
 
 $site = [
