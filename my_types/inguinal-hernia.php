@@ -4,10 +4,6 @@ require __DIR__ . '/../includes/header.php';
 
 <!-- Hero Section -->
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
-    <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1631815588090-d4bf27d1b03b?w=1920&q=80" alt="Medical consultation" class="w-full h-full object-cover opacity-20">
-        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
-    </div>
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
             <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
@@ -44,8 +40,8 @@ require __DIR__ . '/../includes/header.php';
 <!-- What is Inguinal Hernia -->
 <section class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div>
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <div class="lg:col-span-7">
                 <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
                 <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
                     What is an Inguinal Hernia?
@@ -56,45 +52,45 @@ require __DIR__ . '/../includes/header.php';
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
                     Dr. Kumar offers the full spectrum of inguinal hernia repair techniques, from traditional open surgery to advanced laparoscopic approaches including eTEP, TEP, and TAPP procedures.
                 </p>
-                <div class="flex flex-wrap gap-3">
+                <div class="flex flex-wrap gap-3 mb-8">
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">eTEP Repair</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">TEP Repair</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">TAPP Repair</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Open Repair</span>
                 </div>
-            </div>
-            <div class="relative">
-                <div class="bg-white rounded-3xl shadow-2xl p-8 border border-slate-100">
-                    <h3 class="font-bold text-xl text-slate-900 mb-6">Types of Inguinal Hernia</h3>
-                    <div class="space-y-4">
-                        <div class="flex items-start gap-4 p-4 bg-brand-50 rounded-xl">
-                            <div class="w-10 h-10 rounded-lg bg-brand-700 flex items-center justify-center shrink-0">
-                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-slate-900">Indirect Inguinal Hernia</h4>
-                                <p class="text-sm text-slate-600">Passes through the internal inguinal ring, following the path the testicles took during development</p>
-                            </div>
+
+                <h3 class="font-bold text-xl text-slate-900 mb-4">Types of Inguinal Hernia</h3>
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                         </div>
-                        <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
-                            <div class="w-10 h-10 rounded-lg bg-brand-700 flex items-center justify-center shrink-0">
-                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-slate-900">Direct Inguinal Hernia</h4>
-                                <p class="text-sm text-slate-600">Pushes directly through the back wall of the inguinal canal, more common in older men</p>
-                            </div>
+                        <h4 class="font-semibold text-slate-900 text-base mb-1">Indirect Inguinal Hernia</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Passes through the internal inguinal ring, following the path the testicles took during development.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                         </div>
-                        <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
-                            <div class="w-10 h-10 rounded-lg bg-brand-700 flex items-center justify-center shrink-0">
-                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <h4 class="font-semibold text-slate-900 text-base mb-1">Direct Inguinal Hernia</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Pushes directly through the back wall of the inguinal canal, more common in older men.</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 sm:col-span-2">
+                        <div class="flex gap-4 items-start">
+                            <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center shrink-0">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-slate-900">Bilateral Inguinal Hernia</h4>
-                                <p class="text-sm text-slate-600">When hernias occur on both sides of the groin simultaneously</p>
+                                <h4 class="font-semibold text-slate-900 text-base mb-0.5">Bilateral Inguinal Hernia</h4>
+                                <p class="text-xs text-slate-600 leading-relaxed">When hernias occur on both sides of the groin simultaneously.</p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
+                    <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Inguinal Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
@@ -102,7 +98,7 @@ require __DIR__ . '/../includes/header.php';
 </section>
 
 <!-- Symptoms Section -->
-<section id="types" class="py-16 md:py-24 bg-white">
+<section id="types" class="py-16 md:py-24 bg-gradient-to-b from-white via-slate-50 to-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -114,53 +110,66 @@ require __DIR__ . '/../includes/header.php';
             </h2>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden aspect-[4/5] shadow-xl border border-slate-100 relative group">
+                    <img src="<?= $base_path ?>assets/images/doctor.png" alt="Symptom Consultation" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-slate-100 shadow-xl z-10">
+                        <span class="text-xs font-bold text-brand-700 uppercase tracking-wider block mb-1">Expert Clinical Diagnosis</span>
+                        <span class="text-xs text-slate-500 block leading-relaxed">A professional physical examination is the essential first step to confirm any hernia diagnosis.</span>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Visible Bulge</h3>
-                <p class="text-slate-600 text-sm">A bulge in the groin area that may become more noticeable when standing or straining</p>
             </div>
+            <div class="lg:col-span-7">
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Visible Bulge</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">A bulge in the groin area that may become more noticeable when standing or straining.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Pain or Discomfort</h3>
-                <p class="text-slate-600 text-sm">Aching sensation in the groin, especially when bending, lifting, or coughing</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Pain or Discomfort</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Aching sensation in the groin, especially when bending, lifting, or coughing.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Heavy Feeling</h3>
-                <p class="text-slate-600 text-sm">Feeling of heaviness or dragging in the groin area</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Heavy Feeling</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Feeling of heaviness or dragging in the groin area.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Swelling</h3>
-                <p class="text-slate-600 text-sm">Swelling around the testicles in men</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Swelling</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Swelling around the testicles in men, caused by herniated tissue descending.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Reducible</h3>
-                <p class="text-slate-600 text-sm">Bulge may disappear when lying down and can be pushed back in</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Reducible</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Bulge may disappear when lying down and can be pushed back in gently.</p>
+                    </div>
 
-            <div class="bg-brand-100 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-700 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <div class="bg-red-50/30 rounded-2xl p-5 border border-red-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-red-100 text-red-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Emergency Signs</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Severe pain, nausea, vomiting - seek immediate emergency medical attention.</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Emergency Signs</h3>
-                <p class="text-slate-600 text-sm">Severe pain, nausea, vomiting - seek immediate medical attention</p>
             </div>
         </div>
     </div>
@@ -180,45 +189,86 @@ require __DIR__ . '/../includes/header.php';
             <p class="text-slate-300 text-lg">Dr. Kumar specializes in multiple approaches to ensure the best outcome for your specific condition.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
                 <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
                     <span class="text-xl font-bold text-accent">eTEP</span>
                 </div>
-                <h3 class="font-bold text-xl mb-3">eTEP RS</h3>
+                <h3 class="font-bold text-xl mb-3 text-white">eTEP RS</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
                     Extended view Totally Extraperitoneal repair. The most advanced technique for excellent outcomes with minimal recovery.
                 </p>
             </div>
 
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
+            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
                 <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
                     <span class="text-xl font-bold text-accent">TEP</span>
                 </div>
-                <h3 class="font-bold text-xl mb-3">TEP Repair</h3>
+                <h3 class="font-bold text-xl mb-3 text-white">TEP Repair</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
                     Totally Extraperitoneal repair. Pre-peritoneal approach keeping the abdominal cavity unopened.
                 </p>
             </div>
 
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
+            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
                 <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
                     <span class="text-xl font-bold text-accent">TAPP</span>
                 </div>
-                <h3 class="font-bold text-xl mb-3">TAPP Repair</h3>
+                <h3 class="font-bold text-xl mb-3 text-white">TAPP Repair</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
                     Transabdominal Preperitoneal repair. Provides excellent visualization of the entire abdominal wall.
                 </p>
             </div>
 
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
+            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
                 <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
                     <span class="text-xl font-bold text-accent">OPEN</span>
                 </div>
-                <h3 class="font-bold text-xl mb-3">Open Repair</h3>
+                <h3 class="font-bold text-xl mb-3 text-white">Open Repair</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
                     Traditional open Lichtenstein repair with mesh reinforcement for those not suitable for laparoscopic surgery.
                 </p>
+            </div>
+        </div>
+
+        <!-- Feature Showcase Banner -->
+        <div class="mt-12 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10">
+            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
+                        <img src="<?= $base_path ?>assets/images/laparoscopic-precision.png" alt="Laparoscopic precision" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:col-span-7">
+                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                        Minimally Invasive Excellence
+                    </span>
+                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
+                        Dr. Kumar's Specialized Surgical Focus
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        Utilizing state-of-the-art keyhole techniques to reduce patient recovery time and post-operative discomfort. Dr. Kumar combines 29+ years of surgical expertise with advanced laparoscopic methods (eTEP, TEP, TAPP) and premium mesh materials to deliver results with less than 1% recurrence.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Rapid Return to Work (2-3 days)</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Cosmetic Tiny Incisions</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Virtually Painless Recovery</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Daycare/Same-day Discharge</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

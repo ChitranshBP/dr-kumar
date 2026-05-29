@@ -4,10 +4,6 @@ require __DIR__ . '/../includes/header.php';
 
 <!-- Hero Section -->
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
-    <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?w=1920&q=80" alt="Medical consultation" class="w-full h-full object-cover opacity-20">
-        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
-    </div>
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
             <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
@@ -44,8 +40,8 @@ require __DIR__ . '/../includes/header.php';
 <!-- Location Section -->
 <section id="location" class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div>
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <div class="lg:col-span-7">
                 <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
                 <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
                     Where Does It Occur?
@@ -56,23 +52,33 @@ require __DIR__ . '/../includes/header.php';
                 <p class="text-slate-600 leading-relaxed mb-6 text-base">
                     Unlike inguinal hernias that occur in the groin, ventral hernias appear in the front central part of the abdominal wall, often called the linea alba.
                 </p>
-                <div class="flex flex-wrap gap-3">
+                <div class="flex flex-wrap gap-3 mb-8">
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Midline Location</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">No Groin Involvement</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Often Congenital</span>
                 </div>
+
+                <h3 class="font-bold text-xl text-slate-900 mb-4">Ventral vs Incisional Hernia</h3>
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div class="p-5 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-3">
+                            <span class="text-xs font-bold">01</span>
+                        </div>
+                        <h4 class="font-semibold text-brand-800 mb-1.5 text-base">Primary Ventral Hernia</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Occurs at natural weak points without any previous surgery. Can be present from birth (congenital) or develop over time.</p>
+                    </div>
+                    <div class="p-5 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-3">
+                            <span class="text-xs font-bold">02</span>
+                        </div>
+                        <h4 class="font-semibold text-slate-700 mb-1.5 text-base">Incisional Hernia</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">A type of ventral hernia that occurs at the site of a previous surgical incision. Falls under the broader ventral hernia category.</p>
+                    </div>
+                </div>
             </div>
-            <div class="bg-white rounded-3xl shadow-2xl p-8 border border-slate-100">
-                <h3 class="font-bold text-xl text-slate-900 mb-6">Ventral vs Incisional Hernia</h3>
-                <div class="space-y-6">
-                    <div class="p-4 bg-brand-50 rounded-xl">
-                        <h4 class="font-semibold text-brand-800 mb-2">Primary Ventral Hernia</h4>
-                        <p class="text-slate-600 text-sm">Occurs at natural weak points without any previous surgery. Can be present from birth (congenital) or develop over time.</p>
-                    </div>
-                    <div class="p-4 bg-slate-50 rounded-xl">
-                        <h4 class="font-semibold text-slate-700 mb-2">Incisional Hernia</h4>
-                        <p class="text-slate-600 text-sm">A type of ventral hernia that occurs at the site of a previous surgical incision. Falls under the ventral hernia category.</p>
-                    </div>
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
+                    <img src="<?= $base_path ?>assets/images/ventral-new.png" alt="Ventral Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
@@ -80,7 +86,7 @@ require __DIR__ . '/../includes/header.php';
 </section>
 
 <!-- Symptoms Section -->
-<section class="py-16 md:py-24 bg-white">
+<section class="py-16 md:py-24 bg-gradient-to-b from-white via-slate-50 to-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -92,53 +98,66 @@ require __DIR__ . '/../includes/header.php';
             </h2>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden aspect-[4/5] shadow-xl border border-slate-100 relative group">
+                    <img src="<?= $base_path ?>assets/images/doctor.png" alt="Symptom Consultation" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-slate-100 shadow-xl z-10">
+                        <span class="text-xs font-bold text-brand-700 uppercase tracking-wider block mb-1">Expert Clinical Diagnosis</span>
+                        <span class="text-xs text-slate-500 block leading-relaxed">A professional physical examination is the essential first step to confirm any hernia diagnosis.</span>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Visible Bulge</h3>
-                <p class="text-slate-600 text-sm">A bulge along the midline of the abdomen that may become more noticeable when standing</p>
             </div>
+            <div class="lg:col-span-7">
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Visible Bulge</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">A bulge along the midline of the abdomen that may become more noticeable when standing.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Pain or Discomfort</h3>
-                <p class="text-slate-600 text-sm">Aching or burning sensation at the hernia site, often worsening with activity</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Pain or Discomfort</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Aching or burning sensation at the hernia site, often worsening with activity.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Reducible</h3>
-                <p class="text-slate-600 text-sm">The bulge can often be pushed back in when lying down</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Reducible</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">The bulge can often be pushed back in gently when lying down.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Progressive Growth</h3>
-                <p class="text-slate-600 text-sm">Hernia may gradually increase in size over time if left untreated</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Progressive Growth</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Hernia may gradually increase in size over time if left untreated.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Heavy Sensation</h3>
-                <p class="text-slate-600 text-sm">Feeling of heaviness or dragging in the abdomen</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Heavy Sensation</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Feeling of heaviness or dragging in the abdomen.</p>
+                    </div>
 
-            <div class="bg-brand-100 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-700 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <div class="bg-red-50/30 rounded-2xl p-5 border border-red-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-red-100 text-red-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Emergency Signs</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Severe pain, vomiting, or skin changes - seek immediate medical attention.</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Emergency Signs</h3>
-                <p class="text-slate-600 text-sm">Severe pain, vomiting, or skin changes - seek immediate medical attention</p>
             </div>
         </div>
     </div>
@@ -158,61 +177,94 @@ require __DIR__ . '/../includes/header.php';
             <p class="text-slate-600 text-lg">Dr. Kumar offers both laparoscopic and open surgical approaches tailored to your specific condition.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 border border-brand-100">
+        <div class="grid sm:grid-cols-2 gap-6">
+            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 border border-brand-100 hover:shadow-lg transition duration-300">
                 <div class="w-16 h-16 rounded-2xl bg-brand-700 flex items-center justify-center mb-6">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
                 </div>
                 <h3 class="font-bold text-2xl text-slate-900 mb-4">Laparoscopic Repair</h3>
-                <p class="text-slate-600 leading-relaxed mb-6">
+                <p class="text-slate-600 leading-relaxed mb-6 text-sm">
                     Minimally invasive approach using small incisions and a camera to guide surgical repair. Offers less pain, faster recovery, and better cosmetic outcomes.
                 </p>
                 <ul class="space-y-3">
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Smaller incisions, minimal scarring
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Faster return to daily activities
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Less post-operative pain
-                    </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        Reduced infection risk
                     </li>
                 </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200">
+            <div class="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition duration-300">
                 <div class="w-16 h-16 rounded-2xl bg-brand-800 flex items-center justify-center mb-6">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                 </div>
                 <h3 class="font-bold text-2xl text-slate-900 mb-4">Open Surgical Repair</h3>
-                <p class="text-slate-600 leading-relaxed mb-6">
+                <p class="text-slate-600 leading-relaxed mb-6 text-sm">
                     Traditional approach with a single larger incision. Recommended for very large hernias or patients with specific medical conditions.
                 </p>
                 <ul class="space-y-3">
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Better for giant hernias
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        Direct visualization
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        Allows complex component separation
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        Allows complex reconstruction
-                    </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        May be combined with mesh
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        May be combined with sublay mesh
                     </li>
                 </ul>
+            </div>
+        </div>
+
+        <!-- Feature Showcase Banner -->
+        <div class="mt-12 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 text-white">
+            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
+                        <img src="<?= $base_path ?>assets/images/tep-room.png" alt="Laparoscopic setup" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:col-span-7">
+                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                        Laparoscopic Surgical Focus
+                    </span>
+                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
+                        Ventral Hernia repair using TEP/eTEP
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        Choosing the right laparoscopic approach (like TEP, TAPP, or eTEP) ensures that the mesh is placed in the pre-peritoneal space, completely outside the abdominal cavity. This avoids contact with your intestines, drastically reducing the risk of adhesions or long-term mesh complications.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Extrabdominal mesh placement</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>No mesh contact with intestines</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Daycare surgery options</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Minimal post-op restriction</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -35,7 +35,7 @@ require __DIR__ . '/includes/header.php';
 <section id="about" class="py-12 md:py-14 bg-white overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         <div class="relative">
-            <img src="assets/images/dr-kumar-main-removebg-preview.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full">
+            <img src="assets/images/dr-kumar-main-image.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full h-[650px] object-cover object-top">
             <div class="absolute -bottom-6 -right-6 bg-accent text-white rounded-2xl px-6 py-5 shadow-xl hidden md:block">
                 <p class="font-display text-3xl font-bold">29+</p>
                 <p class="text-sm">Years of Excellence</p>

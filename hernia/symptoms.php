@@ -139,7 +139,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
             </div>
             <div class="relative rounded-3xl overflow-hidden h-80 lg:h-96">
-                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" alt="Medical emergency care" class="w-full h-full object-cover">
+                <img src="<?= $base_path ?>assets/images/symptoms_emergency.png" alt="Medical emergency care" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
             </div>
         </div>

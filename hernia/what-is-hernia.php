@@ -57,7 +57,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
             </div>
             <div class="relative rounded-3xl overflow-hidden h-80 lg:h-96">
-                <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80" alt="Medical consultation" class="w-full h-full object-cover">
+                <img src="<?= $base_path ?>assets/images/what_is_hernia_def.png" alt="What is a Hernia" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-900/30 to-transparent"></div>
             </div>
         </div>
@@ -111,7 +111,7 @@ require __DIR__ . '/../includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
                 <div class="relative h-40 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=400&q=80" alt="Groin hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Groin hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                     <span class="absolute bottom-3 left-3 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Groin</span>
                 </div>
@@ -123,7 +123,7 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
                 <div class="relative h-40 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&q=80" alt="Umbilical hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                     <span class="absolute bottom-3 left-3 bg-amber-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Belly Button</span>
                 </div>
@@ -135,7 +135,7 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
                 <div class="relative h-40 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=400&q=80" alt="Incisional hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="<?= $base_path ?>assets/images/incisional-new.png" alt="Incisional hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                     <span class="absolute bottom-3 left-3 bg-purple-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Surgical</span>
                 </div>
@@ -147,7 +147,7 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
                 <div class="relative h-40 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&q=80" alt="Abdominal hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <img src="<?= $base_path ?>assets/images/hiatal_anatomy.png" alt="Hiatal hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                     <span class="absolute bottom-3 left-3 bg-teal-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Internal</span>
                 </div>
@@ -166,7 +166,7 @@ require __DIR__ . '/../includes/header.php';
         <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div class="order-2 lg:order-1">
                 <div class="relative rounded-3xl overflow-hidden h-80 lg:h-96">
-                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80" alt="Medical examination" class="w-full h-full object-cover">
+                    <img src="<?= $base_path ?>assets/images/what_is_hernia_exam.png" alt="Medical examination" class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
                 </div>
             </div>

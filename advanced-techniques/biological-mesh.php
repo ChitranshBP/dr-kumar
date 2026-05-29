@@ -228,65 +228,8 @@ require __DIR__ . '/../includes/header.php';
                 </div>
             </div>
 
-            <div>
-                <svg class="w-full" viewBox="0 0 400 400" fill="none">
-                    <!-- Timeline of biological mesh integration -->
-                    <text x="200" y="30" text-anchor="middle" fill="#0e7490" font-size="16" font-weight="bold">Biological Mesh Integration Timeline</text>
-
-                    <!-- Timeline line -->
-                    <line x1="50" y1="80" x2="350" y2="80" stroke="#cbd5e1" stroke-width="4"/>
-                    <circle cx="50" cy="80" r="12" fill="#0e7490"/>
-                    <circle cx="150" cy="80" r="12" fill="#0891b2"/>
-                    <circle cx="250" cy="80" r="12" fill="#06b6d4"/>
-                    <circle cx="350" cy="80" r="12" fill="#22c55e"/>
-
-                    <!-- Time labels -->
-                    <text x="50" y="105" text-anchor="middle" fill="#64748b" font-size="10">Implant</text>
-                    <text x="150" y="105" text-anchor="middle" fill="#64748b" font-size="10">Week 2</text>
-                    <text x="250" y="105" text-anchor="middle" fill="#64748b" font-size="10">Month 3</text>
-                    <text x="350" y="105" text-anchor="middle" fill="#64748b" font-size="10">1+ Years</text>
-
-                    <!-- Stage 1 -->
-                    <rect x="20" y="130" width="80" height="100" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
-                    <text x="60" y="155" text-anchor="middle" fill="#0e7490" font-size="10" font-weight="bold">Initial</text>
-                    <text x="60" y="170" text-anchor="middle" fill="#64748b" font-size="9">Scaffold in place</text>
-                    <circle cx="40" cy="195" r="8" fill="#0e7490" opacity="0.3"/>
-                    <circle cx="60" cy="195" r="8" fill="#0e7490" opacity="0.4"/>
-                    <circle cx="80" cy="195" r="8" fill="#0e7490" opacity="0.3"/>
-                    <text x="60" y="220" text-anchor="middle" fill="#64748b" font-size="8">Mesh structure intact</text>
-
-                    <!-- Stage 2 -->
-                    <rect x="120" y="130" width="80" height="100" rx="8" fill="#ecfeff" stroke="#cffafe" stroke-width="1"/>
-                    <text x="160" y="155" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="bold">Early Healing</text>
-                    <text x="160" y="170" text-anchor="middle" fill="#64748b" font-size="9">Cells infiltrate</text>
-                    <circle cx="135" cy="195" r="8" fill="#0891b2" opacity="0.5"/>
-                    <circle cx="155" cy="190" r="8" fill="#0891b2" opacity="0.7"/>
-                    <circle cx="175" cy="200" r="8" fill="#0891b2" opacity="0.6"/>
-                    <circle cx="185" cy="190" r="6" fill="#0891b2" opacity="0.4"/>
-                    <text x="160" y="220" text-anchor="middle" fill="#64748b" font-size="8">Blood vessels form</text>
-
-                    <!-- Stage 3 -->
-                    <rect x="220" y="130" width="80" height="100" rx="8" fill="#cffafe" stroke="#a5f3fc" stroke-width="1"/>
-                    <text x="260" y="155" text-anchor="middle" fill="#06b6d4" font-size="10" font-weight="bold">Remodeling</text>
-                    <text x="260" y="170" text-anchor="middle" fill="#64748b" font-size="9">Tissue grows</text>
-                    <circle cx="235" cy="195" r="8" fill="#06b6d4" opacity="0.6"/>
-                    <circle cx="260" cy="190" r="12" fill="#22c55e" opacity="0.5"/>
-                    <circle cx="285" cy="195" r="8" fill="#06b6d4" opacity="0.6"/>
-                    <text x="260" y="220" text-anchor="middle" fill="#64748b" font-size="8">Collagen deposition</text>
-
-                    <!-- Stage 4 -->
-                    <rect x="300" y="130" width="80" height="100" rx="8" fill="#d1fae5" stroke="#a7f3d0" stroke-width="1"/>
-                    <text x="340" y="155" text-anchor="middle" fill="#10b981" font-size="10" font-weight="bold">Complete</text>
-                    <text x="340" y="170" text-anchor="middle" fill="#64748b" font-size="9">Native tissue</text>
-                    <ellipse cx="340" cy="195" rx="35" ry="20" fill="#22c55e" opacity="0.4"/>
-                    <ellipse cx="340" cy="195" rx="25" ry="14" fill="#22c55e" opacity="0.6"/>
-                    <text x="340" y="220" text-anchor="middle" fill="#64748b" font-size="8">Strong, natural repair</text>
-
-                    <!-- Result box -->
-                    <rect x="100" y="280" width="200" height="60" rx="10" fill="#10b981" opacity="0.1" stroke="#10b981" stroke-width="2"/>
-                    <text x="200" y="305" text-anchor="middle" fill="#065f46" font-size="12" font-weight="bold">Result: Native Tissue Reinforcement</text>
-                    <text x="200" y="325" text-anchor="middle" fill="#047857" font-size="10">Mesh gradually replaced by patient's own tissue</text>
-                </svg>
+            <div class="bg-gradient-to-br from-brand-50 to-brand-100 rounded-3xl p-4 border border-brand-100 shadow-inner">
+                <img src="<?= $base_path ?>assets/images/biomesh-timeline.png" alt="Biological Mesh Integration Timeline" class="w-full h-auto object-cover rounded-2xl shadow-md border border-slate-200/50" />
             </div>
         </div>
     </div>

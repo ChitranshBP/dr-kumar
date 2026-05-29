@@ -230,58 +230,8 @@ require __DIR__ . '/../includes/header.php';
                 </div>
             </div>
 
-            <div class="bg-gradient-to-br from-brand-50 to-brand-100 rounded-2xl p-8 border border-brand-100">
-                <svg class="w-full" viewBox="0 0 400 300" fill="none">
-                    <text x="200" y="30" text-anchor="middle" fill="#0e7490" font-size="14" font-weight="bold">Traditional vs ERAS Pain Control</text>
-
-                    <!-- Traditional approach -->
-                    <rect x="30" y="60" width="160" height="200" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
-                    <text x="110" y="85" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">Traditional</text>
-                    <text x="110" y="102" text-anchor="middle" fill="#991b1b" font-size="9">High opioid reliance</text>
-
-                    <!-- Pills representation -->
-                    <rect x="50" y="120" width="30" height="20" rx="3" fill="#ef4444"/>
-                    <text x="65" y="133" text-anchor="middle" fill="white" font-size="6">Opioid</text>
-                    <rect x="85" y="120" width="30" height="20" rx="3" fill="#ef4444"/>
-                    <text x="100" y="133" text-anchor="middle" fill="white" font-size="6">Opioid</text>
-                    <rect x="120" y="120" width="30" height="20" rx="3" fill="#ef4444"/>
-                    <text x="135" y="133" text-anchor="middle" fill="white" font-size="6">Opioid</text>
-
-                    <text x="110" y="165" text-anchor="middle" fill="#64748b" font-size="9">Side effects:</text>
-                    <text x="110" y="180" text-anchor="middle" fill="#dc2626" font-size="8">Nausea</text>
-                    <text x="110" y="193" text-anchor="middle" fill="#dc2626" font-size="8">Constipation</text>
-                    <text x="110" y="206" text-anchor="middle" fill="#dc2626" font-size="8">Drowsiness</text>
-                    <text x="110" y="219" text-anchor="middle" fill="#dc2626" font-size="8">Delayed recovery</text>
-
-                    <!-- Pain scale -->
-                    <text x="110" y="245" text-anchor="middle" fill="#64748b" font-size="9">Pain score: 6-8</text>
-                    <rect x="50" y="255" width="120" height="10" rx="5" fill="#ef4444"/>
-
-                    <!-- ERAS approach -->
-                    <rect x="210" y="60" width="160" height="200" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
-                    <text x="290" y="85" text-anchor="middle" fill="#16a34a" font-size="12" font-weight="bold">ERAS Protocol</text>
-                    <text x="290" y="102" text-anchor="middle" fill="#166534" font-size="9">Multimodal approach</text>
-
-                    <!-- Different medications -->
-                    <rect x="225" y="120" width="25" height="15" rx="2" fill="#06b6d4"/>
-                    <text x="237" y="130" text-anchor="middle" fill="white" font-size="5">NSAID</text>
-                    <rect x="255" y="120" width="25" height="15" rx="2" fill="#8b5cf6"/>
-                    <text x="267" y="130" text-anchor="middle" fill="white" font-size="5">Gabapentin</text>
-                    <rect x="285" y="120" width="25" height="15" rx="2" fill="#06b6d4"/>
-                    <text x="297" y="130" text-anchor="middle" fill="white" font-size="5">Acetam.</text>
-                    <rect x="315" y="120" width="25" height="15" rx="2" fill="#f59e0b"/>
-                    <text x="327" y="130" text-anchor="middle" fill="white" font-size="5">Local</text>
-
-                    <text x="290" y="165" text-anchor="middle" fill="#64748b" font-size="9">Benefits:</text>
-                    <text x="290" y="180" text-anchor="middle" fill="#16a34a" font-size="8">Less nausea</text>
-                    <text x="290" y="193" text-anchor="middle" fill="#16a34a" font-size="8">Clear mind</text>
-                    <text x="290" y="206" text-anchor="middle" fill="#16a34a" font-size="8">Better mobility</text>
-                    <text x="290" y="219" text-anchor="middle" fill="#16a34a" font-size="8">Faster recovery</text>
-
-                    <!-- Pain scale -->
-                    <text x="290" y="245" text-anchor="middle" fill="#64748b" font-size="9">Pain score: 2-4</text>
-                    <rect x="225" y="255" width="60" height="10" rx="5" fill="#22c55e"/>
-                </svg>
+            <div class="bg-gradient-to-br from-brand-50 to-brand-100 rounded-2xl p-4 border border-brand-100 shadow-inner">
+                <img src="<?= $base_path ?>assets/images/eras-pain-chart.png" alt="Traditional vs ERAS Pain Control Comparison" class="w-full h-auto object-cover rounded-xl shadow-md border border-slate-200/50" />
             </div>
         </div>
     </div>

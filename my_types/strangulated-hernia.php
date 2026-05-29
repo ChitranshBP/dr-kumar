@@ -4,10 +4,6 @@ require __DIR__ . '/../includes/header.php';
 
 <!-- Hero Section -->
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
-    <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?w=1920&q=80" alt="Medical emergency" class="w-full h-full object-cover opacity-20">
-        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
-    </div>
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
             <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
@@ -41,10 +37,10 @@ require __DIR__ . '/../includes/header.php';
 <!-- What is Strangulated Hernia -->
 <section class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div>
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <div class="lg:col-span-7">
                 <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
-                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
                     What is a Strangulated Hernia?
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-5 text-lg">
@@ -53,55 +49,58 @@ require __DIR__ . '/../includes/header.php';
                 <p class="text-slate-600 leading-relaxed mb-6 text-base">
                     This can happen with any type of hernia but is more common with femoral hernias and incisional hernias. Once strangulation occurs, surgery within hours is essential to prevent tissue death and serious complications.
                 </p>
-                <div class="p-4 bg-brand-100 rounded-xl border border-brand-200">
-                    <div class="flex items-start gap-3">
-                        <svg class="w-6 h-6 text-brand-700 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.05c-1.311-1.523-3.636-1.07-4.708.967-1.071 2.038-.566 4.398.967 4.708L10 14.414l6.484-5.689c1.533-.31 2.037-2.67.967-4.708-1.07-2.038-3.396-2.49-4.708-.967L10 8.758 8.257 3.05zM10 18a8 8 0 100-16 8 8 0 000 16z" clip-rule="evenodd"/></svg>
+                
+                <!-- Emergency Alert Card -->
+                <div class="p-5 bg-rose-50 rounded-2xl border border-rose-100 shadow-sm mb-8">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-rose-500 flex items-center justify-center shrink-0 text-white shadow-md shadow-rose-200">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
                         <div>
-                            <p class="text-sm text-brand-800 font-semibold">Time is Critical</p>
-                            <p class="text-sm text-brand-700">Strangulation can lead to tissue death, bowel obstruction, sepsis, and death if not treated within 6 hours.</p>
+                            <p class="text-base text-rose-950 font-bold mb-1">Time is Critical</p>
+                            <p class="text-sm text-rose-800 leading-relaxed font-semibold">Strangulation can lead to tissue death, bowel obstruction, sepsis, and death if not treated surgically within 6 hours.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-200/80 pt-8">
+                    <h3 class="font-bold text-xl text-slate-900 mb-6">Why Immediate Surgery is Needed</h3>
+                    <div class="grid sm:grid-cols-2 gap-5">
+                        <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
+                            <div class="w-10 h-10 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-sm mb-2">Tissue Death</h4>
+                            <p class="text-xs text-slate-500 leading-relaxed">Without blood supply, tissues die within hours, which may require extensive bowel resection surgery.</p>
+                        </div>
+                        <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
+                            <div class="w-10 h-10 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-sm mb-2">Bowel Obstruction</h4>
+                            <p class="text-xs text-slate-500 leading-relaxed">Strangulated intestines can lead to a complete digestive blockage causing severe nausea and swelling.</p>
+                        </div>
+                        <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
+                            <div class="w-10 h-10 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-sm mb-2">Sepsis Risk</h4>
+                            <p class="text-xs text-slate-500 leading-relaxed">Dead tissue releases dangerous toxins into the bloodstream, triggering life-threatening systemic sepsis.</p>
+                        </div>
+                        <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
+                            <div class="w-10 h-10 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                            </div>
+                            <h4 class="font-bold text-slate-900 text-sm mb-2">Mortality Risk</h4>
+                            <p class="text-xs text-slate-500 leading-relaxed">Any delay in treatment significantly increases systemic toxicity and patient mortality risk.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-white rounded-3xl shadow-2xl p-8 border border-slate-100">
-                <h3 class="font-bold text-xl text-slate-900 mb-6">Why Immediate Surgery is Needed</h3>
-                <div class="space-y-4">
-                    <div class="flex items-start gap-4 p-4 bg-brand-50 rounded-xl">
-                        <div class="w-10 h-10 rounded-lg bg-brand-700 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900">Tissue Death</h4>
-                            <p class="text-sm text-slate-600">Without blood supply, tissues die within hours, requiring extensive resection</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
-                        <div class="w-10 h-10 rounded-lg bg-brand-700 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900">Bowel Obstruction</h4>
-                            <p class="text-sm text-slate-600">Strangulated intestines can lead to complete blockage causing severe complications</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
-                        <div class="w-10 h-10 rounded-lg bg-brand-700 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900">Sepsis Risk</h4>
-                            <p class="text-sm text-slate-600">Dead tissue releases toxins into bloodstream causing life-threatening infection</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
-                        <div class="w-10 h-10 rounded-lg bg-brand-700 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900">Mortality Risk</h4>
-                            <p class="text-sm text-slate-600">Delay in treatment significantly increases mortality risk</p>
-                        </div>
-                    </div>
+            
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
+                    <img src="<?= $base_path ?>assets/images/hernia-surgery-new.png" alt="Strangulated Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
@@ -109,66 +108,92 @@ require __DIR__ . '/../includes/header.php';
 </section>
 
 <!-- Warning Signs Section -->
-<section class="py-16 md:py-24 bg-white">
+<section class="py-16 md:py-24 bg-gradient-to-b from-white via-slate-50 to-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+            <span class="inline-flex items-center gap-2 bg-rose-100 text-rose-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-rose-700"></span>
                 Warning Signs
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
-                Recognize the <span class="text-brand-700">Warning Signs</span>
+                Recognize the <span class="text-rose-600">Warning Signs</span>
             </h2>
-            <p class="text-slate-600 text-lg">Seek immediate medical help if you experience any of these symptoms.</p>
+            <p class="text-slate-600 text-lg">Seek immediate medical help if you experience any of these emergency symptoms.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <!-- Doctor Column on the Left -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-[3/4]">
+                    <img src="<?= $base_path ?>assets/images/doctor.png" alt="Emergency Consultation" class="w-full h-full object-cover">
+                    <!-- Subtle Dark Overlay -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"></div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Severe Sudden Pain</h3>
-                <p class="text-slate-600 text-sm">Intense, sudden pain at the hernia site that may spread to the entire abdomen.</p>
+                <!-- Floating Info Badge -->
+                <div class="absolute -bottom-6 -right-6 md:right-4 bg-white rounded-2xl shadow-xl p-5 border border-slate-100 max-w-xs hover:scale-105 transition duration-300">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 shrink-0 border border-rose-100">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-rose-600 font-bold uppercase tracking-wider">Seek Immediate Care</p>
+                            <p class="text-sm font-bold text-slate-900 mt-0.5">Strangulated hernias require surgical intervention without delay.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Red or Dark Bulge</h3>
-                <p class="text-slate-600 text-sm">The hernia bulge becomes red, purple, or dark colored indicating loss of blood supply.</p>
-            </div>
+            <!-- Emergency Signs on the Right -->
+            <div class="lg:col-span-7">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Severe Sudden Pain</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Intense, sudden pain at the hernia site that may spread to the entire abdomen rapidly.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Fever</h3>
-                <p class="text-slate-600 text-sm">High body temperature indicating infection or tissue death in progress.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Red or Dark Bulge</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">The hernia bulge becomes red, purple, or dark colored, indicating trapped tissues are losing blood flow.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Nausea & Vomiting</h3>
-                <p class="text-slate-600 text-sm">Cannot pass gas or have bowel movements, accompanied by vomiting.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Fever & Chills</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">High body temperature indicating infection, local toxicity, or active tissue necrotization.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Unable to Push In</h3>
-                <p class="text-slate-600 text-sm">Previously reducible hernia can no longer be pushed back into the abdomen.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Nausea & Vomiting</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Inability to digest, pass gas, or pass stool, accompanied by sudden or repetitive vomiting.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Unable to Reduce</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">A previously flexible or reducible hernia bulge can no longer be gently pushed back into the abdomen.</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-50 flex items-center justify-center text-rose-600 mb-4 border border-rose-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Abdominal Swelling</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">The abdomen becomes swollen, tight, hard, and painful, indicating a progressive bowel blockage.</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Abdominal Distension</h3>
-                <p class="text-slate-600 text-sm">Stomach becomes visibly swollen and hard due to bowel obstruction.</p>
             </div>
         </div>
     </div>
@@ -189,60 +214,93 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 border border-brand-100">
-                <div class="w-16 h-16 rounded-2xl bg-brand-700 flex items-center justify-center mb-6">
+            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-3xl p-8 lg:p-10 border border-brand-100 hover:shadow-xl transition duration-300">
+                <div class="w-16 h-16 rounded-2xl bg-brand-700 flex items-center justify-center mb-6 shadow-md shadow-brand-100">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
                 <h3 class="font-bold text-2xl text-slate-900 mb-4">Emergency Surgery</h3>
-                <p class="text-slate-600 leading-relaxed mb-6">
+                <p class="text-slate-600 leading-relaxed mb-6 text-base font-medium">
                     Immediate surgical intervention is required to restore blood flow to the trapped tissue. The surgeon will remove any dead tissue and repair the hernia with mesh reinforcement.
                 </p>
                 <ul class="space-y-3">
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Performed on emergency basis
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         May require bowel resection
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Hospital stay required
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         IV antibiotics administered
                     </li>
                 </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200">
-                <div class="w-16 h-16 rounded-2xl bg-brand-800 flex items-center justify-center mb-6">
+            <div class="bg-gradient-to-br from-slate-50 to-slate-100 rounded-3xl p-8 lg:p-10 border border-slate-200 hover:shadow-xl transition duration-300">
+                <div class="w-16 h-16 rounded-2xl bg-brand-800 flex items-center justify-center mb-6 shadow-md shadow-slate-100">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                 </div>
                 <h3 class="font-bold text-2xl text-slate-900 mb-4">Recovery Process</h3>
-                <p class="text-slate-600 leading-relaxed mb-6">
+                <p class="text-slate-600 leading-relaxed mb-6 text-base font-medium">
                     Recovery from emergency strangulated hernia surgery is longer than elective surgery due to the complexity of the procedure and tissue involvement.
                 </p>
                 <ul class="space-y-3">
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Extended hospital stay (5-10 days)
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Longer recovery period (6-8 weeks)
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         IV antibiotics for infection prevention
                     </li>
-                    <li class="flex items-center gap-3 text-slate-700">
-                        <svg class="w-5 h-5 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <li class="flex items-center gap-3 text-slate-700 text-sm">
+                        <svg class="w-4 h-4 text-brand-700 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                         Close monitoring for complications
                     </li>
                 </ul>
+            </div>
+        </div>
+
+        <!-- Premium Showcase Banner -->
+        <div class="mt-16 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 text-white">
+            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
+                        <img src="<?= $base_path ?>assets/images/wound-care.png" alt="Wound recovery care" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:col-span-7">
+                    <span class="inline-flex items-center gap-1.5 bg-rose-500/20 border border-rose-500/30 text-rose-300 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                        Post-Surgical Excellence
+                    </span>
+                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
+                        Specialized Care Following Emergency Hernia Repair
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        Because strangulated hernia surgeries involve compromised tissues, active wound care, careful monitoring, and post-operative support are crucial. Dr. Kumar's clinical team provides dedicated post-operative care, utilizing advanced wound recovery protocols and customized guidelines to ensure secure healing and minimize any risk of infection or recurrence.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-rose-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Advanced wound care management</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-rose-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>24/7 recovery support line</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

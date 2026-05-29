@@ -4,10 +4,6 @@ require __DIR__ . '/../includes/header.php';
 
 <!-- Hero Section -->
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
-    <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-163103字典6776-ef1f4e40a8b3?w=1920&q=80" alt="Medical consultation" class="w-full h-full object-cover opacity-20">
-        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
-    </div>
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
             <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
@@ -41,8 +37,8 @@ require __DIR__ . '/../includes/header.php';
 <!-- What is Umbilical Hernia -->
 <section class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div>
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <div class="lg:col-span-7">
                 <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
                 <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
                     What is an Umbilical Hernia?
@@ -53,39 +49,43 @@ require __DIR__ . '/../includes/header.php';
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
                     Common in infants but also affects adults, particularly after pregnancy, weight gain, or previous surgery. Dr. Kumar offers both mesh and non-mesh repair options.
                 </p>
-                <div class="flex flex-wrap gap-3">
+                <div class="flex flex-wrap gap-3 mb-8">
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Daycare Available</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Mesh Repair</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Meshless Option</span>
                 </div>
+
+                <h3 class="font-bold text-xl text-slate-900 mb-4">When to Seek Treatment</h3>
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
+                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        </div>
+                        <span class="text-sm font-medium text-slate-700">Pain that worsens or doesn't subside</span>
+                    </div>
+                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
+                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        </div>
+                        <span class="text-sm font-medium text-slate-700">Bulge increasing in size</span>
+                    </div>
+                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
+                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        </div>
+                        <span class="text-sm font-medium text-slate-700">Difficulty with daily activities</span>
+                    </div>
+                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
+                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        </div>
+                        <span class="text-sm font-medium text-slate-700">Signs of skin discoloration</span>
+                    </div>
+                </div>
             </div>
-            <div class="bg-white rounded-3xl shadow-2xl p-8 border border-slate-100">
-                <h3 class="font-bold text-xl text-slate-900 mb-6">When to Seek Treatment</h3>
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <span class="text-slate-700">Pain that worsens or doesn't subside</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <span class="text-slate-700">Bulge increasing in size</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <span class="text-slate-700">Difficulty with daily activities</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <span class="text-slate-700">Signs of skin discoloration</span>
-                    </div>
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
+                    <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@ require __DIR__ . '/../includes/header.php';
 </section>
 
 <!-- Symptoms Section -->
-<section class="py-16 md:py-24 bg-white">
+<section class="py-16 md:py-24 bg-gradient-to-b from-white via-slate-50 to-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -105,53 +105,66 @@ require __DIR__ . '/../includes/header.php';
             </h2>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden aspect-[4/5] shadow-xl border border-slate-100 relative group">
+                    <img src="<?= $base_path ?>assets/images/doctor.png" alt="Symptom Consultation" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-slate-100 shadow-xl z-10">
+                        <span class="text-xs font-bold text-brand-700 uppercase tracking-wider block mb-1">Expert Clinical Diagnosis</span>
+                        <span class="text-xs text-slate-500 block leading-relaxed">A professional physical examination is the essential first step to confirm any hernia diagnosis.</span>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Visible Bulge</h3>
-                <p class="text-slate-600 text-sm">A noticeable bulge at or near the belly button, especially when standing or straining</p>
             </div>
+            <div class="lg:col-span-7">
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Visible Bulge</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">A noticeable bulge at or near the belly button, especially when standing or straining.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Pain or Discomfort</h3>
-                <p class="text-slate-600 text-sm">Aching or pain around the belly button that may worsen with activity</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Pain or Discomfort</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Aching or pain around the belly button that may worsen with activity.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Reducible</h3>
-                <p class="text-slate-600 text-sm">The bulge can often be pushed back in when lying down</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Reducible</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">The bulge can often be pushed back in when lying down.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Swelling</h3>
-                <p class="text-slate-600 text-sm">Area around the navel appears swollen or inflamed</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Swelling</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Area around the navel appears swollen or inflamed.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Heavy Sensation</h3>
-                <p class="text-slate-600 text-sm">Feeling of fullness or heaviness in the abdomen</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Heavy Sensation</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Feeling of fullness or heaviness in the abdomen.</p>
+                    </div>
 
-            <div class="bg-brand-100 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-700 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <div class="bg-red-50/30 rounded-2xl p-5 border border-red-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-red-100 text-red-700 flex items-center justify-center mb-4">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Emergency Signs</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Severe pain, vomiting, or discoloration - seek immediate medical attention.</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Emergency Signs</h3>
-                <p class="text-slate-600 text-sm">Severe pain, vomiting, or discoloration - seek immediate medical attention</p>
             </div>
         </div>
     </div>
@@ -171,27 +184,68 @@ require __DIR__ . '/../includes/header.php';
             <p class="text-slate-600 text-lg">Dr. Kumar offers multiple approaches tailored to your specific condition.</p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition border border-slate-100">
-                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
+        <div class="grid sm:grid-cols-3 gap-6">
+            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition duration-300 border border-slate-100">
+                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 text-brand-700">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
                 </div>
                 <h3 class="font-bold text-xl text-slate-900 mb-3">Mesh Repair</h3>
                 <p class="text-slate-600 text-sm leading-relaxed">Standard approach using a synthetic mesh to reinforce the abdominal wall with excellent long-term results and low recurrence.</p>
             </div>
-            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition border border-slate-100">
-                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition duration-300 border border-slate-100">
+                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 text-brand-700">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                 </div>
                 <h3 class="font-bold text-xl text-slate-900 mb-3">Meshless Repair</h3>
                 <p class="text-slate-600 text-sm leading-relaxed">For select patients, using tissue reconstruction for natural healing without synthetic materials.</p>
             </div>
-            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition border border-slate-100">
-                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition duration-300 border border-slate-100">
+                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 text-brand-700">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
                 <h3 class="font-bold text-xl text-slate-900 mb-3">Laparoscopic Repair</h3>
                 <p class="text-slate-600 text-sm leading-relaxed">Minimally invasive approach with smaller incisions, less pain, and faster recovery compared to open surgery.</p>
+            </div>
+        </div>
+
+        <!-- Feature Showcase Banner -->
+        <div class="mt-12 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10">
+            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
+                        <img src="<?= $base_path ?>assets/images/mesh-materials.png" alt="Mesh materials" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:col-span-7">
+                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                        Advanced Mesh Engineering
+                    </span>
+                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
+                        Precision Umbilical Reconstruction
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        Choosing the right approach is key to preventing umbilical hernia recurrence. Dr. Kumar assesses each hernia defect individually to determine if a lightweight anatomical mesh or a custom mesh-free suture repair will provide the strongest wall closure with the most natural healing.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Lightweight anatomical mesh</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Custom mesh-free tissue closure</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Daycare daycare options</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Less than 1% recurrence rate</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

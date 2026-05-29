@@ -74,80 +74,59 @@
 </footer>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Global Premium FAQ toggle handler
-    const faqToggles = document.querySelectorAll('.faq-toggle');
-    if (faqToggles.length > 0) {
-        faqToggles.forEach(toggle => {
-            toggle.addEventListener('click', function() {
-                const item = this.closest('.faq-item');
-                if (!item) return;
-                
-                const content = item.querySelector('.faq-content');
-                const symbol = item.querySelector('.faq-symbol');
-                const question = this.querySelector('span');
-                
-                const isOpen = !content.classList.contains('hidden');
-                
-                // Close all other items in the SAME container or category
-                const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
-                if (parentSection) {
-                    parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
-                        if (otherItem !== item) {
-                            otherItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                            otherItem.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                            
-                            const otherContent = otherItem.querySelector('.faq-content');
-                            if (otherContent) otherContent.classList.add('hidden');
-                            
-                            const otherSymbol = otherItem.querySelector('.faq-symbol');
-                            if (otherSymbol) {
-                                otherSymbol.textContent = '+';
-                                otherSymbol.classList.remove('bg-brand-800', 'text-white');
-                                otherSymbol.classList.add('bg-white', 'text-brand-700');
-                            }
-                            
-                            const otherQuestion = otherItem.querySelector('.faq-toggle span');
-                            if (otherQuestion) {
-                                otherQuestion.classList.remove('text-white');
-                                otherQuestion.classList.add('text-slate-900');
-                            }
-                        }
-                    });
-                }
-                
-                // Toggle clicked item
-                if (isOpen) {
-                    item.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                    item.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                    content.classList.add('hidden');
-                    if (symbol) {
-                        symbol.textContent = '+';
-                        symbol.classList.remove('bg-brand-800', 'text-white');
-                        symbol.classList.add('bg-white', 'text-brand-700');
-                    }
-                    if (question) {
-                        question.classList.remove('text-white');
-                        question.classList.add('text-slate-900');
-                    }
-                } else {
-                    item.classList.add('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                    item.classList.remove('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                    content.classList.remove('hidden');
-                    if (symbol) {
-                        symbol.textContent = '—';
-                        symbol.classList.add('bg-brand-800', 'text-white');
-                        symbol.classList.remove('bg-white', 'text-brand-700');
-                    }
-                    if (question) {
-                        question.classList.add('text-white');
-                        question.classList.remove('text-slate-900');
+(function() {
+    // Global Premium FAQ toggle handler using Event Delegation for bulletproof robustness
+    document.addEventListener('click', function(e) {
+        const toggle = e.target.closest('.faq-toggle');
+        if (!toggle) return;
+        
+        e.preventDefault();
+        console.log('FAQ toggle clicked:', toggle);
+        
+        const item = toggle.closest('.faq-item');
+        if (!item) return;
+        
+        const content = item.querySelector('.faq-content');
+        const symbol = item.querySelector('.faq-symbol');
+        const isOpen = item.classList.contains('active');
+        
+        console.log('FAQ state - Is open:', isOpen, 'Item:', item);
+
+        // Close all other items in the same category/container
+        const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
+        if (parentSection) {
+            parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove('active');
+                    const otherContent = otherItem.querySelector('.faq-content');
+                    if (otherContent) otherContent.classList.add('hidden');
+                    
+                    const otherSymbol = otherItem.querySelector('.faq-symbol');
+                    if (otherSymbol) {
+                        otherSymbol.textContent = '+';
                     }
                 }
             });
-        });
-    }
-});
+        }
+        
+        // Toggle clicked item
+        if (isOpen) {
+            item.classList.remove('active');
+            if (content) content.classList.add('hidden');
+            if (symbol) {
+                symbol.textContent = '+';
+            }
+            console.log('FAQ closed successfully');
+        } else {
+            item.classList.add('active');
+            if (content) content.classList.remove('hidden');
+            if (symbol) {
+                symbol.textContent = '—';
+            }
+            console.log('FAQ opened successfully');
+        }
+    });
+})();
 </script>
 
 </body>

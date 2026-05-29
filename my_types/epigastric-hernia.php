@@ -4,10 +4,6 @@ require __DIR__ . '/../includes/header.php';
 
 <!-- Hero Section -->
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
-    <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3bbb?w=1920&q=80" alt="Medical consultation" class="w-full h-full object-cover opacity-20">
-        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
-    </div>
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
             <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
@@ -44,54 +40,74 @@ require __DIR__ . '/../includes/header.php';
 <!-- About Section -->
 <section id="about" class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-3xl p-8 lg:p-12 border border-brand-100">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
-                    <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
-                        What is an Epigastric Hernia?
-                    </h2>
-                    <p class="text-slate-600 leading-relaxed mb-5 text-lg">
-                        An epigastric hernia develops along the linea alba, the fibrous band in the center of the abdomen, specifically in the area between the belly button (umbilicus) and the breastbone (xiphoid process).
-                    </p>
-                    <p class="text-slate-600 leading-relaxed mb-6 text-base">
-                        The linea alba is formed by the joining of the abdominal muscle sheaths at the midline. Small defects can allow fat from inside the abdomen to protrude, creating a visible or palpable bulge.
-                    </p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 shadow-lg">
-                    <h3 class="font-bold text-lg text-slate-900 mb-4">Key Characteristics</h3>
-                    <div class="space-y-3">
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <div class="lg:col-span-7">
+                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
+                    What is an Epigastric Hernia?
+                </h2>
+                <p class="text-slate-600 leading-relaxed mb-5 text-lg">
+                    An epigastric hernia develops along the linea alba, the fibrous band in the center of the abdomen, specifically in the area between the belly button (umbilicus) and the breastbone (xiphoid process).
+                </p>
+                <p class="text-slate-600 leading-relaxed mb-8 text-base">
+                    The linea alba is formed by the joining of the abdominal muscle sheaths at the midline. Small defects can allow fat from inside the abdomen to protrude, creating a visible or palpable bulge.
+                </p>
+
+                <div class="border-t border-slate-200/80 pt-8">
+                    <h3 class="font-bold text-xl text-slate-900 mb-6">Key Characteristics</h3>
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                             </div>
-                            <span class="text-slate-700">Located between umbilicus and xiphoid</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Midline Location</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Located specifically in the upper midline between the belly button and the breastbone.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4M4 4l5 5m11 11v-4m0 0h-4m4 4l-5-5"/></svg>
                             </div>
-                            <span class="text-slate-700">Often small and may not grow large</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Often Small</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Typically small defects containing preperitoneal fat, though they can occasionally enlarge.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
                             </div>
-                            <span class="text-slate-700">More common in men</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Gender Bias</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Epigastric hernias are about three times more common in men than in women.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                             </div>
-                            <span class="text-slate-700">Usually present at birth (congenital)</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Congenital Factor</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Often present at birth due to a weakness or opening in the fibrous linea alba.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5 sm:col-span-2">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                             </div>
-                            <span class="text-slate-700">May appear with strain or exertion</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Triggered by Strain</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">The bulge may appear or become more prominent during physical exertion, coughing, heavy lifting, or straining.</p>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
+                    <img src="<?= $base_path ?>assets/images/paraumbilical-new.png" alt="Epigastric Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
@@ -99,7 +115,7 @@ require __DIR__ . '/../includes/header.php';
 </section>
 
 <!-- Signs & Symptoms Section -->
-<section class="py-16 md:py-24 bg-white">
+<section class="py-16 md:py-24 bg-gradient-to-b from-white via-slate-50 to-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -109,55 +125,83 @@ require __DIR__ . '/../includes/header.php';
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
                 Signs & <span class="text-brand-700">Symptoms</span>
             </h2>
+            <p class="text-slate-600 text-lg">Recognizing epigastric hernia indicators early helps prevent progressive complications.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <!-- Doctor Column on the Left -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-[3/4]">
+                    <img src="<?= $base_path ?>assets/images/doctor.png" alt="Symptom Consultation" class="w-full h-full object-cover">
+                    <!-- Subtle Dark Overlay for contrast -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"></div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Visible Bulge</h3>
-                <p class="text-slate-600 text-sm">A small bulge or lump felt between the belly button and chest, especially when standing or straining.</p>
+                <!-- Floating Diagnosis Info Badge -->
+                <div class="absolute -bottom-6 -right-6 md:right-4 bg-white rounded-2xl shadow-xl p-5 border border-slate-100 max-w-xs hover:scale-105 transition duration-300">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Clinical Guidance</p>
+                            <p class="text-sm font-bold text-slate-900 mt-0.5">Professional evaluation is recommended for persistent midline bulges.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Pain or Discomfort</h3>
-                <p class="text-slate-600 text-sm">Aching pain in the upper abdomen that may worsen with activity, coughing, or lifting heavy objects.</p>
-            </div>
+            <!-- Symptoms Column on the Right -->
+            <div class="lg:col-span-7">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Visible Midline Bulge</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">A small bulge or lump felt between the belly button and chest, especially when standing or straining.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Intermittent Bulge</h3>
-                <p class="text-slate-600 text-sm">The bulge may come and go, appearing more prominent during physical activity and reducing when lying down.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Pain or Discomfort</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Aching pain in the upper abdomen that may worsen with activity, coughing, or lifting heavy objects.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Feeling of Fullness</h3>
-                <p class="text-slate-600 text-sm">Feeling of fullness or heaviness in the upper abdomen, particularly after meals.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Intermittent Bulge</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">The bulge may come and go, appearing more prominent during physical activity and reducing when lying down.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">No Symptoms</h3>
-                <p class="text-slate-600 text-sm">Many small epigastric hernias are incidentally discovered and cause no symptoms at all.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Feeling of Fullness</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Feeling of fullness or heaviness in the upper abdomen, particularly after meals.</p>
+                    </div>
 
-            <div class="bg-brand-100 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-700 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">No Symptoms</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Many small epigastric hernias are incidentally discovered and cause no symptoms at all.</p>
+                    </div>
+
+                    <!-- Red Emergency Card -->
+                    <div class="bg-rose-50 rounded-2xl p-6 border border-rose-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-500 flex items-center justify-center text-white mb-4 shadow-md shadow-rose-200">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-rose-950 mb-2">Emergency Signs</h3>
+                        <p class="text-rose-800 text-sm leading-relaxed font-semibold">Severe pain, nausea, vomiting - may indicate strangulation requiring immediate medical attention.</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Emergency Signs</h3>
-                <p class="text-slate-600 text-sm">Severe pain, nausea, vomiting - may indicate strangulation requiring immediate medical attention.</p>
             </div>
         </div>
     </div>
@@ -172,49 +216,88 @@ require __DIR__ . '/../includes/header.php';
                 Treatment
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
-                Treatment <span class="text-brand-700">Approach</span>
+                Treatment <span class="text-brand-700">Approaches</span>
             </h2>
             <p class="text-slate-600 text-lg">Treatment recommendations depend on hernia size, symptoms, and patient factors.</p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-2xl p-8 text-center border border-slate-100 hover:shadow-lg transition">
-                <div class="w-20 h-20 rounded-full bg-brand-100 flex items-center justify-center mx-auto mb-6">
-                    <span class="text-2xl font-bold text-brand-700">1</span>
+        <div class="grid sm:grid-cols-3 gap-6">
+            <div class="bg-white rounded-3xl p-8 text-center border border-slate-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
+                <div>
+                    <div class="w-16 h-16 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6 text-brand-700 border border-brand-100">
+                        <span class="text-2xl font-bold">1</span>
+                    </div>
+                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Watchful Waiting</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                        Small, asymptomatic hernias may simply be monitored. Surgery may not be needed if no symptoms develop.
+                    </p>
                 </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Watchful Waiting</h3>
-                <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                    Small, asymptomatic hernias may simply be monitored. Surgery may not be needed if no symptoms develop.
-                </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">
                     For small, painless hernias
                 </span>
             </div>
 
-            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 text-center border border-brand-100 hover:shadow-lg transition">
-                <div class="w-20 h-20 rounded-full bg-brand-700 flex items-center justify-center mx-auto mb-6">
-                    <span class="text-2xl font-bold text-white">2</span>
+            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-3xl p-8 text-center border border-brand-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
+                <div>
+                    <div class="w-16 h-16 rounded-full bg-brand-700 flex items-center justify-center mx-auto mb-6 text-white shadow-md shadow-brand-100">
+                        <span class="text-2xl font-bold">2</span>
+                    </div>
+                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Open Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6 font-medium">
+                        Traditional surgical repair with a small incision over the hernia site. Suitable for most epigastric hernias.
+                    </p>
                 </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Open Repair</h3>
-                <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                    Traditional surgical repair with a small incision over the hernia site. Suitable for most epigastric hernias.
-                </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                <span class="inline-flex items-center gap-2 px-4 py-2 bg-brand-100 text-brand-700 rounded-full text-xs font-bold border border-brand-200">
                     Most common approach
                 </span>
             </div>
 
-            <div class="bg-white rounded-2xl p-8 text-center border border-slate-100 hover:shadow-lg transition">
-                <div class="w-20 h-20 rounded-full bg-brand-100 flex items-center justify-center mx-auto mb-6">
-                    <span class="text-2xl font-bold text-brand-700">3</span>
+            <div class="bg-white rounded-3xl p-8 text-center border border-slate-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
+                <div>
+                    <div class="w-16 h-16 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6 text-brand-700 border border-brand-100">
+                        <span class="text-2xl font-bold">3</span>
+                    </div>
+                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Laparoscopic Repair</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                        Minimally invasive option with small incisions and a camera-guided approach. Faster recovery and less scarring.
+                    </p>
                 </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Laparoscopic Repair</h3>
-                <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                    Minimally invasive option with small incisions and a camera-guided approach. Faster recovery and less scarring.
-                </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">
                     Faster recovery
                 </span>
+            </div>
+        </div>
+
+        <!-- Premium Showcase Banner -->
+        <div class="mt-16 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 text-white">
+            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
+                        <img src="<?= $base_path ?>assets/images/laparoscopic-precision.png" alt="Laparoscopic precision" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:col-span-7">
+                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                        Advanced Minimally Invasive Option
+                    </span>
+                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
+                        Laparoscopic Epigastric Hernia Repair
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        For larger epigastric defects or when multiple midline weaknesses are present, Dr. Kumar performs advanced laparoscopic repairs. By accessing the abdominal wall through tiny incisions away from the midline, we place a supportive mesh behind the muscles to prevent recurrences while ensuring a much faster recovery, less post-operative pain, and outstanding aesthetic outcomes.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Laparoscopic precision</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Substantially lower recurrence rate</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

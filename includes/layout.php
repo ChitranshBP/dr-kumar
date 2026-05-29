@@ -5,7 +5,7 @@ $page_title       ??= 'Dr. Kumar - Best Advanced Hernia & Laparoscopic Surgeon i
 $page_description ??= 'Expert hernia treatment by Dr. Kumar in Chennai. Advanced laparoscopic, robotic & eTEP hernia surgery with 29+ years of experience.';
 $page_keywords    ??= 'hernia surgery Chennai, best hernia surgeon Chennai, laparoscopic hernia repair';
 $page_url         ??= $site['url'] . basename(dirname($_SERVER['PHP_SELF'])) . '/';
-$page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
+$page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -140,11 +140,29 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main.jpg';
         body.sub-page section:first-of-type,
         body.sub-page main > section:first-of-type {
             position: relative !important;
-            background-image: linear-gradient(to bottom right, rgba(14, 116, 144, 0.9), rgba(15, 23, 42, 0.95)), url('<?= $base_path ?>assets/images/bg-breadcrumb.png') !important;
+            background-image: linear-gradient(rgba(15, 23, 42, 0.40), rgba(15, 23, 42, 0.40)), linear-gradient(to bottom right, rgba(14, 116, 144, 0.60), rgba(15, 23, 42, 0.80)), url('<?= $base_path ?>assets/images/bg-breadcrumb.png?v=2') !important;
             background-size: cover !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
-            background-blend-mode: multiply !important;
+            background-blend-mode: normal !important;
+        }
+
+        /* FAQ Premium Toggles */
+        .faq-item.active {
+            background-color: #0e7490 !important; /* bg-brand-700 */
+            color: #ffffff !important;
+            border-color: transparent !important;
+            box-shadow: 0 10px 25px -5px rgba(14, 116, 144, 0.3), 0 8px 10px -6px rgba(14, 116, 144, 0.3) !important;
+        }
+        .faq-item.active .faq-toggle span {
+            color: #ffffff !important;
+        }
+        .faq-item.active .faq-symbol {
+            background-color: #083344 !important; /* bg-brand-950 */
+            color: #ffffff !important;
+        }
+        .faq-item.active .faq-content {
+            display: block !important;
         }
     </style>
 </head>

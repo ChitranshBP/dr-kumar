@@ -96,53 +96,8 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="bg-slate-50 rounded-3xl p-8 border border-slate-200">
-                <svg class="w-full" viewBox="0 0 400 300" fill="none">
-                    <!-- Comparison: Flat vs 3D -->
-                    <text x="100" y="30" text-anchor="middle" fill="#64748b" font-size="14" font-weight="bold">Traditional Flat Mesh</text>
-                    <text x="300" y="30" text-anchor="middle" fill="#0e7490" font-size="14" font-weight="bold">3D Mesh</text>
-
-                    <!-- Flat mesh -->
-                    <rect x="30" y="50" width="140" height="100" rx="5" fill="#94a3b8" stroke="#64748b" stroke-width="2"/>
-                    <line x1="40" y1="60" x2="160" y2="60" stroke="#64748b" stroke-width="1"/>
-                    <line x1="40" y1="80" x2="160" y2="80" stroke="#64748b" stroke-width="1"/>
-                    <line x1="40" y1="100" x2="160" y2="100" stroke="#64748b" stroke-width="1"/>
-                    <line x1="40" y1="120" x2="160" y2="120" stroke="#64748b" stroke-width="1"/>
-                    <line x1="60" y1="50" x2="60" y2="150" stroke="#64748b" stroke-width="1"/>
-                    <line x1="100" y1="50" x2="100" y2="150" stroke="#64748b" stroke-width="1"/>
-                    <line x1="140" y1="50" x2="140" y2="150" stroke="#64748b" stroke-width="1"/>
-                    <!-- Curved surface representation -->
-                    <path d="M50 160 Q100 180 150 160" stroke="#94a3b8" stroke-width="2" fill="none"/>
-                    <text x="100" y="195" text-anchor="middle" fill="#ef4444" font-size="10">Gap/Folding</text>
-                    <!-- Arrow indicating problem -->
-                    <path d="M100 170 L100 185" stroke="#ef4444" stroke-width="2" marker-end="url(#arrowhead)"/>
-
-                    <!-- 3D Mesh -->
-                    <path d="M230 50 L270 50 L300 80 L300 150 L270 170 L230 170 L200 150 L200 80 Z" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="2"/>
-                    <path d="M230 50 L270 50 L300 80 L300 150 L270 170 L230 170 L200 150 L200 80 Z" fill="none" stroke="#0e7490" stroke-width="2"/>
-                    <!-- Mesh pattern -->
-                    <line x1="210" y1="90" x2="290" y2="90" stroke="#0e7490" stroke-width="1" opacity="0.7"/>
-                    <line x1="205" y1="110" x2="295" y2="110" stroke="#0e7490" stroke-width="1" opacity="0.7"/>
-                    <line x1="205" y1="130" x2="295" y2="130" stroke="#0e7490" stroke-width="1" opacity="0.7"/>
-                    <line x1="210" y1="150" x2="290" y2="150" stroke="#0e7490" stroke-width="1" opacity="0.7"/>
-                    <!-- 3D depth lines -->
-                    <line x1="200" y1="80" x2="200" y2="150" stroke="#0e7490" stroke-width="1" opacity="0.5"/>
-                    <line x1="230" y1="50" x2="230" y2="170" stroke="#0e7490" stroke-width="1" opacity="0.5"/>
-                    <line x1="270" y1="50" x2="270" y2="170" stroke="#0e7490" stroke-width="1" opacity="0.5"/>
-                    <line x1="300" y1="80" x2="300" y2="150" stroke="#0e7490" stroke-width="1" opacity="0.5"/>
-                    <!-- Curved surface representation -->
-                    <path d="M200 180 Q250 200 300 180" stroke="#0e7490" stroke-width="2" fill="none"/>
-                    <text x="250" y="215" text-anchor="middle" fill="#10b981" font-size="10">Contour Matching</text>
-                    <path d="M250 195 L250 205" stroke="#10b981" stroke-width="2"/>
-
-                    <!-- Labels -->
-                    <text x="100" y="240" text-anchor="middle" fill="#64748b" font-size="12">May not conform to body shape</text>
-                    <text x="250" y="240" text-anchor="middle" fill="#0e7490" font-size="12">Pre-shaped for anatomical fit</text>
-
-                    <!-- Check marks for 3D -->
-                    <circle cx="250" cy="260" r="12" fill="#10b981"/>
-                    <path d="M244 260 L248 264 L256 256" stroke="white" stroke-width="2" fill="none"/>
-                </svg>
+            <div class="bg-slate-50 rounded-3xl p-4 border border-slate-200 shadow-inner">
+                <img src="<?= $base_path ?>assets/images/mesh-comparison-3d.png" alt="Traditional Flat Mesh vs 3D Mesh Comparison" class="w-full h-auto object-cover rounded-2xl shadow-md border border-slate-200/50" />
             </div>
         </div>
     </div>
@@ -213,53 +168,8 @@ require __DIR__ . '/../includes/header.php';
 <section class="py-16 lg:py-20">
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
-            <div class="order-2 lg:order-1">
-                <svg class="w-full" viewBox="0 0 400 350" fill="none">
-                    <!-- Cross-section view of body wall -->
-                    <rect x="50" y="50" width="300" height="200" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
-                    <text x="200" y="30" text-anchor="middle" fill="#64748b" font-size="12">Abdominal Wall Cross-Section</text>
-
-                    <!-- Layers -->
-                    <rect x="60" y="60" width="280" height="40" rx="5" fill="#fecaca" stroke="#ef4444" stroke-width="1"/>
-                    <text x="90" y="85" fill="#991b1b" font-size="9">Skin</text>
-
-                    <rect x="60" y="100" width="280" height="30" rx="3" fill="#fde68a" stroke="#eab308" stroke-width="1"/>
-                    <text x="90" y="120" fill="#a16207" font-size="9">Fat</text>
-
-                    <rect x="60" y="130" width="280" height="60" rx="3" fill="#d1fae5" stroke="#22c55e" stroke-width="1"/>
-                    <text x="90" y="165" fill="#15803d" font-size="9">Muscle</text>
-
-                    <rect x="60" y="190" width="280" height="30" rx="3" fill="#fed7aa" stroke="#f97316" stroke-width="1"/>
-                    <text x="90" y="210" fill="#c2410c" font-size="9">Peritoneum</text>
-
-                    <!-- Hernia defect -->
-                    <ellipse cx="200" cy="180" rx="40" ry="25" fill="#fef3c7" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/>
-                    <text x="200" y="183" text-anchor="middle" fill="#dc2626" font-size="10">Hernia</text>
-
-                    <!-- 3D Mesh placed -->
-                    <path d="M140 140 L180 130 L220 130 L260 140 L260 190 L220 200 L180 200 L140 190 Z" fill="#0e7490" opacity="0.4" stroke="#0e7490" stroke-width="2"/>
-                    <text x="200" y="175" text-anchor="middle" fill="white" font-size="9" font-weight="bold">3D MESH</text>
-
-                    <!-- Mesh fixation points -->
-                    <circle cx="150" cy="140" r="4" fill="#f59e0b"/>
-                    <circle cx="250" cy="140" r="4" fill="#f59e0b"/>
-                    <circle cx="150" cy="190" r="4" fill="#f59e0b"/>
-                    <circle cx="250" cy="190" r="4" fill="#f59e0b"/>
-                    <circle cx="200" cy="135" r="4" fill="#f59e0b"/>
-
-                    <!-- Label pointing to mesh -->
-                    <line x1="320" y1="165" x2="270" y2="165" stroke="#0e7490" stroke-width="1"/>
-                    <text x="330" y="160" fill="#0e7490" font-size="10">3D Mesh</text>
-                    <text x="330" y="173" fill="#64748b" font-size="9">spans defect</text>
-
-                    <!-- Key -->
-                    <rect x="70" y="280" width="260" height="50" rx="5" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-                    <text x="80" y="300" fill="#64748b" font-size="10" font-weight="bold">Legend:</text>
-                    <circle cx="95" cy="315" r="4" fill="#f59e0b"/>
-                    <text x="105" y="318" fill="#64748b" font-size="9">Fixation points</text>
-                    <rect x="160" y="310" width="15" height="10" fill="#0e7490" opacity="0.4" stroke="#0e7490"/>
-                    <text x="180" y="318" fill="#64748b" font-size="9">3D Mesh implant</text>
-                </svg>
+            <div class="order-2 lg:order-1 bg-slate-50 rounded-3xl p-4 border border-slate-200 shadow-inner">
+                <img src="<?= $base_path ?>assets/images/mesh-mechanics-3d.png" alt="How 3D Mesh Works Cross-Section" class="w-full h-auto object-cover rounded-2xl shadow-md border border-slate-200/50" />
             </div>
             <div class="order-1 lg:order-2">
                 <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">How It Works</span>
