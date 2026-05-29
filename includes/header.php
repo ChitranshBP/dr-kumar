@@ -38,8 +38,8 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
     <meta name="geo.placename" content="Chennai">
     <meta name="theme-color" content="#0e7490">
 
-    <link rel="icon" type="image/png" href="<?= $base_path . $site['logo'] ?>">
-    <link rel="apple-touch-icon" href="<?= $base_path . $site['logo'] ?>">
+    <link rel="icon" type="image/png" href="<?= $base_path ?>assets/images/herniacare360-new-logo.png">
+    <link rel="apple-touch-icon" href="<?= $base_path ?>assets/images/herniacare360-new-logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -328,7 +328,7 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
 
             <!-- LOGO -->
             <a href="<?= $base_path ?>index.php" class="flex items-center shrink-0">
-                <img src="<?= $base_path . $site['logo'] ?>" alt="Dr. Kumar" width="220" height="56" class="h-14 w-auto">
+                <img src="<?= $base_path ?>assets/images/herniacare360-new-logo.png" alt="Dr. Kumar" width="260" height="70" class="h-20 w-auto">
             </a>
 
             <!-- DESKTOP NAV -->
@@ -420,7 +420,7 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
 <div id="mobileOverlay" class="mobile-overlay lg:hidden"></div>
 <aside id="mobileDrawer" class="mobile-drawer lg:hidden">
     <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100">
-        <img src="<?= $base_path . $site['logo'] ?>" alt="Logo" class="h-10 w-auto">
+        <img src="<?= $base_path ?>assets/images/herniacare360-new-logo.png" alt="Logo" class="h-14 w-auto">
         <button id="drawerClose" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-slate-200 flex items-center justify-center transition" aria-label="Close menu">
             <svg class="w-5 h-5 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
         </button>

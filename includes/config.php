@@ -2,6 +2,7 @@
 // Calculate base path dynamically to avoid broken assets or pages in subdirectories
 $project_root = dirname(__DIR__);
 $current_script = $_SERVER['SCRIPT_FILENAME'] ?? '';
+// Respect base_path if already set (by build.php), only calculate if not set
 if (!isset($base_path)) {
     $base_path = '';
 
@@ -165,16 +166,16 @@ $herniaConditions = [
 ];
 
 $treatments = [
-    ['title' => 'Hernia Surgery',     'img' => 'assets/images/hernia-surgery-new.png',  'desc' => 'Advanced laparoscopic & robotic hernia repair with faster recovery.'],
-    ['title' => 'Gallbladder Stone',  'img' => 'assets/images/gallbladder-new.png',     'desc' => 'Laparoscopic cholecystectomy for safe, scar-minimal removal.'],
-    ['title' => 'Laparoscopic',       'img' => 'assets/images/laparoscopic-new.png',    'desc' => 'Keyhole surgery for GI, hernia & more.'],
-    ['title' => 'GERD / Reflux',       'img' => 'assets/images/gerd-new.png',            'desc' => 'Lap fundoplication for chronic acid reflux.'],
-    ['title' => 'Piles / Hemorrhoids', 'img' => 'assets/images/piles-new.png',           'desc' => 'Laser & stapler hemorrhoidectomy.'],
-    ['title' => 'Anal Fissure',       'img' => 'assets/images/fissure-new.png',         'desc' => 'Painless treatment with sphincterotomy.'],
-    ['title' => 'Appendix',            'img' => 'assets/images/appendix-new.png',        'desc' => 'Laparoscopic appendectomy, 24-hour discharge.'],
-    ['title' => 'Anal Fistula',        'img' => 'assets/images/fistula-new.png',         'desc' => 'Sphincter-sparing fistula surgery.'],
-    ['title' => 'Breast Surgery',      'img' => 'assets/images/breast-new.png',          'desc' => 'Lumpectomy, mastectomy & oncoplastic care.'],
-    ['title' => 'Thyroid Surgery',     'img' => 'assets/images/thyroid-new.png',         'desc' => 'Total & hemi thyroidectomy with nerve monitoring.'],
+    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia.php'],
+    ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia.php'],
+    ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia.php'],
+    ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia.php'],
+    ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Da Vinci robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
+    ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-repair.php'],
+    ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia.php'],
+    ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/hernia-surgery.php'],
+    ['title' => 'Emergency Hernia Care',         'img' => 'assets/images/complications_emergency.png','desc' => '24/7 emergency strangulated hernia management.',                               'link' => 'emergency-hernia-care.php'],
+    ['title' => 'Hernia Mesh Repair',            'img' => 'assets/images/mesh-comparison-3d.png',   'desc' => '3D mesh, biological mesh, & self-gripping options.',                          'link' => 'treatment/mesh-repair.php'],
 ];
 
 $stats = [

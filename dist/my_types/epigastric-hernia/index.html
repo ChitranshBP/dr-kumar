@@ -16,21 +16,21 @@
     <meta property="og:title" content="Dr. Kumar - Best Advanced Hernia &amp; Laparoscopic Surgeon in Chennai">
     <meta property="og:description" content="Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction &amp; Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.">
     <meta property="og:url" content="https://surgeondrkumar.com/">
-    <meta property="og:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main.jpg">
+    <meta property="og:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main-image.png">
     <meta property="og:site_name" content="Dr. Kumar - Advanced Hernia &amp; Laparoscopic Surgeon">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dr. Kumar - Best Advanced Hernia &amp; Laparoscopic Surgeon in Chennai">
     <meta name="twitter:description" content="Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction &amp; Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.">
-    <meta name="twitter:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main.jpg">
+    <meta name="twitter:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main-image.png">
 
     <meta name="geo.region" content="IN-TN">
     <meta name="geo.placename" content="Chennai">
     <meta name="theme-color" content="#0e7490">
 
-    <link rel="icon" type="image/png" href="../../assets/images/logo.png">
-    <link rel="apple-touch-icon" href="../../assets/images/logo.png">
+    <link rel="icon" type="image/png" href="../assets/images/herniacare360-new-logo.png">
+    <link rel="apple-touch-icon" href="../assets/images/herniacare360-new-logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,6 +50,7 @@
                             700: '#0e7490',
                             800: '#155e75',
                             900: '#164e63',
+                            950: '#083344',
                         },
                         accent: '#f59e0b',
                     },
@@ -67,7 +68,7 @@
       "@context": "https://schema.org",
       "@type": "Physician",
       "name": "Dr. Kumar",
-      "image": "https://surgeondrkumar.com/assets/images/dr-kumar-main.jpg",
+      "image": "https://surgeondrkumar.com/assets/images/dr-kumar-main-image.png",
       "url": "https://surgeondrkumar.com/",
       "telephone": "+91 79042 17129",
       "medicalSpecialty": ["Surgery", "Laparoscopic Surgery", "Robotic Surgery"],
@@ -282,12 +283,30 @@
         body.sub-page section:first-of-type,
         body.sub-page main > section:first-of-type {
             position: relative !important;
-            background-image: linear-gradient(to bottom right, rgba(14, 116, 144, 0.9), rgba(15, 23, 42, 0.95)), url('../../assets/images/bg-breadcrumb.png') !important;
+            background-image: linear-gradient(rgba(15, 23, 42, 0.40), rgba(15, 23, 42, 0.40)), linear-gradient(to bottom right, rgba(14, 116, 144, 0.60), rgba(15, 23, 42, 0.80)), url('../assets/images/bg-breadcrumb.png?v=2') !important;
             background-size: cover !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
-            background-blend-mode: multiply !important;
+            background-blend-mode: normal !important;
             padding-top: 110px !important;
+        }
+
+        /* FAQ Premium Toggles */
+        .faq-item.active {
+            background-color: #0e7490 !important; /* bg-brand-700 */
+            color: #ffffff !important;
+            border-color: transparent !important;
+            box-shadow: 0 10px 25px -5px rgba(14, 116, 144, 0.3), 0 8px 10px -6px rgba(14, 116, 144, 0.3) !important;
+        }
+        .faq-item.active .faq-toggle span {
+            color: #ffffff !important;
+        }
+        .faq-item.active .faq-symbol {
+            background-color: #083344 !important; /* bg-brand-950 */
+            color: #ffffff !important;
+        }
+        .faq-item.active .faq-content {
+            display: block !important;
         }
     </style>
 </head>
@@ -299,18 +318,18 @@
         <nav class="flex items-center justify-between gap-6 py-3">
 
             <!-- LOGO -->
-            <a href="../../index/" class="flex items-center shrink-0">
-                <img src="../../assets/images/logo.png" alt="Dr. Kumar" width="220" height="56" class="h-14 w-auto">
+            <a href="../index/" class="flex items-center shrink-0">
+                <img src="../assets/images/herniacare360-new-logo.png" alt="Dr. Kumar" width="260" height="70" class="h-20 w-auto">
             </a>
 
             <!-- DESKTOP NAV -->
             <ul class="hidden lg:flex items-center flex-nowrap gap-1 xl:gap-2">
                                     <li class="">
-                                                    <a href="../../index/" class="nav-link ">
+                                                    <a href="../index/" class="nav-link ">
                                 Home                            </a>
                                             </li>
                                     <li class="">
-                                                    <a href="../../about-us/" class="nav-link ">
+                                                    <a href="../about-us/" class="nav-link ">
                                 About Us                            </a>
                                             </li>
                                     <li class="has-dropdown">
@@ -323,23 +342,23 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Understanding Hernia</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../hernia/what-is-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../hernia/what-is-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>What is a Hernia?</span>
                                                     </a>
-                                                                                                    <a href="../../hernia/causes/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../hernia/causes/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Causes & Risks</span>
                                                     </a>
-                                                                                                    <a href="../../hernia/symptoms/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../hernia/symptoms/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Symptoms & Signs</span>
                                                     </a>
-                                                                                                    <a href="../../hernia/diagnosis/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../hernia/diagnosis/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Diagnosis Methods</span>
                                                     </a>
-                                                                                                    <a href="../../hernia/complications/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../hernia/complications/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Complications</span>
                                                     </a>
@@ -348,35 +367,35 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Hernia Types</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../my_types/inguinal-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/inguinal-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Inguinal Hernia (Groin)</span>
                                                     </a>
-                                                                                                    <a href="../../my_types/umbilical-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/umbilical-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Umbilical Hernia (Navel)</span>
                                                     </a>
-                                                                                                    <a href="../../my_types/incisional-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/incisional-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Incisional Hernia (Scar)</span>
                                                     </a>
-                                                                                                    <a href="../../my_types/ventral-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/ventral-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Ventral Hernia (Abdomen)</span>
                                                     </a>
-                                                                                                    <a href="../../my_types/femoral-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/femoral-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Femoral Hernia (Groin)</span>
                                                     </a>
-                                                                                                    <a href="../../my_types/hiatal-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/hiatal-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Hiatal Hernia (Internal)</span>
                                                     </a>
-                                                                                                    <a href="../../my_types/epigastric-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/epigastric-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Epigastric Hernia</span>
                                                     </a>
-                                                                                                    <a href="../../my_types/strangulated-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../my_types/strangulated-hernia/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Strangulated (Emergency)</span>
                                                     </a>
@@ -395,27 +414,27 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Surgical Procedures</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../treatment/hernia-surgery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../treatment/hernia-surgery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Hernia Surgery Overview</span>
                                                     </a>
-                                                                                                    <a href="../../treatment/laparoscopic-hernia-surgery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../treatment/laparoscopic-hernia-surgery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Laparoscopic Surgery</span>
                                                     </a>
-                                                                                                    <a href="../../robotic-hernia-surgery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../robotic-hernia-surgery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Robotic Hernia Surgery</span>
                                                     </a>
-                                                                                                    <a href="../../treatment/tapp-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../treatment/tapp-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>TAPP Repair Technique</span>
                                                     </a>
-                                                                                                    <a href="../../treatment/tep-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../treatment/tep-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>TEP Repair Technique</span>
                                                     </a>
-                                                                                                    <a href="../../treatment/etep-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../treatment/etep-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>eTEP Repair Technique</span>
                                                     </a>
@@ -424,11 +443,11 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Mesh & Recovery</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../treatment/mesh-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../treatment/mesh-repair/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Mesh Repair Technology</span>
                                                     </a>
-                                                                                                    <a href="../../treatment/recovery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../treatment/recovery/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Post-Op Recovery Process</span>
                                                     </a>
@@ -447,23 +466,23 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Surgical Innovation</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../advanced-techniques/da-vinci-system/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../advanced-techniques/da-vinci-system/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Da Vinci Robotic System</span>
                                                     </a>
-                                                                                                    <a href="../../advanced-techniques/3d-mesh/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../advanced-techniques/3d-mesh/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>3D Mesh Implants</span>
                                                     </a>
-                                                                                                    <a href="../../advanced-techniques/biological-mesh/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../advanced-techniques/biological-mesh/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Biological Mesh Options</span>
                                                     </a>
-                                                                                                    <a href="../../advanced-techniques/self-gripping-mesh/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../advanced-techniques/self-gripping-mesh/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Self-Gripping Mesh Tech</span>
                                                     </a>
-                                                                                                    <a href="../../advanced-techniques/eras-protocol/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../advanced-techniques/eras-protocol/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>ERAS Recovery Protocol</span>
                                                     </a>
@@ -482,23 +501,23 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Special Considerations</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../special-considerations/complex-hernia-info/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../special-considerations/complex-hernia-info/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Complex Hernia Info</span>
                                                     </a>
-                                                                                                    <a href="../../special-considerations/obesity/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../special-considerations/obesity/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Obesity & Hernia</span>
                                                     </a>
-                                                                                                    <a href="../../special-considerations/diabetes/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../special-considerations/diabetes/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Diabetes & Hernia</span>
                                                     </a>
-                                                                                                    <a href="../../special-considerations/pregnancy/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../special-considerations/pregnancy/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Pregnancy & Hernia Care</span>
                                                     </a>
-                                                                                                    <a href="../../special-considerations/elderly/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../special-considerations/elderly/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Elderly Hernia Care</span>
                                                     </a>
@@ -507,15 +526,15 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Services & Consults</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../emergency-hernia-care/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../emergency-hernia-care/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Emergency Hernia Care</span>
                                                     </a>
-                                                                                                    <a href="../../online-consultation/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../online-consultation/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Online Consultation Portal</span>
                                                     </a>
-                                                                                                    <a href="../../second-opinion/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../second-opinion/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Expert Second Opinion</span>
                                                     </a>
@@ -524,15 +543,15 @@
                                                                             <div>
                                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-3 border-b border-slate-100 pb-1.5">Patient Resources</p>
                                             <div class="flex flex-col gap-1">
-                                                                                                    <a href="../../resources/patient-resources/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../resources/patient-resources/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Education & Resources</span>
                                                     </a>
-                                                                                                    <a href="../../resources/faqs/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../resources/faqs/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>FAQs</span>
                                                     </a>
-                                                                                                    <a href="../../resources/glossary/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
+                                                                                                    <a href="../resources/glossary/" class="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition ">
                                                         <svg class="w-3 h-3 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                                                         <span>Medical Glossary & Terms</span>
                                                     </a>
@@ -542,7 +561,7 @@
                             </div>
                                             </li>
                                     <li class="">
-                                                    <a href="../../contact/" class="nav-link ">
+                                                    <a href="../contact/" class="nav-link ">
                                 Contact Us                            </a>
                                             </li>
                             </ul>
@@ -550,7 +569,7 @@
             <!-- RIGHT: CTA -->
             <div class="flex items-center gap-1">
                 <span class="hidden md:block w-px h-6 bg-slate-200 mx-2"></span>
-                <a href="../../book-appointment/" class="cta-btn hidden md:inline-flex">
+                <a href="../book-appointment/" class="cta-btn hidden md:inline-flex">
                     Appointment
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
@@ -570,17 +589,17 @@
 <div id="mobileOverlay" class="mobile-overlay lg:hidden"></div>
 <aside id="mobileDrawer" class="mobile-drawer lg:hidden">
     <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100">
-        <img src="../../assets/images/logo.png" alt="Logo" class="h-10 w-auto">
+        <img src="../assets/images/herniacare360-new-logo.png" alt="Logo" class="h-14 w-auto">
         <button id="drawerClose" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-slate-200 flex items-center justify-center transition" aria-label="Close menu">
             <svg class="w-5 h-5 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
         </button>
     </div>
 
     <nav class="flex-1 overflow-y-auto px-4 py-4 space-y-2 select-none">
-                                    <a href="../../index/" class="mobile-link rounded-lg hover:bg-slate-50 js-drawer-close">
+                                    <a href="../index/" class="mobile-link rounded-lg hover:bg-slate-50 js-drawer-close">
                     <span>Home</span>
                 </a>
-                                                <a href="../../about-us/" class="mobile-link rounded-lg hover:bg-slate-50 js-drawer-close">
+                                                <a href="../about-us/" class="mobile-link rounded-lg hover:bg-slate-50 js-drawer-close">
                     <span>About Us</span>
                 </a>
                                                 <div class="mobile-accordion">
@@ -591,58 +610,58 @@
                     <div id="mob-ac-2" class="mobile-accordion-content hidden pl-4 pr-2 py-2 space-y-3 bg-slate-50/55 border-l-2 border-brand-600 rounded-r-lg mt-1">
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Understanding Hernia</p>
-                                                                    <a href="../../hernia/what-is-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../hernia/what-is-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>What is a Hernia?</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../hernia/causes/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../hernia/causes/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Causes & Risks</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../hernia/symptoms/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../hernia/symptoms/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Symptoms & Signs</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../hernia/diagnosis/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../hernia/diagnosis/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Diagnosis Methods</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../hernia/complications/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../hernia/complications/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Complications</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
                                                             </div>
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Hernia Types</p>
-                                                                    <a href="../../my_types/inguinal-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/inguinal-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Inguinal Hernia (Groin)</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../my_types/umbilical-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/umbilical-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Umbilical Hernia (Navel)</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../my_types/incisional-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/incisional-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Incisional Hernia (Scar)</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../my_types/ventral-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/ventral-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Ventral Hernia (Abdomen)</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../my_types/femoral-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/femoral-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Femoral Hernia (Groin)</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../my_types/hiatal-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/hiatal-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Hiatal Hernia (Internal)</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../my_types/epigastric-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/epigastric-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Epigastric Hernia</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../my_types/strangulated-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../my_types/strangulated-hernia/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Strangulated (Emergency)</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
@@ -657,38 +676,38 @@
                     <div id="mob-ac-3" class="mobile-accordion-content hidden pl-4 pr-2 py-2 space-y-3 bg-slate-50/55 border-l-2 border-brand-600 rounded-r-lg mt-1">
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Surgical Procedures</p>
-                                                                    <a href="../../treatment/hernia-surgery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../treatment/hernia-surgery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Hernia Surgery Overview</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../treatment/laparoscopic-hernia-surgery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../treatment/laparoscopic-hernia-surgery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Laparoscopic Surgery</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../robotic-hernia-surgery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../robotic-hernia-surgery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Robotic Hernia Surgery</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../treatment/tapp-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../treatment/tapp-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>TAPP Repair Technique</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../treatment/tep-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../treatment/tep-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>TEP Repair Technique</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../treatment/etep-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../treatment/etep-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>eTEP Repair Technique</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
                                                             </div>
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Mesh & Recovery</p>
-                                                                    <a href="../../treatment/mesh-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../treatment/mesh-repair/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Mesh Repair Technology</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../treatment/recovery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../treatment/recovery/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Post-Op Recovery Process</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
@@ -703,23 +722,23 @@
                     <div id="mob-ac-4" class="mobile-accordion-content hidden pl-4 pr-2 py-2 space-y-3 bg-slate-50/55 border-l-2 border-brand-600 rounded-r-lg mt-1">
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Surgical Innovation</p>
-                                                                    <a href="../../advanced-techniques/da-vinci-system/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../advanced-techniques/da-vinci-system/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Da Vinci Robotic System</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../advanced-techniques/3d-mesh/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../advanced-techniques/3d-mesh/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>3D Mesh Implants</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../advanced-techniques/biological-mesh/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../advanced-techniques/biological-mesh/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Biological Mesh Options</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../advanced-techniques/self-gripping-mesh/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../advanced-techniques/self-gripping-mesh/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Self-Gripping Mesh Tech</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../advanced-techniques/eras-protocol/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../advanced-techniques/eras-protocol/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>ERAS Recovery Protocol</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
@@ -734,60 +753,60 @@
                     <div id="mob-ac-5" class="mobile-accordion-content hidden pl-4 pr-2 py-2 space-y-3 bg-slate-50/55 border-l-2 border-brand-600 rounded-r-lg mt-1">
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Special Considerations</p>
-                                                                    <a href="../../special-considerations/complex-hernia-info/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../special-considerations/complex-hernia-info/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Complex Hernia Info</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../special-considerations/obesity/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../special-considerations/obesity/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Obesity & Hernia</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../special-considerations/diabetes/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../special-considerations/diabetes/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Diabetes & Hernia</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../special-considerations/pregnancy/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../special-considerations/pregnancy/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Pregnancy & Hernia Care</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../special-considerations/elderly/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../special-considerations/elderly/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Elderly Hernia Care</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
                                                             </div>
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Services & Consults</p>
-                                                                    <a href="../../emergency-hernia-care/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../emergency-hernia-care/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Emergency Hernia Care</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../online-consultation/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../online-consultation/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Online Consultation Portal</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../second-opinion/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../second-opinion/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Expert Second Opinion</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
                                                             </div>
                                                     <div class="space-y-1">
                                 <p class="text-[11px] font-bold uppercase tracking-wider text-brand-700 px-2 mt-2 first:mt-0">Patient Resources</p>
-                                                                    <a href="../../resources/patient-resources/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../resources/patient-resources/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Education & Resources</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../resources/faqs/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../resources/faqs/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>FAQs</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
-                                                                    <a href="../../resources/glossary/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
+                                                                    <a href="../resources/glossary/" class="flex items-center justify-between py-2 px-3 rounded-md text-sm text-slate-700 hover:bg-brand-50 hover:text-brand-700 transition js-drawer-close">
                                         <span>Medical Glossary & Terms</span>
                                         <svg class="w-3.5 h-3.5 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                     </a>
                                                             </div>
                                             </div>
                 </div>
-                                                <a href="../../contact/" class="mobile-link rounded-lg hover:bg-slate-50 js-drawer-close">
+                                                <a href="../contact/" class="mobile-link rounded-lg hover:bg-slate-50 js-drawer-close">
                     <span>Contact Us</span>
                 </a>
                         </nav>
@@ -802,7 +821,7 @@
                 <span class="block font-bold text-brand-800">+91 79042 17129</span>
             </span>
         </a>
-        <a href="../../book-appointment/" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
+        <a href="../book-appointment/" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
             Book Appointment
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
@@ -870,10 +889,6 @@
 </script>
 <!-- Hero Section -->
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
-    <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3bbb?w=1920&q=80" alt="Medical consultation" class="w-full h-full object-cover opacity-20">
-        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
-    </div>
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
             <a href="<?= $base_path index/" class="hover:text-white transition">Home</a>
@@ -910,54 +925,74 @@
 <!-- About Section -->
 <section id="about" class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-3xl p-8 lg:p-12 border border-brand-100">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
-                    <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
-                        What is an Epigastric Hernia?
-                    </h2>
-                    <p class="text-slate-600 leading-relaxed mb-5 text-lg">
-                        An epigastric hernia develops along the linea alba, the fibrous band in the center of the abdomen, specifically in the area between the belly button (umbilicus) and the breastbone (xiphoid process).
-                    </p>
-                    <p class="text-slate-600 leading-relaxed mb-6 text-base">
-                        The linea alba is formed by the joining of the abdominal muscle sheaths at the midline. Small defects can allow fat from inside the abdomen to protrude, creating a visible or palpable bulge.
-                    </p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 shadow-lg">
-                    <h3 class="font-bold text-lg text-slate-900 mb-4">Key Characteristics</h3>
-                    <div class="space-y-3">
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <div class="lg:col-span-7">
+                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
+                    What is an Epigastric Hernia?
+                </h2>
+                <p class="text-slate-600 leading-relaxed mb-5 text-lg">
+                    An epigastric hernia develops along the linea alba, the fibrous band in the center of the abdomen, specifically in the area between the belly button (umbilicus) and the breastbone (xiphoid process).
+                </p>
+                <p class="text-slate-600 leading-relaxed mb-8 text-base">
+                    The linea alba is formed by the joining of the abdominal muscle sheaths at the midline. Small defects can allow fat from inside the abdomen to protrude, creating a visible or palpable bulge.
+                </p>
+
+                <div class="border-t border-slate-200/80 pt-8">
+                    <h3 class="font-bold text-xl text-slate-900 mb-6">Key Characteristics</h3>
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                             </div>
-                            <span class="text-slate-700">Located between umbilicus and xiphoid</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Midline Location</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Located specifically in the upper midline between the belly button and the breastbone.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4M4 4l5 5m11 11v-4m0 0h-4m4 4l-5-5"/></svg>
                             </div>
-                            <span class="text-slate-700">Often small and may not grow large</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Often Small</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Typically small defects containing preperitoneal fat, though they can occasionally enlarge.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
                             </div>
-                            <span class="text-slate-700">More common in men</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Gender Bias</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Epigastric hernias are about three times more common in men than in women.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                             </div>
-                            <span class="text-slate-700">Usually present at birth (congenital)</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Congenital Factor</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Often present at birth due to a weakness or opening in the fibrous linea alba.</p>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                                <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5 sm:col-span-2">
+                            <div class="w-8 h-8 rounded-xl bg-brand-50 flex items-center justify-center shrink-0 text-brand-700 border border-brand-100">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                             </div>
-                            <span class="text-slate-700">May appear with strain or exertion</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">Triggered by Strain</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">The bulge may appear or become more prominent during physical exertion, coughing, heavy lifting, or straining.</p>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="lg:col-span-5">
+                <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
+                    <img src="<?= $base_path assets/images/paraumbilical-new.png" alt="Epigastric Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
@@ -965,7 +1000,7 @@
 </section>
 
 <!-- Signs & Symptoms Section -->
-<section class="py-16 md:py-24 bg-white">
+<section class="py-16 md:py-24 bg-gradient-to-b from-white via-slate-50 to-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
@@ -975,55 +1010,83 @@
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
                 Signs & <span class="text-brand-700">Symptoms</span>
             </h2>
+            <p class="text-slate-600 text-lg">Recognizing epigastric hernia indicators early helps prevent progressive complications.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+            <!-- Doctor Column on the Left -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-[3/4]">
+                    <img src="<?= $base_path assets/images/doctor.png" alt="Symptom Consultation" class="w-full h-full object-cover">
+                    <!-- Subtle Dark Overlay for contrast -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"></div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Visible Bulge</h3>
-                <p class="text-slate-600 text-sm">A small bulge or lump felt between the belly button and chest, especially when standing or straining.</p>
+                <!-- Floating Diagnosis Info Badge -->
+                <div class="absolute -bottom-6 -right-6 md:right-4 bg-white rounded-2xl shadow-xl p-5 border border-slate-100 max-w-xs hover:scale-105 transition duration-300">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Clinical Guidance</p>
+                            <p class="text-sm font-bold text-slate-900 mt-0.5">Professional evaluation is recommended for persistent midline bulges.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Pain or Discomfort</h3>
-                <p class="text-slate-600 text-sm">Aching pain in the upper abdomen that may worsen with activity, coughing, or lifting heavy objects.</p>
-            </div>
+            <!-- Symptoms Column on the Right -->
+            <div class="lg:col-span-7">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Visible Midline Bulge</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">A small bulge or lump felt between the belly button and chest, especially when standing or straining.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Intermittent Bulge</h3>
-                <p class="text-slate-600 text-sm">The bulge may come and go, appearing more prominent during physical activity and reducing when lying down.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Pain or Discomfort</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Aching pain in the upper abdomen that may worsen with activity, coughing, or lifting heavy objects.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Feeling of Fullness</h3>
-                <p class="text-slate-600 text-sm">Feeling of fullness or heaviness in the upper abdomen, particularly after meals.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Intermittent Bulge</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">The bulge may come and go, appearing more prominent during physical activity and reducing when lying down.</p>
+                    </div>
 
-            <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">No Symptoms</h3>
-                <p class="text-slate-600 text-sm">Many small epigastric hernias are incidentally discovered and cause no symptoms at all.</p>
-            </div>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">Feeling of Fullness</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Feeling of fullness or heaviness in the upper abdomen, particularly after meals.</p>
+                    </div>
 
-            <div class="bg-brand-100 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-700 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-4 border border-brand-100">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-slate-900 mb-2">No Symptoms</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Many small epigastric hernias are incidentally discovered and cause no symptoms at all.</p>
+                    </div>
+
+                    <!-- Red Emergency Card -->
+                    <div class="bg-rose-50 rounded-2xl p-6 border border-rose-100 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 rounded-xl bg-rose-500 flex items-center justify-center text-white mb-4 shadow-md shadow-rose-200">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <h3 class="font-bold text-lg text-rose-950 mb-2">Emergency Signs</h3>
+                        <p class="text-rose-800 text-sm leading-relaxed font-semibold">Severe pain, nausea, vomiting - may indicate strangulation requiring immediate medical attention.</p>
+                    </div>
                 </div>
-                <h3 class="font-bold text-lg text-slate-900 mb-2">Emergency Signs</h3>
-                <p class="text-slate-600 text-sm">Severe pain, nausea, vomiting - may indicate strangulation requiring immediate medical attention.</p>
             </div>
         </div>
     </div>
@@ -1038,49 +1101,88 @@
                 Treatment
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
-                Treatment <span class="text-brand-700">Approach</span>
+                Treatment <span class="text-brand-700">Approaches</span>
             </h2>
             <p class="text-slate-600 text-lg">Treatment recommendations depend on hernia size, symptoms, and patient factors.</p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-2xl p-8 text-center border border-slate-100 hover:shadow-lg transition">
-                <div class="w-20 h-20 rounded-full bg-brand-100 flex items-center justify-center mx-auto mb-6">
-                    <span class="text-2xl font-bold text-brand-700">1</span>
+        <div class="grid sm:grid-cols-3 gap-6">
+            <div class="bg-white rounded-3xl p-8 text-center border border-slate-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
+                <div>
+                    <div class="w-16 h-16 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6 text-brand-700 border border-brand-100">
+                        <span class="text-2xl font-bold">1</span>
+                    </div>
+                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Watchful Waiting</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                        Small, asymptomatic hernias may simply be monitored. Surgery may not be needed if no symptoms develop.
+                    </p>
                 </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Watchful Waiting</h3>
-                <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                    Small, asymptomatic hernias may simply be monitored. Surgery may not be needed if no symptoms develop.
-                </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">
                     For small, painless hernias
                 </span>
             </div>
 
-            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 text-center border border-brand-100 hover:shadow-lg transition">
-                <div class="w-20 h-20 rounded-full bg-brand-700 flex items-center justify-center mx-auto mb-6">
-                    <span class="text-2xl font-bold text-white">2</span>
+            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-3xl p-8 text-center border border-brand-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
+                <div>
+                    <div class="w-16 h-16 rounded-full bg-brand-700 flex items-center justify-center mx-auto mb-6 text-white shadow-md shadow-brand-100">
+                        <span class="text-2xl font-bold">2</span>
+                    </div>
+                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Open Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6 font-medium">
+                        Traditional surgical repair with a small incision over the hernia site. Suitable for most epigastric hernias.
+                    </p>
                 </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Open Repair</h3>
-                <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                    Traditional surgical repair with a small incision over the hernia site. Suitable for most epigastric hernias.
-                </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                <span class="inline-flex items-center gap-2 px-4 py-2 bg-brand-100 text-brand-700 rounded-full text-xs font-bold border border-brand-200">
                     Most common approach
                 </span>
             </div>
 
-            <div class="bg-white rounded-2xl p-8 text-center border border-slate-100 hover:shadow-lg transition">
-                <div class="w-20 h-20 rounded-full bg-brand-100 flex items-center justify-center mx-auto mb-6">
-                    <span class="text-2xl font-bold text-brand-700">3</span>
+            <div class="bg-white rounded-3xl p-8 text-center border border-slate-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
+                <div>
+                    <div class="w-16 h-16 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6 text-brand-700 border border-brand-100">
+                        <span class="text-2xl font-bold">3</span>
+                    </div>
+                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Laparoscopic Repair</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                        Minimally invasive option with small incisions and a camera-guided approach. Faster recovery and less scarring.
+                    </p>
                 </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Laparoscopic Repair</h3>
-                <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                    Minimally invasive option with small incisions and a camera-guided approach. Faster recovery and less scarring.
-                </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">
                     Faster recovery
                 </span>
+            </div>
+        </div>
+
+        <!-- Premium Showcase Banner -->
+        <div class="mt-16 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 text-white">
+            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
+                <div class="lg:col-span-5">
+                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
+                        <img src="<?= $base_path assets/images/laparoscopic-precision.png" alt="Laparoscopic precision" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:col-span-7">
+                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                        Advanced Minimally Invasive Option
+                    </span>
+                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
+                        Laparoscopic Epigastric Hernia Repair
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        For larger epigastric defects or when multiple midline weaknesses are present, Dr. Kumar performs advanced laparoscopic repairs. By accessing the abdominal wall through tiny incisions away from the midline, we place a supportive mesh behind the muscles to prevent recurrences while ensuring a much faster recovery, less post-operative pain, and outstanding aesthetic outcomes.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Laparoscopic precision</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
+                            <span>Substantially lower recurrence rate</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1223,7 +1325,7 @@
     <div class="max-w-7xl mx-auto px-4 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         <div>
-            <img src="../../assets/images/logo.png" alt="Dr. Kumar Logo" class="h-12 w-auto mb-4 bg-white rounded-md p-2">
+            <img src="../assets/images/herniacare360-new-logo.png" alt="Dr. Kumar Logo" class="h-16 w-auto mb-4 bg-white rounded-md p-2">
             <p class="text-sm leading-relaxed mb-4">
                 Senior Consultant in Minimal Access, Robotic, Advanced Hernia & Abdominal Wall Reconstruction Surgery in Chennai.
             </p>
@@ -1246,25 +1348,49 @@
         <div>
             <h3 class="text-white font-semibold text-lg mb-4">Quick Links</h3>
             <ul class="space-y-2 text-sm">
-                                    <li><a href="../../index/" class="hover:text-brand-500 transition">Home</a></li>
-                                    <li><a href="../../about-us/" class="hover:text-brand-500 transition">About Us</a></li>
-                                    <li><a href="../../treatment/hernia-surgery/" class="hover:text-brand-500 transition">Hernia Surgery</a></li>
-                                    <li><a href="../../robotic-hernia-surgery/" class="hover:text-brand-500 transition">Robotic Surgery</a></li>
-                                    <li><a href="../../emergency-hernia-care/" class="hover:text-brand-500 transition">Emergency Care</a></li>
-                                    <li><a href="../../contact/" class="hover:text-brand-500 transition">Contact Us</a></li>
+                                    <li><a href="../index/" class="hover:text-brand-500 transition">Home</a></li>
+                                    <li><a href="../about-us/" class="hover:text-brand-500 transition">About Us</a></li>
+                                    <li><a href="../treatment/hernia-surgery/" class="hover:text-brand-500 transition">Hernia Surgery</a></li>
+                                    <li><a href="../robotic-hernia-surgery/" class="hover:text-brand-500 transition">Robotic Surgery</a></li>
+                                    <li><a href="../emergency-hernia-care/" class="hover:text-brand-500 transition">Emergency Care</a></li>
+                                    <li><a href="../contact/" class="hover:text-brand-500 transition">Contact Us</a></li>
                             </ul>
         </div>
 
         <div>
             <h3 class="text-white font-semibold text-lg mb-4">Treatments</h3>
             <ul class="space-y-2 text-sm">
-                <li><a href="../../treatment/hernia-surgery/" class="hover:text-brand-500">Hernia Surgery</a></li>
-                <li><a href="../../index.php#treatments" class="hover:text-brand-500">Gallbladder Stone</a></li>
-                <li><a href="../../treatment/laparoscopic-hernia-surgery/" class="hover:text-brand-500">Laparoscopic Surgery</a></li>
-                <li><a href="../../robotic-hernia-surgery/" class="hover:text-brand-500">Robotic Surgery</a></li>
-                <li><a href="../../index.php#treatments" class="hover:text-brand-500">GERD / Reflux</a></li>
-                <li><a href="../../index.php#treatments" class="hover:text-brand-500">Piles & Fissure</a></li>
-                <li><a href="../../index.php#treatments" class="hover:text-brand-500">Thyroid Surgery</a></li>
+                <li><a href="../treatment/hernia-surgery/" class="hover:text-brand-500">Hernia Surgery</a></li>
+                <li><a href="../treatment/laparoscopic-hernia-surgery/" class="hover:text-brand-500">Laparoscopic Surgery</a></li>
+                <li><a href="../robotic-hernia-surgery/" class="hover:text-brand-500">Robotic Surgery</a></li>
+                <li><a href="../treatment/etep-repair/" class="hover:text-brand-500">eTEP Repair</a></li>
+                <li><a href="../treatment/mesh-repair/" class="hover:text-brand-500">Mesh Repair</a></li>
+                <li><a href="../treatment/recovery/" class="hover:text-brand-500">Recovery</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white font-semibold text-lg mb-4">Hernia Types</h3>
+            <ul class="space-y-2 text-sm">
+                <li><a href="../my_types/inguinal-hernia/" class="hover:text-brand-500">Inguinal Hernia</a></li>
+                <li><a href="../my_types/umbilical-hernia/" class="hover:text-brand-500">Umbilical Hernia</a></li>
+                <li><a href="../my_types/incisional-hernia/" class="hover:text-brand-500">Incisional Hernia</a></li>
+                <li><a href="../my_types/ventral-hernia/" class="hover:text-brand-500">Ventral Hernia</a></li>
+                <li><a href="../my_types/hiatal-hernia/" class="hover:text-brand-500">Hiatal Hernia</a></li>
+                <li><a href="../my_types/femoral-hernia/" class="hover:text-brand-500">Femoral Hernia</a></li>
+                <li><a href="../my_types/strangulated-hernia/" class="hover:text-brand-500">Strangulated Hernia</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white font-semibold text-lg mb-4">Learn More</h3>
+            <ul class="space-y-2 text-sm">
+                <li><a href="../hernia/what-is-hernia/" class="hover:text-brand-500">What is Hernia</a></li>
+                <li><a href="../hernia/causes/" class="hover:text-brand-500">Causes</a></li>
+                <li><a href="../hernia/symptoms/" class="hover:text-brand-500">Symptoms</a></li>
+                <li><a href="../hernia/diagnosis/" class="hover:text-brand-500">Diagnosis</a></li>
+                <li><a href="../hernia/complications/" class="hover:text-brand-500">Complications</a></li>
+                <li><a href="../book-appointment/" class="hover:text-brand-500">Book Appointment</a></li>
             </ul>
         </div>
 
@@ -1296,81 +1422,87 @@
 </footer>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Global Premium FAQ toggle handler
-    const faqToggles = document.querySelectorAll('.faq-toggle');
-    if (faqToggles.length > 0) {
-        faqToggles.forEach(toggle => {
-            toggle.addEventListener('click', function() {
-                const item = this.closest('.faq-item');
-                if (!item) return;
-                
-                const content = item.querySelector('.faq-content');
-                const symbol = item.querySelector('.faq-symbol');
-                const question = this.querySelector('span');
-                
-                const isOpen = !content.classList.contains('hidden');
-                
-                // Close all other items in the SAME container or category
-                const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
-                if (parentSection) {
-                    parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
-                        if (otherItem !== item) {
-                            otherItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                            otherItem.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                            
-                            const otherContent = otherItem.querySelector('.faq-content');
-                            if (otherContent) otherContent.classList.add('hidden');
-                            
-                            const otherSymbol = otherItem.querySelector('.faq-symbol');
-                            if (otherSymbol) {
-                                otherSymbol.textContent = '+';
-                                otherSymbol.classList.remove('bg-brand-800', 'text-white');
-                                otherSymbol.classList.add('bg-white', 'text-brand-700');
-                            }
-                            
-                            const otherQuestion = otherItem.querySelector('.faq-toggle span');
-                            if (otherQuestion) {
-                                otherQuestion.classList.remove('text-white');
-                                otherQuestion.classList.add('text-slate-900');
-                            }
-                        }
-                    });
-                }
-                
-                // Toggle clicked item
-                if (isOpen) {
-                    item.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                    item.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                    content.classList.add('hidden');
-                    if (symbol) {
-                        symbol.textContent = '+';
-                        symbol.classList.remove('bg-brand-800', 'text-white');
-                        symbol.classList.add('bg-white', 'text-brand-700');
-                    }
-                    if (question) {
-                        question.classList.remove('text-white');
-                        question.classList.add('text-slate-900');
-                    }
-                } else {
-                    item.classList.add('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                    item.classList.remove('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                    content.classList.remove('hidden');
-                    if (symbol) {
-                        symbol.textContent = '—';
-                        symbol.classList.add('bg-brand-800', 'text-white');
-                        symbol.classList.remove('bg-white', 'text-brand-700');
-                    }
-                    if (question) {
-                        question.classList.add('text-white');
-                        question.classList.remove('text-slate-900');
+(function() {
+    // Global Premium FAQ toggle handler using Event Delegation for bulletproof robustness
+    document.addEventListener('click', function(e) {
+        const toggle = e.target.closest('.faq-toggle');
+        if (!toggle) return;
+        
+        e.preventDefault();
+        console.log('FAQ toggle clicked:', toggle);
+        
+        const item = toggle.closest('.faq-item');
+        if (!item) return;
+        
+        const content = item.querySelector('.faq-content');
+        const symbol = item.querySelector('.faq-symbol');
+        const isOpen = item.classList.contains('active');
+        
+        console.log('FAQ state - Is open:', isOpen, 'Item:', item);
+
+        // Close all other items in the same category/container
+        const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
+        if (parentSection) {
+            parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove('active');
+                    const otherContent = otherItem.querySelector('.faq-content');
+                    if (otherContent) otherContent.classList.add('hidden');
+                    
+                    const otherSymbol = otherItem.querySelector('.faq-symbol');
+                    if (otherSymbol) {
+                        otherSymbol.textContent = '+';
                     }
                 }
             });
-        });
-    }
-});
+        }
+        
+        // Toggle clicked item
+        if (isOpen) {
+            item.classList.remove('active');
+            if (content) content.classList.add('hidden');
+            if (symbol) {
+                symbol.textContent = '+';
+            }
+            console.log('FAQ closed successfully');
+        } else {
+            item.classList.add('active');
+            if (content) content.classList.remove('hidden');
+            if (symbol) {
+                symbol.textContent = '—';
+            }
+            console.log('FAQ opened successfully');
+        }
+    });
+})();
 </script>
 
 </body>
 </html>
+
+<!-- Mobile Sticky Bottom Navbar -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 shadow-[0_-4px_20px_rgba(0,0,0,0.1)] z-50 px-4 py-3">
+    <div class="flex items-center justify-between gap-3 max-w-md mx-auto">
+        <!-- Social Icons -->
+        <div class="flex items-center gap-2">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.6 9.9V14.9H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3V22A10 10 0 0022 12z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4 1 .5.4.8.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-1 1.4-.4.5-.9.8-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-1-.5-.4-.8-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 1-1.4.4-.5.9-.8 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 5.3a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm5.6-.2a1.05 1.05 0 11-2.1 0 1.05 1.05 0 012.1 0zM12 9.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-red-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.7a1.8 1.8 0 110-3.5 1.8 1.8 0 010 3.5zM20 19h-3v-5.6c0-3.4-4-3.1-4 0V19h-3V8h3v1.8c1.4-2.6 7-2.8 7 2.5V19z"/></svg>
+            </a>
+        </div>
+
+        <!-- Book Now Button -->
+        <a href="../book-appointment/" class="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 hover:from-brand-700 hover:to-brand-800 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            Book Now
+        </a>
+    </div>
+</div>

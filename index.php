@@ -93,13 +93,13 @@ require __DIR__ . '/includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <?php
             $hernias = [
-                ['Inguinal Hernia',   'assets/images/inguinal-new.png'],
-                ['Umbilical Hernia',  'assets/images/umbilical-new.png'],
-                ['Incisional Hernia', 'assets/images/incisional-new.png'],
-                ['Ventral Hernia',    'assets/images/ventral-new.png'],
+                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia.php'],
+                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia.php'],
+                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia.php'],
+                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia.php'],
             ];
-            foreach ($hernias as [$t, $img]): ?>
-                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group">
+            foreach ($hernias as [$t, $img, $link]): ?>
+                <a href="<?= $link ?>" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group block">
                     <div class="overflow-hidden h-44">
                         <img src="<?= $img ?>" alt="<?= $t ?> treatment Chennai" class="w-full h-full object-cover group-hover:scale-105 transition" loading="lazy">
                     </div>
@@ -107,7 +107,7 @@ require __DIR__ . '/includes/header.php';
                         <h3 class="font-bold text-lg text-slate-900 mb-2"><?= $t ?></h3>
                         <p class="text-sm text-slate-600">Advanced laparoscopic &amp; robotic repair with mesh reinforcement.</p>
                     </div>
-                </div>
+                </a>
             <?php endforeach; ?>
         </div>
 
@@ -122,8 +122,15 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div>
                 <p class="font-display text-3xl font-bold text-brand-700">Meshless</p>
-                <p class="text-sm text-slate-600 mt-2">Desadara technique available</p>
+                <p class="text-sm text-slate-600 mt-2">Desarda technique available</p>
             </div>
+        </div>
+
+        <div class="mt-10 text-center">
+            <a href="my_types/inguinal-hernia.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+                View All Hernia Types
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
         </div>
     </div>
 </section>
@@ -153,7 +160,7 @@ require __DIR__ . '/includes/header.php';
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
             <?php foreach (array_slice($treatments, 0, 8) as $t): ?>
-                <a href="tel:<?= $site['phone_link'] ?>"
+                <a href="<?= $t['link'] ?>"
                    class="group relative flex flex-col rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition duration-300 hover:-translate-y-1">
 
                     <div class="p-5 flex flex-col flex-1">
@@ -451,56 +458,53 @@ require __DIR__ . '/includes/header.php';
             <?php
             $shorts = [
                 [
-                    'title' => 'Is Hernia Surgery Painful? The Truth About Modern Recovery',
-                    'thumb' => 'assets/images/laparoscopic-accuracy.png',
-                    'link'  => 'https://www.youtube.com/shorts/5700dde675bc',
-                    'views' => '1.2K views'
+                    'title' => 'Hernia Recovery',
+                    'thumb' => 'https://i.ytimg.com/vi/I9WJk3VEFyI/hq2.jpg',
+                    'id'    => 'I9WJk3VEFyI',
                 ],
                 [
-                    'title' => 'Robotic vs. Laparoscopic Surgery: What\'s the Difference?',
-                    'thumb' => 'assets/images/robotic-benefits.png',
-                    'link'  => 'https://www.youtube.com/shorts/72ee739d0d9a',
-                    'views' => '2.5K views'
+                    'title' => 'Hernia Surgery',
+                    'thumb' => 'https://i.ytimg.com/vi/w9os4FjRO6g/hq2.jpg',
+                    'id'    => 'w9os4FjRO6g',
                 ],
                 [
-                    'title' => 'How to Prevent Hernia Recurrence: Pro Tips',
-                    'thumb' => 'assets/images/recovery-wellness.png',
-                    'link'  => 'https://www.youtube.com/shorts/1ef15d508118',
-                    'views' => '980 views'
+                    'title' => 'When Hernia Becomes Life Threatening',
+                    'thumb' => 'https://i.ytimg.com/vi/8biJkJk6kRg/hq2.jpg',
+                    'id'    => '8biJkJk6kRg',
                 ],
             ];
             foreach ($shorts as $s): ?>
-                <a href="<?= $s['link'] ?>" target="_blank" rel="noopener" class="group relative flex flex-col max-w-[300px] w-full mx-auto rounded-2xl overflow-hidden bg-slate-800 border border-slate-700/60 shadow-lg hover:shadow-2xl hover:border-red-500/50 transition duration-300">
-                    <!-- Video aspect ratio aspect-[9/16] for YouTube shorts -->
+                <div class="group relative flex flex-col max-w-[300px] w-full mx-auto rounded-2xl overflow-hidden bg-slate-800 border border-slate-700/60 shadow-lg transition duration-300">
                     <div class="relative aspect-[9/16] overflow-hidden bg-black">
-                        <img src="<?= $s['thumb'] ?>" alt="<?= htmlspecialchars($s['title']) ?>" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-60 group-hover:scale-105 transition duration-500" loading="lazy">
-                        
-                        <!-- Red Gradient Play Overlay -->
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <span class="w-16 h-16 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-lg group-hover:bg-red-500 group-hover:scale-110 transition duration-300">
-                                <svg class="w-6 h-6 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                            </span>
-                        </div>
+                        <iframe
+                            class="absolute inset-0 w-full h-full"
+                            src="https://www.youtube.com/embed/<?= $s['id'] ?>"
+                            title="<?= htmlspecialchars($s['title']) ?>"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
 
-                        <!-- Shorts Tag -->
-                        <div class="absolute top-4 left-4 bg-red-600 text-white font-bold text-[10px] tracking-widest uppercase px-2.5 py-1 rounded-md shadow flex items-center gap-1.5">
+                        <div class="absolute top-4 left-4 bg-red-600 text-white font-bold text-[10px] tracking-widest uppercase px-2.5 py-1 rounded-md shadow flex items-center gap-1.5 z-10">
                             <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
                             Shorts
                         </div>
-
-                        <!-- Info Overlay at Bottom -->
-                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent p-5 pt-10">
-                            <p class="text-xs font-semibold text-slate-400 mb-1 flex items-center gap-1">
-                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
-                                <?= $s['views'] ?>
-                            </p>
-                            <h3 class="font-bold text-base text-white leading-snug group-hover:text-red-400 transition">
-                                <?= $s['title'] ?>
-                            </h3>
-                        </div>
                     </div>
-                </a>
+                    <div class="p-4 bg-gradient-to-t from-slate-900 to-slate-800">
+                        <h3 class="font-bold text-sm text-white leading-snug line-clamp-2">
+                            <?= $s['title'] ?>
+                        </h3>
+                    </div>
+                </div>
             <?php endforeach; ?>
+        </div>
+
+        <div class="mt-8 text-center">
+            <a href="https://www.youtube.com/@DrkumarBillrothHerniaSurgeon/shorts" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
+                View All Shorts on YouTube
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
         </div>
     </div>
 </section>
@@ -532,13 +536,15 @@ require __DIR__ . '/includes/header.php';
                     'tag'   => 'Recovery',
                     'date'  => 'May 15, 2026',
                     'img'   => 'assets/images/wound-care.png',
+                    'link'  => 'treatment/recovery.php',
                 ],
                 [
                     'title' => 'Why eTEP is a Game-Changer for Complex Ventral Hernias',
-                    'desc'  => 'Learn how the Enhanced Totally Extraperitoneal (eTEP) repair offers anatomical reconstruction with minimal scarring and zero entry to the abdominal cavity.',
+                    'desc'  => 'Learn how the Enhanced Totally Extraperitoneal (eTEP) repair offers anatomical reconstruction with minimal scarring and mesh reinforcement.',
                     'tag'   => 'Technology',
                     'date'  => 'May 10, 2026',
                     'img'   => 'assets/images/etep-reconstruction.png',
+                    'link'  => 'treatment/etep-repair.php',
                 ],
                 [
                     'title' => 'Robotic vs. Laparoscopic Hernia Surgery: Which is Right for You?',
@@ -546,10 +552,11 @@ require __DIR__ . '/includes/header.php';
                     'tag'   => 'Surgical Choice',
                     'date'  => 'April 28, 2026',
                     'img'   => 'assets/images/laparoscopic-precision.png',
+                    'link'  => 'treatment/laparoscopic-hernia-surgery.php',
                 ],
             ];
             foreach ($posts as $p): ?>
-                <div class="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col">
+                <a href="<?= $p['link'] ?>" class="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col block">
                     <div class="relative overflow-hidden aspect-[16/9] bg-slate-100 shrink-0">
                         <img src="<?= $p['img'] ?>" alt="<?= htmlspecialchars($p['title']) ?>" class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-500" loading="lazy">
                         <span class="absolute top-4 left-4 bg-brand-700 text-white font-bold text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm">
@@ -568,13 +575,13 @@ require __DIR__ . '/includes/header.php';
                             <?= $p['desc'] ?>
                         </p>
                         <div class="pt-4 border-t border-slate-100 shrink-0">
-                            <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-brand-700 hover:text-brand-800 font-bold text-xs uppercase tracking-wider transition group">
+                            <span class="inline-flex items-center gap-1.5 text-brand-700 hover:text-brand-800 font-bold text-xs uppercase tracking-wider transition group">
                                 Read Article
-                                <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-                            </a>
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+                            </span>
                         </div>
                     </div>
-                </div>
+                </a>
             <?php endforeach; ?>
         </div>
     </div>

@@ -16,21 +16,21 @@
     <meta property="og:title" content="Dr. Kumar - Best Advanced Hernia &amp; Laparoscopic Surgeon in Chennai">
     <meta property="og:description" content="Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction &amp; Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.">
     <meta property="og:url" content="https://surgeondrkumar.com/">
-    <meta property="og:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main.jpg">
+    <meta property="og:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main-image.png">
     <meta property="og:site_name" content="Dr. Kumar - Advanced Hernia &amp; Laparoscopic Surgeon">
     <meta property="og:locale" content="en_IN">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dr. Kumar - Best Advanced Hernia &amp; Laparoscopic Surgeon in Chennai">
     <meta name="twitter:description" content="Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction &amp; Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.">
-    <meta name="twitter:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main.jpg">
+    <meta name="twitter:image" content="https://surgeondrkumar.com/assets/images/dr-kumar-main-image.png">
 
     <meta name="geo.region" content="IN-TN">
     <meta name="geo.placename" content="Chennai">
     <meta name="theme-color" content="#0e7490">
 
-    <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <link rel="icon" type="image/png" href="assets/images/herniacare360-new-logo.png">
+    <link rel="apple-touch-icon" href="assets/images/herniacare360-new-logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,6 +50,7 @@
                             700: '#0e7490',
                             800: '#155e75',
                             900: '#164e63',
+                            950: '#083344',
                         },
                         accent: '#f59e0b',
                     },
@@ -67,7 +68,7 @@
       "@context": "https://schema.org",
       "@type": "Physician",
       "name": "Dr. Kumar",
-      "image": "https://surgeondrkumar.com/assets/images/dr-kumar-main.jpg",
+      "image": "https://surgeondrkumar.com/assets/images/dr-kumar-main-image.png",
       "url": "https://surgeondrkumar.com/",
       "telephone": "+91 79042 17129",
       "medicalSpecialty": ["Surgery", "Laparoscopic Surgery", "Robotic Surgery"],
@@ -282,12 +283,30 @@
         body.sub-page section:first-of-type,
         body.sub-page main > section:first-of-type {
             position: relative !important;
-            background-image: linear-gradient(to bottom right, rgba(14, 116, 144, 0.9), rgba(15, 23, 42, 0.95)), url('assets/images/bg-breadcrumb.png') !important;
+            background-image: linear-gradient(rgba(15, 23, 42, 0.40), rgba(15, 23, 42, 0.40)), linear-gradient(to bottom right, rgba(14, 116, 144, 0.60), rgba(15, 23, 42, 0.80)), url('assets/images/bg-breadcrumb.png?v=2') !important;
             background-size: cover !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
-            background-blend-mode: multiply !important;
+            background-blend-mode: normal !important;
             padding-top: 110px !important;
+        }
+
+        /* FAQ Premium Toggles */
+        .faq-item.active {
+            background-color: #0e7490 !important; /* bg-brand-700 */
+            color: #ffffff !important;
+            border-color: transparent !important;
+            box-shadow: 0 10px 25px -5px rgba(14, 116, 144, 0.3), 0 8px 10px -6px rgba(14, 116, 144, 0.3) !important;
+        }
+        .faq-item.active .faq-toggle span {
+            color: #ffffff !important;
+        }
+        .faq-item.active .faq-symbol {
+            background-color: #083344 !important; /* bg-brand-950 */
+            color: #ffffff !important;
+        }
+        .faq-item.active .faq-content {
+            display: block !important;
         }
     </style>
 </head>
@@ -300,7 +319,7 @@
 
             <!-- LOGO -->
             <a href="index/" class="flex items-center shrink-0">
-                <img src="assets/images/logo.png" alt="Dr. Kumar" width="220" height="56" class="h-14 w-auto">
+                <img src="assets/images/herniacare360-new-logo.png" alt="Dr. Kumar" width="260" height="70" class="h-20 w-auto">
             </a>
 
             <!-- DESKTOP NAV -->
@@ -570,7 +589,7 @@
 <div id="mobileOverlay" class="mobile-overlay lg:hidden"></div>
 <aside id="mobileDrawer" class="mobile-drawer lg:hidden">
     <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100">
-        <img src="assets/images/logo.png" alt="Logo" class="h-10 w-auto">
+        <img src="assets/images/herniacare360-new-logo.png" alt="Logo" class="h-14 w-auto">
         <button id="drawerClose" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-slate-200 flex items-center justify-center transition" aria-label="Close menu">
             <svg class="w-5 h-5 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
         </button>
@@ -900,7 +919,7 @@
 <section id="about" class="py-12 md:py-14 bg-white overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         <div class="relative">
-            <img src="assets/images/dr-kumar-main-removebg-preview.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full">
+            <img src="assets/images/dr-kumar-main-image.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full h-[650px] object-cover object-top">
             <div class="absolute -bottom-6 -right-6 bg-accent text-white rounded-2xl px-6 py-5 shadow-xl hidden md:block">
                 <p class="font-display text-3xl font-bold">29+</p>
                 <p class="text-sm">Years of Excellence</p>
@@ -958,13 +977,13 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <?php
 
-                ['Inguinal Hernia',   'assets/images/inguinal-new.png'],
-                ['Umbilical Hernia',  'assets/images/umbilical-new.png'],
-                ['Incisional Hernia', 'assets/images/incisional-new.png'],
-                ['Ventral Hernia',    'assets/images/ventral-new.png'],
+                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia.php'],
+                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia.php'],
+                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia.php'],
+                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia.php'],
             ];
-            foreach ($hernias as [$t, $img]): 
-                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group">
+            foreach ($hernias as [$t, $img, $link]): 
+                <a href="<?= $link " class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group block">
                     <div class="overflow-hidden h-44">
                         <img src="<?= $img " alt="<?= $t  treatment Chennai" class="w-full h-full object-cover group-hover:scale-105 transition" loading="lazy">
                     </div>
@@ -972,7 +991,7 @@
                         <h3 class="font-bold text-lg text-slate-900 mb-2"><?= $t </h3>
                         <p class="text-sm text-slate-600">Advanced laparoscopic &amp; robotic repair with mesh reinforcement.</p>
                     </div>
-                </div>
+                </a>
             <?php endforeach; 
         </div>
 
@@ -987,8 +1006,15 @@
             </div>
             <div>
                 <p class="font-display text-3xl font-bold text-brand-700">Meshless</p>
-                <p class="text-sm text-slate-600 mt-2">Desadara technique available</p>
+                <p class="text-sm text-slate-600 mt-2">Desarda technique available</p>
             </div>
+        </div>
+
+        <div class="mt-10 text-center">
+            <a href="my_types/inguinal-hernia/" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+                View All Hernia Types
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
         </div>
     </div>
 </section>
@@ -1018,7 +1044,7 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
             <?php foreach (array_slice($treatments, 0, 8) as $t): 
-                <a href="tel:<?= $site['phone_link'] "
+                <a href="<?= $t['link'] "
                    class="group relative flex flex-col rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition duration-300 hover:-translate-y-1">
 
                     <div class="p-5 flex flex-col flex-1">
@@ -1316,56 +1342,53 @@
             <?php
 
                 [
-                    'title' => 'Is Hernia Surgery Painful? The Truth About Modern Recovery',
-                    'thumb' => 'assets/images/laparoscopic-accuracy.png',
-                    'link'  => 'https://www.youtube.com/shorts/5700dde675bc',
-                    'views' => '1.2K views'
+                    'title' => 'Hernia Recovery',
+                    'thumb' => 'https://i.ytimg.com/vi/I9WJk3VEFyI/hq2.jpg',
+                    'id'    => 'I9WJk3VEFyI',
                 ],
                 [
-                    'title' => 'Robotic vs. Laparoscopic Surgery: What\'s the Difference?',
-                    'thumb' => 'assets/images/robotic-benefits.png',
-                    'link'  => 'https://www.youtube.com/shorts/72ee739d0d9a',
-                    'views' => '2.5K views'
+                    'title' => 'Hernia Surgery',
+                    'thumb' => 'https://i.ytimg.com/vi/w9os4FjRO6g/hq2.jpg',
+                    'id'    => 'w9os4FjRO6g',
                 ],
                 [
-                    'title' => 'How to Prevent Hernia Recurrence: Pro Tips',
-                    'thumb' => 'assets/images/recovery-wellness.png',
-                    'link'  => 'https://www.youtube.com/shorts/1ef15d508118',
-                    'views' => '980 views'
+                    'title' => 'When Hernia Becomes Life Threatening',
+                    'thumb' => 'https://i.ytimg.com/vi/8biJkJk6kRg/hq2.jpg',
+                    'id'    => '8biJkJk6kRg',
                 ],
             ];
             foreach ($shorts as $s): 
-                <a href="<?= $s['link'] " target="_blank" rel="noopener" class="group relative flex flex-col max-w-[300px] w-full mx-auto rounded-2xl overflow-hidden bg-slate-800 border border-slate-700/60 shadow-lg hover:shadow-2xl hover:border-red-500/50 transition duration-300">
-                    <!-- Video aspect ratio aspect-[9/16] for YouTube shorts -->
+                <div class="group relative flex flex-col max-w-[300px] w-full mx-auto rounded-2xl overflow-hidden bg-slate-800 border border-slate-700/60 shadow-lg transition duration-300">
                     <div class="relative aspect-[9/16] overflow-hidden bg-black">
-                        <img src="<?= $s['thumb'] " alt="<?= htmlspecialchars($s['title']) " class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-60 group-hover:scale-105 transition duration-500" loading="lazy">
-                        
-                        <!-- Red Gradient Play Overlay -->
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <span class="w-16 h-16 rounded-full bg-red-600/90 text-white flex items-center justify-center shadow-lg group-hover:bg-red-500 group-hover:scale-110 transition duration-300">
-                                <svg class="w-6 h-6 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                            </span>
-                        </div>
+                        <iframe
+                            class="absolute inset-0 w-full h-full"
+                            src="https://www.youtube.com/embed/<?= $s['id'] "
+                            title="<?= htmlspecialchars($s['title']) "
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
 
-                        <!-- Shorts Tag -->
-                        <div class="absolute top-4 left-4 bg-red-600 text-white font-bold text-[10px] tracking-widest uppercase px-2.5 py-1 rounded-md shadow flex items-center gap-1.5">
+                        <div class="absolute top-4 left-4 bg-red-600 text-white font-bold text-[10px] tracking-widest uppercase px-2.5 py-1 rounded-md shadow flex items-center gap-1.5 z-10">
                             <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
                             Shorts
                         </div>
-
-                        <!-- Info Overlay at Bottom -->
-                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent p-5 pt-10">
-                            <p class="text-xs font-semibold text-slate-400 mb-1 flex items-center gap-1">
-                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
-                                <?= $s['views'] 
-                            </p>
-                            <h3 class="font-bold text-base text-white leading-snug group-hover:text-red-400 transition">
-                                <?= $s['title'] 
-                            </h3>
-                        </div>
                     </div>
-                </a>
+                    <div class="p-4 bg-gradient-to-t from-slate-900 to-slate-800">
+                        <h3 class="font-bold text-sm text-white leading-snug line-clamp-2">
+                            <?= $s['title'] 
+                        </h3>
+                    </div>
+                </div>
             <?php endforeach; 
+        </div>
+
+        <div class="mt-8 text-center">
+            <a href="https://www.youtube.com/@DrkumarBillrothHerniaSurgeon/shorts" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
+                View All Shorts on YouTube
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
         </div>
     </div>
 </section>
@@ -1397,13 +1420,15 @@
                     'tag'   => 'Recovery',
                     'date'  => 'May 15, 2026',
                     'img'   => 'assets/images/wound-care.png',
+                    'link'  => 'treatment/recovery.php',
                 ],
                 [
                     'title' => 'Why eTEP is a Game-Changer for Complex Ventral Hernias',
-                    'desc'  => 'Learn how the Enhanced Totally Extraperitoneal (eTEP) repair offers anatomical reconstruction with minimal scarring and zero entry to the abdominal cavity.',
+                    'desc'  => 'Learn how the Enhanced Totally Extraperitoneal (eTEP) repair offers anatomical reconstruction with minimal scarring and mesh reinforcement.',
                     'tag'   => 'Technology',
                     'date'  => 'May 10, 2026',
                     'img'   => 'assets/images/etep-reconstruction.png',
+                    'link'  => 'treatment/etep-repair.php',
                 ],
                 [
                     'title' => 'Robotic vs. Laparoscopic Hernia Surgery: Which is Right for You?',
@@ -1411,10 +1436,11 @@
                     'tag'   => 'Surgical Choice',
                     'date'  => 'April 28, 2026',
                     'img'   => 'assets/images/laparoscopic-precision.png',
+                    'link'  => 'treatment/laparoscopic-hernia-surgery.php',
                 ],
             ];
             foreach ($posts as $p): 
-                <div class="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col">
+                <a href="<?= $p['link'] " class="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col block">
                     <div class="relative overflow-hidden aspect-[16/9] bg-slate-100 shrink-0">
                         <img src="<?= $p['img'] " alt="<?= htmlspecialchars($p['title']) " class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-500" loading="lazy">
                         <span class="absolute top-4 left-4 bg-brand-700 text-white font-bold text-[10px] uppercase tracking-wider px-2.5 py-1 rounded-md shadow-sm">
@@ -1433,13 +1459,13 @@
                             <?= $p['desc'] 
                         </p>
                         <div class="pt-4 border-t border-slate-100 shrink-0">
-                            <a href="tel:<?= $site['phone_link'] " class="inline-flex items-center gap-1.5 text-brand-700 hover:text-brand-800 font-bold text-xs uppercase tracking-wider transition group">
+                            <span class="inline-flex items-center gap-1.5 text-brand-700 hover:text-brand-800 font-bold text-xs uppercase tracking-wider transition group">
                                 Read Article
-                                <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
-                            </a>
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+                            </span>
                         </div>
                     </div>
-                </div>
+                </a>
             <?php endforeach; 
         </div>
     </div>
@@ -1477,7 +1503,7 @@
     <div class="max-w-7xl mx-auto px-4 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
         <div>
-            <img src="assets/images/logo.png" alt="Dr. Kumar Logo" class="h-12 w-auto mb-4 bg-white rounded-md p-2">
+            <img src="assets/images/herniacare360-new-logo.png" alt="Dr. Kumar Logo" class="h-16 w-auto mb-4 bg-white rounded-md p-2">
             <p class="text-sm leading-relaxed mb-4">
                 Senior Consultant in Minimal Access, Robotic, Advanced Hernia & Abdominal Wall Reconstruction Surgery in Chennai.
             </p>
@@ -1513,12 +1539,36 @@
             <h3 class="text-white font-semibold text-lg mb-4">Treatments</h3>
             <ul class="space-y-2 text-sm">
                 <li><a href="treatment/hernia-surgery/" class="hover:text-brand-500">Hernia Surgery</a></li>
-                <li><a href="index.php#treatments" class="hover:text-brand-500">Gallbladder Stone</a></li>
                 <li><a href="treatment/laparoscopic-hernia-surgery/" class="hover:text-brand-500">Laparoscopic Surgery</a></li>
                 <li><a href="robotic-hernia-surgery/" class="hover:text-brand-500">Robotic Surgery</a></li>
-                <li><a href="index.php#treatments" class="hover:text-brand-500">GERD / Reflux</a></li>
-                <li><a href="index.php#treatments" class="hover:text-brand-500">Piles & Fissure</a></li>
-                <li><a href="index.php#treatments" class="hover:text-brand-500">Thyroid Surgery</a></li>
+                <li><a href="treatment/etep-repair/" class="hover:text-brand-500">eTEP Repair</a></li>
+                <li><a href="treatment/mesh-repair/" class="hover:text-brand-500">Mesh Repair</a></li>
+                <li><a href="treatment/recovery/" class="hover:text-brand-500">Recovery</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white font-semibold text-lg mb-4">Hernia Types</h3>
+            <ul class="space-y-2 text-sm">
+                <li><a href="my_types/inguinal-hernia/" class="hover:text-brand-500">Inguinal Hernia</a></li>
+                <li><a href="my_types/umbilical-hernia/" class="hover:text-brand-500">Umbilical Hernia</a></li>
+                <li><a href="my_types/incisional-hernia/" class="hover:text-brand-500">Incisional Hernia</a></li>
+                <li><a href="my_types/ventral-hernia/" class="hover:text-brand-500">Ventral Hernia</a></li>
+                <li><a href="my_types/hiatal-hernia/" class="hover:text-brand-500">Hiatal Hernia</a></li>
+                <li><a href="my_types/femoral-hernia/" class="hover:text-brand-500">Femoral Hernia</a></li>
+                <li><a href="my_types/strangulated-hernia/" class="hover:text-brand-500">Strangulated Hernia</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white font-semibold text-lg mb-4">Learn More</h3>
+            <ul class="space-y-2 text-sm">
+                <li><a href="hernia/what-is-hernia/" class="hover:text-brand-500">What is Hernia</a></li>
+                <li><a href="hernia/causes/" class="hover:text-brand-500">Causes</a></li>
+                <li><a href="hernia/symptoms/" class="hover:text-brand-500">Symptoms</a></li>
+                <li><a href="hernia/diagnosis/" class="hover:text-brand-500">Diagnosis</a></li>
+                <li><a href="hernia/complications/" class="hover:text-brand-500">Complications</a></li>
+                <li><a href="book-appointment/" class="hover:text-brand-500">Book Appointment</a></li>
             </ul>
         </div>
 
@@ -1550,81 +1600,87 @@
 </footer>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Global Premium FAQ toggle handler
-    const faqToggles = document.querySelectorAll('.faq-toggle');
-    if (faqToggles.length > 0) {
-        faqToggles.forEach(toggle => {
-            toggle.addEventListener('click', function() {
-                const item = this.closest('.faq-item');
-                if (!item) return;
-                
-                const content = item.querySelector('.faq-content');
-                const symbol = item.querySelector('.faq-symbol');
-                const question = this.querySelector('span');
-                
-                const isOpen = !content.classList.contains('hidden');
-                
-                // Close all other items in the SAME container or category
-                const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
-                if (parentSection) {
-                    parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
-                        if (otherItem !== item) {
-                            otherItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                            otherItem.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                            
-                            const otherContent = otherItem.querySelector('.faq-content');
-                            if (otherContent) otherContent.classList.add('hidden');
-                            
-                            const otherSymbol = otherItem.querySelector('.faq-symbol');
-                            if (otherSymbol) {
-                                otherSymbol.textContent = '+';
-                                otherSymbol.classList.remove('bg-brand-800', 'text-white');
-                                otherSymbol.classList.add('bg-white', 'text-brand-700');
-                            }
-                            
-                            const otherQuestion = otherItem.querySelector('.faq-toggle span');
-                            if (otherQuestion) {
-                                otherQuestion.classList.remove('text-white');
-                                otherQuestion.classList.add('text-slate-900');
-                            }
-                        }
-                    });
-                }
-                
-                // Toggle clicked item
-                if (isOpen) {
-                    item.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                    item.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                    content.classList.add('hidden');
-                    if (symbol) {
-                        symbol.textContent = '+';
-                        symbol.classList.remove('bg-brand-800', 'text-white');
-                        symbol.classList.add('bg-white', 'text-brand-700');
-                    }
-                    if (question) {
-                        question.classList.remove('text-white');
-                        question.classList.add('text-slate-900');
-                    }
-                } else {
-                    item.classList.add('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                    item.classList.remove('bg-brand-50/60', 'hover:bg-brand-100/60', 'border-brand-100/20');
-                    content.classList.remove('hidden');
-                    if (symbol) {
-                        symbol.textContent = '—';
-                        symbol.classList.add('bg-brand-800', 'text-white');
-                        symbol.classList.remove('bg-white', 'text-brand-700');
-                    }
-                    if (question) {
-                        question.classList.add('text-white');
-                        question.classList.remove('text-slate-900');
+(function() {
+    // Global Premium FAQ toggle handler using Event Delegation for bulletproof robustness
+    document.addEventListener('click', function(e) {
+        const toggle = e.target.closest('.faq-toggle');
+        if (!toggle) return;
+        
+        e.preventDefault();
+        console.log('FAQ toggle clicked:', toggle);
+        
+        const item = toggle.closest('.faq-item');
+        if (!item) return;
+        
+        const content = item.querySelector('.faq-content');
+        const symbol = item.querySelector('.faq-symbol');
+        const isOpen = item.classList.contains('active');
+        
+        console.log('FAQ state - Is open:', isOpen, 'Item:', item);
+
+        // Close all other items in the same category/container
+        const parentSection = item.closest('.space-y-4') || item.closest('.faq-category') || item.parentElement;
+        if (parentSection) {
+            parentSection.querySelectorAll('.faq-item').forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.classList.remove('active');
+                    const otherContent = otherItem.querySelector('.faq-content');
+                    if (otherContent) otherContent.classList.add('hidden');
+                    
+                    const otherSymbol = otherItem.querySelector('.faq-symbol');
+                    if (otherSymbol) {
+                        otherSymbol.textContent = '+';
                     }
                 }
             });
-        });
-    }
-});
+        }
+        
+        // Toggle clicked item
+        if (isOpen) {
+            item.classList.remove('active');
+            if (content) content.classList.add('hidden');
+            if (symbol) {
+                symbol.textContent = '+';
+            }
+            console.log('FAQ closed successfully');
+        } else {
+            item.classList.add('active');
+            if (content) content.classList.remove('hidden');
+            if (symbol) {
+                symbol.textContent = '—';
+            }
+            console.log('FAQ opened successfully');
+        }
+    });
+})();
 </script>
 
 </body>
 </html>
+
+<!-- Mobile Sticky Bottom Navbar -->
+<div class="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 shadow-[0_-4px_20px_rgba(0,0,0,0.1)] z-50 px-4 py-3">
+    <div class="flex items-center justify-between gap-3 max-w-md mx-auto">
+        <!-- Social Icons -->
+        <div class="flex items-center gap-2">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.6 9.9V14.9H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3V22A10 10 0 0022 12z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4 1 .5.4.8.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-1 1.4-.4.5-.9.8-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-1-.5-.4-.8-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 1-1.4.4-.5.9-.8 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 5.3a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm5.6-.2a1.05 1.05 0 11-2.1 0 1.05 1.05 0 012.1 0zM12 9.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-red-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.7a1.8 1.8 0 110-3.5 1.8 1.8 0 010 3.5zM20 19h-3v-5.6c0-3.4-4-3.1-4 0V19h-3V8h3v1.8c1.4-2.6 7-2.8 7 2.5V19z"/></svg>
+            </a>
+        </div>
+
+        <!-- Book Now Button -->
+        <a href="book-appointment/" class="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-brand-600 to-brand-700 hover:from-brand-700 hover:to-brand-800 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+            Book Now
+        </a>
+    </div>
+</div>

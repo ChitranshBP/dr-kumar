@@ -5,6 +5,12 @@
 [build.environment]
   PHP_VERSION = "8.1"
 
+# Redirect all clean URLs to their index.html files
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
 # Cache static assets aggressively
 [[headers]]
   for = "/assets/*"

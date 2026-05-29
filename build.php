@@ -85,14 +85,16 @@ foreach ($phpFiles as $file) {
         $htmlOutput = 'index.html';
         $outPath = $dist . '/' . $htmlOutput;
         $prefix = '';
+        $srcDepth = 0;
         if (!is_dir(dirname($outPath))) {
             mkdir(dirname($outPath), 0777, true);
         }
     } else {
         $htmlOutput = $htmlName . '/index.html';
         $outPath = $dist . '/' . $htmlOutput;
-        $pathDepth = substr_count($htmlOutput, '/');
-        $prefix = $pathDepth > 0 ? str_repeat('../', $pathDepth) : '';
+        // Calculate source file depth from project root
+        $srcDepth = substr_count($file['name'], '/');
+        $prefix = $srcDepth > 0 ? str_repeat('../', $srcDepth) : '';
 
         if (!is_dir(dirname($outPath))) {
             mkdir(dirname($outPath), 0777, true);
@@ -113,8 +115,11 @@ foreach ($phpFiles as $file) {
 
     // Load config (need to reset variables between pages)
     $site = $nav = $herniaConditions = $treatments = $stats = null;
+    // Force base_path BEFORE loading config so it won't be recalculated
     $base_path = $prefix;
     require $root . '/includes/config.php';
+    // Ensure config doesn't override our calculated base_path
+    $base_path = $prefix;
 
     // Load header (outputs DOCTYPE, <html>, <head>, opening <body>)
     require $root . '/includes/header.php';
@@ -160,7 +165,9 @@ file_put_contents($dist . '/robots.txt', "User-agent: *\nAllow: /\nSitemap: http
 
 /* ---------- 6. _redirects ---------- */
 echo "🔀 Writing _redirects\n";
-file_put_contents($dist . '/_redirects', "@fallback\n");
+// SPA-style: all paths serve from the dist directory where Netlify auto-serves index.html
+// The _redirects file ensures clean URLs work
+file_put_contents($dist . '/_redirects', "/*    /index.html   200\n");
 
 /* ---------- 7. 404 ---------- */
 echo "📄 Writing 404.html\n";
