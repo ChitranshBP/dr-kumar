@@ -79,7 +79,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Unsplash Image -->
             <div>
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl mb-0 group">
-                    <img src="https://images.unsplash.com/photo-1582718560007-227f1e66ddaf?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/etep-access.png"
                          alt="eTEP Rives-Stoppa Repair - Advanced Retrorectus Access"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -116,7 +116,7 @@ require __DIR__ . '/../includes/header.php';
                 </p>
 
                 <div class="relative rounded-[2rem] overflow-hidden bg-slate-100 aspect-[16/10] border border-slate-200 shadow-xl group mb-8 lg:mb-0">
-                    <img src="https://images.unsplash.com/photo-1582718560007-227f1e66ddaf?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/etep-reconstruction.png"
                          alt="eTEP Advanced Reconstructive Surgery"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">

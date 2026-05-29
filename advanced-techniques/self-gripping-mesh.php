@@ -42,7 +42,7 @@
             <!-- Right: Hero Visual -->
             <div class="bg-gradient-to-br from-brand-700/30 to-brand-900/50 rounded-3xl p-4 border border-brand-400/20 overflow-hidden">
                 <img
-                    src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&fit=crop&q=80"
+                    src="<?= $base_path ?>assets/images/self-gripping-hero.png"
                     alt="Self-Gripping Mesh Technology"
                     class="w-full h-[280px] object-cover rounded-2xl"
                 />

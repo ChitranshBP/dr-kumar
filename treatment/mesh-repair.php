@@ -130,7 +130,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Unsplash Image -->
             <div>
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl mb-0 group">
-                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/mesh-materials.png"
                          alt="Mesh Hernia Repair - Advanced Materials Science"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -260,7 +260,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Premium Laboratory Image -->
             <div class="lg:col-span-5">
                 <div class="relative rounded-[2rem] overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/mesh-engineering.png"
                          alt="Advanced Materials Science - Hernia Mesh Engineering"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -309,7 +309,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Premium Registry Image & Risks Callout -->
             <div class="lg:col-span-7 space-y-6">
                 <div class="relative rounded-[2rem] overflow-hidden bg-slate-100 aspect-[16/9] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/mesh-registry.png"
                          alt="Clinical Registry Consultation Chennai"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -409,7 +409,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Premium Image & Caution Note -->
             <div class="lg:col-span-5 space-y-6">
                 <div class="relative rounded-[2rem] overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1579684389782-64d84b5e901d?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/mesh-free-suture.png"
                          alt="Mesh-Free Suture Repair Consultation Chennai"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">

@@ -54,7 +54,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Right Column: Premium Image with Overlay -->
             <div class="lg:col-span-5 relative">
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-800 aspect-[4/3] border border-white/10 group">
-                    <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80&auto=format&fit=crop" 
+                    <img src="<?= $base_path ?>assets/images/robotic-precision.png" 
                          alt="Da Vinci Robotic Surgery System Setup" 
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/10 to-transparent"></div>
@@ -90,7 +90,7 @@ require __DIR__ . '/includes/header.php';
                 </p>
 
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-xl group">
-                    <img src="https://images.unsplash.com/photo-1582718560007-227f1e66ddaf?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/robotic-benefits.png"
                          alt="Advanced surgical monitor and console setup"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -437,7 +437,7 @@ require __DIR__ . '/includes/header.php';
             <!-- Right Column: Serene Image & Caution Note (lg:col-span-5) -->
             <div class="lg:col-span-5 space-y-6">
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/robotic-reassurance.png"
                          alt="Serene wellness recovery rehabilitation"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">

@@ -44,7 +44,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right: Hero Visual -->
             <div class="bg-gradient-to-br from-brand-700/30 to-brand-900/50 rounded-3xl p-4 border border-brand-400/20 overflow-hidden">
                 <img
-                    src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&h=400&fit=crop&q=80"
+                    src="<?= $base_path ?>assets/images/biological-hero.png"
                     alt="Biological Mesh for Tissue Regeneration"
                     class="w-full h-[280px] object-cover rounded-2xl"
                 />
@@ -80,7 +80,7 @@ require __DIR__ . '/../includes/header.php';
 
                     <div>
                         <img
-                            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=400&fit=crop&q=80"
+                            src="<?= $base_path ?>assets/images/biological-scaffold.png"
                             alt="Biological Scaffold for Tissue Regeneration"
                             class="w-full h-[280px] object-cover rounded-2xl"
                         />

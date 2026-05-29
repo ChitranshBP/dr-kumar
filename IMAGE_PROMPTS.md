@@ -79,6 +79,21 @@ A lifestyle-oriented image showing a patient actively recovering post-surgery, c
 
 ---
 
+## 6. Homepage - Why Choose Us Section
+
+**Page:** `index.php`
+**Topic:** Surgeon expertise and clinical reassurance
+
+### Image Prompt:
+```
+A professional Indian male surgeon in scrubs standing inside a modern, high-tech hospital operating theater with advanced laparoscopic and robotic surgical equipment in the background. Soft blue ambient lighting, clinical setting. The surgeon is smiling confidently. Cinematic lighting, photorealistic, editorial medical photography style.
+```
+
+### Image Description:
+A surgeon standing in a state-of-the-art operating theater. Conveys trust, surgical safety, and pioneering medical care with Indian ethnic representation.
+
+---
+
 ## General Guidelines for AI Image Generation:
 
 1. **Style:** Professional medical/editorial photography or clean 3D renders

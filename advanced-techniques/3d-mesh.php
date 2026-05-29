@@ -2,11 +2,10 @@
 require __DIR__ . '/../includes/header.php';
 ?>
 
-<!-- Hero Section -->
-<section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
+<section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28" style="background-image: linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.7)), url('<?= $base_path ?>assets/images/1.png'); background-size: cover; background-position: center;">
 
     <div class="relative max-w-7xl mx-auto px-4 z-10">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="max-w-3xl">
             <!-- Left: Content -->
             <div>
                 <!-- Breadcrumbs -->
@@ -40,15 +39,6 @@ require __DIR__ . '/../includes/header.php';
                     </a>
                 </div>
             </div>
-
-            <!-- Right: Hero Visual -->
-            <div class="bg-gradient-to-br from-brand-700/30 to-brand-900/50 rounded-3xl p-4 border border-brand-400/20 overflow-hidden">
-                <img
-                    src="https://images.unsplash.com/photo-1631036613535-e5272a4d6c48?w=600&h=400&fit=crop&q=80"
-                    alt="3D Mesh Technology for Hernia Repair"
-                    class="w-full h-[280px] object-cover rounded-2xl"
-                />
-            </div>
         </div>
     </div>
 </section>
@@ -58,7 +48,7 @@ require __DIR__ . '/../includes/header.php';
     <div class="max-w-7xl mx-auto px-4">
         <div class="bg-gradient-to-br from-brand-700/30 to-brand-900/50 rounded-3xl p-4 border border-brand-400/20 overflow-hidden">
             <img
-                src="https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=600&h=400&fit=crop&q=80"
+                src="<?= $base_path ?>assets/images/3d-mesh-anatomy.png"
                 alt="3D Anatomical Mesh Implant"
                 class="w-full h-[280px] object-cover rounded-2xl"
             />

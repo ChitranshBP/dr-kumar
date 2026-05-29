@@ -102,7 +102,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Premium Image & Floating Info Card -->
             <div>
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/laparoscopic-precision.png"
                          alt="Laparoscopic Hernia Surgery - Advanced Keyhole Precision"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -138,7 +138,7 @@ require __DIR__ . '/../includes/header.php';
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <div class="relative overflow-hidden h-52">
-                        <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=600&q=80&auto=format&fit=crop"
+                        <img src="<?= $base_path ?>assets/images/tep-card.png"
                              alt="TEP Laparoscopic Hernia Repair"
                              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
@@ -163,7 +163,7 @@ require __DIR__ . '/../includes/header.php';
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <div class="relative overflow-hidden h-52">
-                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80&auto=format&fit=crop"
+                        <img src="<?= $base_path ?>assets/images/tapp-card.png"
                              alt="TAPP Laparoscopic Hernia Repair"
                              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
@@ -188,7 +188,7 @@ require __DIR__ . '/../includes/header.php';
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <div class="relative overflow-hidden h-52">
-                        <img src="https://images.unsplash.com/photo-1582718560007-227f1e66ddaf?w=600&q=80&auto=format&fit=crop"
+                        <img src="<?= $base_path ?>assets/images/etep-card.png"
                              alt="eTEP Laparoscopic Hernia Repair"
                              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
@@ -229,7 +229,7 @@ require __DIR__ . '/../includes/header.php';
                 </p>
 
                 <div class="relative rounded-[2rem] overflow-hidden bg-slate-100 aspect-[16/10] border border-slate-200 shadow-xl group">
-                    <img src="https://images.unsplash.com/photo-1579684389782-64d84b5e901d?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/laparoscopic-accuracy.png"
                          alt="Advanced Surgical Accuracy and Patient Safety"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">

@@ -286,7 +286,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Premium Image & Comparison Panel (lg:col-span-5) -->
             <div class="lg:col-span-5 space-y-6">
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/wound-care.png"
                          alt="Hernia post-surgery wound care review"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -556,7 +556,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Left Column: Unsplash Image & Emergency Box (lg:col-span-5) -->
             <div class="lg:col-span-5 space-y-6">
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/recovery-warning.png"
                          alt="Clinical follow-up warning support"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
@@ -756,7 +756,7 @@ require __DIR__ . '/../includes/header.php';
             <!-- Right Column: Premium Image (lg:col-span-5) -->
             <div class="lg:col-span-5">
                 <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80&auto=format&fit=crop"
+                    <img src="<?= $base_path ?>assets/images/recovery-wellness.png"
                          alt="Serene patient post-op wellness recovery"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">

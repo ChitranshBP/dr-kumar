@@ -42,7 +42,7 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="bg-gradient-to-br from-brand-800/30 to-slate-800/50 rounded-3xl p-4 border border-brand-600/20 overflow-hidden">
                 <img
-                    src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=600&h=400&fit=crop&q=80"
+                    src="<?= $base_path ?>assets/images/eras-hero.png"
                     alt="ERAS Protocol - Fast Recovery After Surgery"
                     class="w-full h-[280px] object-cover rounded-2xl"
                 />
