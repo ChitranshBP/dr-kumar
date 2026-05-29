@@ -1,136 +1,51 @@
-<?php
-require __DIR__ . '/../includes/header.php';
-?>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= htmlspecialchars($page_title) ?></title>
-    <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
-    <meta name="keywords" content="<?= htmlspecialchars($page_keywords) ?>">
-    <link rel="canonical" href="<?= htmlspecialchars($page_url) ?>">
-    <meta property="og:title" content="<?= htmlspecialchars($page_title) ?>">
-    <meta property="og:description" content="<?= htmlspecialchars($page_description) ?>">
-    <meta property="og:url" content="<?= htmlspecialchars($page_url) ?>">
-    <meta property="og:type" content="article">
-    <link rel="icon" type="image/png" href="<?= $site['logo'] ?>">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: { 50: '#ecfeff', 100: '#cffafe', 500: '#06b6d4', 600: '#0891b2', 700: '#0e7490', 800: '#155e75', 900: '#164e63' },
-                        accent: '#f59e0b',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                        display: ['"Playfair Display"', 'Georgia', 'serif'],
-                    },
-                },
-            },
-        };
-    </script>
-    <style>
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Inter', sans-serif; }
-        .font-display { font-family: 'Playfair Display', serif; }
-        .float-call { position: fixed; bottom: 24px; right: 24px; z-index: 50; }
-        .float-call a { background: linear-gradient(135deg, #0e7490, #0891b2); color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(14, 116, 144, 0.4); transition: all 0.3s ease; }
-        .float-call a:hover { transform: scale(1.1); box-shadow: 0 6px 30px rgba(14, 116, 144, 0.5); }
-        .tech-card { transition: all 0.3s ease; }
-        .tech-card:hover { transform: translateY(-4px); }
-    </style>
-</head>
-<body class="bg-white text-slate-800 antialiased">
-
 <?php require __DIR__ . '/../includes/header.php'; ?>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-brand-900 text-white overflow-hidden">
-    <div class="absolute inset-0 opacity-10">
-        <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <defs>
-                <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-                    <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"/>
-                </pattern>
-            </defs>
-            <rect width="100" height="100" fill="url(#grid)"/>
-        </svg>
-    </div>
-    <div class="absolute top-20 right-10 w-72 h-72 bg-brand-500 rounded-full filter blur-3xl opacity-20"></div>
-    <div class="absolute bottom-20 left-10 w-96 h-96 bg-accent rounded-full filter blur-3xl opacity-10"></div>
+<section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
 
-    <div class="relative max-w-7xl mx-auto px-4 py-20 lg:py-28">
+    <div class="relative max-w-7xl mx-auto px-4 z-10">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Left: Content -->
             <div>
-                <div class="inline-flex items-center gap-2 bg-brand-500/20 border border-brand-400/30 rounded-full px-4 py-2 mb-6">
-                    <svg class="w-5 h-5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                    </svg>
-                    <span class="text-sm font-medium text-brand-300">Advanced Robotic Technology</span>
-                </div>
-                <h1 class="font-display text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-6">
+                <!-- Breadcrumbs -->
+                <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
+                    <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+                    <span class="text-slate-500">/</span>
+                    <span class="text-slate-400">Advanced Techniques</span>
+                    <span class="text-slate-500">/</span>
+                    <span class="text-accent font-medium">Da Vinci Robotic</span>
+                </nav>
+
+                <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
+                    <span class="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
+                    Advanced Robotic Technology
+                </span>
+                <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                     Da Vinci Robotic<br>
-                    <span class="text-brand-400">Surgery System</span>
+                    <span class="text-accent">Surgery System</span>
                 </h1>
-                <p class="text-lg text-slate-300 leading-relaxed mb-8">
+                <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
                     Experience the next generation of surgical precision with the FDA-cleared Da Vinci Surgical System. Dr. Kumar brings robotically-assisted hernia repair to Chennai with unmatched accuracy and control.
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-lg transition">
+                    <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
                         Schedule Consultation
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7H3"/></svg>
                     </a>
-                    <a href="#how-it-works" class="inline-flex items-center gap-2 border border-white/30 hover:border-white text-white font-medium px-6 py-3 rounded-lg transition">
+                    <a href="#how-it-works" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
                         How It Works
                     </a>
                 </div>
             </div>
-            <div class="relative">
-                <div class="bg-gradient-to-br from-brand-600/20 to-brand-800/30 rounded-2xl p-8 border border-brand-400/20">
-                    <svg class="w-full h-auto" viewBox="0 0 400 300" fill="none">
-                        <!-- Robotic system illustration -->
-                        <rect x="50" y="200" width="300" height="60" rx="10" fill="#1e293b" stroke="#0e7490" stroke-width="2"/>
-                        <rect x="100" y="180" width="60" height="40" rx="5" fill="#334155" stroke="#0e7490" stroke-width="1.5"/>
-                        <rect x="240" y="180" width="60" height="40" rx="5" fill="#334155" stroke="#0e7490" stroke-width="1.5"/>
-                        <line x1="130" y1="160" x2="130" y2="80" stroke="#0e7490" stroke-width="3"/>
-                        <line x1="270" y1="160" x2="270" y2="80" stroke="#0e7490" stroke-width="3"/>
-                        <circle cx="130" cy="70" r="25" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
-                        <circle cx="270" cy="70" r="25" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
-                        <rect x="180" y="150" width="40" height="30" rx="5" fill="#334155" stroke="#0e7490" stroke-width="1.5"/>
-                        <line x1="200" y1="140" x2="200" y2="60" stroke="#0e7490" stroke-width="3"/>
-                        <circle cx="200" cy="55" r="20" fill="#f59e0b" stroke="#fbbf24" stroke-width="2"/>
-                        <!-- Surgical arms -->
-                        <path d="M130 70 L100 30" stroke="#06b6d4" stroke-width="2"/>
-                        <path d="M270 70 L300 30" stroke="#06b6d4" stroke-width="2"/>
-                        <path d="M200 55 L180 20" stroke="#fbbf24" stroke-width="2"/>
-                        <!-- End effectors -->
-                        <circle cx="100" cy="25" r="8" fill="#06b6d4"/>
-                        <circle cx="300" cy="25" r="8" fill="#06b6d4"/>
-                        <circle cx="175" cy="15" r="6" fill="#f59e0b"/>
-                        <!-- Console representation -->
-                        <rect x="150" y="230" width="100" height="40" rx="8" fill="#0e7490"/>
-                        <rect x="160" y="235" width="80" height="25" rx="4" fill="#164e63"/>
-                        <circle cx="185" cy="247" r="5" fill="#06b6d4"/>
-                        <circle cx="215" cy="247" r="5" fill="#06b6d4"/>
-                        <!-- Labels -->
-                        <text x="200" y="290" text-anchor="middle" fill="#94a3b8" font-size="12">Da Vinci Xi System</text>
-                    </svg>
-                    <div class="mt-6 grid grid-cols-2 gap-4">
-                        <div class="bg-slate-800/50 rounded-lg p-4 text-center">
-                            <div class="text-3xl font-bold text-brand-400">3D</div>
-                            <div class="text-sm text-slate-400">HD Visualization</div>
-                        </div>
-                        <div class="bg-slate-800/50 rounded-lg p-4 text-center">
-                            <div class="text-3xl font-bold text-brand-400">720°</div>
-                            <div class="text-sm text-slate-400">Articulated Movement</div>
-                        </div>
-                    </div>
-                </div>
+
+            <!-- Right: Hero Visual -->
+            <div class="bg-gradient-to-br from-brand-700/30 to-brand-900/50 rounded-3xl p-4 border border-brand-400/20 overflow-hidden">
+                <img
+                    src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop&q=80"
+                    alt="Da Vinci Robotic Surgical System"
+                    class="w-full h-[280px] object-cover rounded-2xl"
+                />
             </div>
         </div>
     </div>
@@ -239,44 +154,8 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="bg-gradient-to-br from-slate-100 to-brand-50 rounded-2xl p-8">
-                <svg class="w-full" viewBox="0 0 400 350" fill="none">
-                    <!-- Patient representation -->
-                    <ellipse cx="200" cy="320" rx="120" ry="30" fill="#e2e8f0"/>
-                    <rect x="140" y="220" width="120" height="100" rx="20" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
-                    <text x="200" y="280" text-anchor="middle" fill="#64748b" font-size="10">Patient</text>
-                    <!-- Trocar positions -->
-                    <circle cx="160" cy="240" r="15" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
-                    <circle cx="200" cy="230" r="15" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
-                    <circle cx="240" cy="240" r="15" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
-                    <circle cx="180" cy="280" r="12" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
-                    <circle cx="220" cy="280" r="12" fill="#0e7490" stroke="#06b6d4" stroke-width="2"/>
-                    <!-- Instruments going in -->
-                    <line x1="160" y1="240" x2="160" y2="150" stroke="#f59e0b" stroke-width="2"/>
-                    <line x1="200" y1="230" x2="200" y2="130" stroke="#06b6d4" stroke-width="2"/>
-                    <line x1="240" y1="240" x2="240" y2="150" stroke="#f59e0b" stroke-width="2"/>
-                    <line x1="180" y1="280" x2="180" y2="180" stroke="#06b6d4" stroke-width="2"/>
-                    <line x1="220" y1="280" x2="220" y2="180" stroke="#06b6d4" stroke-width="2"/>
-                    <!-- End effectors in abdomen -->
-                    <circle cx="160" cy="145" r="8" fill="#f59e0b"/>
-                    <circle cx="200" cy="125" r="8" fill="#06b6d4"/>
-                    <circle cx="240" cy="145" r="8" fill="#f59e0b"/>
-                    <circle cx="180" cy="175" r="6" fill="#06b6d4"/>
-                    <circle cx="220" cy="175" r="6" fill="#06b6d4"/>
-                    <!-- Hernia representation -->
-                    <ellipse cx="200" cy="165" rx="25" ry="20" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4"/>
-                    <text x="200" y="168" text-anchor="middle" fill="#b45309" font-size="8">Hernia</text>
-                    <!-- Robot arms -->
-                    <path d="M80 50 L160 145" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
-                    <path d="M200 30 L200 125" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
-                    <path d="M320 50 L240 145" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
-                    <!-- Console -->
-                    <rect x="130" y="20" width="140" height="60" rx="10" fill="#1e293b" stroke="#0e7490" stroke-width="2"/>
-                    <rect x="140" y="30" width="50" height="35" rx="5" fill="#0e7490" opacity="0.5"/>
-                    <rect x="210" y="30" width="50" height="35" rx="5" fill="#0e7490" opacity="0.5"/>
-                    <rect x="160" y="70" width="80" height="15" rx="5" fill="#334155"/>
-                    <text x="200" y="12" text-anchor="middle" fill="#94a3b8" font-size="10">Surgeon Console</text>
-                </svg>
+            <div class="bg-gradient-to-br from-slate-100 to-brand-50 rounded-2xl p-4 overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&h=450&fit=crop&q=80" alt="Robotic Surgery Visualization" class="w-full rounded-xl" />
             </div>
         </div>
     </div>
@@ -291,25 +170,25 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
-                <svg class="w-10 h-10 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20 text-center hover:-translate-y-1 transition duration-300">
+                <svg class="w-10 h-10 text-accent mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 <h3 class="text-lg font-bold mb-2">Quicker Return Home</h3>
-                <p class="text-brand-100 text-sm">Most patients go home the same day or after one night, compared to 2-3 days with open surgery.</p>
+                <p class="text-brand-100 text-sm">Same day or one night stay vs 2-3 days with open surgery</p>
             </div>
-            <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
-                <svg class="w-10 h-10 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
-                <h3 class="text-lg font-bold mb-2">Less Post-Operative Pain</h3>
-                <p class="text-brand-100 text-sm">Smaller incisions mean significantly less pain and reduced need for pain medications.</p>
+            <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20 text-center hover:-translate-y-1 transition duration-300">
+                <svg class="w-10 h-10 text-accent mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                <h3 class="text-lg font-bold mb-2">Less Post-Op Pain</h3>
+                <p class="text-brand-100 text-sm">Smaller incisions mean significantly less pain and discomfort</p>
             </div>
-            <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
-                <svg class="w-10 h-10 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                <h3 class="text-lg font-bold mb-2">Better Cosmetic Outcome</h3>
-                <p class="text-brand-100 text-sm">Five small scars instead of one large incision, often barely visible after healing.</p>
+            <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20 text-center hover:-translate-y-1 transition duration-300">
+                <svg class="w-10 h-10 text-accent mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <h3 class="text-lg font-bold mb-2">Better Cosmetics</h3>
+                <p class="text-brand-100 text-sm">Five tiny scars instead of one large incision</p>
             </div>
-            <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
-                <svg class="w-10 h-10 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+            <div class="bg-white/10 backdrop-blur rounded-2xl p-6 border border-white/20 text-center hover:-translate-y-1 transition duration-300">
+                <svg class="w-10 h-10 text-accent mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
                 <h3 class="text-lg font-bold mb-2">Lower Recurrence</h3>
-                <p class="text-brand-100 text-sm">Precise mesh placement leads to better long-term outcomes with lower hernia recurrence rates.</p>
+                <p class="text-brand-100 text-sm">Precise mesh placement for better long-term outcomes</p>
             </div>
         </div>
     </div>
@@ -389,57 +268,127 @@ require __DIR__ . '/../includes/header.php';
 </section>
 
 <!-- FAQ Section -->
-<section class="py-16 lg:py-20 bg-slate-50">
-    <div class="max-w-4xl mx-auto px-4">
-        <div class="text-center mb-14">
-            <h2 class="font-display text-3xl lg:text-4xl font-bold text-slate-800 mb-4">Frequently Asked Questions</h2>
-            <p class="text-lg text-slate-600">Common questions about robotic hernia surgery</p>
+<section class="py-12 md:py-16 bg-slate-50 border-t border-slate-100">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently Asked Questions
+            </h2>
         </div>
 
-        <div class="space-y-4">
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
-                <h4 class="font-semibold text-slate-800 mb-2">Is robotic surgery the same as being operated on by a robot?</h4>
-                <p class="text-slate-600">No. The robot is a tool controlled entirely by Dr. Kumar. There is no artificial intelligence making decisions. Every movement is performed by your surgeon at a console, providing enhanced precision but maintaining complete human control.</p>
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <div class="space-y-4">
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">Is robotic surgery the same as being operated on by a robot?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">No. The robot is a tool controlled entirely by Dr. Kumar. There is no artificial intelligence making decisions. Every movement is performed by your surgeon at a console, providing enhanced precision but maintaining complete human control.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Will I have less pain with robotic surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Yes, most patients report significantly less pain compared to open surgery. The smaller incisions and precise tissue handling contribute to a more comfortable recovery. Many patients need only over-the-counter pain relievers after the first few days.</p>
+                    </div>
+                </div>
             </div>
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
-                <h4 class="font-semibold text-slate-800 mb-2">Will I have less pain with robotic surgery?</h4>
-                <p class="text-slate-600">Yes, most patients report significantly less pain compared to open surgery. The smaller incisions and precise tissue handling contribute to a more comfortable recovery. Many patients need only over-the-counter pain relievers after the first few days.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
-                <h4 class="font-semibold text-slate-800 mb-2">How long is the recovery?</h4>
-                <p class="text-slate-600">Most patients return to light activities within a few days and to full work within 1-2 weeks, depending on the nature of their job. Heavy lifting should be avoided for 4-6 weeks as directed by Dr. Kumar.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
-                <h4 class="font-semibold text-slate-800 mb-2">Is robotic surgery covered by insurance?</h4>
-                <p class="text-slate-600">Hernia repair, whether performed robotically, laparoscopically, or open, is typically covered by health insurance. Our team will help verify your coverage and explain any out-of-pocket costs before your procedure.</p>
+
+            <div class="space-y-4">
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How long is the recovery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Most patients return to light activities within a few days and to full work within 1-2 weeks, depending on the nature of their job. Heavy lifting should be avoided for 4-6 weeks as directed by Dr. Kumar.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Is robotic surgery covered by insurance?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Hernia repair, whether performed robotically, laparoscopically, or open, is typically covered by health insurance. Our team will help verify your coverage and explain any out-of-pocket costs before your procedure.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+<script>
+document.querySelectorAll('.faq-toggle').forEach(function(button) {
+    button.addEventListener('click', function() {
+        var faqItem = this.closest('.faq-item');
+        var faqContent = faqItem.querySelector('.faq-content');
+        var faqSymbol = faqItem.querySelector('.faq-symbol');
+
+        if (faqItem.classList.contains('active')) {
+            faqItem.classList.remove('active');
+            faqContent.classList.add('hidden');
+            faqSymbol.textContent = '+';
+        } else {
+            document.querySelectorAll('.faq-item.active').forEach(function(active) {
+                active.classList.remove('active');
+                active.querySelector('.faq-content').classList.add('hidden');
+                active.querySelector('.faq-symbol').textContent = '+';
+            });
+            faqItem.classList.add('active');
+            faqContent.classList.remove('hidden');
+            faqSymbol.textContent = '—';
+        }
+    });
+});
+</script>
+
 <!-- CTA Section -->
-<section class="py-16 lg:py-20 bg-gradient-to-r from-brand-700 to-brand-800">
-    <div class="max-w-4xl mx-auto px-4 text-center">
-        <h2 class="font-display text-3xl lg:text-4xl font-bold text-white mb-4">Ready to Explore Robotic Hernia Repair?</h2>
-        <p class="text-xl text-brand-100 mb-8">Schedule a consultation with Dr. Kumar to find out if robotic surgery is right for your hernia.</p>
+<section class="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="max-w-7xl mx-auto px-4 relative z-10">
+        <span class="text-accent text-xs font-bold uppercase tracking-wider bg-white/10 px-4 py-1.5 rounded-full mb-4 inline-block border border-white/10">Personalized Consultations</span>
+        <h2 class="font-display text-3xl md:text-5xl font-bold mb-6">
+            Ready to Explore Robotic Hernia Repair?
+        </h2>
+        <p class="text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl mx-auto">
+            Schedule a consultation with Dr. Kumar to find out if robotic surgery is right for your hernia.
+        </p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-white text-brand-700 font-semibold px-8 py-4 rounded-lg hover:bg-brand-50 transition">
-                Book Consultation
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                Book Appointment
             </a>
-            <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white/10 transition">
+            <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-                Call <?= $site['phone'] ?>
+                Call Now
             </a>
         </div>
     </div>
 </section>
 
 <!-- Floating Call Button -->
-<div class="float-call">
-    <a href="tel:<?= $site['phone_link'] ?>" aria-label="Call Dr. Kumar">
-        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-    </a>
-</div>
+<a href="tel:<?= $site['phone_link'] ?>" class="fixed bottom-6 right-6 z-50 group" aria-label="Call Dr. Kumar">
+    <div class="relative flex items-center">
+        <div class="absolute right-full mr-3 bg-white rounded-xl shadow-2xl p-4 whitespace-nowrap opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-x-2 group-hover:translate-x-0 border border-slate-100">
+            <p class="font-bold text-slate-900"><?= $site['phone'] ?></p>
+            <p class="text-sm text-slate-500">Tap to call</p>
+        </div>
+        <div class="w-14 h-14 bg-gradient-to-r from-brand-600 to-brand-700 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110">
+            <svg class="w-6 h-6 text-white animate-pulse" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+        </div>
+    </div>
+</a>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

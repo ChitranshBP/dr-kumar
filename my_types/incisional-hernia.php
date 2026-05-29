@@ -1,36 +1,39 @@
 <?php
-require __DIR__ . '/../includes/layout.php';
+require __DIR__ . '/../includes/header.php';
 ?>
 
-<section class="relative bg-brand-950 text-white overflow-hidden">
-    <div class="absolute inset-0 opacity-20">
-        <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <pattern id="grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-                    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="0.5"/>
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#grid)"/>
-        </svg>
+<!-- Hero Section -->
+<section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
+    <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1551190822-a5643d8b5a8d?w=1920&q=80" alt="Medical consultation" class="w-full h-full object-cover opacity-20">
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
     </div>
-    <div class="relative max-w-7xl mx-auto px-4 py-20 lg:py-28">
+    <div class="relative max-w-7xl mx-auto px-4 z-10">
+        <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
+            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <span class="text-slate-500">/</span>
+            <span class="text-slate-400">Hernia Types</span>
+            <span class="text-slate-500">/</span>
+            <span class="text-accent font-medium">Incisional Hernia</span>
+        </nav>
+
         <div class="max-w-3xl">
-            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
                 <span class="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
                 Post-Surgery Complication
             </span>
-            <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 Incisional <span class="text-accent">Hernia</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
                 Occurs at the site of a previous surgical incision when tissue pushes through a weakened abdominal wall. Requires specialized abdominal wall reconstruction.
             </p>
             <div class="flex flex-wrap gap-4">
-                <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded-full transition">
+                <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
                     Book Consultation
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
-                <a href="#causes" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-6 py-3 rounded-full border border-white/30 transition">
+                <a href="#causes" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
                     Learn More
                 </a>
             </div>
@@ -38,18 +41,19 @@ require __DIR__ . '/../includes/layout.php';
     </div>
 </section>
 
+<!-- Causes Section -->
 <section id="causes" class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
-                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">Understanding</span>
-                <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-3 mb-6">
+                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
                     What Causes Incisional Hernia?
                 </h2>
-                <p class="text-slate-600 leading-relaxed mb-5">
+                <p class="text-slate-600 leading-relaxed mb-5 text-lg">
                     An incisional hernia develops at the site of a previous surgical incision in the abdomen. The weakness occurs where the surgical cut healed, allowing abdominal contents to protrude.
                 </p>
-                <p class="text-slate-600 leading-relaxed mb-6">
+                <p class="text-slate-600 leading-relaxed mb-6 text-base">
                     Previous surgery is the primary cause. Any surgery that involves an incision in the abdominal wall can potentially lead to this condition, from appendectomy to C-section.
                 </p>
                 <h3 class="font-bold text-xl text-slate-900 mb-4">Common Previous Surgeries Include:</h3>
@@ -125,6 +129,7 @@ require __DIR__ . '/../includes/layout.php';
     </div>
 </section>
 
+<!-- Treatment Section -->
 <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
@@ -139,44 +144,44 @@ require __DIR__ . '/../includes/layout.php';
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition border border-slate-100">
-                <div class="w-16 h-16 rounded-2xl bg-brand-100 flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
+            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 hover:shadow-lg transition border border-brand-100">
+                <div class="w-16 h-16 rounded-2xl bg-brand-700 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
                 </div>
                 <h3 class="font-bold text-2xl text-slate-900 mb-3">AWR</h3>
                 <p class="text-slate-600 leading-relaxed mb-4">
                     Abdominal Wall Reconstruction is the gold standard for complex incisional hernias. Reinforces the entire abdominal wall with mesh reinforcement for lasting results.
                 </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-50 text-brand-700 rounded-full text-sm font-medium">
+                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
                     <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
                     Gold Standard
                 </span>
             </div>
 
-            <div class="bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition border border-slate-100">
-                <div class="w-16 h-16 rounded-2xl bg-accent/20 flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 hover:shadow-lg transition border border-brand-100">
+                <div class="w-16 h-16 rounded-2xl bg-brand-700 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                 </div>
                 <h3 class="font-bold text-2xl text-slate-900 mb-3">TAR</h3>
                 <p class="text-slate-600 leading-relaxed mb-4">
                     Transversus Abdominis Release allows restoration of lateral abdominal wall tension. Component separation technique for giant hernias.
                 </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 rounded-full text-sm font-medium">
-                    <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
                     Component Separation
                 </span>
             </div>
 
-            <div class="bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition border border-slate-100">
-                <div class="w-16 h-16 rounded-2xl bg-emerald-100 flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-2xl p-8 hover:shadow-lg transition border border-brand-100">
+                <div class="w-16 h-16 rounded-2xl bg-brand-700 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
                 <h3 class="font-bold text-2xl text-slate-900 mb-3">IPOM</h3>
                 <p class="text-slate-600 leading-relaxed mb-4">
                     Intraperitoneal Onlay Mesh places mesh inside the abdominal cavity to cover the hernia defect. Minimally invasive approach for suitable candidates.
                 </p>
-                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium">
-                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+                <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 text-brand-700 rounded-full text-sm font-medium">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
                     Minimally Invasive
                 </span>
             </div>
@@ -184,6 +189,7 @@ require __DIR__ . '/../includes/layout.php';
     </div>
 </section>
 
+<!-- What to Expect Section -->
 <section class="py-16 md:py-24 bg-brand-950 text-white">
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
@@ -197,25 +203,25 @@ require __DIR__ . '/../includes/layout.php';
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6">
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6 text-center">
                 <div class="text-4xl font-bold text-accent mb-2">1-2</div>
                 <p class="text-slate-300 text-sm">Days Hospital Stay</p>
             </div>
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6">
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6 text-center">
                 <div class="text-4xl font-bold text-accent mb-2">4-6</div>
                 <p class="text-slate-300 text-sm">Weeks Light Activity</p>
             </div>
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6">
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6 text-center">
                 <div class="text-4xl font-bold text-accent mb-2">6-8</div>
                 <p class="text-slate-300 text-sm">Weeks Full Recovery</p>
             </div>
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6">
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6 text-center">
                 <div class="text-4xl font-bold text-accent mb-2"><5%</div>
                 <p class="text-slate-300 text-sm">Recurrence Rate</p>
             </div>
         </div>
 
-        <div class="mt-12 bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-8">
+        <div class="mt-12 bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-8">
             <h3 class="font-bold text-xl mb-6">Recovery Tips</h3>
             <div class="grid md:grid-cols-2 gap-4">
                 <div class="flex items-start gap-3">
@@ -239,4 +245,37 @@ require __DIR__ . '/../includes/layout.php';
     </div>
 </section>
 
-<?php require __DIR__ . '/../includes/layout-footer.php'; ?>
+<!-- CTA Section -->
+<section class="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="max-w-7xl mx-auto px-4 relative z-10">
+        <span class="text-accent text-xs font-bold uppercase tracking-wider bg-white/10 px-4 py-1.5 rounded-full mb-4 inline-block border border-white/10">Personalized Consultations</span>
+        <h2 class="font-display text-3xl md:text-5xl font-bold mb-6">
+            Ready to Discuss Your Treatment?
+        </h2>
+        <p class="text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl mx-auto">
+            Book an appointment with Dr. Kumar today for a comprehensive evaluation of your condition.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                Book Appointment
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Floating Call Button -->
+<a href="tel:<?= $site['phone_link'] ?>" class="fixed bottom-6 right-6 z-50 group" aria-label="Call Dr. Kumar">
+    <div class="relative flex items-center">
+        <div class="absolute right-full mr-3 bg-white rounded-xl shadow-2xl p-4 whitespace-nowrap opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-x-2 group-hover:translate-x-0 border border-slate-100">
+            <p class="font-bold text-slate-900"><?= $site['phone'] ?></p>
+            <p class="text-sm text-slate-500">Tap to call</p>
+        </div>
+        <div class="w-14 h-14 bg-gradient-to-r from-brand-600 to-brand-700 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110">
+            <svg class="w-6 h-6 text-white animate-pulse" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+        </div>
+    </div>
+</a>
+
+<?php require __DIR__ . '/../includes/footer.php'; ?>

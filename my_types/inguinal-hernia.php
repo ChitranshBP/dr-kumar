@@ -1,37 +1,39 @@
 <?php
-require __DIR__ . '/../includes/layout.php';
+require __DIR__ . '/../includes/header.php';
 ?>
 
 <!-- Hero Section -->
-<section class="relative bg-brand-950 text-white overflow-hidden">
-    <div class="absolute inset-0 opacity-20">
-        <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <pattern id="grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-                    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="0.5"/>
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#grid)"/>
-        </svg>
+<section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
+    <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1631815588090-d4bf27d1b03b?w=1920&q=80" alt="Medical consultation" class="w-full h-full object-cover opacity-20">
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-950/90 to-brand-950/70"></div>
     </div>
-    <div class="relative max-w-7xl mx-auto px-4 py-20 lg:py-28">
+    <div class="relative max-w-7xl mx-auto px-4 z-10">
+        <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
+            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <span class="text-slate-500">/</span>
+            <span class="text-slate-400">Hernia Types</span>
+            <span class="text-slate-500">/</span>
+            <span class="text-accent font-medium">Inguinal Hernia</span>
+        </nav>
+
         <div class="max-w-3xl">
-            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
                 <span class="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
                 Most Common Hernia Type
             </span>
-            <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 Inguinal <span class="text-accent">Hernia</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
                 The most common type of hernia, occurring in the groin area. Dr. Kumar specializes in advanced minimally invasive repair techniques for optimal outcomes.
             </p>
             <div class="flex flex-wrap gap-4">
-                <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded-full transition">
+                <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
                     Book Consultation
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
-                <a href="#types" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-6 py-3 rounded-full border border-white/30 transition">
+                <a href="#types" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
                     Learn More
                 </a>
             </div>
@@ -44,14 +46,14 @@ require __DIR__ . '/../includes/layout.php';
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
-                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">Understanding</span>
-                <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-3 mb-6">
+                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
                     What is an Inguinal Hernia?
                 </h2>
-                <p class="text-slate-600 leading-relaxed mb-5">
+                <p class="text-slate-600 leading-relaxed mb-5 text-lg">
                     An inguinal hernia occurs when tissue, such as part of the intestine, pushes through a weak spot in the abdominal muscles near the groin. It appears as a bulge in the groin or scrotum and is more common in men.
                 </p>
-                <p class="text-slate-600 leading-relaxed mb-8">
+                <p class="text-slate-600 leading-relaxed mb-8 text-base">
                     Dr. Kumar offers the full spectrum of inguinal hernia repair techniques, from traditional open surgery to advanced laparoscopic approaches including eTEP, TEP, and TAPP procedures.
                 </p>
                 <div class="flex flex-wrap gap-3">
@@ -153,9 +155,9 @@ require __DIR__ . '/../includes/layout.php';
                 <p class="text-slate-600 text-sm">Bulge may disappear when lying down and can be pushed back in</p>
             </div>
 
-            <div class="bg-red-50 rounded-2xl p-6 hover:shadow-lg transition">
-                <div class="w-12 h-12 rounded-xl bg-red-100 flex items-center justify-center mb-4">
-                    <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+            <div class="bg-brand-100 rounded-2xl p-6 hover:shadow-lg transition">
+                <div class="w-12 h-12 rounded-xl bg-brand-700 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                 </div>
                 <h3 class="font-bold text-lg text-slate-900 mb-2">Emergency Signs</h3>
                 <p class="text-slate-600 text-sm">Severe pain, nausea, vomiting - seek immediate medical attention</p>
@@ -180,7 +182,7 @@ require __DIR__ . '/../includes/layout.php';
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
-                <div class="w-14 h-14 rounded-xl bg-accent/20 flex items-center justify-center mb-5">
+                <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
                     <span class="text-xl font-bold text-accent">eTEP</span>
                 </div>
                 <h3 class="font-bold text-xl mb-3">eTEP RS</h3>
@@ -191,7 +193,7 @@ require __DIR__ . '/../includes/layout.php';
 
             <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
                 <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
-                    <span class="text-xl font-bold text-brand-400">TEP</span>
+                    <span class="text-xl font-bold text-accent">TEP</span>
                 </div>
                 <h3 class="font-bold text-xl mb-3">TEP Repair</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
@@ -200,8 +202,8 @@ require __DIR__ . '/../includes/layout.php';
             </div>
 
             <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
-                <div class="w-14 h-14 rounded-xl bg-emerald-500/20 flex items-center justify-center mb-5">
-                    <span class="text-xl font-bold text-emerald-400">TAPP</span>
+                <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
+                    <span class="text-xl font-bold text-accent">TAPP</span>
                 </div>
                 <h3 class="font-bold text-xl mb-3">TAPP Repair</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
@@ -210,8 +212,8 @@ require __DIR__ . '/../includes/layout.php';
             </div>
 
             <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition">
-                <div class="w-14 h-14 rounded-xl bg-purple-500/20 flex items-center justify-center mb-5">
-                    <svg class="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
+                <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
+                    <span class="text-xl font-bold text-accent">OPEN</span>
                 </div>
                 <h3 class="font-bold text-xl mb-3">Open Repair</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
@@ -227,11 +229,11 @@ require __DIR__ . '/../includes/layout.php';
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">Why Dr. Kumar</span>
-                <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-3 mb-6">
+                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Why Dr. Kumar</span>
+                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
                     Expert Care for Inguinal Hernia
                 </h2>
-                <p class="text-slate-600 leading-relaxed mb-8">
+                <p class="text-slate-600 leading-relaxed mb-8 text-lg">
                     With over 29 years of experience and thousands of successful inguinal hernia repairs, Dr. Kumar offers unparalleled expertise in both open and minimally invasive techniques.
                 </p>
                 <div class="space-y-4">
@@ -282,7 +284,7 @@ require __DIR__ . '/../includes/layout.php';
                         <p class="text-sm text-slate-500">Success Rate</p>
                     </div>
                     <div class="bg-white rounded-xl p-4 text-center shadow-sm">
-                        <p class="text-3xl font-bold text-brand-700">&lt;1%</p>
+                        <p class="text-3xl font-bold text-brand-700"><1%</p>
                         <p class="text-sm text-slate-500">Recurrence</p>
                     </div>
                 </div>
@@ -291,4 +293,40 @@ require __DIR__ . '/../includes/layout.php';
     </div>
 </section>
 
-<?php require __DIR__ . '/../includes/layout-footer.php'; ?>
+<!-- CTA Section -->
+<section class="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="max-w-7xl mx-auto px-4 relative z-10">
+        <span class="text-accent text-xs font-bold uppercase tracking-wider bg-white/10 px-4 py-1.5 rounded-full mb-4 inline-block border border-white/10">Personalized Consultations</span>
+        <h2 class="font-display text-3xl md:text-5xl font-bold mb-6">
+            Ready to Discuss Your Treatment?
+        </h2>
+        <p class="text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl mx-auto">
+            Book an appointment with Dr. Kumar today for a comprehensive evaluation of your condition.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                Book Appointment
+            </a>
+            <a href="<?= $base_path ?>my_types/inguinal-hernia.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
+                Learn More
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Floating Call Button -->
+<a href="tel:<?= $site['phone_link'] ?>" class="fixed bottom-6 right-6 z-50 group" aria-label="Call Dr. Kumar">
+    <div class="relative flex items-center">
+        <div class="absolute right-full mr-3 bg-white rounded-xl shadow-2xl p-4 whitespace-nowrap opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-x-2 group-hover:translate-x-0 border border-slate-100">
+            <p class="font-bold text-slate-900"><?= $site['phone'] ?></p>
+            <p class="text-sm text-slate-500">Tap to call</p>
+        </div>
+        <div class="w-14 h-14 bg-gradient-to-r from-brand-600 to-brand-700 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110">
+            <svg class="w-6 h-6 text-white animate-pulse" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+        </div>
+    </div>
+</a>
+
+<?php require __DIR__ . '/../includes/footer.php'; ?>
