@@ -36,12 +36,13 @@ $site = [
 
 // Flat navigation for simple loops or fallback lists (like the footer)
 $nav = [
-    'Home'              => 'index.php',
-    'About Us'          => 'about-us.php',
-    'Hernia Surgery'    => 'treatment/hernia-surgery.php',
-    'Robotic Surgery'   => 'robotic-hernia-surgery.php',
-    'Emergency Care'    => 'emergency-hernia-care.php',
-    'Contact Us'        => 'contact.php',
+    'Home'                       => 'index.php',
+    'About Us'                   => 'about-us.php',
+    'Hernia Surgery'             => 'treatment/hernia-surgery.php',
+    'Laparoscopic Hernia Surgery'=> 'treatment/laparoscopic-hernia-surgery.php',
+    'Robotic Hernia Surgery'     => 'robotic-hernia-surgery.php',
+    'Emergency Care'             => 'emergency-hernia-care.php',
+    'Contact Us'                 => 'contact.php',
 ];
 
 // Structured multidimensional menu for the header (desktop mega-menu and mobile accordion)
@@ -111,7 +112,7 @@ $headerMenu = [
             [
                 'title' => 'Surgical Innovation',
                 'links' => [
-                    ['label' => 'Da Vinci Robotic System', 'link' => 'advanced-techniques/da-vinci-system.php'],
+                    ['label' => 'Advanced Robotic Surgery', 'link' => 'advanced-techniques/da-vinci-system.php'],
                     ['label' => '3D Mesh Implants', 'link' => 'advanced-techniques/3d-mesh.php'],
                     ['label' => 'Biological Mesh Options', 'link' => 'advanced-techniques/biological-mesh.php'],
                     ['label' => 'Self-Gripping Mesh Tech', 'link' => 'advanced-techniques/self-gripping-mesh.php'],
@@ -166,11 +167,11 @@ $herniaConditions = [
 ];
 
 $treatments = [
-    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia.php'],
+    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic &amp; Robotic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia.php'],
     ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia.php'],
     ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia.php'],
     ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia.php'],
-    ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Da Vinci robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
+    ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
     ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-repair.php'],
     ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia.php'],
     ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/hernia-surgery.php'],

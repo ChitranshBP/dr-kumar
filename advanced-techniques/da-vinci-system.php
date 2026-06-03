@@ -13,7 +13,7 @@
                     <span class="text-slate-500">/</span>
                     <span class="text-slate-400">Advanced Techniques</span>
                     <span class="text-slate-500">/</span>
-                    <span class="text-accent font-medium">Da Vinci Robotic</span>
+                    <span class="text-accent font-medium">Advanced Robotic Surgery</span>
                 </nav>
 
                 <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
@@ -21,11 +21,11 @@
                     Advanced Robotic Technology
                 </span>
                 <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                    Da Vinci Robotic<br>
+                    Advanced Robotic<br>
                     <span class="text-accent">Surgery System</span>
                 </h1>
                 <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                    Experience the next generation of surgical precision with the FDA-cleared Da Vinci Surgical System. Dr. Kumar brings robotically-assisted hernia repair to Chennai with unmatched accuracy and control.
+                    Experience the next generation of surgical precision with our advanced robotic-assisted surgery system. Dr. Kumar brings robotically-assisted hernia repair to Chennai with unmatched accuracy and control.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -43,7 +43,7 @@
             <div class="bg-gradient-to-br from-brand-700/30 to-brand-900/50 rounded-3xl p-4 border border-brand-400/20 overflow-hidden">
                 <img
                     src="<?= $base_path ?>assets/images/davinci-system.png"
-                    alt="Da Vinci Robotic Surgical System"
+                    alt="Advanced Robotic Surgical System"
                     class="w-full h-[280px] object-cover rounded-2xl"
                 />
             </div>
@@ -56,7 +56,7 @@
     <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-14">
             <h2 class="font-display text-3xl lg:text-4xl font-bold text-slate-800 mb-4">Why Choose Robotic Surgery?</h2>
-            <p class="text-lg text-slate-600 max-w-2xl mx-auto">The Da Vinci system offers significant advantages over traditional laparoscopic surgery, particularly for complex hernia repairs.</p>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">Our advanced robotic system offers significant advantages over traditional laparoscopic surgery, particularly for complex hernia repairs.</p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -121,7 +121,7 @@
                     Surgical Process
                 </div>
                 <h2 class="font-display text-3xl lg:text-4xl font-bold text-slate-800 mb-6">How Robotic Hernia Repair Works</h2>
-                <p class="text-lg text-slate-600 mb-8">The Da Vinci system translates Dr. Kumar's hand movements into micro-movements of tiny instruments inside your body, providing unmatched precision.</p>
+                <p class="text-lg text-slate-600 mb-8">The advanced robotic system translates Dr. Kumar's hand movements into micro-movements of tiny instruments inside your body, providing unmatched precision.</p>
 
                 <div class="space-y-6">
                     <div class="flex gap-4">

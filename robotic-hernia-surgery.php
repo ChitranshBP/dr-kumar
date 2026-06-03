@@ -33,11 +33,11 @@ require __DIR__ . '/includes/header.php';
                     Advanced Robotic Surgery
                 </span>
                 <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                    Da Vinci Robotic<br>
+                    Advanced Robotic<br>
                     <span class="text-accent">Hernia Surgery</span>
                 </h1>
                 <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                    Experience the next generation of hernia repair with Da Vinci robotic systems. Dr. Kumar brings unprecedented 3D visualization, tremor filtration, and wristed precision to your procedure.
+                    Experience the next generation of hernia repair with advanced robotic systems. Dr. Kumar brings unprecedented 3D visualization, tremor filtration, and wristed precision to your procedure.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#why-robotic" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -55,7 +55,7 @@ require __DIR__ . '/includes/header.php';
             <div class="lg:col-span-5 relative">
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-800 aspect-[4/3] border border-white/10 group">
                     <img src="<?= $base_path ?>assets/images/robotic-precision.png" 
-                         alt="Da Vinci Robotic Surgery System Setup" 
+                         alt="Advanced Robotic Surgery System Setup"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/10 to-transparent"></div>
                     
@@ -65,7 +65,7 @@ require __DIR__ . '/includes/header.php';
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                         </div>
                         <div>
-                            <p class="font-bold text-slate-900 text-xs leading-none font-display">Da Vinci Xi System</p>
+                            <p class="font-bold text-slate-900 text-xs leading-none font-display">Advanced Robotic Surgery System</p>
                             <p class="text-[10px] text-brand-600 font-semibold mt-1">Multi-arm robotic instrumentation</p>
                         </div>
                     </div>
@@ -379,7 +379,7 @@ require __DIR__ . '/includes/header.php';
                     Robotic Recovery Timeline
                 </h2>
                 <p class="text-slate-655 leading-relaxed mb-10 text-sm md:text-base">
-                    With Da Vinci's wristed tissue handling, incision margins remain unstretched. This leads to a structured, comfortable post-operative rehabilitation path.
+                    With advanced robotic wristed tissue handling, incision margins remain unstretched. This leads to a structured, comfortable post-operative rehabilitation path.
                 </p>
 
                 <!-- Vertical timeline component -->
@@ -624,7 +624,7 @@ require __DIR__ . '/includes/header.php';
             Ready to Explore Robotic Surgery?
         </h2>
         <p class="text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl mx-auto">
-            Schedule a clinical consultation with Dr. Kumar to assess your hernia and determine if a Da Vinci robotic-assisted repair is the ideal pathway for your recovery.
+            Schedule a clinical consultation with Dr. Kumar to assess your hernia and determine if a robotic-assisted repair is the ideal pathway for your recovery.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
             <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">

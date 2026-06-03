@@ -460,7 +460,7 @@ require __DIR__ . '/../includes/header.php';
                     <h3 class="font-bold text-brand-700 text-lg mb-2">Regional Anesthesia</h3>
                     <p class="text-slate-600">Anesthesia that numbs a region of the body, such as spinal or epidural anesthesia that numbs the lower body.</p>
                 </div>
-                <div class="glossary-term bg-white rounded-xl p-5 border border-slate-100 shadow-sm" data-term="robotic surgery da Vinci">
+                <div class="glossary-term bg-white rounded-xl p-5 border border-slate-100 shadow-sm" data-term="robotic surgery">
                     <h3 class="font-bold text-brand-700 text-lg mb-2">Robotic Surgery</h3>
                     <p class="text-slate-600">Advanced surgical technique using robotic arms controlled by the surgeon. Provides enhanced precision, 3D visualization, and dexterity for complex hernia repairs.</p>
                 </div>

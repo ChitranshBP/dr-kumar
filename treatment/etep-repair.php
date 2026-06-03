@@ -429,7 +429,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">It can be performed using both methods. Standard eTEP is highly successful using laparoscopic micro-instruments. For very complex cases involving transversus muscle release (TAR), robotic arms (e.g. da Vinci system) provide high precision, stereoscopic 3D views, and extreme wrist articulation.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">It can be performed using both methods. Standard eTEP is highly successful using laparoscopic micro-instruments. For very complex cases involving transversus muscle release (TAR), advanced robotic arms (e.g. an advanced robotic system) provide high precision, stereoscopic 3D views, and extreme wrist articulation.</p>
                     </div>
                 </div>
 

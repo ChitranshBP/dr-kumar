@@ -11,11 +11,11 @@ require __DIR__ . '/includes/header.php';
         <div class="px-6 lg:px-8 py-20 lg:py-28 max-w-2xl relative z-10">
 
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] text-white mb-5">
-                Advanced Abdominal<br>Hernia Expert
+                Advanced Hernia and Abdominal Wall Expert
             </h1>
 
             <p class="text-slate-200 text-base md:text-lg leading-relaxed mb-8">
-                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction & Minimally Invasive Surgery with 29+ years of experience in Chennai.
+                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Surgery with 29+ years of experience and <strong>10,000+ successful surgeries</strong> in Chennai.
             </p>
 
             <div class="flex flex-wrap gap-3">
@@ -32,6 +32,124 @@ require __DIR__ . '/includes/header.php';
 
 </section>
 
+<!-- Hernia Care 360 Section -->
+<section id="hernia-care-360" class="py-12 md:py-14 bg-gradient-to-br from-slate-50 via-white to-brand-50 overflow-hidden">
+    <div class="relative max-w-7xl mx-auto px-4">
+
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-10">
+            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+                Welcome to Hernia Care 360
+            </span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-4 leading-tight">
+                Chennai's Dedicated <span class="text-brand-700">Advanced Center</span><br>
+                for Complete Hernia &amp; Abdominal Wall Care
+            </h2>
+        </div>
+
+        <!-- Main content card -->
+        <div class="relative bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden">
+            <div class="absolute top-0 right-0 w-72 h-72 bg-brand-700/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+
+            <div class="relative grid lg:grid-cols-12 gap-0">
+                <!-- Left: copy -->
+                <div class="lg:col-span-7 p-8 md:p-10 lg:p-12">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-700 text-white flex items-center justify-center font-display font-bold text-lg shadow-md">
+                            360&deg;
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold uppercase tracking-widest text-brand-700">Hernia Care 360</p>
+                            <p class="text-sm text-slate-500">at Billroth Hospitals, Chennai</p>
+                        </div>
+                    </div>
+
+                    <h3 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mb-5 leading-snug">
+                        A True 360-Degree Care Model &mdash; from Consultation to Follow-up
+                    </h3>
+
+                    <p class="text-slate-600 leading-relaxed mb-5">
+                        <strong>Hernia Care 360</strong>, led by renowned hernia specialist <strong>Dr. Kumar</strong> at Billroth Hospitals, is Chennai's dedicated advanced center for complete hernia and abdominal wall care. Offering comprehensive solutions for complex and recurrent hernias, the center uses cutting-edge technologies such as <strong>robotic surgery, advanced laparoscopy, eTEP, TAR, and component separation</strong> to achieve durable results.
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Designed as a true 360-degree care model, it provides <strong>consultation, diagnosis, treatment, recovery, rehabilitation, and follow-up</strong> under one roof. With rising hernia cases and high recurrence rates due to varied surgical expertise, Hernia Care 360 fulfills the growing need for a specialized hernia center &mdash; delivering expert, modern, and reliable hernia management backed by Dr. Kumar's extensive experience in the evolving field of herniology.
+                    </p>
+
+                    <div class="flex flex-wrap gap-3">
+                        <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition">
+                            Schedule a Consultation
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
+                        <a href="#treatments" class="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-800 font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm transition">
+                            Explore Treatments
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: 360-degree care pillars -->
+                <div class="lg:col-span-5 bg-gradient-to-br from-brand-700 to-brand-900 text-white p-8 md:p-10 lg:p-12 relative overflow-hidden">
+                    <svg class="absolute inset-0 w-full h-full text-white/[0.05] pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="care360-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                                <path d="M18 14h4v4h-4v4h-4v-4h-4v-4h4v-4h4v4z" fill="currentColor"/>
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#care360-pattern)"/>
+                    </svg>
+
+                    <div class="relative">
+                        <p class="text-xs font-bold uppercase tracking-widest text-amber-300 mb-2">Complete Care, Under One Roof</p>
+                        <h4 class="font-display text-xl md:text-2xl font-bold mb-6">The 360&deg; Care Journey</h4>
+
+                        <ul class="space-y-3">
+                            <?php
+                            $care360 = [
+                                ['Consultation',  'Expert evaluation by Dr. Kumar and a personalised treatment roadmap.'],
+                                ['Diagnosis',      'Advanced imaging and clinical assessment for accurate staging.'],
+                                ['Treatment',      'Robotic, laparoscopic, eTEP, TAR &amp; component separation techniques.'],
+                                ['Recovery',       'Structured post-op protocols for faster, safer healing.'],
+                                ['Rehabilitation', 'Physiotherapy and lifestyle guidance to restore core strength.'],
+                                ['Follow-up',      'Long-term monitoring to prevent recurrence and ensure lasting results.'],
+                            ];
+                            foreach ($care360 as $i => [$title, $desc]): ?>
+                                <li class="flex items-start gap-3">
+                                    <span class="shrink-0 w-9 h-9 rounded-full bg-white/15 border border-white/20 text-white font-bold text-sm flex items-center justify-center">
+                                        <?= str_pad($i + 1, 2, '0', STR_PAD_LEFT) ?>
+                                    </span>
+                                    <div class="pt-1">
+                                        <p class="font-bold text-white leading-tight"><?= $title ?></p>
+                                        <p class="text-sm text-brand-100 leading-snug"><?= $desc ?></p>
+                                    </div>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom strip: advanced techniques highlight -->
+        <div class="mt-8 grid grid-cols-2 md:grid-cols-5 gap-3">
+            <?php
+            $techs = [
+                ['Robotic Surgery',      'Advanced robotic system'],
+                ['Advanced Laparoscopy', 'Minimally invasive'],
+                ['eTEP',                 'Enhanced view'],
+                ['TAR',                  'Component separation'],
+                ['3D Mesh',              'Durable reinforcement'],
+            ];
+            foreach ($techs as [$t, $sub]): ?>
+                <div class="bg-white rounded-xl border border-slate-200 px-4 py-4 text-center shadow-sm hover:shadow-md hover:-translate-y-0.5 transition">
+                    <p class="font-display font-bold text-brand-700 text-base"><?= $t ?></p>
+                    <p class="text-xs text-slate-500 mt-0.5"><?= $sub ?></p>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+
 <section id="about" class="py-12 md:py-14 bg-white overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         <div class="relative">
@@ -45,13 +163,13 @@ require __DIR__ . '/includes/header.php';
         <div>
             <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">About the Doctor</span>
             <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-3 mb-5">
-                Pioneer in Advanced Hernia & Laparoscopic Surgery
+                Pioneer in Laparoscopic &amp; Robotic Hernia Surgery
             </h2>
             <p class="text-slate-600 mb-5 leading-relaxed">
-                Dr. Kumar is a leading expert in advanced abdominal hernia surgery, with extensive expertise in techniques such as <strong>eTEP, TEP, TAPP, TAR, IPOM</strong> and complex Abdominal Wall Reconstruction (AWR).
+                Dr. Kumar is a leading expert in advanced <strong>laparoscopic</strong> and <strong>robotic</strong> hernia surgery, with extensive expertise in techniques such as <strong>eTEP, TEP, TAPP, TAR, IPOM</strong> and complex Abdominal Wall Reconstruction (AWR).
             </p>
             <p class="text-slate-600 mb-6 leading-relaxed">
-                A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he is a pioneer in advanced minimally invasive hernia surgery in Chennai.
+                With over <strong>10,000+ successful hernia surgeries</strong> to date &mdash; performed using advanced <strong>laparoscopic</strong> and <strong>robotic</strong> techniques &mdash; Dr. Kumar is one of Chennai's most trusted names in minimally invasive hernia care. A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he pioneered advanced <strong>laparoscopic</strong> and <strong>robotic</strong> hernia surgery in the city.
             </p>
 
             <div class="grid grid-cols-2 gap-4 mb-7">
@@ -70,6 +188,28 @@ require __DIR__ . '/includes/header.php';
                 <div class="flex items-center gap-3">
                     <svg class="w-5 h-5 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
                     <span class="text-sm font-medium">FMAS, FIAGES</span>
+                </div>
+            </div>
+
+            <!-- Highlight strip: 10,000+ Surgeries + Laparoscopic + Robotic -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-7">
+                <div class="rounded-xl bg-gradient-to-br from-brand-700 to-brand-800 text-white px-4 py-4 shadow-sm">
+                    <p class="font-display text-2xl md:text-3xl font-bold leading-none">10,000+</p>
+                    <p class="text-xs text-brand-100 mt-1.5 leading-snug">Hernia Surgeries Performed</p>
+                </div>
+                <div class="rounded-xl bg-white border border-brand-100 px-4 py-4 shadow-sm">
+                    <div class="w-9 h-9 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 7h4l2-2h4l2 2h4M5 7v11a1 1 0 001 1h12a1 1 0 001-1V7M9 12h6"/></svg>
+                    </div>
+                    <p class="font-display text-base font-bold text-slate-900 leading-tight">Laparoscopic</p>
+                    <p class="text-xs text-slate-500 mt-0.5">Hernia Surgery Expert</p>
+                </div>
+                <div class="rounded-xl bg-white border border-brand-100 px-4 py-4 shadow-sm">
+                    <div class="w-9 h-9 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 3v2M15 3v2M6 7h12M6 7l1 12a2 2 0 002 2h6a2 2 0 002-2l1-12M10 11v6M14 11v6"/></svg>
+                    </div>
+                    <p class="font-display text-base font-bold text-slate-900 leading-tight">Robotic</p>
+                    <p class="text-xs text-slate-500 mt-0.5">Hernia Surgery Expert</p>
                 </div>
             </div>
 
@@ -154,7 +294,7 @@ require __DIR__ . '/includes/header.php';
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-5 leading-tight">
                 Specialised Care to <span class="text-brand-700">Restore</span><br>
-                &amp; Protect Your Health
+                &amp; Protect Abdominal Health
             </h2>
         </div>
 
@@ -216,7 +356,7 @@ require __DIR__ . '/includes/header.php';
                 Advanced Hernia Surgery?
             </h2>
 
-            <div class="relative rounded-2xl overflow-hidden bg-slate-100 aspect-[4/3]">
+            <div class="relative rounded-2xl overflow-hidden bg-slate-100 aspect-[16/10]">
                 <img src="assets/images/why-choose-us.png"
                      alt="Dr. Kumar - Senior Laparoscopic & Robotic Surgeon, Chennai"
                      class="absolute inset-0 w-full h-full object-cover"
@@ -227,7 +367,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                     <div>
                         <p class="font-bold text-slate-900 text-sm leading-tight">Times Health Award</p>
-                        <p class="text-xs text-slate-500">2025 &middot; 2026 Winner</p>
+                        <p class="text-xs text-slate-500">2025 and 2026 Winner</p>
                     </div>
                 </div>
             </div>
@@ -258,19 +398,39 @@ require __DIR__ . '/includes/header.php';
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>',
                 ],
                 [
+                    'title' => 'Clinical Lead &amp; HOD &mdash; Billroth Hospital',
+                    'desc'  => 'Head of Department, Minimal Access, Robotic Hernia &amp; AWR Surgery at Billroth Hospital, Chennai.',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/>',
+                ],
+                [
+                    'title' => 'Award-Winning Hernia Surgeon',
+                    'desc'  => 'Times Health Award 2025 (Laparoscopic Hernia &amp; GI) and 2026 (Advanced Laparoscopic &amp; Robotic).',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-4.5A3.375 3.375 0 0020.25 11.25H3.75A3.375 3.375 0 006 14.25v4.5m14.25-9.75l-1.406-1.406A2.25 2.25 0 0017.438 7.5H6.562a2.25 2.25 0 00-1.406.844L3.75 9.75M12 3v3.75m-3.75 0h7.5"/>',
+                ],
+                [
+                    'title' => 'Unique Specializations',
+                    'desc'  => 'Meshless hernia repair (Desarda technique) and daycare surgery with same-day discharge.',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/>',
+                ],
+                [
+                    'title' => 'AWR Expert',
+                    'desc'  => 'TAR, component separation &amp; eTEP for recurrent and complex incisional hernias.',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"/>',
+                ],
+                [
                     'title' => 'Patient-First Care',
-                    'desc'  => '5.0-star rating with 265+ verified Google reviews from patients who trust Dr. Kumar with their care.',
+                    'desc'  => '5.0-star rating with 590+ verified Google reviews from patients who trust Dr. Kumar with their care.',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>',
                 ],
             ];
             foreach ($whys as $w): ?>
-                <div class="flex gap-4 items-start group py-5 first:pt-0 last:pb-0">
-                    <div class="shrink-0 w-12 h-12 rounded-full bg-brand-50 group-hover:bg-brand-100 border border-brand-100 flex items-center justify-center transition">
-                        <svg class="w-6 h-6 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><?= $w['icon'] ?></svg>
+                <div class="flex gap-3 items-start group py-3 first:pt-0 last:pb-0">
+                    <div class="shrink-0 w-10 h-10 rounded-full bg-brand-50 group-hover:bg-brand-100 border border-brand-100 flex items-center justify-center transition">
+                        <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><?= $w['icon'] ?></svg>
                     </div>
-                    <div class="flex-1 pt-1">
-                        <h3 class="font-bold text-slate-900 text-lg mb-1.5"><?= $w['title'] ?></h3>
-                        <p class="text-slate-600 text-sm leading-relaxed"><?= $w['desc'] ?></p>
+                    <div class="flex-1 pt-0.5">
+                        <h3 class="font-bold text-slate-900 text-[15px] mb-1 leading-snug"><?= $w['title'] ?></h3>
+                        <p class="text-slate-600 text-[13px] leading-snug"><?= $w['desc'] ?></p>
                     </div>
                 </div>
             <?php endforeach; ?>
@@ -298,7 +458,7 @@ require __DIR__ . '/includes/header.php';
                     <?php endfor; ?>
                 </div>
                 <p class="text-sm text-slate-600">
-                    <span class="font-bold text-slate-900">5.0 avg</span> &middot; 265+ verified reviews
+                    <span class="font-bold text-slate-900">5.0 avg</span> &middot; 590+ verified reviews
                 </p>
             </div>
         </div>
@@ -603,7 +763,7 @@ require __DIR__ . '/includes/header.php';
             Book Your <span class="text-accent">Consultation</span> Today
         </h2>
         <p class="text-brand-50 max-w-xl mx-auto mb-7">
-            Expert advice from one of Chennai's most experienced laparoscopic &amp; robotic surgeons.
+            Expert advice from one of Chennai's most experienced laparoscopic &amp; robotic Hernia surgeons.
         </p>
         <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-7 py-3.5 rounded-full shadow-lg hover:-translate-y-0.5 transition">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>

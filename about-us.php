@@ -50,7 +50,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="text-center pt-6 md:pt-0 md:px-4">
                 <p class="font-display text-4xl lg:text-5xl font-bold text-accent mb-2">5.0 ★</p>
-                <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Rating (265+ Reviews)</p>
+                <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Rating (590+ Reviews)</p>
             </div>
         </div>
     </div>
@@ -211,7 +211,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                     <div class="w-full md:w-1/2 pl-12 md:pl-0 md:pr-12 md:text-right">
                         <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Patient Choice</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">5.0 ★ Rating with 265+ Reviews</h4>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">5.0 ★ Rating with 590+ Reviews</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
                             Consistently rated 5.0 stars on Google for empathetic communication, surgical outcomes, and transparent pathways, making him one of Chennai's most trusted surgeons.
                         </p>

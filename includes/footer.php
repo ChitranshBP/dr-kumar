@@ -6,19 +6,19 @@
         <div>
             <img src="<?= $base_path ?>assets/images/herniacare360-new-logo.png" alt="Dr. Kumar Logo" class="h-16 w-auto mb-4 bg-white rounded-md p-2">
             <p class="text-sm leading-relaxed mb-4">
-                Senior Consultant in Minimal Access, Robotic, Advanced Hernia & Abdominal Wall Reconstruction Surgery in Chennai.
+                Clinical Lead &amp; HOD, Minimal Access, Robotic, Hernia &amp; Abdominal Wall Reconstruction Surgery at Billroth Hospital, Chennai.
             </p>
             <div class="flex gap-3">
-                <a href="<?= $site['social']['facebook'] ?>" aria-label="Facebook" class="bg-slate-800 hover:bg-brand-600 w-9 h-9 rounded-full flex items-center justify-center transition">
+                <a href="<?= $site['social']['facebook'] ?>" aria-label="Facebook" class="bg-[#1877F2] hover:bg-[#166fe5] w-9 h-9 rounded-full flex items-center justify-center text-white transition">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.6 9.9V14.9H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3V22A10 10 0 0022 12z"/></svg>
                 </a>
-                <a href="<?= $site['social']['instagram'] ?>" aria-label="Instagram" class="bg-slate-800 hover:bg-brand-600 w-9 h-9 rounded-full flex items-center justify-center transition">
+                <a href="<?= $site['social']['instagram'] ?>" aria-label="Instagram" class="bg-gradient-to-br from-[#f09433] via-[#e6683c] via-[#dc2743] to-[#cc2366] w-9 h-9 rounded-full flex items-center justify-center text-white transition hover:opacity-90">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4 1 .5.4.8.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-1 1.4-.4.5-.9.8-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-1-.5-.4-.8-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 1-1.4.4-.5.9-.8 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 5.3a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm5.6-.2a1.05 1.05 0 11-2.1 0 1.05 1.05 0 012.1 0zM12 9.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5z"/></svg>
                 </a>
-                <a href="<?= $site['social']['linkedin'] ?>" aria-label="LinkedIn" class="bg-slate-800 hover:bg-brand-600 w-9 h-9 rounded-full flex items-center justify-center transition">
+                <a href="<?= $site['social']['linkedin'] ?>" aria-label="LinkedIn" class="bg-[#0A66C2] hover:bg-[#0958a8] w-9 h-9 rounded-full flex items-center justify-center text-white transition">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.7a1.8 1.8 0 110-3.5 1.8 1.8 0 010 3.5zM20 19h-3v-5.6c0-3.4-4-3.1-4 0V19h-3V8h3v1.8c1.4-2.6 7-2.8 7 2.5V19z"/></svg>
                 </a>
-                <a href="<?= $site['social']['youtube'] ?>" aria-label="YouTube" class="bg-slate-800 hover:bg-brand-600 w-9 h-9 rounded-full flex items-center justify-center transition">
+                <a href="<?= $site['social']['youtube'] ?>" aria-label="YouTube" class="bg-[#FF0000] hover:bg-[#e60000] w-9 h-9 rounded-full flex items-center justify-center text-white transition">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
                 </a>
             </div>
@@ -42,6 +42,8 @@
                 <li><a href="<?= $base_path ?>treatment/etep-repair.php" class="hover:text-brand-500">eTEP Repair</a></li>
                 <li><a href="<?= $base_path ?>treatment/mesh-repair.php" class="hover:text-brand-500">Mesh Repair</a></li>
                 <li><a href="<?= $base_path ?>treatment/recovery.php" class="hover:text-brand-500">Recovery</a></li>
+                <li><a href="<?= $base_path ?>treatment/hernia-surgery.php" class="hover:text-brand-500">Abdominal Wall Reconstruction</a></li>
+                <li><a href="<?= $base_path ?>special-considerations/pregnancy.php" class="hover:text-brand-500">Diastasis Recti (Divarication of Recti)</a></li>
             </ul>
         </div>
 
@@ -55,6 +57,15 @@
                 <li><a href="<?= $base_path ?>my_types/hiatal-hernia.php" class="hover:text-brand-500">Hiatal Hernia</a></li>
                 <li><a href="<?= $base_path ?>my_types/femoral-hernia.php" class="hover:text-brand-500">Femoral Hernia</a></li>
                 <li><a href="<?= $base_path ?>my_types/strangulated-hernia.php" class="hover:text-brand-500">Strangulated Hernia</a></li>
+                <li><a href="<?= $base_path ?>my_types/sports-hernia.php" class="hover:text-brand-500">Sports Hernia</a></li>
+                <li><a href="<?= $base_path ?>special-considerations/complex-hernia-info.php" class="hover:text-brand-500">Complex Hernia</a></li>
+                <li><a href="<?= $base_path ?>my_types/recurrent-hernia.php" class="hover:text-brand-500">Recurrent Hernia</a></li>
+                <li><a href="<?= $base_path ?>my_types/rare-hernia.php" class="hover:text-brand-500">Rare Hernia</a></li>
+                <li><a href="<?= $base_path ?>my_types/epigastric-hernia.php" class="hover:text-brand-500">Epigastric Hernia</a></li>
+                <li><a href="#" class="hover:text-brand-500">Supraumbilical Hernia</a></li>
+                <li><a href="#" class="hover:text-brand-500">Lumbar Hernia</a></li>
+                <li><a href="#" class="hover:text-brand-500">Spigelian Hernia</a></li>
+                <li><a href="#" class="hover:text-brand-500">Diaphragmatic Hernia</a></li>
             </ul>
         </div>
 
@@ -161,17 +172,17 @@
     <div class="flex items-center justify-between gap-3 max-w-md mx-auto">
         <!-- Social Icons -->
         <div class="flex items-center gap-2">
-            <a href="<?= $site['social']['facebook'] ?>" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+            <a href="<?= $site['social']['facebook'] ?>" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-[#1877F2] hover:bg-[#166fe5] text-white flex items-center justify-center transition">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.6 9.9V14.9H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3V22A10 10 0 0022 12z"/></svg>
             </a>
-            <a href="<?= $site['social']['instagram'] ?>" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+            <a href="<?= $site['social']['instagram'] ?>" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-gradient-to-br from-[#f09433] via-[#e6683c] via-[#dc2743] to-[#cc2366] text-white hover:opacity-90 flex items-center justify-center transition">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4 1 .5.4.8.9 1 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-1 1.4-.4.5-.9.8-1.4 1-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-1-.5-.4-.8-.9-1-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 1-1.4.4-.5.9-.8 1.4-1 .4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 5.3a4.5 4.5 0 100 9 4.5 4.5 0 000-9zm5.6-.2a1.05 1.05 0 11-2.1 0 1.05 1.05 0 012.1 0zM12 9.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5z"/></svg>
             </a>
-            <a href="<?= $site['social']['youtube'] ?>" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-red-600 text-slate-600 hover:text-white flex items-center justify-center transition">
+            <a href="<?= $site['social']['youtube'] ?>" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-[#FF0000] hover:bg-[#e60000] text-white flex items-center justify-center transition">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
             </a>
-            <a href="<?= $site['social']['linkedin'] ?>" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-brand-600 text-slate-600 hover:text-white flex items-center justify-center transition">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0H5a5 5 0 00-5 5v14a5 5 0 005 5h14a5 5 0 005-5V5a5 5 0 00-5-5zM8 19H5V8h3v11zM6.5 6.7a1.8 1.8 0 110-3.5 1.8 1.8 0 010 3.5zM20 19h-3v-5.6c0-3.4-4-3.1-4 0V19h-3V8h3v1.8c1.4-2.6 7-2.8 7 2.5V19z"/></svg>
+            <a href="tel:<?= $site['phone_link'] ?>" aria-label="Call Dr. Kumar" class="w-10 h-10 rounded-full bg-[#25D366] hover:bg-[#1da851] text-white flex items-center justify-center transition">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
             </a>
         </div>
 
