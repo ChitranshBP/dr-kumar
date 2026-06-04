@@ -207,102 +207,6 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<!-- Treatment Section -->
-<section class="py-16 md:py-24 bg-slate-50">
-    <div class="max-w-7xl mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
-                Treatment
-            </span>
-            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
-                Treatment <span class="text-brand-700">Approaches</span>
-            </h2>
-            <p class="text-slate-600 text-lg">Treatment recommendations depend on hernia size, symptoms, and patient factors.</p>
-        </div>
-
-        <div class="grid sm:grid-cols-3 gap-6">
-            <div class="bg-white rounded-3xl p-8 text-center border border-slate-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
-                <div>
-                    <div class="w-16 h-16 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6 text-brand-700 border border-brand-100">
-                        <span class="text-2xl font-bold">1</span>
-                    </div>
-                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Watchful Waiting</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
-                        Small, asymptomatic hernias may simply be monitored. Surgery may not be needed if no symptoms develop.
-                    </p>
-                </div>
-                <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">
-                    For small, painless hernias
-                </span>
-            </div>
-
-            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-3xl p-8 text-center border border-brand-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
-                <div>
-                    <div class="w-16 h-16 rounded-full bg-brand-700 flex items-center justify-center mx-auto mb-6 text-white shadow-md shadow-brand-100">
-                        <span class="text-2xl font-bold">2</span>
-                    </div>
-                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Open Repair</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed mb-6 font-medium">
-                        Traditional surgical repair with a small incision over the hernia site. Suitable for most epigastric hernias.
-                    </p>
-                </div>
-                <span class="inline-flex items-center gap-2 px-4 py-2 bg-brand-100 text-brand-700 rounded-full text-xs font-bold border border-brand-200">
-                    Most common approach
-                </span>
-            </div>
-
-            <div class="bg-white rounded-3xl p-8 text-center border border-slate-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
-                <div>
-                    <div class="w-16 h-16 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6 text-brand-700 border border-brand-100">
-                        <span class="text-2xl font-bold">3</span>
-                    </div>
-                    <h3 class="font-bold text-2xl text-slate-900 mb-3">Laparoscopic Repair</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
-                        Minimally invasive option with small incisions and a camera-guided approach. Faster recovery and less scarring.
-                    </p>
-                </div>
-                <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">
-                    Faster recovery
-                </span>
-            </div>
-        </div>
-
-        <!-- Premium Showcase Banner -->
-        <div class="mt-16 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 text-white">
-            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
-                <div class="lg:col-span-5">
-                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
-                        <img src="<?= $base_path ?>assets/images/laparoscopic-precision.png" alt="Laparoscopic precision" class="w-full h-full object-cover">
-                    </div>
-                </div>
-                <div class="lg:col-span-7">
-                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
-                        Advanced Minimally Invasive Option
-                    </span>
-                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
-                        Laparoscopic Epigastric Hernia Repair
-                    </h3>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                        For larger epigastric defects or when multiple midline weaknesses are present, Dr. Kumar performs advanced laparoscopic repairs. By accessing the abdominal wall through tiny incisions away from the midline, we place a supportive mesh behind the muscles to prevent recurrences while ensuring a much faster recovery, less post-operative pain, and outstanding aesthetic outcomes.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Laparoscopic precision</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Substantially lower recurrence rate</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Complications Section -->
 <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
@@ -437,5 +341,94 @@ require __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </a>
+
+<!-- Surgical Approaches -->
+<section class="py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white">
+    <div class="max-w-7xl mx-auto px-4">
+
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+                Surgical Approaches
+            </span>
+            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
+                How Dr. Kumar Repairs <span class="text-brand-700">Epigastric Hernia</span>
+            </h2>
+            <p class="text-slate-600 text-lg">
+                Dr. Kumar specializes in advanced <strong>minimally invasive</strong> techniques.
+                <strong>Laparoscopic</strong> and <strong>Robotic</strong> approaches are preferred for faster recovery, less pain, and tiny scars. <strong>Open</strong> repair is reserved for select cases.
+            </p>
+        </div>
+
+        <!-- TIER 1+2: Two large primary cards -->
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8 mb-8">
+
+            <!-- CARD 1: Advanced Laparoscopic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-brand-600 via-brand-700 to-brand-800 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-brand-700/30 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Laparoscopic Epigastric Hernia Repair</h3>
+                <p class="text-brand-100 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Minimally Invasive · Keyhole Surgery
+                </p>
+                <p class="text-slate-100 text-sm leading-relaxed mb-6">
+                    Minimally invasive epigastric hernia repair using 3 tiny incisions and a high-definition camera. Mesh is placed in the <strong>sublay</strong> position (behind the muscles) — the strongest biomechanical repair with the lowest recurrence rate. Faster recovery and minimal scarring.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-100">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Sublay mesh placement</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Same-day discharge</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Tiny incisions</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Less than 1% recurrence</li>
+                </ul>
+            </div>
+
+            <!-- CARD 2: Advanced Robotic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-slate-900/40 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Epigastric Hernia Repair</h3>
+                <p class="text-slate-300 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Latest Technology · 3D Vision
+                </p>
+                <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — particularly useful for <strong>multiple</strong> epigastric defects, <strong>recurrent</strong> hernias, and combined upper-abdominal wall reconstruction.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-200">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Wristed instrument precision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Best for multiple defects</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Detects occult defects</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TIER 3: Open (de-emphasized) -->
+        <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-6 border border-slate-200 mb-12">
+            <div class="flex flex-col md:flex-row md:items-start gap-4">
+                <div class="shrink-0">
+                    <span class="inline-block bg-slate-300 text-slate-700 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                        When Needed
+                    </span>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Epigastric Hernia Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

@@ -20,9 +20,9 @@ $site = [
     'name'        => 'Dr. Kumar - Advanced Hernia & Laparoscopic Surgeon',
     'doctor'      => 'Dr. Kumar',
     'tagline'     => 'Advanced Abdominal Hernia & Laparoscopic Surgeon in Chennai',
-    'phone'       => '+91 79042 17129',
-    'phone_link'  => '+917904217129',
-    'email'       => 'info@surgeondrkumar.com',
+    'phone'       => '+91 89255 02759',
+    'phone_link'  => '+918925502759',
+    'email'       => 'drkumargastrosurgeon@gmail.com',
     'address'     => 'Chennai, Tamil Nadu, India',
     'url'         => 'https://surgeondrkumar.com/',
     'logo'        => 'assets/images/logo.png',
@@ -98,6 +98,12 @@ $headerMenu = [
                 ]
             ],
             [
+                'title' => 'Intra Operative Special Techniques',
+                'links' => [
+                    ['label' => 'Overview & Approach', 'link' => 'treatment/intra-operative-special-techniques.php'],
+                ]
+            ],
+            [
                 'title' => 'Mesh & Recovery',
                 'links' => [
                     ['label' => 'Mesh Repair Technology', 'link' => 'treatment/mesh-repair.php'],
@@ -132,6 +138,7 @@ $headerMenu = [
                     ['label' => 'Diabetes & Hernia', 'link' => 'special-considerations/diabetes.php'],
                     ['label' => 'Pregnancy & Hernia Care', 'link' => 'special-considerations/pregnancy.php'],
                     ['label' => 'Elderly Hernia Care', 'link' => 'special-considerations/elderly.php'],
+                    ['label' => 'Hernia in Children', 'link' => 'special-considerations/hernia-in-children.php'],
                 ]
             ],
             [

@@ -22,7 +22,7 @@ require __DIR__ . '/../includes/header.php';
                 Umbilical <span class="text-accent">Hernia</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Occurs near the belly button when abdominal tissue pushes through the umbilical ring. Treatment options include mesh repair and meshless techniques.
+                Occurs near the belly button when abdominal tissue pushes through the umbilical ring. Treated using advanced laparoscopic and robotic techniques — with 4000+ successful umbilical surgeries performed.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -53,6 +53,9 @@ require __DIR__ . '/../includes/header.php';
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Daycare Available</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Mesh Repair</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Meshless Option</span>
+                                        <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Laparoscopic Techniques</span>
+                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Robotic Techniques</span>
+
                 </div>
 
                 <h3 class="font-bold text-xl text-slate-900 mb-4">When to Seek Treatment</h3>
@@ -170,87 +173,6 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<!-- Treatment Options -->
-<section class="py-16 md:py-24 bg-slate-50">
-    <div class="max-w-7xl mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
-                Treatment
-            </span>
-            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
-                Treatment <span class="text-brand-700">Options</span>
-            </h2>
-            <p class="text-slate-600 text-lg">Dr. Kumar offers multiple approaches tailored to your specific condition.</p>
-        </div>
-
-        <div class="grid sm:grid-cols-3 gap-6">
-            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition duration-300 border border-slate-100">
-                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 text-brand-700">
-                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
-                </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Mesh Repair</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">Standard approach using a synthetic mesh to reinforce the abdominal wall with excellent long-term results and low recurrence.</p>
-            </div>
-            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition duration-300 border border-slate-100">
-                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 text-brand-700">
-                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
-                </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Meshless Repair</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">For select patients, using tissue reconstruction for natural healing without synthetic materials.</p>
-            </div>
-            <div class="bg-white rounded-2xl p-8 hover:shadow-lg transition duration-300 border border-slate-100">
-                <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center mb-6 text-brand-700">
-                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-xl text-slate-900 mb-3">Laparoscopic Repair</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">Minimally invasive approach with smaller incisions, less pain, and faster recovery compared to open surgery.</p>
-            </div>
-        </div>
-
-        <!-- Feature Showcase Banner -->
-        <div class="mt-12 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10">
-            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
-                <div class="lg:col-span-5">
-                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
-                        <img src="<?= $base_path ?>assets/images/mesh-materials.png" alt="Mesh materials" class="w-full h-full object-cover">
-                    </div>
-                </div>
-                <div class="lg:col-span-7">
-                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
-                        Advanced Mesh Engineering
-                    </span>
-                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
-                        Precision Umbilical Reconstruction
-                    </h3>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                        Choosing the right approach is key to preventing umbilical hernia recurrence. Dr. Kumar assesses each hernia defect individually to determine if a lightweight anatomical mesh or a custom mesh-free suture repair will provide the strongest wall closure with the most natural healing.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Lightweight anatomical mesh</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Custom mesh-free tissue closure</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Daycare daycare options</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Less than 1% recurrence rate</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Why Choose Us -->
 <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
@@ -299,7 +221,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
                 <div class="grid grid-cols-2 gap-4">
                     <div class="bg-white rounded-xl p-4 text-center shadow-sm">
-                        <p class="text-3xl font-bold text-brand-700">30-45</p>
+                        <p class="text-3xl font-bold text-brand-700">45-60</p>
                         <p class="text-sm text-slate-500">Minutes Surgery Time</p>
                     </div>
                     <div class="bg-white rounded-xl p-4 text-center shadow-sm">
@@ -352,5 +274,110 @@ require __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </a>
+
+<!-- Surgical Approaches -->
+<section class="py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white">
+    <div class="max-w-7xl mx-auto px-4">
+
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+                Surgical Approaches
+            </span>
+            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
+                How Dr. Kumar Repairs <span class="text-brand-700">Umbilical Hernia</span>
+            </h2>
+            <p class="text-slate-600 text-lg">
+                Dr. Kumar specializes in advanced <strong>minimally invasive</strong> techniques.
+                <strong>Laparoscopic</strong> and <strong>Robotic</strong> approaches are preferred for faster recovery, less pain, and tiny scars. <strong>Open</strong> repair is reserved for select cases.
+            </p>
+        </div>
+
+        <!-- TIER 1+2: Two large primary cards -->
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8 mb-8">
+
+            <!-- CARD 1: Advanced Laparoscopic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-brand-600 via-brand-700 to-brand-800 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-brand-700/30 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Laparoscopic Umbilical Hernia Repair</h3>
+                <p class="text-brand-100 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Minimally Invasive · Keyhole Surgery
+                </p>
+                <p class="text-slate-100 text-sm leading-relaxed mb-6">
+                    Minimally invasive umbilical hernia repair using 3 tiny incisions and a high-definition camera. Reinforces the defect with lightweight anatomical mesh placed behind the muscles (sublay) — the strongest biomechanical repair. Faster recovery (1–2 days) and minimal scarring.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-100">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Sublay mesh placement</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Same-day daycare discharge</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Tiny hidden incisions</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Less than 1% recurrence</li>
+                </ul>
+            </div>
+
+            <!-- CARD 2: Advanced Robotic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-slate-900/40 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Umbilical Hernia Repair</h3>
+                <p class="text-slate-300 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Latest Technology · 3D Vision
+                </p>
+                <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — ideal for complex or recurrent umbilical hernias and defects too large for simple keyhole closure.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-200">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Wristed instrument precision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Best for complex defects</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Strong long-term repair</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TIER 3: Open (de-emphasized) -->
+        <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-6 border border-slate-200 mb-12">
+            <div class="flex flex-col md:flex-row md:items-start gap-4">
+                <div class="shrink-0">
+                    <span class="inline-block bg-slate-300 text-slate-700 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                        When Needed
+                    </span>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Umbilical Hernia Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SPECIALTY HIGHLIGHTS ROW -->
+        <div class="border-t border-slate-200 pt-10">
+            <p class="text-center text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">Dr. Kumar's Specialty Focus</p>
+            <div class="flex flex-wrap items-center justify-center gap-3 lg:gap-4">
+                <a href="<?= $base_path ?>my_types/recurrent-hernia.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">Recurrent Hernia</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair — different anatomical plane</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

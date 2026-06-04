@@ -183,76 +183,28 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<!-- Treatment Section -->
-<section class="py-16 md:py-24 bg-brand-950 text-white">
+<!-- Fundoplication Sub-Types -->
+<section class="py-12 md:py-16 bg-white border-b border-slate-100">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
-                Treatment Options
-            </span>
-            <h2 class="font-display text-3xl md:text-5xl font-bold mb-4">
-                Laparoscopic <span class="text-accent">Fundoplication</span>
-            </h2>
-            <p class="text-slate-300 text-lg">The gold-standard surgical treatment for hiatal hernia and chronic GERD.</p>
+        <div class="text-center max-w-2xl mx-auto mb-10">
+            <h2 class="font-display text-2xl md:text-3xl font-bold text-slate-900">Fundoplication Sub-Types</h2>
+            <p class="text-slate-600 mt-2">Tailored anti-reflux procedures performed laparoscopically or robotically.</p>
         </div>
-
-        <div class="grid sm:grid-cols-3 gap-6">
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
-                <div class="w-12 h-12 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5 text-accent font-bold">360°</div>
-                <h4 class="font-bold text-xl mb-3 text-white">Nissen Fundoplication</h4>
-                <p class="text-slate-400 text-sm leading-relaxed">Full 360-degree stomach wrap around the lower esophagus. The most common and effective technique for severe reflux control.</p>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-5 font-bold">360°</div>
+                <h4 class="font-bold text-xl mb-3 text-slate-900">Nissen Fundoplication</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Full 360-degree stomach wrap around the lower esophagus. The most common and effective technique for severe reflux control.</p>
             </div>
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
-                <div class="w-12 h-12 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5 text-accent font-bold">270°</div>
-                <h4 class="font-bold text-xl mb-3 text-white">Toupet Fundoplication</h4>
-                <p class="text-slate-400 text-sm leading-relaxed">Partial 270-degree wrap. Often preferred for patients who have weak esophageal motility to avoid postoperative swallowing issues.</p>
+            <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-5 font-bold">270°</div>
+                <h4 class="font-bold text-xl mb-3 text-slate-900">Toupet Fundoplication</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Partial 270-degree wrap. Often preferred for patients who have weak esophageal motility to avoid postoperative swallowing issues.</p>
             </div>
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
-                <div class="w-12 h-12 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5 text-accent font-bold">HERNIA</div>
-                <h4 class="font-bold text-xl mb-3 text-white">Hiatal Hernia Repair</h4>
-                <p class="text-slate-400 text-sm leading-relaxed">Performed simultaneously to restore the stomach to its correct position below the diaphragm and close the hiatal opening.</p>
-            </div>
-        </div>
-
-        <!-- Feature Showcase Banner -->
-        <div class="mt-12 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 text-white">
-            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
-                <div class="lg:col-span-5">
-                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
-                        <img src="<?= $base_path ?>assets/images/laparoscopic-precision.png" alt="Laparoscopic precision" class="w-full h-full object-cover">
-                    </div>
-                </div>
-                <div class="lg:col-span-7">
-                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
-                        Minimally Invasive Excellence
-                    </span>
-                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
-                        Advanced GERD Control & hiatal repair
-                    </h3>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                        By wrapping the upper portion of the stomach (fundus) around the lower esophagus, a new functional valve is reconstructed. This prevents acid reflux while allowing normal swallowing. Under Dr. Kumar's precision, hiatal repair combined with laparoscopic fundoplication offers long-term relief from medication dependency.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Permanent relief from GERD</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Eliminate acid medication dependence</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Cosmetic 5-port keyhole surgery</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Typical 2-day recovery time</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
+                <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-5 font-bold">HERNIA</div>
+                <h4 class="font-bold text-xl mb-3 text-slate-900">Hiatal Hernia Repair</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Performed simultaneously to restore the stomach to its correct position below the diaphragm and close the hiatal opening.</p>
             </div>
         </div>
     </div>
@@ -290,5 +242,94 @@ require __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </a>
+
+<!-- Surgical Approaches -->
+<section class="py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white">
+    <div class="max-w-7xl mx-auto px-4">
+
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+                Surgical Approaches
+            </span>
+            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
+                How Dr. Kumar Repairs <span class="text-brand-700">Hiatal Hernia</span>
+            </h2>
+            <p class="text-slate-600 text-lg">
+                Dr. Kumar specializes in advanced <strong>minimally invasive</strong> techniques.
+                <strong>Laparoscopic</strong> and <strong>Robotic</strong> approaches are preferred for faster recovery, less pain, and tiny scars. <strong>Open</strong> repair is reserved for select cases.
+            </p>
+        </div>
+
+        <!-- TIER 1+2: Two large primary cards -->
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8 mb-8">
+
+            <!-- CARD 1: Advanced Laparoscopic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-brand-600 via-brand-700 to-brand-800 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-brand-700/30 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Laparoscopic Hiatal Hernia Repair</h3>
+                <p class="text-brand-100 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Minimally Invasive · Keyhole Surgery
+                </p>
+                <p class="text-slate-100 text-sm leading-relaxed mb-6">
+                    Laparoscopic hiatal hernia repair with <strong>fundoplication</strong> (Nissen 360° or Toupet 270°) restores the stomach below the diaphragm and reconstructs the anti-reflux valve. Tiny incisions, minimal pain, and rapid return to normal eating — typically 1–2 day hospital stay.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-100">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Nissen or Toupet fundoplication</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Restores anti-reflux valve</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Tiny incisions</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Rapid return to eating</li>
+                </ul>
+            </div>
+
+            <!-- CARD 2: Advanced Robotic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-slate-900/40 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Hiatal Hernia Repair</h3>
+                <p class="text-slate-300 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Latest Technology · 3D Vision
+                </p>
+                <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                    State-of-the-art advanced robotic platform for unmatched precision in the confined space around the diaphragm and oesophagus. Superior for <strong>large hiatal defects</strong>, <strong>para-oesophageal</strong> hernias, and <strong>re-do</strong> anti-reflux surgery.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-200">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Wristed instruments in tight space</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Best for large & re-do hiatal</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Precise crural closure</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TIER 3: Open (de-emphasized) -->
+        <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-6 border border-slate-200 mb-12">
+            <div class="flex flex-col md:flex-row md:items-start gap-4">
+                <div class="shrink-0">
+                    <span class="inline-block bg-slate-300 text-slate-700 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                        When Needed
+                    </span>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Hiatal Hernia Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

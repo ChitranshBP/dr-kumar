@@ -541,7 +541,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-slate-200 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">You can call Dr. Kumar's clinic directly at +91 79042 17129 or use our online appointment form. Booking in advance is recommended to ensure priority consulting times.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">You can call Dr. Kumar's clinic directly at +91 89255 02759 or use our online appointment form. Booking in advance is recommended to ensure priority consulting times.</p>
                     </div>
                 </div>
             </div>

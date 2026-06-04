@@ -22,7 +22,7 @@ require __DIR__ . '/../includes/header.php';
                 Inguinal <span class="text-accent">Hernia</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                The most common type of hernia, occurring in the groin area. Dr. Kumar specializes in advanced minimally invasive repair techniques for optimal outcomes.
+                The most common type of hernia, occurring in the groin area. Dr. Kumar specializes in advanced minimally invasive repair techniques for optimal outcomes, with experience of more than 5K+ Inguinal Hernia surgeries.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -50,12 +50,15 @@ require __DIR__ . '/../includes/header.php';
                     An inguinal hernia occurs when tissue, such as part of the intestine, pushes through a weak spot in the abdominal muscles near the groin. It appears as a bulge in the groin or scrotum and is more common in men.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Dr. Kumar offers the full spectrum of inguinal hernia repair techniques, from traditional open surgery to advanced laparoscopic approaches including eTEP, TEP, and TAPP procedures.
+                    Dr. Kumar offers the full spectrum of inguinal hernia repair techniques, from traditional open surgery to advanced laparoscopic and Robotic approaches including eTEP, TEP, and TAPP procedures.
                 </p>
                 <div class="flex flex-wrap gap-3 mb-8">
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">eTEP Repair</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">TEP Repair</span>
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">TAPP Repair</span>
+                                        <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Laparoscopic Hernia Repair</span>
+                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Robotic Hernia Repair</span>
+
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Open Repair</span>
                 </div>
 
@@ -175,105 +178,6 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<!-- Treatment Options -->
-<section class="py-16 md:py-24 bg-brand-950 text-white">
-    <div class="max-w-7xl mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
-                Treatment Options
-            </span>
-            <h2 class="font-display text-3xl md:text-5xl font-bold mb-4">
-                Advanced Repair <span class="text-accent">Techniques</span>
-            </h2>
-            <p class="text-slate-300 text-lg">Dr. Kumar specializes in multiple approaches to ensure the best outcome for your specific condition.</p>
-        </div>
-
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
-                <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
-                    <span class="text-xl font-bold text-accent">eTEP</span>
-                </div>
-                <h3 class="font-bold text-xl mb-3 text-white">eTEP RS</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                    Extended view Totally Extraperitoneal repair. The most advanced technique for excellent outcomes with minimal recovery.
-                </p>
-            </div>
-
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
-                <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
-                    <span class="text-xl font-bold text-accent">TEP</span>
-                </div>
-                <h3 class="font-bold text-xl mb-3 text-white">TEP Repair</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                    Totally Extraperitoneal repair. Pre-peritoneal approach keeping the abdominal cavity unopened.
-                </p>
-            </div>
-
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
-                <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
-                    <span class="text-xl font-bold text-accent">TAPP</span>
-                </div>
-                <h3 class="font-bold text-xl mb-3 text-white">TAPP Repair</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                    Transabdominal Preperitoneal repair. Provides excellent visualization of the entire abdominal wall.
-                </p>
-            </div>
-
-            <div class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition duration-300">
-                <div class="w-14 h-14 rounded-xl bg-brand-500/20 flex items-center justify-center mb-5">
-                    <span class="text-xl font-bold text-accent">OPEN</span>
-                </div>
-                <h3 class="font-bold text-xl mb-3 text-white">Open Repair</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                    Traditional open Lichtenstein repair with mesh reinforcement for those not suitable for laparoscopic surgery.
-                </p>
-            </div>
-        </div>
-
-        <!-- Feature Showcase Banner -->
-        <div class="mt-12 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10">
-            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
-                <div class="lg:col-span-5">
-                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
-                        <img src="<?= $base_path ?>assets/images/laparoscopic-precision.png" alt="Laparoscopic precision" class="w-full h-full object-cover">
-                    </div>
-                </div>
-                <div class="lg:col-span-7">
-                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
-                        Minimally Invasive Excellence
-                    </span>
-                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
-                        Dr. Kumar's Specialized Surgical Focus
-                    </h3>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                        Utilizing state-of-the-art keyhole techniques to reduce patient recovery time and post-operative discomfort. Dr. Kumar combines 29+ years of surgical expertise with advanced laparoscopic methods (eTEP, TEP, TAPP) and premium mesh materials to deliver results with less than 1% recurrence.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Rapid Return to Work (2-3 days)</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Cosmetic Tiny Incisions</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Virtually Painless Recovery</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Daycare/Same-day Discharge</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Why Choose Us -->
 <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
@@ -378,5 +282,128 @@ require __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </a>
+
+<!-- Surgical Approaches -->
+<section class="py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white">
+    <div class="max-w-7xl mx-auto px-4">
+
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+                Surgical Approaches
+            </span>
+            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
+                How Dr. Kumar Repairs <span class="text-brand-700">Inguinal Hernia</span>
+            </h2>
+            <p class="text-slate-600 text-lg">
+                Dr. Kumar specializes in advanced <strong>minimally invasive</strong> techniques.
+                <strong>Laparoscopic</strong> and <strong>Robotic</strong> approaches are preferred for faster recovery, less pain, and tiny scars. <strong>Open</strong> repair is reserved for select cases.
+            </p>
+        </div>
+
+        <!-- TIER 1+2: Two large primary cards -->
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8 mb-8">
+
+            <!-- CARD 1: Advanced Laparoscopic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-brand-600 via-brand-700 to-brand-800 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-brand-700/30 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Laparoscopic Inguinal Hernia Repair</h3>
+                <p class="text-brand-100 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Minimally Invasive · Keyhole Surgery
+                </p>
+                <p class="text-slate-100 text-sm leading-relaxed mb-6">
+                    Dr. Kumar performs all three keyhole inguinal hernia techniques — <strong>eTEP RS</strong>, <strong>TEP</strong>, and <strong>TAPP</strong> — using 3 tiny incisions and a high-definition camera. Each is tailored to the hernia type (direct, indirect, bilateral, or recurrent). Faster recovery (2–3 days), minimal post-op pain, and excellent cosmetic results.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-100">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> eTEP / TEP / TAPP — all options</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Same-day / next-day discharge</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Rapid return to work (2–3 days)</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Less than 1% recurrence rate</li>
+                </ul>
+            </div>
+
+            <!-- CARD 2: Advanced Robotic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-slate-900/40 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Inguinal Hernia Repair</h3>
+                <p class="text-slate-300 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Latest Technology · 3D Vision
+                </p>
+                <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments. Particularly valuable for <strong>bilateral</strong> and <strong>recurrent</strong> inguinal hernias where scar tissue from prior surgery makes re-operation difficult.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-200">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Wristed instrument precision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Ideal for bilateral &amp; recurrent</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Less than 1% recurrence</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TIER 3: Open (de-emphasized) -->
+        <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-6 border border-slate-200 mb-12">
+            <div class="flex flex-col md:flex-row md:items-start gap-4">
+                <div class="shrink-0">
+                    <span class="inline-block bg-slate-300 text-slate-700 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                        When Needed
+                    </span>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Inguinal Hernia Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SPECIALTY HIGHLIGHTS ROW -->
+        <div class="border-t border-slate-200 pt-10">
+            <p class="text-center text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">Dr. Kumar's Specialty Focus</p>
+            <div class="flex flex-wrap items-center justify-center gap-3 lg:gap-4">
+                <a href="<?= $base_path ?>treatment/etep-repair.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">eTEP Repair</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Extended-view TEP — most advanced lap technique</p>
+                    </div>
+                </a>
+                <a href="<?= $base_path ?>special-considerations/complex-hernia-info.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">Complex Hernia</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Large, multi-recurrent, contaminated defects</p>
+                    </div>
+                </a>
+                <a href="<?= $base_path ?>my_types/recurrent-hernia.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">Recurrent Hernia</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair — different anatomical plane</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

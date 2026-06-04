@@ -193,21 +193,14 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<!-- Treatment Section -->
-<section class="py-16 md:py-24 bg-slate-50">
+<!-- Staged Treatment Approach -->
+<section class="py-12 md:py-16 bg-white border-b border-slate-100">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
-                Treatment
-            </span>
-            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
-                Treatment <span class="text-brand-700">Approaches</span>
-            </h2>
-            <p class="text-slate-600 text-lg">A staged approach: conservative care first, then targeted surgery if pain persists.</p>
+        <div class="text-center max-w-2xl mx-auto mb-10">
+            <h2 class="font-display text-2xl md:text-3xl font-bold text-slate-900">Staged Treatment Approach</h2>
+            <p class="text-slate-600 mt-2">Most sports hernias resolve with conservative care; surgery is reserved for refractory cases.</p>
         </div>
-
-        <div class="grid sm:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-3 gap-6">
             <div class="bg-white rounded-3xl p-8 text-center border border-slate-100 shadow-sm hover:shadow-lg transition duration-300 flex flex-col justify-between items-center">
                 <div>
                     <div class="w-16 h-16 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6 text-brand-700 border border-brand-100">
@@ -251,39 +244,6 @@ require __DIR__ . '/../includes/header.php';
                 <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">
                     If conservative fails
                 </span>
-            </div>
-        </div>
-
-        <!-- Premium Showcase Banner -->
-        <div class="mt-16 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-12 shadow-2xl relative overflow-hidden border border-white/10 text-white">
-            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-            <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-12 items-center z-10">
-                <div class="lg:col-span-5">
-                    <div class="rounded-2xl overflow-hidden aspect-[4/3] border border-white/10 shadow-2xl">
-                        <img src="<?= $base_path ?>assets/images/laparoscopic-precision.png" alt="Laparoscopic sports hernia repair" class="w-full h-full object-cover">
-                    </div>
-                </div>
-                <div class="lg:col-span-7">
-                    <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
-                        Return-to-Sport Pathway
-                    </span>
-                    <h3 class="font-display text-2xl lg:text-3xl font-bold mb-4 text-white">
-                        Laparoscopic Sports Hernia Repair
-                    </h3>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                        For athletes whose pain persists despite rest and rehabilitation, Dr. Kumar performs laparoscopic reinforcement of the posterior abdominal wall with mesh. This minimally invasive approach strengthens the weakened tissue, relieves chronic groin pain, and &mdash; combined with a graded rehab programme &mdash; allows most athletes to return to full sport within 6&ndash;12 weeks.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4 text-xs font-semibold text-slate-200">
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>High return-to-sport rate</span>
-                        </div>
-                        <div class="flex items-center gap-2">
-                            <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4"/></svg>
-                            <span>Same-week return to light activity</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -423,5 +383,94 @@ require __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </a>
+
+<!-- Surgical Approaches -->
+<section class="py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white">
+    <div class="max-w-7xl mx-auto px-4">
+
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+                Surgical Approaches
+            </span>
+            <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
+                How Dr. Kumar Repairs <span class="text-brand-700">Sports Hernia</span>
+            </h2>
+            <p class="text-slate-600 text-lg">
+                Dr. Kumar specializes in advanced <strong>minimally invasive</strong> techniques.
+                <strong>Laparoscopic</strong> and <strong>Robotic</strong> approaches are preferred for faster recovery, less pain, and tiny scars. <strong>Open</strong> repair is reserved for select cases.
+            </p>
+        </div>
+
+        <!-- TIER 1+2: Two large primary cards -->
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8 mb-8">
+
+            <!-- CARD 1: Advanced Laparoscopic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-brand-600 via-brand-700 to-brand-800 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-brand-700/30 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Laparoscopic Sports Hernia Repair</h3>
+                <p class="text-brand-100 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Minimally Invasive · Keyhole Surgery
+                </p>
+                <p class="text-slate-100 text-sm leading-relaxed mb-6">
+                    For refractory sports hernias not responding to rest and rehab, <strong>laparoscopic mesh reinforcement</strong> of the posterior inguinal wall is Dr. Kumar's preferred surgical approach. 3 tiny incisions, minimal downtime, and return to sport in 6–12 weeks. Often combined with targeted adductor release.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-100">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Mesh reinforcement of posterior wall</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Optional adductor release</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Tiny incisions</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Return to sport 6–12 weeks</li>
+                </ul>
+            </div>
+
+            <!-- CARD 2: Advanced Robotic (PREFERRED) -->
+            <div class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-slate-900/40 hover:-translate-y-1 transition duration-300">
+                <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
+                    ★ Preferred Approach
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Sports Hernia Repair</h3>
+                <p class="text-slate-300 text-sm font-semibold uppercase tracking-wider mb-5">
+                    Latest Technology · 3D Vision
+                </p>
+                <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — particularly useful when <strong>bilateral</strong> sports hernias or <strong>combined inguinal + adductor</strong> pathology require fine, layered repair.
+                </p>
+                <ul class="space-y-2.5 text-sm text-slate-200">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Wristed instrument precision</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Best for bilateral cases</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Layered pubic cleft repair</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TIER 3: Open (de-emphasized) -->
+        <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-6 border border-slate-200 mb-12">
+            <div class="flex flex-col md:flex-row md:items-start gap-4">
+                <div class="shrink-0">
+                    <span class="inline-block bg-slate-300 text-slate-700 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
+                        When Needed
+                    </span>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Sports Hernia Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>
