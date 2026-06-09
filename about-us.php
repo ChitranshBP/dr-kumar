@@ -98,6 +98,22 @@ require __DIR__ . '/includes/header.php';
                         <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
                         <span>FMAS, FIAGES Accredited</span>
                     </div>
+
+
+                        <div class="flex items-center gap-3">
+                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        <span>FALS Hernia & AWR.   </span>
+                    </div>
+
+                        <div class="flex items-center gap-3">
+                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        <span>FALS Robotic surgery </span>
+                    </div>
+
+                        <div class="flex items-center gap-3">
+                        <svg class="w-5 h-5 text-brand-600 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        <span>Dip.ALS -  Advanced Laparoscopic surgery</span>
+                    </div>
                 </div>
             </div>
             
@@ -301,6 +317,40 @@ require __DIR__ . '/includes/header.php';
                             <p class="text-xs text-slate-500">Active Medical Board Member</p>
                         </div>
                     </div>
+
+
+
+
+
+                       <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center gap-4 hover:border-brand-200 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Hernia Society of India HSI</h4>
+                            <!-- <p class="text-xs text-slate-500">Active Med Member</p> -->
+                        </div>
+                    </div>
+
+                       <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center gap-4 hover:border-brand-200 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm"> AWRSC -AWR Surgeons Community </h4>
+                            <!-- <p class="text-xs text-slate-500">Active Medical Board Member</p> -->
+                        </div>
+                    </div>
+
+                       <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center gap-4 hover:border-brand-200 transition duration-300">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">ARIS- Association of Robotic & Innovative Surgeons</h4>
+                            <!-- <p class="text-xs text-slate-500">Active Medical Board Member</p> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -378,14 +428,14 @@ require __DIR__ . '/includes/header.php';
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
                 Hospital Affiliations & <span class="text-brand-700">Practice</span>
             </h2>
-            <p class="text-slate-600 text-lg">Dr. Kumar operates at Chennai's leading tertiary care hospitals with advanced infrastructure.</p>
+            <p class="text-slate-600 text-lg">Dr. Kumar operates exclusively at Billroth Hospital, Chennai, with state-of-the-art infrastructure.</p>
         </div>
 
-        <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
-            <!-- Left Highlighted Hospital (Billroth Hospital - Primary Practice) -->
-            <div class="lg:col-span-6 bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-10 shadow-2xl relative overflow-hidden border border-white/10 text-white flex flex-col justify-between">
+        <div class="max-w-4xl mx-auto">
+            <!-- Billroth Hospital - Primary Practice -->
+            <div class="bg-gradient-to-br from-brand-900 to-slate-950 rounded-3xl p-8 lg:p-10 shadow-2xl relative overflow-hidden border border-white/10 text-white flex flex-col">
                 <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
-                
+
                 <div class="relative z-10">
                     <span class="inline-flex items-center gap-1.5 bg-accent/20 border border-accent/30 text-accent px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-6">
                         <span class="w-1.5 h-1.5 bg-accent rounded-full animate-ping"></span>
@@ -393,13 +443,14 @@ require __DIR__ . '/includes/header.php';
                     </span>
                     <h3 class="font-display text-3xl font-bold mb-4 text-white">Billroth Hospital</h3>
                     <p class="text-slate-300 text-base leading-relaxed mb-6">
-                        Located at RA Puram, Chennai, Billroth Hospital serves as Dr. Kumar's primary surgical hub. It features state-of-the-art operative rooms, a dedicated surgical intensive care unit, and specialized medical instrumentation for advanced keyhole and robotic-assisted abdominal wall operations.
+                        Located at Shenoy Nagar & RA Puram, Chennai, Billroth Hospital serves as Dr. Kumar's primary surgical hub. It features state-of-the-art operative rooms, a dedicated surgical intensive care unit, and specialized medical instrumentation for advanced keyhole and robotic-assisted abdominal wall operations.
                     </p>
                 </div>
-                
+
                 <div class="relative z-10 border-t border-white/10 pt-6 mt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-xs font-semibold text-slate-300">
                     <div class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-accent shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <span>Shenoy Nagar, Chennai</span>
                         <span>RA Puram, Chennai</span>
                     </div>
                     <div class="flex items-center gap-2">
@@ -407,43 +458,6 @@ require __DIR__ . '/includes/header.php';
                         <span>Daily consultation availability</span>
                     </div>
                 </div>
-            </div>
-
-            <!-- Right Visual Panel (Other Locations) -->
-            <div class="lg:col-span-6 bg-slate-50 rounded-3xl p-8 lg:p-10 border border-slate-100 flex flex-col justify-between">
-                <div>
-                    <h3 class="text-sm font-bold uppercase tracking-wider text-slate-500 mb-6">Visiting surgical affiliations</h3>
-                    
-                    <div class="space-y-6">
-                        <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100 mt-1">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-900 text-lg">Apollo Hospitals</h4>
-                                <p class="text-xs text-brand-700 font-bold uppercase tracking-wider mt-0.5">Greams Road, Chennai</p>
-                                <p class="text-sm text-slate-500 leading-relaxed mt-2">
-                                    Serving as a Visiting Consultant for complex abdominal cases, recurrent hernias, and patients requiring tertiary multidisciplinary support.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100 mt-1">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-900 text-lg">MIOT International</h4>
-                                <p class="text-xs text-brand-700 font-bold uppercase tracking-wider mt-0.5">Manapakkam, Chennai</p>
-                                <p class="text-sm text-slate-500 leading-relaxed mt-2">
-                                    Affiliated Visiting Consultant providing advanced keyhole reconstructions, robotic hernia surgeries, and emergency repairs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <p class="text-xs text-slate-400 italic text-center mt-6">All surgeries are coordinated dynamically through Dr. Kumar's central clinical desk.</p>
             </div>
         </div>
     </div>
@@ -530,7 +544,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-slate-200 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Dr. Kumar primarily operates at Billroth Hospital, RA Puram. He also serves as a Visiting Consultant Surgeon at Apollo Hospitals (Greams Road) and MIOT International (Manapakkam).</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Dr. Kumar primarily operates at Billroth Hospital, RA Puram & Shenoy Nagar, Chennai. All consultations and surgeries are conducted at this single, dedicated facility.</p>
                     </div>
                 </div>
 

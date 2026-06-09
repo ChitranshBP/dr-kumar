@@ -294,12 +294,12 @@ require __DIR__ . '/includes/header.php';
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-5 leading-tight">
                 Specialised Care to <span class="text-brand-700">Restore</span><br>
-                &amp; Protect Abdominal Health
+                &amp; Protect Abdominal Wall Health
             </h2>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
-            <?php foreach (array_slice($treatments, 0, 8) as $t): ?>
+            <?php foreach (array_slice($treatments, 4, 8) as $t): ?>
                 <a href="<?= $t['link'] ?>"
                    class="group relative flex flex-col rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl transition duration-300 hover:-translate-y-1">
 
@@ -333,8 +333,8 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <div class="text-center mt-10">
-            <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
-                View All <?= count($treatments) ?> Treatments
+            <a href="treatment.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+                View All Treatments
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
         </div>
@@ -342,7 +342,7 @@ require __DIR__ . '/includes/header.php';
 </section>
 
 <section id="why" class="py-12 md:py-14 bg-white overflow-hidden">
-    <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+    <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
 
         <!-- LEFT: heading + image -->
         <div>
@@ -371,21 +371,49 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
             </div>
+
+            <!-- LEFT: Additional points below image -->
+            <div class="mt-6 divide-y divide-slate-200">
+                <?php
+                $whys_left = [
+                    [
+                        'title' => 'Proven Surgical Outcomes',
+                        'desc'  => '10,000+ hernia repairs and 20,000+ laparoscopic procedures delivering faster recovery and lasting results.',
+                        'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 13l4 4L19 5"/>',
+                    ],
+                    [
+                        'title' => 'Clinical Lead &amp; HOD &mdash; Billroth Hospital',
+                        'desc'  => 'Head of Department, Minimal Access, Robotic Hernia &amp; AWR Surgery at Billroth Hospital, Chennai.',
+                        'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/>',
+                    ],
+                ];
+                foreach ($whys_left as $w): ?>
+                    <div class="flex gap-3 items-start group py-3 first:pt-0 last:pb-0">
+                        <div class="shrink-0 w-10 h-10 rounded-full bg-brand-50 group-hover:bg-brand-100 border border-brand-100 flex items-center justify-center transition">
+                            <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><?= $w['icon'] ?></svg>
+                        </div>
+                        <div class="flex-1 pt-0.5">
+                            <h3 class="font-bold text-slate-900 text-[15px] mb-1 leading-snug"><?= $w['title'] ?></h3>
+                            <p class="text-slate-600 text-[13px] leading-snug"><?= $w['desc'] ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
         </div>
 
-        <!-- RIGHT: feature list -->
+        <!-- RIGHT: feature list (reduced to match left height) -->
         <div class="divide-y divide-slate-200">
             <?php
-            $whys = [
+            $whys_right = [
                 [
                     'title' => 'Pioneer Laparoscopic Surgeon',
                     'desc'  => 'One of the first surgeons in Chennai to perform laparoscopic hernia surgery, with 29+ years of operating-room mastery.',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>',
                 ],
                 [
-                    'title' => 'Proven Surgical Outcomes',
-                    'desc'  => '10,000+ hernia repairs and 20,000+ laparoscopic procedures delivering faster recovery and lasting results.',
-                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 13l4 4L19 5"/>',
+                    'title' => 'Mentor &amp; Trainer',
+                    'desc'  => 'Has trained numerous young surgeons aspiring for DNB Surgery and MRCS examinations - passing on decades of expertise to the next generation.',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 4.354v4.354a.5.5 0 00.5.5.5h2a.5.5 0 00.5-.5V4.354M12 15.646v4.354a.5.5 0 01-.5.5h-2a.5.5 0 01-.5-.5v-4.354m0 0a7.5 7.5 0 1114.708 0M12 15.646a7.5 7.5 0 11-14.708 0"/>',
                 ],
                 [
                     'title' => 'Latest Robotic Technology',
@@ -398,18 +426,28 @@ require __DIR__ . '/includes/header.php';
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>',
                 ],
                 [
-                    'title' => 'Clinical Lead &amp; HOD &mdash; Billroth Hospital',
-                    'desc'  => 'Head of Department, Minimal Access, Robotic Hernia &amp; AWR Surgery at Billroth Hospital, Chennai.',
-                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/>',
-                ],
-                [
                     'title' => 'Award-Winning Hernia Surgeon',
                     'desc'  => 'Times Health Award 2025 (Laparoscopic Hernia &amp; GI) and 2026 (Advanced Laparoscopic &amp; Robotic).',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-4.5A3.375 3.375 0 0020.25 11.25H3.75A3.375 3.375 0 006 14.25v4.5m14.25-9.75l-1.406-1.406A2.25 2.25 0 0017.438 7.5H6.562a2.25 2.25 0 00-1.406.844L3.75 9.75M12 3v3.75m-3.75 0h7.5"/>',
                 ],
                 [
-                    'title' => 'Unique Specializations',
-                    'desc'  => 'Meshless hernia repair (Desarda technique) and daycare surgery with same-day discharge.',
+                    'title' => 'Daycare Hernia Surgery',
+                    'desc'  => 'Same-day discharge protocol allowing patients to return home within hours of surgery with faster recovery.',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>',
+                ],
+                [
+                    'title' => 'Hernia Surgery Under Local Anaesthesia',
+                    'desc'  => 'Selected hernia cases performed safely under local anaesthesia - avoiding general anaesthesia risks and enabling quicker recovery.',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>',
+                ],
+                [
+                    'title' => 'Meshless Hernia Surgery (Desarda &amp; Shouldice)',
+                    'desc'  => 'Specialized tissue-based repair techniques (Desarda &amp; Shouldice) for suitable patients - avoiding mesh implants and their long-term risks.',
+                    'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>',
+                ],
+                [
+                    'title' => 'Advanced Complex Hernia Techniques',
+                    'desc'  => 'Specialized techniques like Botox, PPP (Positive Pressure Pneumoperitoneum), and Fasciotens for managing the most complex hernias.',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/>',
                 ],
                 [
@@ -423,7 +461,7 @@ require __DIR__ . '/includes/header.php';
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>',
                 ],
             ];
-            foreach ($whys as $w): ?>
+            foreach ($whys_right as $w): ?>
                 <div class="flex gap-3 items-start group py-3 first:pt-0 last:pb-0">
                     <div class="shrink-0 w-10 h-10 rounded-full bg-brand-50 group-hover:bg-brand-100 border border-brand-100 flex items-center justify-center transition">
                         <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><?= $w['icon'] ?></svg>

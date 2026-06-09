@@ -95,6 +95,8 @@ $headerMenu = [
                     ['label' => 'TAPP Repair Technique', 'link' => 'treatment/tapp-repair.php'],
                     ['label' => 'TEP Repair Technique', 'link' => 'treatment/tep-repair.php'],
                     ['label' => 'eTEP Repair Technique', 'link' => 'treatment/etep-repair.php'],
+                    ['label' => 'Abdominal Wall Reconstruction', 'link' => 'treatment/abdominal-wall-reconstruction.php'],
+                    ['label' => 'Diastasis Recti Repair', 'link' => 'treatment/diastasis-recti.php'],
                 ]
             ],
             [
@@ -139,6 +141,7 @@ $headerMenu = [
                     ['label' => 'Pregnancy & Hernia Care', 'link' => 'special-considerations/pregnancy.php'],
                     ['label' => 'Elderly Hernia Care', 'link' => 'special-considerations/elderly.php'],
                     ['label' => 'Hernia in Children', 'link' => 'special-considerations/hernia-in-children.php'],
+                    ['label' => 'Chronic Pain after Surgery', 'link' => 'special-considerations/chronic-pain.php'],
                 ]
             ],
             [
@@ -179,9 +182,11 @@ $treatments = [
     ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia.php'],
     ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia.php'],
     ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
+    ['title' => 'Laparoscopic Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/laparoscopic-hernia-surgery.php'],
+    ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair.php'],
     ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-repair.php'],
     ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia.php'],
-    ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/hernia-surgery.php'],
+    ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/abdominal-wall-reconstruction.php'],
     ['title' => 'Emergency Hernia Care',         'img' => 'assets/images/complications_emergency.png','desc' => '24/7 emergency strangulated hernia management.',                               'link' => 'emergency-hernia-care.php'],
     ['title' => 'Hernia Mesh Repair',            'img' => 'assets/images/mesh-comparison-3d.png',   'desc' => '3D mesh, biological mesh, & self-gripping options.',                          'link' => 'treatment/mesh-repair.php'],
 ];
