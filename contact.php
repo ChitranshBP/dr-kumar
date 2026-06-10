@@ -80,26 +80,27 @@ require __DIR__ . '/includes/header.php';
                     Fill out the form below and our team will get back to you within 24 hours. For urgent matters, please call us directly.
                 </p>
 
-                <form class="space-y-5" action="#" method="POST" onsubmit="handleFormSubmit(event, this)">
+                <form accept-charset="UTF-8" action="https://app.formester.com/forms/4ke0WX9jt/submissions" method="POST">
+                    <div class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 md:p-8 space-y-5">
                     <div class="grid md:grid-cols-2 gap-5">
                         <div>
-                            <label class="block text-sm font-medium text-slate-700 mb-2">Full Name *</label>
-                            <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="Your full name">
+                            <label class="block text-sm font-semibold text-slate-800 mb-2">Full Name *</label>
+                            <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400" placeholder="Your full name">
                         </div>
                         <div>
-                            <label class="block text-sm font-medium text-slate-700 mb-2">Phone Number *</label>
-                            <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="+91 98765 43210">
+                            <label class="block text-sm font-semibold text-slate-800 mb-2">Phone Number *</label>
+                            <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400" placeholder="+91 98765 43210">
                         </div>
                     </div>
 
                     <div>
-                        <label class="block text-sm font-medium text-slate-700 mb-2">Email Address</label>
-                        <input type="email" name="email" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="your.email@example.com">
+                        <label class="block text-sm font-semibold text-slate-800 mb-2">Email Address</label>
+                        <input type="email" name="email" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400" placeholder="your.email@example.com">
                     </div>
 
                     <div>
-                        <label class="block text-sm font-medium text-slate-700 mb-2">Subject *</label>
-                        <select name="subject" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition">
+                        <label class="block text-sm font-semibold text-slate-800 mb-2">Subject *</label>
+                        <select name="subject" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900">
                             <option value="">Select a subject</option>
                             <option value="appointment">Book Appointment</option>
                             <option value="consultation">Request Consultation</option>
@@ -111,14 +112,15 @@ require __DIR__ . '/includes/header.php';
                     </div>
 
                     <div>
-                        <label class="block text-sm font-medium text-slate-700 mb-2">Message *</label>
-                        <textarea name="message" rows="4" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition resize-none" placeholder="Please describe your condition or inquiry..."></textarea>
+                        <label class="block text-sm font-semibold text-slate-800 mb-2">Message *</label>
+                        <textarea name="message" rows="4" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400 resize-none" placeholder="Please describe your condition or inquiry..."></textarea>
                     </div>
 
-                    <button type="submit" class="w-full bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-4 rounded-lg shadow hover:shadow-lg transition flex items-center justify-center gap-2">
+                    <button type="submit" class="w-full bg-gradient-to-r from-accent to-amber-500 hover:from-amber-500 hover:to-amber-600 text-white font-bold px-6 py-4 rounded-lg shadow-lg shadow-amber-500/20 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2 text-lg">
                         <span>Send Message</span>
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
                     </button>
+                    </div>
                 </form>
 
                 <div id="formSuccess" class="hidden mt-6 p-4 bg-emerald-100 border border-emerald-200 rounded-lg text-emerald-800">

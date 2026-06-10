@@ -279,32 +279,32 @@ require __DIR__ . '/includes/header.php';
             <p class="text-brand-100 text-lg">Fill out the form and we will contact you within 24 hours to schedule your video consultation.</p>
         </div>
 
-        <form class="bg-white rounded-3xl p-8 shadow-2xl text-slate-800" action="#" method="POST" onsubmit="handleOnlineConsultSubmit(event, this)">
+        <form accept-charset="UTF-8" action="https://app.formester.com/forms/4ke0WX9jt/submissions" method="POST">
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Full Name *</label>
-                    <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="Your full name">
+                    <label class="block text-sm font-semibold text-white mb-2">Full Name *</label>
+                    <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="Your full name">
                 </div>
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Phone Number *</label>
-                    <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="+91 98765 43210">
+                    <label class="block text-sm font-semibold text-white mb-2">Phone Number *</label>
+                    <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="+91 98765 43210">
                 </div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Email Address *</label>
-                    <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="your.email@example.com">
+                    <label class="block text-sm font-semibold text-white mb-2">Email Address *</label>
+                    <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="your.email@example.com">
                 </div>
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">City / Location</label>
-                    <input type="text" name="location" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="Your city">
+                    <label class="block text-sm font-semibold text-white mb-2">City / Location</label>
+                    <input type="text" name="location" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="Your city">
                 </div>
             </div>
 
             <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">Condition *</label>
-                <select name="condition" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition">
+                <label class="block text-sm font-semibold text-white mb-2">Condition *</label>
+                <select name="condition" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900">
                     <option value="">Select your condition</option>
                     <option value="inguinal_hernia">Inguinal Hernia</option>
                     <option value="umbilical_hernia">Umbilical Hernia</option>
@@ -318,25 +318,25 @@ require __DIR__ . '/includes/header.php';
             </div>
 
             <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">Preferred Consultation Type *</label>
+                <label class="block text-sm font-semibold text-white mb-2">Preferred Consultation Type *</label>
                 <div class="grid grid-cols-2 gap-4">
-                    <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-200 cursor-pointer hover:border-brand-500 transition has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
-                        <input type="radio" name="consult_type" value="initial" checked class="w-5 h-5 text-brand-700">
-                        <span class="font-medium text-slate-700">Initial Evaluation</span>
+                    <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-300 bg-white/90 cursor-pointer hover:border-brand-400 transition has-[:checked]:border-brand-400 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="consult_type" value="initial" checked class="w-5 h-5 text-brand-600">
+                        <span class="font-medium text-slate-800">Initial Evaluation</span>
                     </label>
-                    <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-200 cursor-pointer hover:border-brand-500 transition has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
-                        <input type="radio" name="consult_type" value="second_opinion" class="w-5 h-5 text-brand-700">
-                        <span class="font-medium text-slate-700">Second Opinion</span>
+                    <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-300 bg-white/90 cursor-pointer hover:border-brand-400 transition has-[:checked]:border-brand-400 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="consult_type" value="second_opinion" class="w-5 h-5 text-brand-600">
+                        <span class="font-medium text-slate-800">Second Opinion</span>
                     </label>
                 </div>
             </div>
 
             <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">Tell us about your condition</label>
-                <textarea name="description" rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition resize-none" placeholder="Describe your symptoms, when they started, and any previous treatments..."></textarea>
+                <label class="block text-sm font-semibold text-white mb-2">Tell us about your condition</label>
+                <textarea name="description" rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400 resize-none" placeholder="Describe your symptoms, when they started, and any previous treatments..."></textarea>
             </div>
 
-            <button type="submit" class="w-full bg-brand-700 hover:bg-brand-800 text-white font-bold px-6 py-4 rounded-lg shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2 text-lg">
+            <button type="submit" class="w-full bg-accent hover:bg-amber-500 text-white font-bold px-6 py-4 rounded-lg shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2 text-lg">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
                 Request Online Consultation
             </button>

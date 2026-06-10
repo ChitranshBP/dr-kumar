@@ -301,51 +301,51 @@ require __DIR__ . '/includes/header.php';
             <p class="text-brand-100 text-lg">Share your case details and Dr. Kumar will review your situation and provide an expert opinion.</p>
         </div>
 
-        <form class="bg-white rounded-3xl p-8 shadow-2xl text-slate-800" action="#" method="POST" onsubmit="handleSecondOpinionSubmit(event, this)">
+        <form accept-charset="UTF-8" action="https://app.formester.com/forms/4ke0WX9jt/submissions" method="POST">
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Full Name *</label>
-                    <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="Your full name">
+                    <label class="block text-sm font-semibold text-white mb-2">Full Name *</label>
+                    <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="Your full name">
                 </div>
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Phone Number *</label>
-                    <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="+91 98765 43210">
+                    <label class="block text-sm font-semibold text-white mb-2">Phone Number *</label>
+                    <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="+91 98765 43210">
                 </div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Email Address *</label>
-                    <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="your.email@example.com">
+                    <label class="block text-sm font-semibold text-white mb-2">Email Address *</label>
+                    <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="your.email@example.com">
                 </div>
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Current Diagnosis</label>
-                    <input type="text" name="diagnosis" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="e.g., Inguinal Hernia">
+                    <label class="block text-sm font-semibold text-white mb-2">Current Diagnosis</label>
+                    <input type="text" name="diagnosis" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400" placeholder="e.g., Inguinal Hernia">
                 </div>
             </div>
 
             <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">Current Doctor's Recommendation</label>
-                <textarea name="current_recommendation" rows="3" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition resize-none" placeholder="What has your current doctor recommended? Surgery type, timing, etc."></textarea>
+                <label class="block text-sm font-semibold text-white mb-2">Current Doctor's Recommendation</label>
+                <textarea name="current_recommendation" rows="3" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400 resize-none" placeholder="What has your current doctor recommended? Surgery type, timing, etc."></textarea>
             </div>
 
             <div class="mb-6">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">Your Questions or Concerns</label>
-                <textarea name="concerns" rows="3" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition resize-none" placeholder="What specific questions do you have? What concerns would you like addressed?"></textarea>
+                <label class="block text-sm font-semibold text-white mb-2">Your Questions or Concerns</label>
+                <textarea name="concerns" rows="3" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-400 focus:border-brand-400 transition bg-white text-slate-900 placeholder-slate-400 resize-none" placeholder="What specific questions do you have? What concerns would you like addressed?"></textarea>
             </div>
 
-            <div class="mb-6 p-4 bg-slate-50 rounded-lg border border-slate-200">
-                <label class="block text-sm font-semibold text-slate-700 mb-2">Upload Medical Reports (Optional)</label>
+            <div class="mb-6 p-4 bg-white/95 rounded-lg border border-slate-300">
+                <label class="block text-sm font-semibold text-slate-800 mb-2">Upload Medical Reports (Optional)</label>
                 <p class="text-xs text-slate-500 mb-3">Accepted formats: PDF, JPG, PNG. Max size: 10MB.</p>
-                <div class="border-2 border-dashed border-slate-300 rounded-lg p-6 text-center hover:border-brand-500 transition cursor-pointer" onclick="document.getElementById('reportUpload').click()">
+                <div class="border-2 border-dashed border-slate-300 rounded-lg p-6 text-center hover:border-brand-400 transition cursor-pointer bg-slate-50" onclick="document.getElementById('reportUpload').click()">
                     <svg class="w-10 h-10 text-slate-400 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/></svg>
-                    <p class="text-sm text-slate-600">Click to upload or drag and drop</p>
-                    <p class="text-xs text-slate-400 mt-1">CT scans, ultrasound reports, doctor's notes</p>
+                    <p class="text-sm text-slate-700">Click to upload or drag and drop</p>
+                    <p class="text-xs text-slate-500 mt-1">CT scans, ultrasound reports, doctor's notes</p>
                     <input type="file" id="reportUpload" name="reports" multiple accept=".pdf,.jpg,.jpeg,.png" class="hidden">
                 </div>
             </div>
 
-            <button type="submit" class="w-full bg-brand-700 hover:bg-brand-800 text-white font-bold px-6 py-4 rounded-lg shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2 text-lg">
+            <button type="submit" class="w-full bg-accent hover:bg-amber-500 text-white font-bold px-6 py-4 rounded-lg shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2 text-lg">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                 Submit for Second Opinion
             </button>

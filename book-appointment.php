@@ -180,46 +180,47 @@ require __DIR__ . '/includes/header.php';
                 <p class="text-brand-100">Fill out the form below and we will contact you within 24 hours</p>
             </div>
 
-            <form class="p-8 space-y-6" action="#" method="POST" onsubmit="handleAppointmentSubmit(event, this)">
+            <form accept-charset="UTF-8" action="https://app.formester.com/forms/4ke0WX9jt/submissions" method="POST">
+                <div class="p-8 space-y-6">
                 <div class="grid md:grid-cols-2 gap-6">
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Full Name *</label>
-                        <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="Enter your full name">
+                        <label class="block text-sm font-semibold text-slate-800 mb-2">Full Name *</label>
+                        <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400" placeholder="Enter your full name">
                     </div>
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Phone Number *</label>
-                        <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="+91 98765 43210">
+                        <label class="block text-sm font-semibold text-slate-800 mb-2">Phone Number *</label>
+                        <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400" placeholder="+91 98765 43210">
                     </div>
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-6">
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
-                        <input type="email" name="email" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition" placeholder="your.email@example.com">
+                        <label class="block text-sm font-semibold text-slate-800 mb-2">Email Address</label>
+                        <input type="email" name="email" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400" placeholder="your.email@example.com">
                     </div>
                     <div>
-                        <label class="block text-sm font-semibold text-slate-700 mb-2">Preferred Date *</label>
-                        <input type="date" name="date" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition">
+                        <label class="block text-sm font-semibold text-slate-800 mb-2">Preferred Date *</label>
+                        <input type="date" name="date" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900">
                     </div>
                 </div>
 
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Appointment Type *</label>
+                    <label class="block text-sm font-semibold text-slate-800 mb-2">Appointment Type *</label>
                     <div class="grid grid-cols-2 gap-4">
-                        <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-200 cursor-pointer hover:border-brand-500 transition has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
-                            <input type="radio" name="appointment_type" value="in_person" checked class="w-5 h-5 text-brand-700">
-                            <span class="font-medium text-slate-700">In-Person Visit</span>
+                        <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-200 bg-slate-50 cursor-pointer hover:border-brand-500 hover:bg-white transition has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                            <input type="radio" name="appointment_type" value="in_person" checked class="w-5 h-5 text-brand-600">
+                            <span class="font-medium text-slate-800">In-Person Visit</span>
                         </label>
-                        <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-200 cursor-pointer hover:border-brand-500 transition has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
-                            <input type="radio" name="appointment_type" value="online" class="w-5 h-5 text-brand-700">
-                            <span class="font-medium text-slate-700">Online Consultation</span>
+                        <label class="flex items-center gap-3 p-4 rounded-lg border-2 border-slate-200 bg-slate-50 cursor-pointer hover:border-brand-500 hover:bg-white transition has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                            <input type="radio" name="appointment_type" value="online" class="w-5 h-5 text-brand-600">
+                            <span class="font-medium text-slate-800">Online Consultation</span>
                         </label>
                     </div>
                 </div>
 
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Condition / Reason for Visit *</label>
-                    <select name="condition" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition">
+                    <label class="block text-sm font-semibold text-slate-800 mb-2">Condition / Reason for Visit *</label>
+                    <select name="condition" required class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900">
                         <option value="">Select your condition</option>
                         <option value="inguinal_hernia">Inguinal Hernia</option>
                         <option value="umbilical_hernia">Umbilical Hernia</option>
@@ -239,21 +240,22 @@ require __DIR__ . '/includes/header.php';
                 </div>
 
                 <div>
-                    <label class="block text-sm font-semibold text-slate-700 mb-2">Additional Information</label>
-                    <textarea name="notes" rows="3" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition resize-none" placeholder="Please describe any symptoms, previous treatments, or other relevant information..."></textarea>
+                    <label class="block text-sm font-semibold text-slate-800 mb-2">Additional Information</label>
+                    <textarea name="notes" rows="3" class="w-full px-4 py-3 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition text-slate-900 placeholder-slate-400 resize-none" placeholder="Please describe any symptoms, previous treatments, or other relevant information..."></textarea>
                 </div>
 
-                <div class="flex items-start gap-3">
-                    <input type="checkbox" id="consent" name="consent" required class="w-5 h-5 mt-0.5 text-brand-700 rounded">
-                    <label for="consent" class="text-sm text-slate-600">
+                <div class="flex items-start gap-3 p-4 bg-slate-50 rounded-lg border border-slate-200">
+                    <input type="checkbox" id="consent" name="consent" required class="w-5 h-5 mt-0.5 text-brand-600 rounded border-slate-300">
+                    <label for="consent" class="text-sm text-slate-700 leading-relaxed">
                         I consent to being contacted regarding my appointment request. I understand that this form is for appointment requests only and does not constitute medical advice.
                     </label>
                 </div>
 
-                <button type="submit" class="w-full bg-brand-700 hover:bg-brand-800 text-white font-bold px-6 py-4 rounded-lg shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2 text-lg">
+                <button type="submit" class="w-full bg-gradient-to-r from-accent to-amber-500 hover:from-amber-500 hover:to-amber-600 text-white font-bold px-6 py-4 rounded-lg shadow-lg shadow-amber-500/20 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 flex items-center justify-center gap-2 text-lg">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                     Request Appointment
                 </button>
+                </div>
             </form>
 
             <div id="appointmentSuccess" class="hidden p-8 text-center">
@@ -344,9 +346,8 @@ require __DIR__ . '/includes/header.php';
 <script>
     function handleAppointmentSubmit(event, form) {
         event.preventDefault();
-        form.querySelector('form').classList.add('hidden');
-        document.getElementById('appointmentSuccess').classList.remove('hidden');
-        window.scrollTo({ top: document.getElementById('appointmentSuccess').offsetTop - 100, behavior: 'smooth' });
+        // Redirect to dedicated thank you page
+        window.location.href = '<?= $base_path ?>thankyou.php';
     }
 </script>
 
