@@ -380,7 +380,7 @@
 </div>
 
 <!-- Floating WhatsApp Button (Desktop View Only) -->
-<a href="https://wa.me/<?= $site['phone_link'] ?>" target="_blank" rel="noopener" class="hidden lg:flex fixed bottom-24 right-6 z-50 group" aria-label="WhatsApp Dr. Kumar">
+<a href="https://wa.me/<?= $site['phone_link'] ?>" target="_blank" rel="noopener" class="hidden lg:flex fixed bottom-6 right-6 z-50 group" aria-label="WhatsApp Dr. Kumar">
     <div class="relative flex items-center">
         <!-- Hover tooltip/label -->
         <div class="absolute right-full mr-3 bg-white rounded-xl shadow-2xl p-4 whitespace-nowrap opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-x-2 group-hover:translate-x-0 border border-slate-100">
