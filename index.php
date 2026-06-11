@@ -15,7 +15,7 @@ require __DIR__ . '/includes/header.php';
             </h1>
 
             <p class="text-slate-200 text-base md:text-lg leading-relaxed mb-8">
-                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Surgery with 29+ years of experience and <strong>10,000+ successful surgeries</strong> in Chennai.
+                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Hernia Surgery with 29+ years of experience and <strong>10,000+ Hernia successful surgeries</strong> in Chennai.
             </p>
 
             <div class="flex flex-wrap gap-3">
