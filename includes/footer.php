@@ -306,6 +306,109 @@
 })();
 </script>
 
+<!-- Floating Call Button (Bouncing) - Appears on All Pages -->
+<a href="tel:<?= $site['phone_link'] ?>" class="floating-call-btn" aria-label="Call now">
+    <span class="ripple"></span>
+    <span class="ripple ripple-2"></span>
+    <span class="ripple ripple-3"></span>
+    <span class="floating-call-circle">
+        <svg class="w-6 h-6 text-white relative z-10" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+        </svg>
+    </span>
+</a>
+
+<style>
+    .floating-call-btn {
+        position: fixed;
+        bottom: 90px;
+        right: 24px;
+        z-index: 9999;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: #f59e0b;
+        color: #ffffff;
+        padding: 0;
+        width: 56px;
+        height: 56px;
+        border-radius: 9999px;
+        box-shadow: 0 10px 30px -5px rgba(245, 158, 11, 0.5), 0 8px 15px -6px rgba(0, 0, 0, 0.2);
+        font-weight: 700;
+        font-size: 15px;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+        animation: float-bounce 2s ease-in-out infinite;
+        overflow: hidden;
+    }
+
+    .floating-call-circle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background: #ea580c;
+        border-radius: 9999px;
+        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.15);
+    }
+
+    .floating-call-btn:hover {
+        animation: none;
+        background: #ea580c;
+        transform: scale(1.08) translateY(-2px);
+        box-shadow: 0 15px 40px -5px rgba(245, 158, 11, 0.6), 0 10px 20px -6px rgba(0, 0, 0, 0.25);
+    }
+
+    .floating-call-btn:active {
+        transform: scale(0.95);
+    }
+
+    @keyframes float-bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+
+    .floating-call-label {
+        display: none;
+    }
+
+    .floating-call-btn .ripple {
+        position: absolute;
+        inset: 0;
+        border-radius: 9999px;
+        background: rgba(245, 158, 11, 0.5);
+        animation: ripple-expand 2s ease-out infinite;
+        z-index: 0;
+    }
+
+    .floating-call-btn .ripple-2 {
+        animation-delay: 0.66s;
+    }
+
+    .floating-call-btn .ripple-3 {
+        animation-delay: 1.33s;
+    }
+
+    @keyframes ripple-expand {
+        0% {
+            transform: scale(1);
+            opacity: 0.6;
+        }
+        100% {
+            transform: scale(1.6);
+            opacity: 0;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .floating-call-btn {
+            bottom: 80px;
+            right: 18px;
+        }
+    }
+</style>
+
 </body>
 </html>
 

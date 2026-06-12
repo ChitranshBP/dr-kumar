@@ -15,7 +15,7 @@ require __DIR__ . '/includes/header.php';
             </h1>
 
             <p class="text-slate-200 text-base md:text-lg leading-relaxed mb-8">
-                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Hernia Surgery with 29+ years of experience and <strong>10,000+ Hernia successful surgeries</strong> in Chennai.
+                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Hernia Surgery with 29+ years of experience and <strong>10,000+ successful Hernia surgeries</strong> in Chennai.
             </p>
 
             <div class="flex flex-wrap gap-3">
@@ -169,7 +169,7 @@ require __DIR__ . '/includes/header.php';
                 Dr. Kumar is a leading expert in advanced <strong>laparoscopic</strong> and <strong>robotic</strong> hernia surgery, with extensive expertise in techniques such as <strong>eTEP, TEP, TAPP, TAR, IPOM</strong> and complex Abdominal Wall Reconstruction (AWR).
             </p>
             <p class="text-slate-600 mb-6 leading-relaxed">
-                With over <strong>10,000+ successful hernia surgeries</strong> to date &mdash; performed using advanced <strong>laparoscopic</strong> and <strong>robotic</strong> techniques &mdash; Dr. Kumar is one of Chennai's most trusted names in minimally invasive hernia care. A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he pioneered advanced <strong>laparoscopic</strong> and <strong>robotic</strong> hernia surgery in the city.
+                With over <strong>10,000+ successful hernia surgeries</strong> to date &mdash; performed using advanced <strong>laparoscopic</strong> and <strong>robotic</strong> techniques &mdash; Dr. Kumar is one of Chennai's most trusted names in minimally invasive hernia care. A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he pioneered advanced <strong>laparoscopic</strong> hernia surgery in the city.
             </p>
 
             <div class="grid grid-cols-2 gap-4 mb-7">
@@ -188,6 +188,11 @@ require __DIR__ . '/includes/header.php';
                 <div class="flex items-center gap-3">
                     <svg class="w-5 h-5 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
                     <span class="text-sm font-medium">FMAS, FIAGES</span>
+                </div>
+
+                 <div class="flex items-center gap-3">
+                    <svg class="w-5 h-5 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                    <span class="text-sm font-medium">Dip ALS. Advanced Laparoscopy</span>
                 </div>
             </div>
 
@@ -818,8 +823,5 @@ require __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<a href="tel:<?= $site['phone_link'] ?>" class="fixed bottom-36 lg:bottom-24 right-5 z-50 bg-accent hover:bg-amber-600 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center animate-bounce" aria-label="Call Now">
-    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-</a>
 
 <?php require __DIR__ . '/includes/footer.php'; ?>

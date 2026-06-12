@@ -27,8 +27,10 @@ $site = [
     'url'         => 'https://surgeondrkumar.com/',
     'logo'        => 'assets/images/logo.png',
     'social'      => [
-        'instagram' => 'https://www.instagram.com/drkumar_billrothherniasurgeon/',
-        'youtube'   => 'https://www.youtube.com/@DrkumarBillrothHerniaSurgeon',
+        'facebook'  => 'https://www.facebook.com/people/DrKumar-Billroth-Hernia-Surgeon/61568089283882/',
+        'instagram' => 'https://www.instagram.com/drkumar_billrothherniasurgeon',
+        'linkedin'  => 'https://www.linkedin.com/in/dr-kumar-hernia-surgeon-19971b325',
+        'youtube'   => 'https://www.youtube.com/@drkumarbillrothherniasurgeon',
     ],
 ];
 
