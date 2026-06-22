@@ -235,22 +235,23 @@ require __DIR__ . '/includes/header.php';
             <p class="text-slate-600">From complex incisional hernias to advanced abdominal wall reconstructions, Dr. Kumar offers the most sophisticated minimally invasive treatment options for all types of abdominal hernias.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             <?php
             $hernias = [
-                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia.php'],
-                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia.php'],
-                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia.php'],
-                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia.php'],
+                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia.php',          'Advanced laparoscopic &amp; robotic repair with mesh reinforcement.'],
+                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia.php',         'Daycare mesh &amp; meshless repair tailored to defect size.'],
+                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia.php',        'Complex AWR with TAR &amp; component separation techniques.'],
+                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia.php',           'Minimally invasive repair for abdominal wall defects.'],
+                ['Emergency Hernia Care', 'assets/images/complications_emergency.png', 'emergency-hernia-care.php', '24/7 emergency strangulated hernia management.'],
             ];
-            foreach ($hernias as [$t, $img, $link]): ?>
+            foreach ($hernias as [$t, $img, $link, $desc]): ?>
                 <a href="<?= $link ?>" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group block">
                     <div class="overflow-hidden h-44">
                         <img src="<?= $img ?>" alt="<?= $t ?> treatment Chennai" class="w-full h-full object-cover group-hover:scale-105 transition" loading="lazy">
                     </div>
                     <div class="p-5">
                         <h3 class="font-bold text-lg text-slate-900 mb-2"><?= $t ?></h3>
-                        <p class="text-sm text-slate-600">Advanced laparoscopic &amp; robotic repair with mesh reinforcement.</p>
+                        <p class="text-sm text-slate-600"><?= $desc ?></p>
                     </div>
                 </a>
             <?php endforeach; ?>
