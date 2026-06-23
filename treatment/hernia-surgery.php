@@ -818,16 +818,40 @@ require __DIR__ . '/../includes/header.php';
                 <!-- Item 1 (Active) -->
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">What are the main differences between open and laparoscopic hernia surgery?</span>
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">What is a hernia and what causes it?</span>
                         <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
                     </button>
                     <div class="faq-content px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">Laparoscopic surgery uses small keyhole incisions (0.5 to 1 cm) guided by a tiny camera, resulting in less pain, smaller scars, and a much faster recovery (1-3 weeks). Open surgery uses a single larger incision (3 to 6 inches) near the bulge, which may require a slightly longer recovery (3-6 weeks) but is highly effective for extremely large or complex hernias.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">A hernia occurs when an internal organ or tissue pushes through a weak spot in the surrounding muscle or connective tissue. Common causes include chronic straining, heavy lifting, chronic coughing, obesity, pregnancy, or previous surgical incisions.</p>
                     </div>
                 </div>
 
                 <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Can a hernia heal on its own without surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">No, a hernia will not heal on its own. While some small, asymptomatic hernias can be safely monitored (watchful waiting), surgical repair is the only definitive cure to close the defect and prevent complications.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What are the main differences between open and laparoscopic hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Laparoscopic surgery uses small keyhole incisions (0.5 to 1 cm) guided by a tiny camera, resulting in less pain, smaller scars, and a much faster recovery (1-3 weeks). Open surgery uses a single larger incision (3 to 6 inches) near the bulge, which may require a slightly longer recovery (3-6 weeks) but is highly effective for extremely large or complex hernias.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">Is a surgical mesh always used in hernia repairs?</span>
@@ -842,7 +866,7 @@ require __DIR__ . '/../includes/header.php';
 
             <!-- Right Column -->
             <div class="space-y-4">
-                <!-- Item 3 (Inactive) -->
+                <!-- Item 5 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How long does the surgery take and is it a daycare procedure?</span>
@@ -854,7 +878,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
 
-                <!-- Item 4 (Inactive) -->
+                <!-- Item 6 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">How soon can I return to work and exercise after surgery?</span>
@@ -863,6 +887,30 @@ require __DIR__ . '/../includes/header.php';
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
                         <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">For laparoscopic or robotic repairs, patients can often return to desk jobs in 3-7 days and light cardiovascular exercise in 2 weeks. For open surgeries, it may take 1-2 weeks for desk work. In both cases, lifting objects heavier than 5 kg and intense abdominal training should be avoided for 4 to 6 weeks.</p>
+                    </div>
+                </div>
+
+                <!-- Item 7 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What are the potential risks or complications of hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Hernia surgery is very safe, but as with any procedure, risks include temporary bruising, swelling around the incision, mild post-operative pain, infection, bleeding, or fluid accumulation (seroma). Long-term risks like chronic pain or hernia recurrence are extremely low when performed by an experienced specialist.</p>
+                    </div>
+                </div>
+
+                <!-- Item 8 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug transition-colors duration-300">What is the recovery protocol and how do I prevent the hernia from recurring?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
+                        <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Recovery involves wearing a supportive abdominal binder (if recommended), taking prescribed pain medications, walking daily to promote circulation, eating high-fiber foods to avoid constipation, and strictly avoiding heavy lifting or core straining for 6 weeks to allow the tissues to heal strongly around the mesh.</p>
                     </div>
                 </div>
             </div>
