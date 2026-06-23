@@ -17,7 +17,7 @@ if (!isset($base_path)) {
 }
 
 $site = [
-    'name'        => 'Dr. Kumar - Advanced Hernia & Laparoscopic Surgeon',
+    'name'        => 'DrKumar - Advanced Hernia , Laparoscopic & Robotic Surgeon',
     'doctor'      => 'Dr. Kumar',
     'tagline'     => 'Advanced Abdominal Hernia & Laparoscopic Surgeon in Chennai',
     'phone'       => '+91 89255 02759',
