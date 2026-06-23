@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Best Ventral Hernia Surgery in Chennai | Dr. Kumar';
 $page_description = 'Seeking Ventral Hernia Surgery in Chennai? Consult Dr. Kumar, a top anterior abdominal wall hernia specialist in Chennai, for advanced minimally invasive repairs.';
-$page_url = 'https://herniacare360.com/my_types/ventral-hernia-in-chennai';
+$page_url = 'https://herniacare360.com/my_types/ventral-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 

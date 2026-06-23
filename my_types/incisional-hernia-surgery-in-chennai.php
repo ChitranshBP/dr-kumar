@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Best Incisional Hernia Surgery in Chennai | Dr. Kumar';
 $page_description = 'Seeking Incisional Hernia Surgery in Chennai? Consult Dr. Kumar, a top complex hernia surgeon in Chennai, for advanced abdominal wall reconstruction.';
-$page_url = 'https://herniacare360.com/my_types/incisional-hernia-in-chennai';
+$page_url = 'https://herniacare360.com/my_types/incisional-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 

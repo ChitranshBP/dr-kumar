@@ -71,10 +71,10 @@ $headerMenu = [
             [
                 'title' => 'Hernia Types',
                 'links' => [
-                    ['label' => 'Inguinal Hernia (Groin)', 'link' => 'my_types/inguinal-hernia-in-chennai.php'],
-                    ['label' => 'Umbilical Hernia (Navel)', 'link' => 'my_types/umbilical-hernia-in-chennai.php'],
-                    ['label' => 'Incisional Hernia (Scar)', 'link' => 'my_types/incisional-hernia-in-chennai.php'],
-                    ['label' => 'Ventral Hernia (Abdomen)', 'link' => 'my_types/ventral-hernia-in-chennai.php'],
+                    ['label' => 'Inguinal Hernia (Groin)', 'link' => 'my_types/inguinal-hernia-surgery-in-chennai.php'],
+                    ['label' => 'Umbilical Hernia (Navel)', 'link' => 'my_types/umbilical-hernia-surgery-in-chennai.php'],
+                    ['label' => 'Incisional Hernia (Scar)', 'link' => 'my_types/incisional-hernia-surgery-in-chennai.php'],
+                    ['label' => 'Ventral Hernia (Abdomen)', 'link' => 'my_types/ventral-hernia-surgery-in-chennai.php'],
                     ['label' => 'Femoral Hernia (Groin)', 'link' => 'my_types/femoral-hernia.php'],
                     ['label' => 'Hiatal Hernia (Internal)', 'link' => 'my_types/hiatal-hernia.php'],
                     ['label' => 'Epigastric Hernia', 'link' => 'my_types/epigastric-hernia.php'],
@@ -177,10 +177,10 @@ $herniaConditions = [
 ];
 
 $treatments = [
-    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic &amp; Robotic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia-in-chennai.php'],
-    ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia-in-chennai.php'],
-    ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia-in-chennai.php'],
-    ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia-in-chennai.php'],
+    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic &amp; Robotic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia-surgery-in-chennai.php'],
+    ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia-surgery-in-chennai.php'],
+    ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia-surgery-in-chennai.php'],
+    ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia-surgery-in-chennai.php'],
     ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
     ['title' => 'Laparoscopic Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/laparoscopic-hernia-surgery-in-chennai.php'],
     ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair-in-chennai.php'],

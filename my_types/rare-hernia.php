@@ -174,7 +174,7 @@ require __DIR__ . '/../includes/header.php';
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> May follow trauma or surgery</li>
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Open mesh repair most common</li>
                 </ul>
-                <a href="<?= $base_path ?>my_types/incisional-hernia-in-chennai.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
+                <a href="<?= $base_path ?>my_types/incisional-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
                     See related: Incisional Hernia
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </a>
@@ -194,7 +194,7 @@ require __DIR__ . '/../includes/header.php';
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> High risk of strangulation (up to 30%)</li>
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Laparoscopic repair preferred</li>
                 </ul>
-                <a href="<?= $base_path ?>my_types/ventral-hernia-in-chennai.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
+                <a href="<?= $base_path ?>my_types/ventral-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
                     See related: Ventral Hernia
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </a>
