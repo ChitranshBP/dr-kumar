@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/config.php';
 
-$page_title       ??= 'Dr. Kumar - Best Advanced Hernia & Laparoscopic Surgeon in Chennai';
+$page_title       ??= 'Dr. Kumar- Advanced Hernia, Laparoscopic & Robotic Surgeon in Chennai';
 $page_description ??= 'Expert hernia treatment by Dr. Kumar in Chennai. Advanced laparoscopic, robotic & eTEP hernia surgery with 29+ years of experience.';
 $page_keywords    ??= 'hernia surgery Chennai, best hernia surgeon Chennai, laparoscopic hernia repair';
 $page_url         ??= $site['url'] . basename(dirname($_SERVER['PHP_SELF'])) . '/';
