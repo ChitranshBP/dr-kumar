@@ -398,4 +398,96 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
+<!-- FAQ Section -->
+<section class="py-12 md:py-16 bg-slate-50 border-t border-slate-100 scroll-mt-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently Asked Questions
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Item 1 (Active) -->
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is a ventral hernia and where does it occur?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6">
+                        <div class="h-px bg-white/20 mb-4"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A ventral hernia is a bulge of tissues or organs pushing through a weak spot or opening in the anterior abdominal wall muscles. It can occur anywhere on the midline or lateral abdomen. Common types include epigastric hernias (above the navel), umbilical hernias (at the navel), and incisional hernias (at previous surgical scars).</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What are the symptoms of a ventral hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The primary symptom is a visible bulge or lump in the abdomen that might be more prominent when standing, straining, or coughing. Other symptoms include localized discomfort, a dull ache or pressure, skin changes or redness over the bulge, and pain that worsens during physical activity or heavy lifting.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How is a ventral hernia diagnosed?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Diagnosis starts with a physical examination by Dr. Kumar. He will ask you to stand, cough, or strain to make the hernia visible. To evaluate the precise size of the muscle defect, the contents of the hernia, and to plan the surgical reconstruction, an ultrasound scan or abdominal CT scan is typically ordered.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Item 4 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What surgical techniques are used to repair ventral hernias?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Ventral hernias are repaired using open mesh repair or minimally invasive techniques (laparoscopic/robotic). Dr. Kumar specializes in advanced retrorectus mesh placement (eTEP rs and robotic TAR), where the mesh is placed between muscle layers instead of inside the abdominal cavity, providing superior strength and faster recovery.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How does obesity or diabetes affect ventral hernia repair?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Obesity and poorly controlled diabetes significantly increase the risk of surgical site infections, delayed wound healing, and hernia recurrence. Dr. Kumar works closely with patients to optimize blood sugar control and weight management before elective surgery to ensure the safest procedure and best long-term outcome.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What precautions should be taken after ventral hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Precautions include wearing a prescribed supportive abdominal binder for 4 to 6 weeks, avoiding any heavy lifting above 5 kg, avoiding core-straining abdominal exercises, preventing constipation (by eating high-fiber foods and drinking plenty of water), and immediately reporting any fever or unusual wound drainage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php require __DIR__ . '/../includes/footer.php'; ?>

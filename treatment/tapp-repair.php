@@ -426,6 +426,17 @@ require __DIR__ . '/../includes/header.php';
                         <p class="text-slate-600 text-sm md:text-base leading-relaxed">A standard unilateral (one-sided) TAPP repair takes 45 to 75 minutes depending on anatomical complexity and hernia size. A bilateral (two-sided) repair takes 75 to 100 minutes. It is generally a daycare procedure with same-day discharge.</p>
                     </div>
                 </div>
+
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Is a TAPP repair suitable for bilateral inguinal hernias?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, TAPP is exceptionally suited for bilateral (both sides) inguinal hernias. Because the surgeon operates from inside the abdominal cavity, they can access and repair both left and right groin defects through the same set of three small abdominal incisions, saving the patient from a second separate procedure.</p>
+                    </div>
+                </div>
             </div>
 
             <!-- Right Column -->
@@ -460,6 +471,17 @@ require __DIR__ . '/../includes/header.php';
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
                         <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAPP is extremely safe. Rare risks (under 1%) include temporary urinary retention, localized hematoma or seroma (fluid pocket), port site infection, or mild temporary groin numbness. Serious complications like bowel or vascular injury are exceptionally rare.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What are the main indications to choose TAPP over open surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAPP is preferred over open surgery for patients seeking faster recovery, minimal pain, and superior cosmetic results. It is especially indicated for recurrent hernias (where a previous open surgery failed), bilateral hernias, and when the doctor needs to evaluate the peritoneal cavity for other issues.</p>
                     </div>
                 </div>
             </div>

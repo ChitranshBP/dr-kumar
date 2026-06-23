@@ -359,4 +359,96 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
+<!-- FAQ Section -->
+<section class="py-12 md:py-16 bg-slate-50 border-t border-slate-100 scroll-mt-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently Asked Questions
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Item 1 (Active) -->
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is an incisional hernia and why does it occur?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6">
+                        <div class="h-px bg-white/20 mb-4"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An incisional hernia is a protrusion of tissue or organs that occurs through a scar left by a previous abdominal surgery. It happens because the surgical cut weakens the abdominal muscles and connective tissues, allowing a new defect or gap to open over time under intra-abdominal pressure.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What are the risk factors for developing an incisional hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Key risk factors include wound infections after the initial surgery (which significantly weaken scar healing), obesity, poorly controlled diabetes, smoking, malnutrition, steroid use, emergency surgeries, or premature heavy lifting and strenuous physical activity before the initial incision had healed completely.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Can an incisional hernia be treated laparoscopically?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, many incisional hernias are repaired laparoscopically or robotically. Dr. Kumar utilizes advanced minimally invasive techniques like eTEP retrorectus repairs. This approach accesses the defect through small ports away from the old scar, minimizing wound infections and resulting in significantly less recovery pain.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Item 4 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Why do incisional hernias have a higher recurrence rate?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Because the repair is done in tissues that are already scarred and weakened by previous surgical trauma, normal healing is compromised. However, using advanced sublay mesh placement techniques (like eTEP) and large medical-grade meshes lowers the recurrence rates to under 2–5%, compared to over 30% for simple suture closures.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How long after a previous surgery can an incisional hernia develop?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most incisional hernias develop within the first 1 to 2 years after the initial surgery when the abdominal wall scar tissue is still gaining strength. However, they can develop many years later if the patient experiences sudden weight gain, chronic cough, prostatic straining, or severe abdominal weakness.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What is the recovery protocol for incisional hernia repairs?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For laparoscopic/robotic repairs, patients are discharged in 1–3 days. Wearing a comfortable abdominal binder is recommended for 6 weeks to support the reconstructed wall. Strenuous exercises and heavy lifting (above 5 kg) must be strictly avoided for 6 weeks to ensure the mesh incorporates completely.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php require __DIR__ . '/../includes/footer.php'; ?>

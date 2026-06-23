@@ -384,4 +384,96 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
+<!-- FAQ Section -->
+<section class="py-12 md:py-16 bg-slate-50 border-t border-slate-100 scroll-mt-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently Asked Questions
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Item 1 (Active) -->
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What causes an umbilical hernia in adults?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6">
+                        <div class="h-px bg-white/20 mb-4"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">In adults, umbilical hernias are acquired rather than congenital. They are caused by increased intra-abdominal pressure that pushes tissue through the natural weak spot around the navel (belly button). Contributing factors include obesity, multiple pregnancies, fluid in the abdominal cavity (ascites), chronic heavy lifting, or chronic coughing.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Is surgery always required for an umbilical hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Unlike in infants where umbilical hernias often close on their own by age 4–5, umbilical hernias in adults do not heal and tend to enlarge over time. Surgery is strongly recommended because the narrow neck of the navel defect carries a high risk of bowel entrapment (incarceration) or strangulation, which is a surgical emergency.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What is the difference between an umbilical and a paraumbilical hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">An umbilical hernia occurs directly through the center of the navel (the belly button ring itself). A paraumbilical hernia occurs through a defect in the muscle layer immediately adjacent to (just above, below, or to the side of) the navel. Clinically, both are treated similarly using the same surgical techniques.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Item 4 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How is an umbilical hernia surgery performed?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For small defects under 1 cm, a simple open repair with stitches might be sufficient. For larger hernias, Dr. Kumar performs advanced laparoscopic or robotic repair (like eTEP RS or IPOM). Minimally invasive approaches use small ports, reduce wound infection rates, preserve the cosmetic shape of the belly button, and accelerate recovery.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Is mesh required for all umbilical hernia repairs?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, for adult umbilical hernias larger than 1 to 2 cm, using a medical-grade mesh is standard practice. Scientific studies confirm that mesh repair lowers the recurrence rate to below 1–2%, whereas repairs closed with stitches alone fail and recur in up to 10–20% of cases.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How can I prevent an umbilical hernia from recurring?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Post-surgery prevention involves wearing a supportive abdominal binder during the 6-week healing phase, maintaining a healthy weight, avoiding heavy core straining or lifting objects over 5 kg, preventing chronic constipation with a high-fiber diet, and avoiding smoking which triggers chronic coughing and weakens muscle collagen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php require __DIR__ . '/../includes/footer.php'; ?>
