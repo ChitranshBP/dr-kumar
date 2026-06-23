@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Best Umbilical Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Looking for Umbilical Hernia Surgery in Chennai? Consult Dr. Kumar, a top belly button hernia specialist in Chennai, for advanced minimally invasive repairs.';
-$page_url = 'https://herniacare360.com/my_types/umbilical-hernia';
+$page_title = 'Best Ventral Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Seeking Ventral Hernia Surgery in Chennai? Consult Dr. Kumar, a top anterior abdominal wall hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/ventral-hernia-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -13,86 +13,76 @@ require __DIR__ . '/../includes/header.php';
             <span class="text-slate-500">/</span>
             <span class="text-slate-400">Hernia Types</span>
             <span class="text-slate-500">/</span>
-            <span class="text-accent font-medium">Umbilical Hernia</span>
+            <span class="text-accent font-medium">Ventral Hernia</span>
         </nav>
 
         <div class="max-w-3xl">
             <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
                 <span class="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
-                Common in Adults & Children
+                Anterior Abdominal Wall
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Umbilical Hernia<br>
+                Ventral Hernia<br>
                 <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best umbilical hernia surgery in Chennai from Dr. Kumar, the leading belly button hernia specialist in Chennai. Experience advanced keyhole and robotic umbilical repairs.
+                Get the best ventral hernia surgery in Chennai from Dr. Kumar, the leading anterior abdominal wall hernia specialist in Chennai. Experience advanced keyhole and robotic ventral repairs.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
                     Book Consultation
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
+                <a href="#location" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
+                    Learn More
+                </a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- What is Umbilical Hernia -->
-<section class="py-16 md:py-24 bg-slate-50">
+<!-- Location Section -->
+<section id="location" class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             <div class="lg:col-span-7">
                 <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Understanding</span>
                 <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
-                    What is an Umbilical Hernia?
+                    Where Does It Occur?
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-5 text-lg">
-                    An umbilical hernia occurs when part of the intestine or abdominal tissue pushes through the abdominal wall near the belly button (umbilicus). It appears as a bulge at or near the navel.
+                    A ventral hernia develops along the midline of the abdomen, specifically in the area from the breastbone (xiphoid process) to the belly button (umbilicus).
                 </p>
-                <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Common in infants but also affects adults, particularly after pregnancy, weight gain, or previous surgery. Dr. Kumar offers both mesh and non-mesh repair options.
+                <p class="text-slate-600 leading-relaxed mb-6 text-base">
+                    Unlike inguinal hernias that occur in the groin, ventral hernias appear in the front central part of the abdominal wall, often called the linea alba.
                 </p>
                 <div class="flex flex-wrap gap-3 mb-8">
-                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Daycare Available</span>
-                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Mesh Repair</span>
-                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Meshless Option</span>
-                                        <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Laparoscopic Techniques</span>
-                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Robotic Techniques</span>
-
+                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Midline Location</span>
+                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">No Groin Involvement</span>
+                    <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Often Congenital</span>
                 </div>
 
-                <h3 class="font-bold text-xl text-slate-900 mb-4">When to Seek Treatment</h3>
+                <h3 class="font-bold text-xl text-slate-900 mb-4">Ventral vs Incisional Hernia</h3>
                 <div class="grid sm:grid-cols-2 gap-4">
-                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <div class="p-5 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-3">
+                            <span class="text-xs font-bold">01</span>
                         </div>
-                        <span class="text-sm font-medium text-slate-700">Pain that worsens or doesn't subside</span>
+                        <h4 class="font-semibold text-brand-800 mb-1.5 text-base">Primary Ventral Hernia</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">Occurs at natural weak points without any previous surgery. Can be present from birth (congenital) or develop over time.</p>
                     </div>
-                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <div class="p-5 bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+                        <div class="w-8 h-8 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-3">
+                            <span class="text-xs font-bold">02</span>
                         </div>
-                        <span class="text-sm font-medium text-slate-700">Bulge increasing in size</span>
-                    </div>
-                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <span class="text-sm font-medium text-slate-700">Difficulty with daily activities</span>
-                    </div>
-                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300 flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-4 h-4 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <span class="text-sm font-medium text-slate-700">Signs of skin discoloration</span>
+                        <h4 class="font-semibold text-slate-700 mb-1.5 text-base">Incisional Hernia</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">A type of ventral hernia that occurs at the site of a previous surgical incision. Falls under the broader ventral hernia category.</p>
                     </div>
                 </div>
             </div>
             <div class="lg:col-span-5">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
-                    <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
+                    <img src="<?= $base_path ?>assets/images/ventral-new.png" alt="Ventral Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
@@ -129,7 +119,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
                         </div>
                         <h3 class="font-bold text-slate-900 mb-1.5 text-base">Visible Bulge</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">A noticeable bulge at or near the belly button, especially when standing or straining.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">A bulge along the midline of the abdomen that may become more noticeable when standing.</p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
@@ -137,7 +127,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                         </div>
                         <h3 class="font-bold text-slate-900 mb-1.5 text-base">Pain or Discomfort</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Aching or pain around the belly button that may worsen with activity.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Aching or burning sensation at the hernia site, often worsening with activity.</p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
@@ -145,15 +135,15 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         </div>
                         <h3 class="font-bold text-slate-900 mb-1.5 text-base">Reducible</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">The bulge can often be pushed back in when lying down.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">The bulge can often be pushed back in gently when lying down.</p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
                         <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-4">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         </div>
-                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Swelling</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Area around the navel appears swollen or inflamed.</p>
+                        <h3 class="font-bold text-slate-900 mb-1.5 text-base">Progressive Growth</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Hernia may gradually increase in size over time if left untreated.</p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
@@ -161,7 +151,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
                         </div>
                         <h3 class="font-bold text-slate-900 mb-1.5 text-base">Heavy Sensation</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Feeling of fullness or heaviness in the abdomen.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Feeling of heaviness or dragging in the abdomen.</p>
                     </div>
 
                     <div class="bg-red-50/30 rounded-2xl p-5 border border-red-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
@@ -169,7 +159,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                         </div>
                         <h3 class="font-bold text-slate-900 mb-1.5 text-base">Emergency Signs</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed">Severe pain, vomiting, or discoloration - seek immediate medical attention.</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Severe pain, vomiting, or skin changes - seek immediate medical attention.</p>
                     </div>
                 </div>
             </div>
@@ -177,70 +167,67 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<!-- Why Choose Us -->
-<section class="py-16 md:py-24 bg-white">
+
+<!-- Prevention Section -->
+<section class="py-16 md:py-24 bg-brand-950 text-white">
     <div class="max-w-7xl mx-auto px-4">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Why Dr. Kumar</span>
-                <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mt-3 mb-6">
-                    Expert Care for Umbilical Hernia
-                </h2>
-                <p class="text-slate-600 leading-relaxed mb-8 text-lg">
-                    With extensive experience in umbilical hernia repair, Dr. Kumar provides personalized treatment plans with excellent outcomes. Most procedures can be done as daycare surgery.
-                </p>
-                <div class="space-y-4">
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900">Daycare Surgery</h4>
-                            <p class="text-slate-600 text-sm">Most patients go home the same day</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900">Minimally Invasive Options</h4>
-                            <p class="text-slate-600 text-sm">Laparoscopic techniques for faster recovery</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-brand-100 flex items-center justify-center shrink-0">
-                            <svg class="w-5 h-5 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900">Low Recurrence</h4>
-                            <p class="text-slate-600 text-sm">Less than 1% recurrence rate with mesh repair</p>
-                        </div>
-                    </div>
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-4 py-1.5 rounded-full text-sm font-medium mb-4">
+                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                Prevention
+            </span>
+            <h2 class="font-display text-3xl md:text-5xl font-bold mb-4">
+                Tips to <span class="text-accent">Prevent</span> Ventral Hernia
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6">
+                <div class="w-12 h-12 rounded-xl bg-brand-700/50 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
                 </div>
+                <h3 class="font-bold text-lg mb-2">Maintain Healthy Weight</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Excess abdominal fat increases pressure on the abdominal wall, weakening tissues over time.</p>
             </div>
-            <div class="bg-gradient-to-br from-brand-50 to-cyan-50 rounded-3xl p-8 lg:p-10">
-                <div class="text-center mb-8">
-                    <h3 class="font-display text-2xl font-bold text-slate-900 mb-2">Quick Facts</h3>
+
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6">
+                <div class="w-12 h-12 rounded-xl bg-brand-700/50 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-white rounded-xl p-4 text-center shadow-sm">
-                        <p class="text-3xl font-bold text-brand-700">45-60</p>
-                        <p class="text-sm text-slate-500">Minutes Surgery Time</p>
-                    </div>
-                    <div class="bg-white rounded-xl p-4 text-center shadow-sm">
-                        <p class="text-3xl font-bold text-brand-700">1-2</p>
-                        <p class="text-sm text-slate-500">Days Recovery</p>
-                    </div>
-                    <div class="bg-white rounded-xl p-4 text-center shadow-sm">
-                        <p class="text-3xl font-bold text-brand-700">99%</p>
-                        <p class="text-sm text-slate-500">Success Rate</p>
-                    </div>
-                    <div class="bg-white rounded-xl p-4 text-center shadow-sm">
-                        <p class="text-3xl font-bold text-brand-700"><1%</p>
-                        <p class="text-sm text-slate-500">Recurrence</p>
-                    </div>
+                <h3 class="font-bold text-lg mb-2">Proper Lifting Technique</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Bend at the knees, not the waist, when lifting heavy objects to reduce strain on your abdomen.</p>
+            </div>
+
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6">
+                <div class="w-12 h-12 rounded-xl bg-brand-700/50 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
+                <h3 class="font-bold text-lg mb-2">Core Strengthening</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Regular exercises that strengthen abdominal muscles help support the anterior abdominal wall.</p>
+            </div>
+
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6">
+                <div class="w-12 h-12 rounded-xl bg-brand-700/50 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Treat Chronic Cough</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Persistent coughing increases abdominal pressure. Seek treatment for chronic respiratory conditions.</p>
+            </div>
+
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6">
+                <div class="w-12 h-12 rounded-xl bg-brand-700/50 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="font-bold text-lg mb-2">High-Fiber Diet</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Prevents constipation and straining during bowel movements, reducing abdominal pressure.</p>
+            </div>
+
+            <div class="bg-brand-800/50 backdrop-blur border border-brand-700/30 rounded-2xl p-6">
+                <div class="w-12 h-12 rounded-xl bg-brand-700/50 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                </div>
+                <h3 class="font-bold text-lg mb-2">Quit Smoking</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Smoking weakens connective tissues and impairs wound healing, increasing hernia risk.</p>
             </div>
         </div>
     </div>
@@ -290,7 +277,7 @@ require __DIR__ . '/../includes/header.php';
                 Surgical Approaches
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
-                How Dr. Kumar Repairs <span class="text-brand-700">Umbilical Hernia</span>
+                How Dr. Kumar Repairs <span class="text-brand-700">Ventral Hernia</span>
             </h2>
             <p class="text-slate-600 text-lg">
                 Dr. Kumar specializes in advanced <strong>minimally invasive</strong> techniques.
@@ -309,18 +296,18 @@ require __DIR__ . '/../includes/header.php';
                 <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
-                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Laparoscopic Umbilical Hernia Repair</h3>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Laparoscopic Ventral Hernia Repair</h3>
                 <p class="text-brand-100 text-sm font-semibold uppercase tracking-wider mb-5">
                     Minimally Invasive · Keyhole Surgery
                 </p>
                 <p class="text-slate-100 text-sm leading-relaxed mb-6">
-                    Minimally invasive umbilical hernia repair using 3 tiny incisions and a high-definition camera. Reinforces the defect with lightweight anatomical mesh placed behind the muscles (sublay) — the strongest biomechanical repair. Faster recovery (1–2 days) and minimal scarring.
+                    Advanced laparoscopic ventral hernia repair using <strong>TEP</strong> and <strong>eTEP</strong> techniques — pre-peritoneal mesh placement that avoids bowel contact. Uses 3–4 tiny incisions and provides excellent visualization of the defect with wide mesh overlap for a strong, durable repair.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-100">
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Sublay mesh placement</li>
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Same-day daycare discharge</li>
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Tiny hidden incisions</li>
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Less than 1% recurrence</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> TEP / eTEP techniques</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Pre-peritoneal mesh (no bowel contact)</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Wide mesh overlap</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Faster recovery</li>
                 </ul>
             </div>
 
@@ -332,18 +319,18 @@ require __DIR__ . '/../includes/header.php';
                 <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
                     <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                 </div>
-                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Umbilical Hernia Repair</h3>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Ventral Hernia Repair</h3>
                 <p class="text-slate-300 text-sm font-semibold uppercase tracking-wider mb-5">
                     Latest Technology · 3D Vision
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — ideal for complex or recurrent umbilical hernias and defects too large for simple keyhole closure.
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — the ideal choice for <strong>complex ventral</strong>, <strong>large</strong>, and <strong>recurrent</strong> hernias requiring component separation or AWR.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Robotic AWR / TAR capability</li>
                     <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
                     <li class="flex gap-2"><span class="text-accent">✓</span> Wristed instrument precision</li>
                     <li class="flex gap-2"><span class="text-accent">✓</span> Best for complex defects</li>
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Strong long-term repair</li>
                 </ul>
             </div>
         </div>
@@ -357,7 +344,7 @@ require __DIR__ . '/../includes/header.php';
                     </span>
                 </div>
                 <div>
-                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Umbilical Hernia Repair</h3>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Ventral Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
                         Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
                     </p>
@@ -369,6 +356,33 @@ require __DIR__ . '/../includes/header.php';
         <div class="border-t border-slate-200 pt-10">
             <p class="text-center text-xs font-bold uppercase tracking-widest text-slate-500 mb-6">Dr. Kumar's Specialty Focus</p>
             <div class="flex flex-wrap items-center justify-center gap-3 lg:gap-4">
+                <a href="<?= $base_path ?>treatment/etep-repair-in-chennai.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">eTEP Repair</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Extended-view TEP — most advanced lap technique</p>
+                    </div>
+                </a>
+                <a href="<?= $base_path ?>treatment/etep-repair-in-chennai.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">AWR / TAR</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Abdominal wall reconstruction with TAR/component separation</p>
+                    </div>
+                </a>
+                <a href="<?= $base_path ?>special-considerations/complex-hernia-info.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">Complex Hernia</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Large, multi-recurrent, contaminated defects</p>
+                    </div>
+                </a>
                 <a href="<?= $base_path ?>my_types/recurrent-hernia.php" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
                     <div class="w-10 h-10 rounded-xl bg-accent/15 group-hover:bg-white/20 flex items-center justify-center text-accent group-hover:text-white transition">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
@@ -400,36 +414,36 @@ require __DIR__ . '/../includes/header.php';
                 <!-- Item 1 (Active) -->
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What causes an umbilical hernia in adults?</span>
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is a ventral hernia and where does it occur?</span>
                         <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">In adults, umbilical hernias are acquired rather than congenital. They are caused by increased intra-abdominal pressure that pushes tissue through the natural weak spot around the navel (belly button). Contributing factors include obesity, multiple pregnancies, fluid in the abdominal cavity (ascites), chronic heavy lifting, or chronic coughing.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A ventral hernia is a bulge of tissues or organs pushing through a weak spot or opening in the anterior abdominal wall muscles. It can occur anywhere on the midline or lateral abdomen. Common types include epigastric hernias (above the navel), umbilical hernias (at the navel), and incisional hernias (at previous surgical scars).</p>
                     </div>
                 </div>
 
                 <!-- Item 2 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Is surgery always required for an umbilical hernia?</span>
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What are the symptoms of a ventral hernia?</span>
                         <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Unlike in infants where umbilical hernias often close on their own by age 4–5, umbilical hernias in adults do not heal and tend to enlarge over time. Surgery is strongly recommended because the narrow neck of the navel defect carries a high risk of bowel entrapment (incarceration) or strangulation, which is a surgical emergency.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The primary symptom is a visible bulge or lump in the abdomen that might be more prominent when standing, straining, or coughing. Other symptoms include localized discomfort, a dull ache or pressure, skin changes or redness over the bulge, and pain that worsens during physical activity or heavy lifting.</p>
                     </div>
                 </div>
 
                 <!-- Item 3 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What is the difference between an umbilical and a paraumbilical hernia?</span>
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How is a ventral hernia diagnosed?</span>
                         <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">An umbilical hernia occurs directly through the center of the navel (the belly button ring itself). A paraumbilical hernia occurs through a defect in the muscle layer immediately adjacent to (just above, below, or to the side of) the navel. Clinically, both are treated similarly using the same surgical techniques.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Diagnosis starts with a physical examination by Dr. Kumar. He will ask you to stand, cough, or strain to make the hernia visible. To evaluate the precise size of the muscle defect, the contents of the hernia, and to plan the surgical reconstruction, an ultrasound scan or abdominal CT scan is typically ordered.</p>
                     </div>
                 </div>
             </div>
@@ -439,36 +453,36 @@ require __DIR__ . '/../includes/header.php';
                 <!-- Item 4 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How is an umbilical hernia surgery performed?</span>
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What surgical techniques are used to repair ventral hernias?</span>
                         <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For small defects under 1 cm, a simple open repair with stitches might be sufficient. For larger hernias, Dr. Kumar performs advanced laparoscopic or robotic repair (like eTEP RS or IPOM). Minimally invasive approaches use small ports, reduce wound infection rates, preserve the cosmetic shape of the belly button, and accelerate recovery.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Ventral hernias are repaired using open mesh repair or minimally invasive techniques (laparoscopic/robotic). Dr. Kumar specializes in advanced retrorectus mesh placement (eTEP rs and robotic TAR), where the mesh is placed between muscle layers instead of inside the abdominal cavity, providing superior strength and faster recovery.</p>
                     </div>
                 </div>
 
                 <!-- Item 5 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Is mesh required for all umbilical hernia repairs?</span>
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How does obesity or diabetes affect ventral hernia repair?</span>
                         <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, for adult umbilical hernias larger than 1 to 2 cm, using a medical-grade mesh is standard practice. Scientific studies confirm that mesh repair lowers the recurrence rate to below 1–2%, whereas repairs closed with stitches alone fail and recur in up to 10–20% of cases.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Obesity and poorly controlled diabetes significantly increase the risk of surgical site infections, delayed wound healing, and hernia recurrence. Dr. Kumar works closely with patients to optimize blood sugar control and weight management before elective surgery to ensure the safest procedure and best long-term outcome.</p>
                     </div>
                 </div>
 
                 <!-- Item 6 (Inactive) -->
                 <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
-                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How can I prevent an umbilical hernia from recurring?</span>
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What precautions should be taken after ventral hernia surgery?</span>
                         <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Post-surgery prevention involves wearing a supportive abdominal binder during the 6-week healing phase, maintaining a healthy weight, avoiding heavy core straining or lifting objects over 5 kg, preventing chronic constipation with a high-fiber diet, and avoiding smoking which triggers chronic coughing and weakens muscle collagen.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Precautions include wearing a prescribed supportive abdominal binder for 4 to 6 weeks, avoiding any heavy lifting above 5 kg, avoiding core-straining abdominal exercises, preventing constipation (by eating high-fiber foods and drinking plenty of water), and immediately reporting any fever or unusual wound drainage.</p>
                     </div>
                 </div>
             </div>

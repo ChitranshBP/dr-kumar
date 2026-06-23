@@ -411,7 +411,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="w-12 h-12 rounded-xl bg-brand-700 text-white flex items-center justify-center text-xl font-bold">P</span>
             </h2>
             <div class="space-y-4">
-                <div id="paraumbilical-hernia" class="glossary-term bg-white rounded-xl p-5 border border-slate-100 shadow-sm" data-term="paraumbilical hernia near belly button">
+                <div id="paraumbilical-hernia-in-chennai" class="glossary-term bg-white rounded-xl p-5 border border-slate-100 shadow-sm" data-term="paraumbilical hernia near belly button">
                     <h3 class="font-bold text-brand-700 text-lg mb-2">Paraumbilical Hernia</h3>
                     <p class="text-slate-600">A hernia that occurs near but not at the belly button. Common in adults, especially those with obesity or after pregnancy.</p>
                 </div>

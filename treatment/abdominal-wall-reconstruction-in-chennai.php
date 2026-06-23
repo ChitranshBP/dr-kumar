@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Abdominal Wall Reconstruction in Chennai | Dr. Kumar';
 $page_description = 'Seeking Abdominal Wall Reconstruction in Chennai? Consult Dr. Kumar, a top complex hernia surgeon for advanced TAR and muscle component separation repairs.';
-$page_url = 'https://herniacare360.com/treatment/abdominal-wall-reconstruction';
+$page_url = 'https://herniacare360.com/treatment/abdominal-wall-reconstruction-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 

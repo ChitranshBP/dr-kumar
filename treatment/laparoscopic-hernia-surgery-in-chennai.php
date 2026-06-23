@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Laparoscopic Hernia Surgery in Chennai | Dr. Kumar';
 $page_description = 'Looking for Laparoscopic Hernia Surgery in Chennai? Consult Dr. Kumar, a top minimally invasive hernia specialist in Chennai, for quick recovery and minimal scarring.';
-$page_url = 'https://herniacare360.com/treatment/laparoscopic-hernia-surgery';
+$page_url = 'https://herniacare360.com/treatment/laparoscopic-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -155,7 +155,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
                 <div class="p-6 pt-0 border-t border-slate-50">
-                    <a href="<?= $base_path ?>treatment/tep-repair.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                    <a href="<?= $base_path ?>treatment/tep-repair-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                         Learn about TEP
                         <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -180,7 +180,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
                 <div class="p-6 pt-0 border-t border-slate-50">
-                    <a href="<?= $base_path ?>treatment/tapp-repair.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                    <a href="<?= $base_path ?>treatment/tapp-repair-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                         Learn about TAPP
                         <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -205,7 +205,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
                 <div class="p-6 pt-0 border-t border-slate-50">
-                    <a href="<?= $base_path ?>treatment/etep-repair.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                    <a href="<?= $base_path ?>treatment/etep-repair-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                         Learn about eTEP
                         <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>

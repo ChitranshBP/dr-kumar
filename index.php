@@ -238,10 +238,10 @@ require __DIR__ . '/includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <?php
             $hernias = [
-                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia.php',          'Advanced laparoscopic &amp; robotic repair with mesh reinforcement.'],
-                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia.php',         'Daycare mesh &amp; meshless repair tailored to defect size.'],
-                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia.php',        'Complex AWR with TAR &amp; component separation techniques.'],
-                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia.php',           'Minimally invasive repair for abdominal wall defects.'],
+                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia-in-chennai.php',          'Advanced laparoscopic &amp; robotic repair with mesh reinforcement.'],
+                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia-in-chennai.php',         'Daycare mesh &amp; meshless repair tailored to defect size.'],
+                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia-in-chennai.php',        'Complex AWR with TAR &amp; component separation techniques.'],
+                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia-in-chennai.php',           'Minimally invasive repair for abdominal wall defects.'],
             ];
             foreach ($hernias as [$t, $img, $link, $desc]): ?>
                 <a href="<?= $link ?>" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group block">
@@ -272,7 +272,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <div class="mt-10 text-center">
-            <a href="my_types/inguinal-hernia.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+            <a href="my_types/inguinal-hernia-in-chennai.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
                 View All Hernia Types
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
@@ -755,7 +755,7 @@ require __DIR__ . '/includes/header.php';
                     'tag'   => 'Technology',
                     'date'  => 'May 10, 2026',
                     'img'   => 'assets/images/etep-reconstruction.png',
-                    'link'  => 'treatment/etep-repair.php',
+                    'link'  => 'treatment/etep-repair-in-chennai.php',
                 ],
                 [
                     'title' => 'Robotic vs. Laparoscopic Hernia Surgery: Which is Right for You?',
@@ -763,7 +763,7 @@ require __DIR__ . '/includes/header.php';
                     'tag'   => 'Surgical Choice',
                     'date'  => 'April 28, 2026',
                     'img'   => 'assets/images/laparoscopic-precision.png',
-                    'link'  => 'treatment/laparoscopic-hernia-surgery.php',
+                    'link'  => 'treatment/laparoscopic-hernia-surgery-in-chennai.php',
                 ],
             ];
             foreach ($posts as $p): ?>

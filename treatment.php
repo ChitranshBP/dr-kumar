@@ -65,7 +65,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Card 2: Laparoscopic Hernia Surgery -->
-            <a href="treatment/laparoscopic-hernia-surgery.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="treatment/laparoscopic-hernia-surgery-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-700 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
@@ -95,7 +95,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Card 4: Abdominal Wall Reconstruction (AWR) -->
-            <a href="treatment/abdominal-wall-reconstruction.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="treatment/abdominal-wall-reconstruction-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-700 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
@@ -152,7 +152,7 @@ require __DIR__ . '/includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             <!-- Card 7: TAPP Repair -->
-            <a href="treatment/tapp-repair.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="treatment/tapp-repair-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -167,7 +167,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Card 8: TEP Repair -->
-            <a href="treatment/tep-repair.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="treatment/tep-repair-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 009 11.571V9a4 4 0 00-8 0v2.571c0 2.902.973 5.58 2.61 7.73l.054.09M12 11h.01M5.024 16.976A9 9 0 0112 3a9 9 0 016.976 13.976M12 21a9.003 9.003 0 008.354-5.646 9.003 9.003 0 00-8.354-5.646V21z"/></svg>
@@ -182,7 +182,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Card 9: eTEP Repair -->
-            <a href="treatment/etep-repair.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="treatment/etep-repair-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/></svg>
