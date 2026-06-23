@@ -104,7 +104,8 @@ foreach ($phpFiles as $file) {
     echo "  Building $htmlOutput...\n";
 
     // Get page body content (without require lines)
-    $pageBody = getPageBody(file_get_contents($file['path']));
+    $rawContent = file_get_contents($file['path']);
+    $pageBody = getPageBody($rawContent);
 
     // Create a complete HTML file using header/footer includes
     ob_start();
@@ -112,6 +113,25 @@ foreach ($phpFiles as $file) {
     // Set up environment
     $_SERVER['DOCUMENT_ROOT'] = $root;
     $_SERVER['PHP_SELF'] = basename($file['path']);
+
+    // Extract meta variables if defined in the PHP file
+    $page_title = null;
+    $page_description = null;
+    $page_keywords = null;
+    $page_url = null;
+
+    if (preg_match('/\$page_title\s*=\s*([\'"])(.*?)\1\s*;/s', $rawContent, $matches)) {
+        $page_title = $matches[2];
+    }
+    if (preg_match('/\$page_description\s*=\s*([\'"])(.*?)\1\s*;/s', $rawContent, $matches)) {
+        $page_description = $matches[2];
+    }
+    if (preg_match('/\$page_keywords\s*=\s*([\'"])(.*?)\1\s*;/s', $rawContent, $matches)) {
+        $page_keywords = $matches[2];
+    }
+    if (preg_match('/\$page_url\s*=\s*([\'"])(.*?)\1\s*;/s', $rawContent, $matches)) {
+        $page_url = $matches[2];
+    }
 
     // Load config (need to reset variables between pages)
     $site = $nav = $herniaConditions = $treatments = $stats = null;
