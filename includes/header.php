@@ -4,8 +4,169 @@ require_once __DIR__ . '/config.php';
 $page_title       ??= 'Dr. Kumar- Advanced Hernia, Laparoscopic & Robotic Surgeon in Chennai';
 $page_description ??= 'Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.';
 $page_keywords    ??= 'best hernia surgeon Chennai, advanced hernia surgery Chennai, laparoscopic surgeon Chennai, robotic hernia surgeon Chennai, abdominal wall reconstruction Chennai, eTEP TAR surgery Chennai, incisional hernia Chennai, umbilical hernia, inguinal hernia surgery, complex hernia repair';
-$page_url         ??= $site['url'];
+
+// Calculate page URL dynamically if not set
+if (!isset($page_url)) {
+    $current_script = $_SERVER['SCRIPT_NAME'] ?? $_SERVER['PHP_SELF'] ?? '';
+    $current_script_base = basename($current_script);
+    if (!empty($current_script) && $current_script_base !== 'index.php' && $current_script_base !== 'build.php') {
+        $relative = ltrim(str_replace('\\', '/', $current_script), '/');
+        $clean_name = preg_replace('/\.php$/i', '', $relative);
+        if (str_ends_with($clean_name, '/index')) {
+            $clean_name = substr($clean_name, 0, -6);
+        }
+        $page_url = $site['url'] . $clean_name . '/';
+    } else {
+        $page_url = $site['url'];
+    }
+}
+
 $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
+
+// Determine the dynamic "about" property for MedicalWebPage schema
+if (!isset($schema_about)) {
+    $title_lower = strtolower($page_title);
+    $url_lower = strtolower($page_url);
+    
+    if (strpos($url_lower, 'inguinal-hernia') !== false || strpos($title_lower, 'inguinal hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Inguinal Hernia",
+            "description" => "A groin hernia occurring when tissue pushes through a weak spot in the groin muscles.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Inguinal Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Robotic Inguinal Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Open Inguinal Hernia Repair"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'umbilical-hernia') !== false || strpos($title_lower, 'umbilical hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Umbilical Hernia",
+            "description" => "An abdominal hernia occurring near the belly button.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Umbilical Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Robotic Umbilical Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Open Umbilical Hernia Repair"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'incisional-hernia') !== false || strpos($title_lower, 'incisional hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Incisional Hernia",
+            "description" => "A hernia occurring at the site of a previous surgical incision.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Abdominal Wall Reconstruction"],
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Incisional Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Robotic Incisional Hernia Repair"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'ventral-hernia') !== false || strpos($title_lower, 'ventral hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Ventral Hernia",
+            "description" => "A hernia appearing in the abdomen, typically along the midline.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Ventral Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Robotic Ventral Hernia Repair"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'femoral-hernia') !== false || strpos($title_lower, 'femoral hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Femoral Hernia",
+            "description" => "A groin hernia occurring in the femoral canal.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Femoral Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Femoral Hernia Surgery"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'hiatal-hernia') !== false || strpos($title_lower, 'hiatal hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Hiatal Hernia",
+            "description" => "A condition where part of the stomach pushes up through the diaphragm.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Nissen Fundoplication"],
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Hiatus Hernia Repair"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'epigastric-hernia') !== false || strpos($title_lower, 'epigastric hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Epigastric Hernia",
+            "description" => "A hernia occurring in the epigastric region (above the navel and below the ribcage).",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Epigastric Hernia Repair"],
+                ["@type" => "MedicalProcedure", "name" => "Epigastric Hernia Surgery"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'strangulated-hernia') !== false || strpos($title_lower, 'strangulated hernia') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Strangulated Hernia",
+            "description" => "A life-threatening medical emergency where a hernia cuts off blood supply to the intestine.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Emergency Hernia Surgery"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'robotic') !== false || strpos($title_lower, 'robotic') !== false) {
+        $schema_about = [
+            "@type" => "MedicalProcedure",
+            "name" => "Robotic Hernia Surgery",
+            "description" => "Advanced robotic-assisted precision surgery to repair abdominal wall hernias."
+        ];
+    } elseif (strpos($url_lower, 'laparoscopic') !== false || strpos($title_lower, 'laparoscopic') !== false) {
+        $schema_about = [
+            "@type" => "MedicalProcedure",
+            "name" => "Laparoscopic Hernia Surgery",
+            "description" => "Minimally invasive keyhole surgery to repair groin and abdominal hernias."
+        ];
+    } elseif (strpos($url_lower, 'tapp') !== false || strpos($title_lower, 'tapp') !== false) {
+        $schema_about = [
+            "@type" => "MedicalProcedure",
+            "name" => "Transabdominal Preperitoneal (TAPP) Repair",
+            "description" => "A laparoscopic surgical technique where the hernia is repaired from inside the abdominal cavity."
+        ];
+    } elseif (strpos($url_lower, 'tep') !== false || strpos($title_lower, 'tep') !== false) {
+        $schema_about = [
+            "@type" => "MedicalProcedure",
+            "name" => "Totally Extraperitoneal (TEP) Repair",
+            "description" => "A laparoscopic technique where the hernia is repaired without entering the peritoneal cavity."
+        ];
+    } elseif (strpos($url_lower, 'etep') !== false || strpos($title_lower, 'etep') !== false) {
+        $schema_about = [
+            "@type" => "MedicalProcedure",
+            "name" => "Enhanced Totally Extraperitoneal (eTEP) Repair",
+            "description" => "An advanced laparoscopic and robotic technique providing wider extraperitoneal access for complex hernia repairs."
+        ];
+    } elseif (strpos($url_lower, 'diastasis') !== false || strpos($title_lower, 'diastasis') !== false) {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Diastasis Recti",
+            "description" => "Separation of the rectus abdominis muscles down the midline of the abdomen.",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Diastasis Recti Repair Surgery"],
+                ["@type" => "MedicalProcedure", "name" => "Robotic Diastasis Recti Repair"]
+            ]
+        ];
+    } elseif (strpos($url_lower, 'reconstruction') !== false || strpos($title_lower, 'reconstruction') !== false) {
+        $schema_about = [
+            "@type" => "MedicalProcedure",
+            "name" => "Abdominal Wall Reconstruction (AWR)",
+            "description" => "A specialized surgery restoring the function and structure of complex abdominal wall defects."
+        ];
+    } else {
+        $schema_about = [
+            "@type" => "MedicalCondition",
+            "name" => "Hernia",
+            "possibleTreatment" => [
+                ["@type" => "MedicalProcedure", "name" => "Laparoscopic Hernia Surgery"],
+                ["@type" => "MedicalProcedure", "name" => "Robotic Hernia Surgery"]
+            ]
+        ];
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -76,10 +237,11 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
     {
       "@context": "https://schema.org",
       "@type": "Physician",
-      "name": "<?= $site['doctor'] ?>",
-      "image": "<?= $site['url'] ?>assets/images/dr-kumar-main-image.png",
-      "url": "<?= $site['url'] ?>",
-      "telephone": "<?= $site['phone'] ?>",
+      "@id": "https://herniacare360.com/#physician",
+      "name": "<?= htmlspecialchars($site['doctor']) ?>",
+      "image": "https://herniacare360.com/assets/images/dr-kumar-main-image.png",
+      "url": "https://herniacare360.com/",
+      "telephone": "<?= htmlspecialchars($site['phone']) ?>",
       "medicalSpecialty": ["Surgery", "Laparoscopic Surgery", "Robotic Surgery"],
       "address": {
         "@type": "PostalAddress",
@@ -93,7 +255,35 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
         "Royal College of Surgeons of England",
         "Association of Surgeons of India",
         "Indian Medical Association"
-      ]
+      ],
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "@id": "<?= $page_url ?? 'https://herniacare360.com/' ?>#webpage",
+      "url": "<?= $page_url ?? 'https://herniacare360.com/' ?>",
+      "name": "<?= htmlspecialchars($page_title) ?>",
+      "description": "<?= htmlspecialchars($page_description) ?>",
+      "about": <?= json_encode($schema_about, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) ?>,
+      "author": {
+        "@type": "Person",
+        "name": "<?= htmlspecialchars($site['doctor']) ?>",
+        "jobTitle": "Advanced Hernia & Laparoscopic Surgeon"
+      },
+      "provider": {
+        "@type": "Physician",
+        "name": "<?= htmlspecialchars($site['doctor']) ?>"
+      }
     }
     </script>
 

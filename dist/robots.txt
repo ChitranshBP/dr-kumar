@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://surgeondrkumar.com/sitemap.xml
+Sitemap: https://herniacare360.com/sitemap.xml

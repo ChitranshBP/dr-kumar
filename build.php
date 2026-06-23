@@ -119,6 +119,8 @@ foreach ($phpFiles as $file) {
     $page_description = null;
     $page_keywords = null;
     $page_url = null;
+    $is_home = null;
+    $schema_about = null;
 
     if (preg_match('/\$page_title\s*=\s*([\'"])(.*?)\1\s*;/s', $rawContent, $matches)) {
         $page_title = $matches[2];
@@ -131,6 +133,18 @@ foreach ($phpFiles as $file) {
     }
     if (preg_match('/\$page_url\s*=\s*([\'"])(.*?)\1\s*;/s', $rawContent, $matches)) {
         $page_url = $matches[2];
+    }
+
+    if (!$page_url) {
+        if ($htmlName === 'index') {
+            $page_url = 'https://herniacare360.com/';
+        } else {
+            $cleanHtmlName = $htmlName;
+            if (str_ends_with($cleanHtmlName, '/index')) {
+                $cleanHtmlName = substr($cleanHtmlName, 0, -6);
+            }
+            $page_url = 'https://herniacare360.com/' . $cleanHtmlName . '/';
+        }
     }
 
     // Load config (need to reset variables between pages)
@@ -158,6 +172,41 @@ foreach ($phpFiles as $file) {
     // Fix .php href links to clean URLs
     $fullHtml = preg_replace('/href="([^"]*)\.php"/', 'href="$1/"', $fullHtml);
 
+    // Parse FAQ items from the final HTML to inject FAQPage schema automatically
+    $faqs = [];
+    if (preg_match_all('/<div class="faq-item[^"]*">.*?<button[^>]*faq-toggle[^>]*>.*?<span[^>]*>(.*?)<\/span>.*?<div class="faq-content[^"]*">.*?<p[^>]*>(.*?)<\/p>/s', $fullHtml, $matches, PREG_SET_ORDER)) {
+        foreach ($matches as $match) {
+            $question = trim(strip_tags($match[1]));
+            $answer = trim(strip_tags($match[2]));
+            if ($question && $answer) {
+                $faqs[] = [
+                    'question' => $question,
+                    'answer' => $answer
+                ];
+            }
+        }
+    }
+
+    if (!empty($faqs)) {
+        $faq_json = [
+            "@context" => "https://schema.org",
+            "@type" => "FAQPage",
+            "mainEntity" => []
+        ];
+        foreach ($faqs as $faq) {
+            $faq_json["mainEntity"][] = [
+                "@type" => "Question",
+                "name" => $faq['question'],
+                "acceptedAnswer" => [
+                    "@type" => "Answer",
+                    "text" => $faq['answer']
+                ]
+            ];
+        }
+        $faq_schema = "\n    <script type=\"application/ld+json\">\n    " . json_encode($faq_json, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n    </script>";
+        $fullHtml = str_replace('</head>', $faq_schema . "\n</head>", $fullHtml);
+    }
+
     file_put_contents($outPath, $fullHtml);
     echo "  ✅ Built $htmlOutput\n";
     $built++;
@@ -169,11 +218,24 @@ echo "\n📄 Built $built pages successfully.\n";
 echo "🗺️  Writing sitemap.xml\n";
 $xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
-$xml .= "<url><loc>https://surgeondrkumar.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>\n";
+$xml .= "<url><loc>https://herniacare360.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>\n";
+$locs = ['https://herniacare360.com/'];
 foreach ($phpFiles as $f) {
     $name = preg_replace('/\.php$/i', '', $f['name']);
     if ($name === 'index') continue;
-    $loc = 'https://surgeondrkumar.com/' . $name . '/';
+    
+    // Normalize index names to avoid duplicate paths like /treatment/index/
+    $cleanName = $name;
+    if (str_ends_with($cleanName, '/index')) {
+        $cleanName = substr($cleanName, 0, -6);
+    }
+    
+    $loc = 'https://herniacare360.com/' . ($cleanName ? $cleanName . '/' : '');
+    
+    // Skip duplicate locations in sitemap
+    if (in_array($loc, $locs)) continue;
+    $locs[] = $loc;
+    
     $xml .= "<url><loc>$loc</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 }
 $xml .= '</urlset>';
@@ -181,7 +243,7 @@ file_put_contents($dist . '/sitemap.xml', $xml);
 
 /* ---------- 5. robots ---------- */
 echo "🤖 Writing robots.txt\n";
-file_put_contents($dist . '/robots.txt', "User-agent: *\nAllow: /\nSitemap: https://surgeondrkumar.com/sitemap.xml\n");
+file_put_contents($dist . '/robots.txt', "User-agent: *\nAllow: /\nSitemap: https://herniacare360.com/sitemap.xml\n");
 
 /* ---------- 6. _redirects ---------- */
 echo "🔀 Writing _redirects\n";
