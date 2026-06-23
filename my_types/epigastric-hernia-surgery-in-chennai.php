@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Best Epigastric Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Looking for Epigastric Hernia Surgery in Chennai? Consult Dr. Kumar, a top upper abdomen hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/epigastric-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -19,10 +22,11 @@ require __DIR__ . '/../includes/header.php';
                 Upper Abdomen
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Epigastric <span class="text-accent">Hernia</span>
+                Epigastric Hernia<br>
+                <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Occurs in the epigastric region between the belly button and breastbone when tissue pushes through the linea alba muscles in the upper abdomen.
+                Get the best epigastric hernia surgery in Chennai from Dr. Kumar, the leading upper abdomen hernia specialist in Chennai. Experience advanced keyhole and robotic repairs for optimal recovery.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -428,6 +432,98 @@ require __DIR__ . '/../includes/header.php';
             </div>
         </div>
 
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-12 md:py-16 bg-slate-50 border-t border-slate-100 scroll-mt-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently Asked Questions
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Item 1 (Active) -->
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is an epigastric hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6">
+                        <div class="h-px bg-white/20 mb-4"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An epigastric hernia is a protrusion of fat or internal tissue through a defect or tear in the midline of the upper abdomen (the linea alba), specifically in the region between the belly button and the breastbone.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What causes an epigastric hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">It is primarily caused by a weakness in the midline abdominal muscles (linea alba). Factors that trigger or worsen it include heavy lifting, chronic coughing, straining during bowel movements, pregnancy, obesity, or a congenital weakness present at birth.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Does an epigastric hernia require surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. An epigastric hernia will not heal on its own. While small, asymptomatic hernias might be monitored, surgical repair is the only way to close the muscle defect and prevent complications like tissue entrapment (incarceration) or strangulation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Item 4 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What is the best surgery for epigastric hernia in Chennai?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Laparoscopic or robotic epigastric hernia repair is preferred for most cases. Dr. Kumar utilizes a sublay mesh technique, placing the mesh behind the rectus muscles for maximum reinforcement, ensuring low recurrence, minimal post-op pain, and rapid recovery.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How long is the recovery after epigastric hernia surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most laparoscopic procedures are performed on a daycare basis, allowing patients to be discharged the same or next day. Most patients can return to light activity and desk work within a week, but heavy lifting and core exercises must be avoided for 4 to 6 weeks.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Can an epigastric hernia return after surgery?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Recurrence is extremely rare (less than 1%) when the repair is performed by an expert surgeon using high-quality surgical mesh. Advanced laparoscopic and robotic methods allow precise placement of the mesh to strengthen the entire midline area.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

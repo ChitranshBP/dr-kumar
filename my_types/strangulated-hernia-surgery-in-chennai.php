@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Emergency Strangulated Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Suspect a strangulated hernia? Consult Dr. Kumar immediately for emergency hernia surgery in Chennai. 24/7 expert surgical care for life-threatening hernia complications.';
+$page_url = 'https://herniacare360.com/my_types/strangulated-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -19,10 +22,11 @@ require __DIR__ . '/../includes/header.php';
                 Medical Emergency
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Strangulated <span class="text-red-400">Hernia</span>
+                Strangulated Hernia<br>
+                <span class="text-red-400">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                A life-threatening complication requiring immediate medical attention. When blood supply to herniated tissue is cut off, emergency surgery is essential.
+                Get prompt, emergency strangulated hernia surgery in Chennai from Dr. Kumar, the leading hernia specialist in Chennai. Immediate minimally invasive or open surgical care is available 24/7 to treat compromised hernia tissue.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg hover:scale-105">
@@ -432,6 +436,98 @@ require __DIR__ . '/../includes/header.php';
             </div>
         </div>
 
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-12 md:py-16 bg-slate-50 border-t border-slate-100 scroll-mt-20">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">🤷‍♂️ FAQ</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                Frequently Asked Questions
+            </h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 items-start">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Item 1 (Active) -->
+                <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is a strangulated hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                    </button>
+                    <div class="faq-content px-6 pb-6">
+                        <div class="h-px bg-white/20 mb-4"></div>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A strangulated hernia is a life-threatening medical emergency. It occurs when a section of the bowel or other abdominal tissue becomes tightly trapped within the hernia opening, completely cutting off its blood supply. If not treated quickly, the tissue can die and rupture, causing severe systemic infections.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What are the warning signs of a strangulated hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Symptoms include sudden, intense, and worsening pain at the hernia site; a bulge that turns red, purple, or dark; a hernia bulge that cannot be pushed back in (non-reducible); nausea, vomiting, fever, rapid heart rate, and severe abdominal swelling.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How fast must a strangulated hernia be treated?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Emergency surgery must be performed as soon as possible, ideally within 6 hours of the onset of symptoms. Waiting longer increases the risk of permanent tissue death (gangrene), bowel perforation, peritonitis, life-threatening sepsis, and higher mortality.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Item 4 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">Is laparoscopic surgery possible for a strangulated hernia?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. In many cases, when the patient is stable and diagnosed early, Dr. Kumar can perform emergency repair laparoscopically or robotically. This allows the surgeon to inspect the viability of the bowel inside, release the constriction, and place a mesh using keyhole incisions.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">What happens if the trapped bowel is already damaged?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">If the trapped bowel tissue has already died (necrotized) due to lack of blood, the surgeon must perform a bowel resection. The damaged segment of the intestine is carefully removed, and the healthy ends are securely joined back together. Mesh might be avoided or placed in a specific safe plane to prevent infection.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 (Inactive) -->
+                <div class="faq-item bg-brand-50/60 hover:bg-brand-100/60 rounded-2xl overflow-hidden transition-all duration-300 border border-brand-100/20">
+                    <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
+                        <span class="font-display font-bold text-slate-900 text-base md:text-lg leading-snug">How can I prevent a hernia from becoming strangulated?</span>
+                        <span class="faq-symbol text-2xl font-light bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6">
+                        <div class="h-px bg-slate-200 mb-4"></div>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The only effective way to prevent strangulation is to have a diagnosed hernia repaired electively. Watching and waiting, or wearing supportive trusses, does not cure the defect and carries ongoing risk. Consult a specialist like Dr. Kumar for a planned, minimally invasive repair before complications occur.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

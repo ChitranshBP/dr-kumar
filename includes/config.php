@@ -75,10 +75,10 @@ $headerMenu = [
                     ['label' => 'Umbilical Hernia (Navel)', 'link' => 'my_types/umbilical-hernia-surgery-in-chennai.php'],
                     ['label' => 'Incisional Hernia (Scar)', 'link' => 'my_types/incisional-hernia-surgery-in-chennai.php'],
                     ['label' => 'Ventral Hernia (Abdomen)', 'link' => 'my_types/ventral-hernia-surgery-in-chennai.php'],
-                    ['label' => 'Femoral Hernia (Groin)', 'link' => 'my_types/femoral-hernia.php'],
-                    ['label' => 'Hiatal Hernia (Internal)', 'link' => 'my_types/hiatal-hernia.php'],
-                    ['label' => 'Epigastric Hernia', 'link' => 'my_types/epigastric-hernia.php'],
-                    ['label' => 'Strangulated (Emergency)', 'link' => 'my_types/strangulated-hernia.php'],
+                    ['label' => 'Femoral Hernia (Groin)', 'link' => 'my_types/femoral-hernia-surgery-in-chennai.php'],
+                    ['label' => 'Hiatal Hernia (Internal)', 'link' => 'my_types/hiatal-hernia-surgery-in-chennai.php'],
+                    ['label' => 'Epigastric Hernia', 'link' => 'my_types/epigastric-hernia-surgery-in-chennai.php'],
+                    ['label' => 'Strangulated (Emergency)', 'link' => 'my_types/strangulated-hernia-surgery-in-chennai.php'],
                 ]
             ]
         ]
@@ -185,7 +185,7 @@ $treatments = [
     ['title' => 'Laparoscopic Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/laparoscopic-hernia-surgery-in-chennai.php'],
     ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair-in-chennai.php'],
     ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-repair-in-chennai.php'],
-    ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia.php'],
+    ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia-surgery-in-chennai.php'],
     ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/abdominal-wall-reconstruction-in-chennai.php'],
     ['title' => 'Emergency Hernia Care',         'img' => 'assets/images/complications_emergency.png','desc' => '24/7 emergency strangulated hernia management.',                               'link' => 'emergency-hernia-care.php'],
     ['title' => 'Hernia Mesh Repair',            'img' => 'assets/images/mesh-comparison-3d.png',   'desc' => '3D mesh, biological mesh, & self-gripping options.',                          'link' => 'treatment/mesh-repair.php'],

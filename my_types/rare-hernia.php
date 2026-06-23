@@ -134,7 +134,7 @@ require __DIR__ . '/../includes/header.php';
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Can be congenital or acquired</li>
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Open or laparoscopic mesh repair</li>
                 </ul>
-                <a href="<?= $base_path ?>my_types/epigastric-hernia.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
+                <a href="<?= $base_path ?>my_types/epigastric-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
                     Read full page
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </a>
@@ -154,7 +154,7 @@ require __DIR__ . '/../includes/header.php';
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Often present from birth</li>
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Small incision mesh repair typical</li>
                 </ul>
-                <a href="<?= $base_path ?>my_types/epigastric-hernia.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
+                <a href="<?= $base_path ?>my_types/epigastric-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
                     See related: Epigastric Hernia
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </a>
@@ -214,7 +214,7 @@ require __DIR__ . '/../includes/header.php';
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> CT chest and abdomen for diagnosis</li>
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Laparoscopic or thoracic repair</li>
                 </ul>
-                <a href="<?= $base_path ?>my_types/hiatal-hernia.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
+                <a href="<?= $base_path ?>my_types/hiatal-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-1 text-sm font-bold text-brand-700 hover:text-brand-800 mt-auto">
                     See related: Hiatal Hernia
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </a>
