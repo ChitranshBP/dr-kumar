@@ -119,7 +119,7 @@
                 <span class="absolute bottom-0 left-0 w-10 h-0.5 bg-gradient-to-r from-brand-500 to-brand-700 rounded-full"></span>
             </h3>
             <ul class="space-y-3 text-[15px]">
-                <li><a href="<?= $base_path ?>treatment/hernia-surgery.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/hernia-surgery-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Hernia Surgery
                 </a></li>
