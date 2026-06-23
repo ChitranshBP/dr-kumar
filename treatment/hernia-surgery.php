@@ -28,7 +28,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Dr. Kumar</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Explore advanced treatment methodologies, pre-operative instructions, and structured recovery timelines. Dr. Kumar provides tailored surgical care for optimal patient outcomes.
+                Consult the <strong>best hernia surgeon in chennai</strong> for advanced <strong>hernia treatment in chennai</strong>. Dr. Kumar provides modern surgical methodologies, pre-operative guidelines, and structured recovery paths for optimal patient outcomes.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="#conditions" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -55,7 +55,7 @@ require __DIR__ . '/../includes/header.php';
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
                 Hernia Types We <span class="text-brand-700">Repair</span>
             </h2>
-            <p class="text-slate-600 text-base md:text-lg">Different types of abdominal wall defects require customized surgical procedures. Dr. Kumar applies tailored techniques for each condition.</p>
+            <p class="text-slate-600 text-base md:text-lg">As a leading <strong>hernia specialist in chennai</strong>, Dr. Kumar offers customized procedures for different types of abdominal wall defects, ensuring safe and effective outcomes.</p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -246,7 +246,7 @@ require __DIR__ . '/../includes/header.php';
                 Hernia Surgery Options
             </h2>
             <p class="text-slate-600 leading-relaxed text-base md:text-lg">
-                Modern hernia surgery utilizes several approaches. Dr. Kumar will recommend the most appropriate procedure based on your anatomy, hernia size, and medical history.
+                Modern <strong>hernia surgery in chennai</strong> utilizes advanced minimally invasive and open approaches. As an expert <strong>hernia doctor in chennai</strong>, Dr. Kumar will recommend the most appropriate procedure tailored to your clinical needs and medical history.
             </p>
         </div>
 
