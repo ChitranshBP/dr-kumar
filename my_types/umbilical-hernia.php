@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Best Umbilical Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Looking for Umbilical Hernia Surgery in Chennai? Consult Dr. Kumar, a top belly button hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/umbilical-hernia';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -19,10 +22,11 @@ require __DIR__ . '/../includes/header.php';
                 Common in Adults & Children
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Umbilical <span class="text-accent">Hernia</span>
+                Umbilical Hernia<br>
+                <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Occurs near the belly button when abdominal tissue pushes through the umbilical ring. Treated using advanced laparoscopic and robotic techniques — with 4000+ successful umbilical surgeries performed.
+                Get the best umbilical hernia surgery in Chennai from Dr. Kumar, the leading belly button hernia specialist in Chennai. Experience advanced keyhole and robotic umbilical repairs.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

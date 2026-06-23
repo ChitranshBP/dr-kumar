@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Best Inguinal Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Looking for Inguinal Hernia Surgery in Chennai? Consult Dr. Kumar, a top groin hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/inguinal-hernia';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -19,10 +22,11 @@ require __DIR__ . '/../includes/header.php';
                 Most Common Hernia Type
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Inguinal <span class="text-accent">Hernia</span>
+                Inguinal Hernia<br>
+                <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                The most common type of hernia, occurring in the groin area. Dr. Kumar specializes in advanced minimally invasive repair techniques for optimal outcomes, with experience of more than 5K+ Inguinal Hernia surgeries.
+                Get the best inguinal hernia surgery in Chennai from Dr. Kumar, the leading groin hernia specialist in Chennai. Experience advanced keyhole and robotic groin hernia repairs for optimal recovery.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

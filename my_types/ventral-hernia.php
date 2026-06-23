@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Best Ventral Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Seeking Ventral Hernia Surgery in Chennai? Consult Dr. Kumar, a top anterior abdominal wall hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/ventral-hernia';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -19,10 +22,11 @@ require __DIR__ . '/../includes/header.php';
                 Anterior Abdominal Wall
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Ventral <span class="text-accent">Hernia</span>
+                Ventral Hernia<br>
+                <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Occurs along the front midline of the abdomen when tissue pushes through a weak spot in the abdominal wall. Dr. Kumar offers expert minimally invasive repair.
+                Get the best ventral hernia surgery in Chennai from Dr. Kumar, the leading anterior abdominal wall hernia specialist in Chennai. Experience advanced keyhole and robotic ventral repairs.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Best Incisional Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Seeking Incisional Hernia Surgery in Chennai? Consult Dr. Kumar, a top complex hernia surgeon in Chennai, for advanced abdominal wall reconstruction.';
+$page_url = 'https://herniacare360.com/my_types/incisional-hernia';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -19,10 +22,11 @@ require __DIR__ . '/../includes/header.php';
                 Post-Surgery Complication
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Incisional <span class="text-accent">Hernia</span>
+                Incisional Hernia<br>
+                <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Occurs at the site of a previous surgical incision when tissue pushes through a weakened abdominal wall. Requires specialized abdominal wall reconstruction.
+                Get the best incisional hernia surgery in Chennai from Dr. Kumar, a premier complex hernia specialist in Chennai. Experience advanced keyhole and robotic reconstructions to restore abdominal strength.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

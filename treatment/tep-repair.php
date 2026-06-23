@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Laparoscopic TEP Hernia Repair in Chennai | Dr. Kumar';
+$page_description = 'Seeking TEP Hernia Repair in Chennai? Consult Dr. Kumar, a top laparoscopic hernia surgeon in Chennai for advanced, minimally invasive TEP repair.';
+$page_url = 'https://herniacare360.com/treatment/tep-repair';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -32,10 +35,10 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 TEP Hernia<br>
-                <span class="text-accent">Repair</span>
+                <span class="text-accent">Repair in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Totally Extraperitoneal (TEP) repair - an advanced laparoscopic approach that operates entirely outside the abdominal cavity, ensuring optimal recovery and zero contact with internal organs.
+                Totally Extraperitoneal (TEP) repair is an advanced laparoscopic hernia surgery in Chennai. Consult Dr. Kumar, a premier hernia specialist in Chennai, for safe, organ-sparing TEP repair.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="#what-is-tep" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

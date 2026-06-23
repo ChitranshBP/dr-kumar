@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Laparoscopic Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Looking for Laparoscopic Hernia Surgery in Chennai? Consult Dr. Kumar, a top minimally invasive hernia specialist in Chennai, for quick recovery and minimal scarring.';
+$page_url = 'https://herniacare360.com/treatment/laparoscopic-hernia-surgery';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -31,11 +34,11 @@ require __DIR__ . '/../includes/header.php';
                 Minimally Invasive Surgery
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Laparoscopic<br>
-                <span class="text-accent">Hernia Surgery</span>
+                Laparoscopic Hernia<br>
+                <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Advanced minimally invasive techniques for hernia repair with less pain, smaller scars, and faster recovery. Dr. Kumar specialises in laparoscopic approaches for optimal outcomes.
+                Get advanced laparoscopic hernia surgery in Chennai from Dr. Kumar, the leading minimally invasive hernia specialist in Chennai. Experience faster recovery, minimal pain, and tiny scars under the care of the best hernia doctor in Chennai.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="#what-is-laparoscopic" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

@@ -1,4 +1,7 @@
 <?php
+$page_title = 'Abdominal Wall Reconstruction in Chennai | Dr. Kumar';
+$page_description = 'Seeking Abdominal Wall Reconstruction in Chennai? Consult Dr. Kumar, a top complex hernia surgeon for advanced TAR and muscle component separation repairs.';
+$page_url = 'https://herniacare360.com/treatment/abdominal-wall-reconstruction';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -32,10 +35,10 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 Abdominal Wall<br>
-                <span class="text-accent">Reconstruction (AWR)</span>
+                <span class="text-accent">Reconstruction in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Comprehensive surgical restoration of the abdominal wall for complex hernias, including component separation and advanced mesh reinforcement techniques.
+                Get comprehensive abdominal wall reconstruction (AWR) in Chennai by Dr. Kumar. Benefit from advanced component separation and transversus abdominis release (TAR) from the leading complex hernia specialist in Chennai.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="#what-is-awr" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
