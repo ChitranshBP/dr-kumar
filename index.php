@@ -15,11 +15,11 @@ require __DIR__ . '/includes/header.php';
             </h1>
 
             <p class="text-slate-200 text-base md:text-lg leading-relaxed mb-8">
-                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Hernia Surgery with 29+ years of experience and <strong>10,000+ successful Hernia surgeries</strong> in Chennai.
+                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Hernia Surgery with 29+ years of experience and <strong>10,000+ Hernia surgeries</strong> in Chennai.
             </p>
 
             <div class="flex flex-wrap gap-3">
-                <a href="#about" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
+                <a href="about-us.php" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
                     About Us
                 </a>
                 <a href="#treatments" class="inline-flex items-center justify-center bg-white hover:bg-slate-50 text-slate-800 font-semibold px-8 py-3 rounded-md border border-slate-200 shadow-sm transition">
@@ -152,11 +152,16 @@ require __DIR__ . '/includes/header.php';
 
 <section id="about" class="py-12 md:py-14 bg-white overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
-        <div class="relative">
-            <img src="assets/images/dr-kumar-main-image.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full h-[650px] object-cover object-top">
-            <div class="absolute -bottom-6 -right-6 bg-accent text-white rounded-2xl px-6 py-5 shadow-xl hidden md:block">
-                <p class="font-display text-3xl font-bold">29+</p>
-                <p class="text-sm">Years of Excellence</p>
+        <div>
+            <div class="relative">
+                <img src="assets/images/dr-kumar-main-image.png" alt="About Dr. Kumar" class="rounded-2xl shadow-xl w-full h-[650px] object-cover object-top">
+                <div class="absolute -bottom-6 -right-6 bg-accent text-white rounded-2xl px-6 py-5 shadow-xl hidden md:block">
+                    <p class="font-display text-3xl font-bold">29+</p>
+                    <p class="text-sm">Years of Excellence</p>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p class="font-display text-xl font-bold text-slate-900">Dr. Kumar &mdash; <span class="text-brand-700">Hernia Specialist</span></p>
             </div>
         </div>
 
@@ -183,7 +188,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="flex items-center gap-3">
                     <svg class="w-5 h-5 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                    <span class="text-sm font-medium">FALS Hernia &amp; Robotic</span>
+                    <span class="text-sm font-medium">FALS Robotic , FALS Hernia & AWR</span>
                 </div>
                 <div class="flex items-center gap-3">
                     <svg class="w-5 h-5 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
@@ -272,7 +277,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <div class="mt-10 text-center">
-            <a href="my_types/inguinal-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+            <a href="hernia-types.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
                 View All Hernia Types
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
@@ -357,7 +362,7 @@ require __DIR__ . '/includes/header.php';
             </span>
 
             <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.15] text-slate-900 mb-8">
-                Why Choose <span class="text-brand-700">Dr. Kumar</span> for Your<br>
+                Why Choose <span class="text-brand-700">Dr Kumar, Hernia Specialist</span> for Your<br>
                 Advanced Hernia Surgery?
             </h2>
 
@@ -388,7 +393,7 @@ require __DIR__ . '/includes/header.php';
                     ],
                     [
                         'title' => 'Clinical Lead &amp; HOD &mdash; Billroth Hospital',
-                        'desc'  => 'Head of Department, Minimal Access, Robotic Hernia &amp; AWR Surgery at Billroth Hospital, Chennai.',
+                        'desc'  => 'Head of Department of Minimal Access, Robotic, &amp; AWR Surgery at Billroth Hospital, Chennai.',
                         'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/>',
                     ],
                 ];
@@ -421,8 +426,8 @@ require __DIR__ . '/includes/header.php';
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 4.354v4.354a.5.5 0 00.5.5.5h2a.5.5 0 00.5-.5V4.354M12 15.646v4.354a.5.5 0 01-.5.5h-2a.5.5 0 01-.5-.5v-4.354m0 0a7.5 7.5 0 1114.708 0M12 15.646a7.5 7.5 0 11-14.708 0"/>',
                 ],
                 [
-                    'title' => 'Latest Robotic Technology',
-                    'desc'  => 'Advanced eTEP, TAR, TAPP &amp; IPOM techniques and robotic-assisted surgery for the most complex cases.',
+                    'title' => 'Expert Robotic Hernia Surgeon',
+                    'desc'  => 'Robotic Hernia Surgery Expert,Advanced eTEP, TAR, TAPP &amp; IPOM techniques and robotic-assisted surgery for the most complex cases.',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M13 10V3L4 14h7v7l9-11h-7z"/>',
                 ],
                 [
@@ -462,7 +467,7 @@ require __DIR__ . '/includes/header.php';
                 ],
                 [
                     'title' => 'Patient-First Care',
-                    'desc'  => '5.0-star rating with 590+ verified Google reviews from patients who trust Dr. Kumar with their care.',
+                    'desc'  => '5.0-star rating with 600+ verified Google reviews from patients who trust Dr. Kumar with their care.',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>',
                 ],
             ];

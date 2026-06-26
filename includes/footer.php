@@ -52,7 +52,7 @@
             </div>
 
             <p class="text-base leading-relaxed text-slate-300 mb-5">
-                Clinical Lead &amp; HOD, Minimal Access, Robotic, Hernia &amp; Abdominal Wall Reconstruction Surgery at Billroth Hospital, Chennai.
+                Clinical Lead &amp; HOD, Department of Minimal Access, Robotic, Hernia &amp; Abdominal Wall Reconstruction Surgery at Billroth Hospital, Chennai.
             </p>
 
             <!-- Trust Stats -->
@@ -63,7 +63,7 @@
                 </div>
                 <div class="text-center border-x border-white/5">
                     <p class="text-white font-bold text-xl">10K+</p>
-                    <p class="text-slate-500 text-[10px] uppercase tracking-wider">Surgeries</p>
+                    <p class="text-slate-500 text-[10px] uppercase tracking-wider"> Hernia Surgeries</p>
                 </div>
                 <div class="text-center">
                     <p class="text-white font-bold text-xl">20K+</p>
@@ -171,7 +171,7 @@
                 <a href="<?= $base_path ?>my_types/sports-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Sports</a>
                 <a href="<?= $base_path ?>special-considerations/complex-hernia-info.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Complex</a>
                 <a href="<?= $base_path ?>my_types/recurrent-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Recurrent</a>
-                <a href="<?= $base_path ?>my_types/rare-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Rare</a>
+                <a href="<?= $base_path ?>my_types/rare-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Rare Types</a>
                 <a href="<?= $base_path ?>my_types/epigastric-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Epigastric</a>
                 <a href="<?= $base_path ?>my_types/rare-hernia.php#supraumbilical" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Supraumbilical</a>
                 <a href="<?= $base_path ?>my_types/rare-hernia.php#lumbar" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Lumbar</a>
