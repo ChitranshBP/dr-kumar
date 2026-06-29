@@ -385,41 +385,6 @@
     </div>
 </a>
 
-<script>
-document.querySelectorAll('.faq-toggle').forEach(function(toggle) {
-    toggle.addEventListener('click', function() {
-        const item = this.closest('.faq-item');
-        const content = item.querySelector('.faq-content');
-        const symbol = item.querySelector('.faq-symbol');
-        const isActive = item.classList.contains('active');
 
-        if (isActive) {
-            item.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-            item.classList.add('bg-brand-50/60', 'border', 'border-brand-100/20');
-            content.classList.add('hidden');
-            symbol.classList.remove('bg-brand-800', 'text-white');
-            symbol.classList.add('bg-white', 'text-brand-700');
-            symbol.textContent = '+';
-        } else {
-            document.querySelectorAll('.faq-item.active').forEach(function(activeItem) {
-                activeItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-                activeItem.classList.add('bg-brand-50/60', 'border', 'border-brand-100/20');
-                activeItem.querySelector('.faq-content').classList.add('hidden');
-                var activeSymbol = activeItem.querySelector('.faq-symbol');
-                activeSymbol.classList.remove('bg-brand-800', 'text-white');
-                activeSymbol.classList.add('bg-white', 'text-brand-700');
-                activeSymbol.textContent = '+';
-            });
-
-            item.classList.add('active', 'bg-brand-700', 'text-white', 'border-transparent', 'shadow-md');
-            item.classList.remove('bg-brand-50/60', 'border', 'border-brand-100/20');
-            content.classList.remove('hidden');
-            symbol.classList.add('bg-brand-800', 'text-white');
-            symbol.classList.remove('bg-white', 'text-brand-700');
-            symbol.textContent = '—';
-        }
-    });
-});
-</script>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

@@ -164,6 +164,16 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
         .faq-item.active .faq-content {
             display: block !important;
         }
+        .faq-item.active .faq-content p,
+        .faq-item.active .faq-content ul,
+        .faq-item.active .faq-content li,
+        .faq-item.active .faq-content strong,
+        .faq-item.active .faq-content span {
+            color: #ecfeff !important;
+        }
+        .faq-item.active .faq-content div.bg-slate-200 {
+            background-color: rgba(255, 255, 255, 0.2) !important;
+        }
     </style>
 </head>
 <body class="bg-white text-slate-800 antialiased sub-page">

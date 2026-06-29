@@ -462,61 +462,6 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </a>
 
-<script>
-// FAQ Toggle JavaScript
-document.querySelectorAll('.faq-toggle').forEach(function(button) {
-    button.addEventListener('click', function() {
-        const item = this.closest('.faq-item');
-        const content = item.querySelector('.faq-content');
-        const symbol = item.querySelector('.faq-symbol');
-        const text = item.querySelector('.font-display');
 
-        // Check if this item is already open
-        const isOpen = !content.classList.contains('hidden');
-
-        // Close all other items
-        document.querySelectorAll('.faq-item').forEach(function(otherItem) {
-            if (otherItem !== item) {
-                otherItem.classList.remove('active', 'bg-brand-700', 'text-white', 'shadow-md', 'border-transparent');
-                otherItem.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border', 'border-brand-100/20');
-                const otherContent = otherItem.querySelector('.faq-content');
-                const otherSymbol = otherItem.querySelector('.faq-symbol');
-                const otherText = otherItem.querySelector('.font-display');
-                if (otherContent) otherContent.classList.add('hidden');
-                if (otherSymbol) {
-                    otherSymbol.textContent = '+';
-                    otherSymbol.classList.remove('bg-brand-800', 'text-white');
-                    otherSymbol.classList.add('bg-white', 'text-brand-700');
-                }
-                if (otherText) {
-                    otherText.classList.remove('text-white');
-                    otherText.classList.add('text-slate-900');
-                }
-            }
-        });
-
-        // Toggle current item
-        if (isOpen) {
-            item.classList.remove('active', 'bg-brand-700', 'text-white', 'shadow-md', 'border-transparent');
-            item.classList.add('bg-brand-50/60', 'hover:bg-brand-100/60', 'border', 'border-brand-100/20');
-            content.classList.add('hidden');
-            symbol.textContent = '+';
-            symbol.classList.remove('bg-brand-800', 'text-white');
-            symbol.classList.add('bg-white', 'text-brand-700');
-            text.classList.remove('text-white');
-            text.classList.add('text-slate-900');
-        } else {
-            item.classList.add('active', 'bg-brand-700', 'text-white', 'shadow-md', 'border-transparent');
-            item.classList.remove('bg-brand-50/60', 'hover:bg-brand-100/60', 'border', 'border-brand-100/20');
-            content.classList.remove('hidden');
-            symbol.textContent = '—';
-            symbol.classList.add('bg-brand-800', 'text-white');
-            symbol.classList.remove('bg-white', 'text-brand-700');
-            text.classList.add('text-white');
-            text.classList.remove('text-slate-900');
-        }
-    });
-});
-</script>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

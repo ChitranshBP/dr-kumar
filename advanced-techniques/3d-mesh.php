@@ -398,51 +398,6 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </a>
 
-<script>
-// FAQ Toggle JavaScript
-document.querySelectorAll('.faq-toggle').forEach(function(button) {
-    button.addEventListener('click', function() {
-        var faqItem = this.closest('.faq-item');
-        var content = faqItem.querySelector('.faq-content');
-        var symbol = faqItem.querySelector('.faq-symbol');
-        var isActive = faqItem.classList.contains('active');
 
-        if (isActive) {
-            // Close this item
-            faqItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent');
-            faqItem.classList.add('bg-brand-50/60', 'border-brand-100/20');
-            content.classList.add('hidden');
-            symbol.textContent = '+';
-            symbol.classList.remove('bg-brand-800', 'text-white');
-            symbol.classList.add('bg-white', 'text-brand-700');
-            faqItem.querySelector('.faq-toggle span:first-child').classList.remove('text-white');
-            faqItem.querySelector('.faq-toggle span:first-child').classList.add('text-slate-900');
-        } else {
-            // Close all other items first
-            document.querySelectorAll('.faq-item.active').forEach(function(activeItem) {
-                activeItem.classList.remove('active', 'bg-brand-700', 'text-white', 'border-transparent');
-                activeItem.classList.add('bg-brand-50/60', 'border-brand-100/20');
-                activeItem.querySelector('.faq-content').classList.add('hidden');
-                var activeSymbol = activeItem.querySelector('.faq-symbol');
-                activeSymbol.textContent = '+';
-                activeSymbol.classList.remove('bg-brand-800', 'text-white');
-                activeSymbol.classList.add('bg-white', 'text-brand-700');
-                activeItem.querySelector('.faq-toggle span:first-child').classList.remove('text-white');
-                activeItem.querySelector('.faq-toggle span:first-child').classList.add('text-slate-900');
-            });
-
-            // Open this item
-            faqItem.classList.add('active', 'bg-brand-700', 'text-white', 'border-transparent');
-            faqItem.classList.remove('bg-brand-50/60', 'border-brand-100/20');
-            content.classList.remove('hidden');
-            symbol.textContent = '—';
-            symbol.classList.remove('bg-white', 'text-brand-700');
-            symbol.classList.add('bg-brand-800', 'text-white');
-            faqItem.querySelector('.faq-toggle span:first-child').classList.add('text-white');
-            faqItem.querySelector('.faq-toggle span:first-child').classList.remove('text-slate-900');
-        }
-    });
-});
-</script>
 
 <?php require __DIR__ . '/../includes/footer.php'; ?>

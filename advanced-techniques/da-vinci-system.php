@@ -329,30 +329,7 @@
     </div>
 </section>
 
-<script>
-document.querySelectorAll('.faq-toggle').forEach(function(button) {
-    button.addEventListener('click', function() {
-        var faqItem = this.closest('.faq-item');
-        var faqContent = faqItem.querySelector('.faq-content');
-        var faqSymbol = faqItem.querySelector('.faq-symbol');
 
-        if (faqItem.classList.contains('active')) {
-            faqItem.classList.remove('active');
-            faqContent.classList.add('hidden');
-            faqSymbol.textContent = '+';
-        } else {
-            document.querySelectorAll('.faq-item.active').forEach(function(active) {
-                active.classList.remove('active');
-                active.querySelector('.faq-content').classList.add('hidden');
-                active.querySelector('.faq-symbol').textContent = '+';
-            });
-            faqItem.classList.add('active');
-            faqContent.classList.remove('hidden');
-            faqSymbol.textContent = '—';
-        }
-    });
-});
-</script>
 
 <!-- CTA Section -->
 <section class="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden">
