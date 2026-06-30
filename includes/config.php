@@ -120,7 +120,7 @@ $headerMenu = [
             [
                 'title' => 'Surgical Innovation',
                 'links' => [
-                    ['label' => 'Advanced Robotic Surgery', 'link' => 'advanced-techniques/da-vinci-system.php'],
+                    ['label' => 'Advanced Robotic Surgery', 'link' => 'advanced-techniques/robotic-surgery-system.php'],
                     ['label' => '3D Mesh Implants', 'link' => 'advanced-techniques/3d-mesh.php'],
                     ['label' => 'Biological Mesh Options', 'link' => 'advanced-techniques/biological-mesh.php'],
                     ['label' => 'Self-Gripping Mesh Tech', 'link' => 'advanced-techniques/self-gripping-mesh.php'],

@@ -5,6 +5,19 @@
 [build.environment]
   PHP_VERSION = "8.1"
 
+# Redirect /index or /index.html to /
+[[redirects]]
+  from = "/index"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
 # Redirect all clean URLs to their index.html files
 [[redirects]]
   from = "/*"
