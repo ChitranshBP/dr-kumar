@@ -22,7 +22,7 @@ require __DIR__ . '/../includes/header.php';
                 Recurrent <span class="text-accent">Hernia</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                A recurrent hernia is one that returns at the same site after a previous hernia repair. It is a complex problem requiring specialist evaluation and often an advanced surgical approach.
+                A recurrent hernia is one that returns at the same site after a previous hernia repair. It is a Complex problem requiring Specialist evaluation and an advanced surgical approach by a Abdomen Wall Reconstruction & Recurrent Hernia expert like Drkumar. With 29+ years of expertise in Recurrent hernia management, DrKumar ensures the best and long lasting results for Recurrent Hernias.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

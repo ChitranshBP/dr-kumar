@@ -22,7 +22,7 @@ require __DIR__ . '/../includes/header.php';
                 Sports <span class="text-accent">Hernia</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                A sports hernia is a painful soft-tissue injury of the groin region common in athletes. Unlike a true hernia, there is no visible bulge &mdash; but the underlying abdominal wall or adductor tendons are strained or torn.
+                A sports hernia is a painful soft-tissue injury of the groin region common in athletes. Unlike a true hernia, there is no visible bulge — but the underlying abdominal wall or adductor tendons are strained or torn. Get expert treatment for Sports Hernia from Hernia Specialist - Dr Kumar.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

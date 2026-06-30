@@ -26,7 +26,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best inguinal hernia surgery in Chennai from Dr. Kumar, the leading groin hernia specialist in Chennai. Experience advanced keyhole and robotic groin hernia repairs for optimal recovery.
+                Get the best Inguinal Hernia Surgery in Chennai from Dr. Kumar, the leading groin hernia Specialist in Chennai, with more than 5000+ successful Inguinal Hernia surgeries. Experience advanced keyhole and robotic groin hernia repairs for optimal recovery.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -54,7 +54,7 @@ require __DIR__ . '/../includes/header.php';
                     An inguinal hernia occurs when tissue, such as part of the intestine, pushes through a weak spot in the abdominal muscles near the groin. It appears as a bulge in the groin or scrotum and is more common in men.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Dr. Kumar offers the full spectrum of inguinal hernia repair techniques, from traditional open surgery to advanced laparoscopic and Robotic approaches including eTEP, TEP, and TAPP procedures.
+                    Dr. Kumar, an expert Inguinal Hernia Specialist, offers the full spectrum of Inguinal Hernia repair techniques, from traditional open surgery to advanced laparoscopic and Robotic approaches including eTEP, TEP, and TAPP procedures.
                 </p>
                 <div class="flex flex-wrap gap-3 mb-8">
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">eTEP Repair</span>
@@ -192,7 +192,7 @@ require __DIR__ . '/../includes/header.php';
                     Expert Care for Inguinal Hernia
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-8 text-lg">
-                    With over 29 years of experience and thousands of successful inguinal hernia repairs, Dr. Kumar offers unparalleled expertise in both open and minimally invasive techniques.
+                    With over 29 years of experience and 5,000+ successful inguinal hernia repairs, Dr. Kumar offers unparalleled expertise in both open and minimally invasive techniques.
                 </p>
                 <div class="space-y-4">
                     <div class="flex items-start gap-4">

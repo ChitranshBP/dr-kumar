@@ -349,7 +349,7 @@ require __DIR__ . '/../includes/header.php';
             </h2>
             <p class="text-slate-600 text-lg">
                 Dr. Kumar specializes in advanced <strong>minimally invasive</strong> techniques.
-                <strong>Laparoscopic</strong> and <strong>Robotic</strong> approaches are preferred for faster recovery, less pain, and tiny scars. <strong>Open</strong> repair is reserved for select cases.
+                <strong>Laparoscopic</strong> and <strong>Open</strong> approaches are standard for emergency cases. <strong>Robotic</strong> repair is reserved for select complex scenarios.
             </p>
         </div>
 
@@ -379,42 +379,42 @@ require __DIR__ . '/../includes/header.php';
                 </ul>
             </div>
 
-            <!-- CARD 2: Advanced Robotic (PREFERRED) -->
+            <!-- CARD 2: Open Strangulated Hernia Repair -->
             <div class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-3xl p-8 lg:p-10 shadow-2xl shadow-slate-900/40 hover:-translate-y-1 transition duration-300">
                 <div class="absolute -top-3 left-8 bg-accent text-white text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full shadow-md">
-                    ★ Preferred Approach
+                    ★ Standard Approach
                 </div>
                 <div class="w-16 h-16 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
                 </div>
-                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Advanced Robotic Strangulated Hernia Repair</h3>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-3">Open Strangulated Hernia Repair</h3>
                 <p class="text-slate-300 text-sm font-semibold uppercase tracking-wider mb-5">
-                    Latest Technology · 3D Vision
+                    Time-Tested · Direct Access
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — particularly useful for <strong>complex emergency</strong> cases with extensive adhesions or compromised bowel requiring delicate dissection.
+                    Time-tested open technique reserved for select cases — particularly when there is significant contamination, tissue compromise, or when minimally invasive approaches are not clinically suitable.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Wristed instrument precision</li>
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Best for complex emergencies</li>
-                    <li class="flex gap-2"><span class="text-accent">✓</span> Fine adhesiolysis</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Direct physical access</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Best for contaminated cases</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Quick release of strangulation</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> Suture or mesh repair options</li>
                 </ul>
             </div>
         </div>
 
-        <!-- TIER 3: Open (de-emphasized) -->
+        <!-- TIER 3: Advanced Robotic (Select Cases) -->
         <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-6 border border-slate-200 mb-12">
             <div class="flex flex-col md:flex-row md:items-start gap-4">
                 <div class="shrink-0">
                     <span class="inline-block bg-slate-300 text-slate-700 text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded-full">
-                        When Needed
+                        Advanced Option
                     </span>
                 </div>
                 <div>
-                    <h3 class="font-bold text-lg text-slate-900 mb-1">Open Strangulated Hernia Repair</h3>
+                    <h3 class="font-bold text-lg text-slate-900 mb-1">Advanced Robotic Strangulated Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                        State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments &mdash; particularly useful for complex emergency cases with extensive adhesions or compromised bowel requiring delicate dissection.
                     </p>
                 </div>
             </div>

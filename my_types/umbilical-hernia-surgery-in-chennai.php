@@ -26,7 +26,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best umbilical hernia surgery in Chennai from Dr. Kumar, the leading belly button hernia specialist in Chennai. Experience advanced keyhole and robotic umbilical repairs.
+                Get the best umbilical hernia surgery in Chennai from Dr.Kumar, the leading belly button hernia specialist in Chennai, with more than 4000 + successful Umbilical Hernia surgeries. Experience advanced keyhole and robotic Umbilical hernia repairs.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -51,7 +51,7 @@ require __DIR__ . '/../includes/header.php';
                     An umbilical hernia occurs when part of the intestine or abdominal tissue pushes through the abdominal wall near the belly button (umbilicus). It appears as a bulge at or near the navel.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Common in infants but also affects adults, particularly after pregnancy, weight gain, or previous surgery. Dr. Kumar offers both mesh and non-mesh repair options. Dr Kumar- Billroth has experience of more than 4000+ umbilical Hernia Surgeries making him a true Umbilical Hernia Specialist.
+                    Common in infants, but also affects adults, especially women, particularly after pregnancy, weight gain, or previous surgery. Dr. Kumar offers both mesh and non-mesh repair options. Dr Kumar- Billroth has experience of more than 4000+ umbilical Hernia Surgeries making him a true Umbilical Hernia Specialist.
                 </p>
                 <div class="flex flex-wrap gap-3 mb-8">
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Daycare Available</span>
