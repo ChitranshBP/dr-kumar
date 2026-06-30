@@ -11,13 +11,13 @@ require __DIR__ . '/includes/header.php';
         <div class="max-w-4xl">
             <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
                 <span class="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
-                Meet Your Surgeon
+                Meet Your Hernia Surgeon
             </span>
             <h1 class="font-display text-4xl md:text-6xl font-bold mb-6 leading-[1.1]">
                 A Legacy of <span class="text-accent">Surgical Mastery</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-10 max-w-3xl">
-               Dr Kumar of Billroth Hospitals is a leading voice in advanced abdominal wall reconstruction, keyhole, and robotic hernia surgery in Chennai, bringing nearly three decades of dedicated clinical excellence and over 30,000 to 40,000 completed procedures.
+               Dr Kumar of Billroth Hospitals is a leading voice in advanced abdominal wall reconstruction, keyhole, and robotic hernia surgery in Chennai, bringing nearly three decades of dedicated clinical excellence and over 30000 + completed procedures.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2.5 bg-accent hover:bg-amber-600 text-white font-bold px-8 py-4 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -171,10 +171,10 @@ require __DIR__ . '/includes/header.php';
                         <span class="text-xs font-bold">1</span>
                     </div>
                     <div class="w-full md:w-1/2 pl-12 md:pl-0 md:pr-12 md:text-right">
-                        <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Medical Foundation</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">Stanley Medical College</h4>
+                        <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Robotic Care</span>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">Robotic Surgery Expertise</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
-                            Completed rigorous MBBS and post-graduate MS surgical residency training at Stanley Medical College — one of India's oldest and most prestigious legacy healthcare institutions.
+                            Expertise in Robotic Hernia surgery
                         </p>
                     </div>
                     <div class="hidden md:block w-1/2"></div>
@@ -187,10 +187,10 @@ require __DIR__ . '/includes/header.php';
                     </div>
                     <div class="hidden md:block w-1/2"></div>
                     <div class="w-full md:w-1/2 pl-12 md:pl-12">
-                        <span class="inline-block px-3 py-1 bg-accent/20 text-amber-800 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Global Standards</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">MRCS England Board Validation</h4>
+                        <span class="inline-block px-3 py-1 bg-accent/20 text-amber-800 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Advanced AWR</span>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">AWR, Complex &amp; Recurrent Hernia Expert</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
-                            Attained formal qualification from the Royal College of Surgeons of England — certifying performance safety, international knowledge integration, and elite standards of surgical care.
+                            Huge experience in AWR, Complex &amp; Recurrent Hernia surgery
                         </p>
                     </div>
                 </div>
@@ -201,10 +201,10 @@ require __DIR__ . '/includes/header.php';
                         <span class="text-xs font-bold">3</span>
                     </div>
                     <div class="w-full md:w-1/2 pl-12 md:pl-0 md:pr-12 md:text-right">
-                        <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Chennai Keyhole Pioneer</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">29+ Years operating mastery</h4>
+                        <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Education</span>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">Mentor &amp; Teacher for Young Surgeons</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
-                            Pioneered keyhole laparoscopic surgery in Chennai, establishing standard practices in minimal access techniques during the early waves of laparoscopic technology.
+                            Trained numerous DNB &amp; MRCS students training to become Surgeons.
                         </p>
                     </div>
                     <div class="hidden md:block w-1/2"></div>
@@ -217,10 +217,10 @@ require __DIR__ . '/includes/header.php';
                     </div>
                     <div class="hidden md:block w-1/2"></div>
                     <div class="w-full md:w-1/2 pl-12 md:pl-12">
-                        <span class="inline-block px-3 py-1 bg-accent/20 text-amber-800 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Proven volume record</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">30,000+ Completed Procedures</h4>
+                        <span class="inline-block px-3 py-1 bg-accent/20 text-amber-800 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Surgical Innovation</span>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">Special pre op techniques like</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
-                            Completed 10,000+ abdominal hernia repairs and 20,000+ laparoscopic operations, routinely managing complex, recurrent, and failed-mesh referrals from across South India and other states.
+                            Botox,Positive pressure pneumoperitoneum
                         </p>
                     </div>
                 </div>
@@ -231,30 +231,15 @@ require __DIR__ . '/includes/header.php';
                         <span class="text-xs font-bold">5</span>
                     </div>
                     <div class="w-full md:w-1/2 pl-12 md:pl-0 md:pr-12 md:text-right">
-                        <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Patient Choice</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">5.0 ★ Rating with 600+ Reviews</h4>
+                        <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Daycare Services</span>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">Daycare Hernia Surgery</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
-                            Consistently rated 5.0 stars on Google for empathetic communication, surgical outcomes, and transparent pathways, making him one of Chennai's most trusted surgeons.
+                            Hernia Surgery under Local<br>
+                            Meshless Hernia Surgery
                         </p>
                     </div>
                     <div class="hidden md:block w-1/2"></div>
                 </div>
-
-                 <div class="relative flex flex-col md:flex-row items-start md:items-center">
-                    <div class="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-brand-700 text-white flex items-center justify-center -translate-x-1/2 border-4 border-slate-50 shadow-md z-10">
-                        <span class="text-xs font-bold">6</span>
-                    </div>
-                    <div class="hidden md:block w-1/2"></div>
-                    <div class="w-full md:w-1/2 pl-12 md:pl-12">
-                        <span class="inline-block px-3 py-1 bg-accent/20 text-amber-800 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Proven volume record</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">International Reputation</h4>
-                        <p class="text-sm text-slate-600 leading-relaxed">
-                            Routinely Operates on Patients from Sri Lanka,Dubai, Saudi, Oman, Qatar, Bangaladesh and People of Indian Origin from UK and Australia.
-                        </p>
-                    </div>
-                </div>
-
-               
             </div>
         </div>
     </div>

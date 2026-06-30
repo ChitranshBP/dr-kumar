@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Laparoscopic Hernia Surgery in Chennai | Dr. Kumar';
 $page_description = 'Looking for Laparoscopic Hernia Surgery in Chennai? Consult Dr. Kumar, a top minimally invasive hernia specialist in Chennai, for quick recovery and minimal scarring.';
-$page_url = 'https://herniacare360.com/treatment/laparoscopic-hernia-surgery-in-chennai';
+$page_url = 'https://herniacare360.com/treatment/best-laparoscopic-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -200,7 +200,7 @@ require __DIR__ . '/../includes/header.php';
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-700 transition">eTEP (Extended View TEP)</h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                            An advanced method providing large extraperitoneal workspaces, allowing keyhole repairs of large or complex abdominal wall hernias.
+                            eTEP stands for extended view Totally Extraperitoneal repair for modern Laparoscopic and Robotic platforms. Dr.Kumar is an expert in the eTEP technique and often uses this technique for huge Ventral Hernias and Complex Hernias.
                         </p>
                     </div>
                 </div>

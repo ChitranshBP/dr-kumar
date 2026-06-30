@@ -67,7 +67,7 @@ require __DIR__ . '/../includes/header.php';
                     <strong>Abdominal Wall Reconstruction (AWR)</strong> is a sophisticated surgical procedure designed to repair complex abdominal wall defects, including large incisional hernias, recurrent hernias, and abdominal wall disruptions that cannot be addressed with standard hernia repairs.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Dr. Kumar specializes in advanced AWR techniques including <strong>Component Separation (CST)</strong>, <strong>Transversus Abdominis Release (TAR)</strong>, and <strong>eTEP (Extended View Totally Extraperitoneal)</strong> repair - providing durable solutions for even the most challenging hernia cases.
+                    Dr. Kumar specializes in advanced AWR techniques, including Component Separation (CST), transverse abdominus release ( TAR) from the leading Complex Hernia & AWR Specialist in Chennai.
                 </p>
 
                 <div class="grid sm:grid-cols-2 gap-4">

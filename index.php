@@ -19,7 +19,7 @@ require __DIR__ . '/includes/header.php';
             </p>
 
             <div class="flex flex-wrap gap-3">
-                <a href="about-us.php" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
+                <a href="about-best-hernia-surgeon-in-chennai-india.php" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
                     About Us
                 </a>
                 <a href="#treatments" class="inline-flex items-center justify-center bg-white hover:bg-slate-50 text-slate-800 font-semibold px-8 py-3 rounded-md border border-slate-200 shadow-sm transition">
@@ -393,7 +393,7 @@ require __DIR__ . '/includes/header.php';
                     ],
                     [
                         'title' => 'Clinical Lead &amp; HOD &mdash; Billroth Hospital',
-                        'desc'  => 'Head of Department of Minimal Access, Robotic, &amp; AWR Surgery at Billroth Hospital, Chennai.',
+                        'desc'  => 'Department of Minimal Access, Robotic, Hernia &amp; AWR Surgery at Billroth Hospitals , Chennai',
                         'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/>',
                     ],
                 ];
@@ -768,7 +768,7 @@ require __DIR__ . '/includes/header.php';
                     'tag'   => 'Surgical Choice',
                     'date'  => 'April 28, 2026',
                     'img'   => 'assets/images/laparoscopic-precision.png',
-                    'link'  => 'treatment/laparoscopic-hernia-surgery-in-chennai.php',
+                    'link'  => 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php',
                 ],
             ];
             foreach ($posts as $p): ?>
