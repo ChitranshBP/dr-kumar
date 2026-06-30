@@ -37,7 +37,7 @@ require __DIR__ . '/includes/header.php';
                     <span class="text-accent">Hernia Surgery</span>
                 </h1>
                 <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                    Experience the next generation of hernia repair with advanced robotic systems. Dr. Kumar brings unprecedented 3D visualization, tremor filtration, and wristed precision to your procedure.
+                    Experience the next generation of hernia repair with advanced robotic systems. Dr.Kumar leading Robotic Hernia Surgeon in Chennai, brings unprecedented 3D visualization, tremor filtration, and wristed precision to your procedure.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#why-robotic" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -65,8 +65,8 @@ require __DIR__ . '/includes/header.php';
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                         </div>
                         <div>
-                            <p class="font-bold text-slate-900 text-xs leading-none font-display">Advanced Robotic Surgery System</p>
-                            <p class="text-[10px] text-brand-600 font-semibold mt-1">Multi-arm robotic instrumentation</p>
+                            <p class="font-bold text-slate-900 text-xs leading-none font-display">Latest Robotic Systems</p>
+                            <p class="text-[10px] text-brand-600 font-semibold mt-1">3D systems with 720 degrees rotation and 15x magnification</p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div>
                             <h3 class="font-bold text-slate-900 text-base mb-0.5 group-hover:text-brand-700 transition">Enhanced 3D Visualization</h3>
-                            <p class="text-xs text-slate-600 leading-relaxed">Ten times magnification with true 3D depth perception. Dr. Kumar can view abdominal structures, nerves, and vessels with microscopic clarity for precise mesh placement.</p>
+                            <p class="text-xs text-slate-600 leading-relaxed">15x magnification with true 3D systems. Dr. Kumar can view abdominal structures, nerves, and vessels with microscopic clarity for precise mesh placement.</p>
                         </div>
                     </div>
 
@@ -128,7 +128,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                         <div>
                             <h3 class="font-bold text-slate-900 text-base mb-0.5 group-hover:text-brand-700 transition">Wristed Instruments (EndoWrist)</h3>
-                            <p class="text-xs text-slate-600 leading-relaxed">Robotic wristed instruments feature 7 degrees of freedom, exceeding human hand range of motion. This enables highly precise suturing and mesh fixation in narrow anatomical pockets.</p>
+                            <p class="text-xs text-slate-600 leading-relaxed">Robotic wristed instruments feature 720 degrees rotation, exceeding human hand range of motion. This enables highly precise suturing and mesh fixation in narrow anatomical pockets.</p>
                         </div>
                     </div>
 
@@ -243,24 +243,32 @@ require __DIR__ . '/includes/header.php';
                             <div class="flex items-center gap-4">
                                 <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center font-bold text-lg border border-white/20 shrink-0">29+</div>
                                 <div>
-                                    <div class="font-bold text-sm">Years of Experience</div>
-                                    <div class="text-brand-200 text-xs mt-0.5">Minimal access & robotic focus</div>
+                                    <div class="font-bold text-sm">29+ years of Experience</div>
+                                    <div class="text-brand-200 text-xs mt-0.5">Minimal access focus</div>
                                 </div>
                             </div>
 
                             <div class="flex items-center gap-4">
                                 <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center font-bold text-lg border border-white/20 shrink-0">10k+</div>
                                 <div>
-                                    <div class="font-bold text-sm">Hernia Surgeries Completed</div>
+                                    <div class="font-bold text-sm">10k+ Hernia Surgeries completed</div>
                                     <div class="text-brand-200 text-xs mt-0.5">High volume complex reconstruction</div>
                                 </div>
                             </div>
 
                             <div class="flex items-center gap-4">
-                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center font-bold text-lg border border-white/20 shrink-0">20k+</div>
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center font-bold text-lg border border-white/20 shrink-0">20+k</div>
                                 <div>
-                                    <div class="font-bold text-sm">Laparoscopic Procedures</div>
-                                    <div class="text-brand-200 text-xs mt-0.5">Pioneering keyhole surgery expert</div>
+                                    <div class="font-bold text-sm">20+k Laparoscopic Procedures</div>
+                                    <div class="text-brand-200 text-xs mt-0.5">Pioneering keyhole Surgery expert</div>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center font-bold text-lg border border-white/20 shrink-0">100s</div>
+                                <div>
+                                    <div class="font-bold text-sm">Robotic Hernia Surgeries</div>
+                                    <div class="text-brand-200 text-xs mt-0.5">Hundreds of Robotic Hernia surgeries</div>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +325,7 @@ require __DIR__ . '/includes/header.php';
                         <td class="px-8 py-6 font-bold text-slate-900">3D Visualization</td>
                         <td class="px-8 py-6 text-center text-slate-600">Direct view (No magnification)</td>
                         <td class="px-8 py-6 text-center text-slate-600">Flat screen monitor (2D)</td>
-                        <td class="px-8 py-6 text-center bg-brand-50/30 text-brand-950 font-bold border-l border-r border-brand-100/30">True 3D HD (10x zoom)</td>
+                        <td class="px-8 py-6 text-center bg-brand-50/30 text-brand-950 font-bold border-l border-r border-brand-100/30">True 3D HD (15x magnification)</td>
                     </tr>
                     <!-- Instruments -->
                     <tr class="hover:bg-slate-50/60 transition duration-150">

@@ -40,7 +40,7 @@ $nav = [
     'About Us'                   => 'about-best-hernia-hospital-in-chennai.php',
     'Hernia Surgery'             => 'treatment/hernia-surgery-in-chennai.php',
     'Laparoscopic Hernia Surgery'=> 'treatment/laparoscopic-hernia-surgery-in-chennai.php',
-    'Robotic Hernia Surgery'     => 'robotic-hernia-surgery.php',
+    'Robotic Hernia Surgery'     => 'best-robotic-hernia-surgery-in-chennai.php',
     'Emergency Care'             => 'emergency-hernia-care.php',
     'Contact Us'                 => 'contact.php',
 ];
@@ -91,7 +91,7 @@ $headerMenu = [
                 'links' => [
                     ['label' => 'Hernia Surgery Overview', 'link' => 'treatment/hernia-surgery-in-chennai.php'],
                     ['label' => 'Laparoscopic Surgery', 'link' => 'treatment/laparoscopic-hernia-surgery-in-chennai.php'],
-                    ['label' => 'Robotic Hernia Surgery', 'link' => 'robotic-hernia-surgery.php'],
+                    ['label' => 'Robotic Hernia Surgery', 'link' => 'best-robotic-hernia-surgery-in-chennai.php'],
                     ['label' => 'TAPP Repair Technique', 'link' => 'treatment/tapp-repair-in-chennai.php'],
                     ['label' => 'TEP Repair Technique', 'link' => 'treatment/tep-repair-in-chennai.php'],
                     ['label' => 'eTEP Repair Technique', 'link' => 'treatment/etep-technique-expert-in-chennai.php'],
@@ -181,7 +181,7 @@ $treatments = [
     ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia-surgery-in-chennai.php'],
     ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia-surgery-in-chennai.php'],
     ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia-surgery-in-chennai.php'],
-    ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
+    ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'best-robotic-hernia-surgery-in-chennai.php'],
     ['title' => 'Laparoscopic Hernia Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/laparoscopic-hernia-surgery-in-chennai.php'],
     ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair-in-chennai.php'],
     ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-technique-expert-in-chennai.php'],

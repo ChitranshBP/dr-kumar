@@ -168,7 +168,7 @@ require __DIR__ . '/includes/header.php';
         <div>
             <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm">About the Doctor</span>
             <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-3 mb-5">
-                Pioneer in Laparoscopic &amp; Robotic Hernia Surgery
+                Pioneer in Laparoscopic Hernia Surgery &amp; Expert in Robotic Hernia Surgery
             </h2>
             <p class="text-slate-600 mb-5 leading-relaxed">
                 Dr. Kumar is a leading expert in advanced <strong>laparoscopic</strong> and <strong>robotic</strong> hernia surgery, with extensive expertise in techniques such as <strong>eTEP, TEP, TAPP, TAR, IPOM</strong> and complex Abdominal Wall Reconstruction (AWR).
