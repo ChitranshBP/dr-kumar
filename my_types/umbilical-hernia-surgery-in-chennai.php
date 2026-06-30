@@ -51,7 +51,7 @@ require __DIR__ . '/../includes/header.php';
                     An umbilical hernia occurs when part of the intestine or abdominal tissue pushes through the abdominal wall near the belly button (umbilicus). It appears as a bulge at or near the navel.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Common in infants but also affects adults, particularly after pregnancy, weight gain, or previous surgery. Dr. Kumar offers both mesh and non-mesh repair options.
+                    Common in infants but also affects adults, particularly after pregnancy, weight gain, or previous surgery. Dr. Kumar offers both mesh and non-mesh repair options. Dr Kumar- Billroth has experience of more than 4000+ umbilical Hernia Surgeries making him a true Umbilical Hernia Specialist.
                 </p>
                 <div class="flex flex-wrap gap-3 mb-8">
                     <span class="px-4 py-2 bg-brand-100 text-brand-800 rounded-full text-sm font-medium">Daycare Available</span>

@@ -17,7 +17,7 @@ require __DIR__ . '/includes/header.php';
                 A Legacy of <span class="text-accent">Surgical Mastery</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-10 max-w-3xl">
-                Dr. Kumar is a leading voice in advanced abdominal wall reconstruction, keyhole, and robotic hernia surgery in Chennai, bringing nearly three decades of dedicated clinical excellence and over 30,000 completed procedures.
+               Dr Kumar of Billroth Hospitals is a leading voice in advanced abdominal wall reconstruction, keyhole, and robotic hernia surgery in Chennai, bringing nearly three decades of dedicated clinical excellence and over 30,000 to 40,000 completed procedures.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2.5 bg-accent hover:bg-amber-600 text-white font-bold px-8 py-4 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -50,7 +50,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div class="text-center pt-6 md:pt-0 md:px-4">
                 <p class="font-display text-4xl lg:text-5xl font-bold text-accent mb-2">5.0 ★</p>
-                <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Rating (590+ Reviews)</p>
+                <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Rating (600+ Reviews)</p>
             </div>
         </div>
     </div>
@@ -69,7 +69,7 @@ require __DIR__ . '/includes/header.php';
                 </h2>
                 
                 <p class="text-slate-600 leading-relaxed mb-5 text-lg">
-                    Dr. Kumar is a highly specialized Senior Consultant in Minimal Access, Robotic, Advanced Hernia, and Abdominal Wall Reconstruction Surgery. Throughout his three-decade career, his practice has been defined by anatomical precision, patient safety, and pioneering the latest surgical systems in South India.
+                    Dr. Kumar is a highly specialized Senior Consultant , HOD in Minimal Access, Robotic, Advanced Hernia, and Abdominal Wall Reconstruction Surgery, Billroth Hospitals. Throughout his three-decade career, his practice has been defined by anatomical precision, patient safety, and pioneering the latest surgical systems in South India.
                 </p>
                 
                 <p class="text-slate-600 leading-relaxed mb-6 text-base">
@@ -118,23 +118,28 @@ require __DIR__ . '/includes/header.php';
             </div>
             
             <!-- Right Styled Doctor Portrait -->
-            <div class="lg:col-span-5 relative mt-8 lg:mt-0">
-                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-[3/4]">
-                    <img src="assets/images/dr-kumar-main-image.png" alt="Dr. Kumar" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"></div>
-                </div>
-                
-                <!-- Floating Info Card -->
-                <div class="absolute -bottom-6 -right-6 md:right-4 bg-white rounded-2xl shadow-xl p-5 border border-slate-100 max-w-xs hover:scale-105 transition duration-300">
-                    <div class="flex items-center gap-3.5">
-                        <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                        </div>
-                        <div>
-                            <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Global Standards</p>
-                            <p class="text-sm font-bold text-slate-900 mt-0.5">Royal College of Surgeons England Certified</p>
+            <div class="lg:col-span-5 mt-8 lg:mt-0">
+                <div class="relative">
+                    <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-[3/4]">
+                        <img src="assets/images/dr-kumar-main-image.png" alt="Dr. Kumar" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"></div>
+                    </div>
+                    
+                    <!-- Floating Info Card -->
+                    <div class="absolute -bottom-6 -right-6 md:right-4 bg-white rounded-2xl shadow-xl p-5 border border-slate-100 max-w-xs hover:scale-105 transition duration-300">
+                        <div class="flex items-center gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Global Standards</p>
+                                <p class="text-sm font-bold text-slate-900 mt-0.5">Royal College of Surgeons England Certified</p>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="mt-8 text-center">
+                    <p class="font-display text-xl font-bold text-slate-900">Dr. Kumar &mdash; <span class="text-brand-700">Hernia Specialist</span></p>
                 </div>
             </div>
         </div>
@@ -215,7 +220,7 @@ require __DIR__ . '/includes/header.php';
                         <span class="inline-block px-3 py-1 bg-accent/20 text-amber-800 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Proven volume record</span>
                         <h4 class="font-display text-xl font-bold text-slate-900 mb-2">30,000+ Completed Procedures</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
-                            Completed 10,000+ abdominal hernia repairs and 20,000+ laparoscopic operations, routinely managing complex, recurrent, and failed-mesh referrals from across South India.
+                            Completed 10,000+ abdominal hernia repairs and 20,000+ laparoscopic operations, routinely managing complex, recurrent, and failed-mesh referrals from across South India and other states.
                         </p>
                     </div>
                 </div>
@@ -227,13 +232,29 @@ require __DIR__ . '/includes/header.php';
                     </div>
                     <div class="w-full md:w-1/2 pl-12 md:pl-0 md:pr-12 md:text-right">
                         <span class="inline-block px-3 py-1 bg-brand-100 text-brand-700 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Patient Choice</span>
-                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">5.0 ★ Rating with 590+ Reviews</h4>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">5.0 ★ Rating with 600+ Reviews</h4>
                         <p class="text-sm text-slate-600 leading-relaxed">
                             Consistently rated 5.0 stars on Google for empathetic communication, surgical outcomes, and transparent pathways, making him one of Chennai's most trusted surgeons.
                         </p>
                     </div>
                     <div class="hidden md:block w-1/2"></div>
                 </div>
+
+                 <div class="relative flex flex-col md:flex-row items-start md:items-center">
+                    <div class="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-brand-700 text-white flex items-center justify-center -translate-x-1/2 border-4 border-slate-50 shadow-md z-10">
+                        <span class="text-xs font-bold">6</span>
+                    </div>
+                    <div class="hidden md:block w-1/2"></div>
+                    <div class="w-full md:w-1/2 pl-12 md:pl-12">
+                        <span class="inline-block px-3 py-1 bg-accent/20 text-amber-800 rounded-full text-xs font-bold uppercase tracking-wider mb-2">Proven volume record</span>
+                        <h4 class="font-display text-xl font-bold text-slate-900 mb-2">International Reputation</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Routinely Operates on Patients from Sri Lanka,Dubai, Saudi, Oman, Qatar, Bangaladesh and People of Indian Origin from UK and Australia.
+                        </p>
+                    </div>
+                </div>
+
+               
             </div>
         </div>
     </div>
@@ -288,7 +309,7 @@ require __DIR__ . '/includes/header.php';
                         </div>
                     </div>
                     
-                    <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center gap-4 hover:border-brand-200 transition duration-300">
+                    <!-- <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center gap-4 hover:border-brand-200 transition duration-300">
                         <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                         </div>
@@ -296,7 +317,7 @@ require __DIR__ . '/includes/header.php';
                             <h4 class="font-bold text-slate-900 text-sm">SAGES (Society of American Gastrointestinal Surgeons)</h4>
                             <p class="text-xs text-slate-500">International Active Surgical Member</p>
                         </div>
-                    </div>
+                    </div> -->
                     
                     <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-center gap-4 hover:border-brand-200 transition duration-300">
                         <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 shrink-0 border border-brand-100">
@@ -380,7 +401,7 @@ require __DIR__ . '/includes/header.php';
                     <h3 class="font-bold text-xl text-slate-900 mb-2 font-display">Times Health Award</h3>
                     <p class="text-accent font-bold text-xs uppercase tracking-wider mb-4">2025 & 2026 Winner</p>
                     <p class="text-slate-500 text-sm leading-relaxed mb-6">
-                        Recognized as Chennai's finest hernia and laparoscopic surgeon based on surgical track record and post-surgical outcome surveys.
+                        Recognized as Chennai's finest hernia and Laparoscopic, Robotic Surgeon based on surgical track record and post-surgical outcome surveys.
                     </p>
                 </div>
                 <span class="inline-flex items-center gap-1 bg-brand-50 text-brand-700 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">Surgical Leader</span>
@@ -443,7 +464,9 @@ require __DIR__ . '/includes/header.php';
                     </span>
                     <h3 class="font-display text-3xl font-bold mb-4 text-white">Billroth Hospital</h3>
                     <p class="text-slate-300 text-base leading-relaxed mb-6">
-                        Located at Shenoy Nagar & RA Puram, Chennai, Billroth Hospital serves as Dr. Kumar's primary surgical hub. It features state-of-the-art operative rooms, a dedicated surgical intensive care unit, and specialized medical instrumentation for advanced keyhole and robotic-assisted abdominal wall operations.
+                        Located at Shenoy Nagar & RA Puram, Chennai, Billroth Hospital serves as Dr. Kumar's primary surgical hub. It features state-of-the-art operative rooms, a dedicated surgical intensive care unit, Round the Clock availability of all Specialist and Medical Facilities under one Roof
+
+ and specialized medical instrumentation including latest 4 K Surgical Laparoscopic units - Storz & Stryker  and Latest Robotic Systems and Instruments for advanced keyhole and robotic-assisted abdominal wall operations.
                     </p>
                 </div>
 

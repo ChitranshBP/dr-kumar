@@ -508,6 +508,44 @@ if (!isset($schema_about)) {
         .faq-item.active .faq-content {
             display: block !important;
         }
+        .faq-item.active .faq-content p,
+        .faq-item.active .faq-content ul,
+        .faq-item.active .faq-content li,
+        .faq-item.active .faq-content strong,
+        .faq-item.active .faq-content span {
+            color: #ecfeff !important;
+        }
+        .faq-item.active .faq-content div.bg-slate-200 {
+            background-color: rgba(255, 255, 255, 0.2) !important;
+        }
+
+        /* Light FAQ items inside dark sections - make them white for visibility */
+        .bg-brand-950 .faq-item:not(.active),
+        .bg-slate-900 .faq-item:not(.active),
+        [class*="bg-brand-950"] .faq-item:not(.active),
+        [class*="bg-slate-900"] .faq-item:not(.active) {
+            background-color: rgba(255, 255, 255, 0.12) !important;
+            border-color: rgba(255, 255, 255, 0.2) !important;
+        }
+        .bg-brand-950 .faq-item:not(.active) .faq-toggle span,
+        .bg-slate-900 .faq-item:not(.active) .faq-toggle span,
+        [class*="bg-brand-950"] .faq-item:not(.active) .faq-toggle span,
+        [class*="bg-slate-900"] .faq-item:not(.active) .faq-toggle span {
+            color: #ffffff !important;
+        }
+        .bg-brand-950 .faq-item:not(.active) .faq-symbol,
+        .bg-slate-900 .faq-item:not(.active) .faq-symbol,
+        [class*="bg-brand-950"] .faq-item:not(.active) .faq-symbol,
+        [class*="bg-slate-900"] .faq-item:not(.active) .faq-symbol {
+            background-color: rgba(255, 255, 255, 0.15) !important;
+            color: #ffffff !important;
+        }
+        .bg-brand-950 .faq-item:not(.active) .faq-content p,
+        .bg-slate-900 .faq-item:not(.active) .faq-content p,
+        [class*="bg-brand-950"] .faq-item:not(.active) .faq-content p,
+        [class*="bg-slate-900"] .faq-item:not(.active) .faq-content p {
+            color: #f1f5f9 !important; /* text-slate-100 */
+        }
     </style>
 </head>
 <body class="bg-white text-slate-800 antialiased <?= ($is_home ?? false) ? 'home-page' : 'sub-page' ?>">

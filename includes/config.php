@@ -18,7 +18,7 @@ if (!isset($base_path)) {
 
 $site = [
     'name'        => 'DrKumar - Advanced Hernia , Laparoscopic & Robotic Surgeon',
-    'doctor'      => 'Dr. Kumar',
+    'doctor'      => 'Dr Kumar of Billroth Hospitals',
     'tagline'     => 'Advanced Abdominal Hernia & Laparoscopic Surgeon in Chennai',
     'phone'       => '+91 89255 02759',
     'phone_link'  => '+918925502759',
@@ -182,7 +182,7 @@ $treatments = [
     ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia-surgery-in-chennai.php'],
     ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia-surgery-in-chennai.php'],
     ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
-    ['title' => 'Laparoscopic Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/laparoscopic-hernia-surgery-in-chennai.php'],
+    ['title' => 'Laparoscopic Hernia Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/laparoscopic-hernia-surgery-in-chennai.php'],
     ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair-in-chennai.php'],
     ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-technique-expert-in-chennai.php'],
     ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia-surgery-in-chennai.php'],

@@ -85,16 +85,17 @@ foreach ($phpFiles as $file) {
         $htmlOutput = 'index.html';
         $outPath = $dist . '/' . $htmlOutput;
         $prefix = '';
-        $srcDepth = 0;
         if (!is_dir(dirname($outPath))) {
             mkdir(dirname($outPath), 0777, true);
         }
     } else {
         $htmlOutput = $htmlName . '/index.html';
         $outPath = $dist . '/' . $htmlOutput;
-        // Calculate source file depth from project root
-        $srcDepth = substr_count($file['name'], '/');
-        $prefix = $srcDepth > 0 ? str_repeat('../', $srcDepth) : '';
+        // Calculate prefix based on OUTPUT path depth
+        // dist/about-us/index.html needs ../assets/ (1 level in output path = 1 ../)
+        // dist/hernia/symptoms/index.html needs ../assets/ (2 levels = 2 ../)
+        $outputDepth = substr_count($htmlOutput, '/');
+        $prefix = $outputDepth > 0 ? str_repeat('../', $outputDepth) : '';
 
         if (!is_dir(dirname($outPath))) {
             mkdir(dirname($outPath), 0777, true);
