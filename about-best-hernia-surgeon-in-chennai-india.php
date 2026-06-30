@@ -63,7 +63,7 @@ require __DIR__ . '/includes/header.php';
             
             <!-- Left Info Content -->
             <div class="lg:col-span-7">
-                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">Senior Consultant Surgeon</span>
+                <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-100 px-3.5 py-1.5 rounded-full inline-block mb-4">About Dr. Kumar</span>
                 <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
                     Pioneering Advanced Hernia & Laparoscopic Surgery
                 </h2>
@@ -361,7 +361,76 @@ require __DIR__ . '/includes/header.php';
             </div>
         </div>
     </div>
+
+<!-- About Hernia Care 360 Section -->
+<section id="hernia-care-360" class="py-20 md:py-28 bg-brand-900 text-white relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-brand-500/10 rounded-full blur-[150px]"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 relative z-10">
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            
+            <!-- Left Info Panel: Stats/Core Pillars -->
+            <div class="lg:col-span-5 order-2 lg:order-1">
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm">
+                        <div class="w-12 h-12 rounded-2xl bg-accent/20 text-accent flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 9.172V5L8 4z"/></svg>
+                        </div>
+                        <h4 class="font-display font-bold text-lg mb-2">Modern Technology</h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">Advanced Robotic-assisted systems &amp; Storz/Stryker 4K laparoscopic suites.</p>
+                    </div>
+                    
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm">
+                        <div class="w-12 h-12 rounded-2xl bg-accent/20 text-accent flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <h4 class="font-display font-bold text-lg mb-2">Tailored Mesh Repair</h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">Precision selection of self-gripping, 3D, and biological meshes for every patient.</p>
+                    </div>
+                    
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm">
+                        <div class="w-12 h-12 rounded-2xl bg-accent/20 text-accent flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h4 class="font-display font-bold text-lg mb-2">ERAS Protocols</h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">Enhanced Recovery After Surgery pathways minimizing downtime and postoperative discomfort.</p>
+                    </div>
+                    
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm">
+                        <div class="w-12 h-12 rounded-2xl bg-accent/20 text-accent flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h4 class="font-display font-bold text-lg mb-2">24/7 Specialist Cover</h4>
+                        <p class="text-xs text-slate-300 leading-relaxed">Complete backup of diagnostic scans, surgical care, and cardiac/medical specialists under one roof.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Info Panel: Description -->
+            <div class="lg:col-span-7 order-1 lg:order-2">
+                <span class="text-accent font-semibold uppercase tracking-wider text-sm bg-white/10 border border-white/10 px-3.5 py-1.5 rounded-full inline-block mb-4">Specialized Center</span>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                    About Hernia Care 360
+                </h2>
+                
+                <div class="space-y-6 text-slate-200 leading-relaxed">
+                    <p class="text-lg">
+                        <strong>Hernia Care 360</strong>, founded and led by senior consultant surgeon Dr. Kumar, is a dedicated clinical initiative designed to deliver state-of-the-art, comprehensive abdominal wall care. Operating out of the advanced infrastructure of Billroth Hospitals in Chennai, the center provides world-class treatment pathways for simple, complex, and recurrent hernias.
+                    </p>
+                    <p class="text-base">
+                        Our core philosophy is centered on customization and absolute surgical precision. Rather than employing a single generic repair technique for all defects, Hernia Care 360 utilizes a personalized methodology. We analyze each patient's abdominal wall mechanics, lifestyle, and past surgical history to select the ideal repair—ranging from meshless tissue-based procedures (Desarda &amp; Shouldice) to advanced robotic-assisted eTEP and TAR reconstructions.
+                    </p>
+                    <p class="text-base text-slate-300">
+                        Backed by Billroth Hospital's high-dependency critical care support, round-the-clock emergency surgical rooms, and the latest imaging technologies, Hernia Care 360 ensures a safe, infection-free, and comfortable pathway to core restoration and long-term recurrence prevention.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </section>
+
 
 <!-- Recognition & Awards Section (Editorial Focus) -->
 <section class="py-20 md:py-28 bg-slate-50">
