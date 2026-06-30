@@ -37,7 +37,7 @@ $site = [
 // Flat navigation for simple loops or fallback lists (like the footer)
 $nav = [
     'Home'                       => 'index.php',
-    'About Us'                   => 'about-best-hernia-surgeon-in-chennai-india.php',
+    'About Us'                   => 'about-best-hernia-hospital-in-chennai.php',
     'Hernia Surgery'             => 'treatment/hernia-surgery-in-chennai.php',
     'Laparoscopic Hernia Surgery'=> 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php',
     'Robotic Hernia Surgery'     => 'best-robotic-hernia-surgery-in-chennai.php',
@@ -53,7 +53,7 @@ $headerMenu = [
     ],
     [
         'label' => 'About Us',
-        'link'  => 'about-best-hernia-surgeon-in-chennai-india.php',
+        'link'  => 'about-best-hernia-hospital-in-chennai.php',
     ],
     [
         'label' => 'Hernia Guide',

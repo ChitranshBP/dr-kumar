@@ -19,7 +19,7 @@ require __DIR__ . '/includes/header.php';
             </p>
 
             <div class="flex flex-wrap gap-3">
-                <a href="about-best-hernia-surgeon-in-chennai-india.php" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
+                <a href="about-best-hernia-hospital-in-chennai.php" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
                     About Us
                 </a>
                 <a href="#treatments" class="inline-flex items-center justify-center bg-white hover:bg-slate-50 text-slate-800 font-semibold px-8 py-3 rounded-md border border-slate-200 shadow-sm transition">
