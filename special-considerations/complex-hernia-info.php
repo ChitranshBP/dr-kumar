@@ -25,7 +25,7 @@ require __DIR__ . '/../includes/header.php';
                     Complex Hernia Information
                 </h1>
                 <p class="text-lg text-slate-300 leading-relaxed mb-8">
-                    Advanced surgical techniques for challenging hernia cases. Learn about eTEP, TAR, and component separation techniques that enable successful repair of large and recurrent hernias.
+                    Dr. Kumar uses Advanced surgical techniques for challenging Complex Hernia cases. Dr.Kumar has huge experience in Complex Hernia Surgeries and uses eTEP, TAR, and Component separation.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-500 text-slate-900 font-semibold px-6 py-3 rounded-lg transition shadow-lg shadow-amber-500/30">
@@ -177,6 +177,10 @@ require __DIR__ . '/../includes/header.php';
                                 <li class="flex items-start gap-2">
                                     <svg class="w-4 h-4 text-accent mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                                     Mesh infection or rejection
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <svg class="w-4 h-4 text-accent mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                                    Loss of Domain
                                 </li>
                             </ul>
                         </div>

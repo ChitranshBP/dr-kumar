@@ -38,7 +38,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">(Divarication of Recti)</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Comprehensive recovery for abdominal muscle separation. Restore your core support, relieve persistent back pain, and regain abdominal wall function.
+                Dr. Kumar offers Comprehensive recovery for abdominal muscle separation and expert treatment (Diastasis of Recti). Divarication of Recti Correction in Chennai. Restore your core support, relieve persistent back pain, and regain abdominal wall function.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="#what-is" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">

@@ -13,7 +13,7 @@
                     <span class="text-slate-500">/</span>
                     <span class="text-slate-400">Advanced Techniques</span>
                     <span class="text-slate-500">/</span>
-                    <span class="text-accent font-medium">Advanced Robotic Surgery</span>
+                    <span class="text-accent font-medium">Robotic system</span>
                 </nav>
 
                 <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
@@ -21,7 +21,7 @@
                     Advanced Robotic Technology
                 </span>
                 <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                    Advanced Robotic<br>
+                    Robotic<br>
                     <span class="text-accent">Surgery System</span>
                 </h1>
                 <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
