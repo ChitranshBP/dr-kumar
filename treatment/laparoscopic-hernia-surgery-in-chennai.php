@@ -34,7 +34,7 @@ require __DIR__ . '/../includes/header.php';
                 Minimally Invasive Surgery
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Laparoscopic Hernia<br>
+                Best Laparoscopic Hernia<br>
                 <span class="text-accent">Surgery in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
@@ -205,7 +205,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
                 <div class="p-6 pt-0 border-t border-slate-50">
-                    <a href="<?= $base_path ?>treatment/etep-repair-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                    <a href="<?= $base_path ?>treatment/etep-technique-expert-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                         Learn about eTEP
                         <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -604,7 +604,7 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Book Consultation
             </a>
-            <a href="<?= $base_path ?>treatment/mesh-repair.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
+            <a href="<?= $base_path ?>treatment/mesh-hernia-repair-in-chennai.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 Learn About Mesh Repair
             </a>
         </div>

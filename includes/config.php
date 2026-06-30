@@ -37,7 +37,7 @@ $site = [
 // Flat navigation for simple loops or fallback lists (like the footer)
 $nav = [
     'Home'                       => 'index.php',
-    'About Us'                   => 'about-us.php',
+    'About Us'                   => 'about-best-hernia-hospital-in-chennai.php',
     'Hernia Surgery'             => 'treatment/hernia-surgery-in-chennai.php',
     'Laparoscopic Hernia Surgery'=> 'treatment/laparoscopic-hernia-surgery-in-chennai.php',
     'Robotic Hernia Surgery'     => 'robotic-hernia-surgery.php',
@@ -53,7 +53,7 @@ $headerMenu = [
     ],
     [
         'label' => 'About Us',
-        'link'  => 'about-us.php',
+        'link'  => 'about-best-hernia-hospital-in-chennai.php',
     ],
     [
         'label' => 'Hernia Guide',
@@ -94,7 +94,7 @@ $headerMenu = [
                     ['label' => 'Robotic Hernia Surgery', 'link' => 'robotic-hernia-surgery.php'],
                     ['label' => 'TAPP Repair Technique', 'link' => 'treatment/tapp-repair-in-chennai.php'],
                     ['label' => 'TEP Repair Technique', 'link' => 'treatment/tep-repair-in-chennai.php'],
-                    ['label' => 'eTEP Repair Technique', 'link' => 'treatment/etep-repair-in-chennai.php'],
+                    ['label' => 'eTEP Repair Technique', 'link' => 'treatment/etep-technique-expert-in-chennai.php'],
                     ['label' => 'Abdominal Wall Reconstruction', 'link' => 'treatment/abdominal-wall-reconstruction-in-chennai.php'],
                     ['label' => 'Diastasis Recti Repair', 'link' => 'treatment/diastasis-recti.php'],
                 ]
@@ -108,7 +108,7 @@ $headerMenu = [
             [
                 'title' => 'Mesh & Recovery',
                 'links' => [
-                    ['label' => 'Mesh Repair Technology', 'link' => 'treatment/mesh-repair.php'],
+                    ['label' => 'Mesh Repair Technology', 'link' => 'treatment/mesh-hernia-repair-in-chennai.php'],
                     ['label' => 'Post-Op Recovery Process', 'link' => 'treatment/recovery.php'],
                 ]
             ]
@@ -184,11 +184,11 @@ $treatments = [
     ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'robotic-hernia-surgery.php'],
     ['title' => 'Laparoscopic Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/laparoscopic-hernia-surgery-in-chennai.php'],
     ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair-in-chennai.php'],
-    ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-repair-in-chennai.php'],
+    ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-technique-expert-in-chennai.php'],
     ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia-surgery-in-chennai.php'],
     ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/abdominal-wall-reconstruction-in-chennai.php'],
     ['title' => 'Emergency Hernia Care',         'img' => 'assets/images/complications_emergency.png','desc' => '24/7 emergency strangulated hernia management.',                               'link' => 'emergency-hernia-care.php'],
-    ['title' => 'Hernia Mesh Repair',            'img' => 'assets/images/mesh-comparison-3d.png',   'desc' => '3D mesh, biological mesh, & self-gripping options.',                          'link' => 'treatment/mesh-repair.php'],
+    ['title' => 'Hernia Mesh Repair',            'img' => 'assets/images/mesh-comparison-3d.png',   'desc' => '3D mesh, biological mesh, & self-gripping options.',                          'link' => 'treatment/mesh-hernia-repair-in-chennai.php'],
 ];
 
 $stats = [

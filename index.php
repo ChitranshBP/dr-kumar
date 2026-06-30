@@ -755,7 +755,7 @@ require __DIR__ . '/includes/header.php';
                     'tag'   => 'Technology',
                     'date'  => 'May 10, 2026',
                     'img'   => 'assets/images/etep-reconstruction.png',
-                    'link'  => 'treatment/etep-repair-in-chennai.php',
+                    'link'  => 'treatment/etep-technique-expert-in-chennai.php',
                 ],
                 [
                     'title' => 'Robotic vs. Laparoscopic Hernia Surgery: Which is Right for You?',

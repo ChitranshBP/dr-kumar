@@ -131,11 +131,11 @@
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Robotic Surgery
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/etep-repair-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/etep-technique-expert-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     eTEP Repair
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/mesh-repair.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/mesh-hernia-repair-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Mesh Repair
                 </a></li>
