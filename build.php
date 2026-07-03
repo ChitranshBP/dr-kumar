@@ -250,7 +250,7 @@ file_put_contents($dist . '/robots.txt', "User-agent: *\nAllow: /\nSitemap: http
 echo "🔀 Writing _redirects\n";
 // SPA-style: all paths serve from the dist directory where Netlify auto-serves index.html
 // The _redirects file ensures clean URLs work
-file_put_contents($dist . '/_redirects', "/index    /    301!\n/index.html    /    301!\n/*    /index.html   200\n");
+file_put_contents($dist . '/_redirects', "/index    /    301!\n/index.html    /    301!\n/my_types/inguinal-hernia    https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai    301!\n/treatment/tapp-repair    https://herniacare360.com/treatment/tapp-repair-in-chennai    301!\n/*    /index.html   200\n");
 
 /* ---------- 7. 404 ---------- */
 echo "📄 Writing 404.html\n";

@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Best Robotic Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Get the best robotic-assisted hernia surgery in Chennai from Dr. Kumar. Minimal incisions, exceptional precision, less post-operative pain, and faster recovery.';
 require __DIR__ . '/includes/header.php';
 ?>
 

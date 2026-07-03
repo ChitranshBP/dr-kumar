@@ -1,5 +1,9 @@
 RewriteEngine on 
 
+# 301 Redirects for moved pages
+RewriteRule ^my_types/inguinal-hernia(\.php)?/?$ https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai [R=301,L,NC]
+RewriteRule ^treatment/tapp-repair(\.php)?/?$ https://herniacare360.com/treatment/tapp-repair-in-chennai [R=301,L,NC]
+
 # 301 Redirect /index or /index.php to /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(\.php)? [NC]
 RewriteRule ^index(\.php)?$ / [R=301,L]

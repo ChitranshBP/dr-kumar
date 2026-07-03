@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Advanced 3D Mesh Technology for Hernia Repair | Dr. Kumar';
+$page_description = 'Learn how 3D mesh technology improves patient outcomes in hernia repair. Explore the benefits of anatomically contoured mesh for reduced pain and low recurrence rates.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

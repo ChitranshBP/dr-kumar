@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Biological Mesh for Complex & Infected Hernia Repair | Dr. Kumar';
+$page_description = 'Explore the use of biological mesh in complex, high-risk, or infected hernia surgery. Learn about its advantages, tissue integration, and patient selection criteria.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

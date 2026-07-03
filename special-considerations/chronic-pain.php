@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Chronic Pain After Hernia Surgery | CPIP Treatment Chennai - Dr. Kumar';
-$page_description = 'Learn about Chronic Post-hernioplasty Inguinal Pain (CPIP) from Dr. Kumar. Explore neuropathic vs. nociceptive pain pathways, diagnosis, and advanced treatment options including selective neurectomy and mesh revision.';
+$page_title = 'Chronic Pain After Hernia Surgery | CPIP Treatment | Dr. Kumar';
+$page_description = 'Understand CPIP (Chronic Post-hernioplasty Inguinal Pain). Learn about neuropathic vs nociceptive pain pathways, advanced diagnosis, and treatment by Dr. Kumar.';
 $page_keywords = 'chronic pain after hernia surgery, CPIP, post-operative groin pain, nerve entrapment groin, triple neurectomy Chennai, mesh removal Chennai, Dr. Kumar';
 require __DIR__ . '/../includes/header.php';
 ?>

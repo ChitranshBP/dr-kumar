@@ -1,4 +1,6 @@
 <?php
+$page_title = 'ERAS Protocol for Faster Hernia Recovery | Dr. Kumar';
+$page_description = 'Discover the ERAS (Enhanced Recovery After Surgery) protocol for hernia treatment. Learn how pre- and post-operative care optimization enables faster, pain-free recovery.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

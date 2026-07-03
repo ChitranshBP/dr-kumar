@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Get a Second Opinion on Hernia Surgery | Dr. Kumar';
+$page_description = 'Seeking a second opinion on your hernia diagnosis or surgery recommendation? Get expert review and personalized treatment guidance from Dr. Kumar in Chennai.';
 require __DIR__ . '/includes/header.php';
 ?>
 

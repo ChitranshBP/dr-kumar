@@ -62,14 +62,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Inguinal Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/inguinal-hernia.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/inguinal-hernia-surgery-in-chennai.php" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Inguinal Hernia Repair Chennai" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Groin Hernia</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/inguinal-hernia.php">Inguinal Hernia</a>
+                            <a href="<?= $base_path ?>my_types/inguinal-hernia-surgery-in-chennai.php">Inguinal Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Occurs in the groin area. It is the most common hernia type and requires surgical repair to prevent bowel entrapment or strangulation.
@@ -82,7 +82,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/inguinal-hernia.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/inguinal-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>

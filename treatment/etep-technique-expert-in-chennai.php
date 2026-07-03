@@ -1,4 +1,6 @@
 <?php
+$page_title = 'eTEP Technique Expert for Hernia Surgery in Chennai | Dr. Kumar';
+$page_description = 'Consult Chennai\'s leading expert in the eTEP (Enhanced-view Totally Extraperitoneal) technique for complex groin and ventral hernia repair. Minimal pain, rapid recovery.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

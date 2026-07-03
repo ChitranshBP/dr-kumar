@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Symptoms of Hernia: Groin Bulges, Pain & Warning Signs | Dr. Kumar';
+$page_description = 'Recognize the symptoms of hernia, including visible bulges, groin pain, discomfort during lifting, and warning signs of a strangulated or incarcerated emergency.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

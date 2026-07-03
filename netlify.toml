@@ -18,6 +18,18 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/my_types/inguinal-hernia"
+  to = "https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/treatment/tapp-repair"
+  to = "https://herniacare360.com/treatment/tapp-repair-in-chennai"
+  status = 301
+  force = true
+
 # Redirect all clean URLs to their index.html files
 [[redirects]]
   from = "/*"

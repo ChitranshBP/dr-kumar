@@ -1,4 +1,8 @@
-<?php require __DIR__ . '/../includes/header.php'; ?>
+<?php
+$page_title = 'Da Vinci Robotic Surgery System for Hernia Repair | Dr. Kumar';
+$page_description = 'Experience the precision of the Da Vinci robotic surgery system for hernia repair in Chennai. Learn how robotic-assisted technology reduces pain and recovery times.';
+require __DIR__ . '/../includes/header.php';
+?>
 
 <!-- Hero Section -->
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
