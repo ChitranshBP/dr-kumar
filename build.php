@@ -241,10 +241,12 @@ foreach ($phpFiles as $f) {
 }
 $xml .= '</urlset>';
 file_put_contents($dist . '/sitemap.xml', $xml);
+file_put_contents($root . '/sitemap.xml', $xml);
 
 /* ---------- 5. robots ---------- */
 echo "🤖 Writing robots.txt\n";
 file_put_contents($dist . '/robots.txt', "User-agent: *\nAllow: /\nSitemap: https://herniacare360.com/sitemap.xml\n");
+file_put_contents($root . '/robots.txt', "User-agent: *\nAllow: /\nSitemap: https://herniacare360.com/sitemap.xml\n");
 
 /* ---------- 6. _redirects ---------- */
 echo "🔀 Writing _redirects\n";
