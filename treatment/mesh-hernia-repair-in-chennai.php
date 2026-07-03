@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Mesh Hernia Repair in Chennai | Dr. Kumar';
+$page_description = 'Looking for Mesh Hernia Repair in Chennai? Consult Dr. Kumar, a top laparoscopic hernia surgeon for advanced Mesh repair with faster recovery.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

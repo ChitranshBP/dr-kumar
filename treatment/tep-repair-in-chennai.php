@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Laparoscopic TEP Hernia Repair in Chennai | Dr. Kumar';
-$page_description = 'Seeking TEP Hernia Repair in Chennai? Consult Dr. Kumar, a top laparoscopic hernia surgeon in Chennai for advanced, minimally invasive TEP repair.';
+$page_title = 'TEP Hernia Repair in Chennai | Dr. Kumar';
+$page_description = 'Seeking TEP Hernia Repair in Chennai? Consult Dr. Kumar, a top laparoscopic hernia surgeon for advanced, minimally invasive TEP repair.';
 $page_url = 'https://herniacare360.com/treatment/tep-repair-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

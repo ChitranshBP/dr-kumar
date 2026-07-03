@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Laparoscopic TAPP Hernia Repair in Chennai | Dr. Kumar';
-$page_description = 'Looking for TAPP Hernia Repair in Chennai? Consult Dr. Kumar, a top laparoscopic hernia surgeon in Chennai for advanced TAPP repair with faster recovery.';
+$page_title = 'TAPP Hernia Repair in Chennai | Dr. Kumar';
+$page_description = 'Looking for TAPP Hernia Repair in Chennai? Consult Dr. Kumar, a top laparoscopic hernia surgeon for advanced TAPP repair with faster recovery.';
 $page_url = 'https://herniacare360.com/treatment/tapp-repair-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
