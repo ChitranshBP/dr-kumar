@@ -38,7 +38,7 @@ $site = [
 $nav = [
     'Home'                       => 'index.php',
     'About Us'                   => 'about-best-hernia-hospital-in-chennai.php',
-    'Hernia Surgery'             => 'treatment/hernia-surgery-in-chennai.php',
+    'Hernia Surgery'             => 'treatment/hernia-surgeon-in-chennai.php',
     'Laparoscopic Hernia Surgery'=> 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php',
     'Robotic Hernia Surgery'     => 'best-robotic-hernia-surgery-in-chennai.php',
     'Emergency Care'             => 'emergency-hernia-care.php',
@@ -89,7 +89,7 @@ $headerMenu = [
             [
                 'title' => 'Surgical Procedures',
                 'links' => [
-                    ['label' => 'Hernia Surgery Overview', 'link' => 'treatment/hernia-surgery-in-chennai.php'],
+                    ['label' => 'Hernia Surgery Overview', 'link' => 'treatment/hernia-surgeon-in-chennai.php'],
                     ['label' => 'Laparoscopic Surgery', 'link' => 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php'],
                     ['label' => 'Robotic Hernia Surgery', 'link' => 'best-robotic-hernia-surgery-in-chennai.php'],
                     ['label' => 'TAPP Repair Technique', 'link' => 'treatment/tapp-repair-in-chennai.php'],

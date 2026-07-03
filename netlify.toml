@@ -30,6 +30,12 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/treatment/hernia-surgery-in-chennai"
+  to = "https://herniacare360.com/treatment/hernia-surgeon-in-chennai"
+  status = 301
+  force = true
+
 # Redirect all clean URLs to their index.html files
 [[redirects]]
   from = "/*"
