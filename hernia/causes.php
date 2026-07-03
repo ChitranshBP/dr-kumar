@@ -1,4 +1,6 @@
 <?php
+$page_title = 'What Causes a Hernia? Risk Factors & Prevention Tips | Dr. Kumar';
+$page_description = 'Discover what causes muscle wall weakness and hernias. Learn about genetics, heavy lifting, chronic cough, obesity, and other risk factors.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

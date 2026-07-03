@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Hernia Repair in Obese & High BMI Patients | Dr. Kumar';
+$page_description = 'Discover safe hernia repair strategies for patients with high BMI or obesity. Learn about preoperative optimization and laparoscopic options.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

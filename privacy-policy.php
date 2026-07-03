@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Privacy Policy | Hernia Care 360';
+$page_description = 'Read the privacy policy for Hernia Care 360 and understand how we collect, process, and protect your personal and medical data.';
 require __DIR__ . '/includes/header.php';
 ?>
 

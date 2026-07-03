@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Hernia During Pregnancy: Management & Guidelines | Dr. Kumar';
+$page_description = 'Safe management of hernias during pregnancy. Learn about postpartum surgery timing, safe activity limits, and when to seek immediate care.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

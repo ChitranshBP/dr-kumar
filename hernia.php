@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Everything About Hernias: Types, Causes & Treatments | Dr. Kumar';
+$page_description = 'Comprehensive guide to understanding hernias. Learn about different types of hernias, root causes, symptoms, diagnosis, and surgical options.';
 require __DIR__ . '/includes/header.php';
 ?>
 

@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Online Consultation with Dr. Kumar | Telehealth Review';
+$page_description = 'Consult Dr. Kumar online from the comfort of your home. Get expert video consultation, diagnosis reviews, and surgical recommendations.';
 require __DIR__ . '/includes/header.php';
 ?>
 

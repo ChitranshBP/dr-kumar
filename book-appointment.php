@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Book an Appointment with Dr. Kumar | Hernia Surgeon Chennai';
+$page_description = 'Schedule a consultation with Dr. Kumar for advanced hernia, laparoscopic, or robotic surgery evaluation. Convenient online booking and priority slots.';
 require __DIR__ . '/includes/header.php';
 ?>
 

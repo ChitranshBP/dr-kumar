@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Hernia Diagnosis: Physical Exams, Ultrasounds & Scans | Dr. Kumar';
+$page_description = 'Learn how hernias are diagnosed. Explore physical examination methods, ultrasound scans, CT scans, and differential diagnosis checks.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

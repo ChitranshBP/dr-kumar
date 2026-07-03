@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Hernia Surgery for Senior Citizens & Elderly Patients | Dr. Kumar';
+$page_description = 'Explore special considerations for elderly hernia care. Safe anesthesia options, minimally invasive surgery, and tailored recovery plans.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

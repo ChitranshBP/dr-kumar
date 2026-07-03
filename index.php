@@ -1,4 +1,5 @@
 <?php
+$page_title = 'Dr. Kumar- Advanced Hernia, Laparoscopic & Robotic Surgeon in Chennai';
 $is_home = true;
 require __DIR__ . '/includes/header.php';
 ?>

@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Hernia Surgery in Diabetic Patients: Safe Management | Dr. Kumar';
+$page_description = 'Understand the safe protocols for hernia repair in patients with diabetes. Pre-operative blood sugar management, infection control, and healing tips.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

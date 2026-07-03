@@ -1,4 +1,6 @@
 <?php
+$page_title = 'Rare & Complex Hernia Treatments in Chennai | Dr. Kumar';
+$page_description = 'Specialized diagnosis and surgical repair for rare hernia types like Spigelian, Obturator, Lumbar, and internal hernias by Dr. Kumar in Chennai.';
 require __DIR__ . '/../includes/header.php';
 ?>
 
