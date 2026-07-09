@@ -744,7 +744,7 @@ require __DIR__ . '/includes/header.php';
             </a>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
             <?php
             $posts = [
                 [
@@ -762,14 +762,6 @@ require __DIR__ . '/includes/header.php';
                     'date'  => '04 July 2026',
                     'img'   => 'assets/images/hernia-come-back-after-surgery.jpg',
                     'link'  => 'blog/can-hernia-come-back-after-surgery.php',
-                ],
-                [
-                    'title' => 'Ultimate Guide to Abdominal Hernia Recovery: Post-Op Tips',
-                    'desc'  => 'Discover actionable lifestyle modifications, wound care practices, and activity restriction timelines to ensure a smooth postoperative recovery.',
-                    'tag'   => 'Recovery',
-                    'date'  => 'May 15, 2026',
-                    'img'   => 'assets/images/wound-care.png',
-                    'link'  => 'treatment/recovery.php',
                 ],
             ];
             foreach ($posts as $p): ?>
