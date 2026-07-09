@@ -748,28 +748,28 @@ require __DIR__ . '/includes/header.php';
             <?php
             $posts = [
                 [
+                    'title' => 'Why is my Stomach Bigger After Hernia Surgery?',
+                    'desc'  => 'Read our complete medical assessment on stomach swelling after hernia surgery, postoperative bloating, timelines, and recovery tips.',
+                    'tag'   => 'Recovery Guide',
+                    'date'  => '09 July 2026',
+                    'img'   => 'assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg',
+                    'link'  => 'blog/why-is-my-stomach-bigger-after-hernia-surgery.php',
+                ],
+                [
+                    'title' => 'Can a Hernia Come Back After Surgery? {Complete Guide}',
+                    'desc'  => 'Read our complete medical guide on hernia recurrence risk factors, causes, prevention strategies, and treatment options by Dr. Kumar.',
+                    'tag'   => 'Hernia Surgery',
+                    'date'  => '04 July 2026',
+                    'img'   => 'assets/images/hernia-come-back-after-surgery.jpg',
+                    'link'  => 'blog/can-hernia-come-back-after-surgery.php',
+                ],
+                [
                     'title' => 'Ultimate Guide to Abdominal Hernia Recovery: Post-Op Tips',
                     'desc'  => 'Discover actionable lifestyle modifications, wound care practices, and activity restriction timelines to ensure a smooth postoperative recovery.',
                     'tag'   => 'Recovery',
                     'date'  => 'May 15, 2026',
                     'img'   => 'assets/images/wound-care.png',
                     'link'  => 'treatment/recovery.php',
-                ],
-                [
-                    'title' => 'Why eTEP is a Game-Changer for Complex Ventral Hernias',
-                    'desc'  => 'Learn how the Enhanced Totally Extraperitoneal (eTEP) repair offers anatomical reconstruction with minimal scarring and mesh reinforcement.',
-                    'tag'   => 'Technology',
-                    'date'  => 'May 10, 2026',
-                    'img'   => 'assets/images/etep-reconstruction.png',
-                    'link'  => 'treatment/etep-technique-expert-in-chennai.php',
-                ],
-                [
-                    'title' => 'Robotic vs. Laparoscopic Hernia Surgery: Which is Right for You?',
-                    'desc'  => 'A detailed comparison of keyhole approaches, highlighting the benefits of robotic-assisted wristed instruments and high-definition 3D visualization.',
-                    'tag'   => 'Surgical Choice',
-                    'date'  => 'April 28, 2026',
-                    'img'   => 'assets/images/laparoscopic-precision.png',
-                    'link'  => 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php',
                 ],
             ];
             foreach ($posts as $p): ?>
