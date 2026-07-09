@@ -161,9 +161,9 @@ $headerMenu = [
                 'title' => 'Patient Resources',
                 'links' => [
                     ['label' => 'Education & Resources', 'link' => 'resources/patient-resources.php'],
+                    ['label' => 'Hernia Symptom Checker', 'link' => 'resources/symptom-checker.php'],
                     ['label' => 'FAQs', 'link' => 'resources/faqs.php'],
                     ['label' => 'Medical Glossary & Terms', 'link' => 'resources/glossary.php'],
-                    ['label' => 'Hernia Symptom Checker', 'link' => 'resources/symptom-checker.php'],
                 ]
             ]
         ]
