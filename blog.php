@@ -70,7 +70,7 @@ require_once __DIR__ . '/includes/header.php';
             <!-- Article 1 -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="recovery">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
-                    <img src="assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is my Stomach Bigger After Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img src="<?= $base_path ?>assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is my Stomach Bigger After Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                     <span class="absolute top-4 left-4 bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-100 shadow-sm">
                         Recovery Guide
                     </span>
@@ -96,7 +96,7 @@ require_once __DIR__ . '/includes/header.php';
             <!-- Article 2 -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
-                    <img src="assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery? {Complete Guide}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img src="<?= $base_path ?>assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery? {Complete Guide}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                     <span class="absolute top-4 left-4 bg-amber-50 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full border border-amber-100 shadow-sm">
                         Hernia Surgery
                     </span>

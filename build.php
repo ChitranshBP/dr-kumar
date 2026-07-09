@@ -56,7 +56,6 @@ function getPageBody(string $content): string {
     // Remove PHP tags
     $content = preg_replace('/^<\?php\s*/', '', $content);
     $content = preg_replace('/\?>\s*$/', '', $content);
-    $content = preg_replace('/^\s*\$[a-z_]+\s*=.*$/m', '', $content);
 
     return trim($content);
 }
@@ -159,8 +158,7 @@ foreach ($phpFiles as $file) {
     // Load header (outputs DOCTYPE, <html>, <head>, opening <body>)
     require $root . '/includes/header.php';
 
-    // Output page content
-    echo $pageBody;
+    eval('?>' . $pageBody);
 
     // Load footer (closes <body>, <html>)
     require $root . '/includes/footer.php';
