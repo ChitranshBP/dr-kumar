@@ -55,7 +55,7 @@ function getPageBody(string $content): string {
 
     // Remove PHP tags
     $content = preg_replace('/^<\?php\s*/', '', $content);
-    $content = str_replace('?>', '', $content);
+    $content = preg_replace('/\?>\s*$/', '', $content);
     $content = preg_replace('/^\s*\$[a-z_]+\s*=.*$/m', '', $content);
 
     return trim($content);
@@ -167,8 +167,7 @@ foreach ($phpFiles as $file) {
 
     $fullHtml = ob_get_clean();
 
-    // Fix relative asset paths - use preg_replace to catch all patterns
-    $fullHtml = preg_replace('/(href|src)="assets\//', '$1="' . $prefix . 'assets/', $fullHtml);
+    $fullHtml = preg_replace('/(href|src)="(?:(?:\.\.\/)*)assets\//', '$1="' . $prefix . 'assets/', $fullHtml);
 
     // Fix .php href links to clean URLs
     $fullHtml = preg_replace('/href="([^"]*)\.php"/', 'href="$1/"', $fullHtml);

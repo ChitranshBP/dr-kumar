@@ -1,18 +1,20 @@
 <?php
-// Calculate base path dynamically to avoid broken assets or pages in subdirectories
-$project_root = dirname(__DIR__);
-$current_script = $_SERVER['SCRIPT_FILENAME'] ?? '';
-// Respect base_path if already set (by build.php), only calculate if not set
+// Calculate base path dynamically based on actual request URL to avoid broken assets or pages in subdirectories
 if (!isset($base_path)) {
     $base_path = '';
 
-    if (!empty($current_script)) {
-        $root_std = str_replace('\\', '/', realpath($project_root));
-        $script_std = str_replace('\\', '/', realpath($current_script));
-        $relative = str_replace($root_std, '', $script_std);
-        $relative = ltrim($relative, '/');
-        $levels = substr_count($relative, '/');
-        $base_path = str_repeat('../', $levels);
+    if (isset($_SERVER['REQUEST_URI'])) {
+        $request_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $request_path = str_replace('\\', '/', $request_path);
+        $request_path = ltrim($request_path, '/');
+        
+        if (!empty($request_path)) {
+            $levels = substr_count(rtrim($request_path, '/'), '/');
+            if (str_ends_with($request_path, '/')) {
+                $levels += 1;
+            }
+            $base_path = str_repeat('../', $levels);
+        }
     }
 }
 

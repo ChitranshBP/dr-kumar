@@ -48,7 +48,7 @@ require_once __DIR__ . '/../includes/header.php';
             <!-- Left Column: Article Body -->
             <article class="lg:col-span-8 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
                 <div class="prose prose-slate max-w-none">
-                    <img src="assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is my Stomach Bigger After Hernia Surgery?" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[420px]">
+                    <img src="../assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is my Stomach Bigger After Hernia Surgery?" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[420px]">
                     
                     <!-- Introduction -->
                     <h2 class="font-display text-2xl font-bold text-slate-900 mb-4">Introduction</h2>
