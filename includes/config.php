@@ -153,7 +153,6 @@ $headerMenu = [
                 'links' => [
                     ['label' => 'Emergency Hernia Care', 'link' => 'emergency-hernia-care.php'],
                     ['label' => 'Online Consultation Portal', 'link' => 'online-consultation.php'],
-                    ['label' => 'International Patients Portal', 'link' => 'international-patients.php'],
                     ['label' => 'Expert Second Opinion', 'link' => 'second-opinion.php'],
                 ]
             ],
@@ -161,6 +160,8 @@ $headerMenu = [
                 'title' => 'Patient Resources',
                 'links' => [
                     ['label' => 'Education & Resources', 'link' => 'resources/patient-resources.php'],
+                    ['label' => 'Hernia Symptom Checker', 'link' => 'resources/symptom-checker.php'],
+                    ['label' => 'International Patients Portal', 'link' => 'international-patients.php'],
                     ['label' => 'FAQs', 'link' => 'resources/faqs.php'],
                     ['label' => 'Medical Glossary & Terms', 'link' => 'resources/glossary.php'],
                 ]
