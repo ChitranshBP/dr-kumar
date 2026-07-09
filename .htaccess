@@ -1,5 +1,10 @@
 RewriteEngine on 
 
+# Rewrite requests for directories that conflict with root files
+RewriteRule ^blog/?$ blog.php [L,NC]
+RewriteRule ^hernia/?$ hernia.php [L,NC]
+RewriteRule ^treatment/?$ treatment.php [L,NC]
+
 # 301 Redirects for moved pages
 RewriteRule ^my_types/inguinal-hernia(\.php)?/?$ https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai [R=301,L,NC]
 RewriteRule ^treatment/tapp-repair(\.php)?/?$ https://herniacare360.com/treatment/tapp-repair-in-chennai [R=301,L,NC]
