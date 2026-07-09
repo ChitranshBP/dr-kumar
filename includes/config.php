@@ -142,6 +142,7 @@ $headerMenu = [
                     ['label' => 'Elderly Hernia Care', 'link' => 'special-considerations/elderly.php'],
                     ['label' => 'Hernia in Children', 'link' => 'special-considerations/hernia-in-children.php'],
                     ['label' => 'Chronic Pain after Surgery', 'link' => 'special-considerations/chronic-pain.php'],
+                    ['label' => 'Hernia & Chronic Cough - COPD', 'link' => 'special-considerations/chronic-cough-copd.php'],
                 ]
             ],
             [
@@ -149,6 +150,7 @@ $headerMenu = [
                 'links' => [
                     ['label' => 'Emergency Hernia Care', 'link' => 'emergency-hernia-care.php'],
                     ['label' => 'Online Consultation Portal', 'link' => 'online-consultation.php'],
+                    ['label' => 'International Patients Portal', 'link' => 'international-patients.php'],
                     ['label' => 'Expert Second Opinion', 'link' => 'second-opinion.php'],
                 ]
             ],

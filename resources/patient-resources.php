@@ -33,6 +33,149 @@ require __DIR__ . '/../includes/header.php';
 <section class="py-16 bg-slate-50">
     <div class="max-w-6xl mx-auto px-4">
 
+        <!-- Hernia Symptom Spotter -->
+        <div class="mb-16">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="w-14 h-14 rounded-2xl bg-cyan-600 text-white flex items-center justify-center">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800">Hernia Symptom Spotter</h2>
+                    <p class="text-slate-600">Identify the signs and know when to consult a specialist</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 md:p-8">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Symptom 1 -->
+                    <div class="p-5 rounded-xl bg-slate-50 border border-slate-100">
+                        <span class="inline-block px-2.5 py-1 text-xs font-semibold bg-brand-100 text-brand-800 rounded-full mb-3">Visual Sign</span>
+                        <h4 class="font-bold text-slate-800 mb-2">Visible Bulge or Lump</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            A swelling under the skin in the groin or abdomen. It often increases in size when standing, coughing, or lifting, and may disappear when lying down.
+                        </p>
+                    </div>
+                    <!-- Symptom 2 -->
+                    <div class="p-5 rounded-xl bg-slate-50 border border-slate-100">
+                        <span class="inline-block px-2.5 py-1 text-xs font-semibold bg-brand-100 text-brand-800 rounded-full mb-3">Sensory Sign</span>
+                        <h4 class="font-bold text-slate-800 mb-2">Dull Ache or Burning</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            A nagging ache, pulling, or burning sensation at the bulge site. This discomfort typically intensifies during heavy lifting, bending, or prolonged standing.
+                        </p>
+                    </div>
+                    <!-- Symptom 3 -->
+                    <div class="p-5 rounded-xl bg-slate-50 border border-slate-100">
+                        <span class="inline-block px-2.5 py-1 text-xs font-semibold bg-brand-100 text-brand-800 rounded-full mb-3">Pressure Sign</span>
+                        <h4 class="font-bold text-slate-800 mb-2">Feeling of Heaviness</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            A continuous sensation of pressure, fullness, or weakness in the abdomen or groin, especially when straining or lifting weights.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Warning Callout -->
+                <div class="mt-6 p-6 bg-red-50 rounded-xl border border-red-200 flex flex-col md:flex-row items-start gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center shrink-0 text-red-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-red-950 mb-1">Emergency Warning Signs (Incarcerated / Strangulated Hernia)</h4>
+                        <p class="text-sm text-red-800 leading-relaxed mb-2">
+                            Seek immediate emergency medical attention if you experience: a bulge that turns dark/purple or cannot be gently pushed back, severe or worsening pain, nausea or vomiting, or inability to pass gas or have bowel movements.
+                        </p>
+                        <a href="emergency-hernia-care.php" class="text-xs font-bold text-red-700 hover:text-red-900 flex items-center gap-1">
+                            Read Emergency Care Protocols →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Prevention of Hernia -->
+        <div class="mb-16">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-800">Prevention of Hernia</h2>
+                    <p class="text-slate-600">Practical tips to protect and strengthen your abdominal wall</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 md:p-8">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Tip 1 -->
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">Lift Safely</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Always bend from your knees and lift using your leg muscles rather than bending your waist. Avoid lifting objects that are excessively heavy.</p>
+                        </div>
+                    </div>
+                    <!-- Tip 2 -->
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">Manage Weight</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Maintaining a healthy BMI reduces persistent downward and outward pressure on the abdominal muscles and tissues.</p>
+                        </div>
+                    </div>
+                    <!-- Tip 3 -->
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">High-Fiber Diet</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Eat fiber-rich foods and drink plenty of water to promote easy bowel movements. Straining during constipation increases groin pressure.</p>
+                        </div>
+                    </div>
+                    <!-- Tip 4 -->
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">Stop Smoking</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Smoking causes chronic coughs which spike pressure in the abdomen, and nicotine degrades the collagen structures responsible for fascial strength.</p>
+                        </div>
+                    </div>
+                    <!-- Tip 5 -->
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">Treat Chronic Cough</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Optimize respiratory issues such as asthma, COPD, or chronic bronchitis promptly to avoid constant abdominal pressure spikes.</p>
+                        </div>
+                    </div>
+                    <!-- Tip 6 -->
+                    <div class="flex gap-4">
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 mb-1">Strengthen Core</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Engage in exercises that build abdominal muscle strength and structural integrity, supporting the organs naturally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Pre-Surgery Checklist -->
         <div class="mb-16">
             <div class="flex items-center gap-4 mb-6">
