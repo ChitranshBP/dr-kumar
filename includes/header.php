@@ -564,10 +564,13 @@ if (!isset($schema_about)) {
             <ul class="hidden lg:flex items-center flex-nowrap gap-1 xl:gap-2">
                 <?php 
                 $current_page = basename($_SERVER['SCRIPT_NAME']);
+                $is_blog_section = (strpos($_SERVER['SCRIPT_NAME'] ?? '', '/blog') !== false);
                 foreach ($headerMenu as $item):
                     $hasDropdown = isset($item['dropdown']);
                     $isActive = false;
                     if (isset($item['link']) && basename($item['link']) === $current_page) {
+                        $isActive = true;
+                    } elseif (isset($item['link']) && basename($item['link']) === 'blog.php' && $is_blog_section) {
                         $isActive = true;
                     } elseif ($hasDropdown) {
                         foreach ($item['dropdown'] as $col) {

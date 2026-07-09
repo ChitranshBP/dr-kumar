@@ -42,6 +42,7 @@ $nav = [
     'Laparoscopic Hernia Surgery'=> 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php',
     'Robotic Hernia Surgery'     => 'best-robotic-hernia-surgery-in-chennai.php',
     'Emergency Care'             => 'emergency-hernia-care.php',
+    'Blog'                       => 'blog.php',
     'Contact Us'                 => 'contact.php',
 ];
 
@@ -163,6 +164,10 @@ $headerMenu = [
                 ]
             ]
         ]
+    ],
+    [
+        'label' => 'Blog',
+        'link'  => 'blog.php',
     ],
     [
         'label' => 'Contact Us',

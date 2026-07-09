@@ -111,9 +111,9 @@ foreach ($phpFiles as $file) {
     // Create a complete HTML file using header/footer includes
     ob_start();
 
-    // Set up environment
     $_SERVER['DOCUMENT_ROOT'] = $root;
-    $_SERVER['PHP_SELF'] = basename($file['path']);
+    $_SERVER['PHP_SELF'] = '/' . $file['name'];
+    $_SERVER['SCRIPT_NAME'] = '/' . $file['name'];
 
     // Extract meta variables if defined in the PHP file
     $page_title = null;
