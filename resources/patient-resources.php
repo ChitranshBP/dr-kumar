@@ -33,6 +33,23 @@ require __DIR__ . '/../includes/header.php';
 <section class="py-16 bg-slate-50">
     <div class="max-w-6xl mx-auto px-4">
 
+        <!-- Hernia Symptom Checker Callout -->
+        <div class="mb-12 bg-gradient-to-r from-brand-900 to-brand-950 text-white rounded-3xl p-8 md:p-10 shadow-lg border border-brand-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="max-w-xl">
+                <span class="inline-flex items-center gap-2 bg-amber-500/20 backdrop-blur px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-4 text-amber-300 border border-emerald-500/30">
+                    Interactive Assessment
+                </span>
+                <h3 class="font-display text-2xl md:text-3xl font-bold mb-3">Interactive Hernia Symptom Checker</h3>
+                <p class="text-brand-100 text-sm md:text-base leading-relaxed">Concerned about abdominal discomfort, a persistent ache, or a visible bulge? Use our self-assessment checker to evaluate your symptoms and see if a surgical consultation is recommended.</p>
+            </div>
+            <div class="shrink-0 w-full md:w-auto">
+                <a href="symptom-checker.php" class="w-full md:w-auto text-center inline-flex items-center justify-center bg-gradient-to-r from-accent to-amber-500 hover:shadow-lg text-white font-bold px-8 py-4 rounded-xl shadow-md transition hover:scale-105 gap-2">
+                    Start Symptom Checker
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+        </div>
+
         <!-- Hernia Symptom Spotter -->
         <div class="mb-16">
             <div class="flex items-center gap-4 mb-6">
