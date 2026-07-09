@@ -118,7 +118,7 @@ require __DIR__ . '/includes/header.php';
             </div>
             <div>
                 <p class="font-display text-2xl font-bold text-brand-700">5.0 ★</p>
-                <p class="text-xs uppercase tracking-wider text-slate-500 font-semibold mt-1">590+ Patient Reviews</p>
+                <p class="text-xs uppercase tracking-wider text-slate-500 font-semibold mt-1">600+ Patient Reviews</p>
             </div>
         </div>
 

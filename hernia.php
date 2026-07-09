@@ -936,7 +936,7 @@ require __DIR__ . '/includes/header.php';
                             <p class="text-sm text-slate-500">Google Rating</p>
                         </div>
                         <div class="bg-white rounded-xl p-4 text-center shadow-sm">
-                            <p class="text-3xl font-bold text-brand-700">590+</p>
+                            <p class="text-3xl font-bold text-brand-700">600+</p>
                             <p class="text-sm text-slate-500">Reviews</p>
                         </div>
                     </div>

@@ -507,7 +507,7 @@ require __DIR__ . '/includes/header.php';
                     <?php endfor; ?>
                 </div>
                 <p class="text-sm text-slate-600">
-                    <span class="font-bold text-slate-900">5.0 avg</span> &middot; 590+ verified reviews
+                    <span class="font-bold text-slate-900">5.0 avg</span> &middot; 600+ verified reviews
                 </p>
             </div>
         </div>
