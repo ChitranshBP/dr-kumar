@@ -91,9 +91,9 @@ require __DIR__ . '/includes/header.php';
                     Robotic surgery combines the benefits of minimally invasive keyhole procedures with advanced computer controls that give Dr. Kumar enhanced capabilities for meticulous abdominal reconstruction.
                 </p>
 
-                <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-xl group">
-                    <img src="<?= $base_path ?>assets/images/robotic-benefits.png"
-                         alt="Advanced surgical monitor and console setup"
+                <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[735/548] border border-slate-200 shadow-xl group">
+                    <img src="<?= $base_path ?>assets/latest-images/robotic-surgery-dr-kumar.png"
+                         alt="Dr. Kumar performing advanced robotic hernia surgery"
                          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"></div>

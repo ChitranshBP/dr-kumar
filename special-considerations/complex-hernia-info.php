@@ -41,101 +41,24 @@ require __DIR__ . '/../includes/header.php';
                 </div>
             </div>
             <div class="hidden lg:block">
-                <!-- Complex Hernia Illustration SVG -->
-                <svg viewBox="0 0 400 350" class="w-full max-w-md mx-auto drop-shadow-2xl">
-                    <defs>
-                        <linearGradient id="abdominalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#f8fafc"/>
-                            <stop offset="100%" style="stop-color:#e2e8f0"/>
-                        </linearGradient>
-                        <linearGradient id="defectGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#f59e0b"/>
-                            <stop offset="100%" style="stop-color:#dc2626"/>
-                        </linearGradient>
-                        <linearGradient id="meshGradC" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#0e7490"/>
-                            <stop offset="100%" style="stop-color:#0891b2"/>
-                        </linearGradient>
-                        <filter id="glow">
-                            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-                            <feMerge>
-                                <feMergeNode in="coloredBlur"/>
-                                <feMergeNode in="SourceGraphic"/>
-                            </feMerge>
-                        </filter>
-                    </defs>
-
-                    <!-- Background Circle -->
-                    <circle cx="200" cy="175" r="150" fill="#ecfeff" opacity="0.3"/>
-
-                    <!-- Abdominal Wall Cross-Section -->
-                    <g transform="translate(100, 30)" filter="url(#glow)">
-                        <!-- Outer skin layer -->
-                        <path d="M30 50 Q100 20 170 50 L180 250 Q100 280 20 250 Z" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
-
-                        <!-- Fascia layer -->
-                        <path d="M40 70 Q100 45 160 70 L168 240 Q100 265 32 240 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="1.5"/>
-
-                        <!-- Muscle layer -->
-                        <path d="M50 90 Q100 70 150 90 L156 230 Q100 250 44 230 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
-
-                        <!-- Peritoneum -->
-                        <path d="M60 110 Q100 95 140 110 L144 220 Q100 235 56 220 Z" fill="#fecaca" stroke="#f87171" stroke-width="1"/>
-
-                        <!-- Hernia defect -->
-                        <ellipse cx="100" cy="160" rx="35" ry="45" fill="url(#defectGrad)" opacity="0.8"/>
-                        <ellipse cx="100" cy="155" rx="25" ry="30" fill="#fbbf24" opacity="0.5"/>
-
-                        <!-- Hernia contents (intestine indication) -->
-                        <path d="M85 140 Q90 130 100 135 Q110 140 115 130" stroke="#dc2626" stroke-width="2" fill="none" stroke-linecap="round"/>
-                        <path d="M80 160 Q95 150 105 160 Q115 170 110 180" stroke="#dc2626" stroke-width="2" fill="none" stroke-linecap="round"/>
-
-                        <!-- Mesh overlay (for repair indication) -->
-                        <g opacity="0.3">
-                            <line x1="65" y1="140" x2="65" y2="180" stroke="#0e7490" stroke-width="2"/>
-                            <line x1="80" y1="135" x2="80" y2="185" stroke="#0e7490" stroke-width="2"/>
-                            <line x1="100" y1="130" x2="100" y2="190" stroke="#0e7490" stroke-width="2"/>
-                            <line x1="120" y1="135" x2="120" y2="185" stroke="#0e7490" stroke-width="2"/>
-                            <line x1="135" y1="140" x2="135" y2="180" stroke="#0e7490" stroke-width="2"/>
-                            <line x1="55" y1="150" x2="145" y2="150" stroke="#0e7490" stroke-width="2"/>
-                            <line x1="55" y1="165" x2="145" y2="165" stroke="#0e7490" stroke-width="2"/>
-                            <line x1="55" y1="180" x2="145" y2="180" stroke="#0e7490" stroke-width="2"/>
-                        </g>
-
-                        <!-- Layer labels -->
-                        <text x="175" y="65" fill="#64748b" font-size="8">Skin</text>
-                        <text x="175" y="100" fill="#64748b" font-size="8">Fascia</text>
-                        <text x="175" y="135" fill="#64748b" font-size="8">Muscle</text>
-                        <text x="175" y="165" fill="#f87171" font-size="8">Hernia</text>
-                    </g>
-
-                    <!-- Size indicator -->
-                    <g transform="translate(50, 280)">
-                        <rect x="0" y="0" width="120" height="45" rx="8" fill="#1e293b" opacity="0.9"/>
-                        <text x="60" y="18" text-anchor="middle" fill="white" font-size="10" font-weight="bold">DEFECT SIZE</text>
-                        <line x1="10" y1="32" x2="110" y2="32" stroke="#f59e0b" stroke-width="2"/>
-                        <polygon points="10,32 20,28 20,36" fill="#f59e0b"/>
-                        <polygon points="110,32 100,28 100,36" fill="#f59e0b"/>
-                        <text x="60" y="42" text-anchor="middle" fill="#f59e0b" font-size="9">Large &gt;5cm</text>
-                    </g>
-
-                    <!-- Technique indicators -->
-                    <g transform="translate(280, 100)">
-                        <rect x="0" y="0" width="80" height="90" rx="8" fill="#0e7490" opacity="0.1" stroke="#0e7490" stroke-width="1"/>
-                        <text x="40" y="20" text-anchor="middle" fill="#0e7490" font-size="9" font-weight="bold">TECHNIQUES</text>
-                        <text x="40" y="40" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="bold">eTEP</text>
-                        <text x="40" y="55" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="bold">TAR</text>
-                        <text x="40" y="70" text-anchor="middle" fill="#0e7490" font-size="11" font-weight="bold">CST</text>
-                    </g>
-
-                    <!-- Complexity meter -->
-                    <g transform="translate(280, 210)">
-                        <rect x="0" y="0" width="80" height="70" rx="8" fill="#dc2626" opacity="0.1" stroke="#dc2626" stroke-width="1"/>
-                        <text x="40" y="18" text-anchor="middle" fill="#dc2626" font-size="8" font-weight="bold">COMPLEXITY</text>
-                        <circle cx="40" cy="45" r="18" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="85 100"/>
-                        <text x="40" y="50" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="bold">HIGH</text>
-                    </g>
-                </svg>
+                <div class="relative rounded-3xl overflow-hidden aspect-square border border-white/10 group shadow-2xl max-w-md mx-auto bg-slate-900">
+                    <img src="<?= $base_path ?>assets/latest-images/complex-hernia-repair.jpg" 
+                         alt="Advanced 3D Medical Illustration of Complex Hernia Abdominal Wall Reconstruction"
+                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                         loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/10 to-transparent"></div>
+                    
+                    <!-- Glassmorphic Info Badge -->
+                    <div class="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-xl border border-white/20 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-brand-50 border border-brand-100 flex items-center justify-center text-brand-700 shrink-0 shadow-inner">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-900 text-xs leading-none font-display">Reconstructive Excellence</p>
+                            <p class="text-[10px] text-brand-600 font-semibold mt-1">Multi-layered abdominal restoration with sublay mesh placement</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

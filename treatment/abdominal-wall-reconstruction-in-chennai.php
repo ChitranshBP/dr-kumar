@@ -89,9 +89,12 @@ require __DIR__ . '/../includes/header.php';
             </div>
 
             <div class="lg:col-span-5">
-                <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                    <img src="<?= $base_path ?>assets/images/laparoscopic-new.png" alt="Abdominal Wall Reconstruction" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent"></div>
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[1274/627] bg-slate-100 group">
+                    <img src="<?= $base_path ?>assets/latest-images/TAR.png" 
+                         alt="Transversus Abdominis Release (TAR) diagram" 
+                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                         loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"></div>
                 </div>
             </div>
         </div>

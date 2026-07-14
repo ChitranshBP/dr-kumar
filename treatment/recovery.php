@@ -285,21 +285,12 @@ require __DIR__ . '/../includes/header.php';
 
             <!-- Right Column: Premium Image & Comparison Panel (lg:col-span-5) -->
             <div class="lg:col-span-5 space-y-6">
-                <div class="relative rounded-3xl overflow-hidden bg-slate-100 aspect-[4/3] border border-slate-200 shadow-2xl group">
-                    <img src="<?= $base_path ?>assets/images/wound-care.png"
+                <div class="relative rounded-3xl overflow-hidden  aspect-[4/3] group">
+                    <img src="<?= $base_path ?>assets\latest-images\pre-operative-opt.png"
                          alt="Hernia post-surgery wound care review"
-                         class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                         class="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
                          loading="lazy">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-slate-950/10 to-transparent"></div>
-                    <div class="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-xl border border-white/20 flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-xl bg-brand-50 border border-brand-100 flex items-center justify-center text-brand-700 shrink-0 shadow-inner">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
-                        </div>
-                        <div>
-                            <p class="font-bold text-slate-900 text-sm leading-tight font-display">Post-Op Inspection</p>
-                            <p class="text-xs text-brand-600 font-semibold mt-0.5">Expert scar and wound healing support</p>
-                        </div>
-                    </div>
+             
                 </div>
 
                 <!-- Normal vs Concerning Healing Grid -->

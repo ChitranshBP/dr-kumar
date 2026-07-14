@@ -91,60 +91,19 @@ require __DIR__ . '/../includes/header.php';
                 </div>
             </div>
 
-            <!-- SVG Diagram Column -->
+            <!-- Image Column -->
             <div class="lg:col-span-5">
                 <div class="bg-white rounded-3xl shadow-xl p-8 border border-slate-100">
                     <h3 class="font-display text-lg font-bold text-slate-900 mb-6 text-center">
-                        Abdominal Cross-Section
+                        Diastasis Recti Classification
                     </h3>
                     
-                    <!-- Inline SVG: Normal vs. Diastasis -->
-                    <svg class="w-full h-auto" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Panel Background -->
-                        <rect width="400" height="300" rx="16" fill="#f8fafc" />
-                        
-                        <!-- LEFT SIDE: Normal -->
-                        <rect x="25" y="40" width="160" height="235" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-                        <text x="105" y="65" fill="#0f172a" font-size="11" font-weight="700" text-anchor="middle">Normal Anatomy</text>
-                        
-                        <!-- Spine/Back schematic -->
-                        <circle cx="105" cy="240" r="10" fill="#cbd5e1"/>
-                        
-                        <!-- Abdominal wall layers normal -->
-                        <!-- Left muscle -->
-                        <path d="M 60 120 Q 85 110 100 110" stroke="#f87171" stroke-width="8" stroke-linecap="round" fill="none"/>
-                        <!-- Right muscle -->
-                        <path d="M 150 120 Q 125 110 110 110" stroke="#f87171" stroke-width="8" stroke-linecap="round" fill="none"/>
-                        <!-- Linea Alba (normal join) -->
-                        <line x1="100" y1="110" x2="110" y2="110" stroke="#0891b2" stroke-width="3"/>
-                        
-                        <text x="105" y="145" fill="#475569" font-size="9" text-anchor="middle">Linea Alba (Tight)</text>
-                        <text x="105" y="160" fill="#64748b" font-size="8" text-anchor="middle">Rectus muscles close together</text>
-
-                        <!-- RIGHT SIDE: Diastasis Recti -->
-                        <rect x="215" y="40" width="160" height="235" rx="8" fill="#ffffff" stroke="#fee2e2" stroke-width="1.5"/>
-                        <text x="295" y="65" fill="#b91c1c" font-size="11" font-weight="700" text-anchor="middle">Diastasis Recti</text>
-                        
-                        <!-- Spine/Back schematic -->
-                        <circle cx="295" cy="240" r="10" fill="#cbd5e1"/>
-                        
-                        <!-- Abdominal wall layers diastasis -->
-                        <!-- Left muscle shifted -->
-                        <path d="M 240 125 Q 265 115 275 115" stroke="#f87171" stroke-width="8" stroke-linecap="round" fill="none"/>
-                        <!-- Right muscle shifted -->
-                        <path d="M 350 125 Q 325 115 315 115" stroke="#f87171" stroke-width="8" stroke-linecap="round" fill="none"/>
-                        <!-- Stretched Linea Alba bulge -->
-                        <path d="M 275 115 Q 295 90 315 115" stroke="#ea580c" stroke-width="2.5" stroke-dasharray="2 1" fill="none"/>
-                        
-                        <text x="295" y="145" fill="#ea580c" font-size="9" font-weight="600" text-anchor="middle">Stretched &amp; Thin Midline</text>
-                        <text x="295" y="160" fill="#64748b" font-size="8" text-anchor="middle">Muscles separated (bulging)</text>
-                        
-                        <!-- Visual arrow/label for separation gap -->
-                        <line x1="275" y1="120" x2="315" y2="120" stroke="#dc2626" stroke-width="1.5"/>
-                        <polygon points="275,120 279,117 279,123" fill="#dc2626"/>
-                        <polygon points="315,120 311,117 311,123" fill="#dc2626"/>
-                        <text x="295" y="132" fill="#dc2626" font-size="8" font-weight="700" text-anchor="middle">Separation Gap</text>
-                    </svg>
+                    <div class="relative rounded-2xl overflow-hidden aspect-[1328/669] group">
+                        <img src="<?= $base_path ?>assets/latest-images/recti-classification.png"
+                             alt="Diastasis Recti Classification Diagram"
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                             loading="lazy">
+                    </div>
                     
                     <div class="mt-4 p-3.5 bg-brand-50 rounded-xl border border-brand-200 text-xs text-brand-800 leading-relaxed">
                         <strong>Clinical Insight:</strong> When the separation is wide (typically &gt; 2 cm), the core loses its central anchor, predisposing the midline to umbilical or epigastric hernias.

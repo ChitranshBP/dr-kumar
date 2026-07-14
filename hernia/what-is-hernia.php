@@ -58,9 +58,12 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="relative rounded-3xl overflow-hidden h-80 lg:h-96">
-                <img src="<?= $base_path ?>assets/images/what_is_hernia_def.png" alt="What is a Hernia" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-900/30 to-transparent"></div>
+            <div class="relative rounded-3xl overflow-hidden aspect-[1332/747] border border-slate-200/60 shadow-xl bg-slate-50 group">
+                <img src="<?= $base_path ?>assets/latest-images/classification-of-hernia.png" 
+                     alt="Classification of Abdominal Hernias Diagram" 
+                     class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                     loading="lazy">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/45 via-transparent to-transparent"></div>
             </div>
         </div>
     </div>
