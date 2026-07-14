@@ -10,6 +10,13 @@ RewriteRule ^my_types/inguinal-hernia(\.php)?/?$ https://herniacare360.com/my_ty
 RewriteRule ^treatment/tapp-repair(\.php)?/?$ https://herniacare360.com/treatment/tapp-repair-in-chennai [R=301,L,NC]
 RewriteRule ^treatment/hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/treatment/hernia-surgeon-in-chennai [R=301,L,NC]
 
+# 301 Redirect for spam pages
+RewriteCond %{QUERY_STRING} ^nocache=1777519964&jet_blog_ajax=1$ [NC]
+RewriteRule ^about-us/?$ /? [R=301,L]
+
+RewriteRule ^[a-z]\d{14}(/m)?/?$ / [R=301,L,NC]
+
+
 # 301 Redirect /index or /index.php to /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(\.php)? [NC]
 RewriteRule ^index(\.php)?$ / [R=301,L]

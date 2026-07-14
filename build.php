@@ -249,7 +249,122 @@ file_put_contents($root . '/robots.txt', "User-agent: *\nAllow: /\nSitemap: http
 echo "🔀 Writing _redirects\n";
 // SPA-style: all paths serve from the dist directory where Netlify auto-serves index.html
 // The _redirects file ensures clean URLs work
-file_put_contents($dist . '/_redirects', "/index    /    301!\n/index.html    /    301!\n/my_types/inguinal-hernia    https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai    301!\n/treatment/tapp-repair    https://herniacare360.com/treatment/tapp-repair-in-chennai    301!\n/treatment/hernia-surgery-in-chennai    https://herniacare360.com/treatment/hernia-surgeon-in-chennai    301!\n/*    /index.html   200\n");
+$spam_redirects = [
+    "/m14226884455249",
+    "/l37093146398484",
+    "/a35005553121328",
+    "/s48632003298112",
+    "/y46770114437452",
+    "/l14745465617478/",
+    "/t26500356295102/",
+    "/c25750975397542",
+    "/d27050434311332",
+    "/about-us/?nocache=1777519964&jet_blog_ajax=1",
+    "/t30330113467173",
+    "/y43347913264517",
+    "/v12690263279427",
+    "/k46621334353461/",
+    "/f21824786344903",
+    "/i24061154885291/",
+    "/b32659714708738",
+    "/i49901203599636/",
+    "/l12205456442115/",
+    "/b29245246540820/",
+    "/k29918553252955/",
+    "/n28508934785134/",
+    "/w30818443692903",
+    "/h10665386511028",
+    "/t44086153025524",
+    "/a20764202708752",
+    "/s13003833303091",
+    "/l20341095248894",
+    "/c18191093689603/",
+    "/i47261264611827/",
+    "/a37622194466277/",
+    "/g22955135870107",
+    "/t43700555513971",
+    "/z33655543289856/",
+    "/n34773205635664/",
+    "/z34193745494778",
+    "/x47917035885160",
+    "/q35077986106770/",
+    "/d33020106448119",
+    "/c40401426036298",
+    "/h23586065688103",
+    "/s43212834418768/",
+    "/n25732556561383/",
+    "/a33050263414431/",
+    "/o37788053336506",
+    "/t15670816171980",
+    "/s49164075661020",
+    "/j44895095175880/",
+    "/d11368045490717/",
+    "/v15479244531145/",
+    "/n36093222683291/",
+    "/u33281406093672",
+    "/r40368094311115/",
+    "/u48762563328473/",
+    "/p46054915422016/",
+    "/a16638254824144/",
+    "/i35359234889370/",
+    "/d31649775524086/",
+    "/w29295376550871",
+    "/o38989853946103",
+    "/c27769493592654/",
+    "/n16083096041824/",
+    "/t37093255474337/",
+    "/x33545372745360/",
+    "/b37753514805903/",
+    "/n13587736467108/",
+    "/q17792995643766/",
+    "/z44690995146593/",
+    "/g15003333971095",
+    "/i10009004526065/",
+    "/u37100175950397/",
+    "/l41674754231564/",
+    "/g44171064506213/",
+    "/j23194804842090/",
+    "/x43243724436867/",
+    "/e45148712805351/",
+    "/e22309403623863/",
+    "/j37475903552705/",
+    "/b10562895296778/",
+    "/b14589002810237/",
+    "/c44030272949499/",
+    "/b21460545889618/",
+    "/t34265415661982/",
+    "/b39174453064616/",
+    "/p29260973366779/m",
+    "/f17939786303188/",
+    "/a17115362747937/",
+    "/e37498023205690/",
+    "/c20858164266104/m",
+    "/c12473483142737",
+    "/v46686673863416/",
+    "/s19135805082481/",
+    "/y37019545258604/",
+    "/r25123463964986/",
+    "/o18582202920703/",
+    "/g18036842985766/",
+    "/j45654783818535/",
+    "/v24172605836911/",
+    "/x29397866125580/",
+    "/e21510244574225/"
+];
+
+$redirects_content = "/index    /    301!\n/index.html    /    301!\n/my_types/inguinal-hernia    https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai    301!\n/treatment/tapp-repair    https://herniacare360.com/treatment/tapp-repair-in-chennai    301!\n/treatment/hernia-surgery-in-chennai    https://herniacare360.com/treatment/hernia-surgeon-in-chennai    301!\n";
+
+foreach ($spam_redirects as $spam_path) {
+    if (strpos($spam_path, '?') !== false) {
+        list($path, $query) = explode('?', $spam_path, 2);
+        $query_str = str_replace('&', ' ', $query);
+        $redirects_content .= "$path $query_str    /    301!\n";
+    } else {
+        $redirects_content .= "$spam_path    /    301!\n";
+    }
+}
+$redirects_content .= "/*    /index.html   200\n";
+file_put_contents($dist . '/_redirects', $redirects_content);
 
 /* ---------- 7. 404 ---------- */
 echo "📄 Writing 404.html\n";
