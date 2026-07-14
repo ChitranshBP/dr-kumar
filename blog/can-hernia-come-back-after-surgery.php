@@ -306,7 +306,7 @@ require_once __DIR__ . '/../includes/header.php';
                 
                 <!-- Doctor Profile Callout -->
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm text-center">
-                    <img src="assets/images/logo.png" alt="Dr. Kumar Logo" class="h-16 mx-auto mb-4 object-contain" />
+                    <img src="../assets/images/logo.png" alt="Dr. Kumar Logo" class="h-16 mx-auto mb-4 object-contain" />
                     <h4 class="font-display text-lg font-bold text-slate-900 mb-1">Dr. Kumar</h4>
                     <p class="text-xs text-brand-600 font-semibold uppercase tracking-wider mb-4">Senior Hernia Specialist</p>
                     <p class="text-sm text-slate-500 leading-relaxed mb-6">
