@@ -655,6 +655,57 @@ require __DIR__ . '/includes/header.php';
     </div>
 </section>
 
+<!-- Instagram Reels Section -->
+<section id="reels" class="py-12 md:py-14 bg-gradient-to-br from-slate-50 via-white to-brand-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-10">
+            <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
+                Instagram Reels
+            </span>
+            <h2 class="font-display text-3xl md:text-5xl font-bold leading-tight text-slate-900 mb-4">
+                Patient Awareness &amp; <span class="text-brand-700">Surgical Insights</span>
+            </h2>
+            <p class="text-slate-600 text-base md:text-lg">
+                Stay informed with educational videos, surgical insights, and patient success stories shared by <?= $site['doctor'] ?> on Instagram.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto justify-center">
+            <?php
+            $reels = [
+                'DaUuOTcpF9q',
+                'Dam42YcpoaC',
+                'Da0MjWKDwbV'
+            ];
+            foreach ($reels as $reel_id): ?>
+                <div class="flex justify-center w-full">
+                    <div class="relative w-full aspect-[9/16] max-w-[320px] rounded-2xl overflow-hidden shadow-md border border-slate-100 bg-black">
+                        <iframe 
+                            src="https://www.instagram.com/reel/<?= $reel_id ?>/embed/" 
+                            class="absolute w-full h-[120%] -top-[10%] left-0" 
+                            frameborder="0" 
+                            scrolling="no" 
+                            allowtransparency="true" 
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+
+        <div class="mt-10 text-center">
+            <a href="<?= $site['social']['instagram'] ?>" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+                Follow @drkumar_billrothherniasurgeon on Instagram
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
 <!-- YouTube Shorts Section -->
 <section id="shorts" class="py-10 md:py-12 bg-slate-900 text-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
