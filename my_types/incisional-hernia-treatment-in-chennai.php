@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Best Incisional Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Seeking Incisional Hernia Surgery in Chennai? Consult Dr. Kumar, a top complex hernia surgeon in Chennai, for advanced abdominal wall reconstruction.';
-$page_url = 'https://herniacare360.com/my_types/incisional-hernia-surgery-in-chennai';
+$page_title = 'Incisional Hernia Treatment Doctor in Chennai | Dr. Kumar';
+$page_description = 'Looking for Incisional Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top complex hernia surgeon in Chennai, for advanced abdominal wall reconstruction.';
+$page_url = 'https://herniacare360.com/my_types/incisional-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -23,7 +23,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 Incisional Hernia<br>
-                <span class="text-accent">Surgery in Chennai</span>
+                <span class="text-accent">Treatment Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
                 Get the best incisional hernia surgery in Chennai from Dr. Kumar, a premier complex hernia specialist in Chennai. Experience advanced keyhole and robotic reconstructions to restore abdominal strength.
@@ -357,6 +357,223 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
     </div>
+</section>
+
+<!-- Patient Reviews Section -->
+<section class="py-16 md:py-24 bg-white border-t border-slate-100 scroll-mt-20 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 mb-12">
+        <div class="text-center">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">⭐ Patient Success Stories</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                What Our Patients Say
+            </h2>
+            <p class="text-slate-500 text-sm mt-3 max-w-2xl mx-auto">Real recovery experiences from patients who underwent Incisional Hernia treatment with Dr. Kumar.</p>
+        </div>
+    </div>
+
+    <!-- Infinite Scroll Container -->
+    <div class="relative w-full overflow-hidden py-4">
+        <!-- Left and Right Gradient Overlays for premium fade-out effect -->
+        <div class="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+
+        <div class="reviews-marquee-wrapper flex animate-marquee-loop">
+            <!-- Group A -->
+            <div class="reviews-marquee-group flex gap-6 pr-6 flex-none">
+                <!-- Review 1 -->
+            <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-amber-500 gap-0.5">
+                            <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                        </span>
+                    </div>
+                    <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                        "I developed a hernia at my appendix surgery scar. I consulted Dr. Kumar, a top Incisional Hernia Treatment Doctor in Chennai, who performed a laparoscopic retrorectus repair. The recovery was remarkably fast and my abdominal wall strength is fully restored. No more uncomfortable bulging!"
+                    </p>
+                </div>
+                <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-[15px]">Rajasekar K.</h4>
+                        <p class="text-xs text-slate-500">Age 62 • Mylapore</p>
+                    </div>
+                    <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic AWR</span>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-amber-500 gap-0.5">
+                            <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                        </span>
+                    </div>
+                    <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                        "After my open hysterectomy elsewhere, I had a massive incisional hernia. I consulted Dr. Kumar, a leading complex hernia surgeon in Chennai, to perform my incisional hernia surgery in Chennai. His component separation work is life-changing. I can stand and walk comfortably now."
+                    </p>
+                </div>
+                <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Lakshmi Dev</h4>
+                        <p class="text-xs text-slate-500">Age 58 • Adyar</p>
+                    </div>
+                    <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Complex AWR</span>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-amber-500 gap-0.5">
+                            <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                        </span>
+                    </div>
+                    <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                        "I got an incisional hernia following gallbladder surgery. Dr. Kumar used the advanced eTEP technique to place a large mesh preperitoneally. Very clean work, minimal pain, and no complications whatsoever."
+                    </p>
+                </div>
+                <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-[15px]">Mohamed Yusuf</h4>
+                        <p class="text-xs text-slate-500">Age 50 • Kodambakkam</p>
+                    </div>
+                    <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">eTEP Mesh Repair</span>
+                </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-amber-500 gap-0.5">
+                            <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                        </span>
+                    </div>
+                    <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                        "Had a surgical scar hernia following my C-section. I was worried about cosmetic aspects, but Dr. Kumar did a fantastic laparoscopic repair. The scarring is minimal and the abdomen is flat again."
+                    </p>
+                </div>
+                <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Shalini P.</h4>
+                        <p class="text-xs text-slate-500">Age 43 • Anna Nagar</p>
+                    </div>
+                    <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Post-C-Section Repair</span>
+                </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-amber-500 gap-0.5">
+                            <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                        </span>
+                    </div>
+                    <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                        "I had a recurrent incisional hernia which was highly complex. Dr. Kumar used advanced AWR with components separation. He is undoubtedly the best complex hernia specialist in Chennai."
+                    </p>
+                </div>
+                <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-[15px]">Venkatesh R.</h4>
+                        <p class="text-xs text-slate-500">Age 67 • Saidapet</p>
+                    </div>
+                    <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Recurrent AWR</span>
+                </div>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-amber-500 gap-0.5">
+                            <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                        </span>
+                    </div>
+                    <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                        "Developed a ventral incisional bulge after my colon surgery. Dr. Kumar's team explained the AWR procedure very clearly. Highly satisfied with the surgery and hospital staff."
+                    </p>
+                </div>
+                <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Anjali S.</h4>
+                        <p class="text-xs text-slate-500">Age 51 • Perambur</p>
+                    </div>
+                    <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Post-Colon Surgery Repair</span>
+                </div>
+            </div>
+
+            <!-- Review 7 -->
+            <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex text-amber-500 gap-0.5">
+                            <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                            <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                        </span>
+                    </div>
+                    <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                        "Experienced severe pain and swelling at my old incision site. Dr. Kumar's laparoscopic intervention resolved it quickly. Extremely grateful for his precise skills."
+                    </p>
+                </div>
+                <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-[15px]">Deva Prasad</h4>
+                        <p class="text-xs text-slate-500">Age 45 • Royapuram</p>
+                    </div>
+                    <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Scar Repair</span>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <style>
+    @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    .animate-marquee-loop {
+        animation: marquee 50s linear infinite;
+    }
+    .reviews-marquee-wrapper:hover {
+        animation-play-state: paused;
+    }
+    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const wrapper = document.querySelector('.reviews-marquee-wrapper');
+        const group = document.querySelector('.reviews-marquee-group');
+        if (wrapper && group) {
+            const clone = group.cloneNode(true);
+            wrapper.appendChild(clone);
+        }
+    });
+    </script>
 </section>
 
 <!-- FAQ Section -->

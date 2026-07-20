@@ -6,7 +6,12 @@ RewriteRule ^hernia/?$ hernia.php [L,NC]
 RewriteRule ^treatment/?$ treatment.php [L,NC]
 
 # 301 Redirects for moved pages
-RewriteRule ^my_types/inguinal-hernia(\.php)?/?$ https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai [R=301,L,NC]
+RewriteRule ^my_types/inguinal-hernia(\.php)?/?$ https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai [R=301,L,NC]
+RewriteRule ^my_types/inguinal-hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai [R=301,L,NC]
+RewriteRule ^my_types/umbilical-hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai [R=301,L,NC]
+RewriteRule ^my_types/incisional-hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/my_types/incisional-hernia-treatment-in-chennai [R=301,L,NC]
+RewriteRule ^my_types/ventral-hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/my_types/ventral-hernia-treatment-in-chennai [R=301,L,NC]
+RewriteRule ^my_types/femoral-hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai [R=301,L,NC]
 RewriteRule ^treatment/tapp-repair(\.php)?/?$ https://herniacare360.com/treatment/tapp-repair-in-chennai [R=301,L,NC]
 RewriteRule ^treatment/hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/treatment/hernia-surgeon-in-chennai [R=301,L,NC]
 

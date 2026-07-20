@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Best Femoral Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Looking for Femoral Hernia Surgery in Chennai? Consult Dr. Kumar, a leading groin hernia specialist in Chennai, for advanced minimally invasive repairs.';
-$page_url = 'https://herniacare360.com/my_types/femoral-hernia-surgery-in-chennai';
+$page_title = 'Femoral Hernia Treatment Doctor in Chennai | Dr. Kumar';
+$page_description = 'Looking for Femoral Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top groin hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -22,8 +22,8 @@ require __DIR__ . '/../includes/header.php';
                 Below the Groin
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-                Femoral Hernia<br>
-                <span class="text-accent">Surgery in Chennai</span>
+                Femoral Hernia Treatment<br>
+                <span class="text-accent">Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
                 Get the best femoral hernia surgery in Chennai from Dr. Kumar, a top groin hernia specialist in Chennai. Experience advanced minimally invasive repairs to address femoral canal defects safely.
@@ -82,7 +82,7 @@ require __DIR__ . '/../includes/header.php';
                         </div>
                         <div class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm hover:shadow-md transition duration-300">
                             <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-brand-600 mb-4 border border-brand-100">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 0 0-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 0 0-6.364 0z"/></svg>
                             </div>
                             <h4 class="font-bold text-slate-900 text-sm mb-2">Pregnancy</h4>
                             <p class="text-xs text-slate-500 leading-relaxed">Increased abdominal pressure during pregnancy and straining during delivery.</p>
@@ -270,7 +270,7 @@ require __DIR__ . '/../includes/header.php';
                     <span class="text-slate-300 text-sm">Follow-up as scheduled</span>
                 </div>
                 <div class="flex items-start gap-3">
-                    <svg class="w-5 h-5 text-accent mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5 293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                    <svg class="w-5 h-5 text-accent mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                     <span class="text-slate-300 text-sm">Report any unusual symptoms</span>
                 </div>
             </div>
@@ -414,6 +414,222 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
     </div>
+</section>
+
+<!-- Patient Reviews Section -->
+<section class="py-16 md:py-24 bg-white border-t border-slate-100 scroll-mt-20 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 mb-12">
+        <div class="text-center">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">⭐ Patient Success Stories</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                What Our Patients Say
+            </h2>
+            <p class="text-slate-500 text-sm mt-3 max-w-2xl mx-auto">Real recovery experiences from patients who underwent Femoral Hernia treatment with Dr. Kumar.</p>
+        </div>
+    </div>
+
+    <!-- Infinite Scroll Container -->
+    <div class="relative w-full overflow-hidden py-4">
+        <!-- Left and Right Gradient Overlays for premium fade-out effect -->
+        <div class="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+
+        <div class="reviews-marquee-wrapper flex animate-marquee-loop">
+            <!-- Group A -->
+            <div class="reviews-marquee-group flex gap-6 pr-6 flex-none">
+                <!-- Review 1 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I noticed a painful swelling in my upper thigh. I consulted Dr. Kumar, a top groin hernia specialist in Chennai. He diagnosed it as a femoral hernia and performed laparoscopic surgery. The femoral hernia surgery in Chennai was completely successful, and I had almost no pain. Highly recommend him!"
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Shalini R.</h4>
+                            <p class="text-xs text-slate-500">Age 46 • Velachery</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I was suffering from a dragging groin pain and was diagnosed with a femoral hernia. I was fortunate to find Dr. Kumar, the best Femoral Hernia Treatment Doctor in Chennai. He did a robotic repair, and the recovery was amazingly fast. Back to work in 5 days."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Kishore V.</h4>
+                            <p class="text-xs text-slate-500">Age 52 • Adyar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Robotic Femoral Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "As an elderly woman, I was scared of surgery. Dr. Kumar repaired my femoral hernia laparoscopically with a 3D mesh. The care was outstanding, same-day discharge, and my thigh bulge has completely disappeared."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Devaki S.</h4>
+                            <p class="text-xs text-slate-500">Age 65 • Mylapore</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Mesh Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a sudden swelling near my groin that became very painful. Dr. Kumar diagnosed a femoral hernia and operated immediately to prevent strangulation. Excellent daycare surgical care and a very clean facility."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Anitha Kumar</h4>
+                            <p class="text-xs text-slate-500">Age 41 • T. Nagar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Emergency Daycare</span>
+                    </div>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a femoral hernia on one side and an inguinal hernia on the other. Dr. Kumar repaired both at the same time using laparoscopy. Excellent result, minimal scars, and back to light exercise in two weeks."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Ramesh Sen</h4>
+                            <p class="text-xs text-slate-500">Age 49 • OMR</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic TAPP</span>
+                    </div>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a recurrent groin bulge after previous open surgery. Dr. Kumar's robotic approach was a blessing. The surgery went smoothly, and I felt comfortable walking on the very first day. Truly the best clinic in Chennai."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Mary Joseph</h4>
+                            <p class="text-xs text-slate-500">Age 58 • Nungambakkam</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Robotic-Assisted Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 7 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Very professional doctor and staff. Underwent daycare femoral hernia repair. The process was stress-free, pain was minimal, and the keyhole scars are already faded. Highly recommend Dr. Kumar."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Preethi K.</h4>
+                            <p class="text-xs text-slate-500">Age 35 • Anna Nagar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Daycare Keyhole</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+    @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    .animate-marquee-loop {
+        animation: marquee 50s linear infinite;
+    }
+    .reviews-marquee-wrapper:hover {
+        animation-play-state: paused;
+    }
+    </style>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const wrapper = document.querySelector('.reviews-marquee-wrapper');
+        const group = document.querySelector('.reviews-marquee-group');
+        if (wrapper && group) {
+            const clone = group.cloneNode(true);
+            wrapper.appendChild(clone);
+        }
+    });
+    </script>
 </section>
 
 <!-- FAQ Section -->

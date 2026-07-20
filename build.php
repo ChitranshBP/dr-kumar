@@ -50,7 +50,7 @@ function getPhpFiles(string $dir, string $base = ''): array {
 function getPageBody(string $content): string {
     // Remove all require/include lines
     $lines = explode("\n", $content);
-    $lines = array_filter($lines, fn($line) => !preg_match('/require/i', $line));
+    $lines = array_filter($lines, fn($line) => !preg_match('/^\s*(?:<\?php\s+)?(?:require|include)(?:_once)?\b/i', $line));
     $content = implode("\n", $lines);
 
     // Remove PHP tags
@@ -352,7 +352,7 @@ $spam_redirects = [
     "/e21510244574225/"
 ];
 
-$redirects_content = "/index    /    301!\n/index.html    /    301!\n/my_types/inguinal-hernia    https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai    301!\n/treatment/tapp-repair    https://herniacare360.com/treatment/tapp-repair-in-chennai    301!\n/treatment/hernia-surgery-in-chennai    https://herniacare360.com/treatment/hernia-surgeon-in-chennai    301!\n";
+$redirects_content = "/index    /    301!\n/index.html    /    301!\n/my_types/inguinal-hernia    https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai    301!\n/my_types/inguinal-hernia-surgery-in-chennai    https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai    301!\n/my_types/umbilical-hernia-surgery-in-chennai    https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai    301!\n/my_types/incisional-hernia-surgery-in-chennai    https://herniacare360.com/my_types/incisional-hernia-treatment-in-chennai    301!\n/my_types/ventral-hernia-surgery-in-chennai    https://herniacare360.com/my_types/ventral-hernia-treatment-in-chennai    301!\n/treatment/tapp-repair    https://herniacare360.com/treatment/tapp-repair-in-chennai    301!\n/treatment/hernia-surgery-in-chennai    https://herniacare360.com/treatment/hernia-surgeon-in-chennai    301!\n";
 
 foreach ($spam_redirects as $spam_path) {
     if (strpos($spam_path, '?') !== false) {

@@ -62,14 +62,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Inguinal Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/inguinal-hernia-surgery-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Inguinal Hernia Repair Chennai" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Groin Hernia</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/inguinal-hernia-surgery-in-chennai.php">Inguinal Hernia</a>
+                            <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php">Inguinal Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Occurs in the groin area. It is the most common hernia type and requires surgical repair to prevent bowel entrapment or strangulation.
@@ -82,7 +82,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/inguinal-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -97,14 +97,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Umbilical Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/umbilical-hernia-surgery-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical Hernia Repair Chennai" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-amber-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Navel Hernia</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/umbilical-hernia-surgery-in-chennai.php">Umbilical Hernia</a>
+                            <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php">Umbilical Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Develops at or near the belly button. Often treated with minimally invasive keyhole procedures with or without mesh depending on the size of the defect.
@@ -117,7 +117,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General/Spinal</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/umbilical-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -132,14 +132,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Incisional Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/incisional-hernia-surgery-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/incisional-new.png" alt="Incisional Hernia Repair Chennai" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-purple-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Surgical Scar</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/incisional-hernia-surgery-in-chennai.php">Incisional Hernia</a>
+                            <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php">Incisional Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Forms at the site of previous surgery incisions due to muscle wall failure. These require specialized abdominal wall reconstruction techniques.
@@ -152,7 +152,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/incisional-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -167,14 +167,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Ventral Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/ventral-hernia-surgery-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/ventral-new.png" alt="Ventral Hernia Repair Chennai" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-teal-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Abdominal Wall</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/ventral-hernia-surgery-in-chennai.php">Ventral Hernia</a>
+                            <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php">Ventral Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Develops anywhere along the midline of the abdominal wall. Often treated laparoscopically to ensure minimal postoperative pain and lower recurrence rate.
@@ -187,7 +187,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/ventral-hernia-surgery-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -223,6 +223,41 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-center justify-between">
                         <a href="<?= $base_path ?>resources/glossary.php#paraumbilical-hernia-surgery-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                            Learn More
+                            <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </a>
+                        <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-slate-500 font-medium text-xs hover:text-brand-700 transition">
+                            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                            Book Call
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Femoral Hernia -->
+            <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
+                        <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Femoral Hernia Repair Chennai" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
+                        <span class="absolute bottom-4 left-4 bg-rose-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Femoral Hernia</span>
+                    </a>
+                    <div class="p-6">
+                        <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
+                            <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php">Femoral Hernia</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Occurs just below the groin crease in the upper thigh. Far more common in women, it carries a high risk of strangulation and requires prompt repair.
+                        </p>
+                    </div>
+                </div>
+                <div class="p-6 pt-0 border-t border-slate-50">
+                    <div class="flex items-center justify-between text-xs text-slate-500 mb-4">
+                        <span>Primary Technique: <strong>TEP/TAPP/Open</strong></span>
+                        <span>Anesthesia: <strong>General/Spinal</strong></span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>

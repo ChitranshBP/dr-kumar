@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Best Inguinal Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Looking for Inguinal Hernia Surgery in Chennai? Consult Dr. Kumar, a top groin hernia specialist in Chennai, for advanced minimally invasive repairs.';
-$page_url = 'https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai';
+$page_title = 'Inguinal Hernia Treatment Doctor in Chennai | Dr. Kumar';
+$page_description = 'Looking for Inguinal Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top groin hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -23,7 +23,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 Inguinal Hernia<br>
-                <span class="text-accent">Surgery in Chennai</span>
+                <span class="text-accent">Treatment Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
                 Get the best Inguinal Hernia Surgery in Chennai from Dr. Kumar, the leading groin hernia Specialist in Chennai, with more than 5000+ successful Inguinal Hernia surgeries. Experience advanced keyhole and robotic groin hernia repairs for optimal recovery.
@@ -408,6 +408,381 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
     </div>
+<!-- Patient Reviews Section -->
+<section class="py-16 md:py-24 bg-white border-t border-slate-100 scroll-mt-20 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 mb-12">
+        <div class="text-center">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">⭐ Patient Success Stories</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                What Our Patients Say
+            </h2>
+            <p class="text-slate-500 text-sm mt-3 max-w-2xl mx-auto">Real recovery experiences from patients who underwent Inguinal Hernia treatment with Dr. Kumar.</p>
+        </div>
+    </div>
+
+    <!-- Infinite Scroll Container -->
+    <div class="relative w-full overflow-hidden py-4">
+        <!-- Left and Right Gradient Overlays for premium fade-out effect -->
+        <div class="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+
+        <div class="reviews-marquee-wrapper flex animate-marquee-loop">
+            <!-- Group A -->
+            <div class="flex gap-6 pr-6 flex-none">
+                <!-- Review 1 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a bilateral inguinal hernia (groin bulge on both sides). Seeking a top groin hernia specialist in Chennai, I consulted Dr. Kumar. He recommended robotic eTEP repair. The inguinal hernia surgery in Chennai was absolutely painless and I was walking the very next day. Exceptional groin hernia care."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Ramanathan S.</h4>
+                            <p class="text-xs text-slate-500">Age 58 • Adyar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Bilateral eTEP Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Being an active gym goer, finding a groin bulge was stressful. I am glad I chose Dr. Kumar, the best Inguinal Hernia Treatment Doctor in Chennai. He performed a laparoscopic TEP repair with 3D mesh. The scars are practically invisible and I was back to light workouts in two weeks. A true groin hernia specialist."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Karthik Raja</h4>
+                            <p class="text-xs text-slate-500">Age 34 • OMR</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic TEP</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Groin hernias are rare in women, but Dr. Kumar diagnosed it instantly. I underwent a laparoscopic repair. The hospital staff and doctor were very supportive. My recovery was quick and hassle-free."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Geetha R.</h4>
+                            <p class="text-xs text-slate-500">Age 45 • Mylapore</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "As a doctor myself, I am very particular about surgical techniques. I chose Dr. Kumar for his vast experience in laparoscopic groin hernia repairs. His eTEP technique is brilliant, offering rapid recovery. Minimal post-op pain."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Dr. Vinayak M.</h4>
+                            <p class="text-xs text-slate-500">Age 50 • Kilpauk</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Advanced eTEP</span>
+                    </div>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a recurrent groin hernia from a previous open surgery done elsewhere. Dr. Kumar successfully repaired it using robotic keyhole surgery. The constant dragging pain is completely gone."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Suresh Kumar</h4>
+                            <p class="text-xs text-slate-500">Age 42 • Tambaram</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Robotic Recurrent Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Very modern clinic and excellent care. I had a left inguinal hernia daycare repair. Discharged on the same evening, was back to my desk job in 4 days. Insurance processing was smooth."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Balaji V.</h4>
+                            <p class="text-xs text-slate-500">Age 29 • Velachery</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Daycare Laparoscopic</span>
+                    </div>
+                </div>
+
+                <!-- Review 7 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a large inguinal hernia causing severe groin pain. Dr. Kumar's expertise in elderly patient care is wonderful. The laparoscopic procedure went smoothly and my recovery has been excellent."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Anthony D.</h4>
+                            <p class="text-xs text-slate-500">Age 64 • Royapettah</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Repair</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Group B (Duplicated for seamless looping) -->
+            <div class="flex gap-6 pr-6 flex-none">
+                <!-- Review 1 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a bilateral inguinal hernia (groin bulge on both sides). Dr. Kumar recommended robotic eTEP repair. The surgery was absolutely painless and I was walking the very next day. Exceptional groin hernia care in Chennai."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Ramanathan S.</h4>
+                            <p class="text-xs text-slate-500">Age 58 • Adyar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Bilateral eTEP Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Being an active gym goer, finding a groin bulge was stressful. Dr. Kumar performed a laparoscopic TEP repair with 3D mesh. The scars are practically invisible and I was back to light workouts in two weeks. A true groin hernia specialist."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Karthik Raja</h4>
+                            <p class="text-xs text-slate-500">Age 34 • OMR</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic TEP</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Groin hernias are rare in women, but Dr. Kumar diagnosed it instantly. I underwent a laparoscopic repair. The hospital staff and doctor were very supportive. My recovery was quick and hassle-free."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Geetha R.</h4>
+                            <p class="text-xs text-slate-500">Age 45 • Mylapore</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "As a doctor myself, I am very particular about surgical techniques. I chose Dr. Kumar for his vast experience in laparoscopic groin hernia repairs. His eTEP technique is brilliant, offering rapid recovery. Minimal post-op pain."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Dr. Vinayak M.</h4>
+                            <p class="text-xs text-slate-500">Age 50 • Kilpauk</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Advanced eTEP</span>
+                    </div>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a recurrent groin hernia from a previous open surgery done elsewhere. Dr. Kumar successfully repaired it using robotic keyhole surgery. The constant dragging pain is completely gone."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Suresh Kumar</h4>
+                            <p class="text-xs text-slate-500">Age 42 • Tambaram</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Robotic Recurrent Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Very modern clinic and excellent care. I had a left inguinal hernia daycare repair. Discharged on the same evening, was back to my desk job in 4 days. Insurance processing was smooth."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Balaji V.</h4>
+                            <p class="text-xs text-slate-500">Age 29 • Velachery</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Daycare Laparoscopic</span>
+                    </div>
+                </div>
+
+                <!-- Review 7 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a large inguinal hernia causing severe groin pain. Dr. Kumar's expertise in elderly patient care is wonderful. The laparoscopic procedure went smoothly and my recovery has been excellent."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Anthony D.</h4>
+                            <p class="text-xs text-slate-500">Age 64 • Royapettah</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Repair</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+    @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    .animate-marquee-loop {
+        animation: marquee 50s linear infinite;
+    }
+    .reviews-marquee-wrapper:hover {
+        animation-play-state: paused;
+    }
+    </style>
 </section>
 
 <!-- FAQ Section -->

@@ -20,7 +20,37 @@
 
 [[redirects]]
   from = "/my_types/inguinal-hernia"
-  to = "https://herniacare360.com/my_types/inguinal-hernia-surgery-in-chennai"
+  to = "https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/inguinal-hernia-surgery-in-chennai"
+  to = "https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/umbilical-hernia-surgery-in-chennai"
+  to = "https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/incisional-hernia-surgery-in-chennai"
+  to = "https://herniacare360.com/my_types/incisional-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/ventral-hernia-surgery-in-chennai"
+  to = "https://herniacare360.com/my_types/ventral-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/femoral-hernia-surgery-in-chennai"
+  to = "https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai"
   status = 301
   force = true
 

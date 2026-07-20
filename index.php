@@ -244,10 +244,10 @@ require __DIR__ . '/includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <?php
             $hernias = [
-                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia-surgery-in-chennai.php',          'Advanced laparoscopic &amp; robotic repair with mesh reinforcement.'],
-                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia-surgery-in-chennai.php',         'Daycare mesh &amp; meshless repair tailored to defect size.'],
-                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia-surgery-in-chennai.php',        'Complex AWR with TAR &amp; component separation techniques.'],
-                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia-surgery-in-chennai.php',           'Minimally invasive repair for abdominal wall defects.'],
+                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia-treatment-in-chennai.php',          'Advanced laparoscopic &amp; robotic repair with mesh reinforcement.'],
+                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia-treatment-in-chennai.php',         'Daycare mesh &amp; meshless repair tailored to defect size.'],
+                ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia-treatment-in-chennai.php',        'Complex AWR with TAR &amp; component separation techniques.'],
+                ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia-treatment-in-chennai.php',           'Minimally invasive repair for abdominal wall defects.'],
             ];
             foreach ($hernias as [$t, $img, $link, $desc]): ?>
                 <a href="<?= $link ?>" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:-translate-y-1 transition group block">

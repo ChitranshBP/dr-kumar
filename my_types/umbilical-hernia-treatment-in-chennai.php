@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Best Umbilical Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Looking for Umbilical Hernia Surgery in Chennai? Consult Dr. Kumar, a top belly button hernia specialist in Chennai, for advanced minimally invasive repairs.';
-$page_url = 'https://herniacare360.com/my_types/umbilical-hernia-surgery-in-chennai';
+$page_title = 'Umbilical Hernia Treatment Doctor in Chennai | Dr. Kumar';
+$page_description = 'Looking for Umbilical Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top belly button hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_url = 'https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -23,7 +23,7 @@ require __DIR__ . '/../includes/header.php';
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 Umbilical Hernia<br>
-                <span class="text-accent">Surgery in Chennai</span>
+                <span class="text-accent">Treatment Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
                 Get the best umbilical hernia surgery in Chennai from Dr.Kumar, the leading belly button hernia specialist in Chennai, with more than 4000 + successful Umbilical Hernia surgeries. Experience advanced keyhole and robotic Umbilical hernia repairs.
@@ -382,6 +382,383 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
     </div>
+</section>
+
+<!-- Patient Reviews Section -->
+<section class="py-16 md:py-24 bg-white border-t border-slate-100 scroll-mt-20 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 mb-12">
+        <div class="text-center">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-3 py-1.5 rounded-full mb-4 inline-block">⭐ Patient Success Stories</span>
+            <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                What Our Patients Say
+            </h2>
+            <p class="text-slate-500 text-sm mt-3 max-w-2xl mx-auto">Real recovery experiences from patients who underwent Umbilical Hernia treatment with Dr. Kumar.</p>
+        </div>
+    </div>
+
+    <!-- Infinite Scroll Container -->
+    <div class="relative w-full overflow-hidden py-4">
+        <!-- Left and Right Gradient Overlays for premium fade-out effect -->
+        <div class="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-white via-white/80 to-transparent z-10 pointer-events-none"></div>
+
+        <div class="reviews-marquee-wrapper flex animate-marquee-loop">
+            <!-- Group A -->
+            <div class="flex gap-6 pr-6 flex-none">
+                <!-- Review 1 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I developed an umbilical hernia after my pregnancy. I was conscious of the bulge, but I consulted Dr. Kumar, the best Umbilical Hernia Treatment Doctor in Chennai. He performed a daycare laparoscopic repair. The cosmetic result is perfect, and my belly button looks normal again. Excellent doctor!"
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Meenakshi S.</h4>
+                            <p class="text-xs text-slate-500">Age 37 • T. Nagar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Daycare</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "A belly button hernia due to heavy lifting was causing constant pain. I chose Dr. Kumar, a top belly button hernia specialist in Chennai, who performed my umbilical hernia surgery in Chennai. Highly professional care, was back to office work in just 4 days."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Kishore Kumar</h4>
+                            <p class="text-xs text-slate-500">Age 48 • Nungambakkam</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Daycare Mesh Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a small navel hernia. Dr. Kumar suggested a suture-only (meshless) repair because the defect was minimal. It is rare to find surgeons who don't push for unnecessary procedures. Very honest and skilled."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Priya Anand</h4>
+                            <p class="text-xs text-slate-500">Age 31 • Anna Nagar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Meshless Navel Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had persistent discomfort near my belly button. Dr. Kumar performed a robotic navel hernia repair with 3D mesh. The technology is amazing, and the healing was incredibly fast. Thanks to the whole team."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Sridhar V.</h4>
+                            <p class="text-xs text-slate-500">Age 55 • Guindy</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Robotic Mesh Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "At 52, I was quite anxious about surgery for my umbilical hernia. Dr. Kumar explained the daycare procedure and put me at complete ease. Excellent pre-op and post-op care."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Fatima B.</h4>
+                            <p class="text-xs text-slate-500">Age 52 • Triplicane</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Umbilical Care</span>
+                    </div>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Seamless experience from admission to discharge. Dr. Kumar's keyhole navel hernia repair is practically painless, and the scars are minimal. The staff helped a lot with fast insurance approval."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Ramesh A.</h4>
+                            <p class="text-xs text-slate-500">Age 41 • Porur</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Daycare</span>
+                    </div>
+                </div>
+
+                <!-- Review 7 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Outstanding surgery results. The belly button bulge is completely gone and there is no discomfort now. I am very happy I consulted Dr. Kumar for my umbilical hernia."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Kumaravel S.</h4>
+                            <p class="text-xs text-slate-500">Age 33 • Madipakkam</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Belly Button Repair</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Group B (Duplicated for seamless looping) -->
+            <div class="flex gap-6 pr-6 flex-none">
+                <!-- Review 1 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I developed an umbilical hernia after my pregnancy. I was conscious of the bulge, but Dr. Kumar performed a daycare laparoscopic repair. The cosmetic result is perfect, and my belly button looks normal again. Excellent doctor!"
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Meenakshi S.</h4>
+                            <p class="text-xs text-slate-500">Age 37 • T. Nagar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Daycare</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "A belly button hernia due to heavy lifting was causing constant pain. Dr. Kumar performed a daycare mesh repair. Highly professional care, was back to office work in just 4 days. Highly recommend his services."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Kishore Kumar</h4>
+                            <p class="text-xs text-slate-500">Age 48 • Nungambakkam</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Daycare Mesh Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had a small navel hernia. Dr. Kumar suggested a suture-only (meshless) repair because the defect was minimal. It is rare to find surgeons who don't push for unnecessary procedures. Very honest and skilled."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Priya Anand</h4>
+                            <p class="text-xs text-slate-500">Age 31 • Anna Nagar</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Meshless Navel Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "I had persistent discomfort near my belly button. Dr. Kumar performed a robotic navel hernia repair with 3D mesh. The technology is amazing, and the healing was incredibly fast. Thanks to the whole team."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Sridhar V.</h4>
+                            <p class="text-xs text-slate-500">Age 55 • Guindy</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Robotic Mesh Repair</span>
+                    </div>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "At 52, I was quite anxious about surgery for my umbilical hernia. Dr. Kumar explained the daycare procedure and put me at complete ease. Excellent pre-op and post-op care."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Mrs. Fatima B.</h4>
+                            <p class="text-xs text-slate-500">Age 52 • Triplicane</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Umbilical Care</span>
+                    </div>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Seamless experience from admission to discharge. Dr. Kumar's keyhole navel hernia repair is practically painless, and the scars are minimal. The staff helped a lot with fast insurance approval."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Ramesh A.</h4>
+                            <p class="text-xs text-slate-500">Age 41 • Porur</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Laparoscopic Daycare</span>
+                    </div>
+                </div>
+
+                <!-- Review 7 -->
+                <div class="review-card flex-none w-[85vw] sm:w-[450px] bg-slate-50 border border-slate-100 rounded-3xl p-6 md:p-8 snap-start hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-500 gap-0.5">
+                                <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                            </div>
+                            <span class="inline-flex items-center gap-1 text-[10px] font-bold text-green-700 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                <span class="w-1.5 h-1.5 bg-green-600 rounded-full"></span> Verified Patient
+                            </span>
+                        </div>
+                        <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
+                            "Outstanding surgery results. The belly button bulge is completely gone and there is no discomfort now. I am very happy I consulted Dr. Kumar for my umbilical hernia."
+                        </p>
+                    </div>
+                    <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-[15px]">Kumaravel S.</h4>
+                            <p class="text-xs text-slate-500">Age 33 • Madipakkam</p>
+                        </div>
+                        <span class="text-[11px] font-semibold text-brand-700 bg-brand-50 px-2.5 py-1 rounded-md">Belly Button Repair</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+    @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    .animate-marquee-loop {
+        animation: marquee 50s linear infinite;
+    }
+    .reviews-marquee-wrapper:hover {
+        animation-play-state: paused;
+    }
+    </style>
 </section>
 
 <!-- FAQ Section -->

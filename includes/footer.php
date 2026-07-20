@@ -161,12 +161,12 @@
                 <span class="absolute bottom-0 left-0 w-10 h-0.5 bg-gradient-to-r from-brand-500 to-brand-700 rounded-full"></span>
             </h3>
             <div class="grid grid-cols-2 gap-x-3 gap-y-3 text-[15px]">
-                <a href="<?= $base_path ?>my_types/inguinal-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Inguinal</a>
-                <a href="<?= $base_path ?>my_types/umbilical-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Umbilical</a>
-                <a href="<?= $base_path ?>my_types/incisional-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Incisional</a>
-                <a href="<?= $base_path ?>my_types/ventral-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Ventral</a>
+                <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Inguinal</a>
+                <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Umbilical</a>
+                <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Incisional</a>
+                <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Ventral</a>
                 <a href="<?= $base_path ?>my_types/hiatal-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Hiatal</a>
-                <a href="<?= $base_path ?>my_types/femoral-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Femoral</a>
+                <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Femoral</a>
                 <a href="<?= $base_path ?>my_types/strangulated-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Strangulated</a>
                 <a href="<?= $base_path ?>my_types/sports-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Sports</a>
                 <a href="<?= $base_path ?>special-considerations/complex-hernia-info.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Complex</a>
