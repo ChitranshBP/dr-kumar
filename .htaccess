@@ -1,9 +1,23 @@
-RewriteEngine on 
+RewriteEngine On
 
-# Rewrite requests for directories that conflict with root files
+# 1. Page rewrites for directories matching page names
 RewriteRule ^blog/?$ blog.php [L,NC]
 RewriteRule ^hernia/?$ hernia.php [L,NC]
 RewriteRule ^treatment/?$ treatment.php [L,NC]
+
+# 2. Redirect /index or /index.php to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(\.php)? [NC]
+RewriteRule ^index(\.php)?$ / [R=301,L]
+
+# 3. Clean PHP URLs WITH trailing slash (e.g., /hernia/symptoms/ -> hernia/symptoms.php)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.*)/$ $1.php [L]
+
+# 4. Clean PHP URLs WITHOUT trailing slash (e.g., /hernia/symptoms -> hernia/symptoms.php)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
 
 # 301 Redirects for moved pages
 RewriteRule ^my_types/inguinal-hernia(\.php)?/?$ https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai [R=301,L,NC]
@@ -20,17 +34,3 @@ RewriteCond %{QUERY_STRING} ^nocache=1777519964&jet_blog_ajax=1$ [NC]
 RewriteRule ^about-us/?$ /? [R=301,L]
 
 RewriteRule ^[a-z]\d{14}(/m)?/?$ / [R=301,L,NC]
-
-
-# 301 Redirect /index or /index.php to /
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(\.php)? [NC]
-RewriteRule ^index(\.php)?$ / [R=301,L]
-
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}\.php -f 
-RewriteRule ^(.*)$ $1.php
-
-# To externally redirect /dir/foo.php to /dir/foo
-RewriteCond %{REQUEST_METHOD} !POST
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
-RewriteRule ^ %1 [R=302,L,NE]
