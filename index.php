@@ -487,6 +487,43 @@ require __DIR__ . '/includes/header.php';
     </div>
 </section>
 
+<!-- ============== SECOND OPINION STRIP ============== -->
+<section class="relative bg-gradient-to-r from-brand-800 via-brand-700 to-brand-900 text-white overflow-hidden">
+    <!-- Decorative dotted pattern -->
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:18px_18px] pointer-events-none"></div>
+    <!-- Glow blobs -->
+    <div class="absolute -top-20 -left-20 w-72 h-72 bg-accent/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-24 -right-16 w-72 h-72 bg-cyan-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 py-8 md:py-10">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
+            <div class="flex items-center gap-5">
+                <div class="hidden sm:flex w-14 h-14 rounded-2xl bg-white/10 backdrop-blur items-center justify-center shrink-0 border border-white/15">
+                    <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div>
+                    <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider mb-2 text-accent border border-accent/30">
+                        <span class="w-1.5 h-1.5 bg-accent rounded-full animate-pulse"></span>
+                        Expert Review
+                    </span>
+                    <h2 class="font-display text-2xl md:text-3xl font-bold leading-tight">Already advised surgery? Get a Second Opinion.</h2>
+                    <p class="text-slate-200 text-sm md:text-base mt-1 max-w-2xl">A thorough expert review from Dr. Kumar — 29+ years of experience — for clarity and confidence before you decide.</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-3 shrink-0">
+                <a href="<?= $base_path ?>second-opinion.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-6 py-3.5 rounded-full shadow-lg shadow-amber-500/20 hover:-translate-y-0.5 transition-all duration-300">
+                    Get a Second Opinion
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+                <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-6 py-3.5 rounded-full border border-white/25 hover:border-white/40 transition-all duration-300">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                    Call <?= $site['phone'] ?>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="testimonials" class="py-12 md:py-14 bg-slate-50 overflow-hidden">
     <div class="relative max-w-7xl mx-auto px-4">
 

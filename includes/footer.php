@@ -188,6 +188,8 @@
                     <li><a href="<?= $base_path ?>hernia/symptoms.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Symptoms</a></li>
                     <li><a href="<?= $base_path ?>hernia/diagnosis.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Diagnosis</a></li>
                     <li><a href="<?= $base_path ?>hernia/complications.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Complications</a></li>
+                    <li><a href="<?= $base_path ?>second-opinion.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Second Opinion</a></li>
+                    <li><a href="<?= $base_path ?>resources/symptom-checker.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Hernia Symptom Spotter</a></li>
                     <li><a href="<?= $base_path ?>book-appointment.php" class="text-brand-300 hover:text-white font-bold transition-colors duration-200">Book Appointment →</a></li>
                 </ul>
             </div>
