@@ -26,7 +26,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Treatment Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best Inguinal Hernia Surgery in Chennai from Dr. Kumar, the leading groin hernia Specialist in Chennai, with more than 5000+ successful Inguinal Hernia surgeries. Experience advanced keyhole and robotic groin hernia repairs for optimal recovery.
+                Get the best Inguinal Hernia treatment in Chennai from Dr. Kumar, the leading groin hernia Specialist in Chennai, with more than 5000+ successful Inguinal Hernia surgeries. Experience advanced keyhole and robotic groin hernia repairs for optimal recovery.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -441,7 +441,7 @@ require __DIR__ . '/../includes/header.php';
                             </span>
                         </div>
                         <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
-                            "I had a bilateral inguinal hernia (groin bulge on both sides). Seeking a top groin hernia specialist in Chennai, I consulted Dr. Kumar. He recommended robotic eTEP repair. The inguinal hernia surgery in Chennai was absolutely painless and I was walking the very next day. Exceptional groin hernia care."
+                            "I had a bilateral inguinal hernia (groin bulge on both sides). Seeking a top groin hernia specialist in Chennai, I consulted Dr. Kumar. He recommended robotic eTEP repair. The Inguinal Hernia treatment in Chennai was absolutely painless and I was walking the very next day. Exceptional groin hernia care."
                         </p>
                     </div>
                     <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
