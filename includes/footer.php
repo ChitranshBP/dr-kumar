@@ -249,8 +249,6 @@
                     <a href="<?= $base_path ?>privacy-policy.php" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
                     <span class="w-1 h-1 rounded-full bg-slate-600"></span>
                     <a href="<?= $base_path ?>terms-conditions.php" class="hover:text-white transition-colors duration-200">Terms &amp; Conditions</a>
-                    <span class="w-1 h-1 rounded-full bg-slate-600"></span>
-                    <span class="text-slate-400">Made &amp; Designed by <a href="https://brandingpioneers.com/" target="_blank" rel="noopener" class="text-brand-400 hover:text-brand-300 font-bold transition-colors duration-200">Branding Pioneers</a></span>
                 </div>
             </div>
         </div>
