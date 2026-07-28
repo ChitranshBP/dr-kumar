@@ -67,7 +67,33 @@ require_once __DIR__ . '/includes/header.php';
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="blogGrid">
             
-            <!-- Article 1 -->
+            <!-- Article 1: Can Hernia be Cured without Surgery? -->
+            <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
+                <div class="relative h-56 w-full overflow-hidden bg-slate-100">
+                    <img src="<?= $base_path ?>assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery? {In 2026}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <span class="absolute top-4 left-4 bg-brand-50 text-brand-700 text-xs font-semibold px-3 py-1 rounded-full border border-brand-100 shadow-sm">
+                        Hernia Guide
+                    </span>
+                </div>
+                <div class="p-6 flex flex-col flex-1">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        <span>24 July 2026</span>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
+                        <a href="blog/can-hernia-be-cured-without-surgery.php" class="blog-title">Can Hernia be Cured without Surgery? {In 2026}</a>
+                    </h3>
+                    <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
+                        Read our complete 2026 medical guide on non-surgical hernia management, home care, risks, and expert surgical advice by Dr. Kumar.
+                    </p>
+                    <a href="blog/can-hernia-be-cured-without-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                        Read Full Article
+                        <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="recovery">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is my Stomach Bigger After Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
