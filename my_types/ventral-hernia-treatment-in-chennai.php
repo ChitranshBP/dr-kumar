@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Ventral Hernia Treatment Doctor in Chennai | Dr. Kumar';
-$page_description = 'Looking for Ventral Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top anterior abdominal wall hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_description = 'Looking for Ventral Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top anterior abdominal wall hernia specialist, for advanced minimally invasive repairs.';
 $page_url = 'https://herniacare360.com/my_types/ventral-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
@@ -26,7 +26,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Treatment Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best Ventral Hernia treatment in Chennai from Dr. Kumar, the leading anterior abdominal wall hernia specialist in Chennai. Experience advanced keyhole and robotic ventral repairs.
+                Get the best Ventral Hernia treatment in Chennai from Dr. Kumar, the leading anterior abdominal wall hernia specialist. Experience advanced keyhole and robotic ventral repairs.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -455,7 +455,7 @@ require __DIR__ . '/../includes/header.php';
                         </span>
                     </div>
                     <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
-                        "I noticed a midline abdominal swelling that got worse during daily chores. Dr. Kumar, a premier anterior abdominal wall hernia specialist in Chennai, performed my Ventral Hernia treatment in Chennai. Recovery was quick, and the aesthetic result is amazing. Excellent experience!"
+                        "I noticed a midline abdominal swelling that got worse during daily chores. Dr. Kumar, a premier anterior abdominal wall hernia specialist, performed my Ventral Hernia treatment in Chennai. Recovery was quick, and the aesthetic result is amazing. Excellent experience!"
                     </p>
                 </div>
                 <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">

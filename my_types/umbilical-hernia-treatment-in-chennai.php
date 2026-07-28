@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Umbilical Hernia Treatment Doctor in Chennai | Dr. Kumar';
-$page_description = 'Looking for Umbilical Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top belly button hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_description = 'Looking for Umbilical Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top belly button hernia specialist, for advanced minimally invasive repairs.';
 $page_url = 'https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
@@ -26,7 +26,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Treatment Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best Umbilical Hernia treatment in Chennai from Dr.Kumar, the leading belly button hernia specialist in Chennai, with more than 4000 + successful Umbilical Hernia surgeries. Experience advanced keyhole and robotic Umbilical hernia repairs.
+                Get the best Umbilical Hernia treatment in Chennai from Dr.Kumar, the leading belly button hernia specialist, with more than 4000 + successful Umbilical Hernia surgeries. Experience advanced keyhole and robotic Umbilical hernia repairs.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -441,7 +441,7 @@ require __DIR__ . '/../includes/header.php';
                             </span>
                         </div>
                         <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
-                            "A belly button hernia due to heavy lifting was causing constant pain. I chose Dr. Kumar, a top belly button hernia specialist in Chennai, who performed my Umbilical Hernia treatment in Chennai. Highly professional care, was back to office work in just 4 days."
+                            "A belly button hernia due to heavy lifting was causing constant pain. I chose Dr. Kumar, a top belly button hernia specialist, who performed my Umbilical Hernia treatment in Chennai. Highly professional care, was back to office work in just 4 days."
                         </p>
                     </div>
                     <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">

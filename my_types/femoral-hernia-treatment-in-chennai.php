@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Femoral Hernia Treatment Doctor in Chennai | Dr. Kumar';
-$page_description = 'Looking for Femoral Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top groin hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_description = 'Looking for Femoral Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top groin hernia specialist, for advanced minimally invasive repairs.';
 $page_url = 'https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>
@@ -26,7 +26,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best Femoral Hernia treatment in Chennai from Dr. Kumar, a top groin hernia specialist in Chennai. Experience advanced minimally invasive repairs to address femoral canal defects safely.
+                Get the best Femoral Hernia treatment in Chennai from Dr. Kumar, a top groin hernia specialist. Experience advanced minimally invasive repairs to address femoral canal defects safely.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -449,7 +449,7 @@ require __DIR__ . '/../includes/header.php';
                             </span>
                         </div>
                         <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
-                            "I noticed a painful swelling in my upper thigh. I consulted Dr. Kumar, a top groin hernia specialist in Chennai. He diagnosed it as a femoral hernia and performed laparoscopic surgery. The Femoral Hernia treatment in Chennai was completely successful, and I had almost no pain. Highly recommend him!"
+                            "I noticed a painful swelling in my upper thigh. I consulted Dr. Kumar, a top groin hernia specialist. He diagnosed it as a femoral hernia and performed laparoscopic surgery. The Femoral Hernia treatment in Chennai was completely successful, and I had almost no pain. Highly recommend him!"
                         </p>
                     </div>
                     <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
