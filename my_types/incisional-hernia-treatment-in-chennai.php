@@ -26,7 +26,7 @@ require __DIR__ . '/../includes/header.php';
                 <span class="text-accent">Treatment Doctor in Chennai</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Get the best incisional hernia surgery in Chennai from Dr. Kumar, a premier complex hernia specialist in Chennai. Experience advanced keyhole and robotic reconstructions to restore abdominal strength.
+                Get the best Incisional Hernia treatment in Chennai from Dr. Kumar, a premier complex hernia specialist in Chennai. Experience advanced keyhole and robotic reconstructions to restore abdominal strength.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -416,7 +416,7 @@ require __DIR__ . '/../includes/header.php';
                         </span>
                     </div>
                     <p class="text-slate-700 text-[15px] leading-relaxed mb-6 italic">
-                        "After my open hysterectomy elsewhere, I had a massive incisional hernia. I consulted Dr. Kumar, a leading complex hernia surgeon in Chennai, to perform my incisional hernia surgery in Chennai. His component separation work is life-changing. I can stand and walk comfortably now."
+                        "After my open hysterectomy elsewhere, I had a massive incisional hernia. I consulted Dr. Kumar, a leading complex hernia surgeon in Chennai, to perform my Incisional Hernia treatment in Chennai. His component separation work is life-changing. I can stand and walk comfortably now."
                     </p>
                 </div>
                 <div class="border-t border-slate-200/60 pt-4 flex items-center justify-between">
