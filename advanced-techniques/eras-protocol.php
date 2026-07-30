@@ -10,7 +10,7 @@ require __DIR__ . '/../includes/header.php';
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <!-- Breadcrumbs -->
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="text-slate-500">/</span>
             <span class="text-slate-400">Advanced Techniques</span>
             <span class="text-slate-500">/</span>
@@ -406,7 +406,7 @@ require __DIR__ . '/../includes/header.php';
             Dr. Kumar implements ERAS protocols to help you get back to your life sooner with less pain and fewer complications.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="<?= $base_path ?>book-appointment.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
+            <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                 Book Your Consultation
             </a>

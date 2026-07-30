@@ -8,7 +8,7 @@ require __DIR__ . '/../includes/header.php';
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="text-slate-500">/</span>
             <span class="text-slate-400">Patient Education</span>
             <span class="text-slate-500">/</span>
@@ -27,7 +27,7 @@ require __DIR__ . '/../includes/header.php';
                     Book Consultation
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                 </a>
-                <a href="causes.php" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition hover:scale-105">
+                <a href="causes" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition hover:scale-105">
                     Learn Causes
                 </a>
             </div>
@@ -238,10 +238,10 @@ require __DIR__ . '/../includes/header.php';
 <section class="py-8 bg-white border-t border-slate-100">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex flex-wrap gap-3 justify-center">
-            <a href="causes.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Causes</a>
-            <a href="symptoms.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Symptoms</a>
-            <a href="diagnosis.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Diagnosis</a>
-            <a href="complications.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Complications</a>
+            <a href="causes" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Causes</a>
+            <a href="symptoms" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Symptoms</a>
+            <a href="diagnosis" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Diagnosis</a>
+            <a href="complications" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Complications</a>
         </div>
     </div>
 </section>

@@ -20,7 +20,7 @@ require __DIR__ . '/../includes/header.php';
     <div class="relative max-w-7xl mx-auto px-4 py-20 lg:py-28">
         <!-- Breadcrumbs -->
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="text-slate-500">/</span>
             <span class="text-accent font-medium">All Treatments</span>
         </nav>
@@ -148,112 +148,112 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
         <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-annanagar.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-annanagar" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Anna Nagar
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-mogappair.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-mogappair" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Mogappair
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kilpauk.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kilpauk" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Kilpauk
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-shenoy-nagar.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-shenoy-nagar" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Shenoy Nagar
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-arumbakkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-arumbakkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Arumbakkam
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-aminjikarai.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-aminjikarai" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Aminjikarai
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-nungambakkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-nungambakkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Nungambakkam
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-koyambedu.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-koyambedu" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Koyambedu
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-maduravoyal.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-maduravoyal" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Maduravoyal
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-villivakkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-villivakkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Villivakkam
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-padi.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-padi" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Padi
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kolathur.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kolathur" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Kolathur
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-korattur.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-korattur" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Korattur
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-ayanavaram.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-ayanavaram" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Ayanavaram
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-perambur.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-perambur" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Perambur
                 </span>
                 <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-purasawalkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-purasawalkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                 <span class="flex items-center gap-2">
                     <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                     Hernia Surgeon in Purasawalkam
@@ -282,7 +282,7 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Call: <?= $site['phone'] ?>
             </a>
-            <a href="<?= $base_path ?>book-appointment.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition duration-300 hover:scale-105">
+            <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition duration-300 hover:scale-105">
                 Book Appointment
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>

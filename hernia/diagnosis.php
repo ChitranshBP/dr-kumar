@@ -8,7 +8,7 @@ require __DIR__ . '/../includes/header.php';
 <section class="relative bg-brand-950 text-white overflow-hidden py-20 md:py-28">
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="text-slate-500">/</span>
             <span class="text-slate-400">Patient Education</span>
             <span class="text-slate-500">/</span>
@@ -27,7 +27,7 @@ require __DIR__ . '/../includes/header.php';
                     Book Appointment
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                 </a>
-                <a href="../treatment.php" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition hover:scale-105">
+                <a href="../treatment" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition hover:scale-105">
                     View Treatment
                 </a>
             </div>
@@ -229,7 +229,7 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Call: +91 89255 02759
             </a>
-            <a href="complications.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
+            <a href="complications" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 Learn About Complications
             </a>
         </div>
@@ -240,10 +240,10 @@ require __DIR__ . '/../includes/header.php';
 <section class="py-8 bg-white border-t border-slate-100">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex flex-wrap gap-3 justify-center">
-            <a href="what-is-hernia.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">What is Hernia</a>
-            <a href="causes.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Causes</a>
-            <a href="symptoms.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Symptoms</a>
-            <a href="complications.php" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Complications</a>
+            <a href="what-is-hernia" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">What is Hernia</a>
+            <a href="causes" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Causes</a>
+            <a href="symptoms" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Symptoms</a>
+            <a href="complications" class="px-5 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full text-sm font-medium transition">Complications</a>
         </div>
     </div>
 </section>

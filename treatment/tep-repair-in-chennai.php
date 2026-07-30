@@ -21,7 +21,7 @@ require __DIR__ . '/../includes/header.php';
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <!-- Breadcrumbs -->
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="text-slate-500">/</span>
             <span class="text-slate-400">Treatments</span>
             <span class="text-slate-500">/</span>
@@ -597,7 +597,7 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Book Consultation
             </a>
-            <a href="<?= $base_path ?>treatment/tapp-repair-in-chennai.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
+            <a href="<?= $base_path ?>treatment/tapp-repair-in-chennai" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 Compare with TAPP
             </a>
         </div>

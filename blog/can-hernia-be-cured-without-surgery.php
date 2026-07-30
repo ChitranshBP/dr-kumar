@@ -11,9 +11,9 @@ require_once __DIR__ . '/../includes/header.php';
     
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="text-sm mb-6 text-brand-200">
-            <a href="../index.php" class="hover:text-white transition">Home</a>
+            <a href=".." class="hover:text-white transition">Home</a>
             <span class="mx-2">/</span>
-            <a href="../blog.php" class="hover:text-white transition">Blog</a>
+            <a href="../blog" class="hover:text-white transition">Blog</a>
             <span class="mx-2">/</span>
             <span class="text-white">Non-Surgical Hernia Guide</span>
         </nav>
@@ -29,7 +29,7 @@ require_once __DIR__ . '/../includes/header.php';
             <div class="flex flex-wrap items-center gap-6 text-sm text-slate-300 mt-6">
                 <div class="flex items-center gap-2">
                     <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-                    <span>By <a href="../index.php" class="text-accent hover:underline font-semibold">Dr. Kumar</a></span>
+                    <span>By <a href=".." class="text-accent hover:underline font-semibold">Dr. Kumar</a></span>
                 </div>
                 <div class="flex items-center gap-2">
                     <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
@@ -67,7 +67,7 @@ require_once __DIR__ . '/../includes/header.php';
                         Discovering a soft bulge in your groin, belly button, or abdomen can trigger understandable anxiety. For many patients, the immediate instinct is to ask: <strong>can hernia be treated without surgery</strong>? It is completely natural to look for non-invasive remedies, exercises, or home solutions to avoid an operation. In 2026, with an abundance of health advice available online, distinguishing scientifically backed medical facts from misleading claims is more important than ever.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        If you are searching for guidance on <strong>how to cure hernia without surgery</strong> or trying to understand whether <strong>hernia treatment without surgery at home</strong> is feasible, this comprehensive medical guide offers clear, evidence-based answers. Written from the perspective of an expert clinical specialist, <a href="../index.php" class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, a leading <a href="../treatment/hernia-surgeon-in-chennai.php" class="text-brand-700 font-semibold hover:underline">Hernia Surgeon in Chennai</a>, this article explores what a hernia actually is, why non-surgical methods cannot close the defect, when watchful waiting is safe, and why modern minimally invasive surgery remains the gold standard cure.
+                        If you are searching for guidance on <strong>how to cure hernia without surgery</strong> or trying to understand whether <strong>hernia treatment without surgery at home</strong> is feasible, this comprehensive medical guide offers clear, evidence-based answers. Written from the perspective of an expert clinical specialist, <a href=".." class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, a leading <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 font-semibold hover:underline">Hernia Surgeon in Chennai</a>, this article explores what a hernia actually is, why non-surgical methods cannot close the defect, when watchful waiting is safe, and why modern minimally invasive surgery remains the gold standard cure.
                     </p>
 
                     <!-- 2. What is Hernia -->
@@ -322,7 +322,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <!-- 11. Why Choose Dr. Kumar for Hernia Treatment? -->
                     <h2 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-3">Why Choose Dr. Kumar for Hernia Treatment?</h2>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        When facing hernia repair, choosing an experienced specialist makes all the difference in procedural safety, comfort, and recurrence prevention. <a href="../index.php" class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a> is recognized as a premier <a href="../treatment/hernia-surgeon-in-chennai.php" class="text-brand-700 font-semibold hover:underline">Hernia Surgeon in Chennai</a>, renowned for surgical precision and patient-first care.
+                        When facing hernia repair, choosing an experienced specialist makes all the difference in procedural safety, comfort, and recurrence prevention. <a href=".." class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a> is recognized as a premier <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 font-semibold hover:underline">Hernia Surgeon in Chennai</a>, renowned for surgical precision and patient-first care.
                     </p>
 
                     <div class="grid sm:grid-cols-2 gap-4 mb-8">
@@ -350,7 +350,7 @@ require_once __DIR__ . '/../includes/header.php';
                         To summarize: while it is tempting to hope for non-surgical cures, an abdominal wall hernia is a physical tear that will not close without surgical repair. Non-surgical remedies, trusses, and lifestyle adjustments can help manage symptoms or delay surgery temporarily, but they cannot cure the underlying defect.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-8">
-                        The good news in 2026 is that modern hernia surgery is nothing like traditional operations of the past. With advanced keyhole laparoscopic and robotic procedures, hernia repair is quick, virtually painless, and performed as a daycare procedure. If you or a loved one are suspecting a hernia, schedule a clinical consultation with <a href="../index.php" class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, a trusted <a href="../treatment/hernia-surgeon-in-chennai.php" class="text-brand-700 font-semibold hover:underline">Hernia Surgeon in Chennai</a>, to discuss a safe, personalized care path.
+                        The good news in 2026 is that modern hernia surgery is nothing like traditional operations of the past. With advanced keyhole laparoscopic and robotic procedures, hernia repair is quick, virtually painless, and performed as a daycare procedure. If you or a loved one are suspecting a hernia, schedule a clinical consultation with <a href=".." class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, a trusted <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 font-semibold hover:underline">Hernia Surgeon in Chennai</a>, to discuss a safe, personalized care path.
                     </p>
 
                     <!-- 13. Frequently Asked Questions (AEO Schema Optimized) -->
@@ -413,7 +413,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <h3 class="font-bold text-slate-900 text-lg mb-1">Dr. Kumar</h3>
                     <p class="text-xs text-brand-700 font-semibold mb-3">Senior Hernia & Abdominal Wall Surgeon</p>
                     <p class="text-xs text-slate-600 leading-relaxed mb-4">Over 29+ years of experience specializing in advanced laparoscopic and robotic hernia repairs.</p>
-                    <a href="../index.php" class="inline-flex items-center justify-center w-full bg-brand-50 hover:bg-brand-100 text-brand-800 text-xs font-bold py-2.5 rounded-xl border border-brand-100 transition">
+                    <a href=".." class="inline-flex items-center justify-center w-full bg-brand-50 hover:bg-brand-100 text-brand-800 text-xs font-bold py-2.5 rounded-xl border border-brand-100 transition">
                         View Doctor Profile
                     </a>
                 </div>
@@ -422,14 +422,14 @@ require_once __DIR__ . '/../includes/header.php';
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm">
                     <h3 class="font-bold text-slate-900 text-base mb-4 border-b border-slate-100 pb-2">Related Articles</h3>
                     <div class="space-y-4">
-                        <a href="why-is-my-stomach-bigger-after-hernia-surgery.php" class="flex gap-3 group">
+                        <a href="why-is-my-stomach-bigger-after-hernia-surgery" class="flex gap-3 group">
                             <img src="../assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Stomach Swelling After Hernia Surgery" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Why is my Stomach Bigger After Hernia Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">09 July 2026</span>
                             </div>
                         </a>
-                        <a href="can-hernia-come-back-after-surgery.php" class="flex gap-3 group">
+                        <a href="can-hernia-come-back-after-surgery" class="flex gap-3 group">
                             <img src="../assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can a Hernia Come Back After Surgery?</h4>

@@ -361,10 +361,10 @@ require __DIR__ . '/includes/header.php';
         <h2 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mb-4">Prefer an In-Person Visit?</h2>
         <p class="text-slate-600 mb-6">If you would rather meet Dr. Kumar in person, we also offer in-clinic consultations at Billroth Hospital.</p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="book-appointment.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-full transition">
+            <a href="book-appointment" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-full transition">
                 Book In-Person Appointment
             </a>
-            <a href="second-opinion.php" class="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-800 font-semibold px-6 py-3 rounded-full border border-slate-200 transition">
+            <a href="second-opinion" class="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-slate-800 font-semibold px-6 py-3 rounded-full border border-slate-200 transition">
                 Get Second Opinion
             </a>
         </div>

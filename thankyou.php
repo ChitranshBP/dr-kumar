@@ -101,7 +101,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Secondary link -->
-        <a href="<?= $base_path ?>index.php" class="inline-flex items-center gap-2 text-brand-700 hover:text-brand-800 font-semibold transition-colors group">
+        <a href="<?= $base_path ?>" class="inline-flex items-center gap-2 text-brand-700 hover:text-brand-800 font-semibold transition-colors group">
             <svg class="w-4 h-4 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
             Back to Homepage
         </a>

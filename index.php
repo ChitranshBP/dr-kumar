@@ -20,7 +20,7 @@ require __DIR__ . '/includes/header.php';
             </p>
 
             <div class="flex flex-wrap gap-3">
-                <a href="about-best-hernia-hospital-in-chennai.php" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
+                <a href="about-best-hernia-hospital-in-chennai" class="inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-8 py-3 rounded-md shadow-md hover:shadow-lg transition">
                     About Us
                 </a>
                 <a href="#treatments" class="inline-flex items-center justify-center bg-white hover:bg-slate-50 text-slate-800 font-semibold px-8 py-3 rounded-md border border-slate-200 shadow-sm transition">
@@ -278,7 +278,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <div class="mt-10 text-center">
-            <a href="hernia-types.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+            <a href="hernia-types" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
                 View All Hernia Types
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
@@ -344,7 +344,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <div class="text-center mt-10">
-            <a href="treatment.php" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
+            <a href="treatment" class="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-7 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-0.5 transition">
                 View All Treatments
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
@@ -511,7 +511,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
             <div class="flex flex-wrap items-center justify-center gap-3 shrink-0">
-                <a href="<?= $base_path ?>second-opinion.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-6 py-3.5 rounded-full shadow-lg shadow-amber-500/20 hover:-translate-y-0.5 transition-all duration-300">
+                <a href="<?= $base_path ?>second-opinion" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-6 py-3.5 rounded-full shadow-lg shadow-amber-500/20 hover:-translate-y-0.5 transition-all duration-300">
                     Get a Second Opinion
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>

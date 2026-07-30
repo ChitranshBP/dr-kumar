@@ -12,7 +12,7 @@ require __DIR__ . '/../includes/header.php';
             <div>
                 <!-- Breadcrumbs -->
                 <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-                    <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+                    <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
                     <span class="text-slate-500">/</span>
                     <span class="text-slate-400">Advanced Techniques</span>
                     <span class="text-slate-500">/</span>
@@ -35,7 +35,7 @@ require __DIR__ . '/../includes/header.php';
                         Learn More
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7H3"/></svg>
                     </a>
-                    <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
+                    <a href="../book-appointment" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
                         Book Consultation
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -375,7 +375,7 @@ require __DIR__ . '/../includes/header.php';
             Dr. Kumar will evaluate your case and recommend the best mesh option for your specific situation.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
+            <a href="../book-appointment" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a HK2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                 Schedule Consultation
             </a>

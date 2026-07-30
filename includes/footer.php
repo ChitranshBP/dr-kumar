@@ -30,8 +30,7 @@
                     <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-gradient-to-r from-accent to-amber-500 hover:from-amber-500 hover:to-amber-600 text-white font-bold px-6 py-3.5 rounded-full shadow-lg shadow-amber-500/20 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                         Call <?= $site['phone'] ?>
-                    </a>
-                    <a href="<?= $base_path ?>book-appointment.php" class="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 backdrop-blur text-white font-semibold px-6 py-3.5 rounded-full border border-white/15 hover:border-white/30 transition-all duration-300">
+                    </a>                    <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 backdrop-blur text-white font-semibold px-6 py-3.5 rounded-full border border-white/15 hover:border-white/30 transition-all duration-300">
                         Book Online
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                     </a>
@@ -119,35 +118,35 @@
                 <span class="absolute bottom-0 left-0 w-10 h-0.5 bg-gradient-to-r from-brand-500 to-brand-700 rounded-full"></span>
             </h3>
             <ul class="space-y-3 text-[15px]">
-                <li><a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Hernia Surgery
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/best-laparoscopic-hernia-surgery-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/best-laparoscopic-hernia-surgery-in-chennai" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Laparoscopic Surgery
                 </a></li>
-                <li><a href="<?= $base_path ?>best-robotic-hernia-surgery-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>best-robotic-hernia-surgery-in-chennai" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Robotic Surgery
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/etep-technique-expert-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/etep-technique-expert-in-chennai" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     eTEP Repair
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/mesh-hernia-repair-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/mesh-hernia-repair-in-chennai" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Mesh Repair
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/recovery.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/recovery" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Recovery
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/abdominal-wall-reconstruction-in-chennai.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/abdominal-wall-reconstruction-in-chennai" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3 h-3 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     Abdominal Wall Reconstruction
                 </a></li>
-                <li><a href="<?= $base_path ?>treatment/diastasis-recti.php" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
+                <li><a href="<?= $base_path ?>treatment/diastasis-recti" class="group flex items-center gap-2 text-slate-300 hover:text-white font-medium transition-colors duration-200">
                     <svg class="w-3.5 h-3.5 text-brand-500/60 group-hover:text-brand-400 group-hover:translate-x-0.5 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                     <span>Diastasis Recti (Divarication of Recti)</span>
                 </a></li>
@@ -161,36 +160,36 @@
                 <span class="absolute bottom-0 left-0 w-10 h-0.5 bg-gradient-to-r from-brand-500 to-brand-700 rounded-full"></span>
             </h3>
             <div class="grid grid-cols-2 gap-x-3 gap-y-3 text-[15px]">
-                <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Inguinal</a>
-                <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Umbilical</a>
-                <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Incisional</a>
-                <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Ventral</a>
-                <a href="<?= $base_path ?>my_types/hiatal-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Hiatal</a>
-                <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Femoral</a>
-                <a href="<?= $base_path ?>my_types/strangulated-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Strangulated</a>
-                <a href="<?= $base_path ?>my_types/sports-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Sports</a>
-                <a href="<?= $base_path ?>special-considerations/complex-hernia-info.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Complex</a>
-                <a href="<?= $base_path ?>my_types/recurrent-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Recurrent</a>
-                <a href="<?= $base_path ?>my_types/rare-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Rare Types</a>
-                <a href="<?= $base_path ?>my_types/epigastric-hernia-surgery-in-chennai.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Epigastric</a>
-                <a href="<?= $base_path ?>my_types/rare-hernia.php#supraumbilical" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Supraumbilical</a>
-                <a href="<?= $base_path ?>my_types/rare-hernia.php#lumbar" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Lumbar</a>
-                <a href="<?= $base_path ?>my_types/rare-hernia.php#spigelian" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Spigelian</a>
-                <a href="<?= $base_path ?>my_types/rare-hernia.php#diaphragmatic" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Diaphragmatic</a>
+                <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Inguinal</a>
+                <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Umbilical</a>
+                <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Incisional</a>
+                <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Ventral</a>
+                <a href="<?= $base_path ?>my_types/hiatal-hernia-surgery-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Hiatal</a>
+                <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Femoral</a>
+                <a href="<?= $base_path ?>my_types/strangulated-hernia-surgery-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Strangulated</a>
+                <a href="<?= $base_path ?>my_types/sports-hernia" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Sports</a>
+                <a href="<?= $base_path ?>special-considerations/complex-hernia-info" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Complex</a>
+                <a href="<?= $base_path ?>my_types/recurrent-hernia" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Recurrent</a>
+                <a href="<?= $base_path ?>my_types/rare-hernia" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Rare Types</a>
+                <a href="<?= $base_path ?>my_types/epigastric-hernia-surgery-in-chennai" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Epigastric</a>
+                <a href="<?= $base_path ?>my_types/rare-hernia#supraumbilical" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Supraumbilical</a>
+                <a href="<?= $base_path ?>my_types/rare-hernia#lumbar" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Lumbar</a>
+                <a href="<?= $base_path ?>my_types/rare-hernia#spigelian" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Spigelian</a>
+                <a href="<?= $base_path ?>my_types/rare-hernia#diaphragmatic" class="text-slate-300 hover:text-white font-medium transition-colors duration-200 truncate">Diaphragmatic</a>
             </div>
 
             <!-- Learn More Mini Section -->
             <div class="mt-6 pt-5 border-t border-white/10">
                 <h4 class="text-white text-sm uppercase tracking-wider font-bold mb-3">Learn More</h4>
                 <ul class="space-y-2.5 text-[15px]">
-                    <li><a href="<?= $base_path ?>hernia/what-is-hernia.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">What is Hernia</a></li>
-                    <li><a href="<?= $base_path ?>hernia/causes.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Causes</a></li>
-                    <li><a href="<?= $base_path ?>hernia/symptoms.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Symptoms</a></li>
-                    <li><a href="<?= $base_path ?>hernia/diagnosis.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Diagnosis</a></li>
-                    <li><a href="<?= $base_path ?>hernia/complications.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Complications</a></li>
-                    <li><a href="<?= $base_path ?>second-opinion.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Second Opinion</a></li>
-                    <li><a href="<?= $base_path ?>resources/symptom-checker.php" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Hernia Symptom Spotter</a></li>
-                    <li><a href="<?= $base_path ?>book-appointment.php" class="text-brand-300 hover:text-white font-bold transition-colors duration-200">Book Appointment →</a></li>
+                    <li><a href="<?= $base_path ?>hernia/what-is-hernia" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">What is Hernia</a></li>
+                    <li><a href="<?= $base_path ?>hernia/causes" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Causes</a></li>
+                    <li><a href="<?= $base_path ?>hernia/symptoms" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Symptoms</a></li>
+                    <li><a href="<?= $base_path ?>hernia/diagnosis" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Diagnosis</a></li>
+                    <li><a href="<?= $base_path ?>hernia/complications" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Complications</a></li>
+                    <li><a href="<?= $base_path ?>second-opinion" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Second Opinion</a></li>
+                    <li><a href="<?= $base_path ?>resources/symptom-checker" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Hernia Symptom Spotter</a></li>
+                    <li><a href="<?= $base_path ?>book-appointment" class="text-brand-300 hover:text-white font-bold transition-colors duration-200">Book Appointment →</a></li>
                 </ul>
             </div>
         </div>
@@ -246,13 +245,13 @@
                     &copy; <?= date('Y') ?> <?= $site['name'] ?>. All rights reserved.
                 </p>
                 <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-slate-300 font-medium">
-                    <a href="<?= $base_path ?>privacy-policy.php" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
+                    <a href="<?= $base_path ?>privacy-policy" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
                     <span class="w-1 h-1 rounded-full bg-slate-600"></span>
-                    <a href="<?= $base_path ?>terms-conditions.php" class="hover:text-white transition-colors duration-200">Terms &amp; Conditions</a>
+                    <a href="<?= $base_path ?>terms-conditions" class="hover:text-white transition-colors duration-200">Terms &amp; Conditions</a>
                 </div>
             </div>
         </div>
-    </div>
+    </div>div>
 
 </footer>
 
@@ -469,7 +468,7 @@
             </a>
 
             <!-- Book Now (primary CTA) -->
-            <a href="<?= $base_path ?>book-appointment.php" class="group flex flex-col items-center gap-1 flex-1 py-1 rounded-xl transition-all duration-200" aria-label="Book appointment">
+            <a href="<?= $base_path ?>book-appointment" class="group flex flex-col items-center gap-1 flex-1 py-1 rounded-xl transition-all duration-200" aria-label="Book appointment">
                 <div class="relative w-10 h-10 rounded-2xl bg-gradient-to-br from-brand-500 via-brand-600 to-brand-700 flex items-center justify-center shadow-md shadow-brand-500/40 ring-1 ring-white/20 group-hover:scale-110 group-active:scale-95 group-hover:shadow-lg group-hover:shadow-brand-500/50 transition-all duration-200">
                     <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                         <rect x="3" y="4" width="18" height="18" rx="2.5"/>

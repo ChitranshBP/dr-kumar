@@ -1,4 +1,19 @@
 <?php
+if (isset($_SERVER['REQUEST_URI'])) {
+    $request_uri = $_SERVER['REQUEST_URI'];
+    $path_only = parse_url($request_uri, PHP_URL_PATH);
+    if ($path_only && str_ends_with(strtolower($path_only), '.php') && $path_only !== '/build.php') {
+        $clean_path = preg_replace('/\.php$/i', '', $path_only);
+        if ($clean_path === '/index') {
+            $clean_path = '/';
+        }
+        $query_str = parse_url($request_uri, PHP_URL_QUERY);
+        $target = $clean_path . ($query_str ? '?' . $query_str : '');
+        header("Location: " . $target, true, 301);
+        exit();
+    }
+}
+
 require_once __DIR__ . '/config.php';
 
 $page_title       ??= 'Advanced Hernia, Laparoscopic & Robotic Surgery | Dr. Kumar';
@@ -556,7 +571,7 @@ if (!isset($schema_about)) {
         <nav class="flex items-center justify-between gap-6 py-3">
 
             <!-- LOGO -->
-            <a href="<?= $base_path ?>index.php" class="flex items-center shrink-0">
+            <a href="<?= $base_path ?>" class="flex items-center shrink-0">
                 <img src="<?= $base_path ?>assets/logo/herniacare-final-logo.png" alt="Dr. Kumar" width="260" height="70" class="h-20 w-auto">
             </a>
 
@@ -652,7 +667,7 @@ if (!isset($schema_about)) {
             <!-- RIGHT: CTA -->
             <div class="flex items-center gap-1">
                 <span class="hidden md:block w-px h-6 bg-slate-200 mx-2"></span>
-                <a href="<?= $base_path ?>book-appointment.php" class="cta-btn hidden md:inline-flex">
+                <a href="<?= $base_path ?>book-appointment" class="cta-btn hidden md:inline-flex">
                     Appointment
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
@@ -730,7 +745,7 @@ if (!isset($schema_about)) {
                 <span class="block font-bold text-brand-800"><?= $site['phone'] ?></span>
             </span>
         </a>
-        <a href="<?= $base_path ?>book-appointment.php" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
+        <a href="<?= $base_path ?>book-appointment" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
             Book Appointment
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>

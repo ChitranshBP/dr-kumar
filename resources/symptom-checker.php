@@ -9,9 +9,9 @@ require __DIR__ . '/../includes/header.php';
     <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
     <div class="max-w-7xl mx-auto px-4 relative">
         <nav class="text-sm mb-6 text-brand-200">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="mx-2">/</span>
-            <a href="<?= $base_path ?>resources/patient-resources.php" class="hover:text-white transition">Resources</a>
+            <a href="<?= $base_path ?>resources/patient-resources" class="hover:text-white transition">Resources</a>
             <span class="mx-2">/</span>
             <span class="text-white">Symptom Checker</span>
         </nav>
@@ -125,7 +125,7 @@ require __DIR__ . '/../includes/header.php';
 
                 <!-- Action Button Block -->
                 <div class="border-t border-slate-100 pt-8 mt-8 flex flex-wrap gap-4">
-                    <a id="btnPrimaryAction" href="<?= $base_path ?>book-appointment.php" class="flex-1 min-w-[200px] inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-4 rounded-xl shadow-md hover:shadow-lg transition">
+                    <a id="btnPrimaryAction" href="<?= $base_path ?>book-appointment" class="flex-1 min-w-[200px] inline-flex items-center justify-center bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-4 rounded-xl shadow-md hover:shadow-lg transition">
                         Schedule Consultation
                     </a>
                     <a id="btnSecondaryAction" href="tel:+918925502759" class="inline-flex items-center justify-center border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold px-6 py-4 rounded-xl transition">

@@ -43,7 +43,7 @@ require __DIR__ . '/../includes/header.php';
                 <p class="text-brand-100 text-sm md:text-base leading-relaxed">Concerned about abdominal discomfort, a persistent ache, or a visible bulge? Use our self-assessment checker to evaluate your symptoms and see if a surgical consultation is recommended.</p>
             </div>
             <div class="shrink-0 w-full md:w-auto">
-                <a href="symptom-checker.php" class="w-full md:w-auto text-center inline-flex items-center justify-center bg-gradient-to-r from-accent to-amber-500 hover:shadow-lg text-white font-bold px-8 py-4 rounded-xl shadow-md transition hover:scale-105 gap-2">
+                <a href="symptom-checker" class="w-full md:w-auto text-center inline-flex items-center justify-center bg-gradient-to-r from-accent to-amber-500 hover:shadow-lg text-white font-bold px-8 py-4 rounded-xl shadow-md transition hover:scale-105 gap-2">
                     Start Symptom Checker
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
@@ -105,7 +105,7 @@ require __DIR__ . '/../includes/header.php';
                         <p class="text-sm text-red-800 leading-relaxed mb-2">
                             Seek immediate emergency medical attention if you experience: a bulge that turns dark/purple or cannot be gently pushed back, severe or worsening pain, nausea or vomiting, or inability to pass gas or have bowel movements.
                         </p>
-                        <a href="emergency-hernia-care.php" class="text-xs font-bold text-red-700 hover:text-red-900 flex items-center gap-1">
+                        <a href="emergency-hernia-care" class="text-xs font-bold text-red-700 hover:text-red-900 flex items-center gap-1">
                             Read Emergency Care Protocols →
                         </a>
                     </div>
@@ -734,7 +734,7 @@ require __DIR__ . '/../includes/header.php';
         <h2 class="text-3xl font-bold text-white mb-4">Need More Information?</h2>
         <p class="text-brand-100 text-lg mb-8 max-w-2xl mx-auto">Schedule a consultation to get personalized guidance for your specific condition and treatment plan.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="book-appointment.php" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
+            <a href="book-appointment" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
                 Book Appointment
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
             </a>

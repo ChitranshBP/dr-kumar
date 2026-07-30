@@ -192,7 +192,7 @@ require __DIR__ . '/includes/header.php';
                     Privacy
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-4">
-                    Your privacy is important to us. Please review our <a href="privacy-policy.php" class="text-brand-700 hover:underline font-medium">Privacy Policy</a> to understand how we collect, use, and protect your personal information.
+                    Your privacy is important to us. Please review our <a href="privacy-policy" class="text-brand-700 hover:underline font-medium">Privacy Policy</a> to understand how we collect, use, and protect your personal information.
                 </p>
                 <p class="text-slate-600 leading-relaxed">
                     By using this website, you consent to our collection and use of personal information as described in the Privacy Policy.
@@ -254,7 +254,7 @@ require __DIR__ . '/includes/header.php';
 <section class="bg-gradient-to-r from-brand-700 to-brand-800 py-12">
     <div class="max-w-4xl mx-auto px-4 text-center">
         <p class="text-brand-100 mb-4">Questions about our terms?</p>
-        <a href="contact.php" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
+        <a href="contact" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
             Contact Us
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
         </a>

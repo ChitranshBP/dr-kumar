@@ -33,6 +33,8 @@ RewriteRule ^my_types/ventral-hernia-surgery-in-chennai(\.php)?/?$ https://herni
 RewriteRule ^my_types/femoral-hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai [R=301,L,NC]
 RewriteRule ^treatment/tapp-repair(\.php)?/?$ https://herniacare360.com/treatment/tapp-repair-in-chennai [R=301,L,NC]
 RewriteRule ^treatment/hernia-surgery-in-chennai(\.php)?/?$ https://herniacare360.com/treatment/hernia-surgeon-in-chennai [R=301,L,NC]
+RewriteRule ^treatment/hernia-surgeon-in-([a-z-]+)\.php$ https://herniacare360.com/treatment/hernia-surgeon-in-$1 [R=301,L,NC]
+RewriteRule ^treatment/([a-z-]+)\.php$ https://herniacare360.com/treatment/$1 [R=301,L,NC]
 
 # 301 Redirect for spam pages
 RewriteCond %{QUERY_STRING} ^nocache=1777519964&jet_blog_ajax=1$ [NC]

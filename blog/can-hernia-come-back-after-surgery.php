@@ -11,9 +11,9 @@ require_once __DIR__ . '/../includes/header.php';
     
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="text-sm mb-6 text-brand-200">
-            <a href="../index.php" class="hover:text-white transition">Home</a>
+            <a href=".." class="hover:text-white transition">Home</a>
             <span class="mx-2">/</span>
-            <a href="../blog.php" class="hover:text-white transition">Blog</a>
+            <a href="../blog" class="hover:text-white transition">Blog</a>
             <span class="mx-2">/</span>
             <span class="text-white">Hernia Recurrence</span>
         </nav>
@@ -232,7 +232,7 @@ require_once __DIR__ . '/../includes/header.php';
                         For complex recurrent ventral or incisional cases, advanced techniques like <strong>Abdominal Wall Reconstruction (AWR)</strong> are used. Using procedures like TAR (Transversus Abdominis Release), the surgeon separates the muscle layers of the abdomen, slides them back into their natural position, and places a large reinforcing mesh in a deep, protected layer.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        To guarantee a successful, permanent repair, you should consult an expert <a href="../treatment/hernia-surgeon-in-chennai.php" class="text-brand-700 hover:underline font-semibold">Hernia Surgeon in Chennai</a>. Senior specialists like <a href="../about-best-hernia-hospital-in-chennai.php" class="text-brand-700 hover:underline font-semibold">Dr. Kumar</a> of Billroth Hospitals bring nearly three decades of clinical experience and advanced robotic/laparoscopic expertise to resolve complex recurrent hernia repairs safely.
+                        To guarantee a successful, permanent repair, you should consult an expert <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 hover:underline font-semibold">Hernia Surgeon in Chennai</a>. Senior specialists like <a href="../about-best-hernia-hospital-in-chennai" class="text-brand-700 hover:underline font-semibold">Dr. Kumar</a> of Billroth Hospitals bring nearly three decades of clinical experience and advanced robotic/laparoscopic expertise to resolve complex recurrent hernia repairs safely.
                     </p>
 
                     <!-- Conclusion -->
@@ -312,7 +312,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <p class="text-sm text-slate-500 leading-relaxed mb-6">
                         With over 29 years of surgical experience, Dr. Kumar provides advanced laparoscopic and robotic hernia treatments in Chennai.
                     </p>
-                    <a href="../contact.php" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
+                    <a href="../contact" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
                         Book Consultation
                     </a>
                 </div>

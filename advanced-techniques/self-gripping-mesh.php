@@ -9,7 +9,7 @@
             <div>
                 <!-- Breadcrumbs -->
                 <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-                    <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+                    <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
                     <span class="text-slate-500">/</span>
                     <span class="text-slate-400">Advanced Techniques</span>
                     <span class="text-slate-500">/</span>
@@ -32,7 +32,7 @@
                         View Benefits
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7H3"/></svg>
                     </a>
-                    <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
+                    <a href="../book-appointment" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
                         Discover This Option
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -360,7 +360,7 @@
         <h2 class="font-display text-3xl lg:text-4xl font-bold mb-4">Interested in Self-Gripping Mesh?</h2>
         <p class="text-xl text-slate-300 leading-relaxed mb-8 max-w-2xl mx-auto">Dr. Kumar will evaluate your hernia and determine if self-gripping mesh is the best option for you.</p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="../book-appointment.php" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
+            <a href="../book-appointment" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
                 Schedule Consultation
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>

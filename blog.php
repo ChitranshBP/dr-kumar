@@ -12,7 +12,7 @@ require_once __DIR__ . '/includes/header.php';
     
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="text-sm mb-6 text-brand-200">
-            <a href="index.php" class="hover:text-white transition">Home</a>
+            <a href="" class="hover:text-white transition">Home</a>
             <span class="mx-2">/</span>
             <span class="text-white">Blog</span>
         </nav>
@@ -81,12 +81,12 @@ require_once __DIR__ . '/includes/header.php';
                         <span>14 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/is-hernia-surgery-dangerous.php" class="blog-title">Is Hernia Surgery Dangerous? {Key Insights}</a>
+                        <a href="blog/is-hernia-surgery-dangerous" class="blog-title">Is Hernia Surgery Dangerous? {Key Insights}</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete 2026 medical safety guide on hernia surgery risks, elective vs emergency repair, and expert advice by Dr. Kumar.
                     </p>
-                    <a href="blog/is-hernia-surgery-dangerous.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="blog/is-hernia-surgery-dangerous" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -107,12 +107,12 @@ require_once __DIR__ . '/includes/header.php';
                         <span>19 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/what-not-to-eat-after-hernia-surgery.php" class="blog-title">What not to eat after Hernia Surgery?</a>
+                        <a href="blog/what-not-to-eat-after-hernia-surgery" class="blog-title">What not to eat after Hernia Surgery?</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete 2026 medical guide on foods to avoid after hernia surgery, post-op diet rules, and expert tips by Dr. Kumar.
                     </p>
-                    <a href="blog/what-not-to-eat-after-hernia-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="blog/what-not-to-eat-after-hernia-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -133,12 +133,12 @@ require_once __DIR__ . '/includes/header.php';
                         <span>24 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/can-hernia-be-cured-without-surgery.php" class="blog-title">Can Hernia be Cured without Surgery? {In 2026}</a>
+                        <a href="blog/can-hernia-be-cured-without-surgery" class="blog-title">Can Hernia be Cured without Surgery? {In 2026}</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete 2026 medical guide on non-surgical hernia management, home care, risks, and expert surgical advice by Dr. Kumar.
                     </p>
-                    <a href="blog/can-hernia-be-cured-without-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="blog/can-hernia-be-cured-without-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -159,12 +159,12 @@ require_once __DIR__ . '/includes/header.php';
                         <span>09 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/why-is-my-stomach-bigger-after-hernia-surgery.php" class="blog-title">Why is my Stomach Bigger After Hernia Surgery?</a>
+                        <a href="blog/why-is-my-stomach-bigger-after-hernia-surgery" class="blog-title">Why is my Stomach Bigger After Hernia Surgery?</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete medical guide on stomach swelling after hernia surgery, bloating, timeline, and recovery tips.
                     </p>
-                    <a href="blog/why-is-my-stomach-bigger-after-hernia-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="blog/why-is-my-stomach-bigger-after-hernia-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
@@ -185,12 +185,12 @@ require_once __DIR__ . '/includes/header.php';
                         <span>04 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/can-hernia-come-back-after-surgery.php" class="blog-title">Can a Hernia Come Back After Surgery? {Complete Guide}</a>
+                        <a href="blog/can-hernia-come-back-after-surgery" class="blog-title">Can a Hernia Come Back After Surgery? {Complete Guide}</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete medical guide on hernia recurrence, chances, causes, prevention, and treatment options by Dr. Kumar.
                     </p>
-                    <a href="blog/can-hernia-come-back-after-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="blog/can-hernia-come-back-after-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>

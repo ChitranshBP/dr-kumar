@@ -386,25 +386,25 @@ require __DIR__ . '/../includes/header.php';
                     <h4 class="font-bold text-slate-800 mb-4">Related Information</h4>
                     <ul class="space-y-3">
                         <li>
-                            <a href="obesity.php" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
+                            <a href="obesity" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                 Obesity & Hernia Surgery
                             </a>
                         </li>
                         <li>
-                            <a href="elderly.php" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
+                            <a href="elderly" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                 Elderly Patient Care
                             </a>
                         </li>
                         <li>
-                            <a href="diabetes.php" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
+                            <a href="diabetes" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                 Diabetes & Hernia Surgery
                             </a>
                         </li>
                         <li>
-                            <a href="pregnancy.php" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
+                            <a href="pregnancy" class="flex items-center gap-2 text-brand-600 hover:text-brand-700 text-sm">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                                 Pregnancy & Hernia
                             </a>

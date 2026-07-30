@@ -11,9 +11,9 @@ require_once __DIR__ . '/../includes/header.php';
     
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="text-sm mb-6 text-brand-200">
-            <a href="../index.php" class="hover:text-white transition">Home</a>
+            <a href=".." class="hover:text-white transition">Home</a>
             <span class="mx-2">/</span>
-            <a href="../blog.php" class="hover:text-white transition">Blog</a>
+            <a href="../blog" class="hover:text-white transition">Blog</a>
             <span class="mx-2">/</span>
             <span class="text-white">Post-Op Swelling</span>
         </nav>
@@ -197,7 +197,7 @@ require_once __DIR__ . '/../includes/header.php';
                         While stomach bloating is standard, you should never hesitate to reach out to your surgical team if you feel something is wrong. An unusually large or painful bulge could indicate a <strong>seroma</strong> that needs to be drained or, in rare cases, a recurrence of the hernia.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        For patients in Chennai, consulting an experienced, board-certified <a href="../treatment/hernia-surgeon-in-chennai.php" class="text-brand-700 hover:underline font-semibold">Hernia Surgeon in Chennai</a> is the best way to verify that your healing is on track. Dedicated specialists like <a href="../about-best-hernia-hospital-in-chennai.php" class="text-brand-700 hover:underline font-semibold">Dr. Kumar</a> provide expert post-operative evaluations, helping you distinguish between standard inflammatory swelling and issues that need clinical treatment.
+                        For patients in Chennai, consulting an experienced, board-certified <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 hover:underline font-semibold">Hernia Surgeon in Chennai</a> is the best way to verify that your healing is on track. Dedicated specialists like <a href="../about-best-hernia-hospital-in-chennai" class="text-brand-700 hover:underline font-semibold">Dr. Kumar</a> provide expert post-operative evaluations, helping you distinguish between standard inflammatory swelling and issues that need clinical treatment.
                     </p>
 
                     <!-- Final Thoughts -->
@@ -277,7 +277,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <p class="text-sm text-slate-500 leading-relaxed mb-6">
                         With over 29 years of surgical experience, Dr. Kumar provides advanced laparoscopic and robotic hernia treatments in Chennai.
                     </p>
-                    <a href="../contact.php" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
+                    <a href="../contact" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
                         Book Consultation
                     </a>
                 </div>

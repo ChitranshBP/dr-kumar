@@ -11,7 +11,7 @@ require_once __DIR__ . '/../includes/header.php';
     
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="text-sm mb-6 text-brand-200">
-            <a href="../index.php" class="hover:text-white transition">Home</a>
+            <a href=".." class="hover:text-white transition">Home</a>
             <span class="mx-2">/</span>
             <span class="text-slate-300">Blog</span>
             <span class="mx-2">/</span>
@@ -29,7 +29,7 @@ require_once __DIR__ . '/../includes/header.php';
             <div class="flex flex-wrap items-center gap-6 text-sm text-slate-300 mt-6">
                 <div class="flex items-center gap-2">
                     <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-                    <span>By <a href="../index.php" class="text-accent hover:underline font-semibold">Dr. Kumar</a></span>
+                    <span>By <a href=".." class="text-accent hover:underline font-semibold">Dr. Kumar</a></span>
                 </div>
                 <div class="flex items-center gap-2">
                     <svg class="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
@@ -70,7 +70,7 @@ require_once __DIR__ . '/../includes/header.php';
                         While rest, wound care, and gentle movement are emphasized by surgical teams, nutrition plays a surprisingly dominant role in how quickly and smoothly your abdominal wall heals. One of the most frequent questions patients ask following their procedure is: <strong>What not to eat after Hernia Surgery</strong>? Knowing which <strong>food not to eat after hernia surgery</strong> can mean the difference between a seamless, pain-free recovery and uncomfortable complications like severe bloating, constipation, or incisional strain.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        In this comprehensive medical recovery guide, <a href="../index.php" class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, widely recognized as the <a href="../treatment/hernia-surgeon-in-chennai.php" class="text-brand-700 font-semibold hover:underline">Best Hernia Surgeon in Chennai</a>, outlines the specific <strong>foods to avoid after hernia surgery</strong>, explains the physiological reasons why certain dietary choices trigger abdominal pressure, and provides practical eating rules for an optimal recovery.
+                        In this comprehensive medical recovery guide, <a href=".." class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, widely recognized as the <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 font-semibold hover:underline">Best Hernia Surgeon in Chennai</a>, outlines the specific <strong>foods to avoid after hernia surgery</strong>, explains the physiological reasons why certain dietary choices trigger abdominal pressure, and provides practical eating rules for an optimal recovery.
                     </p>
 
                     <!-- 2. Understanding Hernia -->
@@ -292,7 +292,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <!-- 7. When to Consult a Doctor -->
                     <h2 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-3">When to Consult a Doctor</h2>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        While mild digestive sluggishness is common in the first few days after surgery, certain warning signs require immediate clinical attention from your surgical team or <a href="../index.php" class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>:
+                        While mild digestive sluggishness is common in the first few days after surgery, certain warning signs require immediate clinical attention from your surgical team or <a href=".." class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>:
                     </p>
                     <div class="bg-red-50 p-6 rounded-2xl border border-red-100 mb-8">
                         <ul class="space-y-3 text-red-950 text-sm font-medium">
@@ -321,7 +321,7 @@ require_once __DIR__ . '/../includes/header.php';
                         Your dietary choices following hernia surgery exert a direct influence on your recovery timeline and overall surgical success. By understanding <strong>what not to eat after Hernia Surgery</strong>—specifically avoiding constipating items, gas-producing vegetables, spicy foods, carbonated drinks, and alcohol—you protect your healing abdominal wall from unnecessary pressure and strain.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-8">
-                        Pairing a clean, fiber-rich, high-hydration diet with gentle walking and expert medical supervision ensures your hernia repair heals strongly and permanently. If you have questions about your post-operative recovery plan or wish to discuss advanced keyhole hernia repair, consult <a href="../index.php" class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, the <a href="../treatment/hernia-surgeon-in-chennai.php" class="text-brand-700 font-semibold hover:underline">Best Hernia Surgeon in Chennai</a>.
+                        Pairing a clean, fiber-rich, high-hydration diet with gentle walking and expert medical supervision ensures your hernia repair heals strongly and permanently. If you have questions about your post-operative recovery plan or wish to discuss advanced keyhole hernia repair, consult <a href=".." class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, the <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 font-semibold hover:underline">Best Hernia Surgeon in Chennai</a>.
                     </p>
 
                     <!-- 9. Frequently Asked Questions (AEO Schema Optimized) -->
@@ -384,7 +384,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <h3 class="font-bold text-slate-900 text-lg mb-1">Dr. Kumar</h3>
                     <p class="text-xs text-brand-700 font-semibold mb-3">Senior Hernia & Abdominal Wall Surgeon</p>
                     <p class="text-xs text-slate-600 leading-relaxed mb-4">Over 29+ years of experience specializing in advanced laparoscopic and robotic hernia repairs.</p>
-                    <a href="../index.php" class="inline-flex items-center justify-center w-full bg-brand-50 hover:bg-brand-100 text-brand-800 text-xs font-bold py-2.5 rounded-xl border border-brand-100 transition">
+                    <a href=".." class="inline-flex items-center justify-center w-full bg-brand-50 hover:bg-brand-100 text-brand-800 text-xs font-bold py-2.5 rounded-xl border border-brand-100 transition">
                         View Doctor Profile
                     </a>
                 </div>
@@ -393,21 +393,21 @@ require_once __DIR__ . '/../includes/header.php';
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm">
                     <h3 class="font-bold text-slate-900 text-base mb-4 border-b border-slate-100 pb-2">Related Articles</h3>
                     <div class="space-y-4">
-                        <a href="can-hernia-be-cured-without-surgery.php" class="flex gap-3 group">
+                        <a href="can-hernia-be-cured-without-surgery" class="flex gap-3 group">
                             <img src="../assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can Hernia be Cured without Surgery? {In 2026}</h4>
                                 <span class="text-[11px] text-slate-400">24 July 2026</span>
                             </div>
                         </a>
-                        <a href="why-is-my-stomach-bigger-after-hernia-surgery.php" class="flex gap-3 group">
+                        <a href="why-is-my-stomach-bigger-after-hernia-surgery" class="flex gap-3 group">
                             <img src="../assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Stomach Swelling After Hernia Surgery" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Why is my Stomach Bigger After Hernia Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">09 July 2026</span>
                             </div>
                         </a>
-                        <a href="can-hernia-come-back-after-surgery.php" class="flex gap-3 group">
+                        <a href="can-hernia-come-back-after-surgery" class="flex gap-3 group">
                             <img src="../assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can a Hernia Come Back After Surgery?</h4>

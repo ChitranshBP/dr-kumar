@@ -182,7 +182,7 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
 <header class="site-header">
     <div class="relative max-w-7xl mx-auto px-4 lg:px-6">
         <nav class="flex items-center justify-between gap-6 py-3">
-            <a href="<?= $base_path ?>index.php" class="flex items-center shrink-0">
+            <a href="<?= $base_path ?>" class="flex items-center shrink-0">
                 <img src="<?= $base_path . $site['logo'] ?>" alt="Dr. Kumar" width="220" height="56" class="h-14 w-auto">
             </a>
 
@@ -257,7 +257,7 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
 
             <div class="flex items-center gap-1">
                 <span class="hidden md:block w-px h-6 bg-slate-200 mx-2"></span>
-                <a href="<?= $base_path ?>book-appointment.php" class="cta-btn hidden md:inline-flex">
+                <a href="<?= $base_path ?>book-appointment" class="cta-btn hidden md:inline-flex">
                     Appointment
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
@@ -322,7 +322,7 @@ $page_image       ??= $site['url'] . 'assets/images/dr-kumar-main-image.png';
                 <span class="block font-bold text-brand-800"><?= $site['phone'] ?></span>
             </span>
         </a>
-        <a href="<?= $base_path ?>book-appointment.php" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
+        <a href="<?= $base_path ?>book-appointment" class="flex items-center justify-center gap-2 bg-gradient-to-r from-accent to-amber-500 text-white font-semibold py-3.5 rounded-xl shadow-md hover:shadow-lg transition">
             Book Appointment
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>

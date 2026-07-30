@@ -34,7 +34,7 @@ function getPhpFiles(string $dir, string $base = ''): array {
     $items = scandir($dir);
     foreach ($items as $item) {
         if ($item === '.' || $item === '..') continue;
-        if ($item === 'build.php' || $item === 'includes' || $item === 'dist') continue;
+        if ($item === 'build.php' || $item === 'router.php' || $item === 'includes' || $item === 'dist') continue;
         $path = $dir . '/' . $item;
         if (is_dir($path)) {
             $files = array_merge($files, getPhpFiles($path, $base . $item . '/'));

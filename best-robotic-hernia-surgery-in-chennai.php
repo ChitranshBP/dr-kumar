@@ -20,9 +20,9 @@ require __DIR__ . '/includes/header.php';
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <!-- Breadcrumbs -->
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="text-slate-500">/</span>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai.php" class="hover:text-white transition">Treatments</a>
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai" class="hover:text-white transition">Treatments</a>
             <span class="text-slate-500">/</span>
             <span class="text-accent font-medium">Robotic Surgery</span>
         </nav>
@@ -511,7 +511,7 @@ require __DIR__ . '/includes/header.php';
                             <h4 class="font-bold text-slate-900 text-base mb-1.5 font-display group-hover:text-brand-700 transition">3D Mesh Technology</h4>
                             <p class="text-slate-600 text-xs leading-relaxed">Contoured, anatomically shaped mesh that mimics the natural groin layout for tension-free fixation.</p>
                         </div>
-                        <a href="advanced-techniques/3d-mesh.php" class="text-brand-700 text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
+                        <a href="advanced-techniques/3d-mesh" class="text-brand-700 text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
                     </div>
 
                     <!-- Self-Gripping -->
@@ -523,7 +523,7 @@ require __DIR__ . '/includes/header.php';
                             <h4 class="font-bold text-slate-900 text-base mb-1.5 font-display group-hover:text-accent transition">Self-Gripping Mesh</h4>
                             <p class="text-slate-600 text-xs leading-relaxed">Sutureless mesh using micro-grippers to distribute holding pressure evenly, significantly reducing post-op groin discomfort.</p>
                         </div>
-                        <a href="advanced-techniques/self-gripping-mesh.php" class="text-accent text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
+                        <a href="advanced-techniques/self-gripping-mesh" class="text-accent text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
                     </div>
 
                     <!-- Biological -->
@@ -535,7 +535,7 @@ require __DIR__ . '/includes/header.php';
                             <h4 class="font-bold text-slate-900 text-base mb-1.5 font-display group-hover:text-brand-600 transition font-display">Biological Mesh</h4>
                             <p class="text-slate-600 text-xs leading-relaxed">Natural bio-absorbable structures that down-regulate inflammation and support local tissue remodeling.</p>
                         </div>
-                        <a href="advanced-techniques/biological-mesh.php" class="text-brand-600 text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
+                        <a href="advanced-techniques/biological-mesh" class="text-brand-600 text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
                     </div>
 
                     <!-- ERAS -->
@@ -547,7 +547,7 @@ require __DIR__ . '/includes/header.php';
                             <h4 class="font-bold text-slate-900 text-base mb-1.5 font-display group-hover:text-slate-600 transition font-display">ERAS Protocol</h4>
                             <p class="text-slate-600 text-xs leading-relaxed">An evidence-based recovery pathway designed to optimize hydration, limit opioids, and encourage early post-op walking.</p>
                         </div>
-                        <a href="advanced-techniques/eras-protocol.php" class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
+                        <a href="advanced-techniques/eras-protocol" class="text-slate-500 text-xs font-bold uppercase tracking-wider mt-3 inline-flex items-center gap-1 hover:underline">Learn Details &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -641,7 +641,7 @@ require __DIR__ . '/includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Call Clinic Hotline
             </a>
-            <a href="book-appointment.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
+            <a href="book-appointment" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 Book Online Appointment
             </a>
         </div>

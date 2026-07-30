@@ -38,7 +38,7 @@ $site = [
 
 // Flat navigation for simple loops or fallback lists (like the footer)
 $nav = [
-    'Home'                       => 'index.php',
+    'Home'                       => '',
     'About Us'                   => 'about-best-hernia-hospital-in-chennai',
     'Hernia Surgery'             => 'treatment/hernia-surgeon-in-chennai',
     'Laparoscopic Hernia Surgery'=> 'treatment/best-laparoscopic-hernia-surgery-in-chennai',
@@ -52,7 +52,7 @@ $nav = [
 $headerMenu = [
     [
         'label' => 'Home',
-        'link'  => 'index.php',
+        'link'  => '',
     ],
     [
         'label' => 'About Us',

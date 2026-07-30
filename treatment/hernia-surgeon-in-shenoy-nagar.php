@@ -10,9 +10,9 @@ require __DIR__ . '/../includes/header.php';
     <div class="relative max-w-7xl mx-auto px-4 z-10">
         <!-- Breadcrumbs -->
         <nav class="flex items-center gap-2 text-sm text-slate-300 mb-6 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full w-max border border-white/10">
-            <a href="<?= $base_path ?>index.php" class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="text-slate-500">/</span>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai.php" class="hover:text-white transition">Treatments</a>
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai" class="hover:text-white transition">Treatments</a>
             <span class="text-slate-500">/</span>
             <span class="text-accent font-medium">Hernia Surgeon in Shenoy Nagar</span>
         </nav>
@@ -61,14 +61,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Inguinal Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Inguinal Hernia Repair Shenoy Nagar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Groin Hernia</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php">Inguinal Hernia</a>
+                            <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai">Inguinal Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Occurs in the groin area. It is the most common hernia type and requires surgical repair to prevent bowel entrapment or strangulation.
@@ -81,7 +81,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -96,14 +96,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Umbilical Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical Hernia Repair Shenoy Nagar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-amber-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Navel Hernia</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php">Umbilical Hernia</a>
+                            <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai">Umbilical Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Develops at or near the belly button. Often treated with minimally invasive keyhole procedures with or without mesh depending on defect size.
@@ -116,7 +116,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General/Spinal</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -131,14 +131,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Incisional Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/incisional-new.png" alt="Incisional Hernia Repair Shenoy Nagar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-purple-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Surgical Scar</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php">Incisional Hernia</a>
+                            <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai">Incisional Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Forms at the site of previous surgery incisions due to muscle wall failure. Requires specialized abdominal wall reconstruction techniques.
@@ -151,7 +151,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -166,14 +166,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Ventral Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/ventral-new.png" alt="Ventral Hernia Repair Shenoy Nagar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-teal-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Abdominal Wall</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php">Ventral Hernia</a>
+                            <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai">Ventral Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Develops anywhere along the midline of the abdominal wall. Often treated laparoscopically to ensure minimal postoperative pain and lower recurrence.
@@ -186,7 +186,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -201,14 +201,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Paraumbilical Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>resources/glossary.php#paraumbilical-hernia-surgery-in-chennai" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>resources/glossary#paraumbilical-hernia-surgery-in-chennai" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/paraumbilical-new.png" alt="Paraumbilical Hernia Repair Shenoy Nagar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-rose-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Belly Button Area</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>resources/glossary.php#paraumbilical-hernia-surgery-in-chennai">Paraumbilical Hernia</a>
+                            <a href="<?= $base_path ?>resources/glossary#paraumbilical-hernia-surgery-in-chennai">Paraumbilical Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Occurs just above or below the umbilicus, often in adults under physical stress. Daycare surgical repair is highly effective.
@@ -221,7 +221,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General/Spinal</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>resources/glossary.php#paraumbilical-hernia-surgery-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>resources/glossary#paraumbilical-hernia-surgery-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -236,14 +236,14 @@ require __DIR__ . '/../includes/header.php';
             <!-- Femoral Hernia -->
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
-                    <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php" class="relative block overflow-hidden h-52">
+                    <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
                         <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Femoral Hernia Repair Shenoy Nagar" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-rose-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Femoral Hernia</span>
                     </a>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 hover:text-brand-700 transition">
-                            <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php">Femoral Hernia</a>
+                            <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai">Femoral Hernia</a>
                         </h3>
                         <p class="text-slate-600 text-sm leading-relaxed mb-4">
                             Occurs just below the groin crease in the upper thigh. Far more common in women, it carries a high risk of strangulation and requires prompt repair.
@@ -256,7 +256,7 @@ require __DIR__ . '/../includes/header.php';
                         <span>Anesthesia: <strong>General/Spinal</strong></span>
                     </div>
                     <div class="flex items-center justify-between">
-                        <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
+                        <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
                             Learn More
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
@@ -738,21 +738,21 @@ require __DIR__ . '/../includes/header.php';
         </div>
 
         <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-annanagar.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-annanagar" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Anna Nagar
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-mogappair.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-mogappair" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Mogappair
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kilpauk.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kilpauk" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Kilpauk
@@ -766,84 +766,84 @@ require __DIR__ . '/../includes/header.php';
                     </span>
                     <span class="text-xs uppercase bg-brand-200 text-brand-800 px-2.5 py-0.5 rounded-full font-semibold">Current</span>
                 </div>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-arumbakkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-arumbakkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Arumbakkam
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-aminjikarai.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-aminjikarai" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Aminjikarai
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-nungambakkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-nungambakkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Nungambakkam
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-koyambedu.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-koyambedu" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Koyambedu
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-maduravoyal.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-maduravoyal" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Maduravoyal
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-villivakkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-villivakkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Villivakkam
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-padi.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-padi" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Padi
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kolathur.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-kolathur" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Kolathur
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-korattur.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-korattur" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Korattur
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-ayanavaram.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-ayanavaram" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Ayanavaram
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-perambur.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-perambur" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Perambur
                     </span>
                     <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                 </a>
-                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-purasawalkam.php" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
+                <a href="<?= $base_path ?>treatment/hernia-surgeon-in-purasawalkam" class="bg-white border border-slate-200 hover:border-brand-300 hover:bg-brand-50/50 rounded-2xl p-4 flex items-center justify-between text-slate-800 hover:text-brand-700 font-semibold text-sm transition-all duration-200 group">
                     <span class="flex items-center gap-2">
                         <svg class="w-4 h-4 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         Hernia Surgeon in Purasawalkam
@@ -871,7 +871,7 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Book Appointment
             </a>
-            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
+            <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 Main Surgical Guide
             </a>
         </div>
