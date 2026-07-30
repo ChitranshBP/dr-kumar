@@ -563,19 +563,22 @@ if (!isset($schema_about)) {
             <!-- DESKTOP NAV -->
             <ul class="hidden lg:flex items-center flex-nowrap gap-1 xl:gap-2">
                 <?php 
-                $current_page = basename($_SERVER['SCRIPT_NAME']);
+                $current_page = basename($_SERVER['SCRIPT_NAME'] ?? '');
+                $current_name = preg_replace('/\.php$/i', '', $current_page);
                 $is_blog_section = (strpos($_SERVER['SCRIPT_NAME'] ?? '', '/blog') !== false);
                 foreach ($headerMenu as $item):
                     $hasDropdown = isset($item['dropdown']);
                     $isActive = false;
-                    if (isset($item['link']) && basename($item['link']) === $current_page) {
+                    $item_link_name = isset($item['link']) ? preg_replace('/\.php$/i', '', basename($item['link'])) : '';
+                    if (!empty($item_link_name) && $item_link_name === $current_name) {
                         $isActive = true;
-                    } elseif (isset($item['link']) && basename($item['link']) === 'blog.php' && $is_blog_section) {
+                    } elseif (!empty($item_link_name) && $item_link_name === 'blog' && $is_blog_section) {
                         $isActive = true;
                     } elseif ($hasDropdown) {
                         foreach ($item['dropdown'] as $col) {
                             foreach ($col['links'] as $sublink) {
-                                if (basename($sublink['link']) === $current_page) {
+                                $sub_link_name = preg_replace('/\.php$/i', '', basename($sublink['link']));
+                                if ($sub_link_name === $current_name) {
                                     $isActive = true;
                                     break 2;
                                 }

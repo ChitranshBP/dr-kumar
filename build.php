@@ -354,6 +354,19 @@ $spam_redirects = [
 
 $redirects_content = "/index    /    301!\n/index.html    /    301!\n/my_types/inguinal-hernia    https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai    301!\n/my_types/inguinal-hernia-surgery-in-chennai    https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai    301!\n/my_types/umbilical-hernia-surgery-in-chennai    https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai    301!\n/my_types/incisional-hernia-surgery-in-chennai    https://herniacare360.com/my_types/incisional-hernia-treatment-in-chennai    301!\n/my_types/ventral-hernia-surgery-in-chennai    https://herniacare360.com/my_types/ventral-hernia-treatment-in-chennai    301!\n/my_types/femoral-hernia-surgery-in-chennai    https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai    301!\n/treatment/tapp-repair    https://herniacare360.com/treatment/tapp-repair-in-chennai    301!\n/treatment/hernia-surgery-in-chennai    https://herniacare360.com/treatment/hernia-surgeon-in-chennai    301!\n";
 
+foreach ($phpFiles as $f) {
+    $name = preg_replace('/\.php$/i', '', $f['name']);
+    if ($name === 'index') {
+        $redirects_content .= "/index.php    /    301!\n";
+    } else {
+        $cleanName = $name;
+        if (str_ends_with($cleanName, '/index')) {
+            $cleanName = substr($cleanName, 0, -6);
+        }
+        $redirects_content .= "/{$f['name']}    /{$cleanName}    301!\n";
+    }
+}
+
 foreach ($spam_redirects as $spam_path) {
     if (strpos($spam_path, '?') !== false) {
         list($path, $query) = explode('?', $spam_path, 2);

@@ -50,7 +50,7 @@ require __DIR__ . '/includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             
             <!-- Inguinal Hernia -->
-            <a href="my_types/inguinal-hernia-treatment-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/inguinal-hernia-treatment-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-700 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
@@ -65,7 +65,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Umbilical Hernia -->
-            <a href="my_types/umbilical-hernia-treatment-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/umbilical-hernia-treatment-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center mb-6 group-hover:bg-amber-500 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 009 11.571V9a4 4 0 00-8 0v2.571c0 2.902.973 5.58 2.61 7.73l.054.09M12 11h.01M5.024 16.976A9 9 0 0112 3a9 9 0 016.976 13.976M12 21a9.003 9.003 0 008.354-5.646 9.003 9.003 0 00-8.354-5.646V21z"/></svg>
@@ -80,7 +80,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Ventral Hernia -->
-            <a href="my_types/ventral-hernia-treatment-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/ventral-hernia-treatment-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-indigo-50 text-indigo-700 flex items-center justify-center mb-6 group-hover:bg-indigo-700 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
@@ -95,7 +95,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Incisional Hernia -->
-            <a href="my_types/incisional-hernia-treatment-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/incisional-hernia-treatment-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-purple-50 text-purple-700 flex items-center justify-center mb-6 group-hover:bg-purple-700 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7h7m-7 0a5 5 0 11-10 0 5 5 0 0110 0z"/></svg>
@@ -110,7 +110,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Epigastric Hernia -->
-            <a href="my_types/epigastric-hernia-surgery-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/epigastric-hernia-surgery-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-6 group-hover:bg-emerald-700 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
@@ -125,7 +125,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Femoral Hernia -->
-            <a href="my_types/femoral-hernia-treatment-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/femoral-hernia-treatment-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center mb-6 group-hover:bg-rose-700 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-6l-7 7-7-7"/></svg>
@@ -152,7 +152,7 @@ require __DIR__ . '/includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             <!-- Recurrent Hernia -->
-            <a href="my_types/recurrent-hernia.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/recurrent-hernia" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-orange-50 text-orange-700 flex items-center justify-center mb-6 group-hover:bg-orange-600 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 7.89M9 11l3-3 3 3m-3-3v12"/></svg>
@@ -167,7 +167,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Hiatal Hernia -->
-            <a href="my_types/hiatal-hernia-surgery-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/hiatal-hernia-surgery-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-cyan-50 text-cyan-700 flex items-center justify-center mb-6 group-hover:bg-cyan-600 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
@@ -182,7 +182,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Sports Hernia -->
-            <a href="my_types/sports-hernia.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/sports-hernia" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-sky-50 text-sky-700 flex items-center justify-center mb-6 group-hover:bg-sky-600 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -197,7 +197,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Strangulated Hernia -->
-            <a href="my_types/strangulated-hernia-surgery-in-chennai.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/strangulated-hernia-surgery-in-chennai" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center mb-6 group-hover:bg-rose-600 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
@@ -212,7 +212,7 @@ require __DIR__ . '/includes/header.php';
             </a>
 
             <!-- Rare Hernias -->
-            <a href="my_types/rare-hernia.php" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <a href="my_types/rare-hernia" class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-fuchsia-50 text-fuchsia-700 flex items-center justify-center mb-6 group-hover:bg-fuchsia-600 group-hover:text-white transition duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
@@ -245,7 +245,7 @@ require __DIR__ . '/includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Book Consultation
             </a>
-            <a href="contact.php" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition">
+            <a href="contact" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition">
                 Contact Our Clinic
             </a>
         </div>

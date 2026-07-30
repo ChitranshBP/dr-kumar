@@ -39,13 +39,13 @@ $site = [
 // Flat navigation for simple loops or fallback lists (like the footer)
 $nav = [
     'Home'                       => 'index.php',
-    'About Us'                   => 'about-best-hernia-hospital-in-chennai.php',
-    'Hernia Surgery'             => 'treatment/hernia-surgeon-in-chennai.php',
-    'Laparoscopic Hernia Surgery'=> 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php',
-    'Robotic Hernia Surgery'     => 'best-robotic-hernia-surgery-in-chennai.php',
-    'Emergency Care'             => 'emergency-hernia-care.php',
-    'Blog'                       => 'blog.php',
-    'Contact Us'                 => 'contact.php',
+    'About Us'                   => 'about-best-hernia-hospital-in-chennai',
+    'Hernia Surgery'             => 'treatment/hernia-surgeon-in-chennai',
+    'Laparoscopic Hernia Surgery'=> 'treatment/best-laparoscopic-hernia-surgery-in-chennai',
+    'Robotic Hernia Surgery'     => 'best-robotic-hernia-surgery-in-chennai',
+    'Emergency Care'             => 'emergency-hernia-care',
+    'Blog'                       => 'blog',
+    'Contact Us'                 => 'contact',
 ];
 
 // Structured multidimensional menu for the header (desktop mega-menu and mobile accordion)
@@ -56,7 +56,7 @@ $headerMenu = [
     ],
     [
         'label' => 'About Us',
-        'link'  => 'about-best-hernia-hospital-in-chennai.php',
+        'link'  => 'about-best-hernia-hospital-in-chennai',
     ],
     [
         'label' => 'Hernia Guide',
@@ -64,24 +64,24 @@ $headerMenu = [
             [
                 'title' => 'Understanding Hernia',
                 'links' => [
-                    ['label' => 'What is a Hernia?', 'link' => 'hernia/what-is-hernia.php'],
-                    ['label' => 'Causes & Risks', 'link' => 'hernia/causes.php'],
-                    ['label' => 'Symptoms & Signs', 'link' => 'hernia/symptoms.php'],
-                    ['label' => 'Diagnosis Methods', 'link' => 'hernia/diagnosis.php'],
-                    ['label' => 'Complications', 'link' => 'hernia/complications.php'],
+                    ['label' => 'What is a Hernia?', 'link' => 'hernia/what-is-hernia'],
+                    ['label' => 'Causes & Risks', 'link' => 'hernia/causes'],
+                    ['label' => 'Symptoms & Signs', 'link' => 'hernia/symptoms'],
+                    ['label' => 'Diagnosis Methods', 'link' => 'hernia/diagnosis'],
+                    ['label' => 'Complications', 'link' => 'hernia/complications'],
                 ]
             ],
             [
                 'title' => 'Hernia Types',
                 'links' => [
-                    ['label' => 'Inguinal Hernia (Groin)', 'link' => 'my_types/inguinal-hernia-treatment-in-chennai.php'],
-                    ['label' => 'Umbilical Hernia (Navel)', 'link' => 'my_types/umbilical-hernia-treatment-in-chennai.php'],
-                    ['label' => 'Incisional Hernia (Scar)', 'link' => 'my_types/incisional-hernia-treatment-in-chennai.php'],
-                    ['label' => 'Ventral Hernia (Abdomen)', 'link' => 'my_types/ventral-hernia-treatment-in-chennai.php'],
-                    ['label' => 'Femoral Hernia (Groin)', 'link' => 'my_types/femoral-hernia-treatment-in-chennai.php'],
-                    ['label' => 'Hiatal Hernia (Internal)', 'link' => 'my_types/hiatal-hernia-surgery-in-chennai.php'],
-                    ['label' => 'Epigastric Hernia', 'link' => 'my_types/epigastric-hernia-surgery-in-chennai.php'],
-                    ['label' => 'Strangulated (Emergency)', 'link' => 'my_types/strangulated-hernia-surgery-in-chennai.php'],
+                    ['label' => 'Inguinal Hernia (Groin)', 'link' => 'my_types/inguinal-hernia-treatment-in-chennai'],
+                    ['label' => 'Umbilical Hernia (Navel)', 'link' => 'my_types/umbilical-hernia-treatment-in-chennai'],
+                    ['label' => 'Incisional Hernia (Scar)', 'link' => 'my_types/incisional-hernia-treatment-in-chennai'],
+                    ['label' => 'Ventral Hernia (Abdomen)', 'link' => 'my_types/ventral-hernia-treatment-in-chennai'],
+                    ['label' => 'Femoral Hernia (Groin)', 'link' => 'my_types/femoral-hernia-treatment-in-chennai'],
+                    ['label' => 'Hiatal Hernia (Internal)', 'link' => 'my_types/hiatal-hernia-surgery-in-chennai'],
+                    ['label' => 'Epigastric Hernia', 'link' => 'my_types/epigastric-hernia-surgery-in-chennai'],
+                    ['label' => 'Strangulated (Emergency)', 'link' => 'my_types/strangulated-hernia-surgery-in-chennai'],
                 ]
             ]
         ]
@@ -92,27 +92,27 @@ $headerMenu = [
             [
                 'title' => 'Surgical Procedures',
                 'links' => [
-                    ['label' => 'Hernia Surgery Overview', 'link' => 'treatment/hernia-surgeon-in-chennai.php'],
-                    ['label' => 'Laparoscopic Surgery', 'link' => 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php'],
-                    ['label' => 'Robotic Hernia Surgery', 'link' => 'best-robotic-hernia-surgery-in-chennai.php'],
-                    ['label' => 'TAPP Repair Technique', 'link' => 'treatment/tapp-repair-in-chennai.php'],
-                    ['label' => 'TEP Repair Technique', 'link' => 'treatment/tep-repair-in-chennai.php'],
-                    ['label' => 'eTEP Repair Technique', 'link' => 'treatment/etep-technique-expert-in-chennai.php'],
-                    ['label' => 'Abdominal Wall Reconstruction', 'link' => 'treatment/abdominal-wall-reconstruction-in-chennai.php'],
-                    ['label' => 'Diastasis Recti Repair', 'link' => 'treatment/diastasis-recti.php'],
+                    ['label' => 'Hernia Surgery Overview', 'link' => 'treatment/hernia-surgeon-in-chennai'],
+                    ['label' => 'Laparoscopic Surgery', 'link' => 'treatment/best-laparoscopic-hernia-surgery-in-chennai'],
+                    ['label' => 'Robotic Hernia Surgery', 'link' => 'best-robotic-hernia-surgery-in-chennai'],
+                    ['label' => 'TAPP Repair Technique', 'link' => 'treatment/tapp-repair-in-chennai'],
+                    ['label' => 'TEP Repair Technique', 'link' => 'treatment/tep-repair-in-chennai'],
+                    ['label' => 'eTEP Repair Technique', 'link' => 'treatment/etep-technique-expert-in-chennai'],
+                    ['label' => 'Abdominal Wall Reconstruction', 'link' => 'treatment/abdominal-wall-reconstruction-in-chennai'],
+                    ['label' => 'Diastasis Recti Repair', 'link' => 'treatment/diastasis-recti'],
                 ]
             ],
             [
                 'title' => 'Intra Operative Special Techniques',
                 'links' => [
-                    ['label' => 'Overview & Approach', 'link' => 'treatment/intra-operative-special-techniques.php'],
+                    ['label' => 'Overview & Approach', 'link' => 'treatment/intra-operative-special-techniques'],
                 ]
             ],
             [
                 'title' => 'Mesh & Recovery',
                 'links' => [
-                    ['label' => 'Mesh Repair Technology', 'link' => 'treatment/mesh-hernia-repair-in-chennai.php'],
-                    ['label' => 'Post-Op Recovery Process', 'link' => 'treatment/recovery.php'],
+                    ['label' => 'Mesh Repair Technology', 'link' => 'treatment/mesh-hernia-repair-in-chennai'],
+                    ['label' => 'Post-Op Recovery Process', 'link' => 'treatment/recovery'],
                 ]
             ]
         ]
@@ -123,11 +123,11 @@ $headerMenu = [
             [
                 'title' => 'Surgical Innovation',
                 'links' => [
-                    ['label' => 'Advanced Robotic Surgery', 'link' => 'advanced-techniques/robotic-surgery-system.php'],
-                    ['label' => '3D Mesh Implants', 'link' => 'advanced-techniques/3d-mesh.php'],
-                    ['label' => 'Biological Mesh Options', 'link' => 'advanced-techniques/biological-mesh.php'],
-                    ['label' => 'Self-Gripping Mesh Tech', 'link' => 'advanced-techniques/self-gripping-mesh.php'],
-                    ['label' => 'ERAS Recovery Protocol', 'link' => 'advanced-techniques/eras-protocol.php'],
+                    ['label' => 'Advanced Robotic Surgery', 'link' => 'advanced-techniques/robotic-surgery-system'],
+                    ['label' => '3D Mesh Implants', 'link' => 'advanced-techniques/3d-mesh'],
+                    ['label' => 'Biological Mesh Options', 'link' => 'advanced-techniques/biological-mesh'],
+                    ['label' => 'Self-Gripping Mesh Tech', 'link' => 'advanced-techniques/self-gripping-mesh'],
+                    ['label' => 'ERAS Recovery Protocol', 'link' => 'advanced-techniques/eras-protocol'],
                 ]
             ]
         ]
@@ -138,43 +138,43 @@ $headerMenu = [
             [
                 'title' => 'Special Considerations',
                 'links' => [
-                    ['label' => 'Complex Hernia Info', 'link' => 'special-considerations/complex-hernia-info.php'],
-                    ['label' => 'Obesity & Hernia', 'link' => 'special-considerations/obesity.php'],
-                    ['label' => 'Diabetes & Hernia', 'link' => 'special-considerations/diabetes.php'],
-                    ['label' => 'Pregnancy & Hernia Care', 'link' => 'special-considerations/pregnancy.php'],
-                    ['label' => 'Elderly Hernia Care', 'link' => 'special-considerations/elderly.php'],
-                    ['label' => 'Hernia in Children', 'link' => 'special-considerations/hernia-in-children.php'],
-                    ['label' => 'Chronic Pain after Surgery', 'link' => 'special-considerations/chronic-pain.php'],
-                    ['label' => 'Hernia & Chronic Cough - COPD', 'link' => 'special-considerations/chronic-cough-copd.php'],
+                    ['label' => 'Complex Hernia Info', 'link' => 'special-considerations/complex-hernia-info'],
+                    ['label' => 'Obesity & Hernia', 'link' => 'special-considerations/obesity'],
+                    ['label' => 'Diabetes & Hernia', 'link' => 'special-considerations/diabetes'],
+                    ['label' => 'Pregnancy & Hernia Care', 'link' => 'special-considerations/pregnancy'],
+                    ['label' => 'Elderly Hernia Care', 'link' => 'special-considerations/elderly'],
+                    ['label' => 'Hernia in Children', 'link' => 'special-considerations/hernia-in-children'],
+                    ['label' => 'Chronic Pain after Surgery', 'link' => 'special-considerations/chronic-pain'],
+                    ['label' => 'Hernia & Chronic Cough - COPD', 'link' => 'special-considerations/chronic-cough-copd'],
                 ]
             ],
             [
                 'title' => 'Services & Consults',
                 'links' => [
-                    ['label' => 'Emergency Hernia Care', 'link' => 'emergency-hernia-care.php'],
-                    ['label' => 'Online Consultation Portal', 'link' => 'online-consultation.php'],
-                    ['label' => 'International Patients Portal', 'link' => 'international-patients.php'],
-                    ['label' => 'Expert Second Opinion', 'link' => 'second-opinion.php'],
+                    ['label' => 'Emergency Hernia Care', 'link' => 'emergency-hernia-care'],
+                    ['label' => 'Online Consultation Portal', 'link' => 'online-consultation'],
+                    ['label' => 'International Patients Portal', 'link' => 'international-patients'],
+                    ['label' => 'Expert Second Opinion', 'link' => 'second-opinion'],
                 ]
             ],
             [
                 'title' => 'Patient Resources',
                 'links' => [
-                    ['label' => 'Education & Resources', 'link' => 'resources/patient-resources.php'],
-                    ['label' => 'Hernia Symptom Checker', 'link' => 'resources/symptom-checker.php'],
-                    ['label' => 'FAQs', 'link' => 'resources/faqs.php'],
-                    ['label' => 'Medical Glossary & Terms', 'link' => 'resources/glossary.php'],
+                    ['label' => 'Education & Resources', 'link' => 'resources/patient-resources'],
+                    ['label' => 'Hernia Symptom Checker', 'link' => 'resources/symptom-checker'],
+                    ['label' => 'FAQs', 'link' => 'resources/faqs'],
+                    ['label' => 'Medical Glossary & Terms', 'link' => 'resources/glossary'],
                 ]
             ]
         ]
     ],
     [
         'label' => 'Blog',
-        'link'  => 'blog.php',
+        'link'  => 'blog',
     ],
     [
         'label' => 'Contact Us',
-        'link'  => 'contact.php',
+        'link'  => 'contact',
     ],
 ];
 
@@ -187,18 +187,18 @@ $herniaConditions = [
 ];
 
 $treatments = [
-    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic &amp; Robotic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia-treatment-in-chennai.php'],
-    ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia-treatment-in-chennai.php'],
-    ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia-treatment-in-chennai.php'],
-    ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia-treatment-in-chennai.php'],
-    ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'best-robotic-hernia-surgery-in-chennai.php'],
-    ['title' => 'Laparoscopic Hernia Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/best-laparoscopic-hernia-surgery-in-chennai.php'],
-    ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair-in-chennai.php'],
-    ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-technique-expert-in-chennai.php'],
-    ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia-surgery-in-chennai.php'],
-    ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/abdominal-wall-reconstruction-in-chennai.php'],
-    ['title' => 'Emergency Hernia Care',         'img' => 'assets/images/complications_emergency.png','desc' => '24/7 emergency strangulated hernia management.',                               'link' => 'emergency-hernia-care.php'],
-    ['title' => 'Hernia Mesh Repair',            'img' => 'assets/images/mesh-comparison-3d.png',   'desc' => '3D mesh, biological mesh, & self-gripping options.',                          'link' => 'treatment/mesh-hernia-repair-in-chennai.php'],
+    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic &amp; Robotic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia-treatment-in-chennai'],
+    ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia-treatment-in-chennai'],
+    ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia-treatment-in-chennai'],
+    ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia-treatment-in-chennai'],
+    ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'best-robotic-hernia-surgery-in-chennai'],
+    ['title' => 'Laparoscopic Hernia Surgery',          'img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Minimally invasive keyhole surgery for faster recovery and minimal scarring.',           'link' => 'treatment/best-laparoscopic-hernia-surgery-in-chennai'],
+    ['title' => 'TAPP Repair',                   'img' => 'assets/images/tapp-precision.png',       'desc' => 'Transabdominal preperitoneal repair for groin and ventral hernias.',                  'link' => 'treatment/tapp-repair-in-chennai'],
+    ['title' => 'eTEP Repair',                  'img' => 'assets/images/etep-reconstruction.png',   'desc' => 'Enhanced totally extraperitoneal technique for complex hernias.',             'link' => 'treatment/etep-technique-expert-in-chennai'],
+    ['title' => 'Hiatal Hernia',                 'img' => 'assets/images/gerd-new.png',              'desc' => 'Laparoscopic hiatus hernia repair with anti-reflux surgery.',                  'link' => 'my_types/hiatal-hernia-surgery-in-chennai'],
+    ['title' => 'Abdominal Wall Reconstruction','img' => 'assets/images/laparoscopic-new.png',   'desc' => 'Advanced TAR & component separation for complex cases.',                        'link' => 'treatment/abdominal-wall-reconstruction-in-chennai'],
+    ['title' => 'Emergency Hernia Care',         'img' => 'assets/images/complications_emergency.png','desc' => '24/7 emergency strangulated hernia management.',                               'link' => 'emergency-hernia-care'],
+    ['title' => 'Hernia Mesh Repair',            'img' => 'assets/images/mesh-comparison-3d.png',   'desc' => '3D mesh, biological mesh, & self-gripping options.',                          'link' => 'treatment/mesh-hernia-repair-in-chennai'],
 ];
 
 $stats = [

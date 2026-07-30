@@ -19,6 +19,60 @@
   force = true
 
 [[redirects]]
+  from = "/my_types/inguinal-hernia.php"
+  to = "https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/inguinal-hernia-treatment-in-chennai.php"
+  to = "https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/umbilical-hernia-treatment-in-chennai.php"
+  to = "https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/incisional-hernia-treatment-in-chennai.php"
+  to = "https://herniacare360.com/my_types/incisional-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/ventral-hernia-treatment-in-chennai.php"
+  to = "https://herniacare360.com/my_types/ventral-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/femoral-hernia-treatment-in-chennai.php"
+  to = "https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/hiatal-hernia-surgery-in-chennai.php"
+  to = "https://herniacare360.com/my_types/hiatal-hernia-surgery-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/epigastric-hernia-surgery-in-chennai.php"
+  to = "https://herniacare360.com/my_types/epigastric-hernia-surgery-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/my_types/strangulated-hernia-surgery-in-chennai.php"
+  to = "https://herniacare360.com/my_types/strangulated-hernia-surgery-in-chennai"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/my_types/inguinal-hernia"
   to = "https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai"
   status = 301
