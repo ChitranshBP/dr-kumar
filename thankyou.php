@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Thank You | Dr. Kumar - Hernia Care 360';
+$page_title = 'Thank You | Dr. Kumar Billroth Hospitals - Hernia Care 360';
 require __DIR__ . '/includes/header.php';
 ?>
 

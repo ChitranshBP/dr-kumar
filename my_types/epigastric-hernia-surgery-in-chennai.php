@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Best Epigastric Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Looking for Epigastric Hernia Surgery in Chennai? Consult Dr. Kumar, a top upper abdomen hernia specialist in Chennai, for advanced minimally invasive repairs.';
+$page_title = 'Best Epigastric Hernia Surgery in Chennai | Dr. Kumar Billroth Hospitals';
+$page_description = 'Looking for Epigastric Hernia Surgery in Chennai? Consult Dr. Kumar Billroth Hospitals, a top upper abdomen hernia specialist in Chennai, for advanced minimally invasive repairs.';
 $page_url = 'https://herniacare360.com/my_types/epigastric-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

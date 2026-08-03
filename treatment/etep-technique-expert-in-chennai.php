@@ -1,6 +1,6 @@
 <?php
-$page_title = 'eTEP Hernia Repair in Chennai | Dr. Kumar';
-$page_description = 'Seeking eTEP Hernia Repair in Chennai? Consult Dr. Kumar, a top laparoscopic hernia surgeon for advanced, minimally invasive eTEP repair.';
+$page_title = 'eTEP Hernia Repair in Chennai | Dr. Kumar Billroth Hospitals';
+$page_description = 'Seeking eTEP Hernia Repair in Chennai? Consult Dr. Kumar Billroth Hospitals, a top laparoscopic hernia surgeon for advanced, minimally invasive eTEP repair.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

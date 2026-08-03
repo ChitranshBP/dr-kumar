@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Hernia in Children | Pediatric Hernia Care Chennai - Dr. Kumar';
-$page_description = 'Expert pediatric hernia care by Dr. Kumar in Chennai. Specialized diagnosis, treatment, and surgical repair of hernias in infants, toddlers, and children with gentle, family-centered approach.';
+$page_title = 'Hernia in Children | Pediatric Hernia Care Chennai - Dr. Kumar Billroth Hospitals';
+$page_description = 'Expert pediatric hernia care by Dr. Kumar Billroth Hospitals in Chennai. Specialized diagnosis, treatment, and surgical repair of hernias in infants, toddlers, and children with gentle, family-centered approach.';
 $page_keywords = 'hernia in children, pediatric hernia, inguinal hernia child, umbilical hernia baby, pediatric surgeon Chennai, child hernia repair, infant hernia';
 require __DIR__ . '/../includes/header.php';
 ?>

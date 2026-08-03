@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Hernia Treatments & Surgical Techniques in Chennai | Dr. Kumar';
+$page_title = 'Hernia Treatments & Surgical Techniques in Chennai | Dr. Kumar Billroth Hospitals';
 $page_description = 'Explore advanced hernia treatment techniques in Chennai. From laparoscopic TEP/TAPP to robotic surgery and complex abdominal wall reconstruction.';
 require __DIR__ . '/../includes/header.php';
 ?>

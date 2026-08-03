@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Contact Us | Dr. Kumar';
-$page_description = 'Contact Dr. Kumar for expert medical consultation, appointments, or inquiries. Get in touch with our team today for personalized care and timely assistance.';
+$page_title = 'Contact Us | Dr. Kumar Billroth Hospitals';
+$page_description = 'Contact Dr. Kumar Billroth Hospitals for expert medical consultation, appointments, or inquiries. Get in touch with our team today for personalized care and timely assistance.';
 require __DIR__ . '/includes/header.php';
 ?>
 

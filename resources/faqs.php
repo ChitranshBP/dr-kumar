@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Frequently Asked Questions About Hernias & Surgery | Dr. Kumar';
+$page_title = 'Frequently Asked Questions About Hernias & Surgery | Dr. Kumar Billroth Hospitals';
 $page_description = 'Get answers to common questions about hernia symptoms, laparoscopic vs robotic repair, recovery timelines, mesh safety, and insurance.';
 require __DIR__ . '/../includes/header.php';
 ?>

@@ -16,8 +16,8 @@ if (isset($_SERVER['REQUEST_URI'])) {
 
 require_once __DIR__ . '/config.php';
 
-$page_title       ??= 'Advanced Hernia, Laparoscopic & Robotic Surgery | Dr. Kumar';
-$page_description ??= 'Dr. Kumar - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.';
+$page_title       ??= 'Advanced Hernia, Laparoscopic & Robotic Surgery | Dr. Kumar Billroth Hospitals';
+$page_description ??= 'Dr. Kumar Billroth Hospitals - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.';
 $page_keywords    ??= 'best hernia surgeon Chennai, advanced hernia surgery Chennai, laparoscopic surgeon Chennai, robotic hernia surgeon Chennai, abdominal wall reconstruction Chennai, eTEP TAR surgery Chennai, incisional hernia Chennai, umbilical hernia, inguinal hernia surgery, complex hernia repair';
 
 // Calculate page URL dynamically if not set

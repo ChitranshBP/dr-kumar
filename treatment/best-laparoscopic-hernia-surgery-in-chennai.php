@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Laparoscopic Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Looking for Laparoscopic Hernia Surgery in Chennai? Consult Dr. Kumar, a top minimally invasive hernia specialist in Chennai, for quick recovery and minimal scarring.';
+$page_title = 'Laparoscopic Hernia Surgery in Chennai | Dr. Kumar Billroth Hospitals';
+$page_description = 'Looking for Laparoscopic Hernia Surgery in Chennai? Consult Dr. Kumar Billroth Hospitals, a top minimally invasive hernia specialist in Chennai, for quick recovery and minimal scarring.';
 $page_url = 'https://herniacare360.com/treatment/best-laparoscopic-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

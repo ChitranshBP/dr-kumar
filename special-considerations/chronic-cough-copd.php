@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Hernia Surgery with COPD & Chronic Cough | Dr. Kumar';
+$page_title = 'Hernia Surgery with COPD & Chronic Cough | Dr. Kumar Billroth Hospitals';
 $page_description = 'Learn about safe hernia repair protocols for patients with COPD, asthma, or a chronic cough. Discover optimization, anesthesia safety, and recovery guidelines.';
-$page_keywords = 'hernia surgery chronic cough, COPD hernia repair, asthma hernia surgery, intra-abdominal pressure hernia, hernia recurrence coughing Chennai, Dr. Kumar';
+$page_keywords = 'hernia surgery chronic cough, COPD hernia repair, asthma hernia surgery, intra-abdominal pressure hernia, hernia recurrence coughing Chennai, Dr. Kumar Billroth Hospitals';
 require __DIR__ . '/../includes/header.php';
 ?>
 

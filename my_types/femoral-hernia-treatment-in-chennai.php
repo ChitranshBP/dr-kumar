@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Femoral Hernia Treatment Doctor in Chennai | Dr. Kumar';
-$page_description = 'Looking for Femoral Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top groin hernia specialist, for advanced minimally invasive repairs.';
+$page_title = 'Femoral Hernia Treatment Doctor in Chennai | Dr. Kumar Billroth Hospitals';
+$page_description = 'Looking for Femoral Hernia treatment Doctor in Chennai? Consult Dr. Kumar Billroth Hospitals, a top groin hernia specialist, for advanced minimally invasive repairs.';
 $page_url = 'https://herniacare360.com/my_types/femoral-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

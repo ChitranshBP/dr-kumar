@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Patient Resources, Guides & Post-Op Instructions | Dr. Kumar';
+$page_title = 'Patient Resources, Guides & Post-Op Instructions | Dr. Kumar Billroth Hospitals';
 $page_description = 'Access useful resources for your upcoming hernia surgery. Download patient guides, preparation check-lists, and post-operative recovery guidelines.';
 require __DIR__ . '/../includes/header.php';
 ?>

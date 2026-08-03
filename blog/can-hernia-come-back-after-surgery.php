@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Can a Hernia Come Back After Surgery? Recurrence Guide | Dr. Kumar';
-$page_description = 'Can a hernia come back after surgery? Read our complete medical guide on hernia recurrence, chances, causes, prevention, and treatment options by Dr. Kumar.';
-$page_keywords = 'can a hernia come back after surgery, does hernia come back after surgery, after hernia surgery can it come back, how to prevent hernia from coming back, recurrent hernia treatment, Dr. Kumar';
+$page_title = 'Can a Hernia Come Back After Surgery? Recurrence Guide | Dr. Kumar Billroth Hospitals';
+$page_description = 'Can a hernia come back after surgery? Read our complete medical guide on hernia recurrence, chances, causes, prevention, and treatment options by Dr. Kumar Billroth Hospitals.';
+$page_keywords = 'can a hernia come back after surgery, does hernia come back after surgery, after hernia surgery can it come back, how to prevent hernia from coming back, recurrent hernia treatment, Dr. Kumar Billroth Hospitals';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -312,7 +312,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <p class="text-sm text-slate-500 leading-relaxed mb-6">
                         With over 29 years of surgical experience, Dr. Kumar provides advanced laparoscopic and robotic hernia treatments in Chennai.
                     </p>
-                    <a href="../contact" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
+                    <a href="<?= $base_path ?>contact.php" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
                         Book Consultation
                     </a>
                 </div>

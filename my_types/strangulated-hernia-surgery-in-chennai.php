@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Emergency Strangulated Hernia Surgery in Chennai | Dr. Kumar';
-$page_description = 'Suspect a strangulated hernia? Consult Dr. Kumar immediately for emergency hernia surgery in Chennai. 24/7 expert surgical care for life-threatening hernia complications.';
+$page_title = 'Emergency Strangulated Hernia Surgery in Chennai | Dr. Kumar Billroth Hospitals';
+$page_description = 'Suspect a strangulated hernia? Consult Dr. Kumar Billroth Hospitals immediately for emergency hernia surgery in Chennai. 24/7 expert surgical care for life-threatening hernia complications.';
 $page_url = 'https://herniacare360.com/my_types/strangulated-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

@@ -1,5 +1,5 @@
 <?php
-$page_title = 'What is a Hernia? Definition, Meaning & Anatomy | Dr. Kumar';
+$page_title = 'What is a Hernia? Definition, Meaning & Anatomy | Dr. Kumar Billroth Hospitals';
 $page_description = 'Understand the medical definition of a hernia, how it develops, muscle wall anatomy, and when you should seek surgical consultation.';
 require __DIR__ . '/../includes/header.php';
 ?>

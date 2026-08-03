@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Incisional Hernia Treatment Doctor in Chennai | Dr. Kumar';
-$page_description = 'Looking for Incisional Hernia treatment Doctor in Chennai? Consult Dr. Kumar, a top complex hernia surgeon in Chennai, for advanced abdominal wall reconstruction.';
+$page_title = 'Incisional Hernia Treatment Doctor in Chennai | Dr. Kumar Billroth Hospitals';
+$page_description = 'Looking for Incisional Hernia treatment Doctor in Chennai? Consult Dr. Kumar Billroth Hospitals, a top complex hernia surgeon in Chennai, for advanced abdominal wall reconstruction.';
 $page_url = 'https://herniacare360.com/my_types/incisional-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

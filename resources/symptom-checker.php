@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Interactive Hernia Symptom Checker | Dr. Kumar';
+$page_title = 'Interactive Hernia Symptom Checker | Dr. Kumar Billroth Hospitals';
 $page_description = 'Use our interactive symptom checker to assess your risk of a hernia. Learn about potential hernia types, warning signs, and when to seek emergency care.';
 require __DIR__ . '/../includes/header.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Best Hernia Surgeon in Mogappair | Dr. Kumar';
-$page_description = 'Seeking the Best Hernia Surgeon in Mogappair? Consult Dr. Kumar for advanced hernia treatment, laparoscopic keyhole surgery, daycare repair, and personalized recovery.';
+$page_title = 'Best Hernia Surgeon in Mogappair | Dr. Kumar Billroth Hospitals';
+$page_description = 'Seeking the Best Hernia Surgeon in Mogappair? Consult Dr. Kumar Billroth Hospitals for advanced hernia treatment, laparoscopic keyhole surgery, daycare repair, and personalized recovery.';
 $page_url = 'https://herniacare360.com/treatment/hernia-surgeon-in-mogappair';
 require __DIR__ . '/../includes/header.php';
 ?>

@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Can Hernia be Cured without Surgery? {In 2026 Guide} | Dr. Kumar';
-$page_description = 'Can hernia be cured without surgery? Read our complete 2026 guide on non-surgical hernia management, home care, risks, and expert surgical insights by Dr. Kumar.';
-$page_keywords = 'can hernia be treated without surgery, hernia treatment without surgery at home, how to cure hernia without surgery, hernia treatment without surgery, how to control hernia without surgery, reduce hernia without surgery, treatment of hernia without surgery, Hernia Surgeon in Chennai, Dr. Kumar';
+$page_title = 'Can Hernia be Cured without Surgery? {In 2026 Guide} | Dr. Kumar Billroth Hospitals';
+$page_description = 'Can hernia be cured without surgery? Read our complete 2026 guide on non-surgical hernia management, home care, risks, and expert surgical insights by Dr. Kumar Billroth Hospitals.';
+$page_keywords = 'can hernia be treated without surgery, hernia treatment without surgery at home, how to cure hernia without surgery, hernia treatment without surgery, how to control hernia without surgery, reduce hernia without surgery, treatment of hernia without surgery, Hernia Surgeon in Chennai, Dr. Kumar Billroth Hospitals';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -422,15 +422,15 @@ require_once __DIR__ . '/../includes/header.php';
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm">
                     <h3 class="font-bold text-slate-900 text-base mb-4 border-b border-slate-100 pb-2">Related Articles</h3>
                     <div class="space-y-4">
-                        <a href="why-is-my-stomach-bigger-after-hernia-surgery" class="flex gap-3 group">
-                            <img src="../assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Stomach Swelling After Hernia Surgery" class="w-16 h-16 rounded-xl object-cover shrink-0">
+                        <a href="<?= $base_path ?>blog/why-is-my-stomach-bigger-after-hernia-surgery.php" class="flex gap-3 group">
+                            <img src="<?= $base_path ?>assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Stomach Swelling After Hernia Surgery" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Why is my Stomach Bigger After Hernia Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">09 July 2026</span>
                             </div>
                         </a>
-                        <a href="can-hernia-come-back-after-surgery" class="flex gap-3 group">
-                            <img src="../assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
+                        <a href="<?= $base_path ?>blog/can-hernia-come-back-after-surgery.php" class="flex gap-3 group">
+                            <img src="<?= $base_path ?>assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can a Hernia Come Back After Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">04 July 2026</span>

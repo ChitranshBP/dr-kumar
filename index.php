@@ -1,5 +1,6 @@
 <?php
-$page_title = 'Dr. Kumar- Advanced Hernia, Laparoscopic & Robotic Surgeon in Chennai';
+$page_title = 'Dr. Kumar Billroth Hospitals- Advanced Hernia, Laparoscopic & Robotic Surgeon';
+$page_description = 'Dr. Kumar Billroth Hospitals - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery. Book your appointment today.';
 $is_home = true;
 require __DIR__ . '/includes/header.php';
 ?>
@@ -836,20 +837,20 @@ require __DIR__ . '/includes/header.php';
             <?php
             $posts = [
                 [
-                    'title' => 'Why is my Stomach Bigger After Hernia Surgery?',
-                    'desc'  => 'Read our complete medical assessment on stomach swelling after hernia surgery, postoperative bloating, timelines, and recovery tips.',
-                    'tag'   => 'Recovery Guide',
-                    'date'  => '09 July 2026',
-                    'img'   => 'assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg',
-                    'link'  => 'blog/why-is-my-stomach-bigger-after-hernia-surgery.php',
+                    'title' => 'Can Hernia be Cured without Surgery? {In 2026}',
+                    'desc'  => 'Read our complete 2026 medical guide on non-surgical hernia management, home care, risks, and expert surgical advice by Dr. Kumar.',
+                    'tag'   => 'Hernia Guide',
+                    'date'  => '24 July 2026',
+                    'img'   => 'assets/images/can-hernia-be-cured-without-surgery.png',
+                    'link'  => 'blog/can-hernia-be-cured-without-surgery.php',
                 ],
                 [
-                    'title' => 'Can a Hernia Come Back After Surgery? {Complete Guide}',
-                    'desc'  => 'Read our complete medical guide on hernia recurrence risk factors, causes, prevention strategies, and treatment options by Dr. Kumar.',
-                    'tag'   => 'Hernia Surgery',
-                    'date'  => '04 July 2026',
-                    'img'   => 'assets/images/hernia-come-back-after-surgery.jpg',
-                    'link'  => 'blog/can-hernia-come-back-after-surgery.php',
+                    'title' => 'What not to eat after Hernia Surgery?',
+                    'desc'  => 'Read our complete 2026 medical guide on foods to avoid after hernia surgery, post-op diet rules, and expert tips by Dr. Kumar.',
+                    'tag'   => 'Recovery Guide',
+                    'date'  => '19 July 2026',
+                    'img'   => 'assets/images/what-not-to-eat-after-hernia-surgery.png',
+                    'link'  => 'blog/what-not-to-eat-after-hernia-surgery.php',
                 ],
             ];
             foreach ($posts as $p): ?>

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Recurrent Hernia Repair in Chennai | Complex Revision | Dr. Kumar';
-$page_description = 'Consult Dr. Kumar for expert revision surgery and repair of recurrent hernias in Chennai. Advanced techniques for permanent relief and low recurrence.';
+$page_title = 'Recurrent Hernia Repair in Chennai | Complex Revision | Dr. Kumar Billroth Hospitals';
+$page_description = 'Consult Dr. Kumar Billroth Hospitals for expert revision surgery and repair of recurrent hernias in Chennai. Advanced techniques for permanent relief and low recurrence.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

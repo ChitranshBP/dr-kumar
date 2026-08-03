@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Hernia & Surgical Terminology Glossary | Dr. Kumar';
+$page_title = 'Hernia & Surgical Terminology Glossary | Dr. Kumar Billroth Hospitals';
 $page_description = 'Browse our comprehensive glossary of medical terms related to hernias, laparoscopic techniques, robotic systems, and abdominal anatomy.';
 require __DIR__ . '/../includes/header.php';
 ?>

@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Is Hernia Surgery Dangerous? {Key Insights 2026} | Dr. Kumar';
-$page_description = 'Is hernia surgery dangerous? Read our 2026 comprehensive guide on hernia surgery safety, risks, complications, and expert surgical insights by Dr. Kumar.';
-$page_keywords = 'Is Hernia Surgery Dangerous, are hernias dangerous, is hernia dangerous, can a hernia be dangerous, how dangerous is a hernia, how dangerous is a hernia in the stomach, when is hernia dangerous, Best Hernia Surgeon in Chennai, Dr. Kumar';
+$page_title = 'Is Hernia Surgery Dangerous? {Key Insights 2026} | Dr. Kumar Billroth Hospitals';
+$page_description = 'Is hernia surgery dangerous? Read our 2026 comprehensive guide on hernia surgery safety, risks, complications, and expert surgical insights by Dr. Kumar Billroth Hospitals.';
+$page_keywords = 'Is Hernia Surgery Dangerous, are hernias dangerous, is hernia dangerous, can a hernia be dangerous, how dangerous is a hernia, how dangerous is a hernia in the stomach, when is hernia dangerous, Best Hernia Surgeon in Chennai, Dr. Kumar Billroth Hospitals';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -328,22 +328,22 @@ require_once __DIR__ . '/../includes/header.php';
                 <div class="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm">
                     <h3 class="font-bold text-slate-900 text-base mb-4 border-b border-slate-100 pb-2">Related Articles</h3>
                     <div class="space-y-4">
-                        <a href="what-not-to-eat-after-hernia-surgery" class="flex gap-3 group">
-                            <img src="../assets/images/what-not-to-eat-after-hernia-surgery.png" alt="What not to eat after Hernia Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
+                        <a href="<?= $base_path ?>blog/what-not-to-eat-after-hernia-surgery.php" class="flex gap-3 group">
+                            <img src="<?= $base_path ?>assets/images/what-not-to-eat-after-hernia-surgery.png" alt="What not to eat after Hernia Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">What not to eat after Hernia Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">19 July 2026</span>
                             </div>
                         </a>
-                        <a href="can-hernia-be-cured-without-surgery" class="flex gap-3 group">
-                            <img src="../assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
+                        <a href="<?= $base_path ?>blog/can-hernia-be-cured-without-surgery.php" class="flex gap-3 group">
+                            <img src="<?= $base_path ?>assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can Hernia be Cured without Surgery? {In 2026}</h4>
                                 <span class="text-[11px] text-slate-400">24 July 2026</span>
                             </div>
                         </a>
-                        <a href="why-is-my-stomach-bigger-after-hernia-surgery" class="flex gap-3 group">
-                            <img src="../assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Stomach Swelling After Hernia Surgery" class="w-16 h-16 rounded-xl object-cover shrink-0">
+                        <a href="<?= $base_path ?>blog/why-is-my-stomach-bigger-after-hernia-surgery.php" class="flex gap-3 group">
+                            <img src="<?= $base_path ?>assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Stomach Swelling After Hernia Surgery" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
                                 <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Why is my Stomach Bigger After Hernia Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">09 July 2026</span>

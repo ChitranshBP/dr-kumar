@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Best Hernia Surgeon in Maduravoyal | Dr. Kumar';
-$page_description = 'Seeking the Best Hernia Surgeon in Maduravoyal? Consult Dr. Kumar for advanced hernia treatment, laparoscopic keyhole surgery, daycare repair, and personalized recovery.';
+$page_title = 'Best Hernia Surgeon in Maduravoyal | Dr. Kumar Billroth Hospitals';
+$page_description = 'Seeking the Best Hernia Surgeon in Maduravoyal? Consult Dr. Kumar Billroth Hospitals for advanced hernia treatment, laparoscopic keyhole surgery, daycare repair, and personalized recovery.';
 $page_url = 'https://herniacare360.com/treatment/hernia-surgeon-in-maduravoyal';
 require __DIR__ . '/../includes/header.php';
 ?>

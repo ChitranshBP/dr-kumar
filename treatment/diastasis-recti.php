@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Diastasis Recti (Divarication of Recti) Treatment Chennai - Dr. Kumar';
-$page_description = 'Learn about Diastasis Recti (Divarication of Recti) symptoms, causes, and advanced repair techniques (such as SCOLA and robotic rectus plication) from Dr. Kumar in Chennai.';
-$page_keywords = 'diastasis recti Chennai, divarication of recti, abdominal muscle separation, SCOLA surgery Chennai, rectus plication, tummy tuck, Dr. Kumar';
+$page_title = 'Diastasis Recti (Divarication of Recti) Treatment Chennai - Dr. Kumar Billroth Hospitals';
+$page_description = 'Learn about Diastasis Recti (Divarication of Recti) symptoms, causes, and advanced repair techniques (such as SCOLA and robotic rectus plication) from Dr. Kumar Billroth Hospitals in Chennai.';
+$page_keywords = 'diastasis recti Chennai, divarication of recti, abdominal muscle separation, SCOLA surgery Chennai, rectus plication, tummy tuck, Dr. Kumar Billroth Hospitals';
 require __DIR__ . '/../includes/header.php';
 ?>
 

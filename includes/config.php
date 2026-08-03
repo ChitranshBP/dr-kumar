@@ -20,7 +20,7 @@ if (!isset($base_path)) {
 
 $site = [
     'name'        => 'DrKumar - Advanced Hernia , Laparoscopic & Robotic Surgeon',
-    'doctor'      => 'Dr Kumar of Billroth Hospitals',
+    'doctor'      => 'Dr. Kumar Billroth Hospitals',
     'tagline'     => 'Advanced Abdominal Hernia & Laparoscopic Surgeon in Chennai',
     'phone'       => '+91 89255 02759',
     'phone_link'  => '+918925502759',

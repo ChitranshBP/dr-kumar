@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Terms & Conditions | Hernia Care 360';
-$page_description = 'Read the terms and conditions for accessing and using the services provided on Hernia Care 360 by Dr. Kumar.';
+$page_description = 'Read the terms and conditions for accessing and using the services provided on Hernia Care 360 by Dr. Kumar Billroth Hospitals.';
 require __DIR__ . '/includes/header.php';
 ?>
 

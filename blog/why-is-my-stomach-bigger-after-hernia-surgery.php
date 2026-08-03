@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Why is my Stomach Bigger After Hernia Surgery? Bloating Guide | Dr. Kumar';
+$page_title = 'Why is my Stomach Bigger After Hernia Surgery? Bloating Guide | Dr. Kumar Billroth Hospitals';
 $page_description = 'Why is my stomach bigger after hernia surgery? Read our complete medical guide on stomach swelling after hernia surgery, bloating, timeline, and recovery tips.';
-$page_keywords = 'why is my stomach bigger after hernia surgery, swollen stomach after hernia surgery, stomach swelling after hernia surgery, how long does swelling last after hernia surgery, stomach swollen after hernia surgery, Dr. Kumar';
+$page_keywords = 'why is my stomach bigger after hernia surgery, swollen stomach after hernia surgery, stomach swelling after hernia surgery, how long does swelling last after hernia surgery, stomach swollen after hernia surgery, Dr. Kumar Billroth Hospitals';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -277,7 +277,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <p class="text-sm text-slate-500 leading-relaxed mb-6">
                         With over 29 years of surgical experience, Dr. Kumar provides advanced laparoscopic and robotic hernia treatments in Chennai.
                     </p>
-                    <a href="../contact" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
+                    <a href="<?= $base_path ?>contact.php" class="block w-full bg-brand-700 hover:bg-brand-850 text-white font-bold py-3 px-6 rounded-full text-sm transition text-center shadow-md">
                         Book Consultation
                     </a>
                 </div>

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Medical Insights & Surgical Blog | Dr. Kumar';
-$page_description = 'Explore informative articles and surgical insights from Dr. Kumar, focusing on hernia treatments, laparoscopic repairs, robotic surgery, and patient recovery.';
+$page_title = 'Medical Insights & Surgical Blog | Dr. Kumar Billroth Hospitals';
+$page_description = 'Explore informative articles and surgical insights from Dr. Kumar Billroth Hospitals, focusing on hernia treatments, laparoscopic repairs, robotic surgery, and patient recovery.';
 $page_keywords = 'hernia blog, medical insights Chennai, robotic surgery articles, laparoscopy guide, hernia recovery tips';
 require_once __DIR__ . '/includes/header.php';
 ?>
@@ -67,59 +67,31 @@ require_once __DIR__ . '/includes/header.php';
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="blogGrid">
             
-            <!-- Article 1: Is Hernia Surgery Dangerous? -->
+            <!-- Article 1: Can Umbilical Hernia be Treated Without Surgery? (03 August 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
-                    <img src="<?= $base_path ?>assets/images/is-hernia-surgery-dangerous.jpg" alt="Is Hernia Surgery Dangerous? {Key Insights}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img src="<?= $base_path ?>assets/images/can-umbilical-hernia-be-treated-without-surgery.png" alt="Can Umbilical Hernia be treated without Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                     <span class="absolute top-4 left-4 bg-brand-50 text-brand-700 text-xs font-semibold px-3 py-1 rounded-full border border-brand-100 shadow-sm">
-                        Safety & Risk Guide
+                        Umbilical Hernia
                     </span>
                 </div>
                 <div class="p-6 flex flex-col flex-1">
                     <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span>14 July 2026</span>
+                        <span>03 August 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/is-hernia-surgery-dangerous" class="blog-title">Is Hernia Surgery Dangerous? {Key Insights}</a>
+                        <a href="<?= $base_path ?>blog/can-umbilical-hernia-be-treated-without-surgery.php" class="blog-title">Can Umbilical Hernia be Treated Without Surgery?</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
-                        Read our complete 2026 medical safety guide on hernia surgery risks, elective vs emergency repair, and expert advice by Dr. Kumar.
+                        Read our complete 2026 medical guide on non-surgical navel hernia myths, risks of untreated hernias, and modern keyhole repairs by Dr. Kumar Billroth Hospitals.
                     </p>
-                    <a href="blog/is-hernia-surgery-dangerous" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="<?= $base_path ?>blog/can-umbilical-hernia-be-treated-without-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
                 </div>
             </article>
-            
-            <!-- Article 1: What Not to Eat After Hernia Surgery? -->
-            <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="recovery">
-                <div class="relative h-56 w-full overflow-hidden bg-slate-100">
-                    <img src="<?= $base_path ?>assets/images/what-not-to-eat-after-hernia-surgery.png" alt="What not to eat after Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-                    <span class="absolute top-4 left-4 bg-amber-50 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full border border-amber-100 shadow-sm">
-                        Recovery Guide
-                    </span>
-                </div>
-                <div class="p-6 flex flex-col flex-1">
-                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                        <span>19 July 2026</span>
-                    </div>
-                    <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/what-not-to-eat-after-hernia-surgery" class="blog-title">What not to eat after Hernia Surgery?</a>
-                    </h3>
-                    <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
-                        Read our complete 2026 medical guide on foods to avoid after hernia surgery, post-op diet rules, and expert tips by Dr. Kumar.
-                    </p>
-                    <a href="blog/what-not-to-eat-after-hernia-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
-                        Read Full Article
-                        <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-                    </a>
-                </div>
-            </article>
-            
-            <!-- Article 1: Can Hernia be Cured without Surgery? -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery? {In 2026}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -133,19 +105,71 @@ require_once __DIR__ . '/includes/header.php';
                         <span>24 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/can-hernia-be-cured-without-surgery" class="blog-title">Can Hernia be Cured without Surgery? {In 2026}</a>
+                        <a href="<?= $base_path ?>blog/can-hernia-be-cured-without-surgery.php" class="blog-title">Can Hernia be Cured without Surgery? {In 2026}</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete 2026 medical guide on non-surgical hernia management, home care, risks, and expert surgical advice by Dr. Kumar.
                     </p>
-                    <a href="blog/can-hernia-be-cured-without-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="<?= $base_path ?>blog/can-hernia-be-cured-without-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
                 </div>
             </article>
 
-            <!-- Article 2 -->
+            <!-- Article 2: What Not to Eat After Hernia Surgery? (19 July 2026) -->
+            <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="recovery">
+                <div class="relative h-56 w-full overflow-hidden bg-slate-100">
+                    <img src="<?= $base_path ?>assets/images/what-not-to-eat-after-hernia-surgery.png" alt="What not to eat after Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <span class="absolute top-4 left-4 bg-amber-50 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full border border-amber-100 shadow-sm">
+                        Recovery Guide
+                    </span>
+                </div>
+                <div class="p-6 flex flex-col flex-1">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        <span>19 July 2026</span>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
+                        <a href="<?= $base_path ?>blog/what-not-to-eat-after-hernia-surgery.php" class="blog-title">What not to eat after Hernia Surgery?</a>
+                    </h3>
+                    <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
+                        Read our complete 2026 medical guide on foods to avoid after hernia surgery, post-op diet rules, and expert tips by Dr. Kumar.
+                    </p>
+                    <a href="<?= $base_path ?>blog/what-not-to-eat-after-hernia-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                        Read Full Article
+                        <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 3: Is Hernia Surgery Dangerous? (14 July 2026) -->
+            <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
+                <div class="relative h-56 w-full overflow-hidden bg-slate-100">
+                    <img src="<?= $base_path ?>assets/images/is-hernia-surgery-dangerous.jpg" alt="Is Hernia Surgery Dangerous? {Key Insights}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <span class="absolute top-4 left-4 bg-brand-50 text-brand-700 text-xs font-semibold px-3 py-1 rounded-full border border-brand-100 shadow-sm">
+                        Safety & Risk Guide
+                    </span>
+                </div>
+                <div class="p-6 flex flex-col flex-1">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        <span>14 July 2026</span>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
+                        <a href="<?= $base_path ?>blog/is-hernia-surgery-dangerous.php" class="blog-title">Is Hernia Surgery Dangerous? {Key Insights}</a>
+                    </h3>
+                    <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
+                        Read our complete 2026 medical safety guide on hernia surgery risks, elective vs emergency repair, and expert advice by Dr. Kumar.
+                    </p>
+                    <a href="<?= $base_path ?>blog/is-hernia-surgery-dangerous.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                        Read Full Article
+                        <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 4: Why is my Stomach Bigger After Hernia Surgery? (09 July 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="recovery">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is my Stomach Bigger After Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -159,19 +183,19 @@ require_once __DIR__ . '/includes/header.php';
                         <span>09 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/why-is-my-stomach-bigger-after-hernia-surgery" class="blog-title">Why is my Stomach Bigger After Hernia Surgery?</a>
+                        <a href="<?= $base_path ?>blog/why-is-my-stomach-bigger-after-hernia-surgery.php" class="blog-title">Why is my Stomach Bigger After Hernia Surgery?</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete medical guide on stomach swelling after hernia surgery, bloating, timeline, and recovery tips.
                     </p>
-                    <a href="blog/why-is-my-stomach-bigger-after-hernia-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="<?= $base_path ?>blog/why-is-my-stomach-bigger-after-hernia-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>
                 </div>
             </article>
 
-            <!-- Article 2 -->
+            <!-- Article 5: Can a Hernia Come Back After Surgery? (04 July 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery? {Complete Guide}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -185,12 +209,12 @@ require_once __DIR__ . '/includes/header.php';
                         <span>04 July 2026</span>
                     </div>
                     <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
-                        <a href="blog/can-hernia-come-back-after-surgery" class="blog-title">Can a Hernia Come Back After Surgery? {Complete Guide}</a>
+                        <a href="<?= $base_path ?>blog/can-hernia-come-back-after-surgery.php" class="blog-title">Can a Hernia Come Back After Surgery? {Complete Guide}</a>
                     </h3>
                     <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
                         Read our complete medical guide on hernia recurrence, chances, causes, prevention, and treatment options by Dr. Kumar.
                     </p>
-                    <a href="blog/can-hernia-come-back-after-surgery" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                    <a href="<?= $base_path ?>blog/can-hernia-come-back-after-surgery.php" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
                         Read Full Article
                         <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                     </a>

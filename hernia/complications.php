@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Hernia Complications: Strangulation & Incarceration | Dr. Kumar';
+$page_title = 'Hernia Complications: Strangulation & Incarceration | Dr. Kumar Billroth Hospitals';
 $page_description = 'Understand the serious health risks of untreated hernias, including tissue incarceration, bowel obstruction, and life-threatening strangulation.';
 require __DIR__ . '/../includes/header.php';
 ?>
