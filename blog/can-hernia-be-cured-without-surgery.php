@@ -1,7 +1,9 @@
 <?php
-$page_title = 'Can Hernia be Cured without Surgery? {In 2026 Guide} | Dr. Kumar Billroth Hospitals';
+$page_title = 'Can Hernia be Cured without Surgery? | Dr. Kumar Billroth Hospitals';
 $page_description = 'Can hernia be cured without surgery? Read our complete 2026 guide on non-surgical hernia management, home care, risks, and expert surgical insights by Dr. Kumar Billroth Hospitals.';
 $page_keywords = 'can hernia be treated without surgery, hernia treatment without surgery at home, how to cure hernia without surgery, hernia treatment without surgery, how to control hernia without surgery, reduce hernia without surgery, treatment of hernia without surgery, Hernia Surgeon in Chennai, Dr. Kumar Billroth Hospitals';
+$page_published = '2026-07-24';
+$page_modified  = '2026-08-03';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -20,10 +22,10 @@ require_once __DIR__ . '/../includes/header.php';
         
         <div class="max-w-4xl">
             <span class="inline-flex items-center gap-2 bg-amber-500/20 backdrop-blur px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 text-amber-300 border border-amber-500/30">
-                Patient Medical Guide {2026 Edition}
+                Patient Medical Guide
             </span>
             <h1 class="font-display text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                Can Hernia be Cured without Surgery? <br class="hidden md:inline"><span class="text-accent">{In 2026}</span>
+                Can Hernia be Cured without Surgery? <br class="hidden md:inline"><span class="text-accent"></span>
             </h1>
             
             <div class="flex flex-wrap items-center gap-6 text-sm text-slate-300 mt-6">
@@ -48,7 +50,7 @@ require_once __DIR__ . '/../includes/header.php';
             <!-- Left Column: Article Body -->
             <article class="lg:col-span-8 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
                 <div class="prose prose-slate max-w-none">
-                    <img src="../assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery? {In 2026}" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[440px]">
+                    <img src="../assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery?" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[440px]">
                     
                     <!-- AEO Direct Answer Box -->
                     <div class="bg-brand-50 border-l-4 border-brand-700 p-6 rounded-r-2xl mb-10 shadow-sm">

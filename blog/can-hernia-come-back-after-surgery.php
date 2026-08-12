@@ -2,6 +2,8 @@
 $page_title = 'Can a Hernia Come Back After Surgery? Recurrence Guide | Dr. Kumar Billroth Hospitals';
 $page_description = 'Can a hernia come back after surgery? Read our complete medical guide on hernia recurrence, chances, causes, prevention, and treatment options by Dr. Kumar Billroth Hospitals.';
 $page_keywords = 'can a hernia come back after surgery, does hernia come back after surgery, after hernia surgery can it come back, how to prevent hernia from coming back, recurrent hernia treatment, Dr. Kumar Billroth Hospitals';
+$page_published = '2026-07-09';
+$page_modified  = '2026-08-03';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -23,7 +25,7 @@ require_once __DIR__ . '/../includes/header.php';
                 Hernia Surgery Guide
             </span>
             <h1 class="font-display text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                Can a Hernia Come Back After Surgery? <br class="hidden md:inline"><span class="text-accent">{Complete Guide}</span>
+                Can a Hernia Come Back After Surgery? <br class="hidden md:inline"><span class="text-accent"></span>
             </h1>
             
             <div class="flex flex-wrap items-center gap-6 text-sm text-slate-300 mt-6">
@@ -48,7 +50,7 @@ require_once __DIR__ . '/../includes/header.php';
             <!-- Left Column: Article Body -->
             <article class="lg:col-span-8 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
                 <div class="prose prose-slate max-w-none">
-                    <img src="../assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery? {Complete Guide}" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[420px]">
+                    <img src="../assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery?" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[420px]">
                     
                     <!-- Introduction -->
                     <h2 class="font-display text-2xl font-bold text-slate-900 mb-4">Introduction</h2>

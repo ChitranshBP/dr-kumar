@@ -1,7 +1,9 @@
 <?php
-$page_title = 'Is Hernia Surgery Dangerous? {Key Insights 2026} | Dr. Kumar Billroth Hospitals';
+$page_title = 'Is Hernia Surgery Dangerous? | Dr. Kumar Billroth Hospitals';
 $page_description = 'Is hernia surgery dangerous? Read our 2026 comprehensive guide on hernia surgery safety, risks, complications, and expert surgical insights by Dr. Kumar Billroth Hospitals.';
 $page_keywords = 'Is Hernia Surgery Dangerous, are hernias dangerous, is hernia dangerous, can a hernia be dangerous, how dangerous is a hernia, how dangerous is a hernia in the stomach, when is hernia dangerous, Best Hernia Surgeon in Chennai, Dr. Kumar Billroth Hospitals';
+$page_published = '2026-07-14';
+$page_modified  = '2026-08-03';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -20,10 +22,10 @@ require_once __DIR__ . '/../includes/header.php';
         
         <div class="max-w-4xl">
             <span class="inline-flex items-center gap-2 bg-amber-500/20 backdrop-blur px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 text-amber-300 border border-amber-500/30">
-                Medical Safety & Risk Analysis {2026}
+                Medical Safety & Risk Analysis
             </span>
             <h1 class="font-display text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                Is Hernia Surgery Dangerous? <br class="hidden md:inline"><span class="text-accent">{Key Insights}</span>
+                Is Hernia Surgery Dangerous? <br class="hidden md:inline"><span class="text-accent"></span>
             </h1>
             
             <div class="flex flex-wrap items-center gap-6 text-sm text-slate-300 mt-6">
@@ -48,7 +50,7 @@ require_once __DIR__ . '/../includes/header.php';
             <!-- Left Column: Article Body -->
             <article class="lg:col-span-8 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
                 <div class="prose prose-slate max-w-none">
-                    <img src="../assets/images/is-hernia-surgery-dangerous.jpg" alt="Is Hernia Surgery Dangerous? {Key Insights}" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[440px]">
+                    <img src="../assets/images/is-hernia-surgery-dangerous.jpg" alt="Is Hernia Surgery Dangerous?" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[440px]">
                     
                     <!-- AEO Direct Answer Box -->
                     <div class="bg-brand-50 border-l-4 border-brand-700 p-6 rounded-r-2xl mb-10 shadow-sm">
@@ -338,7 +340,7 @@ require_once __DIR__ . '/../includes/header.php';
                         <a href="<?= $base_path ?>blog/can-hernia-be-cured-without-surgery.php" class="flex gap-3 group">
                             <img src="<?= $base_path ?>assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
-                                <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can Hernia be Cured without Surgery? {In 2026}</h4>
+                                <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can Hernia be Cured without Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">24 July 2026</span>
                             </div>
                         </a>

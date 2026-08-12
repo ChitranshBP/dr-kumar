@@ -143,17 +143,19 @@ if (!isset($schema_about)) {
             "name" => "Transabdominal Preperitoneal (TAPP) Repair",
             "description" => "A laparoscopic surgical technique where the hernia is repaired from inside the abdominal cavity."
         ];
-    } elseif (strpos($url_lower, 'tep') !== false || strpos($title_lower, 'tep') !== false) {
-        $schema_about = [
-            "@type" => "MedicalProcedure",
-            "name" => "Totally Extraperitoneal (TEP) Repair",
-            "description" => "A laparoscopic technique where the hernia is repaired without entering the peritoneal cavity."
-        ];
+    // 'etep' must be tested before 'tep' - "etep" contains "tep" as a substring,
+    // so the looser check would otherwise claim the eTEP page and label it TEP.
     } elseif (strpos($url_lower, 'etep') !== false || strpos($title_lower, 'etep') !== false) {
         $schema_about = [
             "@type" => "MedicalProcedure",
             "name" => "Enhanced Totally Extraperitoneal (eTEP) Repair",
             "description" => "An advanced laparoscopic and robotic technique providing wider extraperitoneal access for complex hernia repairs."
+        ];
+    } elseif (strpos($url_lower, 'tep') !== false || strpos($title_lower, 'tep') !== false) {
+        $schema_about = [
+            "@type" => "MedicalProcedure",
+            "name" => "Totally Extraperitoneal (TEP) Repair",
+            "description" => "A laparoscopic technique where the hernia is repaired without entering the peritoneal cavity."
         ];
     } elseif (strpos($url_lower, 'diastasis') !== false || strpos($title_lower, 'diastasis') !== false) {
         $schema_about = [
@@ -249,58 +251,180 @@ if (!isset($schema_about)) {
         };
     </script>
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Physician",
-      "@id": "https://herniacare360.com/#physician",
-      "name": "<?= htmlspecialchars($site['doctor']) ?>",
-      "image": "https://herniacare360.com/assets/images/dr-kumar-main-image.png",
-      "url": "https://herniacare360.com/",
-      "telephone": "<?= htmlspecialchars($site['phone']) ?>",
-      "medicalSpecialty": ["Surgery", "Laparoscopic Surgery", "Robotic Surgery"],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Chennai, Tamil Nadu",
-        "addressLocality": "Chennai",
-        "addressRegion": "Tamil Nadu",
-        "addressCountry": "IN"
-      },
-      "alumniOf": "Stanley Medical College",
-      "memberOf": [
-        "Royal College of Surgeons of England",
-        "Association of Surgeons of India",
-        "Indian Medical Association"
-      ],
-      "priceRange": "$$",
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      }
-    }
-    </script>
+<?php
+// ---------------------------------------------------------------------------
+// Structured data. One @graph so every node is declared once and referenced by
+// @id, instead of re-declaring the doctor as a fresh anonymous node each time.
+// Node ids: #physician (the person), #clinic (the hospital), #website, #webpage.
+// ---------------------------------------------------------------------------
+$SITE_ROOT = rtrim($site['url'], '/') . '/';
+$clinic    = $site['clinic'];
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "@id": "<?= $page_url ?? 'https://herniacare360.com/' ?>#webpage",
-      "url": "<?= $page_url ?? 'https://herniacare360.com/' ?>",
-      "name": "<?= htmlspecialchars($page_title) ?>",
-      "description": "<?= htmlspecialchars($page_description) ?>",
-      "about": <?= json_encode($schema_about, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) ?>,
-      "author": {
-        "@type": "Person",
-        "name": "<?= htmlspecialchars($site['doctor']) ?>",
-        "jobTitle": "Advanced Hernia & Laparoscopic Surgeon"
-      },
-      "provider": {
-        "@type": "Physician",
-        "name": "<?= htmlspecialchars($site['doctor']) ?>"
-      }
+// Breadcrumbs derived from the canonical URL. A page can override by setting
+// $breadcrumbs = [['name' => 'Treatments', 'url' => '...'], ...] before this include.
+if (!isset($breadcrumbs)) {
+    $breadcrumbs = [];
+    $path = trim(parse_url($page_url, PHP_URL_PATH) ?? '', '/');
+    if ($path !== '') {
+        $segments = explode('/', $path);
+        $built    = '';
+        $last     = count($segments) - 1;
+        foreach ($segments as $i => $seg) {
+            $built .= $seg . '/';
+            $label  = ucwords(str_replace(['-', '_'], ' ', $seg));
+            if ($i === $last) {
+                // Use the real page title (minus the brand suffix) for the leaf.
+                $label = trim(explode('|', $page_title)[0]);
+            }
+            $breadcrumbs[] = ['name' => $label, 'url' => $SITE_ROOT . $built];
+        }
     }
+}
+
+$physician = [
+    '@type'            => 'Physician',
+    '@id'              => $SITE_ROOT . '#physician',
+    'name'             => $site['doctor'],
+    'honorificSuffix'  => $site['credentials'],
+    'jobTitle'         => $site['job_title'],
+    'image'            => $SITE_ROOT . 'assets/images/dr-kumar-main-image.png',
+    'url'              => $SITE_ROOT,
+    'telephone'        => $site['phone'],
+    'email'            => $site['email'],
+    'medicalSpecialty' => ['Surgery', 'Laparoscopic Surgery', 'Robotic Surgery'],
+    'knowsAbout'       => [
+        'Hernia repair', 'Inguinal hernia', 'Umbilical hernia', 'Incisional hernia',
+        'Ventral hernia', 'Hiatal hernia', 'Abdominal wall reconstruction',
+        'eTEP repair', 'TEP repair', 'TAPP repair', 'Transversus abdominis release',
+    ],
+    'alumniOf'  => ['@type' => 'CollegeOrUniversity', 'name' => 'Stanley Medical College'],
+    'memberOf'  => [
+        ['@type' => 'Organization', 'name' => 'Royal College of Surgeons of England'],
+        ['@type' => 'Organization', 'name' => 'Association of Surgeons of India'],
+        ['@type' => 'Organization', 'name' => 'Indian Medical Association'],
+    ],
+    // Ties this domain, the general-surgery site, the GBP listing and every
+    // social profile to one physician entity.
+    'sameAs'    => $site['same_as'],
+    'worksFor'  => ['@id' => $SITE_ROOT . '#clinic'],
+    'workLocation' => ['@id' => $SITE_ROOT . '#clinic'],
+];
+if (!empty($site['reg_number'])) {
+    $physician['identifier'] = [
+        '@type' => 'PropertyValue',
+        'name'  => 'Medical Council Registration',
+        'value' => $site['reg_number'],
+    ];
+}
+
+$clinic_node = [
+    '@type'     => ['MedicalClinic', 'Hospital'],
+    '@id'       => $SITE_ROOT . '#clinic',
+    'name'      => $clinic['name'],
+    'url'       => $SITE_ROOT,
+    'telephone' => $site['phone'],
+    'address'   => [
+        '@type'           => 'PostalAddress',
+        'streetAddress'   => $clinic['street'],
+        'addressLocality' => $clinic['locality'],
+        'addressRegion'   => $clinic['region'],
+        'postalCode'      => $clinic['postal'],
+        'addressCountry'  => $clinic['country'],
+    ],
+    'hasMap'     => $clinic['map_url'],
+    'priceRange' => '$$',
+    'medicalSpecialty' => ['Surgery', 'Laparoscopic Surgery', 'Robotic Surgery'],
+    'availableService' => [
+        ['@type' => 'MedicalProcedure', 'name' => 'Laparoscopic hernia repair'],
+        ['@type' => 'MedicalProcedure', 'name' => 'Robotic hernia repair'],
+        ['@type' => 'MedicalProcedure', 'name' => 'Open hernia repair'],
+        ['@type' => 'MedicalProcedure', 'name' => 'Abdominal wall reconstruction'],
+    ],
+    'areaServed' => ['@type' => 'City', 'name' => 'Chennai'],
+    'openingHoursSpecification' => [
+        [
+            '@type'     => 'OpeningHoursSpecification',
+            'dayOfWeek' => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            'opens'     => '09:00',
+            'closes'    => '19:00',
+        ],
+        [
+            '@type'     => 'OpeningHoursSpecification',
+            'dayOfWeek' => ['Saturday'],
+            'opens'     => '09:00',
+            'closes'    => '17:00',
+        ],
+    ],
+];
+if ($clinic['latitude'] !== '' && $clinic['longitude'] !== '') {
+    $clinic_node['geo'] = [
+        '@type'     => 'GeoCoordinates',
+        'latitude'  => $clinic['latitude'],
+        'longitude' => $clinic['longitude'],
+    ];
+}
+
+$webpage = [
+    '@type'       => 'MedicalWebPage',
+    '@id'         => $page_url . '#webpage',
+    'url'         => $page_url,
+    'name'        => $page_title,
+    'description' => $page_description,
+    'inLanguage'  => 'en-IN',
+    'isPartOf'    => ['@id' => $SITE_ROOT . '#website'],
+    'author'      => ['@id' => $SITE_ROOT . '#physician'],
+    'reviewedBy'  => ['@id' => $SITE_ROOT . '#physician'],
+    'provider'    => ['@id' => $SITE_ROOT . '#clinic'],
+    'audience'    => ['@type' => 'Patient'],
+];
+if (!empty($schema_about)) {
+    $webpage['about'] = $schema_about;
+}
+// Pages set these before the include; blog posts should always set both.
+if (!empty($page_published)) { $webpage['datePublished'] = $page_published; }
+if (!empty($page_modified))  { $webpage['dateModified']  = $page_modified; }
+if (!empty($page_reviewed))  { $webpage['lastReviewed']  = $page_reviewed; }
+if ($breadcrumbs) {
+    $webpage['breadcrumb'] = ['@id' => $page_url . '#breadcrumb'];
+}
+
+$graph = [
+    [
+        '@type'     => 'WebSite',
+        '@id'       => $SITE_ROOT . '#website',
+        'url'       => $SITE_ROOT,
+        'name'      => $site['name'],
+        'inLanguage'=> 'en-IN',
+        'publisher' => ['@id' => $SITE_ROOT . '#physician'],
+        'about'     => ['@id' => $SITE_ROOT . '#physician'],
+    ],
+    $physician,
+    $clinic_node,
+    $webpage,
+];
+
+if ($breadcrumbs) {
+    $items = [['@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => $SITE_ROOT]];
+    foreach ($breadcrumbs as $i => $crumb) {
+        $items[] = [
+            '@type'    => 'ListItem',
+            'position' => $i + 2,
+            'name'     => $crumb['name'],
+            'item'     => $crumb['url'],
+        ];
+    }
+    $graph[] = [
+        '@type'           => 'BreadcrumbList',
+        '@id'             => $page_url . '#breadcrumb',
+        'itemListElement' => $items,
+    ];
+}
+
+$schema_payload = ['@context' => 'https://schema.org', '@graph' => $graph];
+?>
+    <script type="application/ld+json">
+<?= json_encode($schema_payload, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
+
     </script>
 
     <style>

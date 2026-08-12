@@ -1,5 +1,56 @@
 RewriteEngine On
 
+# ---------------------------------------------------------------------------
+# 0. Kill PATH_INFO on index.php.
+#
+# Before this rule, /index.php/<anything>/<at>/<all> returned HTTP 200 with the
+# full homepage, meta robots "index, follow". That is an infinite crawlable URL
+# space: any string appended to /index.php/ minted a new indexable URL serving
+# duplicate content. It is the vector that got 952+ junk URLs into the index
+# (GSC coverage export, 2026-08-12), including nested forms such as
+# /index.php/a17576014836566/treatment/tapp-repair-in-chennai.php
+#
+# AcceptPathInfo Off makes the server reject trailing path info outright; the
+# RewriteRule is the belt-and-braces version for configs that ignore it.
+# /index.php with no trailing path is untouched and still 301s to / below.
+# ---------------------------------------------------------------------------
+<IfModule mod_negotiation.c>
+    AcceptPathInfo Off
+</IfModule>
+
+RewriteCond %{THE_REQUEST} \s/+index\.php/ [NC]
+RewriteRule ^ - [G,L]
+
+# ---------------------------------------------------------------------------
+# 0b. Legacy spam URLs from the previous WordPress/JetBlog install.
+#
+# Shape: one letter followed by exactly 14 digits, optionally /m, optionally a
+# trailing slash (e.g. /w44868983845169/, /j19496163659514/m). Google Search
+# Console reported 952 of these in a single 1,000-row export on 2026-08-12.
+#
+# Served 410 Gone, NOT 301 to the homepage. A 301 tells Google the URL is
+# legitimate and permanently moved, so the URLs stay alive in the index and keep
+# consuming crawl budget indefinitely; a mass redirect to an unrelated
+# destination also reads as a soft 404. 410 states the resource is gone and is
+# honoured faster than 404.
+#
+# Do NOT add these to robots.txt - a blocked URL cannot be crawled, so Google
+# would never see the 410 and would keep the URLs indexed.
+#
+# Verified against all 172 real URLs and source files: zero false positives.
+# Every legitimate slug contains hyphens or letters after the first character.
+# These rules sit above the catch-all rewrites below so ordering cannot break
+# them.
+# ---------------------------------------------------------------------------
+RewriteRule ^[a-z]\d{14}(/m)?/?$ - [G,L,NC]
+
+# The JetBlog AJAX spam variant.
+RewriteCond %{QUERY_STRING} ^nocache=1777519964&jet_blog_ajax=1$ [NC]
+RewriteRule ^about-us/?$ - [G,L]
+
+# Genuine legacy path from the old site - send it to the real About page.
+RewriteRule ^about-us/?$ https://herniacare360.com/about-best-hernia-hospital-in-chennai/ [R=301,L,NC]
+
 # 1. Page rewrites for directories matching page names
 RewriteRule ^blog/?$ blog.php [L,NC]
 RewriteRule ^hernia/?$ hernia.php [L,NC]
@@ -36,8 +87,5 @@ RewriteRule ^treatment/hernia-surgery-in-chennai(\.php)?/?$ https://herniacare36
 RewriteRule ^treatment/hernia-surgeon-in-([a-z-]+)\.php$ https://herniacare360.com/treatment/hernia-surgeon-in-$1 [R=301,L,NC]
 RewriteRule ^treatment/([a-z-]+)\.php$ https://herniacare360.com/treatment/$1 [R=301,L,NC]
 
-# 301 Redirect for spam pages
-RewriteCond %{QUERY_STRING} ^nocache=1777519964&jet_blog_ajax=1$ [NC]
-RewriteRule ^about-us/?$ /? [R=301,L]
-
-RewriteRule ^[a-z]\d{14}(/m)?/?$ / [R=301,L,NC]
+# (Spam-URL handling lives at the top of this file, above the catch-all
+#  rewrites - see block 0b.)

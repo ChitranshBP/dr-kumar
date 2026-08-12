@@ -2,6 +2,8 @@
 $page_title = 'What Not to Eat After Hernia Surgery? Dietary Guide | Dr. Kumar Billroth Hospitals';
 $page_description = 'Discover what not to eat after hernia surgery. Read our complete 2026 guide on foods to avoid after hernia surgery, post-op diet rules, and expert tips by Dr. Kumar Billroth Hospitals.';
 $page_keywords = 'What not to eat after Hernia Surgery, food not to eat after hernia surgery, foods to avoid after hernia surgery, Best Hernia Surgeon in Chennai, Dr. Kumar Billroth Hospitals, hernia post op diet';
+$page_published = '2026-07-19';
+$page_modified  = '2026-08-03';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -20,10 +22,10 @@ require_once __DIR__ . '/../includes/header.php';
         
         <div class="max-w-4xl">
             <span class="inline-flex items-center gap-2 bg-amber-500/20 backdrop-blur px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 text-amber-300 border border-amber-500/30">
-                Hernia Recovery & Nutrition Guide {2026}
+                Hernia Recovery & Nutrition Guide
             </span>
             <h1 class="font-display text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                What Not to Eat After Hernia Surgery? <br class="hidden md:inline"><span class="text-accent">{Essential Post-Op Diet}</span>
+                What Not to Eat After Hernia Surgery? <br class="hidden md:inline"><span class="text-accent"></span>
             </h1>
             
             <div class="flex flex-wrap items-center gap-6 text-sm text-slate-300 mt-6">
@@ -396,7 +398,7 @@ require_once __DIR__ . '/../includes/header.php';
                         <a href="<?= $base_path ?>blog/can-hernia-be-cured-without-surgery.php" class="flex gap-3 group">
                             <img src="<?= $base_path ?>assets/images/can-hernia-be-cured-without-surgery.png" alt="Can Hernia be Cured without Surgery?" class="w-16 h-16 rounded-xl object-cover shrink-0">
                             <div>
-                                <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can Hernia be Cured without Surgery? {In 2026}</h4>
+                                <h4 class="font-semibold text-slate-900 text-xs leading-snug group-hover:text-brand-700 transition">Can Hernia be Cured without Surgery?</h4>
                                 <span class="text-[11px] text-slate-400">24 July 2026</span>
                             </div>
                         </a>

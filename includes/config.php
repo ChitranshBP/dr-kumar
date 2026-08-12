@@ -19,15 +19,46 @@ if (!isset($base_path)) {
 }
 
 $site = [
-    'name'        => 'DrKumar - Advanced Hernia , Laparoscopic & Robotic Surgeon',
-    'doctor'      => 'Dr. Kumar Billroth Hospitals',
+    'name'        => 'HerniaCare 360 - Advanced Hernia Surgery by Dr. Kumar',
+    // Person entity. Kept separate from the hospital name so schema.org/Person
+    // and schema.org/Hospital resolve as two distinct entities.
+    // TODO: replace with the full registered name once confirmed with the practice.
+    'doctor'      => 'Dr. Kumar',
+    'credentials' => 'MBBS, MS (Surgery), MRCS (England), FMAS, FIAGES',
+    'job_title'   => 'Consultant Hernia, Laparoscopic & Robotic Surgeon',
+    // TODO: add the Tamil Nadu Medical Council / NMC registration number here.
+    // It is the strongest single YMYL trust signal and is currently absent sitewide.
+    'reg_number'  => '',
     'tagline'     => 'Advanced Abdominal Hernia & Laparoscopic Surgeon in Chennai',
     'phone'       => '+91 89255 02759',
     'phone_link'  => '+918925502759',
     'email'       => 'drkumargastrosurgeon@gmail.com',
-    'address'     => 'Chennai, Tamil Nadu, India',
+    'address'     => '43/18, Lakshmi Talkies Road, Shenoy Nagar, Chennai - 600030',
     'url'         => 'https://herniacare360.com/',
     'logo'        => 'assets/images/logo.png',
+
+    // Practice location. Values verified against contact.php and Billroth Hospitals' own site.
+    'clinic' => [
+        'name'     => 'Billroth Hospitals',
+        'street'   => '43/18, Lakshmi Talkies Road',
+        'locality' => 'Shenoy Nagar, Chennai',
+        'region'   => 'Tamil Nadu',
+        'postal'   => '600030',
+        'country'  => 'IN',
+        // Google Business Profile for the practice.
+        'map_url'    => 'https://maps.google.com/?cid=6550270631746872398',
+        'review_url' => 'https://search.google.com/local/writereview?placeid=ChIJr-kzCsFlUjoRTiTyS28851o',
+        // TODO: add verified GeoCoordinates from the GBP listing. Deliberately
+        // left empty rather than estimated - wrong coordinates are worse than none.
+        'latitude'   => '',
+        'longitude'  => '',
+    ],
+
+    // Dr. Kumar's general-surgery practice site. Same person, broader scope
+    // (gallbladder, fistula, appendix, GERD). Declared as sameAs so both
+    // domains resolve to one physician entity instead of two competing ones.
+    'provider_site' => 'https://surgeondrkumar.com/',
+
     'social'      => [
         'facebook'  => 'https://www.facebook.com/people/Dr-Kumar-Billroth-Hernia-Surgeon/61591457935307/',
         'instagram' => 'https://www.instagram.com/drkumar_billrothherniasurgeon',
@@ -35,6 +66,12 @@ $site = [
         'youtube'   => 'https://www.youtube.com/@drkumarbillrothherniasurgeon',
     ],
 ];
+
+// Every profile that should resolve to the same physician entity.
+$site['same_as'] = array_values(array_filter(array_merge(
+    [$site['provider_site'], $site['clinic']['map_url']],
+    array_values($site['social'])
+)));
 
 // Flat navigation for simple loops or fallback lists (like the footer)
 $nav = [
