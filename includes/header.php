@@ -2,7 +2,11 @@
 if (isset($_SERVER['REQUEST_URI'])) {
     $request_uri = $_SERVER['REQUEST_URI'];
     $path_only = parse_url($request_uri, PHP_URL_PATH);
-    if ($path_only && str_ends_with(strtolower($path_only), '.php') && $path_only !== '/build.php') {
+    
+    // Safeguard: Do not redirect .php extension to clean URLs if running locally on the PHP Dev Server without router.php
+    $is_dev_server_without_router = (strpos($_SERVER['SERVER_SOFTWARE'] ?? '', 'Development Server') !== false) && (basename($_SERVER['SCRIPT_NAME'] ?? '') !== 'router.php');
+
+    if ($path_only && str_ends_with(strtolower($path_only), '.php') && $path_only !== '/build.php' && !$is_dev_server_without_router) {
         $clean_path = preg_replace('/\.php$/i', '', $path_only);
         if ($clean_path === '/index') {
             $clean_path = '/';

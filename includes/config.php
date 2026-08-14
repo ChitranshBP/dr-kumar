@@ -83,6 +83,7 @@ $nav = [
     'Emergency Care'             => 'emergency-hernia-care',
     'Blog'                       => 'blog',
     'Contact Us'                 => 'contact',
+    'Patient Testimonials'       => 'patient-testimonials',
 ];
 
 // Structured multidimensional menu for the header (desktop mega-menu and mobile accordion)
@@ -199,6 +200,7 @@ $headerMenu = [
                 'links' => [
                     ['label' => 'Education & Resources', 'link' => 'resources/patient-resources'],
                     ['label' => 'Hernia Symptom Checker', 'link' => 'resources/symptom-checker'],
+                    ['label' => 'Patient Testimonials', 'link' => 'patient-testimonials'],
                     ['label' => 'FAQs', 'link' => 'resources/faqs'],
                     ['label' => 'Medical Glossary & Terms', 'link' => 'resources/glossary'],
                 ]

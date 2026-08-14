@@ -189,6 +189,7 @@
                     <li><a href="<?= $base_path ?>hernia/complications" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Complications</a></li>
                     <li><a href="<?= $base_path ?>second-opinion" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Second Opinion</a></li>
                     <li><a href="<?= $base_path ?>resources/symptom-checker" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Hernia Symptom Spotter</a></li>
+                    <li><a href="<?= $base_path ?>patient-testimonials" class="text-slate-300 hover:text-white font-medium transition-colors duration-200">Patient Testimonials</a></li>
                     <li><a href="<?= $base_path ?>book-appointment" class="text-brand-300 hover:text-white font-bold transition-colors duration-200">Book Appointment →</a></li>
                 </ul>
             </div>
