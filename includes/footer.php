@@ -150,6 +150,7 @@
                 <a href="<?= $base_path ?>hernia/complications" class="text-slate-400 hover:text-white transition-colors">Complications</a>
                 <a href="<?= $base_path ?>second-opinion" class="text-slate-400 hover:text-white transition-colors">Second Opinion</a>
                 <a href="<?= $base_path ?>resources/symptom-checker" class="text-slate-400 hover:text-white transition-colors">Symptom Spotter</a>
+                <a href="<?= $base_path ?>patient-testimonials" class="text-slate-400 hover:text-white transition-colors">Patient Testimonials</a>
                 <a href="<?= $base_path ?>resources/faqs" class="text-slate-400 hover:text-white transition-colors">FAQs</a>
                 <a href="<?= $base_path ?>book-appointment" class="text-brand-300 hover:text-white font-semibold transition-colors">Book Appointment &rarr;</a>
             </div>
