@@ -12,7 +12,7 @@
             <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div class="text-center sm:text-left">
                     <h2 class="text-white font-display text-xl lg:text-2xl font-bold leading-tight">Need a Hernia Consultation?</h2>
-                    <p class="text-slate-300 text-sm mt-0.5">Speak with Dr. Kumar today — 29+ years of surgical excellence.</p>
+                    <p class="text-slate-300 text-sm mt-0.5">Speak with Dr. Kumar today. 29+ years of surgical excellence.</p>
                 </div>
                 <div class="flex items-center gap-3 shrink-0">
                     <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold text-sm px-5 py-2.5 rounded-full transition-colors">
