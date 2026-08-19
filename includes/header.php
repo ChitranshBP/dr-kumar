@@ -34,7 +34,7 @@ if (!isset($page_url)) {
         if (str_ends_with($clean_name, '/index')) {
             $clean_name = substr($clean_name, 0, -6);
         }
-        $page_url = $site['url'] . $clean_name . '/';
+        $page_url = $site['url'] . $clean_name;
     } else {
         $page_url = $site['url'];
     }
@@ -280,7 +280,7 @@ if (!isset($breadcrumbs)) {
                 // Use the real page title (minus the brand suffix) for the leaf.
                 $label = trim(explode('|', $page_title)[0]);
             }
-            $breadcrumbs[] = ['name' => $label, 'url' => $SITE_ROOT . $built];
+            $breadcrumbs[] = ['name' => $label, 'url' => $SITE_ROOT . rtrim($built, '/')];
         }
     }
 }

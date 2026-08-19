@@ -143,7 +143,7 @@ foreach ($phpFiles as $file) {
             if (str_ends_with($cleanHtmlName, '/index')) {
                 $cleanHtmlName = substr($cleanHtmlName, 0, -6);
             }
-            $page_url = 'https://herniacare360.com/' . $cleanHtmlName . '/';
+            $page_url = 'https://herniacare360.com/' . $cleanHtmlName;
         }
     }
 
@@ -228,7 +228,7 @@ foreach ($phpFiles as $f) {
         $cleanName = substr($cleanName, 0, -6);
     }
     
-    $loc = 'https://herniacare360.com/' . ($cleanName ? $cleanName . '/' : '');
+    $loc = 'https://herniacare360.com/' . $cleanName;
     
     // Skip duplicate locations in sitemap
     if (in_array($loc, $locs)) continue;
