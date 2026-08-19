@@ -5,6 +5,23 @@
 [build.environment]
   PHP_VERSION = "8.1"
 
+# ---------- Canonical host ----------
+# Every URL must resolve to https://herniacare360.com, apex, no www.
+# These are host-level rules: the destination host differs from the source host,
+# so they always terminate and cannot loop back on themselves.
+# Placed first because Netlify matches redirect rules in order.
+[[redirects]]
+  from = "https://www.herniacare360.com/*"
+  to = "https://herniacare360.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.herniacare360.com/*"
+  to = "https://herniacare360.com/:splat"
+  status = 301
+  force = true
+
 # Redirect /index or /index.html to /
 [[redirects]]
   from = "/index"
@@ -889,17 +906,28 @@
   to = "/index.html"
   status = 200
 
-# Cache static assets aggressively
+# Cache rules are deliberately non-overlapping. A previous "/assets/*" rule with
+# max-age=31536000 and "immutable" also matched /assets/images/*, which told
+# browsers never to revalidate an image for a year. When an image was replaced
+# under the same filename, returning visitors kept being served the old picture
+# from their own cache long after the correct file was deployed.
+
+# The logo is fixed and never replaced in place, so it can be cached hard.
 [[headers]]
-  for = "/assets/*"
+  for = "/assets/logo/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Cache images
+# Images do get replaced in place, so they must revalidate.
 [[headers]]
   for = "/assets/images/*"
   [headers.values]
-    Cache-Control = "public, max-age=604800"
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+[[headers]]
+  for = "/assets/latest-images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
 
 # Don't cache HTML pages
 [[headers]]
