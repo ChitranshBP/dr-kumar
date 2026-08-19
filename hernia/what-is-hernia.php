@@ -116,7 +116,7 @@ require __DIR__ . '/../includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
                 <div class="relative h-40 overflow-hidden">
-                    <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Groin hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <img src="<?= $base_path ?>assets/images/inguinal-new-v2.png" alt="Groin hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                     <span class="absolute bottom-3 left-3 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Groin</span>
                 </div>
@@ -128,7 +128,7 @@ require __DIR__ . '/../includes/header.php';
 
             <div class="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
                 <div class="relative h-40 overflow-hidden">
-                    <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <img src="<?= $base_path ?>assets/images/umbilical-new-v2.png" alt="Umbilical hernia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                     <span class="absolute bottom-3 left-3 bg-amber-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Belly Button</span>
                 </div>

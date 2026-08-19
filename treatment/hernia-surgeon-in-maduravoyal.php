@@ -62,7 +62,7 @@ require __DIR__ . '/../includes/header.php';
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
-                        <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Inguinal Hernia Repair Maduravoyal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="<?= $base_path ?>assets/images/inguinal-new-v2.png" alt="Inguinal Hernia Repair Maduravoyal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Groin Hernia</span>
                     </a>
@@ -97,7 +97,7 @@ require __DIR__ . '/../includes/header.php';
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
-                        <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical Hernia Repair Maduravoyal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="<?= $base_path ?>assets/images/umbilical-new-v2.png" alt="Umbilical Hernia Repair Maduravoyal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-amber-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Navel Hernia</span>
                     </a>
@@ -237,7 +237,7 @@ require __DIR__ . '/../includes/header.php';
             <div class="group bg-white rounded-3xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:border-brand-200 transition-all duration-300 flex flex-col justify-between">
                 <div>
                     <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai" class="relative block overflow-hidden h-52">
-                        <img src="<?= $base_path ?>assets/images/inguinal-new.png" alt="Femoral Hernia Repair Maduravoyal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <img src="<?= $base_path ?>assets/images/inguinal-new-v2.png" alt="Femoral Hernia Repair Maduravoyal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
                         <span class="absolute bottom-4 left-4 bg-rose-700 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Femoral Hernia</span>
                     </a>

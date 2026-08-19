@@ -464,7 +464,7 @@ require __DIR__ . '/includes/header.php';
                         </ul>
                     </div>
                     <div class="flex flex-col items-center">
-                        <img src="assets/images/inguinal-new.png" alt="Inguinal Hernia" class="w-full h-80 object-cover rounded-xl mb-4">
+                        <img src="assets/images/inguinal-new-v2.png" alt="Inguinal Hernia" class="w-full h-80 object-cover rounded-xl mb-4">
                         <a href="tel:<?= $site['phone_link'] ?>" class="w-full inline-flex items-center justify-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-lg transition">
                             Get Evaluated
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
@@ -505,7 +505,7 @@ require __DIR__ . '/includes/header.php';
                         </ul>
                     </div>
                     <div class="flex flex-col items-center">
-                        <img src="assets/images/umbilical-new.png" alt="Umbilical Hernia" class="w-full h-80 object-cover rounded-xl mb-4">
+                        <img src="assets/images/umbilical-new-v2.png" alt="Umbilical Hernia" class="w-full h-80 object-cover rounded-xl mb-4">
                         <a href="tel:<?= $site['phone_link'] ?>" class="w-full inline-flex items-center justify-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-lg transition">
                             Get Evaluated
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
@@ -546,7 +546,7 @@ require __DIR__ . '/includes/header.php';
                         </ul>
                     </div>
                     <div class="flex flex-col items-center">
-                        <img src="assets/images/inguinal-new.png" alt="Hernia in Children" class="w-full h-80 object-cover rounded-xl mb-4">
+                        <img src="assets/images/inguinal-new-v2.png" alt="Hernia in Children" class="w-full h-80 object-cover rounded-xl mb-4">
                         <a href="tel:<?= $site['phone_link'] ?>" class="w-full inline-flex items-center justify-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-lg transition">
                             Get Evaluated
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
@@ -587,7 +587,7 @@ require __DIR__ . '/includes/header.php';
                         </ul>
                     </div>
                     <div class="flex flex-col items-center">
-                        <img src="assets/images/umbilical-new.png" alt="Hernia in Pregnancy" class="w-full h-80 object-cover rounded-xl mb-4">
+                        <img src="assets/images/umbilical-new-v2.png" alt="Hernia in Pregnancy" class="w-full h-80 object-cover rounded-xl mb-4">
                         <a href="tel:<?= $site['phone_link'] ?>" class="w-full inline-flex items-center justify-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-lg transition">
                             Get Evaluated
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
@@ -669,7 +669,7 @@ require __DIR__ . '/includes/header.php';
                         </ul>
                     </div>
                     <div class="flex flex-col items-center">
-                        <img src="assets/images/inguinal-new.png" alt="Hernia in Elderly" class="w-full h-80 object-cover rounded-xl mb-4">
+                        <img src="assets/images/inguinal-new-v2.png" alt="Hernia in Elderly" class="w-full h-80 object-cover rounded-xl mb-4">
                         <a href="tel:<?= $site['phone_link'] ?>" class="w-full inline-flex items-center justify-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-semibold px-6 py-3 rounded-lg transition">
                             Get Evaluated
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>

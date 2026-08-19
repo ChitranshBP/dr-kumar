@@ -218,16 +218,16 @@ $headerMenu = [
 ];
 
 $herniaConditions = [
-    ['title' => 'Inguinal Hernia',    'img' => 'assets/images/inguinal-new.png',        'desc' => 'eTEP, TEP & TAPP repair for groin hernias in adults.'],
-    ['title' => 'Umbilical Hernia',   'img' => 'assets/images/umbilical-new.png',       'desc' => 'Mesh & meshless repair tailored to defect size.'],
+    ['title' => 'Inguinal Hernia',    'img' => 'assets/images/inguinal-new-v2.png',        'desc' => 'eTEP, TEP & TAPP repair for groin hernias in adults.'],
+    ['title' => 'Umbilical Hernia',   'img' => 'assets/images/umbilical-new-v2.png',       'desc' => 'Mesh & meshless repair tailored to defect size.'],
     ['title' => 'Incisional Hernia',  'img' => 'assets/images/incisional-new.png',      'desc' => 'Complex AWR with TAR & component separation techniques.'],
     ['title' => 'Ventral Hernia',     'img' => 'assets/images/ventral-new.png',          'desc' => 'Minimally invasive ventral hernia repair.'],
     ['title' => 'Paraumbilical',      'img' => 'assets/images/paraumbilical-new.png',   'desc' => 'Daycare paraumbilical hernia surgery with mesh.'],
 ];
 
 $treatments = [
-    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new.png',          'desc' => 'Laparoscopic &amp; Robotic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia-treatment-in-chennai'],
-    ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia-treatment-in-chennai'],
+    ['title' => 'Inguinal Hernia',              'img' => 'assets/images/inguinal-new-v2.png',          'desc' => 'Laparoscopic &amp; Robotic TEP/TAPP repair for groin hernias with rapid recovery.',             'link' => 'my_types/inguinal-hernia-treatment-in-chennai'],
+    ['title' => 'Umbilical Hernia',             'img' => 'assets/images/umbilical-new-v2.png',          'desc' => 'Daycare mesh & meshless repair tailored to defect size.',                        'link' => 'my_types/umbilical-hernia-treatment-in-chennai'],
     ['title' => 'Incisional Hernia',            'img' => 'assets/images/incisional-new.png',        'desc' => 'Complex AWR with TAR & component separation techniques.',                        'link' => 'my_types/incisional-hernia-treatment-in-chennai'],
     ['title' => 'Ventral Hernia',               'img' => 'assets/images/ventral-new.png',           'desc' => 'Minimally invasive repair for abdominal wall defects.',                        'link' => 'my_types/ventral-hernia-treatment-in-chennai'],
     ['title' => 'Robotic Hernia Surgery',        'img' => 'assets/images/hernia-surgery-new.png',   'desc' => 'Advanced robotic-assisted precision surgery.',                                  'link' => 'best-robotic-hernia-surgery-in-chennai'],

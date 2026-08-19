@@ -245,8 +245,8 @@ require __DIR__ . '/includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <?php
             $hernias = [
-                ['Inguinal Hernia',   'assets/images/inguinal-new.png',   'my_types/inguinal-hernia-treatment-in-chennai.php',          'Advanced laparoscopic &amp; robotic repair with mesh reinforcement.'],
-                ['Umbilical Hernia',  'assets/images/umbilical-new.png',  'my_types/umbilical-hernia-treatment-in-chennai.php',         'Daycare mesh &amp; meshless repair tailored to defect size.'],
+                ['Inguinal Hernia',   'assets/images/inguinal-new-v2.png',   'my_types/inguinal-hernia-treatment-in-chennai.php',          'Advanced laparoscopic &amp; robotic repair with mesh reinforcement.'],
+                ['Umbilical Hernia',  'assets/images/umbilical-new-v2.png',  'my_types/umbilical-hernia-treatment-in-chennai.php',         'Daycare mesh &amp; meshless repair tailored to defect size.'],
                 ['Incisional Hernia', 'assets/images/incisional-new.png',  'my_types/incisional-hernia-treatment-in-chennai.php',        'Complex AWR with TAR &amp; component separation techniques.'],
                 ['Ventral Hernia',    'assets/images/ventral-new.png',     'my_types/ventral-hernia-treatment-in-chennai.php',           'Minimally invasive repair for abdominal wall defects.'],
             ];

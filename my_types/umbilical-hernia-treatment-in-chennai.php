@@ -92,7 +92,7 @@ require __DIR__ . '/../includes/header.php';
             </div>
             <div class="lg:col-span-5">
                 <div class="rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 p-4 aspect-[4/3]">
-                    <img src="<?= $base_path ?>assets/images/umbilical-new.png" alt="Umbilical Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
+                    <img src="<?= $base_path ?>assets/images/umbilical-new-v2.png" alt="Umbilical Hernia anatomy" class="w-full h-full object-cover rounded-2xl">
                 </div>
             </div>
         </div>
