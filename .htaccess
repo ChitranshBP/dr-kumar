@@ -51,6 +51,47 @@ RewriteRule ^about-us/?$ - [G,L]
 # Genuine legacy path from the old site - send it to the real About page.
 RewriteRule ^about-us/?$ https://herniacare360.com/about-best-hernia-hospital-in-chennai/ [R=301,L,NC]
 
+# ---------------------------------------------------------------------------
+# 0c. Canonical host, scheme and trailing slash.
+#
+# Every URL must resolve to exactly one address:
+#     https://herniacare360.com/x     (https, apex, no www, no trailing slash)
+#
+# Before these rules the identical page answered 200 on all four of:
+#     http://herniacare360.com/x
+#     https://www.herniacare360.com/x
+#     http://www.herniacare360.com/x
+#     https://herniacare360.com/x/
+#
+# The https test checks X-Forwarded-Proto as well as %{HTTPS}. If TLS is ever
+# terminated upstream (CDN, proxy), %{HTTPS} alone is not "on" and a scheme
+# redirect would loop forever. Testing both makes that impossible.
+# ---------------------------------------------------------------------------
+
+# Force https.
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^ https://herniacare360.com%{REQUEST_URI} [R=301,L]
+
+# Force the apex host (drop www).
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://herniacare360.com%{REQUEST_URI} [R=301,L]
+
+# blog/, hernia/ and treatment/ are real folders on disk that double as pages,
+# so the -d guard on the general rule below deliberately skips them. Redirect
+# them explicitly; block 1 then rewrites the slash-free form to the .php page,
+# which is what stops mod_dir adding the slash back and looping.
+RewriteRule ^(blog|hernia|treatment)/$ https://herniacare360.com/$1 [R=301,L,NC]
+
+# Strip the trailing slash everywhere else. The -d guard keeps genuine
+# directories (/assets/images/ and friends) out of it, because mod_dir would
+# re-add the slash and the two rules would bounce off each other forever.
+# This must run before blocks 1, 3 and 4, which would otherwise serve the
+# trailing-slash URL at 200 instead of redirecting it.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+?)/$ https://herniacare360.com/$1 [R=301,L]
+
 # 1. Page rewrites for directories matching page names
 RewriteRule ^blog/?$ blog.php [L,NC]
 RewriteRule ^hernia/?$ hernia.php [L,NC]
@@ -89,3 +130,19 @@ RewriteRule ^treatment/([a-z-]+)\.php$ https://herniacare360.com/treatment/$1 [R
 
 # (Spam-URL handling lives at the top of this file, above the catch-all
 #  rewrites - see block 0b.)
+
+# ---------------------------------------------------------------------------
+# Image caching.
+#
+# Images do get replaced in place on this site, so they must revalidate rather
+# than be treated as immutable. Versioned filenames (inguinal-new-v2.png) are
+# the real fix; this is the backstop for anything still served under a name
+# that gets overwritten.
+#
+# IfModule-guarded so a host without mod_headers cannot 500 the whole site.
+# ---------------------------------------------------------------------------
+<IfModule mod_headers.c>
+    <FilesMatch "\.(png|jpe?g|gif|webp|avif|svg|ico)$">
+        Header set Cache-Control "public, max-age=86400, must-revalidate"
+    </FilesMatch>
+</IfModule>
