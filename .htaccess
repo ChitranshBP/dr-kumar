@@ -58,6 +58,14 @@ RewriteRule ^about-us/?$ - [G,L]
 RewriteCond %{QUERY_STRING} ^[a-z]\d{14}/?$ [NC]
 RewriteRule ^index\.php$ - [G,L]
 
+# Legacy /shop/pg/ URLs from the old WordPress store. No shop exists on this
+# site and no /shop path exists anywhere in the repo, so all of these are dead.
+# 21 appear in deindex-sitemap.xml, shaped /shop/pg/<digits>-<digit>. They
+# already 404, which does deindex eventually, but 410 states the resource is
+# permanently gone and Google honours it faster. Scoped to /shop/pg/ rather
+# than all of /shop so a real shop page later would not be silently killed.
+RewriteRule ^shop/pg/ - [G,L,NC]
+
 # Genuine legacy path from the old site - send it to the real About page.
 RewriteRule ^about-us/?$ https://herniacare360.com/about-best-hernia-hospital-in-chennai/ [R=301,L,NC]
 
