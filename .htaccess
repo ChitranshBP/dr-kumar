@@ -48,6 +48,16 @@ RewriteRule ^[a-z]\d{14}(/m)?/?$ - [G,L,NC]
 RewriteCond %{QUERY_STRING} ^nocache=1777519964&jet_blog_ajax=1$ [NC]
 RewriteRule ^about-us/?$ - [G,L]
 
+# The same spam also appears as a query string on index.php, for example
+# /index.php?a42163373215888/ . Block 0 above only matches a SLASH after
+# index.php, so these fell through to the /index.php -> / redirect in block 2
+# and 301'd to the homepage with the junk query still attached, minting a fresh
+# indexable duplicate of the homepage for every one. 11 such URLs appear in
+# deindex-sitemap.xml. Serve 410 instead, same as every other spam shape.
+# [G] is terminal and issues no redirect, so this cannot loop.
+RewriteCond %{QUERY_STRING} ^[a-z]\d{14}/?$ [NC]
+RewriteRule ^index\.php$ - [G,L]
+
 # Genuine legacy path from the old site - send it to the real About page.
 RewriteRule ^about-us/?$ https://herniacare360.com/about-best-hernia-hospital-in-chennai/ [R=301,L,NC]
 
