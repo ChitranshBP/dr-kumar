@@ -52,6 +52,14 @@ RewriteRule ^about-us/?$ - [G,L]
 RewriteRule ^about-us/?$ https://herniacare360.com/about-best-hernia-hospital-in-chennai/ [R=301,L,NC]
 
 # ---------------------------------------------------------------------------
+# mod_dir sends /blog to /blog/ because blog/ is a real folder. Combined with a
+# trailing-slash strip that produced an infinite loop, so DirectorySlash is
+# turned off: the rewrites in block 1 already map /blog, /hernia and /treatment
+# to their .php pages, and every real directory here has no index to serve.
+<IfModule mod_dir.c>
+    DirectorySlash Off
+</IfModule>
+
 # 0c. Canonical host, scheme and trailing slash.
 #
 # Every URL must resolve to exactly one address:
@@ -77,12 +85,6 @@ RewriteRule ^ https://herniacare360.com%{REQUEST_URI} [R=301,L]
 # Force the apex host (drop www).
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^ https://herniacare360.com%{REQUEST_URI} [R=301,L]
-
-# blog/, hernia/ and treatment/ are real folders on disk that double as pages,
-# so the -d guard on the general rule below deliberately skips them. Redirect
-# them explicitly; block 1 then rewrites the slash-free form to the .php page,
-# which is what stops mod_dir adding the slash back and looping.
-RewriteRule ^(blog|hernia|treatment)/$ https://herniacare360.com/$1 [R=301,L,NC]
 
 # Strip the trailing slash everywhere else. The -d guard keeps genuine
 # directories (/assets/images/ and friends) out of it, because mod_dir would
