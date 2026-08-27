@@ -1,5 +1,5 @@
 RewriteEngine On
-
+#Ranveer Test
 # ---------------------------------------------------------------------------
 # 0. Kill PATH_INFO on index.php.
 #
