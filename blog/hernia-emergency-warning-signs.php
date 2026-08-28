@@ -4,7 +4,9 @@ require_once __DIR__ . '/../includes/config.php';
 $page_title       = 'Hernia Emergency Warning Signs: When to Go to the ER';
 $page_description = 'Know the hernia emergency warning signs that mean go to the ER now, how fast a hernia turns dangerous, and what not to do while you wait for help in Chennai.';
 $page_keywords    = 'hernia emergency warning signs, when is a hernia an emergency, strangulated hernia symptoms, incarcerated hernia symptoms, hernia pain when to worry, hernia emergency, emergency hernia surgery Chennai, Dr. Kumar Billroth Hospitals';
-$page_image       = $site['url'] . 'assets/images/complications_emergency.png';
+// PNG rather than the WebP used on the page: some social scrapers still do not
+// render WebP previews, and og:image is never downloaded by page visitors.
+$page_image       = $site['url'] . 'assets/images/hernia-emergency-warning-signs.png';
 $page_published   = '2026-08-28';
 $page_modified    = '2026-08-28';
 
@@ -103,30 +105,31 @@ require_once __DIR__ . '/../includes/header.php';
             <article class="lg:col-span-8 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
                 <div class="prose prose-slate max-w-none">
 
-                    <!-- EMERGENCY BOX: intentionally the first thing on the page, before any prose -->
-                    <div class="bg-red-50 border-2 border-red-500 p-6 md:p-7 rounded-2xl mb-10 shadow-sm">
-                        <div class="flex items-center gap-2 text-red-800 font-bold text-lg mb-3">
-                            <svg class="w-7 h-7 text-red-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <!-- Banner sits first; the emergency box follows directly beneath it. -->
+                    <img src="<?= $base_path ?>assets/images/hernia-emergency-warning-signs.webp" alt="Hernia Warning Signs: When It Becomes an Emergency, with Dr. Kumar reviewing a patient's symptoms" width="1600" height="900" fetchpriority="high" class="w-full h-auto rounded-2xl mb-6 shadow-md">
+
+                    <!-- EMERGENCY BOX: kept compact so it sits fully in view under the banner -->
+                    <div class="bg-red-50 border-2 border-red-500 p-5 rounded-2xl mb-10 shadow-sm">
+                        <div class="flex items-center gap-2 text-red-800 font-bold text-base mb-2.5">
+                            <svg class="w-6 h-6 text-red-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                             <span>Go to the emergency room now if any of these apply</span>
                         </div>
-                        <ul class="list-none p-0 m-0 space-y-2 mb-5">
-                            <li class="flex items-start gap-2.5 text-slate-800 text-sm md:text-base"><span class="w-2 h-2 rounded-full bg-red-600 mt-2 shrink-0"></span>Sudden, severe pain at the hernia that keeps getting worse</li>
-                            <li class="flex items-start gap-2.5 text-slate-800 text-sm md:text-base"><span class="w-2 h-2 rounded-full bg-red-600 mt-2 shrink-0"></span>The bulge has gone hard and will not push back in</li>
-                            <li class="flex items-start gap-2.5 text-slate-800 text-sm md:text-base"><span class="w-2 h-2 rounded-full bg-red-600 mt-2 shrink-0"></span>Skin over the bulge is red, purple or darkening</li>
-                            <li class="flex items-start gap-2.5 text-slate-800 text-sm md:text-base"><span class="w-2 h-2 rounded-full bg-red-600 mt-2 shrink-0"></span>Nausea or vomiting alongside the pain</li>
-                            <li class="flex items-start gap-2.5 text-slate-800 text-sm md:text-base"><span class="w-2 h-2 rounded-full bg-red-600 mt-2 shrink-0"></span>A bloated abdomen with no gas or stool passing</li>
-                            <li class="flex items-start gap-2.5 text-slate-800 text-sm md:text-base"><span class="w-2 h-2 rounded-full bg-red-600 mt-2 shrink-0"></span>Fever, chills or a racing heartbeat</li>
+                        <ul class="list-none p-0 m-0 space-y-1.5 mb-3.5">
+                            <li class="flex items-start gap-2 text-slate-800 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-red-600 mt-1.5 shrink-0"></span>Sudden, severe pain at the hernia that keeps getting worse</li>
+                            <li class="flex items-start gap-2 text-slate-800 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-red-600 mt-1.5 shrink-0"></span>The bulge has gone hard and will not push back in</li>
+                            <li class="flex items-start gap-2 text-slate-800 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-red-600 mt-1.5 shrink-0"></span>Skin over the bulge is red, purple or darkening</li>
+                            <li class="flex items-start gap-2 text-slate-800 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-red-600 mt-1.5 shrink-0"></span>Nausea or vomiting alongside the pain</li>
+                            <li class="flex items-start gap-2 text-slate-800 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-red-600 mt-1.5 shrink-0"></span>A bloated abdomen with no gas or stool passing</li>
+                            <li class="flex items-start gap-2 text-slate-800 text-sm"><span class="w-1.5 h-1.5 rounded-full bg-red-600 mt-1.5 shrink-0"></span>Fever, chills or a racing heartbeat</li>
                         </ul>
-                        <p class="text-slate-700 text-sm leading-relaxed m-0 mb-4">
+                        <p class="text-slate-700 text-xs md:text-sm leading-relaxed m-0 mb-3.5">
                             Do not wait for morning, and do not eat or drink anything on the way. Head to the nearest hospital with a 24 hour emergency department and surgical cover.
                         </p>
-                        <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-full transition shadow-lg">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                        <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold text-sm px-5 py-2.5 rounded-full transition shadow-md">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                             Call the 24/7 helpline: <?= $site['phone'] ?>
                         </a>
                     </div>
-
-                    <img src="<?= $base_path ?>assets/images/complications_emergency.png" alt="Surgeon reviewing a patient's hernia symptoms in a hospital emergency department" width="1024" height="1024" class="w-full rounded-2xl mb-8 shadow-md object-cover max-h-[440px]">
 
                     <!-- 1. What turns an ordinary hernia into an emergency -->
                     <h2 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mb-4">What Turns an Ordinary Hernia Into an Emergency</h2>

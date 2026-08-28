@@ -70,7 +70,7 @@ require_once __DIR__ . '/includes/header.php';
             <!-- Article 0: Hernia Warning Signs: When It Becomes an Emergency (28 August 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
-                    <img src="<?= $base_path ?>assets/images/complications_emergency.png" alt="Hernia Warning Signs: When It Becomes an Emergency" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img src="<?= $base_path ?>assets/images/hernia-emergency-warning-signs.webp" alt="Hernia Warning Signs: When It Becomes an Emergency" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                     <span class="absolute top-4 left-4 bg-red-50 text-red-700 text-xs font-semibold px-3 py-1 rounded-full border border-red-100 shadow-sm">
                         Emergency Care
                     </span>
