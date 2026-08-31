@@ -60,10 +60,10 @@ $site = [
     'provider_site' => 'https://surgeondrkumar.com/',
 
     'social'      => [
-        'facebook'  => 'https://www.facebook.com/people/Dr-Kumar-Billroth-Hernia-Surgeon/61591457935307/',
-        'instagram' => 'https://www.instagram.com/drkumar_billrothherniasurgeon',
+        'facebook'  => 'https://www.facebook.com/share/1DXEY26Qra/',
+        'instagram' => 'https://www.instagram.com/drkumar_billrothherniasurgeon?igsi=azRnbjFpZW94OTBr',
         'linkedin'  => 'https://www.linkedin.com/in/dr-kumar-hernia-surgeon-19971b325',
-        'youtube'   => 'https://www.youtube.com/@drkumarbillrothherniasurgeon',
+        'youtube'   => 'https://youtube.com/@drkumargastrosurgeon?si=-7wp7_hSzI70tHUc',
     ],
 ];
 

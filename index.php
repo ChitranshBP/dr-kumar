@@ -807,7 +807,7 @@ require __DIR__ . '/includes/header.php';
         </div>
 
         <div class="mt-8 text-center">
-            <a href="https://www.youtube.com/@DrkumarBillrothHerniaSurgeon/shorts" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
+            <a href="https://youtube.com/@drkumargastrosurgeon/shorts" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition">
                 View All Shorts on YouTube
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
             </a>
