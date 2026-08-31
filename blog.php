@@ -67,7 +67,59 @@ require_once __DIR__ . '/includes/header.php';
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="blogGrid">
 
-            <!-- Article 0: Do I Need Hernia Surgery? (17 August 2026) -->
+            <!-- Article 0: How Fast Does a Hernia Grow? (31 August 2026) -->
+            <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
+                <div class="relative h-56 w-full overflow-hidden bg-slate-100">
+                    <img src="<?= $base_path ?>assets/images/how-fast-does-a-hernia-grow.webp" alt="How Fast Does a Hernia Grow? What to Expect Month by Month" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <span class="absolute top-4 left-4 bg-brand-50 text-brand-700 text-xs font-semibold px-3 py-1 rounded-full border border-brand-100 shadow-sm">
+                        Timeline Guide
+                    </span>
+                </div>
+                <div class="p-6 flex flex-col flex-1">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        <span>31 August 2026</span>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
+                        <a href="<?= $base_path ?>blog/how-fast-does-a-hernia-grow" class="blog-title">How Fast Does a Hernia Grow? What to Expect Month by Month</a>
+                    </h3>
+                    <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
+                        There is no published growth rate. What actually changes month by month, what speeds a hernia up, and what the delay research really shows.
+                    </p>
+                    <a href="<?= $base_path ?>blog/how-fast-does-a-hernia-grow" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                        Read Full Article
+                        <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 1: Hernia Warning Signs: When It Becomes an Emergency (28 August 2026) -->
+            <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
+                <div class="relative h-56 w-full overflow-hidden bg-slate-100">
+                    <img src="<?= $base_path ?>assets/images/hernia-emergency-warning-signs.webp" alt="Hernia Warning Signs: When It Becomes an Emergency" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <span class="absolute top-4 left-4 bg-red-50 text-red-700 text-xs font-semibold px-3 py-1 rounded-full border border-red-100 shadow-sm">
+                        Emergency Care
+                    </span>
+                </div>
+                <div class="p-6 flex flex-col flex-1">
+                    <div class="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        <span>28 August 2026</span>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition">
+                        <a href="<?= $base_path ?>blog/hernia-emergency-warning-signs" class="blog-title">Hernia Warning Signs: When It Becomes an Emergency</a>
+                    </h3>
+                    <p class="text-sm text-slate-600 mb-6 leading-relaxed flex-1 blog-excerpt">
+                        The six signs that mean go to the ER now, how fast a trapped hernia turns dangerous, and what not to do while you wait for help.
+                    </p>
+                    <a href="<?= $base_path ?>blog/hernia-emergency-warning-signs" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-900 group/link transition mt-auto">
+                        Read Full Article
+                        <svg class="w-4 h-4 transform group-hover/link:translate-x-1.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Article 2: Do I Need Hernia Surgery? (17 August 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/do-i-need-hernia-surgery.jpg" alt="Do I Need Hernia Surgery? A Surgeon's Honest Answer" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -93,7 +145,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
             </article>
 
-            <!-- Article 1: Can Umbilical Hernia be Treated Without Surgery? (03 August 2026) -->
+            <!-- Article 3: Can Umbilical Hernia be Treated Without Surgery? (03 August 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/can-umbilical-hernia-be-treated-without-surgery.png" alt="Can Umbilical Hernia be treated without Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -143,7 +195,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
             </article>
 
-            <!-- Article 2: What Not to Eat After Hernia Surgery? (19 July 2026) -->
+            <!-- Article 4: What Not to Eat After Hernia Surgery? (19 July 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="recovery">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/what-not-to-eat-after-hernia-surgery.png" alt="What not to eat after Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -169,7 +221,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
             </article>
 
-            <!-- Article 3: Is Hernia Surgery Dangerous? (14 July 2026) -->
+            <!-- Article 5: Is Hernia Surgery Dangerous? (14 July 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/is-hernia-surgery-dangerous.jpg" alt="Is Hernia Surgery Dangerous? {Key Insights}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -195,7 +247,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
             </article>
 
-            <!-- Article 4: Why is my Stomach Bigger After Hernia Surgery? (09 July 2026) -->
+            <!-- Article 6: Why is my Stomach Bigger After Hernia Surgery? (09 July 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="recovery">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is my Stomach Bigger After Hernia Surgery?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -221,7 +273,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
             </article>
 
-            <!-- Article 5: Can a Hernia Come Back After Surgery? (04 July 2026) -->
+            <!-- Article 7: Can a Hernia Come Back After Surgery? (04 July 2026) -->
             <article class="blog-card flex flex-col bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group" data-category="hernia">
                 <div class="relative h-56 w-full overflow-hidden bg-slate-100">
                     <img src="<?= $base_path ?>assets/images/hernia-come-back-after-surgery.jpg" alt="Can a Hernia Come Back After Surgery? {Complete Guide}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
