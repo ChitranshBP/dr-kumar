@@ -1,6 +1,9 @@
 <?php
-$page_title = 'Privacy Policy | Hernia Care 360';
-$page_description = 'Read the privacy policy for Hernia Care 360 and understand how we collect, process, and protect your personal and medical data.';
+$page_title = 'Privacy Policy | HerniaCare 360, Dr. Kumar Chennai';
+$page_description = 'How HerniaCare 360 collects, uses and protects the personal and medical information you share with Dr. Kumar and the team at Billroth Hospitals, Chennai.';
+// Kept out of the index by request. "follow" is retained so the page still
+// passes link equity through to the rest of the site.
+$page_robots = 'noindex, follow, max-image-preview:large';
 require __DIR__ . '/includes/header.php';
 ?>
 

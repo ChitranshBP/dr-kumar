@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Online Consultation with Dr. Kumar Billroth Hospitals | Telehealth Review';
-$page_description = 'Consult Dr. Kumar Billroth Hospitals online from the comfort of your home. Get expert video consultation, diagnosis reviews, and surgical recommendations.';
+$page_title = 'Online Hernia Consultation with Dr. Kumar | Chennai';
+$page_description = 'Consult Dr. Kumar online from anywhere. Video consultation to review your scans and reports, discuss options and decide whether surgery is needed now.';
 require __DIR__ . '/includes/header.php';
 ?>
 

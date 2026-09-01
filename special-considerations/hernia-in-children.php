@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Hernia in Children | Pediatric Hernia Care Chennai - Dr. Kumar Billroth Hospitals';
-$page_description = 'Expert pediatric hernia care by Dr. Kumar Billroth Hospitals in Chennai. Specialized diagnosis, treatment, and surgical repair of hernias in infants, toddlers, and children with gentle, family-centered approach.';
+$page_title = 'Hernia in Children | Pediatric Hernia Care in Chennai';
+$page_description = 'Hernias in infants and children explained. How pediatric hernias differ from adult ones, when repair is needed, and what parents should be watching for.';
 $page_keywords = 'hernia in children, pediatric hernia, inguinal hernia child, umbilical hernia baby, pediatric surgeon Chennai, child hernia repair, infant hernia';
 require __DIR__ . '/../includes/header.php';
 ?>
@@ -429,7 +429,7 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Book Consultation
             </a>
-            <a href="special-considerations/" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition">
+            <a href="<?= $base_path ?>special-considerations" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition">
                 View All Special Considerations
             </a>
         </div>

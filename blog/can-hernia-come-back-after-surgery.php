@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Can a Hernia Come Back After Surgery? Recurrence Guide | Dr. Kumar Billroth Hospitals';
-$page_description = 'Can a hernia come back after surgery? Read our complete medical guide on hernia recurrence, chances, causes, prevention, and treatment options by Dr. Kumar Billroth Hospitals.';
+$page_title = 'Can a Hernia Come Back After Surgery? | Dr. Kumar Billroth';
+$page_description = 'Can a hernia come back after surgery? What recurrence rates actually are, why repairs fail, and what you can do to lower your own risk of it happening.';
 $page_keywords = 'can a hernia come back after surgery, does hernia come back after surgery, after hernia surgery can it come back, how to prevent hernia from coming back, recurrent hernia treatment, Dr. Kumar Billroth Hospitals';
 $page_published = '2026-07-09';
 $page_modified  = '2026-08-03';
@@ -13,9 +13,9 @@ require_once __DIR__ . '/../includes/header.php';
     
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <nav class="text-sm mb-6 text-brand-200">
-            <a href=".." class="hover:text-white transition">Home</a>
+            <a href="<?= $base_path ?>" class="hover:text-white transition">Home</a>
             <span class="mx-2">/</span>
-            <a href="../blog" class="hover:text-white transition">Blog</a>
+            <a href="<?= $base_path ?>blog" class="hover:text-white transition">Blog</a>
             <span class="mx-2">/</span>
             <span class="text-white">Hernia Recurrence</span>
         </nav>
@@ -234,7 +234,7 @@ require_once __DIR__ . '/../includes/header.php';
                         For complex recurrent ventral or incisional cases, advanced techniques like <strong>Abdominal Wall Reconstruction (AWR)</strong> are used. Using procedures like TAR (Transversus Abdominis Release), the surgeon separates the muscle layers of the abdomen, slides them back into their natural position, and places a large reinforcing mesh in a deep, protected layer.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        To guarantee a successful, permanent repair, you should consult an expert <a href="../treatment/hernia-surgeon-in-chennai" class="text-brand-700 hover:underline font-semibold">Hernia Surgeon in Chennai</a>. Senior specialists like <a href="../about-best-hernia-hospital-in-chennai" class="text-brand-700 hover:underline font-semibold">Dr. Kumar</a> of Billroth Hospitals bring nearly three decades of clinical experience and advanced robotic/laparoscopic expertise to resolve complex recurrent hernia repairs safely.
+                        To guarantee a successful, permanent repair, you should consult an expert <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai" class="text-brand-700 hover:underline font-semibold">Hernia Surgeon in Chennai</a>. Senior specialists like <a href="<?= $base_path ?>about-best-hernia-hospital-in-chennai" class="text-brand-700 hover:underline font-semibold">Dr. Kumar</a> of Billroth Hospitals bring nearly three decades of clinical experience and advanced robotic/laparoscopic expertise to resolve complex recurrent hernia repairs safely.
                     </p>
 
                     <!-- Conclusion -->

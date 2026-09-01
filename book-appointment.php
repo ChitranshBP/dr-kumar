@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Book an Appointment with Dr. Kumar Billroth Hospitals | Hernia Surgeon Chennai';
-$page_description = 'Schedule a consultation with Dr. Kumar Billroth Hospitals for advanced hernia, laparoscopic, or robotic surgery evaluation. Convenient online booking and priority slots.';
+$page_title = 'Book a Hernia Consultation in Chennai | Dr. Kumar Billroth';
+$page_description = 'Book an appointment with Dr. Kumar at Billroth Hospitals, Shenoy Nagar, Chennai. Consultations for hernia assessment, second opinions and surgery planning.';
 require __DIR__ . '/includes/header.php';
 ?>
 

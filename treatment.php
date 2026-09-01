@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Surgical Treatments & Procedures | Hernia Specialist Chennai - Dr. Kumar Billroth Hospitals';
-$page_description = 'Explore the comprehensive range of advanced laparoscopic, robotic, and reconstructive surgical treatments offered by Dr. Kumar Billroth Hospitals in Chennai.';
+$page_title = 'Hernia Treatments and Procedures | Dr. Kumar, Chennai';
+$page_description = 'Laparoscopic, robotic and open hernia repair, mesh techniques and abdominal wall reconstruction, all performed by Dr. Kumar at Billroth Hospitals, Chennai.';
 $page_keywords = 'hernia treatments Chennai, laparoscopic surgery, robotic hernia repair, abdominal wall reconstruction, diastasis recti repair, SCOLA, eTEP, TAPP, TEP';
 require __DIR__ . '/includes/header.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Frequently Asked Questions About Hernias & Surgery | Dr. Kumar Billroth Hospitals';
-$page_description = 'Get answers to common questions about hernia symptoms, laparoscopic vs robotic repair, recovery timelines, mesh safety, and insurance.';
+$page_title = 'Frequently Asked Questions on Hernia Surgery | Chennai';
+$page_description = 'Answers to common hernia questions on symptoms, mesh safety, keyhole versus robotic repair, recovery times, costs and insurance, from Dr. Kumar in Chennai.';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -540,7 +540,7 @@ require __DIR__ . '/../includes/header.php';
         <h2 class="text-3xl font-bold text-white mb-4">Have More Questions?</h2>
         <p class="text-brand-100 text-lg mb-8 max-w-2xl mx-auto">Our team is here to help. Schedule a consultation to get personalized answers for your specific condition.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="book-appointment" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
+            <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
                 Book Appointment
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
             </a>

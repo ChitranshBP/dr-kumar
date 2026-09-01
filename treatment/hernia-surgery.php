@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Best Hernia Surgeon in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Seeking the Best Hernia Surgeon in Chennai? Consult Dr. Kumar Billroth Hospitals for advanced hernia treatment and surgery with personalized care, faster recovery, and lasting results.';
+$page_title = 'Hernia Surgery in Chennai: Options Explained | Dr. Kumar';
+$page_description = 'The hernia surgery options available in Chennai, from open and keyhole repair to robotic and mesh techniques, and how Dr. Kumar decides between them all.';
 $page_url = 'https://herniacare360.com/treatment/hernia-surgery';
 require __DIR__ . '/../includes/header.php';
 ?>

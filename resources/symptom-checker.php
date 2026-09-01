@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Interactive Hernia Symptom Checker | Dr. Kumar Billroth Hospitals';
-$page_description = 'Use our interactive symptom checker to assess your risk of a hernia. Learn about potential hernia types, warning signs, and when to seek emergency care.';
+$page_title = 'Interactive Hernia Symptom Checker | Dr. Kumar Chennai';
+$page_description = 'Answer a few questions about your symptoms to understand which hernia type may fit, and whether what you are describing needs urgent medical attention.';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -400,7 +400,7 @@ function calculateReport() {
     let description = '';
     let likelyDesc = '';
     let btnText = 'Schedule Consultation';
-    let btnLink = '<?= $base_path ?>book-appointment.php';
+    let btnLink = '<?= $base_path ?>book-appointment';
     let btnColor = 'bg-brand-700 hover:bg-brand-800';
     
     if (isEmergency) {

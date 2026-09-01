@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Sports Hernia Treatment in Chennai | Athletic Pubalgia | Dr. Kumar Billroth Hospitals';
-$page_description = 'Seeking sports hernia treatment in Chennai? Consult Dr. Kumar Billroth Hospitals for specialized diagnostic check-ups and minimally invasive sports hernia repair.';
+$page_title = 'Sports Hernia Treatment in Chennai | Dr. Kumar Billroth';
+$page_description = 'Sports hernia and athletic pubalgia treatment in Chennai. Dr. Kumar offers precise diagnosis and minimally invasive repair to get athletes moving again.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

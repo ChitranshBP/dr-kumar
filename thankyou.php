@@ -1,5 +1,9 @@
 <?php
-$page_title = 'Thank You | Dr. Kumar Billroth Hospitals - Hernia Care 360';
+$page_title = 'Thank You for Contacting Dr. Kumar | Hernia Chennai';
+$page_description = 'Thank you for contacting Dr. Kumar at Billroth Hospitals in Chennai. Your enquiry has reached our team and someone will get back to you again very shortly.';
+// Post-submission confirmation page. No search intent, and it should never be
+// a landing page from search results, so it stays out of the index.
+$page_robots = 'noindex, follow, max-image-preview:large';
 require __DIR__ . '/includes/header.php';
 ?>
 

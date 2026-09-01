@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Hernia Diagnosis: Physical Exams, Ultrasounds & Scans | Dr. Kumar Billroth Hospitals';
-$page_description = 'Learn how hernias are diagnosed. Explore physical examination methods, ultrasound scans, CT scans, and differential diagnosis checks.';
+$page_title = 'How a Hernia Is Diagnosed | Dr. Kumar Billroth Chennai';
+$page_description = 'How hernias are diagnosed, from the physical examination through to ultrasound and CT scanning, and what your surgeon is actually checking for at each stage.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Types of Hernias & Abdominal Wall Defects | Dr. Kumar Billroth Hospitals Chennai';
-$page_description = 'Explore the full spectrum of abdominal hernias and wall defects treated by Dr. Kumar Billroth Hospitals in Chennai, including inguinal, umbilical, incisional, and complex recurrent hernias.';
+$page_title = 'Types of Hernia Explained | Dr. Kumar Billroth Chennai';
+$page_description = 'Inguinal, umbilical, incisional, ventral, femoral, hiatal and rare hernias, all explained by Dr. Kumar, hernia surgeon at Billroth Hospitals in Chennai.';
 $page_keywords = 'types of hernia, inguinal hernia, umbilical hernia, incisional hernia, ventral hernia, hiatal hernia, femoral hernia, recurrent hernia, sports hernia, strangulated hernia, rare hernias, Dr. Kumar Billroth Hospitals, Chennai';
 require __DIR__ . '/includes/header.php';
 ?>

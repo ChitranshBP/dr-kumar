@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Everything About Hernias: Types, Causes & Treatments | Dr. Kumar Billroth Hospitals';
-$page_description = 'Comprehensive guide to understanding hernias. Learn about different types of hernias, root causes, symptoms, diagnosis, and surgical options.';
+$page_title = 'Hernia: Types, Causes, Symptoms and Treatment | Dr. Kumar';
+$page_description = 'A complete guide to hernias from Dr. Kumar in Chennai. Understand the types, what causes them, the symptoms to watch for and how each one is repaired.';
 require __DIR__ . '/includes/header.php';
 ?>
 

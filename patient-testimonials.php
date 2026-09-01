@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Patient Testimonials, Reviews & Recovery Stories | Dr. Kumar Billroth Hospitals';
-$page_description = 'Read verified patient reviews and watch video testimonials of patients who underwent robotic, laparoscopic, and complex hernia repairs under Dr. Kumar in Chennai.';
+$page_title = 'Patient Reviews and Recovery Stories | Dr. Kumar Billroth';
+$page_description = 'Read reviews and watch recovery stories from patients who had robotic, laparoscopic and complex hernia repair with Dr. Kumar at Billroth Hospitals, Chennai.';
 $page_keywords = 'patient reviews dr kumar, hernia surgery testimonials chennai, hernia surgery success stories, laparoscopic hernia recovery reviews, patient feedback billroth hospital';
 
 require __DIR__ . '/includes/header.php';

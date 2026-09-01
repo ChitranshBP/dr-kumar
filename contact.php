@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Contact Us | Dr. Kumar Billroth Hospitals';
-$page_description = 'Contact Dr. Kumar Billroth Hospitals for expert medical consultation, appointments, or inquiries. Get in touch with our team today for personalized care and timely assistance.';
+$page_title = 'Contact Dr. Kumar | Hernia Surgeon, Shenoy Nagar Chennai';
+$page_description = 'Contact Dr. Kumar at Billroth Hospitals, 43/18 Lakshmi Talkies Road, Shenoy Nagar, Chennai 600030. Call, message or book a hernia consultation online.';
 require __DIR__ . '/includes/header.php';
 ?>
 

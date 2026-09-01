@@ -1,4 +1,6 @@
 <?php
+$page_title       = 'Hernia Surgery Recovery Guide | Dr. Kumar, Chennai';
+$page_description = 'What recovery after hernia surgery actually looks like, week by week. Pain, activity, lifting limits and when you can safely return to work and to exercise.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

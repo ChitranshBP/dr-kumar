@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Abdominal Wall Reconstruction in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Seeking Abdominal Wall Reconstruction in Chennai? Consult Dr. Kumar Billroth Hospitals, a top complex hernia surgeon for advanced TAR and muscle component separation repairs.';
+$page_title = 'Abdominal Wall Reconstruction in Chennai | Dr. Kumar';
+$page_description = 'Abdominal wall reconstruction in Chennai for large and complex hernias. Dr. Kumar performs TAR and component separation surgery at Billroth Hospitals.';
 $page_url = 'https://herniacare360.com/treatment/abdominal-wall-reconstruction-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

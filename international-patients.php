@@ -1,6 +1,6 @@
 <?php
-$page_title = 'International Patients Portal | Hernia Surgery in India | Dr. Kumar Billroth Hospitals';
-$page_description = 'World-class robotic & laparoscopic hernia surgery in Chennai, India. Complete medical tourism support, medical visas, airport pickup, and care by Dr. Kumar Billroth Hospitals.';
+$page_title = 'Hernia Surgery in India for International Patients';
+$page_description = 'Robotic and laparoscopic hernia surgery in Chennai for overseas patients. Medical visa support, airport pickup and treatment planning with Dr. Kumar today.';
 $page_keywords = 'international patient hernia surgery India, medical tourism hernia repair Chennai, robotic hernia surgery cost India, best laparoscopic surgeon Chennai, Dr. Kumar Billroth Hospitals';
 require __DIR__ . '/includes/header.php';
 ?>

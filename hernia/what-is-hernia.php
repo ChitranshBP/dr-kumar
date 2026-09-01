@@ -1,6 +1,6 @@
 <?php
-$page_title = 'What is a Hernia? Definition, Meaning & Anatomy | Dr. Kumar Billroth Hospitals';
-$page_description = 'Understand the medical definition of a hernia, how it develops, muscle wall anatomy, and when you should seek surgical consultation.';
+$page_title = 'What Is a Hernia? Definition and Anatomy | Dr. Kumar';
+$page_description = 'What a hernia actually is, how a gap forms in the muscle wall, why it cannot heal by itself, and when you should go and see a surgeon about one in Chennai.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

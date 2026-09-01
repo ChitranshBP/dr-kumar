@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Patient Resources, Guides & Post-Op Instructions | Dr. Kumar Billroth Hospitals';
-$page_description = 'Access useful resources for your upcoming hernia surgery. Download patient guides, preparation check-lists, and post-operative recovery guidelines.';
+$page_title = 'Hernia Patient Resources and Guides | Dr. Kumar Chennai';
+$page_description = 'Preparation checklists, post-operative instructions and recovery guides for the hernia surgery patients of Dr. Kumar at Billroth Hospitals in Chennai.';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -105,7 +105,7 @@ require __DIR__ . '/../includes/header.php';
                         <p class="text-sm text-red-800 leading-relaxed mb-2">
                             Seek immediate emergency medical attention if you experience: a bulge that turns dark/purple or cannot be gently pushed back, severe or worsening pain, nausea or vomiting, or inability to pass gas or have bowel movements.
                         </p>
-                        <a href="emergency-hernia-care" class="text-xs font-bold text-red-700 hover:text-red-900 flex items-center gap-1">
+                        <a href="<?= $base_path ?>emergency-hernia-care" class="text-xs font-bold text-red-700 hover:text-red-900 flex items-center gap-1">
                             Read Emergency Care Protocols →
                         </a>
                     </div>
@@ -734,7 +734,7 @@ require __DIR__ . '/../includes/header.php';
         <h2 class="text-3xl font-bold text-white mb-4">Need More Information?</h2>
         <p class="text-brand-100 text-lg mb-8 max-w-2xl mx-auto">Schedule a consultation to get personalized guidance for your specific condition and treatment plan.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="book-appointment" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
+            <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
                 Book Appointment
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
             </a>

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Ventral Hernia Treatment Doctor in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Looking for Ventral Hernia treatment Doctor in Chennai? Consult Dr. Kumar Billroth Hospitals, a top anterior abdominal wall hernia specialist, for advanced minimally invasive repairs.';
+$page_title = 'Ventral Hernia Treatment in Chennai | Dr. Kumar Billroth';
+$page_description = 'Ventral hernia treatment in Chennai by Dr. Kumar at Billroth Hospitals. Advanced laparoscopic and robotic repair for anterior abdominal wall hernia types.';
 $page_url = 'https://herniacare360.com/my_types/ventral-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

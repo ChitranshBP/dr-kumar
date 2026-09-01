@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Inguinal Hernia Treatment Doctor in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Looking for Inguinal Hernia treatment Doctor in Chennai? Consult Dr. Kumar Billroth Hospitals, a top groin hernia specialist, for advanced minimally invasive repairs.';
+$page_title = 'Inguinal Hernia Treatment in Chennai | Dr. Kumar Billroth';
+$page_description = 'Inguinal hernia treatment in Chennai by Dr. Kumar at Billroth Hospitals. Keyhole TEP and TAPP groin hernia repair with mesh and same-day discharge home.';
 $page_url = 'https://herniacare360.com/my_types/inguinal-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

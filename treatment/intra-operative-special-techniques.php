@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Intra Operative Special Techniques - Dr. Kumar Billroth Hospitals | Advanced Hernia Surgery Chennai';
-$page_description = 'Specialised intra-operative techniques employed by Dr. Kumar Billroth Hospitals during hernia and abdominal wall reconstruction surgery in Chennai - tailored to defect, anatomy and patient factors.';
+$page_title = 'Intra-Operative Hernia Techniques | Dr. Kumar, Chennai';
+$page_description = 'The specialized techniques Dr. Kumar uses during hernia and abdominal wall surgery, chosen according to the defect, the anatomy and the patient in front.';
 $page_keywords = 'intra operative techniques hernia, special surgical techniques, defect closure, component separation, TAR, nerve preservation, intraoperative decision making hernia, chennai hernia surgeon';
 require __DIR__ . '/../includes/header.php';
 ?>

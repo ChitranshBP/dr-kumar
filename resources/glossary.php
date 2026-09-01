@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Hernia & Surgical Terminology Glossary | Dr. Kumar Billroth Hospitals';
-$page_description = 'Browse our comprehensive glossary of medical terms related to hernias, laparoscopic techniques, robotic systems, and abdominal anatomy.';
+$page_title = 'Hernia and Surgery Glossary | Dr. Kumar Billroth Chennai';
+$page_description = 'Plain-language definitions of hernia and surgical terms, covering anatomy, mesh types, laparoscopic and robotic techniques, and post-operative language.';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -570,7 +570,7 @@ require __DIR__ . '/../includes/header.php';
         <h2 class="text-3xl font-bold text-white mb-4">Need More Information?</h2>
         <p class="text-brand-100 text-lg mb-8 max-w-2xl mx-auto">Schedule a consultation to discuss your specific condition and treatment options with Dr. Kumar.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="book-appointment" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
+            <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center justify-center gap-2 bg-white text-brand-800 font-semibold px-8 py-4 rounded-xl hover:bg-brand-50 transition">
                 Book Appointment
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
             </a>

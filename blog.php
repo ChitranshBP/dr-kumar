@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Medical Insights & Surgical Blog | Dr. Kumar Billroth Hospitals';
-$page_description = 'Explore informative articles and surgical insights from Dr. Kumar Billroth Hospitals, focusing on hernia treatments, laparoscopic repairs, robotic surgery, and patient recovery.';
+$page_title = 'Hernia Blog and Surgical Insights | Dr. Kumar Billroth';
+$page_description = 'Articles on hernia symptoms, surgery, recovery and warning signs, written by Dr. Kumar, hernia and abdominal wall surgeon at Billroth Hospitals, Chennai.';
 $page_keywords = 'hernia blog, medical insights Chennai, robotic surgery articles, laparoscopy guide, hernia recovery tips';
 require_once __DIR__ . '/includes/header.php';
 ?>

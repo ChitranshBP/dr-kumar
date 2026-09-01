@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Rare & Complex Hernia Treatments in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Specialized diagnosis and surgical repair for rare hernia types like Spigelian, Obturator, Lumbar, and internal hernias by Dr. Kumar Billroth Hospitals in Chennai.';
+$page_title = 'Rare and Complex Hernia Treatment in Chennai | Dr. Kumar';
+$page_description = 'Specialist diagnosis and repair of rare hernias in Chennai, including Spigelian, obturator, lumbar and internal types, by Dr. Kumar at Billroth Hospitals.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

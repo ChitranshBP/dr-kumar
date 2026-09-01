@@ -1,6 +1,9 @@
 <?php
-$page_title = 'Terms & Conditions | Hernia Care 360';
-$page_description = 'Read the terms and conditions for accessing and using the services provided on Hernia Care 360 by Dr. Kumar Billroth Hospitals.';
+$page_title = 'Terms and Conditions | HerniaCare 360, Dr. Kumar Chennai';
+$page_description = 'The terms governing your use of the HerniaCare 360 website and the information published on it by Dr. Kumar and the team at Billroth Hospitals, Chennai.';
+// Kept out of the index by request. "follow" is retained so the page still
+// passes link equity through to the rest of the site.
+$page_robots = 'noindex, follow, max-image-preview:large';
 require __DIR__ . '/includes/header.php';
 ?>
 

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Emergency Hernia Care & Surgery in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Get immediate medical evaluation and emergency hernia surgery in Chennai from Dr. Kumar Billroth Hospitals. Available 24/7 for strangulated or obstructed hernia emergencies.';
+$page_title = 'Emergency Hernia Surgery in Chennai | Available 24/7';
+$page_description = 'Emergency hernia surgery in Chennai, available around the clock. Call now if a hernia is hard, painful, discolored, or comes with vomiting or a fever.';
 require __DIR__ . '/includes/header.php';
 ?>
 

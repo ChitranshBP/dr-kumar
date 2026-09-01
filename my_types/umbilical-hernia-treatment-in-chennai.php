@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Umbilical Hernia Treatment Doctor in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Looking for Umbilical Hernia treatment Doctor in Chennai? Consult Dr. Kumar Billroth Hospitals, a top belly button hernia specialist, for advanced minimally invasive repairs.';
+$page_title = 'Umbilical Hernia Treatment in Chennai | Dr. Kumar Billroth';
+$page_description = 'Umbilical hernia treatment in Chennai by Dr. Kumar at Billroth Hospitals. Keyhole belly button hernia repair with mesh and a quick return to work life.';
 $page_url = 'https://herniacare360.com/my_types/umbilical-hernia-treatment-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

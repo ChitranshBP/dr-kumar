@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Biological Mesh for Complex & Infected Hernia Repair | Dr. Kumar Billroth Hospitals';
-$page_description = 'Explore the use of biological mesh in complex, high-risk, or infected hernia surgery. Learn about its advantages, tissue integration, and patient selection criteria.';
+$page_title = 'Biological Mesh for Complex Hernia Repair | Dr. Kumar';
+$page_description = 'When biological mesh is used in contaminated, infected or high-risk hernia repair, how it integrates with tissue, and which patients genuinely benefit.';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -439,7 +439,7 @@ require __DIR__ . '/../includes/header.php';
             Dr. Kumar has extensive experience with both standard and biological mesh for all types of hernia repairs.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
-            <a href="../book-appointment" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
+            <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
                 Schedule Consultation
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>

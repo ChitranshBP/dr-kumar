@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Dr. Kumar Billroth Hospitals- Advanced Hernia, Laparoscopic & Robotic Surgeon';
-$page_description = 'Dr. Kumar Billroth Hospitals - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery. Book your appointment today.';
+$page_title = 'Hernia Surgeon in Chennai | Dr. Kumar, Billroth Hospitals';
+$page_description = 'Dr. Kumar is a senior hernia, laparoscopic and robotic surgeon at Billroth Hospitals in Chennai, with 29 years of practice. Book a consultation today.';
 $is_home = true;
 require __DIR__ . '/includes/header.php';
 ?>

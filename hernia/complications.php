@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Hernia Complications: Strangulation & Incarceration | Dr. Kumar Billroth Hospitals';
-$page_description = 'Understand the serious health risks of untreated hernias, including tissue incarceration, bowel obstruction, and life-threatening strangulation.';
+$page_title = 'Hernia Complications and Risks | Dr. Kumar, Chennai';
+$page_description = 'What can go wrong with an untreated hernia, including incarceration, bowel obstruction and strangulation, and the warning signs that need urgent care.';
 require __DIR__ . '/../includes/header.php';
 ?>
 
@@ -27,7 +27,7 @@ require __DIR__ . '/../includes/header.php';
                     Emergency Consultation
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                 </a>
-                <a href="treatment" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition hover:scale-105">
+                <a href="<?= $base_path ?>treatment" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition hover:scale-105">
                     View Treatment Options
                 </a>
             </div>
@@ -260,7 +260,7 @@ require __DIR__ . '/../includes/header.php';
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                 Call: +91 89255 02759
             </a>
-            <a href="treatment" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
+            <a href="<?= $base_path ?>treatment" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-bold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 View Treatment Options
             </a>
         </div>

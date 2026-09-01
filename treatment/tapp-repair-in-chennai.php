@@ -1,6 +1,6 @@
 <?php
-$page_title = 'TAPP Hernia Repair in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Looking for TAPP Hernia Repair in Chennai? Consult Dr. Kumar Billroth Hospitals, a top laparoscopic hernia surgeon for advanced TAPP repair with faster recovery.';
+$page_title = 'TAPP Hernia Repair in Chennai | Dr. Kumar Billroth';
+$page_description = 'TAPP hernia repair in Chennai by Dr. Kumar. How this laparoscopic approach works from inside the abdomen, and when it is chosen instead of a TEP repair.';
 $page_url = 'https://herniacare360.com/treatment/tapp-repair-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

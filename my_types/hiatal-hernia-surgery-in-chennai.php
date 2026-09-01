@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Best Hiatal Hernia Surgery in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Looking for Hiatal Hernia Surgery in Chennai? Consult Dr. Kumar Billroth Hospitals, a top acid reflux and diaphragm hernia specialist in Chennai, for advanced fundoplication repairs.';
+$page_title = 'Hiatal Hernia Surgery in Chennai | Dr. Kumar Billroth';
+$page_description = 'Hiatal hernia surgery in Chennai by Dr. Kumar at Billroth Hospitals. Laparoscopic fundoplication for lasting relief from acid reflux and heartburn today.';
 $page_url = 'https://herniacare360.com/my_types/hiatal-hernia-surgery-in-chennai';
 require __DIR__ . '/../includes/header.php';
 ?>

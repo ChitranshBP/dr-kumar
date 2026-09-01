@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Can Umbilical Hernia be Treated Without Surgery? | Dr. Kumar Billroth Hospitals';
-$page_description = 'Can umbilical hernia be treated without surgery or operation? Read our 2026 expert medical guide by Dr. Kumar Billroth Hospitals on non-surgical myths, risks of untreated hernias, and modern repair options.';
+$page_title = 'Can an Umbilical Hernia Be Treated Without Surgery?';
+$page_description = 'Can an umbilical hernia be treated without surgery? A surgeon separates the myths from the evidence, and explains when a belly button hernia needs repair.';
 $page_keywords = 'Can Umbilical Hernia be treated without Surgery, can umbilical hernia hernia be treated without operation, what happens if umbilical hernia is not treated, how to treat umbilical hernia, Inguinal Hernia treatment in Chennai, Dr. Kumar Billroth Hospitals';
 $page_published = '2026-08-03';
 $page_modified  = '2026-08-03';

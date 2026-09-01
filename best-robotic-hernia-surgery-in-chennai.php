@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Best Robotic Hernia Surgery in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Get the best robotic-assisted hernia surgery in Chennai from Dr. Kumar Billroth Hospitals. Minimal incisions, exceptional precision, less post-operative pain, and faster recovery.';
+$page_title = 'Robotic Hernia Surgery in Chennai | Dr. Kumar Billroth';
+$page_description = 'Robotic hernia surgery in Chennai by Dr. Kumar at Billroth Hospitals. Tiny incisions, high precision, less pain after surgery and a faster return to work.';
 require __DIR__ . '/includes/header.php';
 ?>
 

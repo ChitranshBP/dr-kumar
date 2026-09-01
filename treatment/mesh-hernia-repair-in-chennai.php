@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Mesh Hernia Repair in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Looking for Mesh Hernia Repair in Chennai? Consult Dr. Kumar Billroth Hospitals, a top laparoscopic hernia surgeon for advanced Mesh repair with faster recovery.';
+$page_title = 'Mesh Hernia Repair in Chennai | Dr. Kumar Billroth';
+$page_description = 'How mesh hernia repair works, why mesh lowers recurrence, and which mesh types Dr. Kumar uses in Chennai. Answers to the common questions about safety.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

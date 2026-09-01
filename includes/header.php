@@ -24,6 +24,12 @@ $page_title       ??= 'Advanced Hernia, Laparoscopic & Robotic Surgery | Dr. Kum
 $page_description ??= 'Dr. Kumar Billroth Hospitals - Senior Consultant in Advanced Hernia, Abdominal Wall Reconstruction & Laparoscopic Surgery in Chennai. 29+ years of expertise, 10,000+ hernia surgeries. Book your appointment today.';
 $page_keywords    ??= 'best hernia surgeon Chennai, advanced hernia surgery Chennai, laparoscopic surgeon Chennai, robotic hernia surgeon Chennai, abdominal wall reconstruction Chennai, eTEP TAR surgery Chennai, incisional hernia Chennai, umbilical hernia, inguinal hernia surgery, complex hernia repair';
 
+// Robots directive. Pages that should stay out of the index set
+// $page_robots = 'noindex, follow, max-image-preview:large';
+// before including this file. "follow" is kept deliberately so link equity
+// still flows out of those pages to the rest of the site.
+$page_robots      ??= 'index, follow, max-image-preview:large';
+
 // Calculate page URL dynamically if not set
 if (!isset($page_url)) {
     $current_script = $_SERVER['SCRIPT_NAME'] ?? $_SERVER['PHP_SELF'] ?? '';
@@ -201,7 +207,7 @@ if (!isset($schema_about)) {
     <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
     <meta name="keywords" content="<?= htmlspecialchars($page_keywords) ?>">
     <meta name="author" content="<?= htmlspecialchars($site['doctor']) ?>">
-    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="robots" content="<?= htmlspecialchars($page_robots) ?>">
     <link rel="canonical" href="<?= htmlspecialchars($page_url) ?>">
 
     <meta property="og:type" content="website">

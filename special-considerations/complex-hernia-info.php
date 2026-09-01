@@ -1,6 +1,6 @@
 <?php
-$page_title = 'Complex Hernia Care & Management in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Expert surgical care for complex, giant, multi-recurrent, or loss of domain hernias. Learn about abdominal wall reconstruction led by Dr. Kumar Billroth Hospitals.';
+$page_title = 'Complex Hernia Treatment in Chennai | Dr. Kumar Billroth';
+$page_description = 'Giant, multi-recurrent and loss of domain hernias need a different plan. How Dr. Kumar approaches complex abdominal wall reconstruction surgery in Chennai.';
 require __DIR__ . '/../includes/header.php';
 ?>
 

@@ -1,6 +1,6 @@
 <?php
-$page_title = 'About the Best Hernia Surgery Hospital in Chennai | Dr. Kumar Billroth Hospitals';
-$page_description = 'Learn about our state-of-the-art hernia hospital in Chennai. Explore our advanced surgical infrastructure, robotic systems, and patient care facilities led by Dr. Kumar Billroth Hospitals.';
+$page_title = 'About Dr. Kumar | Hernia Surgeon, Billroth Hospitals';
+$page_description = 'Meet Dr. Kumar, hernia and abdominal wall surgeon at Billroth Hospitals in Chennai, with 29 years of practice and more than 10,000 hernia repairs behind him.';
 require __DIR__ . '/includes/header.php';
 ?>
 
