@@ -778,6 +778,21 @@ require __DIR__ . '/includes/header.php';
                     'thumb' => 'https://i.ytimg.com/vi/8biJkJk6kRg/hq2.jpg',
                     'id'    => '8biJkJk6kRg',
                 ],
+                [
+                    'title' => 'Hernia Care & Management',
+                    'thumb' => 'https://i.ytimg.com/vi/h2adhLOGN4U/hq2.jpg',
+                    'id'    => 'h2adhLOGN4U',
+                ],
+                [
+                    'title' => 'Surgical Insights',
+                    'thumb' => 'https://i.ytimg.com/vi/DdVAAIssGGU/hq2.jpg',
+                    'id'    => 'DdVAAIssGGU',
+                ],
+                [
+                    'title' => 'Patient Experience',
+                    'thumb' => 'https://i.ytimg.com/vi/NpWwTbucxqM/hq2.jpg',
+                    'id'    => 'NpWwTbucxqM',
+                ],
             ];
             foreach ($shorts as $s): ?>
                 <div class="group relative flex flex-col max-w-[300px] w-full mx-auto rounded-2xl overflow-hidden bg-slate-800 border border-slate-700/60 shadow-lg transition duration-300">
