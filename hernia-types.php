@@ -29,7 +29,7 @@ require __DIR__ . '/includes/header.php';
                 <span class="text-accent">Abdominal Wall Defects</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Understanding your hernia is the first step to a durable recovery. Dr. Kumar treats all varieties of abdominal and groin hernias—from common umbilical defects to highly complex recurrent cases requiring specialized reconstruction.
+                Understanding your hernia is the first step to a durable recovery. Dr. Kumar treats all varieties of abdominal and groin hernias, from common umbilical defects to highly complex recurrent cases requiring specialized reconstruction.
             </p>
         </div>
     </div>

@@ -282,7 +282,7 @@ require __DIR__ . '/../includes/header.php';
                     Minimally Invasive · Keyhole Surgery
                 </p>
                 <p class="text-slate-100 text-sm leading-relaxed mb-6">
-                    Laparoscopic hiatal hernia repair with <strong>fundoplication</strong> (Nissen 360° or Toupet 270°) restores the stomach below the diaphragm and reconstructs the anti-reflux valve. Tiny incisions, minimal pain, and rapid return to normal eating — typically 1–2 day hospital stay.
+                    Laparoscopic hiatal hernia repair with <strong>fundoplication</strong> (Nissen 360° or Toupet 270°) restores the stomach below the diaphragm and reconstructs the anti-reflux valve. Tiny incisions, minimal pain, and rapid return to normal eating, typically 1–2 day hospital stay.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-100">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Nissen or Toupet fundoplication</li>
@@ -327,7 +327,7 @@ require __DIR__ . '/../includes/header.php';
                 <div>
                     <h3 class="font-bold text-lg text-slate-900 mb-1">Open Hiatal Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                        Time-tested open technique (mesh repair) reserved for select cases: large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
                     </p>
                 </div>
             </div>
@@ -353,7 +353,7 @@ require __DIR__ . '/../includes/header.php';
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is a hiatal hernia and how is it related to acid reflux?</span>
-                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">&minus;</span>
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>

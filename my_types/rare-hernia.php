@@ -24,7 +24,7 @@ require __DIR__ . '/../includes/header.php';
                 Rare <span class="text-accent">Hernias</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                An overview of uncommon hernia types &mdash; epigastric, supraumbilical, lumbar, spigelian, and diaphragmatic hernias. These rarer forms require specialist evaluation and tailored surgical repair.
+                An overview of uncommon hernia types: epigastric, supraumbilical, lumbar, spigelian, and diaphragmatic hernias. These rarer forms require specialist evaluation and tailored surgical repair.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -91,7 +91,7 @@ require __DIR__ . '/../includes/header.php';
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-900 text-sm mb-1">Tailored Repair</h4>
-                                <p class="text-xs text-slate-500 leading-relaxed">A general hernia repair technique may not be appropriate &mdash; specialist expertise is essential.</p>
+                                <p class="text-xs text-slate-500 leading-relaxed">A general hernia repair technique may not be appropriate, and specialist expertise is essential.</p>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
                 <h3 class="font-bold text-lg text-slate-900 mb-2">Supraumbilical Hernia</h3>
                 <p class="text-slate-500 text-sm leading-relaxed mb-4">
-                    Occurs just above the umbilicus in the upper midline &mdash; sometimes classified as a variant of the epigastric hernia but typically closer to the navel.
+                    Occurs just above the umbilicus in the upper midline, sometimes classified as a variant of the epigastric hernia but typically closer to the navel.
                 </p>
                 <ul class="text-xs text-slate-600 space-y-1.5 mb-4">
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Close to but distinct from umbilical hernia</li>
@@ -189,7 +189,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
                 <h3 class="font-bold text-lg text-slate-900 mb-2">Spigelian Hernia</h3>
                 <p class="text-slate-500 text-sm leading-relaxed mb-4">
-                    A rare lateral ventral hernia through the spigelian fascia &mdash; the line where the rectus muscle meets the lateral abdominal muscles. High incarceration risk.
+                    A rare lateral ventral hernia through the spigelian fascia, the line where the rectus muscle meets the lateral abdominal muscles. High incarceration risk.
                 </p>
                 <ul class="text-xs text-slate-600 space-y-1.5 mb-4">
                     <li class="flex items-start gap-2"><span class="text-brand-700 font-bold">&bull;</span> Located lateral to the rectus, below the navel</li>
@@ -261,7 +261,7 @@ require __DIR__ . '/../includes/header.php';
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </div>
                 <h3 class="font-bold text-lg text-slate-900 mb-2">Reduced with Rest</h3>
-                <p class="text-slate-500 text-sm leading-relaxed">Symptoms typically ease when lying down or resting, returning with activity &mdash; a classic hernia sign.</p>
+                <p class="text-slate-500 text-sm leading-relaxed">Symptoms typically ease when lying down or resting, returning with activity, a classic hernia sign.</p>
             </div>
 
             <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
@@ -419,7 +419,7 @@ require __DIR__ . '/../includes/header.php';
                     Minimally Invasive · Keyhole Surgery
                 </p>
                 <p class="text-slate-100 text-sm leading-relaxed mb-6">
-                    For most rare hernias (Spigelian, lumbar, supraumbilical, obturator), Dr. Kumar's preferred approach is <strong>laparoscopic</strong> — typically <strong>TEP</strong> or <strong>TAPP</strong>. Keyhole access allows inspection of the <strong>entire abdominal wall</strong>, detecting occult defects that single-incision open surgery would miss, with wide mesh overlap for a durable repair.
+                    For most rare hernias (Spigelian, lumbar, supraumbilical, obturator), Dr. Kumar's preferred approach is <strong>laparoscopic</strong>, typically <strong>TEP</strong> or <strong>TAPP</strong>. Keyhole access allows inspection of the <strong>entire abdominal wall</strong>, detecting occult defects that single-incision open surgery would miss, with wide mesh overlap for a durable repair.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-100">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Inspects entire abdominal wall</li>
@@ -442,7 +442,7 @@ require __DIR__ . '/../includes/header.php';
                     Latest Technology · 3D Vision
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — ideal for <strong>complex</strong> or <strong>large</strong> rare hernias that benefit from component separation, TAR, or full Abdominal Wall Reconstruction (AWR).
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments, ideal for <strong>complex</strong> or <strong>large</strong> rare hernias that benefit from component separation, TAR, or full Abdominal Wall Reconstruction (AWR).
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
@@ -464,7 +464,7 @@ require __DIR__ . '/../includes/header.php';
                 <div>
                     <h3 class="font-bold text-lg text-slate-900 mb-1">Open Rare Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                        Time-tested open technique (mesh repair) reserved for select cases: large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
                     </p>
                 </div>
             </div>
@@ -498,7 +498,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div>
                         <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">Recurrent Hernia</p>
-                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair — different anatomical plane</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair, different anatomical plane</p>
                     </div>
                 </a>
             </div>

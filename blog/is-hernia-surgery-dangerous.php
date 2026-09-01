@@ -100,7 +100,7 @@ require_once __DIR__ . '/../includes/header.php';
                     </div>
 
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        Modern hernia surgery is predominantly performed using <strong>minimally invasive keyhole techniques</strong>—such as Laparoscopic Repair (TEP, eTEP, TAPP) or Robotic Hernia Repair. Rather than making large abdominal incisions, surgeons operate through 3 tiny keyhole punctures measuring just 3 to 5 millimeters, resulting in minimal blood loss, minimal post-op pain, and same-day hospital discharge.
+                        Modern hernia surgery is predominantly performed using <strong>minimally invasive keyhole techniques</strong>, such as Laparoscopic Repair (TEP, eTEP, TAPP) or Robotic Hernia Repair. Rather than making large abdominal incisions, surgeons operate through 3 tiny keyhole punctures measuring just 3 to 5 millimeters, resulting in minimal blood loss, minimal post-op pain, and same-day hospital discharge.
                     </p>
 
                     <!-- 3. Is Hernia Surgery Dangerous? -->
@@ -150,7 +150,7 @@ require_once __DIR__ . '/../includes/header.php';
                     </div>
 
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        As the comparison shows, hernia surgery itself is not dangerous—what is truly dangerous is waiting until an untreated hernia becomes incarcerated or strangulated, transforming a simple daycare procedure into an emergency rescue operation.
+                        As the comparison shows, hernia surgery itself is not dangerous. What is truly dangerous is waiting until an untreated hernia becomes incarcerated or strangulated, transforming a simple daycare procedure into an emergency rescue operation.
                     </p>
 
                     <!-- 4. Why People Think Hernia Surgery Is Dangerous -->

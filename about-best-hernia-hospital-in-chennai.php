@@ -71,7 +71,7 @@ require __DIR__ . '/includes/header.php';
                 </h2>
                 
                 <p class="text-slate-600 leading-relaxed mb-5 text-lg">
-                    Dr. Kumar is a highly specialized Senior Consultant , HOD in Minimal Access, Robotic, Advanced Hernia, and Abdominal Wall Reconstruction Surgery, Billroth Hospitals. Throughout his three-decade career, his practice has been defined by anatomical precision, patient safety, and pioneering the latest surgical systems in South India.
+                    Dr. Kumar is a highly specialized Senior Consultant, HOD in Minimal Access, Robotic, Advanced Hernia, and Abdominal Wall Reconstruction Surgery, Billroth Hospitals. Throughout his three-decade career, his practice has been defined by anatomical precision, patient safety, and pioneering the latest surgical systems in South India.
                 </p>
                 
                 <p class="text-slate-600 leading-relaxed mb-6 text-base">
@@ -141,7 +141,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
                 </div>
                 <div class="mt-8 text-center">
-                    <p class="font-display text-xl font-bold text-slate-900">Dr. Kumar &mdash; <span class="text-brand-700">Hernia Specialist</span></p>
+                    <p class="font-display text-xl font-bold text-slate-900">Dr. Kumar, <span class="text-brand-700">Hernia Specialist</span></p>
                 </div>
             </div>
         </div>
@@ -421,7 +421,7 @@ require __DIR__ . '/includes/header.php';
                         <strong>Hernia Care 360</strong>, founded and led by senior consultant surgeon Dr. Kumar, is a dedicated clinical initiative designed to deliver state-of-the-art, comprehensive abdominal wall care. Operating out of the advanced infrastructure of Billroth Hospitals in Chennai, the center provides world-class treatment pathways for simple, complex, and recurrent hernias.
                     </p>
                     <p class="text-base">
-                        Our core philosophy is centered on customization and absolute surgical precision. Rather than employing a single generic repair technique for all defects, Hernia Care 360 utilizes a personalized methodology. We analyze each patient's abdominal wall mechanics, lifestyle, and past surgical history to select the ideal repair—ranging from meshless tissue-based procedures (Desarda &amp; Shouldice) to advanced robotic-assisted eTEP and TAR reconstructions.
+                        Our core philosophy is centered on customization and absolute surgical precision. Rather than employing a single generic repair technique for all defects, Hernia Care 360 utilizes a personalized methodology. We analyze each patient's abdominal wall mechanics, lifestyle, and past surgical history to select the ideal repair, ranging from meshless tissue-based procedures (Desarda &amp; Shouldice) to advanced robotic-assisted eTEP and TAR reconstructions.
                     </p>
                     <p class="text-base text-slate-300">
                         Backed by Billroth Hospital's high-dependency critical care support, round-the-clock emergency surgical rooms, and the latest imaging technologies, Hernia Care 360 ensures a safe, infection-free, and comfortable pathway to core restoration and long-term recurrence prevention.
@@ -608,7 +608,7 @@ require __DIR__ . '/includes/header.php';
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">What is Dr. Kumar's area of surgical specialization?</span>
-                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">&#8212;</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">&minus;</span>
                     </button>
                     <div class="faq-content px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>

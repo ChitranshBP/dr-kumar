@@ -59,7 +59,7 @@ require_once __DIR__ . '/../includes/header.php';
                             <span>AEO Quick Answer: Can a hernia be cured without surgery?</span>
                         </div>
                         <p class="text-slate-700 text-sm md:text-base leading-relaxed m-0">
-                            <strong>No, a hernia cannot be permanently cured without surgery.</strong> A hernia is a physical anatomical defect—a tear or hole in the abdominal muscle wall. While lifestyle modifications, supportive trusses, and home management can help manage discomfort or temporarily control symptoms, surgery is the <em>only medical treatment</em> that permanently repairs the structural gap and prevents life-threatening complications.
+                            <strong>No, a hernia cannot be permanently cured without surgery.</strong> A hernia is a physical anatomical defect, a tear or hole in the abdominal muscle wall. While lifestyle modifications, supportive trusses, and home management can help manage discomfort or temporarily control symptoms, surgery is the <em>only medical treatment</em> that permanently repairs the structural gap and prevents life-threatening complications.
                         </p>
                     </div>
 
@@ -78,7 +78,7 @@ require_once __DIR__ . '/../includes/header.php';
                         To evaluate whether <strong>treatment of hernia without surgery</strong> is possible, we must first understand the mechanical structure of a hernia. An abdominal hernia occurs when an internal organ, fat tissue, or a segment of the intestine protrudes through a localized weakness, tear, or opening in the surrounding muscle wall and connective tissue (fascia).
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        Think of your abdominal wall as a sturdy, multi-layered tire. The inner lining (the intestine or tissue) is under constant internal pressure. If the outer rubber casing (the abdominal muscle) develops a hole or tear, the inner tube pushes outward, creating a noticeable bulge under the skin. Because muscle tissue lacks the biological capability to bridge or stitch across an open defect on its own, the hole will remain open—and typically enlarges over time under daily intra-abdominal pressure.
+                        Think of your abdominal wall as a sturdy, multi-layered tire. The inner lining (the intestine or tissue) is under constant internal pressure. If the outer rubber casing (the abdominal muscle) develops a hole or tear, the inner tube pushes outward, creating a noticeable bulge under the skin. Because muscle tissue lacks the biological capability to bridge or stitch across an open defect on its own, the hole will remain open, and typically enlarges over time under daily intra-abdominal pressure.
                     </p>
 
                     <!-- 3. Types of Hernia -->

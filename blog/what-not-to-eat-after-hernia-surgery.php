@@ -81,10 +81,10 @@ require_once __DIR__ . '/../includes/header.php';
                         To understand why post-operative nutrition requires careful attention, it helps to understand what happens to your body during a hernia repair. A hernia develops when internal abdominal tissue or a loop of intestine pushes through a torn or weakened area in your abdominal muscle wall.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        During surgery, the protruding tissue is gently repositioned back inside the abdominal cavity, and the muscle defect is closed—most commonly reinforced with a specialized medical mesh. In the initial weeks following surgery, your body works tirelessly to integrate this mesh into your native tissue, forming a strong, permanent barrier.
+                        During surgery, the protruding tissue is gently repositioned back inside the abdominal cavity, and the muscle defect is closed, most commonly reinforced with a specialized medical mesh. In the initial weeks following surgery, your body works tirelessly to integrate this mesh into your native tissue, forming a strong, permanent barrier.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        Because the surgical site is situated directly in or on the abdominal wall surrounding your digestive tract, any internal pressure—such as gas buildup, intestinal distension, or severe straining from hard stools—transfers mechanical stress directly onto your healing muscle sutures and surgical mesh.
+                        Because the surgical site is situated directly in or on the abdominal wall surrounding your digestive tract, any internal pressure, such as gas buildup, intestinal distension, or severe straining from hard stools, transfers mechanical stress directly onto your healing muscle sutures and surgical mesh.
                     </p>
 
                     <!-- 3. Foods to Avoid After Hernia Surgery -->
@@ -159,7 +159,7 @@ require_once __DIR__ . '/../includes/header.php';
                                 Spicy, Highly Acidic, & Irritating Foods
                             </h3>
                             <p class="text-slate-700 text-sm md:text-base leading-relaxed mb-3">
-                                Anesthesia and post-op pain medications temporarily weaken the stomach lining. Highly seasoned or acidic items can cause acid reflux, nausea, or vomiting—and vomiting creates violent abdominal contractions.
+                                Anesthesia and post-op pain medications temporarily weaken the stomach lining. Highly seasoned or acidic items can cause acid reflux, nausea, or vomiting, and vomiting creates violent abdominal contractions.
                             </p>
                             <ul class="space-y-2 text-slate-700 text-sm">
                                 <li class="flex items-start gap-2">
@@ -320,7 +320,7 @@ require_once __DIR__ . '/../includes/header.php';
                     <!-- 8. Conclusion -->
                     <h2 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4 border-b border-slate-100 pb-3">Conclusion</h2>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        Your dietary choices following hernia surgery exert a direct influence on your recovery timeline and overall surgical success. By understanding <strong>what not to eat after Hernia Surgery</strong>—specifically avoiding constipating items, gas-producing vegetables, spicy foods, carbonated drinks, and alcohol—you protect your healing abdominal wall from unnecessary pressure and strain.
+                        Your dietary choices following hernia surgery exert a direct influence on your recovery timeline and overall surgical success. By understanding <strong>what not to eat after Hernia Surgery</strong>, specifically avoiding constipating items, gas-producing vegetables, spicy foods, carbonated drinks, and alcohol, you protect your healing abdominal wall from unnecessary pressure and strain.
                     </p>
                     <p class="text-slate-600 leading-relaxed mb-8">
                         Pairing a clean, fiber-rich, high-hydration diet with gentle walking and expert medical supervision ensures your hernia repair heals strongly and permanently. If you have questions about your post-operative recovery plan or wish to discuss advanced keyhole hernia repair, consult <a href="<?= $base_path ?>about-best-hernia-hospital-in-chennai" class="text-brand-700 font-semibold hover:underline">Dr. Kumar</a>, the <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai" class="text-brand-700 font-semibold hover:underline">Best Hernia Surgeon in Chennai</a>.

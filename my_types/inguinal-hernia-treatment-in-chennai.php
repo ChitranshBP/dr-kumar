@@ -322,10 +322,10 @@ require __DIR__ . '/../includes/header.php';
                     Minimally Invasive · Keyhole Surgery
                 </p>
                 <p class="text-slate-100 text-sm leading-relaxed mb-6">
-                    Dr. Kumar performs all three keyhole inguinal hernia techniques — <strong>eTEP RS</strong>, <strong>TEP</strong>, and <strong>TAPP</strong> — using 3 tiny incisions and a high-definition camera. Each is tailored to the hernia type (direct, indirect, bilateral, or recurrent). Faster recovery (2–3 days), minimal post-op pain, and excellent cosmetic results.
+                    Dr. Kumar performs all three keyhole inguinal hernia techniques: <strong>eTEP RS</strong>, <strong>TEP</strong>, and <strong>TAPP</strong>, using 3 tiny incisions and a high-definition camera. Each is tailored to the hernia type (direct, indirect, bilateral, or recurrent). Faster recovery (2–3 days), minimal post-op pain, and excellent cosmetic results.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-100">
-                    <li class="flex gap-2"><span class="text-accent">✓</span> eTEP / TEP / TAPP — all options</li>
+                    <li class="flex gap-2"><span class="text-accent">✓</span> eTEP / TEP / TAPP, all options</li>
                     <li class="flex gap-2"><span class="text-accent">✓</span> Same-day / next-day discharge</li>
                     <li class="flex gap-2"><span class="text-accent">✓</span> Rapid return to work (2–3 days)</li>
                     <li class="flex gap-2"><span class="text-accent">✓</span> Less than 1% recurrence rate</li>
@@ -367,7 +367,7 @@ require __DIR__ . '/../includes/header.php';
                 <div>
                     <h3 class="font-bold text-lg text-slate-900 mb-1">Open Inguinal Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                        Time-tested open technique (mesh repair) reserved for select cases: large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
                     </p>
                 </div>
             </div>
@@ -383,7 +383,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div>
                         <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">eTEP Repair</p>
-                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Extended-view TEP — most advanced lap technique</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Extended-view TEP, most advanced lap technique</p>
                     </div>
                 </a>
                 <a href="<?= $base_path ?>special-considerations/complex-hernia-info" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
@@ -401,7 +401,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div>
                         <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">Recurrent Hernia</p>
-                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair — different anatomical plane</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair, different anatomical plane</p>
                     </div>
                 </a>
             </div>
@@ -802,7 +802,7 @@ require __DIR__ . '/../includes/header.php';
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is an inguinal hernia and what are its symptoms?</span>
-                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">&minus;</span>
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>

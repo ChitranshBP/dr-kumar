@@ -49,7 +49,7 @@ require __DIR__ . '/../includes/header.php';
                     What is a Recurrent Hernia?
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-5 text-lg">
-                    A recurrent hernia occurs when a hernia that has been previously repaired &mdash; either by open or laparoscopic technique &mdash; returns at the same anatomical site. It may appear weeks, months, or even years after the original surgery.
+                    A recurrent hernia occurs when a hernia that has been previously repaired, either by open or laparoscopic technique, returns at the same anatomical site. It may appear weeks, months, or even years after the original surgery.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
                     Recurrence is one of the most challenging scenarios in hernia surgery. The previously operated tissue is scarred, anatomy is altered, and the optimal plane for mesh placement has already been used. Choosing a specialist with experience in re-operative abdominal wall reconstruction is critical to a durable outcome.
@@ -171,7 +171,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
                         </div>
                         <h3 class="font-bold text-lg text-slate-900 mb-2">Discomfort on Coughing</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed">Pain or visible bulge on coughing, lifting, or straining &mdash; as with a primary hernia.</p>
+                        <p class="text-slate-500 text-sm leading-relaxed">Pain or visible bulge on coughing, lifting, or straining, as with a primary hernia.</p>
                     </div>
 
                     <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-md transition">
@@ -179,7 +179,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         </div>
                         <h3 class="font-bold text-lg text-slate-900 mb-2">Recurrence at Edge of Mesh</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed">A new defect can form at the edge of the previously placed mesh &mdash; the most common site.</p>
+                        <p class="text-slate-500 text-sm leading-relaxed">A new defect can form at the edge of the previously placed mesh, the most common site.</p>
                     </div>
 
                     <div class="bg-rose-50 rounded-2xl p-6 border border-rose-100 shadow-sm hover:shadow-md transition">
@@ -223,7 +223,7 @@ require __DIR__ . '/../includes/header.php';
                     <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                 </div>
                 <h3 class="font-bold text-lg text-slate-900 mb-2">Strangulation Risk</h3>
-                <p class="text-slate-600 text-sm">Recurrent hernias are at the same risk of strangulation as primary hernias &mdash; and may strangulate more easily through scarred tissue.</p>
+                <p class="text-slate-600 text-sm">Recurrent hernias are at the same risk of strangulation as primary hernias, and may strangulate more easily through scarred tissue.</p>
             </div>
 
             <div class="bg-slate-50 rounded-2xl p-6 border border-slate-100 hover:shadow-lg transition">
@@ -365,7 +365,7 @@ require __DIR__ . '/../includes/header.php';
                     Minimally Invasive · Keyhole Surgery
                 </p>
                 <p class="text-slate-100 text-sm leading-relaxed mb-6">
-                    Dr. Kumar's first step is always a <strong>CT mapping</strong> of the abdominal wall to define the defect, prior mesh position, and tissue quality. Re-operative <strong>laparoscopic</strong> repair then uses a <strong>different anatomical plane</strong> with wide mesh overlap — avoiding the scar tissue of the previous repair for a durable, low-recurrence outcome.
+                    Dr. Kumar's first step is always a <strong>CT mapping</strong> of the abdominal wall to define the defect, prior mesh position, and tissue quality. Re-operative <strong>laparoscopic</strong> repair then uses a <strong>different anatomical plane</strong> with wide mesh overlap, avoiding the scar tissue of the previous repair for a durable, low-recurrence outcome.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-100">
                     <li class="flex gap-2"><span class="text-accent">✓</span> CT mapping first</li>
@@ -388,7 +388,7 @@ require __DIR__ . '/../includes/header.php';
                     Latest Technology · 3D Vision
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    State-of-the-art advanced robotic platform is <strong>the ideal choice</strong> for recurrent hernias. Superior 3D visualization and wristed instruments let Dr. Kumar dissect through scar tissue with unmatched precision, place large mesh in a clean tissue plane, and reconstruct the abdominal wall in layers — even in multiply recurrent cases.
+                    State-of-the-art advanced robotic platform is <strong>the ideal choice</strong> for recurrent hernias. Superior 3D visualization and wristed instruments let Dr. Kumar dissect through scar tissue with unmatched precision, place large mesh in a clean tissue plane, and reconstruct the abdominal wall in layers, even in multiply recurrent cases.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Precision in scar tissue</li>
@@ -410,7 +410,7 @@ require __DIR__ . '/../includes/header.php';
                 <div>
                     <h3 class="font-bold text-lg text-slate-900 mb-1">Open Recurrent Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                        Time-tested open technique (mesh repair) reserved for select cases: large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
                     </p>
                 </div>
             </div>
@@ -426,7 +426,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div>
                         <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">eTEP Repair</p>
-                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Extended-view TEP — most advanced lap technique</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">Extended-view TEP, most advanced lap technique</p>
                     </div>
                 </a>
                 <a href="<?= $base_path ?>treatment/etep-technique-expert-in-chennai" class="group flex items-center gap-3 bg-white hover:bg-accent border-2 border-accent/30 hover:border-accent rounded-2xl px-5 py-3 shadow-sm hover:shadow-lg transition-all duration-300">
@@ -453,7 +453,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div>
                         <p class="font-bold text-sm text-slate-900 group-hover:text-white transition">Recurrent Hernia</p>
-                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair — different anatomical plane</p>
+                        <p class="text-xs text-slate-500 group-hover:text-white/80 transition">After previous repair, different anatomical plane</p>
                     </div>
                 </a>
             </div>

@@ -786,7 +786,7 @@ require __DIR__ . '/../includes/header.php';
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-white text-base md:text-lg leading-snug">When can I take a shower after hernia surgery?</span>
-                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">&minus;</span>
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
@@ -841,7 +841,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">You can safely drive once you are completely off narcotic pain medications and can comfortably make emergency brake maneuvers without pain—typically 3-7 days for laparoscopic repairs and 10-14 days for traditional open surgery.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">You can safely drive once you are completely off narcotic pain medications and can comfortably make emergency brake maneuvers without pain, typically 3-7 days for laparoscopic repairs and 10-14 days for traditional open surgery.</p>
                     </div>
                 </div>
 

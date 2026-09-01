@@ -210,7 +210,7 @@ require __DIR__ . '/../includes/header.php';
             <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
         </div>
         <div>
-            <h3 class="font-bold text-lg text-red-900 mb-1">Strangulated Hernia — A Surgical Emergency</h3>
+            <h3 class="font-bold text-lg text-red-900 mb-1">Strangulated Hernia, A Surgical Emergency</h3>
             <p class="text-red-800 text-sm leading-relaxed">A strangulated hernia cuts off blood supply to the trapped tissue and requires immediate surgical intervention to prevent tissue death. Dr. Kumar performs emergency hernia repair with the same minimally invasive expertise as planned cases, when clinically appropriate.</p>
         </div>
     </div>
@@ -369,7 +369,7 @@ require __DIR__ . '/../includes/header.php';
                     Minimally Invasive · Keyhole Surgery
                 </p>
                 <p class="text-slate-100 text-sm leading-relaxed mb-6">
-                    When the patient is stable and there are no contraindications, Dr. Kumar prefers <strong>laparoscopic</strong> emergency repair of strangulated hernias. 3 tiny incisions allow inspection of the bowel viability, release of the constriction, mesh repair, and bowel resection (if needed) — all through the same keyhole access.
+                    When the patient is stable and there are no contraindications, Dr. Kumar prefers <strong>laparoscopic</strong> emergency repair of strangulated hernias. 3 tiny incisions allow inspection of the bowel viability, release of the constriction, mesh repair, and bowel resection (if needed), all through the same keyhole access.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-100">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Inspects bowel viability</li>
@@ -392,7 +392,7 @@ require __DIR__ . '/../includes/header.php';
                     Time-Tested · Direct Access
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    Time-tested open technique reserved for select cases — particularly when there is significant contamination, tissue compromise, or when minimally invasive approaches are not clinically suitable.
+                    Time-tested open technique reserved for select cases: particularly when there is significant contamination, tissue compromise, or when minimally invasive approaches are not clinically suitable.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Direct physical access</li>
@@ -414,7 +414,7 @@ require __DIR__ . '/../includes/header.php';
                 <div>
                     <h3 class="font-bold text-lg text-slate-900 mb-1">Advanced Robotic Strangulated Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments &mdash; particularly useful for complex emergency cases with extensive adhesions or compromised bowel requiring delicate dissection.
+                        State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments, particularly useful for complex emergency cases with extensive adhesions or compromised bowel requiring delicate dissection.
                     </p>
                 </div>
             </div>
@@ -456,7 +456,7 @@ require __DIR__ . '/../includes/header.php';
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is a strangulated hernia?</span>
-                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">&minus;</span>
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>

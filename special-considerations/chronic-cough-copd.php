@@ -53,7 +53,7 @@ require __DIR__ . '/../includes/header.php';
                     Why Chronic Cough &amp; COPD Threaten Hernia Repairs
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-5">
-                    A chronic cough—whether caused by <strong>COPD, asthma, smoking, or chronic bronchitis</strong>—is one of the leading contributors to both the initial formation of abdominal hernias and their post-surgical recurrence.
+                    A chronic cough, whether caused by <strong>COPD, asthma, smoking, or chronic bronchitis</strong>, is one of the leading contributors to both the initial formation of abdominal hernias and their post-surgical recurrence.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8">
                     Every cough causes a sudden, violent spike in intra-abdominal pressure. When this pressure spikes repeatedly, it puts immense mechanical stress on the tissues of the abdominal wall and any surgical sutures holding a repair together.

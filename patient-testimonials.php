@@ -136,7 +136,7 @@ require __DIR__ . '/includes/header.php';
                 'name' => 'Thirulogachandar D.',
                 'role' => 'Local Guide · 24 reviews',
                 'place' => 'Chennai',
-                'quote' => 'Reviewing this doctor after a month of dad\'s surgery and follow ups. Had admitted my dad for Hernia Surgery — the treatment by Dr. Kumar was excellent, even at the follow-ups. Very clear on his suggestions, well mannered, explaining without jargons. Best and Go To doctor for Gastro related. Very polite and composed dr.',
+                'quote' => 'Reviewing this doctor after a month of dad\'s surgery and follow ups. Had admitted my dad for Hernia Surgery. The treatment by Dr. Kumar was excellent, even at the follow-ups. Very clear on his suggestions, well mannered, explaining without jargons. Best and Go To doctor for Gastro related. Very polite and composed dr.',
                 'border' => 'border-brand-700',
                 'categories' => ['groin']
             ],

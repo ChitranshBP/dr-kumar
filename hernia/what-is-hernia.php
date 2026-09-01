@@ -48,7 +48,7 @@ require __DIR__ . '/../includes/header.php';
                     How Hernias Develop
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-6">
-                    A hernia develops when an internal organ, typically part of the intestine or abdominal tissue, protrudes through a weakened area in the surrounding muscle or fascia. Think of it like a tube sock where the fabric has a weak spot — the sock can push through that hole.
+                    A hernia develops when an internal organ, typically part of the intestine or abdominal tissue, protrudes through a weakened area in the surrounding muscle or fascia. Think of it like a tube sock where the fabric has a weak spot, the sock can push through that hole.
                 </p>
                 <div class="flex items-center gap-3 p-4 bg-brand-50 rounded-xl border border-brand-100">
                     <div class="w-12 h-12 rounded-full bg-brand-700 text-white flex items-center justify-center font-bold text-lg">1 in 4</div>

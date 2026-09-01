@@ -17,7 +17,7 @@ require __DIR__ . '/includes/header.php';
             </h1>
 
             <p class="text-slate-200 text-base md:text-lg leading-relaxed mb-8">
-                <strong><?= $site['doctor'] ?></strong> &mdash; Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Hernia Surgery with 29+ years of experience and <strong>10,000+ Hernia surgeries</strong> in Chennai.
+                <strong><?= $site['doctor'] ?></strong>, Leading Expert in Complex Hernia, Advanced Abdominal Wall Reconstruction, Laparoscopic, Robotic &amp; Minimally Invasive Hernia Surgery with 29+ years of experience and <strong>10,000+ Hernia surgeries</strong> in Chennai.
             </p>
 
             <div class="flex flex-wrap gap-3">
@@ -68,7 +68,7 @@ require __DIR__ . '/includes/header.php';
                     </div>
 
                     <h3 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mb-5 leading-snug">
-                        A True 360-Degree Care Model &mdash; from Consultation to Follow-up
+                        A True 360-Degree Care Model, from Consultation to Follow-up
                     </h3>
 
                     <p class="text-slate-600 leading-relaxed mb-5">
@@ -76,7 +76,7 @@ require __DIR__ . '/includes/header.php';
                     </p>
 
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        Designed as a true 360-degree care model, it provides <strong>consultation, diagnosis, treatment, recovery, rehabilitation, and follow-up</strong> under one roof. With rising hernia cases and high recurrence rates due to varied surgical expertise, Hernia Care 360 fulfills the growing need for a specialized hernia center &mdash; delivering expert, modern, and reliable hernia management backed by Dr. Kumar's extensive experience in the evolving field of herniology.
+                        Designed as a true 360-degree care model, it provides <strong>consultation, diagnosis, treatment, recovery, rehabilitation, and follow-up</strong> under one roof. With rising hernia cases and high recurrence rates due to varied surgical expertise, Hernia Care 360 fulfills the growing need for a specialized hernia center, delivering expert, modern, and reliable hernia management backed by Dr. Kumar's extensive experience in the evolving field of herniology.
                     </p>
 
                     <div class="flex flex-wrap gap-3">
@@ -163,7 +163,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
             </div>
             <div class="mt-8 text-center">
-                <p class="font-display text-xl font-bold text-slate-900">Dr. Kumar &mdash; <span class="text-brand-700">Hernia Specialist</span></p>
+                <p class="font-display text-xl font-bold text-slate-900">Dr. Kumar, <span class="text-brand-700">Hernia Specialist</span></p>
             </div>
         </div>
 
@@ -176,7 +176,7 @@ require __DIR__ . '/includes/header.php';
                 Dr. Kumar is a leading expert in advanced <strong>laparoscopic</strong> and <strong>robotic</strong> hernia surgery, with extensive expertise in techniques such as <strong>eTEP, TEP, TAPP, TAR, IPOM</strong> and complex Abdominal Wall Reconstruction (AWR).
             </p>
             <p class="text-slate-600 mb-6 leading-relaxed">
-                With over <strong>10,000+ successful hernia surgeries</strong> to date &mdash; performed using advanced <strong>laparoscopic</strong> and <strong>robotic</strong> techniques &mdash; Dr. Kumar is one of Chennai's most trusted names in minimally invasive hernia care. A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he pioneered advanced <strong>laparoscopic</strong> hernia surgery in the city.
+                With over <strong>10,000+ successful hernia surgeries</strong> to date, performed using advanced <strong>laparoscopic</strong> and <strong>robotic</strong> techniques. Dr. Kumar is one of Chennai's most trusted names in minimally invasive hernia care. A graduate of Stanley Medical College and a Member of the Royal College of Surgeons of England, he pioneered advanced <strong>laparoscopic</strong> hernia surgery in the city.
             </p>
 
             <div class="grid grid-cols-2 gap-4 mb-7">
@@ -190,7 +190,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <div class="flex items-center gap-3">
                     <svg class="w-5 h-5 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                    <span class="text-sm font-medium">FALS Robotic , FALS Hernia & AWR</span>
+                    <span class="text-sm font-medium">FALS Robotic, FALS Hernia & AWR</span>
                 </div>
                 <div class="flex items-center gap-3">
                     <svg class="w-5 h-5 text-brand-700" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
@@ -394,8 +394,8 @@ require __DIR__ . '/includes/header.php';
                         'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 13l4 4L19 5"/>',
                     ],
                     [
-                        'title' => 'Clinical Lead &amp; HOD &mdash; Billroth Hospital',
-                        'desc'  => 'Department of Minimal Access, Robotic, Hernia &amp; AWR Surgery at Billroth Hospitals , Chennai',
+                        'title' => 'Clinical Lead &amp; HOD, Billroth Hospital',
+                        'desc'  => 'Department of Minimal Access, Robotic, Hernia &amp; AWR Surgery at Billroth Hospitals, Chennai',
                         'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/>',
                     ],
                 ];
@@ -508,7 +508,7 @@ require __DIR__ . '/includes/header.php';
                         Expert Review
                     </span>
                     <h2 class="font-display text-2xl md:text-3xl font-bold leading-tight">Already advised surgery? Get a Second Opinion.</h2>
-                    <p class="text-slate-200 text-sm md:text-base mt-1 max-w-2xl">A thorough expert review from Dr. Kumar — 29+ years of experience — for clarity and confidence before you decide.</p>
+                    <p class="text-slate-200 text-sm md:text-base mt-1 max-w-2xl">A thorough expert review from Dr. Kumar, 29+ years of experience, for clarity and confidence before you decide.</p>
                 </div>
             </div>
             <div class="flex flex-wrap items-center justify-center gap-3 shrink-0">
@@ -555,7 +555,7 @@ require __DIR__ . '/includes/header.php';
                         ['Ruby A.',      'Gallbladder & Hernia Patient', 'Chennai', 'Dr. Kumar at Billroth Hospital is an excellent surgeon. I recently underwent gallbladder and hernia surgery, and the entire experience was smooth and reassuring. Dr. Kumar explained everything clearly, made me feel comfortable, and the surgery went very well. My recovery has been quick and trouble-free thanks to his expertise and care. I am truly grateful for his professionalism and kindness. Highly recommended!', 'border-brand-700'],
             ['Mercy F.',     'Local Guide · 4 reviews',  'Chennai', 'I underwent gall bladder surgery under Dr. Kumar. From the initial consultation to post-operative care, the doctor was extremely professional, patient, and reassuring. All my doubts were answered clearly, and I was guided properly regarding recovery and diet. The surgery went smoothly, and my recovery has been good. I truly appreciate the care and support provided. I highly recommend Dr. Kumar to anyone needing surgical care.', 'border-brand-700'],
 
-            ['Thirulogachandar D.', 'Local Guide · 24 reviews', 'Chennai', 'Reviewing this doctor after a month of dad\'s surgery and follow ups. Had admitted my dad for Hernia Surgery — the treatment by Dr. Kumar was excellent, even at the follow-ups. Very clear on his suggestions, well mannered, explaining without jargons. Best and Go To doctor for Gastro related. Very polite and composed dr.', 'border-brand-700'],
+            ['Thirulogachandar D.', 'Local Guide · 24 reviews', 'Chennai', 'Reviewing this doctor after a month of dad\'s surgery and follow ups. Had admitted my dad for Hernia Surgery. The treatment by Dr. Kumar was excellent, even at the follow-ups. Very clear on his suggestions, well mannered, explaining without jargons. Best and Go To doctor for Gastro related. Very polite and composed dr.', 'border-brand-700'],
             ['AAA Electricals',     'Local Guide · 3 reviews',  'Chennai', 'I am proud to share my experience with Dr. Kumar from Billroth Hospital. He performed my grandfather\'s hernia operation, and it was a great success. My grandfather is now doing very well, thanks to Dr. Kumar\'s excellent treatment and successful surgery. I highly recommend him.', 'border-amber-500'],
             ['Suresh A.',  'Local Guide · 19 reviews',  'Chennai', 'Exceptional surgeon with outstanding patient care. I am writing this review one month after my Supra Umbilical Hernia surgery, and I can confidently say that choosing Dr. Kumar Sir (Billroth Hospital) was the best decision. The surgery went smoothly and recovery has been excellent.', 'border-brand-700'],
             ['Elango K.',  'Hernia Patient',            'Purasawalkam', '5/5 stars for Dr. Kumar at Billroth Hospitals. After a complicated gallbladder surgery at another hospital led to complications, Dr. Kumar completely turned things around. His professionalism, reassurance, and clear communication instantly put me at ease. The surgery was a success and recovery has been smooth sailing. Highly recommend!', 'border-amber-500'],

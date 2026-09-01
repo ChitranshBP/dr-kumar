@@ -53,7 +53,7 @@ require __DIR__ . '/../includes/header.php';
                     What Is a Hernia in Children?
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-5">
-                    A hernia in a child occurs when an internal organ or tissue pushes through a weak spot in the abdominal wall. Unlike adult hernias, most pediatric hernias are <strong>congenital</strong> — meaning they are present at birth due to incomplete closure of natural openings that should have sealed during development.
+                    A hernia in a child occurs when an internal organ or tissue pushes through a weak spot in the abdominal wall. Unlike adult hernias, most pediatric hernias are <strong>congenital</strong>, meaning they are present at birth due to incomplete closure of natural openings that should have sealed during development.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8">
                     Hernias are common in children, affecting roughly <strong>1–5% of newborns</strong> and up to <strong>10% of premature babies</strong>. The good news: when diagnosed early and repaired by an experienced pediatric surgeon, outcomes are excellent and most children return to full activity within days.
@@ -69,25 +69,25 @@ require __DIR__ . '/../includes/header.php';
                             <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center">
                                 <svg class="w-4 h-4 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                             </div>
-                            <span class="text-slate-700 font-medium">Inguinal Hernia (Groin) — Most common in children</span>
+                            <span class="text-slate-700 font-medium">Inguinal Hernia (Groin), Most common in children</span>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-amber-50 rounded-lg">
                             <div class="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center">
                                 <svg class="w-4 h-4 text-amber-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                             </div>
-                            <span class="text-slate-700 font-medium">Umbilical Hernia (Navel) — Common in infants</span>
+                            <span class="text-slate-700 font-medium">Umbilical Hernia (Navel), Common in infants</span>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
                             <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center">
                                 <svg class="w-4 h-4 text-purple-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                             </div>
-                            <span class="text-slate-700 font-medium">Epigastric Hernia — Above the navel</span>
+                            <span class="text-slate-700 font-medium">Epigastric Hernia, Above the navel</span>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-emerald-50 rounded-lg">
                             <div class="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center">
                                 <svg class="w-4 h-4 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                             </div>
-                            <span class="text-slate-700 font-medium">Hydrocele — Fluid-filled swelling (often related)</span>
+                            <span class="text-slate-700 font-medium">Hydrocele: Fluid-filled swelling (often related)</span>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ require __DIR__ . '/../includes/header.php';
                                 <svg class="w-7 h-7 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                             </div>
                             <p class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-1">Image Placeholder</p>
-                            <p class="text-sm font-semibold text-slate-800 mb-2">Pediatric Hernia Sites — Child Body Diagram</p>
+                            <p class="text-sm font-semibold text-slate-800 mb-2">Pediatric Hernia Sites, Child Body Diagram</p>
                             <p class="text-xs text-slate-600 max-w-md leading-relaxed">
                                 Friendly cartoon-style illustration of a child (toddler, gender-neutral, smiling) shown from head to knees. Two highlighted callout markers on the groin area labeled "Inguinal Hernia" and one marker on the belly button labeled "Umbilical Hernia." Soft pastel palette (mint, peach, cream). Style: clean, modern, child-friendly medical illustration suitable for a pediatric healthcare website. Aspect ratio 4:3.
                             </p>
@@ -171,7 +171,7 @@ require __DIR__ . '/../includes/header.php';
         <div class="mt-12 bg-gradient-to-r from-red-50 to-rose-50 rounded-2xl p-8 border-2 border-red-300">
             <h3 class="font-display text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
                 <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
-                Emergency Signs — Seek Immediate Care
+                Emergency Signs, Seek Immediate Care
             </h3>
             <p class="text-slate-700 mb-6 font-medium">A hernia that becomes trapped ("incarcerated") or has its blood supply cut off ("strangulated") is a surgical emergency in children. Call us or go to the ER if your child has:</p>
             <div class="grid md:grid-cols-2 gap-6">
@@ -238,7 +238,7 @@ require __DIR__ . '/../includes/header.php';
                         <div>
                             <h4 class="font-bold text-lg text-white mb-2">Laparoscopic (Keyhole) Repair</h4>
                             <p class="text-slate-300 text-sm leading-relaxed">
-                                Performed through 2–3 tiny ports using a miniature camera. Allows the surgeon to inspect the opposite side for a hidden hernia and fix both sides in one go if needed — avoiding a second anesthesia later.
+                                Performed through 2–3 tiny ports using a miniature camera. Allows the surgeon to inspect the opposite side for a hidden hernia and fix both sides in one go if needed, avoiding a second anesthesia later.
                             </p>
                         </div>
                     </div>
@@ -250,7 +250,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-7 h-7 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                         </div>
                         <div>
-                            <h4 class="font-bold text-lg text-white mb-2">Umbilical Hernia — Watchful Waiting</h4>
+                            <h4 class="font-bold text-lg text-white mb-2">Umbilical Hernia, Watchful Waiting</h4>
                             <p class="text-slate-300 text-sm leading-relaxed">
                                 Most small umbilical hernias in infants close on their own by age 4–5. Dr. Kumar monitors your child and only recommends surgery if the opening is large, painful, or has not closed by school age.
                             </p>
@@ -267,7 +267,7 @@ require __DIR__ . '/../includes/header.php';
                             <svg class="w-7 h-7 text-cyan-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                         </div>
                         <p class="text-xs font-bold uppercase tracking-wider text-cyan-300 mb-1">Image Placeholder</p>
-                        <p class="text-sm font-semibold text-white mb-2">Pediatric Hernia Repair — Day of Surgery Timeline</p>
+                        <p class="text-sm font-semibold text-white mb-2">Pediatric Hernia Repair, Day of Surgery Timeline</p>
                         <p class="text-xs text-slate-200 max-w-md leading-relaxed">
                             Horizontal four-step infographic on a dark navy background, showing the journey from hospital arrival to recovery: 1) Arrival (parent and child at reception), 2) Anesthesia (sleepy child with teddy bear), 3) Surgery (surgeon in OR), 4) Recovery (smiling child drinking juice). Use friendly cartoon icons connected by a glowing cyan timeline. Add a "What to Expect" callout box with bullet points: surgery takes 20–45 minutes, most go home the same day, back to school in 3–5 days, full activity in 2–4 weeks. Style: modern, child-friendly, calming. Aspect ratio 4:3.
                         </p>
@@ -310,7 +310,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
                 <h3 class="font-bold text-lg text-slate-900 mb-3">Higher Incarceration Risk</h3>
                 <p class="text-slate-600 text-sm leading-relaxed">
-                    Infants under 1 year have a much higher risk of the hernia becoming trapped — up to 30%. This is why pediatric surgeons usually recommend repair within weeks of diagnosis, even for small hernias.
+                    Infants under 1 year have a much higher risk of the hernia becoming trapped, up to 30%. This is why pediatric surgeons usually recommend repair within weeks of diagnosis, even for small hernias.
                 </p>
             </div>
 
@@ -320,7 +320,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
                 <h3 class="font-bold text-lg text-slate-900 mb-3">No Mesh in Most Cases</h3>
                 <p class="text-slate-600 text-sm leading-relaxed">
-                    Children's tissues are healthy and heal quickly. Simple suture repair is usually enough — no mesh implant is needed for most pediatric hernias, reducing long-term concerns.
+                    Children's tissues are healthy and heal quickly. Simple suture repair is usually enough, and no mesh implant is needed for most pediatric hernias, reducing long-term concerns.
                 </p>
             </div>
 
@@ -383,7 +383,7 @@ require __DIR__ . '/../includes/header.php';
                         <svg class="w-5 h-5 text-brand-700 shrink-0 group-open:rotate-180 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </summary>
                     <div class="px-6 pb-6 text-slate-600 leading-relaxed">
-                        <p>Recurrence after pediatric hernia repair is very rare — less than 1% in experienced hands. Dr. Kumar uses careful technique to ensure the hernia sac is completely closed, and follow-up visits confirm lasting healing.</p>
+                        <p>Recurrence after pediatric hernia repair is very rare, less than 1% in experienced hands. Dr. Kumar uses careful technique to ensure the hernia sac is completely closed, and follow-up visits confirm lasting healing.</p>
                     </div>
                 </details>
             </div>
@@ -422,7 +422,7 @@ require __DIR__ . '/../includes/header.php';
             Compassionate Care for Your Child
         </h2>
         <p class="text-brand-100 text-lg mb-8 max-w-2xl mx-auto">
-            If your child has been diagnosed with a hernia — or you have noticed a bulge that concerns you — Dr. Kumar and team provide gentle, expert evaluation and surgical care for children of all ages.
+            If your child has been diagnosed with a hernia, or you have noticed a bulge that concerns you, Dr. Kumar and team provide gentle, expert evaluation and surgical care for children of all ages.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
             <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition">

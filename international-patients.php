@@ -68,7 +68,7 @@ require __DIR__ . '/includes/header.php';
                 </div>
                 <h3 class="font-display text-xl font-bold text-slate-900 mb-3">Elite Surgical Expertise</h3>
                 <p class="text-slate-600 text-sm leading-relaxed">
-                    Under the care of Dr. Kumar—with over 29 years of surgical experience and 10,000+ hernia repairs—you receive state-of-the-art techniques such as eTEP, TAR, and robotic-assisted surgeries.
+                    Under the care of Dr. Kumar, with over 29 years of surgical experience and 10,000+ hernia repairs, you receive state-of-the-art techniques such as eTEP, TAR, and robotic-assisted surgeries.
                 </p>
             </div>
 

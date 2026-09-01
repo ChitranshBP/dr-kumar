@@ -545,7 +545,7 @@ require __DIR__ . '/includes/header.php';
                             class="font-display font-bold text-white text-base md:text-lg leading-snug transition-colors duration-300">Is
                             a second opinion appropriate for my case?</span>
                         <span
-                            class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">—</span>
+                            class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm transition-all duration-300">&minus;</span>
                     </button>
                     <div class="faq-content px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>

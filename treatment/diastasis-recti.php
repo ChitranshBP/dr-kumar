@@ -66,7 +66,7 @@ require __DIR__ . '/../includes/header.php';
                     <strong>Diastasis Recti</strong> (also known as divarication of the rectus abdominis muscles) is the separation of the left and right sides of the "six-pack" muscle. The separation occurs at the midline fascia, the <strong>linea alba</strong>, which stretches and becomes thin.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Unlike a ventral or umbilical hernia, Diastasis Recti is <strong>not a true hernia</strong>—there is no physical tear or hole in the abdominal wall, meaning there is no risk of organ entrapment (incarceration). However, because the central support tissue is stretched out, internal organs bulge forward, creating a ridge or "pooch" down the center of the abdomen.
+                    Unlike a ventral or umbilical hernia, Diastasis Recti is <strong>not a true hernia</strong>, there is no physical tear or hole in the abdominal wall, meaning there is no risk of organ entrapment (incarceration). However, because the central support tissue is stretched out, internal organs bulge forward, creating a ridge or "pooch" down the center of the abdomen.
                 </p>
 
                 <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-100">

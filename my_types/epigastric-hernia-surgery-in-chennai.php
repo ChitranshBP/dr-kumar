@@ -381,7 +381,7 @@ require __DIR__ . '/../includes/header.php';
                     Minimally Invasive · Keyhole Surgery
                 </p>
                 <p class="text-slate-100 text-sm leading-relaxed mb-6">
-                    Minimally invasive epigastric hernia repair using 3 tiny incisions and a high-definition camera. Mesh is placed in the <strong>sublay</strong> position (behind the muscles) — the strongest biomechanical repair with the lowest recurrence rate. Faster recovery and minimal scarring.
+                    Minimally invasive epigastric hernia repair using 3 tiny incisions and a high-definition camera. Mesh is placed in the <strong>sublay</strong> position (behind the muscles), the strongest biomechanical repair with the lowest recurrence rate. Faster recovery and minimal scarring.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-100">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Sublay mesh placement</li>
@@ -404,7 +404,7 @@ require __DIR__ . '/../includes/header.php';
                     Latest Technology · 3D Vision
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — particularly useful for <strong>multiple</strong> epigastric defects, <strong>recurrent</strong> hernias, and combined upper-abdominal wall reconstruction.
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments, particularly useful for <strong>multiple</strong> epigastric defects, <strong>recurrent</strong> hernias, and combined upper-abdominal wall reconstruction.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
@@ -426,7 +426,7 @@ require __DIR__ . '/../includes/header.php';
                 <div>
                     <h3 class="font-bold text-lg text-slate-900 mb-1">Open Epigastric Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                        Time-tested open technique (mesh repair) reserved for select cases: large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
                     </p>
                 </div>
             </div>
@@ -452,7 +452,7 @@ require __DIR__ . '/../includes/header.php';
                 <div class="faq-item active bg-brand-700 text-white rounded-2xl overflow-hidden transition-all duration-300 border border-transparent shadow-md">
                     <button class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 select-none focus:outline-none">
                         <span class="font-display font-bold text-white text-base md:text-lg leading-snug">What is an epigastric hernia?</span>
-                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">—</span>
+                        <span class="faq-symbol text-2xl font-light bg-brand-800 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">&minus;</span>
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>

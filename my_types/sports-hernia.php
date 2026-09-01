@@ -24,7 +24,7 @@ require __DIR__ . '/../includes/header.php';
                 Sports <span class="text-accent">Hernia</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                A sports hernia is a painful soft-tissue injury of the groin region common in athletes. Unlike a true hernia, there is no visible bulge — but the underlying abdominal wall or adductor tendons are strained or torn. Get expert treatment for Sports Hernia from Hernia Specialist - Dr Kumar.
+                A sports hernia is a painful soft-tissue injury of the groin region common in athletes. Unlike a true hernia, there is no visible bulge, but the underlying abdominal wall or adductor tendons are strained or torn. Get expert treatment for Sports Hernia from Hernia Specialist - Dr Kumar.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
@@ -49,10 +49,10 @@ require __DIR__ . '/../includes/header.php';
                     What is a Sports Hernia?
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-5 text-lg">
-                    A sports hernia (also called athletic pubalgia) is an injury to the soft tissue of the lower abdomen or groin &mdash; typically the tendons, ligaments, or muscles that attach to the pubic bone. It is most often seen in athletes who play sports requiring sudden changes of direction, kicking, or twisting.
+                    A sports hernia (also called athletic pubalgia) is an injury to the soft tissue of the lower abdomen or groin, typically the tendons, ligaments, or muscles that attach to the pubic bone. It is most often seen in athletes who play sports requiring sudden changes of direction, kicking, or twisting.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Despite the name, a sports hernia is not a true hernia &mdash; there is no organ or tissue protruding through a defect, and no visible bulge. However, the strain or tear can mimic hernia pain, and if left untreated, it may progress to a real inguinal hernia over time.
+                    Despite the name, a sports hernia is not a true hernia, there is no organ or tissue protruding through a defect, and no visible bulge. However, the strain or tear can mimic hernia pain, and if left untreated, it may progress to a real inguinal hernia over time.
                 </p>
 
                 <div class="border-t border-slate-200/80 pt-8">
@@ -73,7 +73,7 @@ require __DIR__ . '/../includes/header.php';
                             </div>
                             <div>
                                 <h4 class="font-bold text-slate-900 text-sm mb-1">No Visible Bulge</h4>
-                                <p class="text-xs text-slate-500 leading-relaxed">Differs from a true inguinal hernia &mdash; the abdominal wall is torn but not herniated.</p>
+                                <p class="text-xs text-slate-500 leading-relaxed">Differs from a true inguinal hernia, the abdominal wall is torn but not herniated.</p>
                             </div>
                         </div>
                         <div class="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex items-start gap-3.5">
@@ -134,7 +134,7 @@ require __DIR__ . '/../includes/header.php';
                         </div>
                         <div>
                             <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">For Athletes</p>
-                            <p class="text-sm font-bold text-slate-900 mt-0.5">Persistent groin pain during sport &mdash; not a strain.</p>
+                            <p class="text-sm font-bold text-slate-900 mt-0.5">Persistent groin pain during sport, not a strain.</p>
                         </div>
                     </div>
                 </div>
@@ -345,7 +345,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-start gap-3">
                         <svg class="w-5 h-5 text-brand-400 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                        <span class="text-slate-300">Graded rehab &mdash; return to sport in 6&ndash;12 weeks</span>
+                        <span class="text-slate-300">Graded rehab, return to sport in 6&ndash;12 weeks</span>
                     </div>
                 </div>
             </div>
@@ -444,7 +444,7 @@ require __DIR__ . '/../includes/header.php';
                     Latest Technology · 3D Vision
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments — particularly useful when <strong>bilateral</strong> sports hernias or <strong>combined inguinal + adductor</strong> pathology require fine, layered repair.
+                    State-of-the-art advanced robotic platform for unmatched precision, 3D visualization, and wristed instruments, particularly useful when <strong>bilateral</strong> sports hernias or <strong>combined inguinal + adductor</strong> pathology require fine, layered repair.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
@@ -466,7 +466,7 @@ require __DIR__ . '/../includes/header.php';
                 <div>
                     <h3 class="font-bold text-lg text-slate-900 mb-1">Open Sports Hernia Repair</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Time-tested open technique (mesh repair) reserved for select cases — large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
+                        Time-tested open technique (mesh repair) reserved for select cases: large, infected, contaminated, or emergency hernias, and patients unsuitable for keyhole surgery.
                     </p>
                 </div>
             </div>

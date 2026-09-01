@@ -98,7 +98,7 @@ require_once __DIR__ . '/../includes/header.php';
 
                     <h3 class="font-bold text-slate-900 text-lg mt-6 mb-3">3. Local Inflammatory Healing Response</h3>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        Any tissue trauma—including incision cuts, muscle dissection, and placing surgical mesh—triggers an acute inflammatory response. Blood vessels dilate, sending white blood cells, oxygen, and fluid to the site to start the healing process. This localized swelling is your body's natural way of repairing itself.
+                        Any tissue trauma, including incision cuts, muscle dissection, and placing surgical mesh, triggers an acute inflammatory response. Blood vessels dilate, sending white blood cells, oxygen, and fluid to the site to start the healing process. This localized swelling is your body's natural way of repairing itself.
                     </p>
 
                     <h3 class="font-bold text-slate-900 text-lg mt-6 mb-3">4. Muscle Relaxation and Nerve Blocks</h3>

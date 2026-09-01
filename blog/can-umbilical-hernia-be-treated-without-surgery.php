@@ -64,7 +64,7 @@ require_once __DIR__ . '/../includes/header.php';
                             <span>AEO Direct Medical Answer: Can Umbilical Hernia Be Treated Without Surgery?</span>
                         </div>
                         <p class="text-slate-700 text-sm md:text-base leading-relaxed m-0">
-                            <strong>In adults, NO—an umbilical hernia cannot be permanently cured or treated without surgery.</strong> Unlike infants (whose abdominal wall defects often close naturally before age 4 or 5), an adult umbilical hernia is a physical anatomical tear in the abdominal wall fascia that cannot close on its own. While non-surgical methods such as belly trusses, supportive binders, and lifestyle changes may temporarily ease discomfort, they cannot repair the muscle gap. Surgical repair—specifically modern laparoscopic keyhole or robotic mesh repair at <strong><a href="<?= $base_path ?>" class="text-brand-700 font-semibold hover:underline">Dr. Kumar Billroth Hospitals</a></strong>—is the only definitive cure to prevent life-threatening complications like incarceration and strangulation.
+                            <strong>In adults, no. An umbilical hernia cannot be permanently cured or treated without surgery.</strong> Unlike infants (whose abdominal wall defects often close naturally before age 4 or 5), an adult umbilical hernia is a physical anatomical tear in the abdominal wall fascia that cannot close on its own. While non-surgical methods such as belly trusses, supportive binders, and lifestyle changes may temporarily ease discomfort, they cannot repair the muscle gap. Surgical repair, specifically modern laparoscopic keyhole or robotic mesh repair at <strong><a href="<?= $base_path ?>" class="text-brand-700 font-semibold hover:underline">Dr. Kumar Billroth Hospitals</a></strong>, is the only definitive cure to prevent life-threatening complications like incarceration and strangulation.
                         </p>
                     </div>
 
@@ -125,7 +125,7 @@ require_once __DIR__ . '/../includes/header.php';
                             <span class="text-amber-400 font-bold uppercase tracking-wider text-xs block mb-2">Key Clinical Takeaway</span>
                             <h3 class="text-xl md:text-2xl font-bold mb-3">Mechanical Problems Require Mechanical Solutions</h3>
                             <p class="text-slate-200 text-sm md:text-base leading-relaxed mb-4">
-                                Think of an umbilical hernia like a tear in a tire. No amount of tire shine or inflation adjustment will seal a torn rubber wall—it requires a patch. Similarly, repairing a torn abdominal wall requires surgical closure with a tension-free mesh.
+                                Think of an umbilical hernia like a tear in a tire. No amount of tire shine or inflation adjustment will seal a torn rubber wall, it requires a patch. Similarly, repairing a torn abdominal wall requires surgical closure with a tension-free mesh.
                             </p>
                             <a href="<?= $base_path ?>book-appointment" class="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold px-6 py-3 rounded-full text-xs uppercase tracking-wider transition shadow-md">
                                 Consult Dr. Kumar Billroth Hospitals

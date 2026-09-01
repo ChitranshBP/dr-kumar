@@ -219,7 +219,7 @@
         } else {
             item.classList.add('active');
             if (content) content.classList.remove('hidden');
-            if (symbol) symbol.textContent = '—';
+            if (symbol) symbol.textContent = ', ';
         }
     });
 })();
