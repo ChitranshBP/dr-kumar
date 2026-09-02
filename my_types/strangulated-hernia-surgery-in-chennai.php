@@ -460,7 +460,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A strangulated hernia is a life-threatening medical emergency. It occurs when a section of the bowel or other abdominal tissue becomes tightly trapped within the hernia opening, completely cutting off its blood supply. If not treated quickly, the tissue can die and rupture, causing severe systemic infections.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A strangulated hernia is a life-threatening emergency. Bowel or other tissue becomes tightly trapped in the hernia opening and loses its blood supply, so the tissue begins to die.</p>
                     </div>
                 </div>
 
@@ -472,7 +472,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Symptoms include sudden, intense, and worsening pain at the hernia site; a bulge that turns red, purple, or dark; a hernia bulge that cannot be pushed back in (non-reducible); nausea, vomiting, fever, rapid heart rate, and severe abdominal swelling.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Sudden intense pain at the hernia, a bulge turning red, purple or dark, a lump that will not push back, plus nausea, vomiting, fever and abdominal swelling.</p>
                     </div>
                 </div>
 
@@ -499,7 +499,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. In many cases, when the patient is stable and diagnosed early, Dr. Kumar can perform emergency repair laparoscopically or robotically. This allows the surgeon to inspect the viability of the bowel inside, release the constriction, and place a mesh using keyhole incisions.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. When the patient is stable and reaches hospital early, Dr. Kumar can operate laparoscopically or robotically, inspecting the bowel, releasing the constriction and placing mesh through keyhole incisions.</p>
                     </div>
                 </div>
 
@@ -511,7 +511,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">If the trapped bowel tissue has already died (necrotized) due to lack of blood, the surgeon must perform a bowel resection. The damaged segment of the intestine is carefully removed, and the healthy ends are securely joined back together. Mesh might be avoided or placed in a specific safe plane to prevent infection.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The dead segment of intestine is removed and the healthy ends rejoined. Mesh may be avoided, or placed in a safer plane, because contaminated tissue raises infection risk.</p>
                     </div>
                 </div>
 
@@ -523,7 +523,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The only effective way to prevent strangulation is to have a diagnosed hernia repaired electively. Watching and waiting, or wearing supportive trusses, does not cure the defect and carries ongoing risk. Consult a specialist like Dr. Kumar for a planned, minimally invasive repair before complications occur.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Have a diagnosed hernia repaired electively. Watchful waiting and trusses do not close the defect and leave the risk in place, so plan repair before complications arrive.</p>
                     </div>
                 </div>
             </div>

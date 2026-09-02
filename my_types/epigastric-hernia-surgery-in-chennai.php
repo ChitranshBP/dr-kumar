@@ -456,7 +456,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An epigastric hernia is a protrusion of fat or internal tissue through a defect or tear in the midline of the upper abdomen (the linea alba), specifically in the region between the belly button and the breastbone.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An epigastric hernia is fat or tissue pushing through a defect in the linea alba, the midline of the upper abdomen between the navel and the breastbone.</p>
                     </div>
                 </div>
 
@@ -468,7 +468,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">It is primarily caused by a weakness in the midline abdominal muscles (linea alba). Factors that trigger or worsen it include heavy lifting, chronic coughing, straining during bowel movements, pregnancy, obesity, or a congenital weakness present at birth.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Weakness in the midline abdominal muscles, the linea alba. Heavy lifting, chronic coughing, straining, pregnancy, obesity and a congenital weakness present at birth all trigger or worsen it.</p>
                     </div>
                 </div>
 
@@ -480,7 +480,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. An epigastric hernia will not heal on its own. While small, asymptomatic hernias might be monitored, surgical repair is the only way to close the muscle defect and prevent complications like tissue entrapment (incarceration) or strangulation.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. An epigastric hernia will not heal by itself. Small painless ones may be monitored, but surgery is the only way to close the defect and prevent entrapment.</p>
                     </div>
                 </div>
             </div>
@@ -495,7 +495,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Laparoscopic or robotic epigastric hernia repair is preferred for most cases. Dr. Kumar utilizes a sublay mesh technique, placing the mesh behind the rectus muscles for maximum reinforcement, ensuring low recurrence, minimal post-op pain, and rapid recovery.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Laparoscopic or robotic repair suits most cases. Dr. Kumar places mesh behind the rectus muscles, the sublay technique, which gives strong reinforcement, low recurrence and a quick recovery.</p>
                     </div>
                 </div>
 
@@ -507,7 +507,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most laparoscopic procedures are performed on a daycare basis, allowing patients to be discharged the same or next day. Most patients can return to light activity and desk work within a week, but heavy lifting and core exercises must be avoided for 4 to 6 weeks.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most are day-care procedures with discharge the same or next day. Desk work resumes within a week, but avoid heavy lifting and core exercise for four to six weeks.</p>
                     </div>
                 </div>
 
@@ -519,7 +519,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Recurrence is extremely rare (less than 1%) when the repair is performed by an expert surgeon using high-quality surgical mesh. Advanced laparoscopic and robotic methods allow precise placement of the mesh to strengthen the entire midline area.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Recurrence is under one percent when an experienced surgeon uses good-quality mesh. Laparoscopic and robotic methods allow precise placement that strengthens the whole midline.</p>
                     </div>
                 </div>
             </div>

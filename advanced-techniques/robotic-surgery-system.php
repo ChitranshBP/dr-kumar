@@ -290,7 +290,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">No. The robot is a tool controlled entirely by Dr. Kumar. There is no artificial intelligence making decisions. Every movement is performed by your surgeon at a console, providing enhanced precision but maintaining complete human control.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">No. The robot is a tool controlled entirely by Dr. Kumar. No artificial intelligence makes any decision. Every movement comes from the surgeon working at the console.</p>
                     </div>
                 </div>
 
@@ -301,7 +301,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Yes, most patients report significantly less pain compared to open surgery. The smaller incisions and precise tissue handling contribute to a more comfortable recovery. Many patients need only over-the-counter pain relievers after the first few days.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Yes, most patients report much less pain than after open surgery. Smaller incisions and precise tissue handling make recovery more comfortable, and many need only over-the-counter relief after a few days.</p>
                     </div>
                 </div>
             </div>
@@ -314,7 +314,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Most patients return to light activities within a few days and to full work within 1-2 weeks, depending on the nature of their job. Heavy lifting should be avoided for 4-6 weeks as directed by Dr. Kumar.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Most return to light activity within days and to full work in one to two weeks, depending on the job. Avoid heavy lifting for four to six weeks.</p>
                     </div>
                 </div>
 

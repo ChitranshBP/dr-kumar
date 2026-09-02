@@ -359,7 +359,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Many hernia repairs with ERAS are performed as day surgery, meaning you go home the same day. Some patients with larger hernias or medical considerations may stay one night. The goal is always safe, comfortable discharge as soon as appropriate.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Many ERAS hernia repairs are day surgery, so you go home the same day. Larger hernias or other medical factors may mean one night. Discharge happens as soon as it is safe.</p>
                     </div>
                 </div>
             </div>

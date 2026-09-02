@@ -389,9 +389,7 @@ require_once __DIR__ . '/../includes/header.php';
 
                         <div class="faq-item bg-slate-50 rounded-2xl border border-slate-200 p-6">
                             <h3 class="font-bold text-slate-900 text-lg mb-2">Q5: What is the recovery time for modern keyhole hernia surgery?</h3>
-                            <p class="text-slate-600 text-sm md:text-base leading-relaxed m-0">
-                                Laparoscopic and robotic hernia repairs allow most patients to walk immediately after surgery and go home the same day. Light daily activities can be resumed in 3-5 days, and full recovery is typically achieved within 2-3 weeks.
-                            </p>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed m-0">Keyhole and robotic repairs let most patients walk immediately and go home the same day. Light daily activity resumes in three to five days, with full recovery in two to three weeks.</p>
                         </div>
                     </div>
 

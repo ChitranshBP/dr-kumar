@@ -577,7 +577,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">No. The robotic system is a computer-assisted tool controlled entirely by Dr. Kumar. Every incision, dissection, and suture is directed in real-time by your surgeon. The system translates hand motions into precise instrument actions, adding tremor filtration and motion scaling.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">No. The robotic system is computer-assisted but controlled entirely by Dr. Kumar. Every incision, dissection and suture is directed by your surgeon in real time.</p>
                     </div>
                 </div>
 
@@ -589,7 +589,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-655 text-sm md:text-base leading-relaxed">The incision sizes are identical, so recovery timelines are highly similar (typically 1 to 2 weeks). However, the wrist-controlled precision of the robot reduces local internal bruising, meaning patients often report less localized muscle soreness in the first 48 hours.</p>
+                        <p class="text-slate-655 text-sm md:text-base leading-relaxed">Incision sizes are the same, so recovery is similar at one to two weeks. The wristed precision of the robot reduces internal bruising, so many report less soreness in the first 48 hours.</p>
                     </div>
                 </div>
             </div>
@@ -604,7 +604,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-655 text-sm md:text-base leading-relaxed">Yes. Because robotic-assisted tools pivot cleanly at the trocar port interface, there is less torque and stretching applied to the abdominal wall muscles. This helps minimize physical incision soreness and limits the need for strong pain medications.</p>
+                        <p class="text-slate-655 text-sm md:text-base leading-relaxed">Yes. Robotic instruments pivot cleanly at the port, so less torque reaches the abdominal wall muscles. That reduces incision soreness and the need for strong pain medication.</p>
                     </div>
                 </div>
 

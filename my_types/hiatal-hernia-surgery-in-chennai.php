@@ -357,7 +357,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A hiatal hernia occurs when the upper part of the stomach slips upwards through the opening in the diaphragm (the hiatus) into the chest cavity. This displacement weakens the natural valve between the esophagus and stomach, allowing gastric acid to escape upwards and cause chronic acid reflux (GERD).</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A hiatal hernia is the upper stomach slipping through the diaphragm opening into the chest. That weakens the valve between esophagus and stomach, which is why reflux follows.</p>
                     </div>
                 </div>
 
@@ -381,7 +381,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Surgery is recommended when GERD symptoms fail to respond to proton-pump inhibitor (PPI) medications, when a large paraesophageal hernia poses a risk of strangulation or volvulus, or when complications like severe esophageal inflammation, strictures, or bleeding arise.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">When reflux symptoms fail to respond to proton-pump inhibitors, when a large paraesophageal hernia risks strangulation, or when complications such as severe inflammation, stricture or bleeding develop.</p>
                     </div>
                 </div>
             </div>
@@ -396,7 +396,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">It is a minimally invasive (laparoscopic or robotic) procedure. The surgeon pulls the stomach back down into the abdomen, closes the widened opening in the diaphragm (cruroraphy), and wraps the top of the stomach around the lower esophagus (fundoplication) to create a new anti-reflux valve.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">A keyhole or robotic procedure. The stomach is drawn back into the abdomen, the widened diaphragm opening is closed, and the upper stomach is wrapped around the esophagus.</p>
                     </div>
                 </div>
 
@@ -408,7 +408,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Patients must follow a specialized soft/liquid diet for about 2 to 4 weeks. Because of temporary swelling around the new valve, eating solid, hard, or dry foods too early can cause swallowing difficulty. Sticking to small, frequent, soft meals ensures smooth healing.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">A soft or liquid diet for two to four weeks. Swelling around the new valve makes solid or dry food hard to swallow, so small frequent soft meals help healing.</p>
                     </div>
                 </div>
 
@@ -420,7 +420,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Hospital stay is typically 1 to 2 days. Most patients return to light activities and desk work within 1 to 2 weeks. However, heavy lifting, strenuous physical exercise, and core straining should be strictly avoided for 6 weeks to allow the diaphragm to heal fully around the repair.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Hospital stay is usually one to two days, with desk work resuming within one to two weeks. Avoid heavy lifting and core straining for six weeks while the diaphragm heals.</p>
                     </div>
                 </div>
             </div>

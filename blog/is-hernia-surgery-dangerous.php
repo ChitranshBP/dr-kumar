@@ -274,9 +274,7 @@ require_once __DIR__ . '/../includes/header.php';
 
                         <div class="faq-item bg-slate-50 rounded-2xl border border-slate-200 p-6">
                             <h3 class="font-bold text-slate-900 text-lg mb-2">Q2: How dangerous is an untreated stomach hernia?</h3>
-                            <p class="text-slate-600 text-sm md:text-base leading-relaxed m-0">
-                                An untreated stomach (ventral or umbilical) hernia is dangerous because it can cause bowel incarceration or strangulation. If intestine becomes trapped in the muscle opening, blood flow is cut off, creating a life-threatening emergency within hours.
-                            </p>
+                            <p class="text-slate-600 text-sm md:text-base leading-relaxed m-0">An untreated ventral or umbilical hernia can trap bowel, cutting off its blood supply. That is incarceration or strangulation, and it becomes a life-threatening emergency within hours.</p>
                         </div>
 
                         <div class="faq-item bg-slate-50 rounded-2xl border border-slate-200 p-6">

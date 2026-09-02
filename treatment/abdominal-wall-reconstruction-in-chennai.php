@@ -257,7 +257,7 @@ require __DIR__ . '/../includes/header.php';
                 </button>
                 <div class="faq-content hidden px-6 pb-5">
                     <div class="h-px bg-slate-200 mb-4"></div>
-                    <p class="text-slate-600 text-sm">AWR is a more comprehensive approach that addresses the entire abdominal wall integrity, not just the hernia defect. It uses advanced techniques like component separation and TAR to restore function and provide lasting results for complex cases.</p>
+                    <p class="text-slate-600 text-sm">AWR restores the whole abdominal wall rather than just patching the defect, using techniques such as component separation and TAR to rebuild function in complex cases.</p>
                 </div>
             </div>
 
@@ -316,7 +316,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">Unlike a simple hernia repair where the hole is patched with a mesh or stitched shut, Abdominal Wall Reconstruction (AWR) involves restoring the normal function and shape of the abdominal muscles. The surgeon moves and reconstructs the muscle layers (component separation) to bring the midline muscles back together, restoring core strength and structural integrity.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A simple repair patches the hole with mesh or stitches. Abdominal wall reconstruction restores the normal function and shape of the abdominal muscles, which large complex defects need.</p>
                     </div>
                 </div>
 
@@ -328,7 +328,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">AWR is recommended for patients with large complex ventral/incisional hernias, loss of domain (where abdominal organs reside outside the cavity in a large hernia sac), recurrent hernias that failed previous repairs, or significant abdominal muscle separation (severe diastasis recti) with functional back and core problems.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Large complex ventral or incisional hernias, loss of domain where organs sit outside the cavity, recurrent hernias after failed repairs, and severe muscle separation causing back and core problems.</p>
                     </div>
                 </div>
 
@@ -355,7 +355,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">AWR uses high-quality, large-sized synthetic or biological meshes. The mesh is carefully placed in a retrorectus or preperitoneal space (behind the abdominal muscles) so that it is isolated from the intestines. This promotes optimal tissue integration and provides permanent reinforcement.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Large synthetic or biological mesh, placed in the retrorectus or preperitoneal space behind the muscles and away from the intestines, which encourages integration and gives permanent reinforcement.</p>
                     </div>
                 </div>
 
@@ -367,7 +367,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Due to the complexity of the procedure, hospital stays range from 2 to 4 days. Most patients return to light activities and desk jobs within 2 to 3 weeks. However, wearing a supportive abdominal binder is required for 6 to 8 weeks, and core workouts or heavy lifting must be avoided during this healing window.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Hospital stay is two to four days, with desk work resuming in two to three weeks. A support binder is worn for six to eight weeks, avoiding core work and heavy lifting.</p>
                     </div>
                 </div>
 
@@ -379,7 +379,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Component separation is a surgical technique where the lateral muscles of the abdomen (the obliques) are released or separated. This release creates extra sliding flexibility, allowing the rectus (midline) muscles to be pulled back to the center and stitched closed over massive abdominal defects without tension.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The lateral oblique muscles are released so that the midline rectus muscles can slide back together and close over a large defect without tension.</p>
                     </div>
                 </div>
             </div>

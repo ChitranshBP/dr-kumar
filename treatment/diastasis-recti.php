@@ -240,7 +240,7 @@ require __DIR__ . '/../includes/header.php';
                 </button>
                 <div class="faq-content hidden px-6 pb-6 text-slate-600 leading-relaxed">
                     <div class="h-px bg-slate-200 mb-4"></div>
-                    <p>No. In a hernia, there is a physical hole in the fascia through which organs can push and become trapped. In Diastasis Recti, the midline fascia is continuous but severely thinned, stretched, and weakened. While organs bulge outward, they cannot become entrapped.</p>
+                    <p>No. A hernia has a physical hole in the fascia through which tissue can push and become trapped. In diastasis the midline fascia is continuous but stretched and thin.</p>
                 </div>
             </div>
 
@@ -251,7 +251,7 @@ require __DIR__ . '/../includes/header.php';
                 </button>
                 <div class="faq-content hidden px-6 pb-6 text-slate-600 leading-relaxed">
                     <div class="h-px bg-slate-200 mb-4"></div>
-                    <p>Yes. Because the central fascia is stretched thin and weak, many patients with Diastasis Recti simultaneously develop true umbilical hernias or epigastric hernias. When performing surgical correction, Dr. Kumar routinely repairs both the diastasis and the hernia together.</p>
+                    <p>Yes. Because the central fascia is thin and weak, umbilical or epigastric hernias often develop alongside it. Dr. Kumar repairs the diastasis and the hernia in one operation.</p>
                 </div>
             </div>
 
@@ -262,7 +262,7 @@ require __DIR__ . '/../includes/header.php';
                 </button>
                 <div class="faq-content hidden px-6 pb-6 text-slate-600 leading-relaxed">
                     <div class="h-px bg-slate-200 mb-4"></div>
-                    <p>Minimally invasive methods significantly speed recovery. Patients are typically mobile on the day of surgery, discharged within 1–2 days, and can return to desk work in 10–14 days. An abdominal binder must be worn for 6 weeks, and heavy lifting is restricted during this period.</p>
+                    <p>Patients are usually mobile the same day, discharged within one to two days, and back at desk work in ten to fourteen days. A binder is worn for six weeks.</p>
                 </div>
             </div>
 
@@ -273,7 +273,7 @@ require __DIR__ . '/../includes/header.php';
                 </button>
                 <div class="faq-content hidden px-6 pb-6 text-slate-600 leading-relaxed">
                     <div class="h-px bg-slate-200 mb-4"></div>
-                    <p>Mild diastasis (separation under 2 cm) can improve or resolve with structured core therapy under professional guidance. However, severe separations (greater than 2.5–3 cm) with significant connective tissue stretching rarely return to normal with exercise alone, requiring surgical plication to restore functional core stability.</p>
+                    <p>Mild separation under two centimeters can improve with structured core therapy. Severe separation beyond about three centimeters rarely recovers with exercise alone and needs surgical plication.</p>
                 </div>
             </div>
         </div>

@@ -401,7 +401,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">TAPP stands for Transabdominal Preperitoneal repair. Under general anesthesia, the surgeon accesses the hernia defect through small ports in the abdominal cavity, makes a precise cut in the peritoneum, places a synthetic mesh over the defect, and then tightly closes the peritoneum flap over the mesh to isolate it from internal organs.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">TAPP is transabdominal preperitoneal repair. Under general anesthesia the surgeon reaches the defect through small ports in the abdominal cavity, opens the peritoneum, places mesh, then closes the lining.</p>
                     </div>
                 </div>
 
@@ -412,7 +412,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAPP is preferred for large, complicated, sliding, or recurrent groin hernias where previous surgery makes extraperitoneal workspace creation difficult. It is also selected when full pelvic inspection is needed to evaluate other potential wall defects on both sides.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAPP suits large, complicated, sliding or recurrent groin hernias where previous surgery makes the extraperitoneal space hard to create. It also allows full pelvic inspection of both sides.</p>
                     </div>
                 </div>
 
@@ -434,7 +434,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, TAPP is exceptionally suited for bilateral (both sides) inguinal hernias. Because the surgeon operates from inside the abdominal cavity, they can access and repair both left and right groin defects through the same set of three small abdominal incisions, saving the patient from a second separate procedure.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, TAPP suits bilateral groin hernias particularly well. Working from inside the abdomen, the surgeon repairs both sides through the same three small incisions, avoiding a second operation.</p>
                     </div>
                 </div>
             </div>
@@ -459,7 +459,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, using high-quality synthetic mesh is standard for TAPP repairs. The mesh provides the necessary reinforcing scaffold to prevent the hernia from returning. Suture-only repairs are not typically performed laparoscopically due to significantly higher recurrence rates.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, good-quality synthetic mesh is standard for TAPP. It provides the reinforcing scaffold that prevents return. Suture-only repair is not usually done laparoscopically because recurrence is much higher.</p>
                     </div>
                 </div>
 
@@ -481,7 +481,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAPP is preferred over open surgery for patients seeking faster recovery, minimal pain, and superior cosmetic results. It is especially indicated for recurrent hernias (where a previous open surgery failed), bilateral hernias, and when the doctor needs to evaluate the peritoneal cavity for other issues.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAPP suits patients wanting faster recovery, less pain and better cosmetic results. It is especially useful for recurrent hernias after failed open surgery, bilateral hernias, and when the cavity needs inspection.</p>
                     </div>
                 </div>
             </div>

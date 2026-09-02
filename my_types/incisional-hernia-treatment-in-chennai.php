@@ -597,7 +597,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An incisional hernia is a protrusion of tissue or organs that occurs through a scar left by a previous abdominal surgery. It happens because the surgical cut weakens the abdominal muscles and connective tissues, allowing a new defect or gap to open over time under intra-abdominal pressure.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An incisional hernia is tissue pushing through the scar of a previous abdominal operation. The surgical cut weakens the muscle wall, which never regains its full original strength.</p>
                     </div>
                 </div>
 
@@ -609,7 +609,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Key risk factors include wound infections after the initial surgery (which significantly weaken scar healing), obesity, poorly controlled diabetes, smoking, malnutrition, steroid use, emergency surgeries, or premature heavy lifting and strenuous physical activity before the initial incision had healed completely.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Wound infection after the original operation is the biggest factor. Obesity, poorly controlled diabetes, smoking, malnutrition, steroids, emergency surgery and lifting too soon all raise the risk.</p>
                     </div>
                 </div>
 
@@ -621,7 +621,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, many incisional hernias are repaired laparoscopically or robotically. Dr. Kumar utilizes advanced minimally invasive techniques like eTEP retrorectus repairs. This approach accesses the defect through small ports away from the old scar, minimizing wound infections and resulting in significantly less recovery pain.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. Dr. Kumar uses minimally invasive techniques including eTEP retrorectus repair, reaching the defect through small ports away from the old scar, which lowers wound infection and pain.</p>
                     </div>
                 </div>
             </div>
@@ -636,7 +636,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Because the repair is done in tissues that are already scarred and weakened by previous surgical trauma, normal healing is compromised. However, using advanced sublay mesh placement techniques (like eTEP) and large medical-grade meshes lowers the recurrence rates to under 2–5%, compared to over 30% for simple suture closures.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The repair sits in tissue already scarred by previous surgery, so healing is compromised. Sublay mesh techniques bring recurrence down to roughly two to five percent, against over thirty for suture closure.</p>
                     </div>
                 </div>
 
@@ -648,7 +648,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most incisional hernias develop within the first 1 to 2 years after the initial surgery when the abdominal wall scar tissue is still gaining strength. However, they can develop many years later if the patient experiences sudden weight gain, chronic cough, prostatic straining, or severe abdominal weakness.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most appear within one to two years of the original operation, while the scar is still gaining strength. Later ones usually follow weight gain, chronic cough or persistent straining.</p>
                     </div>
                 </div>
 
@@ -660,7 +660,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For laparoscopic/robotic repairs, patients are discharged in 1–3 days. Wearing a comfortable abdominal binder is recommended for 6 weeks to support the reconstructed wall. Strenuous exercises and heavy lifting (above 5 kg) must be strictly avoided for 6 weeks to ensure the mesh incorporates completely.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Discharge is one to three days after keyhole repair. Wear an abdominal binder for six weeks, and avoid strenuous exercise and lifting over five kilograms while the mesh integrates.</p>
                     </div>
                 </div>
             </div>

@@ -782,7 +782,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">In adults, umbilical hernias are acquired rather than congenital. They are caused by increased intra-abdominal pressure that pushes tissue through the natural weak spot around the navel (belly button). Contributing factors include obesity, multiple pregnancies, fluid in the abdominal cavity (ascites), chronic heavy lifting, or chronic coughing.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">In adults umbilical hernias are acquired, not congenital. Raised pressure inside the abdomen pushes tissue through the natural weak point around the navel, and the defect widens over time.</p>
                     </div>
                 </div>
 
@@ -794,7 +794,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Unlike in infants where umbilical hernias often close on their own by age 4–5, umbilical hernias in adults do not heal and tend to enlarge over time. Surgery is strongly recommended because the narrow neck of the navel defect carries a high risk of bowel entrapment (incarceration) or strangulation, which is a surgical emergency.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">In infants they often close by age four or five. In adults they do not, and they enlarge. The narrow neck carries a high risk of bowel entrapment, so repair is advised.</p>
                     </div>
                 </div>
 
@@ -806,7 +806,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">An umbilical hernia occurs directly through the center of the navel (the belly button ring itself). A paraumbilical hernia occurs through a defect in the muscle layer immediately adjacent to (just above, below, or to the side of) the navel. Clinically, both are treated similarly using the same surgical techniques.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">An umbilical hernia comes through the navel ring itself. A paraumbilical hernia comes through the muscle just above, below or beside it. Both are treated the same way.</p>
                     </div>
                 </div>
             </div>
@@ -821,7 +821,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For small defects under 1 cm, a simple open repair with stitches might be sufficient. For larger hernias, Dr. Kumar performs advanced laparoscopic or robotic repair (like eTEP RS or IPOM). Minimally invasive approaches use small ports, reduce wound infection rates, preserve the cosmetic shape of the belly button, and accelerate recovery.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Defects under one centimeter may need only stitches. Larger ones are repaired laparoscopically or robotically, which lowers wound infection, preserves the shape of the navel and speeds recovery.</p>
                     </div>
                 </div>
 
@@ -833,7 +833,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, for adult umbilical hernias larger than 1 to 2 cm, using a medical-grade mesh is standard practice. Scientific studies confirm that mesh repair lowers the recurrence rate to below 1–2%, whereas repairs closed with stitches alone fail and recur in up to 10–20% of cases.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, for adult hernias above one to two centimeters. Mesh brings recurrence below two percent, whereas closure with stitches alone fails in up to twenty percent of cases.</p>
                     </div>
                 </div>
 
@@ -845,7 +845,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Post-surgery prevention involves wearing a supportive abdominal binder during the 6-week healing phase, maintaining a healthy weight, avoiding heavy core straining or lifting objects over 5 kg, preventing chronic constipation with a high-fiber diet, and avoiding smoking which triggers chronic coughing and weakens muscle collagen.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Wear a support binder for six weeks, keep your weight steady, avoid lifting over five kilograms, prevent constipation with fiber, and stop smoking, which drives the cough that weakens repair.</p>
                     </div>
                 </div>
             </div>

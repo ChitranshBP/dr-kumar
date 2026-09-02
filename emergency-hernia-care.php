@@ -362,7 +362,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">Strangulation occurs when blood supply is cut off. Warning signs include: severe sudden pain, bulge that's hard and tender, skin redness or discoloration, fever, nausea/vomiting, and inability to pass gas. If you experience these, seek emergency care immediately.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">Strangulation means the blood supply is cut off. Warning signs are sudden severe pain, a hard tender bulge, red or discolored skin, fever, vomiting, and inability to pass gas.</p>
                     </div>
                 </div>
 
@@ -374,7 +374,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Have ready: your name and contact details, description of symptoms and when they started, any fever readings, your current medications, and whether you've had previous hernia surgery. This helps us assess urgency and prepare for your arrival.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Your name and contact details, what the symptoms are and when they started, any fever readings, your current medicines, and whether you have had hernia surgery before.</p>
                     </div>
                 </div>
 
@@ -386,7 +386,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Emergency hernia surgery typically involves releasing trapped tissue, checking for damage, repairing the hernia with mesh if appropriate, and possibly removing dead tissue. It's usually done under general anesthesia. Recovery may be longer than planned surgery but the goal is to prevent life-threatening complications.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Trapped tissue is released, the bowel is checked for damage, mesh is placed if appropriate, and dead tissue is removed if present. It is done under general anesthesia.</p>
                     </div>
                 </div>
             </div>
@@ -401,7 +401,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">If you have emergency warning signs (severe pain, skin changes, fever, vomiting, firm bulge), do not wait. Contact us or go to the ER immediately. Tissue damage can occur within hours. For mild symptoms, you can schedule a regular appointment.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">With severe pain, skin changes, fever, vomiting or a firm bulge, do not wait. Go to the emergency department, because tissue damage happens within hours. Mild symptoms can wait for an appointment.</p>
                     </div>
                 </div>
 

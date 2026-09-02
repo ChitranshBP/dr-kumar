@@ -62,9 +62,7 @@ require __DIR__ . '/../includes/header.php';
                 <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-6 leading-tight">
                     What happens after you're anesthetized determines everything
                 </h2>
-                <p class="text-slate-600 leading-relaxed mb-4">
-                    No two hernias - and no two patients - are identical. While the broad approach (open, laparoscopic, or robotic) is chosen in clinic, the actual operation is customized in real time: how the sac is handled, whether the defect is closed, which plane the mesh sits in, whether a component separation is needed, and how nerves and blood supply are preserved.
-                </p>
+                <p class="text-slate-600 leading-relaxed mb-4">No two hernias are identical. The broad approach is chosen in clinic, but sac handling, defect closure, mesh plane, component separation and nerve preservation are decided during the operation itself.</p>
                 <p class="text-slate-600 leading-relaxed mb-4">
                     These intra-operative decisions are what separate a routine hernia repair from a durable reconstruction - and they require both training and judgement. The list below covers the special techniques most often deployed in Dr. Kumar's practice.
                 </p>
@@ -229,7 +227,7 @@ require __DIR__ . '/../includes/header.php';
                     <span class="faq-symbol text-2xl font-light bg-brand-50 text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                 </button>
                 <div class="faq-content hidden px-5 pb-5">
-                    <p class="text-slate-600 leading-relaxed">You will not know the exact intra-operative plan in advance, because the final decision is made once the anatomy is seen directly. What we <em>can</em> plan in clinic is the broad approach (laparoscopic vs robotic vs open), the likely mesh plane, and the contingency techniques. Dr. Kumar explains these possibilities in detail at your consultation and again in the consent discussion.</p>
+                    <p class="text-slate-600 leading-relaxed">You will not know the exact intra-operative plan in advance, because the final decision follows what the anatomy shows. What is planned in clinic is the broad approach.</p>
                 </div>
             </div>
 
@@ -239,7 +237,7 @@ require __DIR__ . '/../includes/header.php';
                     <span class="faq-symbol text-2xl font-light bg-brand-50 text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                 </button>
                 <div class="faq-content hidden px-5 pb-5">
-                    <p class="text-slate-600 leading-relaxed">When done by an experienced abdominal wall reconstruction surgeon, both anterior and posterior component separation are safe and well-tolerated. They are reserved for defects that genuinely cannot be closed without them. TAR in particular preserves the neurovascular bundles better than classic anterior release and is the preferred approach for complex midline defects.</p>
+                    <p class="text-slate-600 leading-relaxed">Both anterior and posterior component separation are safe in experienced hands, and are reserved for defects that cannot close without them. TAR preserves the nerve and blood supply better.</p>
                 </div>
             </div>
 
@@ -249,7 +247,7 @@ require __DIR__ . '/../includes/header.php';
                     <span class="faq-symbol text-2xl font-light bg-brand-50 text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                 </button>
                 <div class="faq-content hidden px-5 pb-5">
-                    <p class="text-slate-600 leading-relaxed">Wherever the tissue quality and tension allow, yes - the defect is closed primarily. This restores the functional anatomy of the abdominal wall, distributes mesh tension evenly, and has been shown to improve both recurrence rates and patient-reported outcomes. In some very large or contaminated defects, a bridging repair may be necessary.</p>
+                    <p class="text-slate-600 leading-relaxed">Wherever tissue quality and tension allow, yes. Closing it restores the working anatomy of the wall and spreads mesh tension evenly. Very large or contaminated defects may need bridging.</p>
                 </div>
             </div>
 
@@ -259,7 +257,7 @@ require __DIR__ . '/../includes/header.php';
                     <span class="faq-symbol text-2xl font-light bg-brand-50 text-brand-700 w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-sm">+</span>
                 </button>
                 <div class="faq-content hidden px-5 pb-5">
-                    <p class="text-slate-600 leading-relaxed">In inguinal hernia repair, the ilioinguinal, iliohypogastric, and lateral femoral cutaneous nerves are identified where they are encountered and protected. In laparoscopic and robotic repairs, the nerves are usually deep to the dissection plane and are preserved by staying in the correct anatomical space and avoiding tack or suture placement in the "triangle of pain".</p>
+                    <p class="text-slate-600 leading-relaxed">In open groin repair the ilioinguinal, iliohypogastric and lateral femoral cutaneous nerves are identified and protected. In keyhole repair they lie deeper, and are spared by avoiding tacks in the triangle of pain.</p>
                 </div>
             </div>
         </div>

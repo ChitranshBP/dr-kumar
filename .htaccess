@@ -117,6 +117,11 @@ RewriteRule ^blog/?$ blog.php [L,NC]
 RewriteRule ^hernia/?$ hernia.php [L,NC]
 RewriteRule ^treatment/?$ treatment.php [L,NC]
 
+# 1b. /treatment/hernia-surgery was a byte-identical clone of the Chennai pillar
+# page, sharing its meta title and description and competing for the same term.
+# It had no inbound internal links. Consolidated into the page it duplicated.
+RewriteRule ^treatment/hernia-surgery(\.php)?/?$ /treatment/hernia-surgeon-in-chennai [R=301,L,NC]
+
 # 2. Redirect /index or /index.php to /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(\.php)? [NC]
 RewriteRule ^index(\.php)?$ / [R=301,L]

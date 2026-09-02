@@ -636,7 +636,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A ventral hernia is a bulge of tissues or organs pushing through a weak spot or opening in the anterior abdominal wall muscles. It can occur anywhere on the midline or lateral abdomen. Common types include epigastric hernias (above the navel), umbilical hernias (at the navel), and incisional hernias (at previous surgical scars).</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A ventral hernia is tissue or organs bulging through a weak spot in the front abdominal wall. It can appear anywhere along the midline or to the side.</p>
                     </div>
                 </div>
 
@@ -648,7 +648,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The primary symptom is a visible bulge or lump in the abdomen that might be more prominent when standing, straining, or coughing. Other symptoms include localized discomfort, a dull ache or pressure, skin changes or redness over the bulge, and pain that worsens during physical activity or heavy lifting.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">A visible bulge that becomes more obvious on standing, straining or coughing, along with local discomfort, a dull ache or pressure, and pain that worsens with activity or lifting.</p>
                     </div>
                 </div>
 
@@ -660,7 +660,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Diagnosis starts with a physical examination by Dr. Kumar. He will ask you to stand, cough, or strain to make the hernia visible. To evaluate the precise size of the muscle defect, the contents of the hernia, and to plan the surgical reconstruction, an ultrasound scan or abdominal CT scan is typically ordered.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Diagnosis starts with a physical examination, standing, coughing or straining to make the hernia visible. An ultrasound or CT scan then measures the defect and shows its contents for planning.</p>
                     </div>
                 </div>
             </div>
@@ -675,7 +675,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Ventral hernias are repaired using open mesh repair or minimally invasive techniques (laparoscopic/robotic). Dr. Kumar specializes in advanced retrorectus mesh placement (eTEP rs and robotic TAR), where the mesh is placed between muscle layers instead of inside the abdominal cavity, providing superior strength and faster recovery.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Ventral hernias are repaired open or by keyhole and robotic techniques. Dr. Kumar favors retrorectus mesh placement, eTEP RS and robotic TAR, putting mesh between muscle layers for strength.</p>
                     </div>
                 </div>
 
@@ -687,7 +687,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Obesity and poorly controlled diabetes significantly increase the risk of surgical site infections, delayed wound healing, and hernia recurrence. Dr. Kumar works closely with patients to optimize blood sugar control and weight management before elective surgery to ensure the safest procedure and best long-term outcome.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Obesity and poorly controlled diabetes raise the risk of wound infection, slow healing and recurrence. Blood sugar and weight are optimized before elective surgery to make the operation as safe as possible.</p>
                     </div>
                 </div>
 
@@ -699,7 +699,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Precautions include wearing a prescribed supportive abdominal binder for 4 to 6 weeks, avoiding any heavy lifting above 5 kg, avoiding core-straining abdominal exercises, preventing constipation (by eating high-fiber foods and drinking plenty of water), and immediately reporting any fever or unusual wound drainage.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Wear the prescribed binder for four to six weeks, avoid lifting above five kilograms and core straining, prevent constipation with fiber and fluids, and report any fever or wound drainage immediately.</p>
                     </div>
                 </div>
             </div>

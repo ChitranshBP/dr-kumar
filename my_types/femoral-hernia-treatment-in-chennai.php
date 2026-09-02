@@ -65,7 +65,7 @@ require __DIR__ . '/../includes/header.php';
                         </div>
                         <div>
                             <p class="text-base text-rose-950 font-bold mb-1">Higher Strangulation Risk</p>
-                            <p class="text-sm text-rose-800 leading-relaxed font-medium">Femoral hernias have a significantly higher risk of strangulation (up to 40%) compared to other hernias, making early surgical repair important.</p>
+                            <p class="text-sm text-rose-800 leading-relaxed font-medium">Femoral hernias carry a much higher strangulation risk than other types, up to 40 percent. The femoral canal is tight and rigid, so trapped tissue easily loses its blood supply.</p>
                         </div>
                     </div>
                 </div>
@@ -653,7 +653,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A femoral hernia occurs when tissue (usually fat or a loop of intestine) pushes through a weak spot in the wall of the femoral canal, located just below the groin crease. It is much more common in women than in men, largely due to the wider shape of the female pelvis.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">A femoral hernia is tissue pushing through a weak spot in the femoral canal, just below the groin crease. It is far more common in women and strangulates easily.</p>
                     </div>
                 </div>
 
@@ -665,7 +665,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Femoral hernias have a significantly higher risk of strangulation (up to 40%) compared to other hernia types. Because the femoral canal is tight and rigid, herniated tissue can easily become trapped, cutting off its blood supply, which is a life-threatening emergency.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Femoral hernias carry a much higher strangulation risk than other types, up to 40 percent. The femoral canal is tight and rigid, so trapped tissue easily loses its blood supply.</p>
                     </div>
                 </div>
 
@@ -677,7 +677,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The main symptom is a small bulge or lump just below the groin crease or in the upper thigh. It may cause a dull ache, particularly when standing, lifting, or straining. If the hernia becomes strangulated, symptoms include severe sudden pain, nausea, vomiting, and redness over the bulge.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">A small bulge just below the groin crease or in the upper thigh, often with a dull ache on standing or lifting. Severe pain with vomiting suggests strangulation.</p>
                     </div>
                 </div>
             </div>
@@ -692,7 +692,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Dr. Kumar specializes in laparoscopic and robotic femoral hernia repairs. Through 3 tiny incisions, the hernia is reduced and a surgical mesh is placed to reinforce the weakened canal from behind, ensuring a secure and low-pain repair.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Dr. Kumar repairs femoral hernias laparoscopically or robotically. Through three tiny incisions the hernia is reduced and mesh reinforces the weakened canal from behind.</p>
                     </div>
                 </div>
 
@@ -704,7 +704,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Laparoscopic repair allows for rapid recovery. Most patients return home the same day (daycare surgery). You can walk and resume light activities immediately, return to desk work in a week, and resume full physical activities/heavy lifting in 4 to 6 weeks.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most patients go home the same day. Walking and light activity resume immediately, desk work within a week, and full physical activity after four to six weeks.</p>
                     </div>
                 </div>
 
@@ -716,7 +716,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">No. Because of the extremely high risk of bowel entrapment and strangulation, trusses or waiting are not recommended. Almost all diagnosed femoral hernias should be repaired surgically as soon as possible to prevent a life-threatening emergency.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">No. The risk of bowel entrapment is too high for trusses or watchful waiting. Almost all diagnosed femoral hernias should be repaired as soon as possible.</p>
                     </div>
                 </div>
             </div>

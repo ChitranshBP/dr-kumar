@@ -495,7 +495,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">TEP stands for Totally Extraperitoneal. Its key distinction is that the entire procedure is performed between the abdominal muscles and the peritoneum lining. Because the surgeon never enters the abdominal cavity, there is zero contact with bowels or other organs, drastically lowering risk of adhesions and post-op complications.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">TEP is totally extraperitoneal repair. The whole procedure happens between the abdominal muscles and the peritoneum, so the surgeon never enters the abdominal cavity itself.</p>
                     </div>
                 </div>
 
@@ -506,7 +506,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TEP is highly recommended for patients with primary (first-time) inguinal (groin) hernias, as well as bilateral hernias (hernias on both sides). Because both sides can be accessed through the same three keyhole incisions, TEP is extremely efficient and comfortable.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TEP suits primary first-time groin hernias and hernias on both sides. Both sides are reached through the same three keyhole incisions, which makes it efficient and comfortable.</p>
                     </div>
                 </div>
 
@@ -517,7 +517,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Typically, TEP repair takes between 30 and 60 minutes. If both left and right sides are being repaired simultaneously, the procedure might take slightly longer, around 60 to 90 minutes. It is usually done as a daycare procedure, meaning you can return home the same day.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TEP repair usually takes 30 to 60 minutes, or 60 to 90 if both sides are repaired together. It is normally a day-care procedure, so you go home the same day.</p>
                     </div>
                 </div>
 
@@ -528,7 +528,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The risk of chronic post-operative pain is extremely low (under 1–2%) with TEP repair, and significantly lower than open surgery. This is because the mesh is placed without requiring heavy tacking or suture fixation near the sensory nerves in the groin area.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The risk of lasting post-operative pain is very low, under two percent, and lower than open surgery, because the mesh needs no heavy tacking or sutures near the groin nerves.</p>
                     </div>
                 </div>
             </div>
@@ -542,7 +542,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, TEP hernia repairs are performed under general anesthesia. This ensures that your abdominal muscles are completely relaxed during the procedure, allowing the surgeon to inflate the preperitoneal workspace safely and position the mesh with absolute accuracy.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, TEP is done under general anesthesia. That fully relaxes the abdominal muscles so the preperitoneal space can be inflated safely and the mesh positioned accurately.</p>
                     </div>
                 </div>
 
@@ -553,7 +553,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most patients return to desk jobs and light daily activities within 5 to 7 days. Strenuous exercise, running, swimming, and heavy lifting (above 5 kg) should be strictly avoided for 4 to 6 weeks to let the tissue incorporate into the mesh permanently.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most return to desk work and light activity within five to seven days. Avoid strenuous exercise, running, swimming and lifting above five kilograms for four to six weeks.</p>
                     </div>
                 </div>
 
@@ -564,7 +564,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. Because the mesh is placed in the retroperitoneal/preperitoneal space, it is naturally isolated from the abdominal organs by the peritoneum membrane. This eliminates the risk of bowel adhesions or mesh erosion into abdominal organs, which is a major safety advantage.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. The mesh sits in the preperitoneal space, separated from the abdominal organs by the peritoneum. That removes the risk of bowel adhesions or mesh eroding into organs.</p>
                     </div>
                 </div>
 
@@ -575,7 +575,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. In very rare cases where surgical workspace visibility is limited by heavy scarring from previous pelvic surgeries or bleeding, Dr. Kumar can safely convert the TEP procedure to a TAPP or open repair to guarantee the patient's safety and ensure a robust anatomical closure.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. Rarely, if heavy scarring from previous pelvic surgery or bleeding limits visibility, Dr. Kumar converts to TAPP or open repair to keep the patient safe and the closure sound.</p>
                     </div>
                 </div>
             </div>

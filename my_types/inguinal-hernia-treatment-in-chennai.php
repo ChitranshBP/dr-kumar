@@ -806,7 +806,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An inguinal hernia occurs when internal tissue (usually fat or part of the intestine) protrudes through a weak spot in the groin muscles (the inguinal canal). Common symptoms include a visible bulge in the groin that increases when standing or coughing, a dull ache or burning sensation, and a feeling of heaviness in the groin.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">An inguinal hernia is fat or intestine pushing through a weak spot in the groin muscles. It shows as a bulge that grows on standing or coughing, with aching or heaviness.</p>
                     </div>
                 </div>
 
@@ -818,7 +818,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Indirect inguinal hernias are congenital (present at birth) and occur when the inguinal canal fails to close properly before birth, allowing tissue to slip through. Direct inguinal hernias develop over time due to wear and tear, age, or chronic straining, which weakens the abdominal wall muscles in the groin.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Indirect hernias are congenital, where the inguinal canal fails to close before birth. Direct hernias develop later from wear, age and chronic straining that weakens the groin muscle wall.</p>
                     </div>
                 </div>
 
@@ -830,7 +830,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">No. An inguinal hernia is a mechanical defect in the muscle layer and cannot heal on its own. While a supportive truss can temporarily manage symptoms, surgical repair is the only definitive way to close the hole and prevent serious complications like bowel strangulation.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">No. It is a mechanical defect in the muscle layer and cannot heal itself. A truss may ease symptoms, but only surgery closes the hole and prevents strangulation.</p>
                     </div>
                 </div>
             </div>
@@ -845,7 +845,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Minimally invasive surgery (laparoscopic TEP/TAPP or robotic repair) is generally the gold standard. It involves making three tiny incisions, placing a supporting mesh, and yields a much faster recovery (often returning to desk work in 3–5 days) and less post-op pain than traditional open surgery.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Keyhole repair, laparoscopic TEP or TAPP or robotic, is the usual standard. Three tiny incisions, mesh reinforcement, less pain, and desk work often resumed within three to five days.</p>
                     </div>
                 </div>
 
@@ -857,7 +857,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Mild to moderate soreness is normal for the first few days and is easily managed with prescribed pain medications. Long-term chronic pain is very rare (under 1–2%), especially in laparoscopic repairs where the mesh is placed preperitoneally without trapping or stitching nerves.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Mild soreness for the first few days is normal and settles with simple pain relief. Lasting pain is rare, particularly after keyhole repair where mesh sits without trapping nerves.</p>
                     </div>
                 </div>
 
@@ -869,7 +869,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Most patients can walk immediately and resume light jogging or cycling within 2 weeks. However, heavy lifting (above 5 kg), core exercises, and contact sports should be avoided for 4 to 6 weeks to ensure that the mesh has strongly integrated with your muscles.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Walking is immediate and light jogging or cycling usually returns within two weeks. Avoid lifting over five kilograms, core work and contact sport for four to six weeks.</p>
                     </div>
                 </div>
             </div>

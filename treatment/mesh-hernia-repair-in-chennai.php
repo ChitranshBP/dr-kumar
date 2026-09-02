@@ -464,7 +464,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">Hernia mesh is a sterile, medical-grade woven grid sheet made of polypropylene, polyester, or biological tissue. It is placed over the abdominal wall defect. The mesh acts as a strong permanent scaffold that redistributes tissue tension, prompting your own collagen fibers to grow into the mesh pores and creating a highly durable repair.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">Hernia mesh is a sterile medical-grade woven sheet of polypropylene, polyester or biological tissue. Placed over the defect, it gives permanent reinforcement while your own tissue grows into it.</p>
                     </div>
                 </div>
 
@@ -475,7 +475,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Not all meshes are permanent. Standard synthetic meshes (polypropylene, polyester) are permanent and designed to stay in the body forever, providing lifelong wall support. Biological meshes and some absorbable synthetic meshes are temporary; they provide a scaffold that gradually dissolves as your body replaces it with native collagen.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Not all. Standard synthetic meshes of polypropylene or polyester are permanent. Biological and some absorbable synthetic meshes are temporary scaffolds that dissolve as your own collagen replaces them.</p>
                     </div>
                 </div>
 
@@ -486,7 +486,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Mesh infections are exceptionally rare (under 1%). Signs typically include a high fever, severe chills, persistent redness, localized heat, swelling, or purulent drainage from the surgical scars, or severe pain that starts weeks after surgery. If you display these signs, contact Dr. Kumar immediately.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Mesh infection is rare, under one percent. Warning signs are fever, chills, persistent redness, heat, swelling, discharge from the scars, or severe pain starting weeks after surgery.</p>
                     </div>
                 </div>
             </div>
@@ -500,7 +500,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. Small, primary groin hernias can be repaired without mesh using specialized suturing techniques like the Shouldice or Desarda repairs. However, suture-only repairs display recurrence rates that are significantly higher (above 15%) compared to mesh repairs (under 2%), which is why mesh is generally recommended.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. Small primary groin hernias can be repaired with suture techniques such as Shouldice or Desarda. But suture-only recurrence exceeds fifteen percent against under two with mesh.</p>
                     </div>
                 </div>
 
@@ -511,7 +511,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Synthetic mesh is made of durable polymers and is designed to remain in the body permanently to provide lifelong reinforcement. Biological mesh is made of processed human or animal dermal tissues; it is bio-absorbable and gradually dissolves over several months, being replaced by your own natural collagen fibers.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Synthetic mesh is a durable polymer that stays permanently. Biological mesh is processed human or animal dermal tissue that absorbs over several months and is replaced by your own collagen.</p>
                     </div>
                 </div>
 
@@ -522,7 +522,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Chronic groin pain is rare (under 2%) and is usually caused by nerve irritation rather than the mesh itself. Using advanced sutureless meshes (self-fixating micro-grips) or securing the mesh with biological glues instead of tacks reduces tissue disruption, resulting in extremely high comfort rates.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Chronic groin pain is rare, under two percent, and usually comes from nerve irritation rather than the mesh. Self-gripping mesh or glue fixation instead of tacks reduces it further.</p>
                     </div>
                 </div>
             </div>

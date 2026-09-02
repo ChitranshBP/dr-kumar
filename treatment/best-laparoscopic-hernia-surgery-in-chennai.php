@@ -199,9 +199,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-700 transition">eTEP (Extended View TEP)</h3>
-                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
-                            eTEP stands for extended view Totally Extraperitoneal repair for modern Laparoscopic and Robotic platforms. Dr.Kumar is an expert in the eTEP technique and often uses this technique for huge Ventral Hernias and Complex Hernias.
-                        </p>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">eTEP is extended view totally extraperitoneal repair. The surgeon works in the retrorectus space, behind the abdominal muscles but in front of the peritoneum, through three small ports.</p>
                     </div>
                 </div>
                 <div class="p-6 pt-0 border-t border-slate-50">
@@ -642,7 +640,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For desk-based work, most patients return within 5–7 days. For physically demanding jobs involving lifting or manual labor, a 3–4 week break is recommended. Dr. Kumar will provide a specific timeline based on your job type and recovery progress.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Desk work usually resumes in five to seven days. Physically demanding jobs need three to four weeks. Dr. Kumar sets a date based on your work and your recovery.</p>
                     </div>
                 </div>
 
@@ -653,7 +651,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. This is one of the biggest advantages of laparoscopic hernia repair. Both left and right groin hernias can be repaired through the same three small incisions in a single operation, avoiding the need for two separate surgeries.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes. This is one of the main advantages of keyhole repair. Both groin hernias are repaired through the same three small incisions in a single operation.</p>
                     </div>
                 </div>
 
@@ -664,7 +662,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">The cost of laparoscopic hernia surgery in Chennai typically ranges from INR 60,000 to INR 1,500,000 depending on factors such as the type of hernia, the mesh used, hospital choice, and room category. Most health insurance policies cover the procedure fully as it is medically necessary.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Cost depends on the hernia type, the mesh, the hospital and the room category. Most health insurance policies cover the procedure fully, since it is medically necessary.</p>
                     </div>
                 </div>
             </div>
@@ -678,7 +676,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Laparoscopic hernia repair is a well-established procedure with an excellent safety record. Serious complications are rare (less than 1%). The minimally invasive approach actually reduces infection risk compared to open surgery. Dr. Kumar will discuss your specific risk profile during consultation.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">It is well established with a strong safety record, and serious complications occur in under one percent. The keyhole approach carries less infection risk than open surgery.</p>
                     </div>
                 </div>
 
@@ -689,7 +687,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Laparoscopic surgery leaves only 3 very small marks (5–10 mm) which typically fade to barely visible marks within 6–12 months. This is a dramatic improvement over the 3–6 inch scar left by open hernia surgery. Most patients are very pleased with the cosmetic result.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Three marks of five to ten millimeters, which usually fade to barely visible within six to twelve months, against the three to six inch scar of open repair.</p>
                     </div>
                 </div>
 
@@ -700,7 +698,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Laparoscopic hernia repair with mesh has an excellent recurrence rate of less than 1–2%, similar to open mesh repair. Without mesh, recurrence rates are significantly higher (over 20%). Dr. Kumar uses only high-quality, FDA-approved meshes for durable, long-lasting repairs.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Under one to two percent with mesh, similar to open mesh repair. Without mesh it rises above twenty percent, which is why good-quality mesh is used.</p>
                     </div>
                 </div>
 
@@ -711,7 +709,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, laparoscopic surgery is highly effective for both direct and indirect inguinal hernias. In fact, during a laparoscopic procedure, Dr. Kumar can examine all potential groin weak spots and cover both direct and indirect spaces with a single, large anatomical mesh, minimizing future recurrence.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Yes, for both direct and indirect hernias. During keyhole repair Dr. Kumar can inspect every groin weak spot and cover both spaces with one large anatomical mesh.</p>
                     </div>
                 </div>
             </div>

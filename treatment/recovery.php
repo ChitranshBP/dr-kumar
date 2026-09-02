@@ -790,7 +790,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">You can typically take a shower 48 hours after surgery. Gently pat the incision area dry with a clean towel; do not rub the wound or submerge in baths, pools, or hot tubs until your surgeon confirms complete closure.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">You can usually shower 48 hours after surgery. Pat the incision dry with a clean towel. Do not rub it, and avoid baths, pools and hot tubs until cleared.</p>
                     </div>
                 </div>
 
@@ -802,7 +802,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Sleeping on your back with a pillow under your knees or on your side with a pillow between your legs is highly recommended to minimize tension on the abdominal repair. Avoid sleeping flat on your stomach for the first 2-3 weeks.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Sleep on your back with a pillow under your knees, or on your side with a pillow between your legs, to reduce tension on the repair. Avoid lying face down initially.</p>
                     </div>
                 </div>
 
@@ -814,7 +814,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Mild to moderate pain is normal for the first 3-5 days, easily managed by prescribed medications. You may experience occasional twinges, pulling sensations, or light muscle stiffness for up to 3-6 weeks as the tissues heal and mesh integrates.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Mild to moderate pain is normal for three to five days and settles with prescribed medication. Twinges and pulling sensations can continue for three to six weeks while tissue heals.</p>
                     </div>
                 </div>
             </div>
@@ -853,7 +853,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Standard light activities can resume within 2 weeks. However, heavy physical labor, contact sports, or lifting weights exceeding 10 kg must be completely avoided for at least 4-6 weeks to allow the muscle wall to regain full reinforcement.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Light activity resumes within two weeks. Heavy labor, contact sport and lifting above ten kilograms wait at least four to six weeks while the muscle wall regains strength.</p>
                     </div>
                 </div>
             </div>

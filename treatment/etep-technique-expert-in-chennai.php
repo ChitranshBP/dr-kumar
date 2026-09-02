@@ -384,7 +384,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">eTEP stands for extended view Totally Extraperitoneal repair. The surgeon enters the retrorectus space (behind the abdominal muscles but in front of the peritoneum lining) using three small keyholes, creates a spacious extraperitoneal workspace, closes the abdominal wall defect, and deploys a large reinforcing mesh without ever entering the abdominal organ cavity.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">eTEP is extended view totally extraperitoneal repair. The surgeon works in the retrorectus space, behind the abdominal muscles but in front of the peritoneum, through three small ports.</p>
                     </div>
                 </div>
 
@@ -395,7 +395,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Placing mesh in the retrorectus plane (behind the muscles) is highly secure. Abdominal pressure naturally pushes the mesh flat against the strong abdominal wall muscles rather than shifting it. This guarantees excellent structural reinforcement and reduces recurrence rates to near zero.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Very securely. Abdominal pressure pushes retrorectus mesh flat against the muscle wall rather than displacing it, which gives strong reinforcement and keeps recurrence very low.</p>
                     </div>
                 </div>
 
@@ -406,7 +406,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAR (Transversus Abdominis Release) is combined with eTEP for massive ventral or incisional hernias where the muscle edges have pulled far apart. Releasing the lateral muscle layer allows the central rectus muscles to be safely advanced together and closed under zero tension, supported by a giant mesh sheet.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">TAR is added for very large ventral or incisional hernias where the muscle edges have separated widely. Releasing the lateral layer lets the midline muscles close without tension.</p>
                     </div>
                 </div>
             </div>
@@ -420,7 +420,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">eTEP is used for complex wall reconstructions, so it usually involves a 1-3 day hospital stay. Most patients return to desk jobs in 2 to 3 weeks. However, core training, running, and lifting objects above 5 kg must be strictly avoided for 6 to 8 weeks to allow complete muscle healing.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Hospital stay is one to three days and desk work resumes in two to three weeks. Core training, running and lifting above five kilograms wait six to eight weeks.</p>
                     </div>
                 </div>
 
@@ -431,7 +431,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">It can be performed using both methods. Standard eTEP is highly successful using laparoscopic micro-instruments. For very complex cases involving transversus muscle release (TAR), advanced robotic arms (e.g. an advanced robotic system) provide high precision, stereoscopic 3D views, and extreme wrist articulation.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Both. Standard eTEP works well laparoscopically. For complex cases involving transversus release, robotic instruments add precision, three-dimensional vision and greater wrist articulation.</p>
                     </div>
                 </div>
 
@@ -442,7 +442,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Ideal candidates are patients with large ventral midline hernias, complex incisional hernias (scar failures), or recurrent hernias after prior open suture repairs. eTEP allows these patients to avoid massive, painful open scars and reduce wound complication rates drastically.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">Patients with large midline ventral hernias, complex incisional hernias after a failed scar, or recurrent hernias following open suture repair. It avoids a large painful open incision.</p>
                     </div>
                 </div>
             </div>

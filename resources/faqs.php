@@ -74,7 +74,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">A hernia occurs when an organ or tissue pushes through a weak spot in the surrounding muscle or connective tissue, most commonly in the abdominal wall. Causes include congenital weaknesses, aging, chronic coughing, heavy lifting, obesity, pregnancy, and previous surgical scars. Hernias do not heal on their own and typically require surgical repair.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">A hernia is an organ or tissue pushing through a weak spot in the muscle wall, usually in the abdomen. Causes include congenital weakness, aging, coughing, lifting, obesity, pregnancy and surgical scars.</p>
                     </div>
                 </div>
 
@@ -258,7 +258,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300"><p class="text-slate-600 leading-relaxed">Some pain and discomfort are normal after hernia surgery. However, modern techniques and pain management protocols minimize discomfort significantly. Most patients describe the pain as mild to moderate, similar to muscle soreness. Pain typically peaks in the first 2-3 days and improves rapidly. You'll receive prescriptions for pain medication, and many patients transition to over-the-counter pain relievers within a week.</p></p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300"><p class="text-slate-600 leading-relaxed">Some discomfort is normal. Most describe it as mild to moderate, like muscle soreness, peaking in the first two to three days. Many move to over-the-counter pain relief within a week.</p></p>
                     </div>
                 </div>
 

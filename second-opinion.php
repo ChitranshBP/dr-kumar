@@ -549,10 +549,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">
-                            Yes, if you have been diagnosed with a hernia and are considering surgery, a second opinion
-                            is always appropriate. It is especially valuable for complex hernias, recurrent hernias, or
-                            if you feel uncertain about the recommended treatment plan.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed transition-colors duration-300">Yes. If you have a hernia diagnosis and are weighing up surgery, a second opinion is always reasonable. It matters most for complex or recurrent hernias.</p>
                     </div>
                 </div>
 
@@ -569,10 +566,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">
-                            Typically, you will receive a response within 24-48 hours after submitting your case. The
-                            actual consultation can be scheduled within a few days, depending on your preference. You
-                            will receive a written summary within 48 hours after the consultation.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">You usually get a response within 24 to 48 hours of submitting your case. The consultation is scheduled within a few days, and a written summary follows within 48 hours.</p>
                     </div>
                 </div>
             </div>
@@ -592,10 +586,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">
-                            No, seeking a second opinion is a common and accepted medical practice. Most doctors expect
-                            and even encourage patients to seek additional input for significant surgical decisions. It
-                            is your health and your right to be fully informed.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">No. Seeking a second opinion is common and accepted practice. Most doctors expect it before a significant surgical decision. It is your health and your right to be fully informed.</p>
                     </div>
                 </div>
 
@@ -612,10 +603,7 @@ require __DIR__ . '/includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6 transition-all duration-300">
                         <div class="h-px bg-white/20 mb-4 transition-all duration-300"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">
-                            Yes, there is a consultation fee for second opinion services, which covers the detailed
-                            review of your case and a comprehensive video consultation. The fee varies based on case
-                            complexity. Contact us for specific pricing information.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed transition-colors duration-300">Yes, there is a consultation fee covering the detailed case review and the video consultation. It varies with case complexity. Call the clinic for specific pricing.</p>
                     </div>
                 </div>
             </div>
