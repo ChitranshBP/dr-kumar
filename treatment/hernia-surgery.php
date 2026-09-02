@@ -83,7 +83,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-center justify-between">
                         <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
-                            Learn More
+                            See inguinal hernia treatment
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
                         <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-slate-500 font-medium text-xs hover:text-brand-700 transition">
@@ -118,7 +118,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-center justify-between">
                         <a href="<?= $base_path ?>my_types/umbilical-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
-                            Learn More
+                            See umbilical hernia treatment
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
                         <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-slate-500 font-medium text-xs hover:text-brand-700 transition">
@@ -153,7 +153,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-center justify-between">
                         <a href="<?= $base_path ?>my_types/incisional-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
-                            Learn More
+                            See incisional hernia treatment
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
                         <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-slate-500 font-medium text-xs hover:text-brand-700 transition">
@@ -188,7 +188,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-center justify-between">
                         <a href="<?= $base_path ?>my_types/ventral-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
-                            Learn More
+                            See ventral hernia treatment
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
                         <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-slate-500 font-medium text-xs hover:text-brand-700 transition">
@@ -223,7 +223,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-center justify-between">
                         <a href="<?= $base_path ?>resources/glossary#paraumbilical-hernia" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
-                            Learn More
+                            See the glossary entry
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
                         <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-slate-500 font-medium text-xs hover:text-brand-700 transition">
@@ -258,7 +258,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <div class="flex items-center justify-between">
                         <a href="<?= $base_path ?>my_types/femoral-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 text-brand-700 font-semibold text-sm hover:text-brand-800 transition group/link">
-                            Learn More
+                            See femoral hernia treatment
                             <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                         </a>
                         <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-1.5 text-slate-500 font-medium text-xs hover:text-brand-700 transition">

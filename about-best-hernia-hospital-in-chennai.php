@@ -418,7 +418,7 @@ require __DIR__ . '/includes/header.php';
                 
                 <div class="space-y-6 text-slate-200 leading-relaxed">
                     <p class="text-lg">
-                        <strong>Hernia Care 360</strong>, founded and led by senior consultant surgeon Dr. Kumar, is a dedicated clinical initiative designed to deliver state-of-the-art, comprehensive abdominal wall care. Operating out of the advanced infrastructure of Billroth Hospitals in Chennai, the center provides world-class treatment pathways for simple, complex, and recurrent hernias.
+                        <strong>Hernia Care 360</strong>, founded and led by senior consultant surgeon Dr. Kumar, is a dedicated clinical initiative designed to deliver state-of-the-art, comprehensive abdominal wall care. Operating out of the advanced infrastructure of Billroth Hospitals in Chennai, the center provides structured treatment pathways for simple, complex, and recurrent hernias.
                     </p>
                     <p class="text-base">
                         Our core philosophy is centered on customization and absolute surgical precision. Rather than employing a single generic repair technique for all defects, Hernia Care 360 utilizes a personalized methodology. We analyze each patient's abdominal wall mechanics, lifestyle, and past surgical history to select the ideal repair, ranging from meshless tissue-based procedures (Desarda &amp; Shouldice) to advanced robotic-assisted eTEP and TAR reconstructions.

@@ -42,7 +42,7 @@ require __DIR__ . '/../includes/header.php';
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="#what-is-laparoscopic" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-lg shadow-accent/20 hover:scale-105">
-                    Learn More
+                    See how keyhole repair works
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7H3"/></svg>
                 </a>
                 <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
@@ -68,7 +68,7 @@ require __DIR__ . '/../includes/header.php';
                     Laparoscopic hernia repair is a minimally invasive surgical technique where the surgeon makes several small incisions (usually 0.5–1 cm) instead of one large incision. A laparoscope (a thin tube with a camera) is inserted through one of the incisions, providing a magnified view of the surgical area on a monitor.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-6">
-                    Specialised instruments are inserted through the other incisions to repair the hernia. A synthetic mesh is typically placed over the hernia defect and secured with sutures, staples, or tackers to reinforce the abdominal wall.
+                    Specialized instruments are inserted through the other incisions to repair the hernia. A synthetic mesh is typically placed over the hernia defect and secured with sutures, staples, or tackers to reinforce the abdominal wall.
                 </p>
 
                 <div class="bg-brand-50 rounded-2xl p-6 border border-brand-100">
@@ -382,8 +382,8 @@ require __DIR__ . '/../includes/header.php';
             <div class="relative group">
                 <div class="flex flex-col items-start">
                     <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-brand-50 group-hover:bg-brand-700 border border-brand-100/80 text-brand-700 group-hover:text-white shadow-inner font-extrabold text-xl mb-5 group-hover:scale-110 group-hover:shadow-brand-700/20 transition duration-300">1</span>
-                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-700 transition duration-300 mb-2">Anaesthesia</h3>
-                    <p class="text-sm text-slate-600 leading-relaxed">General anaesthesia is administered, so you'll be asleep and pain-free throughout the procedure.</p>
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-700 transition duration-300 mb-2">Anesthesia</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">General anesthesia is administered, so you'll be asleep and pain-free throughout the procedure.</p>
                 </div>
                 <div class="hidden lg:block absolute top-6 right-0 translate-x-1/2 z-10">
                     <svg class="w-5 h-5 text-brand-300 group-hover:text-brand-500 transition duration-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg>
@@ -631,7 +631,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content px-6 pb-6">
                         <div class="h-px bg-white/20 mb-4"></div>
-                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">Most laparoscopic hernia repairs take between 30 and 90 minutes depending on the type and complexity. Bilateral (both sides) repairs naturally take longer. Total time in hospital, including preparation and recovery from anaesthesia, is usually 3–5 hours.</p>
+                        <p class="text-brand-50 text-sm md:text-base leading-relaxed">Most laparoscopic hernia repairs take between 30 and 90 minutes depending on the type and complexity. Bilateral (both sides) repairs naturally take longer. Total time in hospital, including preparation and recovery from anesthesia, is usually 3–5 hours.</p>
                     </div>
                 </div>
 
@@ -642,7 +642,7 @@ require __DIR__ . '/../includes/header.php';
                     </button>
                     <div class="faq-content hidden px-6 pb-6">
                         <div class="h-px bg-slate-200 mb-4"></div>
-                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For desk-based work, most patients return within 5–7 days. For physically demanding jobs involving lifting or manual labour, a 3–4 week break is recommended. Dr. Kumar will provide a specific timeline based on your job type and recovery progress.</p>
+                        <p class="text-slate-600 text-sm md:text-base leading-relaxed">For desk-based work, most patients return within 5–7 days. For physically demanding jobs involving lifting or manual labor, a 3–4 week break is recommended. Dr. Kumar will provide a specific timeline based on your job type and recovery progress.</p>
                     </div>
                 </div>
 

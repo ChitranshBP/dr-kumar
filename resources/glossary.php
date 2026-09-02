@@ -251,7 +251,7 @@ require __DIR__ . '/../includes/header.php';
                     <p class="text-slate-600">Relating to the digestive system, including the stomach, small intestine, large intestine, and related organs.</p>
                 </div>
                 <div class="glossary-term bg-white rounded-xl p-5 border border-slate-100 shadow-sm" data-term="gerd reflux heartburn">
-                    <h3 class="font-bold text-brand-700 text-lg mb-2">GERD (Gastroesophageal Reflux Disease)</h3>
+                    <h3 class="font-bold text-brand-700 text-lg mb-2">GERD (Gastresophageal Reflux Disease)</h3>
                     <p class="text-slate-600">Chronic acid reflux where stomach acid regularly flows back into the esophagus. May be associated with hiatal hernia.</p>
                 </div>
             </div>

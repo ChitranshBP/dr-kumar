@@ -52,7 +52,7 @@ require __DIR__ . '/../includes/header.php';
                     While inguinal, umbilical, and incisional hernias account for the vast majority of abdominal wall hernias, several rarer types occur in specific anatomical sites and present unique diagnostic and surgical challenges.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-8 text-base">
-                    Because these hernias are uncommon, they are frequently misdiagnosed or overlooked. Dr. Kumar has particular expertise in recognising and repairing these rare presentations, including epigastric, supraumbilical, lumbar, spigelian, and diaphragmatic hernias.
+                    Because these hernias are uncommon, they are frequently misdiagnosed or overlooked. Dr. Kumar has particular expertise in recognizing and repairing these rare presentations, including epigastric, supraumbilical, lumbar, spigelian, and diaphragmatic hernias.
                 </p>
 
                 <div class="border-t border-slate-200/80 pt-8">

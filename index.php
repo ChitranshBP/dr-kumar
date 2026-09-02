@@ -108,7 +108,7 @@ require __DIR__ . '/includes/header.php';
                         <ul class="space-y-3">
                             <?php
                             $care360 = [
-                                ['Consultation',  'Expert evaluation by Dr. Kumar and a personalised treatment roadmap.'],
+                                ['Consultation',  'Expert evaluation by Dr. Kumar and a personalized treatment roadmap.'],
                                 ['Diagnosis',      'Advanced imaging and clinical assessment for accurate staging.'],
                                 ['Treatment',      'Robotic, laparoscopic, eTEP, TAR &amp; component separation techniques.'],
                                 ['Recovery',       'Structured post-op protocols for faster, safer healing.'],
@@ -434,7 +434,7 @@ require __DIR__ . '/includes/header.php';
                 ],
                 [
                     'title' => 'Internationally Trained Expertise',
-                    'desc'  => 'MRCS England &amp; member of multiple global surgical societies, bringing world-class standards to every procedure.',
+                    'desc'  => 'MRCS England &amp; member of multiple global surgical societies, bringing internationally trained surgical standards to every procedure.',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>',
                 ],
                 [
@@ -448,8 +448,8 @@ require __DIR__ . '/includes/header.php';
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>',
                 ],
                 [
-                    'title' => 'Hernia Surgery Under Local Anaesthesia',
-                    'desc'  => 'Selected hernia cases performed safely under local anaesthesia - avoiding general anaesthesia risks and enabling quicker recovery.',
+                    'title' => 'Hernia Surgery Under Local Anesthesia',
+                    'desc'  => 'Selected hernia cases performed safely under local anesthesia - avoiding general anesthesia risks and enabling quicker recovery.',
                     'icon'  => '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>',
                 ],
                 [

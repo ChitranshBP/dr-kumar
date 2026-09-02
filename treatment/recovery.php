@@ -525,7 +525,7 @@ require __DIR__ . '/../includes/header.php';
                 </div>
                 <a href="tel:<?= $site['phone_link'] ?>" class="shrink-0 inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-bold px-7 py-3.5 rounded-full transition duration-300 shadow-md shadow-brand-700/10 hover:scale-105">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                    Contact Us
+                    Call the clinic
                 </a>
             </div>
         </div>
@@ -875,7 +875,7 @@ require __DIR__ . '/../includes/header.php';
         <div class="flex flex-wrap justify-center gap-4">
             <a href="tel:<?= $site['phone_link'] ?>" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-bold px-8 py-4 rounded-full transition shadow-lg shadow-accent/25 hover:scale-105">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                Contact Us
+                Call the clinic
             </a>
             <a href="<?= $base_path ?>treatment/hernia-surgeon-in-chennai" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
                 Back to Surgery Options

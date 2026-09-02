@@ -60,10 +60,10 @@ require __DIR__ . '/../includes/header.php';
             <div>
                 <span class="text-brand-700 font-semibold uppercase tracking-wider text-sm bg-brand-50 px-3.5 py-1.5 rounded-full inline-block mb-4">Why "Special Techniques"?</span>
                 <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-6 leading-tight">
-                    What happens after you're anaesthetised determines everything
+                    What happens after you're anesthetized determines everything
                 </h2>
                 <p class="text-slate-600 leading-relaxed mb-4">
-                    No two hernias - and no two patients - are identical. While the broad approach (open, laparoscopic, or robotic) is chosen in clinic, the actual operation is customised in real time: how the sac is handled, whether the defect is closed, which plane the mesh sits in, whether a component separation is needed, and how nerves and blood supply are preserved.
+                    No two hernias - and no two patients - are identical. While the broad approach (open, laparoscopic, or robotic) is chosen in clinic, the actual operation is customized in real time: how the sac is handled, whether the defect is closed, which plane the mesh sits in, whether a component separation is needed, and how nerves and blood supply are preserved.
                 </p>
                 <p class="text-slate-600 leading-relaxed mb-4">
                     These intra-operative decisions are what separate a routine hernia repair from a durable reconstruction - and they require both training and judgement. The list below covers the special techniques most often deployed in Dr. Kumar's practice.

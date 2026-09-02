@@ -32,7 +32,7 @@ require __DIR__ . '/../includes/header.php';
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
                 <a href="#about" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
-                    Learn More
+                    See what a sports hernia is
                 </a>
             </div>
         </div>
@@ -210,7 +210,7 @@ require __DIR__ . '/../includes/header.php';
                     </div>
                     <h3 class="font-bold text-2xl text-slate-900 mb-3">Rest &amp; Rehab</h3>
                     <p class="text-slate-500 text-sm leading-relaxed mb-6">
-                        Initial management includes rest, ice, anti-inflammatory medication, and a structured physiotherapy programme targeting core, hip, and adductor strength.
+                        Initial management includes rest, ice, anti-inflammatory medication, and a structured physiotherapy program targeting core, hip, and adductor strength.
                     </p>
                 </div>
                 <span class="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 text-slate-700 rounded-full text-xs font-bold border border-slate-200">

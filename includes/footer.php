@@ -142,7 +142,7 @@
     <div class="border-t border-white/5">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-                <span class="text-white font-bold text-xs uppercase tracking-wider">Learn More</span>
+                <span class="text-white font-bold text-xs uppercase tracking-wider">See rare hernia types</span>
                 <a href="<?= $base_path ?>hernia/what-is-hernia" class="text-slate-400 hover:text-white transition-colors">What is Hernia</a>
                 <a href="<?= $base_path ?>hernia/causes" class="text-slate-400 hover:text-white transition-colors">Causes</a>
                 <a href="<?= $base_path ?>hernia/symptoms" class="text-slate-400 hover:text-white transition-colors">Symptoms</a>

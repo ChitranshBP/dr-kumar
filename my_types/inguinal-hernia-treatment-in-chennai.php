@@ -34,7 +34,7 @@ require __DIR__ . '/../includes/header.php';
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
                 <a href="#types" class="inline-flex items-center gap-2 bg-white/15 hover:bg-white/25 backdrop-blur text-white font-bold px-7 py-3.5 rounded-full border border-white/30 transition duration-300 hover:scale-105">
-                    Learn More
+                    See the types
                 </a>
             </div>
         </div>
@@ -268,7 +268,7 @@ require __DIR__ . '/../includes/header.php';
                 Book Appointment
             </a>
             <a href="<?= $base_path ?>my_types/inguinal-hernia-treatment-in-chennai" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition hover:scale-105">
-                Learn More
+                See inguinal hernia treatment
             </a>
         </div>
     </div>
