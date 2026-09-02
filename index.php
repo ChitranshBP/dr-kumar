@@ -305,7 +305,7 @@ require __DIR__ . '/includes/header.php';
                 Our Specialities
             </span>
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-5 leading-tight">
-                Specialised Care to <span class="text-brand-700">Restore</span><br>
+                Specialized Care to <span class="text-brand-700">Restore</span><br>
                 &amp; Protect Abdominal Wall Health
             </h2>
         </div>

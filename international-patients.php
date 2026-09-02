@@ -31,7 +31,7 @@ require __DIR__ . '/includes/header.php';
                 <span class="text-accent">Patients Portal</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-200 leading-relaxed mb-8 max-w-2xl">
-                Access world-class laparoscopic and robotic hernia surgery in Chennai, India. Experience elite surgical expertise, cutting-edge technology, and end-to-end medical travel support.
+                Access advanced laparoscopic and robotic hernia surgery in Chennai, India. Experience a surgeon with 29 years of practice, modern technology, and end-to-end medical travel support.
             </p>
             <div class="flex flex-wrap gap-4">
                 <a href="#journey" class="inline-flex items-center gap-2 bg-accent hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded-full transition">
@@ -52,7 +52,7 @@ require __DIR__ . '/includes/header.php';
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
                 <span class="w-1.5 h-1.5 rounded-full bg-brand-700"></span>
-                World-Class Standards
+                Standards of Care
             </span>
             <h2 class="font-display text-3xl md:text-4xl font-bold text-slate-900 mt-6 mb-4">
                 Why International Patients Choose<br><span class="text-brand-700">Dr. Kumar &amp; Billroth Hospitals</span>

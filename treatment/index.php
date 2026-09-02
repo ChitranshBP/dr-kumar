@@ -82,7 +82,7 @@ require __DIR__ . '/../includes/header.php';
                             <?= $t['desc'] ?>
                         </p>
                         <div class="mt-4 inline-flex items-center gap-1.5 text-brand-700 font-semibold text-sm">
-                            Learn More
+                            See how it works
                             <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                         </div>
                     </div>

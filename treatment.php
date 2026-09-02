@@ -22,7 +22,7 @@ require __DIR__ . '/includes/header.php';
         <div class="max-w-3xl">
             <span class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 border border-white/10 shadow-sm">
                 <span class="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
-                Specialised Procedures
+                Specialized Procedures
             </span>
             <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
                 Advanced Surgical<br>
@@ -59,7 +59,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">A comprehensive diagnostic and surgical guide to groin (inguinal, femoral) and abdominal (umbilical, ventral, incisional) hernia repairs.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See the overview
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -74,7 +74,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Keyhole surgical repairs performed with tiny cameras and instruments, leading to minimal pain, faster discharge, and minor scars.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See how keyhole repair works
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -89,7 +89,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Robotic-assisted surgery using the da Vinci platform. Translates the surgeon's movements into micro-movements for maximum precision and safety.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See how robotic repair works
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -104,7 +104,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Advanced restorative surgery for massive ventral/incisional hernias and loss of abdominal domain using component separation (TAR/CST).</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See how reconstruction works
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -119,7 +119,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Correction of core separation along the linea alba midline. Re-aligns muscles using advanced endoscopic plication (SCOLA) and robotic methods.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See how this repair works
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -134,7 +134,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Expert selection of modern mesh materials, including self-gripping mesh, 3D anatomical contours, and absorbable biological options.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See the mesh types used
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -161,7 +161,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Transabdominal Preperitoneal repair. Keyhole groin surgery providing direct intra-abdominal overview for complex bilateral hernia cases.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See how TAPP works
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -176,7 +176,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Totally Extraperitoneal groin repair. Keeps all surgical work within the preperitoneal layers, entirely avoiding the peritoneal abdominal cavity.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See how TEP works
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -191,7 +191,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Enhanced Totally Extraperitoneal approach. Significantly enlarges the surgical working window to repair complex ventral, incisional, and groin hernias.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See how eTEP works
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -206,7 +206,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Innovative adjunct treatments (e.g. Botox injections, progressive pneumoperitoneum - PPP, and mechanical traction) for massive hernias.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See the techniques used
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -221,7 +221,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Patient instructions for the immediate recovery period. Focuses on safe mobilization, dietary guidelines, and timeline warnings to prevent complications.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See the recovery timeline
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>

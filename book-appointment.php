@@ -339,7 +339,7 @@ require __DIR__ . '/includes/header.php';
                 Call: <?= $site['phone'] ?>
             </a>
             <a href="contact" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur text-white font-semibold px-8 py-4 rounded-full border border-white/30 transition">
-                Contact Us
+                See contact details
             </a>
         </div>
     </div>

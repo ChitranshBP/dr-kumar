@@ -59,7 +59,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">The most common hernia type, occurring in the groin region when fat or bowel pushes through a muscle weakness in the inguinal canal. Far more prevalent in men.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-brand-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -74,7 +74,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Develops near the belly button (navel) as abdominal contents push through the umbilical ring. Common in infants, but frequently seen in adults due to pregnancy or heavy straining.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -89,7 +89,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">A generic classification for a bulge occurring through openings along the front wall of the abdomen. Often develops due to localized thinning of abdominal muscles or tissue strain.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-indigo-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -104,7 +104,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Forms at the site of a prior abdominal surgical scar where the deep muscle wall was compromised. Highly prone to expansion and requires advanced laparoscopic or robotic component repairs.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-purple-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -119,7 +119,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Located in the midline area above the navel and below the breastbone. Frequently contains small fatty structures and is characterized by localized pain, discomfort, or tenderness.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-emerald-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -134,7 +134,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Occurs in the femoral canal, just below the groin crease. Considerably more common in women, carrying a highly critical risk of bowel entrapment, obstruction, and strangulation.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-rose-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -161,7 +161,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">A hernia that has returned after a previous surgical repair. Demands extreme precision, scar tissue dissection, and modern structural repairs like eTEP or TAR with customized mesh placement.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-orange-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -176,7 +176,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Occurs internally when the upper stomach slips upward into the chest cavity through the diaphragm hiatus. Major source of severe GERD, acid reflux, and chest discomfort.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-cyan-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -191,7 +191,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">A chronic tear of deep groin muscles/tendons common in active sports. Unlike traditional hernias, there is no visible external bulge, but it causes localized pelvic and groin pain.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-sky-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -206,7 +206,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">A severe emergency where herniated tissue becomes tightly trapped, blocking intestinal pathways or choking vital blood supply. Requires immediate, life-saving surgery.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-rose-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>
@@ -221,7 +221,7 @@ require __DIR__ . '/includes/header.php';
                     <p class="text-sm text-slate-600 leading-relaxed mb-6">Includes uncommon and difficult-to-detect types such as Spigelian, Obturator, Lumbar, and Sciatic hernias. Requires high-resolution imaging and dedicated surgical experience.</p>
                 </div>
                 <span class="text-xs font-bold uppercase tracking-wider text-fuchsia-700 flex items-center gap-1.5 mt-auto">
-                    Learn More
+                    See treatment options
                     <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
                 </span>
             </a>

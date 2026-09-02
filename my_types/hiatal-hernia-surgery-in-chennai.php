@@ -52,7 +52,7 @@ require __DIR__ . '/../includes/header.php';
             <h2 class="font-display text-3xl md:text-5xl font-bold text-slate-900 mt-6 mb-4">
                 The GERD <span class="text-brand-700">Connection</span>
             </h2>
-            <p class="text-slate-600 text-lg">Understanding the relationship between hiatal hernia and gastroesophageal reflux disease.</p>
+            <p class="text-slate-600 text-lg">Understanding the relationship between hiatal hernia and gastresophageal reflux disease.</p>
         </div>
 
         <div class="grid lg:grid-cols-12 gap-12 items-center">
@@ -305,7 +305,7 @@ require __DIR__ . '/../includes/header.php';
                     Latest Technology · 3D Vision
                 </p>
                 <p class="text-slate-200 text-sm leading-relaxed mb-6">
-                    State-of-the-art advanced robotic platform for unmatched precision in the confined space around the diaphragm and oesophagus. Superior for <strong>large hiatal defects</strong>, <strong>para-oesophageal</strong> hernias, and <strong>re-do</strong> anti-reflux surgery.
+                    State-of-the-art advanced robotic platform for unmatched precision in the confined space around the diaphragm and esophagus. Superior for <strong>large hiatal defects</strong>, <strong>para-esophageal</strong> hernias, and <strong>re-do</strong> anti-reflux surgery.
                 </p>
                 <ul class="space-y-2.5 text-sm text-slate-200">
                     <li class="flex gap-2"><span class="text-accent">✓</span> Superior 3D HD vision</li>
