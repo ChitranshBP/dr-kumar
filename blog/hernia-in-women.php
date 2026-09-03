@@ -4,7 +4,9 @@ require_once __DIR__ . '/../includes/config.php';
 $page_title       = 'Hernia in Women: Symptoms and Why It Is Missed | Dr. Kumar';
 $page_description = 'Hernia in women is often missed because there is no obvious bulge. Learn the symptoms, how it differs from gynecologic and muscle pain, and what to do next.';
 $page_keywords    = 'hernia in women symptoms, can women get hernias, female hernia symptoms, femoral hernia in women, groin pain in women, hernia misdiagnosed women, Dr. Kumar Billroth Hospitals';
-$page_image       = $site['url'] . 'assets/images/what_is_hernia_def.png';
+// PNG rather than the WebP used on the page: some social scrapers still do not
+// render WebP previews, and og:image is never downloaded by page visitors.
+$page_image       = $site['url'] . 'assets/images/hernia-in-women.png';
 $page_published   = '2026-09-03';
 $page_modified    = '2026-09-03';
 
@@ -101,6 +103,8 @@ require_once __DIR__ . '/../includes/header.php';
             <!-- Left Column: Article Body -->
             <article class="lg:col-span-8 bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
                 <div class="prose prose-slate max-w-none">
+
+                    <img src="<?= $base_path ?>assets/images/hernia-in-women.webp" alt="Hernia in Women: Why It's Missed and What's Different, with a woman describing lower abdominal pain in a consultation" width="1600" height="900" fetchpriority="high" class="w-full h-auto rounded-2xl mb-8 shadow-md">
 
                     <!-- AEO Direct Answer Box -->
                     <div class="bg-brand-50 border-l-4 border-brand-700 p-6 rounded-r-2xl mb-10 shadow-sm">
